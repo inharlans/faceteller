@@ -104,6 +104,14 @@ class _CorpusSnapshot:
         row=self.connection.execute("SELECT canonical_sha256 FROM face_release.active_corpus WHERE singleton=1").fetchone()
         return row[0] if row else None
 
+    def gwansang_catalog(self):
+        row = self.connection.execute(
+            'SELECT document, canonical_sha256 FROM face_release.gwansang_catalog WHERE singleton=1'
+        ).fetchone()
+        if not row:
+            raise ValueError('Grouped reading catalog has not been imported')
+        return row
+
     def load_candidates(self, label_ids: set[str]) -> list[Passage]:
         labels=validate_labels(label_ids)
         if not labels:

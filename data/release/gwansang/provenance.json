@@ -1,0 +1,10 @@
+{
+  "origin": "user_supplied_gwansang.json_and_xlsx",
+  "json_sha256": "fc3b21b9eca02a8e0d5b59ad96f9edd372cf9f9f2e6a2734b76ceb7c0ee5882b",
+  "xlsx_sha256": "b111c80614e4f88087badee37301411109f54c7731837155d38214b09432e8a9",
+  "shapes": 58,
+  "sources": 136,
+  "json_xlsx_content_agreement": true,
+  "comparison": "all shape content fields and source original/translation/commentary/rank/url fields",
+  "threshold_note": "관상 좋은 풀이 데이터 (생김새별 통합). 한 생김새에 여러 책의 출처를 순위대로 담음. 적용성별이 남/여인 출처는 해당 성별에게만 보여줄 것. 판정조건 수치는 책에 없는 앱용 제안값."
+}

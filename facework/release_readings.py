@@ -11,6 +11,13 @@ from pathlib import Path
 VALENCES = {'favorable', 'unfavorable', 'mixed', 'neutral'}
 
 
+def load_reading_catalog(root):
+    if (Path(root)/'data/release/gwansang/bindings.json').is_file():
+        from facework.release_gwansang import GwansangCatalog
+        return GwansangCatalog.load(root)
+    return ReadingCatalog.load(root)
+
+
 class ReadingCatalog:
     def __init__(self, document, corpus, policy):
         self.document = deepcopy(document)
@@ -58,7 +65,7 @@ class ReadingCatalog:
                            'semantic_review_version': result.policy['version']}
         return result
 
-    def repository(self, original):
+    def repository(self, original, *, measurements=None):
         excluded = self.excluded
 
         class AuditedRepository:

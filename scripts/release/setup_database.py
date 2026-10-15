@@ -230,7 +230,7 @@ def grant_reader(dsn: str, role: str = SERVICE_ROLE, password: str | None = None
         conn.execute(sql.SQL("GRANT USAGE ON SCHEMA face_release TO {}").format(sql.Identifier(role)))
         conn.execute(sql.SQL("REVOKE ALL ON ALL TABLES IN SCHEMA face_release FROM {}, PUBLIC").format(sql.Identifier(role)))
         conn.execute(sql.SQL("REVOKE ALL ON ALL SEQUENCES IN SCHEMA face_release FROM {}, PUBLIC").format(sql.Identifier(role)))
-        for table in ("literature", "passage", "label", "label_passage", "active_corpus"):
+        for table in ("literature", "passage", "label", "label_passage", "active_corpus", "gwansang_catalog"):
             conn.execute(sql.SQL("GRANT SELECT ON face_release.{} TO {}").format(sql.Identifier(table), sql.Identifier(role)))
 
 

@@ -35,7 +35,7 @@ export const valenceLabel = (v: {valence?: Valence; valence_label?: string}) => 
 export const safeUrl = (value: unknown) => typeof value === 'string' && /^https?:\/\//i.test(value) ? value : undefined;
 export const sourceText = (p: Passage) => {
   const s=p.source,scan=typeof s.pdf_page==='number' ? s.pdf_page : typeof s.scan_page==='string' ? /[/:](\d+)$/.exec(s.scan_page)?.[1] : undefined;
-  return [s.title || s.literature_title,s.chapter,s.passage_no || s.locator,scan ? `원문 스캔 ${scan}쪽` : undefined].filter(Boolean).join(' · ');
+  return [s.representative === true ? '대표 출처' : undefined,s.title || s.literature_title,s.chapter,s.passage_no || s.locator,scan ? `원문 스캔 ${scan}쪽` : undefined].filter(Boolean).join(' · ');
 };
 export const sourceUrl = (p: Passage) => safeUrl(p.source.url || p.source.source_url);
 export const featureName = (i: {item_id: string}) => FEATURES[i.item_id] || i.item_id;

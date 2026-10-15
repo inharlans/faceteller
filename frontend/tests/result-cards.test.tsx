@@ -35,14 +35,24 @@ describe('result card reading order', () => {
     expect(passageTitle(passage(), [])).toBe('문헌 기록');
   });
 
-  it('renders named types with hanja and evidence, and omits the section when none matched', () => {
+  it('shows one unified 관상 풀이 list and never a separate type card, even when legacy named_types arrive', () => {
     const named = {id: 't1', name: '봉황눈', name_hanja: '鳳眼', description: '눈꼬리가 길게 올라감', meaning: '옛 문헌은 귀하게 될 상으로 보았습니다.', valence: 'mixed' as const, evidence_item_ids: ['brow_shape'], source_url: 'javascript:alert(1)', original_text: '鳳眼'};
-    const html = render(result({named_types: [named]}));
-    expect(html).toContain('해당하는 관상 유형');
-    expect(html).toContain('봉황눈<span class="hanja" lang="zh">鳳眼</span>');
-    expect(html).toContain('data-valence="mixed">길흉이 섞인 기록</span>');
-    expect(html).not.toContain('javascript:');
-    expect(render(result({named_types: []}))).not.toContain('해당하는 관상 유형');
+    const html = render(result({named_types: [named], passages: [passage({reading: {...reading, title: '일자미 · 일자 눈썹'}})]}));
+    expect((html.match(/<h2[^>]*>/g) || []).length).toBe(1);
+    expect(html).toContain('<h2 id="passages-title" class="section-title">관상 풀이</h2>');
+    for (const gone of ['해당하는 관상 유형', '문헌에 남은 기록', 'type-card', '봉황눈', '鳳眼', 'javascript:']) expect(html).not.toContain(gone);
+    expect((html.match(/class="passage-card"/g) || []).length).toBe(1);
+    expect(html).toContain('<h3 class="card-title">일자미 · 일자 눈썹</h3>');
+  });
+
+  it('says each thing once: an identical translation or commentary is not repeated in the disclosure', () => {
+    const same = '눈썹이 일자로 곧으면 성품이 곧다고 보았습니다.';
+    const html = render(result({passages: [passage({reading: {...reading, meaning: same}, translation: same, commentary: ` ${same} `})]}));
+    expect(html.split(same).length - 1).toBe(1);
+    const distinct = render(result({passages: [passage({reading})]}));
+    expect(distinct).toContain('<span class="label">옮김</span>눈썹이 초승달 같으면');
+    const noReading = render(result({passages: [passage({commentary: '눈썹이 초승달 같으면 이름이 널리 알려진다.'})]}));
+    expect(noReading.split('눈썹이 초승달 같으면 이름이 널리 알려진다.').length - 1).toBe(1);
   });
 
   it('does not show held items as matched features', () => {
@@ -76,7 +86,8 @@ describe('score wording', () => {
 describe('A4 sheet', () => {
   it('keeps original, translation and source with the reading title, and leaves commentary out', () => {
     const html = renderToStaticMarkup(<Printable result={result({passages: [passage({reading})], named_types: [{id: 't', name: '봉황눈', name_hanja: '鳳眼', valence: 'favorable', evidence_item_ids: []}]})} preview={false} onBack={() => {}}/>);
-    for (const text of ['1. 초승달 눈썹 · 길한 기록', '眉如新月', '눈썹이 초승달 같으면', '합성 문헌 · 눈썹 · 제3조', '봉황눈(鳳眼) · 길하게 본 기록']) expect(html).toContain(text);
+    for (const text of ['관상 풀이', '1. 초승달 눈썹 · 길한 기록', '眉如新月', '눈썹이 초승달 같으면', '합성 문헌 · 눈썹 · 제3조']) expect(html).toContain(text);
+    for (const gone of ['봉황눈', '관상 유형', '문헌에 남은 기록']) expect(html).not.toContain(gone);
     expect(html).not.toContain('COMMENTARY_ONLY');
     expect(html).not.toContain(reading.meaning);
   });

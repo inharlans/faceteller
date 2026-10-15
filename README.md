@@ -10,13 +10,22 @@ React 화면, FastAPI 서버, ResNet-18 분류 모델, MediaPipe 얼굴 특징�
 - 촬영 방향·표정·밝기·가림 검사와 항목별 판정 보류
 - 12부위 ResNet-18 모델로 41개 형태 항목 분류
 - VGGT와 얼굴 특징점을 이용한 코끝·코뿌리·입·턱의 상대적 돌출 측정
-- 일치하는 문헌을 조건별 점수의 기하평균으로 정렬해 최대 5개 표시
+- 제공된 관상 자료를 생김새별로 묶고 좋은 풀이를 우선해 대표 출처 하나를 표시
+- 생김새별 조건 점수의 기하평균으로 정렬해 최대 5개 표시. 같은 유형의 문헌 수는 점수에 가산하지 않음
 - 원문·번역·풀이·출처 조회와 A4 결과지 인쇄
 - **실제 정면 사진과 측정선 선택 표시**: 눈썹 길이, 눈꼬리, 코 너비, 입 너비 등 최대 19개 항목. 눈썹 선은 추출한 눈썹털 영역을 따릅니다.
 
 서비스 입력 사진은 메모리에서 처리합니다. 결과 화면의 정면 사진도 브라우저 메모리에만 보관하며, 다시 시작하거나 페이지를 벗어나면 정리합니다. 사용자가 사진 표시를 켠 채 결과지를 저장하면 해당 PDF에는 사진이 포함됩니다.
 
-## 최신 검증 결과 · 2026-10-15
+## 문헌·결과 화면 변경 · 2026-10-16
+
+제공받은 `gwansang.json`과 엑셀의 58개 생김새·136개 출처를 대조하고 DB에 반영했습니다. 유형과 문헌 기록을 따로 나열하던 화면은 **관상 풀이** 하나로 합쳤습니다. 예를 들어 일자미와 일자 눈썹은 한 카드이며, 종합풀이 아래에서 대표 원문·번역·출처를 펼쳐 볼 수 있습니다.
+
+현재 판정 항목으로 연결할 수 있는 유형은 **18개**입니다. 나머지 40개는 필요한 측정이 없거나 검증 자료가 부족하거나 성별 한정 풀이여서 자동 연결하지 않습니다. 성별을 얼굴에서 추정하지 않습니다. 각 연결과 미연결 사유는 [bindings.json](data/release/gwansang/bindings.json)에 있습니다. 제공 자료의 숫자는 제안값이므로 CNN·VGGT 학습 경계를 바꾸지 않았습니다. `눈보다 긴 눈썹`은 CNN 판정 외에 실제 눈썹털 길이/눈 폭이 1.15 이상인지도 확인합니다.
+
+## 모델 및 실제 사진 검증 · 2026-10-15
+
+아래는 문헌 묶음 변경 이전에 수행한 모델·촬영 검사입니다. 학습 가중치는 이번 변경에서 그대로 사용합니다.
 
 | 항목 | 결과 |
 | --- | --- |
@@ -27,7 +36,7 @@ React 화면, FastAPI 서버, ResNet-18 분류 모델, MediaPipe 얼굴 특징�
 | 로컬 요청부터 결과까지 | 평균 1.43초, 최대 1.70초. 촬영 대기·외부 업로드 시간 제외 |
 | 측정선 검사 | 400명 좌표 구조·사진 범위 검사 통과. 395명은 19개, 5명은 눈썹 선을 생략한 17개 |
 | 카메라/업로드 비교 | 같은 녹화 프레임에 대해 45개 항목 판정·점수 동일 |
-| 문헌 연결 | 적격 73개 중 의미 검토를 거친 37개 연결 활성화 |
+| 당시 문헌 연결 | 적격 73개 중 37개 활성화. 현재는 위의 제공 자료 묶음으로 교체 |
 
 **분류 정확도가 완성됐다는 뜻은 아닙니다.** 평가는 자동 측정·AI 레이블과의 일치율이며 사람의 독립 정답과 비교한 정확도가 아닙니다. 눈썹 길이는 유효 검사 55명에서 52.7% 일치했고, 41개 분류 항목 중 9개는 보정 근거가 부족하거나 레이블이 불충분해 확정하지 않습니다. 평균 보류는 45개 중 20.54개입니다. 과거에 사용했던 검사 집합이며 새로운 외부 검증은 아닙니다.
 
@@ -44,6 +53,7 @@ React 화면, FastAPI 서버, ResNet-18 분류 모델, MediaPipe 얼굴 특징�
 | `scripts/release/` | 자료 준비, 학습, 평가, DB 설정, 서버 실행 |
 | `tests/` | 서버·측정·문헌 선정·학습 정책 검사 |
 | `data/release/literature/` | 문헌 원문·풀이·출처·의미 검토 자료 |
+| `data/release/gwansang/` | 현재 사용하는 생김새별 좋은 풀이, 전체 출처, 연결 정의 |
 | `data/release/migrations/` | PostgreSQL 스키마 |
 | `third_party/vggt/` | 고정 버전 VGGT 소스와 원 라이선스·파일 해시 |
 | `docs/` | 설계·구현 기록과 집계 보고서. 과거 문서는 작성 시점 기준 |
@@ -86,6 +96,7 @@ PostgreSQL과 필요한 로컬 산출물이 준비된 뒤 실행합니다.
 .\.venv\Scripts\python.exe -B -X utf8 scripts/release/setup_database.py local-init
 .\.venv\Scripts\python.exe -B -X utf8 scripts/release/setup_database.py import --corpus data/release/literature/reference_corpus_v1.json
 .\.venv\Scripts\python.exe -B -X utf8 scripts/release/setup_database.py sync-labels
+.\.venv\Scripts\python.exe -B -X utf8 scripts/release/import_gwansang.py
 .\start-release.ps1 -ValidateOnly
 .\start-release.ps1
 ```
@@ -95,6 +106,8 @@ PostgreSQL과 필요한 로컬 산출물이 준비된 뒤 실행합니다.
 연결 정보는 `%LOCALAPPDATA%/FaceTeller/postgresql/connection.json` 또는 `FACETELLER_DATABASE_URL`에서 읽습니다. 서비스는 읽기 전용 DB 계정을 사용합니다. 상세 내용은 [DB 안내](docs/release/database-report.txt)를 참고하세요.
 
 프런트엔드 단위 검사는 `frontend/`에서 `npm test`로 실행합니다. 실제 모델·사진을 사용하는 통합 검사는 로컬 자료와 실행 중인 서버가 필요합니다. 시험용 K-FACE 사진을 외부 서버로 보내지 않도록 실제 사진 통합 검사 주소는 loopback으로 제한되어 있습니다.
+
+현재 문헌 연결 검사는 `scripts/release/verify_gwansang.py --live 8 --output outputs/release/gwansang-check.json`으로 실행합니다. `--replay`에 기존 400명 검사 JSON을 주면 저장된 분류 결과의 선정·점수도 재검사합니다. 재검사는 새 모델 추론이나 정확도 평가를 뜻하지 않으며, 저장되지 않은 눈썹 실측값을 만들어 넣지 않습니다. 이전 `verify_service.py`의 단독 실행은 과거 문헌 연결 검사용입니다.
 
 ## 출처와 이용 조건
 

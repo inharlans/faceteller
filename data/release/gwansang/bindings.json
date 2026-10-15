@@ -1,0 +1,353 @@
+{
+  "version": "gwansang-grouped-v1",
+  "source_policy": "제공 자료의 좋은 풀이만 사용. 생김새마다 공통 성별 출처 중 순위가 가장 앞선 하나를 대표로 표시. 나머지 출처는 원자료 보존용이며 결과 카드나 점수에 중복 가산하지 않음.",
+  "measurement_policy": "제공 자료의 수치는 앱용 제안값이며 기존 CNN·VGGT 학습 경계를 바꾸지 않음. 기존 형태 분류와 의미가 맞는 항목만 연결하고 모든 조건이 확정되어야 선정함. 별도 실측 확인은 measurement_gates에 명시.",
+  "shapes": {
+    "S01": {
+      "enabled": true,
+      "required_labels": [
+        "face_shape:angular",
+        "jaw_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S02": {
+      "enabled": true,
+      "required_labels": [
+        "face_shape:long",
+        "face_length:long"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S03": {
+      "enabled": true,
+      "required_labels": [
+        "face_shape:round",
+        "cheek_fullness:full"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S04": {
+      "enabled": true,
+      "required_labels": [
+        "forehead_width:narrow",
+        "jaw_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S05": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "얼굴의 두께·살집 전체를 확인하는 항목이 없어 얼굴 길이와 턱 너비만으로 토형을 정하지 않음."
+    },
+    "S06": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음."
+    },
+    "S07": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "피부 윤기·색 균일도를 판정하지 않음."
+    },
+    "S08": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "표정 검사는 촬영 품질 확인용이며 온화함을 분류하지 않음."
+    },
+    "S09": {
+      "enabled": true,
+      "required_labels": [
+        "forehead_height:high",
+        "forehead_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S10": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음."
+    },
+    "S11": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "미간 너비만으로 평평함까지 확인할 수 없음."
+    },
+    "S12": {
+      "enabled": true,
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "reason": "비교 자료보다 길다는 CNN 판정에 더해 실제 눈썹 털의 길이/눈 폭이 1.15 이상일 때만 연결. 상대적으로 짧다는 판정을 눈보다 짧다는 뜻으로 바꾸지 않음.",
+      "measurement_gates": [
+        {
+          "feature": "brow_length",
+          "source": "segmentation",
+          "unit": "ratio",
+          "min": 1.15
+        }
+      ]
+    },
+    "S13": {
+      "enabled": true,
+      "required_labels": [
+        "brow_eye_gap:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S14": {
+      "enabled": true,
+      "required_labels": [
+        "brow_shape:arched"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S15": {
+      "enabled": true,
+      "required_labels": [
+        "brow_shape:straight"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "title": "일자미 · 일자 눈썹"
+    },
+    "S16": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음."
+    },
+    "S17": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "성긴 밀도만으로 수려함을 확인할 수 없음."
+    },
+    "S18": {
+      "enabled": true,
+      "required_labels": [
+        "eye_roundness:narrow"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S19": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음."
+    },
+    "S20": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "눈꼬리 각도 모델의 보정 자료가 부족하고 기존의 과대 연결 문제를 해결한 것으로 간주하지 않음."
+    },
+    "S21": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "홍채와 흰자의 색 대비를 판정하지 않음."
+    },
+    "S22": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "눈 크기만으로 검고 맑음까지 확인할 수 없음."
+    },
+    "S23": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "작은 눈만으로 맑음·반사광까지 확인할 수 없음."
+    },
+    "S24": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "홍채 밝기를 판정하지 않음."
+    },
+    "S25": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "홍채 지름 대 눈 높이를 판정하지 않음."
+    },
+    "S26": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "흰자의 맑기 판정이 없음."
+    },
+    "S27": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "눈동자 반사광과 홍채 선명도 판정이 없음."
+    },
+    "S28": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임."
+    },
+    "S29": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "코 중심선이 곧은지를 판정하지 않음."
+    },
+    "S30": {
+      "enabled": true,
+      "required_labels": [
+        "nose_length:long",
+        "nose_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S31": {
+      "enabled": true,
+      "required_labels": [
+        "nose_tip:rounded"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S32": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "코 중심선이 곧은지를 판정하지 않음."
+    },
+    "S33": {
+      "enabled": true,
+      "required_labels": [
+        "nose_projection:high",
+        "nose_bridge:high"
+      ],
+      "reason": "VGGT 코끝 돌출과 코뿌리 높이가 모두 높은 경우로 좁혀 연결. 기존 눈꼬리 간 3D 거리로 정규화한 값을 유지하며 자료의 코 길이 분모·제안 경계로 대체하지 않음."
+    },
+    "S34": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "코 너비만으로 사자코 조건과 콧방울 비율을 확인할 수 없음."
+    },
+    "S35": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음."
+    },
+    "S36": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+    },
+    "S37": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+    },
+    "S38": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귀 윗끝과 눈의 상대 높이 판정이 없음."
+    },
+    "S39": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귀 윗끝과 눈썹의 상대 높이 판정이 없음."
+    },
+    "S40": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음."
+    },
+    "S41": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음."
+    },
+    "S42": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귀가 머리에 붙은 정도를 판정하지 않음."
+    },
+    "S43": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "귓바퀴 테두리의 선명도를 판정하지 않음."
+    },
+    "S44": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음."
+    },
+    "S45": {
+      "enabled": true,
+      "required_labels": [
+        "mouth_corner:up"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S46": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+    },
+    "S47": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+    },
+    "S48": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "입술 두께만으로 입 전체의 둥근 형태를 확인할 수 없음."
+    },
+    "S49": {
+      "enabled": true,
+      "required_labels": [
+        "lip_thickness:thin",
+        "mouth_corner:level",
+        "lip_bow:flat"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S50": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "입술 색을 판정하지 않음."
+    },
+    "S51": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "현재 위아래 입술 비율 모델의 보정 자료가 부족해 판정을 보류함."
+    },
+    "S52": {
+      "enabled": true,
+      "required_labels": [
+        "lip_thickness:full"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S53": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+    },
+    "S54": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+    },
+    "S55": {
+      "enabled": true,
+      "required_labels": [
+        "chin_shape:rounded",
+        "jaw_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S56": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름."
+    },
+    "S57": {
+      "enabled": true,
+      "required_labels": [
+        "chin_shape:square",
+        "jaw_width:wide"
+      ],
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+    },
+    "S58": {
+      "enabled": false,
+      "required_labels": [],
+      "reason": "기존 점 검출 영역은 귀 테두리를 포함하지 않음."
+    }
+  }
+}

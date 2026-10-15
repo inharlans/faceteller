@@ -72,6 +72,14 @@ with zipfile.ZipFile(r/'data/raw/kface/zips'/f'{s}.zip') as z:
   expect(result.items.some(i=>i.status==='CONFIRMED')).toBe(true);expect(result.status).not.toBe('REINPUT_REQUIRED');
   await expect(page.locator('#result-title')).toBeVisible();expect(posts).toBe(1);
   await expect(page.locator('.passage-card')).toHaveCount(result.passages.length);
+  if(state.reading_catalog_kind==='gwansang_grouped'){
+    expect(raw.runtime.gwansang_catalog_sha256).toBe(state.gwansang_catalog_sha256);
+    expect(raw.named_types).toEqual([]);
+    expect(new Set(raw.passages.map((p:any)=>p.source.shape_id)).size).toBe(raw.passages.length);
+    await expect(page.locator('.type-card')).toHaveCount(0);
+    await expect(page.getByRole('heading',{name:'관상 풀이',exact:true,level:2})).toHaveCount(1);
+    for(const p of result.passages)await expect(page.locator('.passage-card .card-title').filter({hasText:p.reading!.title})).toHaveCount(1);
+  }
   await expect(page.locator('img')).toHaveCount(0);
   expect(await page.evaluate(()=>({local:localStorage.length,session:sessionStorage.length}))).toEqual({local:0,session:0});
   expect(external).toEqual([]);expect(errors).toEqual([]);
@@ -125,6 +133,7 @@ with zipfile.ZipFile(r/'data/raw/kface/zips'/f'{s}.zip') as z:
     corpus_sha256:state.corpus_sha256,passages:result.passages.length,confirmed:result.items.filter(i=>i.status==='CONFIRMED').length,
     held:result.items.filter(i=>i.status==='HELD').length,pdf_pages:doc.numPages,one_page_button:onePage,
     photos_saved:false,external_requests:external.length,page_errors:errors,received_to_result_seconds:raw.runtime?.timings?.received_to_result_seconds??null,
+    ...(state.reading_catalog_kind==='gwansang_grouped'?{unified_readings_verified:true,gwansang_catalog_sha256:state.gwansang_catalog_sha256}:{}),
     ...(photoCheck?{photo_overlay_check:photoCheck}:{})},null,2));
   await doc.loadingTask.destroy();
 });

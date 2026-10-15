@@ -25,7 +25,7 @@ from facework.pilot_contract import (
 )
 from facework.release_repository import ReleaseRepository, database_dsn
 from facework.release_selection import inference_selection
-from facework.release_readings import ReadingCatalog
+from facework.release_readings import load_reading_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 REGIONS = ('eye','brow','nose','mouth','face','forehead','glabella','under_eye',
@@ -305,6 +305,14 @@ class RuntimeResources:
                 _require(not writable,'Runtime DB role has write privileges')
             eligible=conn.execute('SELECT count(*) FROM face_release.passage WHERE service_eligible').fetchone()[0]
             _require(eligible>0,'Release literature database has no eligible passages')
+        readings=load_reading_catalog(root)
+        if hasattr(readings, 'verify_snapshot'):
+            with ReleaseRepository(dsn).snapshot() as snapshot:
+                readings.verify_snapshot(snapshot)
+                writable=snapshot.connection.execute(
+                    "SELECT has_table_privilege(current_user,'face_release.gwansang_catalog','INSERT, UPDATE, DELETE, TRUNCATE, TRIGGER')"
+                ).fetchone()[0]
+                _require(not writable,'Runtime grouped catalog must be read-only')
         corpus_sha256=ReleaseRepository(dsn).corpus_revision()
         _require(corpus_sha256 is not None,'Active corpus revision missing; re-import the intended corpus')
         import torch
@@ -315,7 +323,7 @@ class RuntimeResources:
         _require(VGGT_SOURCE.resolve()==(root/'third_party/vggt').resolve(),'VGGT must load pinned third_party source, not temporary files')
         from facework import release_depth
         self=cls(); self.registry=registry; self.manifest=manifest; self.depth_config=depth
-        self.readings=ReadingCatalog.load(root)
+        self.readings=readings
         self.device=device; self.repository=ReleaseRepository(dsn); self.models={}
         self.detect=analysis_v2.detect; self.detector=None
         self.visible_ear_box=visible_ear_box; self.forehead_metrics=forehead_metrics; self.ear_metrics=ear_metrics
@@ -371,7 +379,7 @@ class RuntimeResources:
                            'repository':'postgresql_readonly','eligible_passages':eligible,
                            'corpus_sha256':corpus_sha256}
             self.identity.update(self.readings.identity)
-            self.identity['active_mapping_count']=eligible-len(self.readings.excluded)
+            self.identity.setdefault('active_mapping_count',eligible-len(getattr(self.readings,'excluded',set())))
             self.identity['face_overlay_version']='original-pixel-measurements-v1'
             self.identity['brow_measurement_version']=registry['features'].get('brow_length',{}).get(
                 'reviewed_definition',{}).get('mask_definition','landmark-guide')
@@ -578,13 +586,17 @@ class ReleaseService:
             self.timings['depth_seconds']=time.perf_counter()-start
             policy=DecisionPolicy({k:c['threshold'] for k,c in self.r.manifest['features'].items()})
             items=policy.apply(observations)
+            from facework.release_overlay import face_overlay
+            overlay=face_overlay(self.detections[0]['landmarks'],*self.images[0].size,
+                                 visible_brows=self.visible_brows)
+            measurements={f['item_id']:f for f in overlay['features']}
             yield {'type':'progress','stage':STAGES[4]}
             def literature():
                 with self.r.repository.snapshot() as repository:
                     revision=repository.corpus_revision()
                     _require(revision is not None,'Active corpus revision is unavailable')
                     readings=getattr(self.r,'readings',None)
-                    result=build_result(items,readings.repository(repository) if readings else repository)
+                    result=build_result(items,readings.repository(repository,measurements=measurements) if readings else repository)
                     return readings.apply(result) if readings else result,revision
             start=time.perf_counter(); result,revision=await self.worker.run(literature)
             self.timings['literature_seconds']=time.perf_counter()-start
@@ -592,9 +604,7 @@ class ReleaseService:
                                'timings':dict(self.timings),'independent_human_labels':0}
             if getattr(self.r,'readings',None):
                 result['runtime'].update(self.r.readings.identity)
-            from facework.release_overlay import face_overlay
-            result['face_overlay']=face_overlay(self.detections[0]['landmarks'],*self.images[0].size,
-                                               visible_brows=self.visible_brows)
+            result['face_overlay']=overlay
             yield {'type':'result','data':result}
         finally:
             self.close(); observations.clear()
