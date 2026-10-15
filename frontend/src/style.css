@@ -96,3 +96,7 @@
 .legend-more .legend-name{color:var(--muted)}
 #print-sheet .overlay-legend.many{display:block;columns:2;column-gap:4mm}
 #print-sheet .overlay-legend.many li{break-inside:avoid}
+/* Long traditional + descriptive titles wrap at word boundaries, never mid-syllable. */
+.card-title,.type-name,#print-sheet h4{word-break:keep-all;overflow-wrap:anywhere}
+.meaning{word-break:keep-all;overflow-wrap:anywhere}
+#print-sheet .print-meaning{font-weight:500}

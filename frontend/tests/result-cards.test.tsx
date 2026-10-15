@@ -70,6 +70,9 @@ describe('response enrichment validation', () => {
     expect(checked.passages[0].reading).toBeUndefined();
     expect(checked.named_types?.map(t => t.id)).toEqual(['ok']);
     expect(validateResult({...raw, passages: [{...passage(), reading}]}).passages[0].reading).toEqual(reading);
+    const based = {...reading, meaning_basis: 'representative'};
+    expect(validateResult(JSON.parse(JSON.stringify({...raw, passages: [{...passage(), reading: based}]}))).passages[0].reading).toEqual(based);
+    expect(validateResult(JSON.parse(JSON.stringify({...raw, passages: [{...passage(), reading: {...reading, meaning_basis: 'merged'}}]}))).passages[0].reading).toBeUndefined();
   });
 });
 
@@ -89,7 +92,20 @@ describe('A4 sheet', () => {
     for (const text of ['관상 풀이', '1. 초승달 눈썹 · 길한 기록', '眉如新月', '눈썹이 초승달 같으면', '합성 문헌 · 눈썹 · 제3조']) expect(html).toContain(text);
     for (const gone of ['봉황눈', '관상 유형', '문헌에 남은 기록']) expect(html).not.toContain(gone);
     expect(html).not.toContain('COMMENTARY_ONLY');
-    expect(html).not.toContain(reading.meaning);
+    expect(html.split(reading.meaning).length - 1).toBe(1);
+    expect(before(html, reading.meaning, '眉如新月')).toBe(true);
+  });
+
+  it('prints the same meaning as the screen and never repeats an identical translation', () => {
+    const same = '입꼬리가 달처럼 위로 젖혀지면 많은 녹을 누리고 맑은 이름을 얻는다고 보았습니다.';
+    const r = result({passages: [passage({reading: {...reading, title: '앙월구 · 올라간 입꼬리', meaning: same, meaning_basis: 'representative'}, translation: same})]});
+    const sheet = renderToStaticMarkup(<Printable result={r} preview={false} onBack={() => {}}/>);
+    const screen = render(r);
+    expect(sheet).toContain('1. 앙월구 · 올라간 입꼬리 · 길한 기록');
+    expect(sheet.split(same).length - 1).toBe(1);
+    expect(screen.split(same).length - 1).toBe(1);
+    expect(sheet).toContain('眉如新月');
+    expect(sheet).toContain('합성 문헌 · 눈썹 · 제3조');
   });
 });
 

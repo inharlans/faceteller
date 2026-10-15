@@ -1,6 +1,6 @@
 {
-  "version": "gwansang-grouped-v1",
-  "source_policy": "제공 자료의 좋은 풀이만 사용. 생김새마다 공통 성별 출처 중 순위가 가장 앞선 하나를 대표로 표시. 나머지 출처는 원자료 보존용이며 결과 카드나 점수에 중복 가산하지 않음.",
+  "version": "gwansang-grouped-v2",
+  "source_policy": "생김새의 관찰 조건과 맞는 좋은 기록 하나를 대표로 선택한다. 화면과 결과지의 풀이는 그 대표 출처에만 근거한다. 제공 자료의 종합풀이·순위·원문 전체는 변경 없이 별도 보존한다.",
   "measurement_policy": "제공 자료의 수치는 앱용 제안값이며 기존 CNN·VGGT 학습 경계를 바꾸지 않음. 기존 형태 분류와 의미가 맞는 항목만 연결하고 모든 조건이 확정되어야 선정함. 별도 실측 확인은 measurement_gates에 명시.",
   "shapes": {
     "S01": {
@@ -9,51 +9,165 @@
         "face_shape:angular",
         "jaw_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "각진 얼굴과 넓은 턱이 확정되면 모난 얼굴을 직접 설명한 GS003에 연결한다. 금형 전체 조건을 판정한 것으로 표시하지 않는다.",
+      "presentation": {
+        "title": "각진 얼굴",
+        "aliases": [],
+        "related_types": [
+          "금형"
+        ],
+        "representative_source_id": "GS003",
+        "meaning": "각진 얼굴을 녹을 누리는 상으로 보았습니다. 여기서 녹은 관직에서 받는 보수를 뜻합니다.",
+        "topics": [
+          "재물"
+        ],
+        "selection_reason": "얼굴이 모나다는 조건만 직접 설명한다. 삼정·기색을 확인해야 하는 금형 기록으로 대신하지 않는다.",
+        "excluded_sources": {
+          "GS001": "삼정의 균형을 추가로 요구하므로 각진 얼굴만으로 금형을 확정하지 않는다.",
+          "GS002": "반듯함과 충직함 풀이를 별도로 합치지 않고 모난 얼굴을 직접 설명하는 GS003을 대표로 둔다."
+        }
+      }
     },
     "S02": {
-      "enabled": true,
+      "enabled": false,
       "required_labels": [
         "face_shape:long",
         "face_length:long"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "목형 원문은 긴 체형·뼈대와 눈썹·눈의 기운을 함께 서술한다. 얼굴 길이만으로 전체 조건을 확인할 수 없어 풀이 연결을 중단한다. 얼굴 형태 판정은 유지한다.",
+      "presentation": {
+        "title": "갸름하고 긴 얼굴",
+        "aliases": [],
+        "related_types": [
+          "목형"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "목형 원문은 긴 체형·뼈대와 눈썹·눈의 기운을 함께 서술한다. 얼굴 길이만으로 전체 조건을 확인할 수 없어 풀이 연결을 중단한다. 얼굴 형태 판정은 유지한다.",
+        "excluded_sources": {
+          "GS004": "목형 원문은 긴 체형·뼈대와 눈썹·눈의 기운을 함께 서술한다. 얼굴 길이만으로 전체 조건을 확인할 수 없어 풀이 연결을 중단한다. 얼굴 형태 판정은 유지한다."
+        }
+      }
     },
     "S03": {
-      "enabled": true,
+      "enabled": false,
       "required_labels": [
         "face_shape:round",
         "cheek_fullness:full"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "수형 원문은 둥근 얼굴 외에 큰 눈과 굵은 어깨를 함께 요구한다. 현재 얼굴 사진 판정으로 어깨 조건을 확인하지 못하므로 풀이 연결을 중단한다. 둥근 얼굴 판정은 유지한다.",
+      "presentation": {
+        "title": "둥글고 통통한 얼굴",
+        "aliases": [],
+        "related_types": [
+          "수형"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "수형 원문은 둥근 얼굴 외에 큰 눈과 굵은 어깨를 함께 요구한다. 현재 얼굴 사진 판정으로 어깨 조건을 확인하지 못하므로 풀이 연결을 중단한다. 둥근 얼굴 판정은 유지한다.",
+        "excluded_sources": {
+          "GS005": "수형 원문은 둥근 얼굴 외에 큰 눈과 굵은 어깨를 함께 요구한다. 현재 얼굴 사진 판정으로 어깨 조건을 확인하지 못하므로 풀이 연결을 중단한다. 둥근 얼굴 판정은 유지한다."
+        }
+      }
     },
     "S04": {
-      "enabled": true,
+      "enabled": false,
       "required_labels": [
         "forehead_width:narrow",
         "jaw_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "화형 원문에는 이마가 좁고 턱이 넓다는 설명이 없고 오로·기색·행동 조건이 있다. 해당 외형과 직접 맞는 기록이 없어 풀이 연결을 중단한다.",
+      "presentation": {
+        "title": "위는 좁고 아래가 넓은 얼굴",
+        "aliases": [],
+        "related_types": [
+          "화형"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "화형 원문에는 이마가 좁고 턱이 넓다는 설명이 없고 오로·기색·행동 조건이 있다. 해당 외형과 직접 맞는 기록이 없어 풀이 연결을 중단한다.",
+        "excluded_sources": {
+          "GS006": "화형 원문에는 이마가 좁고 턱이 넓다는 설명이 없고 오로·기색·행동 조건이 있다. 해당 외형과 직접 맞는 기록이 없어 풀이 연결을 중단한다."
+        }
+      }
     },
     "S05": {
       "enabled": false,
       "required_labels": [],
-      "reason": "얼굴의 두께·살집 전체를 확인하는 항목이 없어 얼굴 길이와 턱 너비만으로 토형을 정하지 않음."
+      "reason": "얼굴의 두께·살집 전체를 확인하는 항목이 없어 얼굴 길이와 턱 너비만으로 토형을 정하지 않음.",
+      "presentation": {
+        "title": "두툼하고 묵직한 얼굴",
+        "aliases": [],
+        "related_types": [
+          "토형"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "얼굴의 두께·살집 전체를 확인하는 항목이 없어 얼굴 길이와 턱 너비만으로 토형을 정하지 않음.",
+        "excluded_sources": {
+          "GS007": "얼굴의 두께·살집 전체를 확인하는 항목이 없어 얼굴 길이와 턱 너비만으로 토형을 정하지 않음."
+        }
+      }
     },
     "S06": {
       "enabled": false,
       "required_labels": [],
-      "reason": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음."
+      "reason": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음.",
+      "presentation": {
+        "title": "이마·코·아래 얼굴 길이가 고른 얼굴",
+        "aliases": [
+          "삼정이 고른 얼굴"
+        ],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음.",
+        "excluded_sources": {
+          "GS008": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음.",
+          "GS009": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음.",
+          "GS010": "발제선부터 턱까지 세 구간이 고른지를 함께 확인하는 판정이 없음."
+        }
+      }
     },
     "S07": {
       "enabled": false,
       "required_labels": [],
-      "reason": "피부 윤기·색 균일도를 판정하지 않음."
+      "reason": "피부 윤기·색 균일도를 판정하지 않음.",
+      "presentation": {
+        "title": "윤기 있고 밝은 피부",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "피부 윤기·색 균일도를 판정하지 않음.",
+        "excluded_sources": {
+          "GS011": "피부 윤기·색 균일도를 판정하지 않음.",
+          "GS012": "피부 윤기·색 균일도를 판정하지 않음."
+        }
+      }
     },
     "S08": {
       "enabled": false,
       "required_labels": [],
-      "reason": "표정 검사는 촬영 품질 확인용이며 온화함을 분류하지 않음."
+      "reason": "표정 검사는 촬영 품질 확인용이며 온화함을 분류하지 않음.",
+      "presentation": {
+        "title": "온화한 표정",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "표정 검사는 촬영 품질 확인용이며 온화함을 분류하지 않음.",
+        "excluded_sources": {
+          "GS013": "표정 검사는 촬영 품질 확인용이며 온화함을 분류하지 않음."
+        }
+      }
     },
     "S09": {
       "enabled": true,
@@ -61,17 +175,64 @@
         "forehead_height:high",
         "forehead_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "넓고 높은 이마",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": "GS014",
+        "meaning": "넓고 높은 이마를 벼슬과 장수를 누리는 상으로 보았습니다.",
+        "topics": [
+          "벼슬",
+          "장수"
+        ],
+        "selection_reason": "이마가 넓고 길다는 관찰 조건을 직접 설명한다.",
+        "excluded_sources": {
+          "GS015": "밝기·윤택함·반듯함 조건이 추가되어 GS014를 사용한다.",
+          "GS016": "실제 세 치라는 절대 길이를 측정하지 않는다.",
+          "GS017": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다.",
+          "GS018": "이마의 풍만함과 밝고 윤택함을 추가로 확인하지 않는다."
+        }
+      }
     },
     "S10": {
       "enabled": false,
       "required_labels": [],
-      "reason": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음."
+      "reason": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음.",
+      "presentation": {
+        "title": "둥글고 반듯한 이마",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음.",
+        "excluded_sources": {
+          "GS019": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음.",
+          "GS020": "이마 발제선 곡률과 반듯함을 함께 판정하지 않음."
+        }
+      }
     },
     "S11": {
       "enabled": false,
       "required_labels": [],
-      "reason": "미간 너비만으로 평평함까지 확인할 수 없음."
+      "reason": "미간 너비만으로 평평함까지 확인할 수 없음.",
+      "presentation": {
+        "title": "넓고 평평한 미간",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "미간 너비만으로 평평함까지 확인할 수 없음.",
+        "excluded_sources": {
+          "GS021": "미간 너비만으로 평평함까지 확인할 수 없음.",
+          "GS022": "미간 너비만으로 평평함까지 확인할 수 없음.",
+          "GS023": "미간 너비만으로 평평함까지 확인할 수 없음.",
+          "GS024": "미간 너비만으로 평평함까지 확인할 수 없음.",
+          "GS025": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S12": {
       "enabled": true,
@@ -86,21 +247,82 @@
           "unit": "ratio",
           "min": 1.15
         }
-      ]
+      ],
+      "presentation": {
+        "title": "눈보다 긴 눈썹",
+        "aliases": [],
+        "related_types": [
+          "관자놀이까지 뻗은 눈썹",
+          "검미"
+        ],
+        "representative_source_id": "GS026",
+        "meaning": "눈보다 긴 눈썹을 형제가 많은 모습으로 보았습니다.",
+        "topics": [
+          "형제"
+        ],
+        "selection_reason": "눈보다 길다는 원문의 비교 기준을 실제 눈썹털 길이 비율로 추가 확인한다.",
+        "excluded_sources": {
+          "GS027": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다.",
+          "GS028": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S13": {
       "enabled": true,
       "required_labels": [
         "brow_eye_gap:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "눈에서 높이 떨어진 눈썹",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": "GS029",
+        "meaning": "눈과 눈썹 사이가 넉넉한 모습을 도량이 넓고 오래 사는 상으로 보았습니다.",
+        "topics": [
+          "도량",
+          "장수"
+        ],
+        "selection_reason": "높은 눈썹을 직접 설명한 기록이다. 다른 출처의 충직함·신중함을 합쳐 쓰지 않는다.",
+        "excluded_sources": {
+          "GS030": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S14": {
       "enabled": true,
       "required_labels": [
         "brow_shape:arched"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "초승달형 눈썹",
+        "aliases": [
+          "초승달처럼 휜 눈썹",
+          "초승달 같은 눈썹",
+          "초승달 모양의 눈썹"
+        ],
+        "related_types": [
+          "신월미",
+          "용미",
+          "와잠미",
+          "경청미",
+          "청수미"
+        ],
+        "representative_source_id": "GS032",
+        "meaning": "초승달처럼 휜 눈썹을 총명하고 글로 이름을 얻으며 과거 공부에 성과가 있는 모습으로 보았습니다.",
+        "topics": [
+          "학문",
+          "명예"
+        ],
+        "selection_reason": "초승달 같은 곡선을 직접 설명하며 추가적인 털의 맑음·관자놀이 길이 조건이 없다.",
+        "excluded_sources": {
+          "GS031": "맑고 수려한 눈썹 조건이 추가되어 초승달 모양을 직접 설명한 GS032를 사용한다.",
+          "GS033": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다.",
+          "GS034": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS035": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S15": {
       "enabled": true,
@@ -108,79 +330,323 @@
         "brow_shape:straight"
       ],
       "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
-      "title": "일자미 · 일자 눈썹"
+      "presentation": {
+        "title": "일자미 · 일자 눈썹",
+        "aliases": [
+          "일자미",
+          "일자 눈썹",
+          "일자로 뻗은 눈썹"
+        ],
+        "related_types": [],
+        "representative_source_id": "GS036",
+        "meaning": "일자 눈썹을 의리를 중시하고 사람을 아끼는 모습으로 보았습니다.",
+        "topics": [
+          "의리"
+        ],
+        "selection_reason": "일자로 놓인 눈썹을 직접 설명한다. 다른 출처의 무관 출세 풀이를 섞지 않는다.",
+        "excluded_sources": {
+          "GS037": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S16": {
       "enabled": false,
       "required_labels": [],
-      "reason": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음."
+      "reason": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음.",
+      "presentation": {
+        "title": "관자놀이 쪽까지 길게 뻗은 눈썹",
+        "aliases": [],
+        "related_types": [
+          "눈보다 긴 눈썹",
+          "신월미"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음.",
+        "excluded_sources": {
+          "GS038": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음.",
+          "GS039": "눈썹 끝과 관자놀이 사이 거리를 측정하지 않음."
+        }
+      }
     },
     "S17": {
       "enabled": false,
       "required_labels": [],
-      "reason": "성긴 밀도만으로 수려함을 확인할 수 없음."
+      "reason": "성긴 밀도만으로 수려함을 확인할 수 없음.",
+      "presentation": {
+        "title": "결이 성글고 수려한 눈썹",
+        "aliases": [],
+        "related_types": [
+          "용미",
+          "경청미",
+          "청수미"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "성긴 밀도만으로 수려함을 확인할 수 없음.",
+        "excluded_sources": {
+          "GS040": "성긴 밀도만으로 수려함을 확인할 수 없음.",
+          "GS041": "성긴 밀도만으로 수려함을 확인할 수 없음.",
+          "GS042": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S18": {
       "enabled": true,
       "required_labels": [
-        "eye_roundness:narrow"
+        "eye_roundness:narrow",
+        "eye_size:large"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "가는 눈 개방 형태와 얼굴 폭 대비 긴 눈 가로 길이가 모두 확정되어야 細·長 조건의 기록에 연결한다. 가늘다는 판정 하나를 봉안으로 바꾸지 않는다.",
+      "presentation": {
+        "title": "가늘고 긴 눈",
+        "aliases": [],
+        "related_types": [
+          "봉안",
+          "봉황눈",
+          "상안"
+        ],
+        "representative_source_id": "GS047",
+        "meaning": "눈이 가늘고 긴 모습을 크게 귀하게 될 상으로 보았습니다.",
+        "topics": [
+          "귀함"
+        ],
+        "selection_reason": "가는 형태와 긴 눈 가로 길이를 모두 확인한다. 원문의 봉황 비유를 별도 봉안 판정으로 바꾸지 않는다.",
+        "excluded_sources": {
+          "GS043": "수려함과 길이만 언급하므로 가늘고 긴 형태를 직접 설명하는 GS047을 선택한다.",
+          "GS044": "눈의 맑음 조건을 추가로 확인하지 않는다.",
+          "GS045": "수려함이라는 추가 조건을 확인하지 않는다.",
+          "GS046": "수려함과 눈빛의 신기 조건을 확인하지 않는다."
+        }
+      }
     },
     "S19": {
       "enabled": false,
       "required_labels": [],
-      "reason": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음."
+      "reason": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음.",
+      "presentation": {
+        "title": "봉안 · 봉황눈",
+        "aliases": [
+          "봉안",
+          "봉황눈",
+          "봉목"
+        ],
+        "related_types": [
+          "명봉안",
+          "수봉안",
+          "서봉안",
+          "가늘고 긴 눈"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음.",
+        "excluded_sources": {
+          "GS048": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음.",
+          "GS049": "눈꼬리와 관자놀이 사이 거리 확인이 없어 가는 눈을 봉황눈으로 바꾸지 않음."
+        }
+      }
     },
     "S20": {
       "enabled": false,
       "required_labels": [],
-      "reason": "눈꼬리 각도 모델의 보정 자료가 부족하고 기존의 과대 연결 문제를 해결한 것으로 간주하지 않음."
+      "reason": "눈꼬리 각도 모델의 보정 자료가 부족하고 기존의 과대 연결 문제를 해결한 것으로 간주하지 않음.",
+      "presentation": {
+        "title": "눈꼬리가 올라간 눈",
+        "aliases": [],
+        "related_types": [
+          "봉안"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "눈꼬리 각도 모델의 보정 자료가 부족하고 기존의 과대 연결 문제를 해결한 것으로 간주하지 않음.",
+        "excluded_sources": {
+          "GS050": "눈꼬리 각도 모델의 보정 자료가 부족하고 기존의 과대 연결 문제를 해결한 것으로 간주하지 않음."
+        }
+      }
     },
     "S21": {
       "enabled": false,
       "required_labels": [],
-      "reason": "홍채와 흰자의 색 대비를 판정하지 않음."
+      "reason": "홍채와 흰자의 색 대비를 판정하지 않음.",
+      "presentation": {
+        "title": "검은자와 흰자가 또렷한 눈",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "홍채와 흰자의 색 대비를 판정하지 않음.",
+        "excluded_sources": {
+          "GS051": "홍채와 흰자의 색 대비를 판정하지 않음.",
+          "GS052": "홍채와 흰자의 색 대비를 판정하지 않음.",
+          "GS053": "홍채와 흰자의 색 대비를 판정하지 않음."
+        }
+      }
     },
     "S22": {
       "enabled": false,
       "required_labels": [],
-      "reason": "눈 크기만으로 검고 맑음까지 확인할 수 없음."
+      "reason": "눈 크기만으로 검고 맑음까지 확인할 수 없음.",
+      "presentation": {
+        "title": "크고 검고 맑은 눈",
+        "aliases": [],
+        "related_types": [
+          "용안",
+          "호안",
+          "우안"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "눈 크기만으로 검고 맑음까지 확인할 수 없음.",
+        "excluded_sources": {
+          "GS054": "눈 크기만으로 검고 맑음까지 확인할 수 없음."
+        }
+      }
     },
     "S23": {
       "enabled": false,
       "required_labels": [],
-      "reason": "작은 눈만으로 맑음·반사광까지 확인할 수 없음."
+      "reason": "작은 눈만으로 맑음·반사광까지 확인할 수 없음.",
+      "presentation": {
+        "title": "작지만 맑고 밝은 눈",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "작은 눈만으로 맑음·반사광까지 확인할 수 없음.",
+        "excluded_sources": {
+          "GS055": "작은 눈만으로 맑음·반사광까지 확인할 수 없음."
+        }
+      }
     },
     "S24": {
       "enabled": false,
       "required_labels": [],
-      "reason": "홍채 밝기를 판정하지 않음."
+      "reason": "홍채 밝기를 판정하지 않음.",
+      "presentation": {
+        "title": "옻칠처럼 검은 눈동자",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "홍채 밝기를 판정하지 않음.",
+        "excluded_sources": {
+          "GS056": "홍채 밝기를 판정하지 않음.",
+          "GS057": "홍채 밝기를 판정하지 않음.",
+          "GS058": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S25": {
       "enabled": false,
       "required_labels": [],
-      "reason": "홍채 지름 대 눈 높이를 판정하지 않음."
+      "reason": "홍채 지름 대 눈 높이를 판정하지 않음.",
+      "presentation": {
+        "title": "검은자가 크고 흰자가 적은 눈",
+        "aliases": [],
+        "related_types": [
+          "공작안",
+          "아안"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "홍채 지름 대 눈 높이를 판정하지 않음.",
+        "excluded_sources": {
+          "GS059": "홍채 지름 대 눈 높이를 판정하지 않음."
+        }
+      }
     },
     "S26": {
       "enabled": false,
       "required_labels": [],
-      "reason": "흰자의 맑기 판정이 없음."
+      "reason": "흰자의 맑기 판정이 없음.",
+      "presentation": {
+        "title": "맑고 수려한 눈",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "흰자의 맑기 판정이 없음.",
+        "excluded_sources": {
+          "GS060": "흰자의 맑기 판정이 없음.",
+          "GS061": "흰자의 맑기 판정이 없음.",
+          "GS062": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS063": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S27": {
       "enabled": false,
       "required_labels": [],
-      "reason": "눈동자 반사광과 홍채 선명도 판정이 없음."
+      "reason": "눈동자 반사광과 홍채 선명도 판정이 없음.",
+      "presentation": {
+        "title": "눈빛이 강하고 맑은 눈",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "눈동자 반사광과 홍채 선명도 판정이 없음.",
+        "excluded_sources": {
+          "GS064": "눈동자 반사광과 홍채 선명도 판정이 없음."
+        }
+      }
     },
     "S28": {
       "enabled": false,
       "required_labels": [],
-      "reason": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임."
+      "reason": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임.",
+      "presentation": {
+        "title": "와잠 · 도톰한 애교살",
+        "aliases": [
+          "와잠",
+          "도톰한 애교살",
+          "눈 밑의 도톰한 살"
+        ],
+        "related_types": [
+          "와잠미"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임.",
+        "excluded_sources": {
+          "GS065": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임.",
+          "GS066": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임.",
+          "GS067": "현재 애교살 분류는 양성 검증 자료가 부족해 비활성 상태임."
+        }
+      }
     },
     "S29": {
       "enabled": false,
       "required_labels": [],
-      "reason": "코 중심선이 곧은지를 판정하지 않음."
+      "reason": "코 중심선이 곧은지를 판정하지 않음.",
+      "presentation": {
+        "title": "곧고 두툼한 코",
+        "aliases": [],
+        "related_types": [
+          "용비"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "코 중심선이 곧은지를 판정하지 않음.",
+        "excluded_sources": {
+          "GS068": "코 중심선이 곧은지를 판정하지 않음.",
+          "GS069": "코 중심선이 곧은지를 판정하지 않음.",
+          "GS070": "코 중심선이 곧은지를 판정하지 않음.",
+          "GS071": "코 중심선이 곧은지를 판정하지 않음."
+        }
+      }
     },
     "S30": {
       "enabled": true,
@@ -188,19 +654,64 @@
         "nose_length:long",
         "nose_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "길고 넓은 코",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": "GS072",
+        "meaning": "길고 넓은 코를 여러 방면에 재주가 있는 모습으로 보았습니다.",
+        "topics": [
+          "재주"
+        ],
+        "selection_reason": "코의 너비와 길이를 모두 요구하는 기록이다.",
+        "excluded_sources": {}
+      }
     },
     "S31": {
       "enabled": true,
       "required_labels": [
         "nose_tip:rounded"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "둥글고 도톰한 코끝",
+        "aliases": [],
+        "related_types": [
+          "복코",
+          "절통비",
+          "현담비",
+          "산비",
+          "녹비"
+        ],
+        "representative_source_id": "GS075",
+        "meaning": "코끝이 풍만한 모습을 평생 재물이 넉넉한 상으로 보았습니다.",
+        "topics": [
+          "재물"
+        ],
+        "selection_reason": "코끝의 풍만함을 직접 말하는 기록이다. 대나무 통이나 쓸개 같은 코 전체 모양과 성별을 추정하지 않는다.",
+        "excluded_sources": {
+          "GS073": "절통비의 코 전체 윤곽은 둥글고 도톰한 코끝과 동의어가 아니다.",
+          "GS074": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S32": {
       "enabled": false,
       "required_labels": [],
-      "reason": "코 중심선이 곧은지를 판정하지 않음."
+      "reason": "코 중심선이 곧은지를 판정하지 않음.",
+      "presentation": {
+        "title": "작지만 콧대가 곧은 코",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "코 중심선이 곧은지를 판정하지 않음.",
+        "excluded_sources": {
+          "GS076": "코 중심선이 곧은지를 판정하지 않음."
+        }
+      }
     },
     "S33": {
       "enabled": true,
@@ -208,84 +719,336 @@
         "nose_projection:high",
         "nose_bridge:high"
       ],
-      "reason": "VGGT 코끝 돌출과 코뿌리 높이가 모두 높은 경우로 좁혀 연결. 기존 눈꼬리 간 3D 거리로 정규화한 값을 유지하며 자료의 코 길이 분모·제안 경계로 대체하지 않음."
+      "reason": "VGGT 코끝 돌출과 코뿌리 높이가 모두 높은 경우로 좁혀 연결. 기존 눈꼬리 간 3D 거리로 정규화한 값을 유지하며 자료의 코 길이 분모·제안 경계로 대체하지 않음.",
+      "presentation": {
+        "title": "높이 솟은 코",
+        "aliases": [],
+        "related_types": [
+          "고봉비",
+          "복서비",
+          "산근이 꽉 찬 코"
+        ],
+        "representative_source_id": "GS077",
+        "meaning": "높이 솟은 코를 벼슬길이 번창하는 상으로 보았습니다.",
+        "topics": [
+          "벼슬"
+        ],
+        "selection_reason": "높은 코를 직접 설명한다. 다른 출처의 장수 풀이를 합치지 않는다.",
+        "excluded_sources": {
+          "GS078": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S34": {
       "enabled": false,
       "required_labels": [],
-      "reason": "코 너비만으로 사자코 조건과 콧방울 비율을 확인할 수 없음."
+      "reason": "코 너비만으로 사자코 조건과 콧방울 비율을 확인할 수 없음.",
+      "presentation": {
+        "title": "사자코",
+        "aliases": [],
+        "related_types": [
+          "사비"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "코 너비만으로 사자코 조건과 콧방울 비율을 확인할 수 없음.",
+        "excluded_sources": {
+          "GS079": "코 너비만으로 사자코 조건과 콧방울 비율을 확인할 수 없음."
+        }
+      }
     },
     "S35": {
       "enabled": false,
       "required_labels": [],
-      "reason": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음."
+      "reason": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음.",
+      "presentation": {
+        "title": "코뿌리가 꽉 찬 코",
+        "aliases": [
+          "산근이 꽉 찬 코"
+        ],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음.",
+        "excluded_sources": {
+          "GS080": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음.",
+          "GS081": "코뿌리 높이만으로 산근의 너비·살집을 확인할 수 없음."
+        }
+      }
     },
     "S36": {
       "enabled": false,
       "required_labels": [],
-      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+      "presentation": {
+        "title": "살이 감싼 높은 광대 (남)",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+        "excluded_sources": {
+          "GS082": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS083": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS084": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS085": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS086": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S37": {
       "enabled": false,
       "required_labels": [],
-      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+      "presentation": {
+        "title": "높고 두툼하며 평평한 광대 (여)",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+        "excluded_sources": {
+          "GS087": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S38": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귀 윗끝과 눈의 상대 높이 판정이 없음."
+      "reason": "귀 윗끝과 눈의 상대 높이 판정이 없음.",
+      "presentation": {
+        "title": "눈보다 높이 붙은 귀",
+        "aliases": [],
+        "related_types": [
+          "눈썹과 나란한 귀",
+          "눈썹보다 높이 붙은 귀"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귀 윗끝과 눈의 상대 높이 판정이 없음.",
+        "excluded_sources": {
+          "GS088": "귀 윗끝과 눈의 상대 높이 판정이 없음.",
+          "GS089": "귀 윗끝과 눈의 상대 높이 판정이 없음."
+        }
+      }
     },
     "S39": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귀 윗끝과 눈썹의 상대 높이 판정이 없음."
+      "reason": "귀 윗끝과 눈썹의 상대 높이 판정이 없음.",
+      "presentation": {
+        "title": "눈썹보다 높이 붙은 귀",
+        "aliases": [],
+        "related_types": [
+          "눈보다 높이 붙은 귀"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귀 윗끝과 눈썹의 상대 높이 판정이 없음.",
+        "excluded_sources": {
+          "GS090": "귀 윗끝과 눈썹의 상대 높이 판정이 없음.",
+          "GS091": "귀 윗끝과 눈썹의 상대 높이 판정이 없음.",
+          "GS092": "귀 윗끝과 눈썹의 상대 높이 판정이 없음.",
+          "GS093": "귀 윗끝과 눈썹의 상대 높이 판정이 없음."
+        }
+      }
     },
     "S40": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음."
+      "reason": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음.",
+      "presentation": {
+        "title": "추륜이 · 늘어진 귓불",
+        "aliases": [
+          "추륜이",
+          "늘어진 귓불"
+        ],
+        "related_types": [
+          "복귀"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음.",
+        "excluded_sources": {
+          "GS094": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음.",
+          "GS095": "귀 길이만으로 귓불의 길이와 두께를 확인할 수 없음."
+        }
+      }
     },
     "S41": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음."
+      "reason": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음.",
+      "presentation": {
+        "title": "얼굴보다 흰 귀",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음.",
+        "excluded_sources": {
+          "GS096": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음.",
+          "GS097": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음.",
+          "GS098": "귀와 얼굴의 피부 밝기 차이를 판정하지 않음."
+        }
+      }
     },
     "S42": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귀가 머리에 붙은 정도를 판정하지 않음."
+      "reason": "귀가 머리에 붙은 정도를 판정하지 않음.",
+      "presentation": {
+        "title": "머리에 바짝 붙은 귀",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귀가 머리에 붙은 정도를 판정하지 않음.",
+        "excluded_sources": {
+          "GS099": "귀가 머리에 붙은 정도를 판정하지 않음."
+        }
+      }
     },
     "S43": {
       "enabled": false,
       "required_labels": [],
-      "reason": "귓바퀴 테두리의 선명도를 판정하지 않음."
+      "reason": "귓바퀴 테두리의 선명도를 판정하지 않음.",
+      "presentation": {
+        "title": "테두리가 뚜렷한 귀",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "귓바퀴 테두리의 선명도를 판정하지 않음.",
+        "excluded_sources": {
+          "GS100": "귓바퀴 테두리의 선명도를 판정하지 않음.",
+          "GS101": "귓바퀴 테두리의 선명도를 판정하지 않음."
+        }
+      }
     },
     "S44": {
       "enabled": false,
       "required_labels": [],
-      "reason": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음."
+      "reason": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음.",
+      "presentation": {
+        "title": "깊고 긴 인중",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음.",
+        "excluded_sources": {
+          "GS102": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음.",
+          "GS103": "인중 길이는 있으나 골 선명도는 검증 자료가 부족하고 실제 홈 깊이를 측정하지 않음."
+        }
+      }
     },
     "S45": {
       "enabled": true,
       "required_labels": [
         "mouth_corner:up"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "앙월구 · 올라간 입꼬리",
+        "aliases": [
+          "앙월구",
+          "위로 휘어진 달 모양의 입"
+        ],
+        "related_types": [
+          "만궁구",
+          "사자구(四字口)"
+        ],
+        "representative_source_id": "GS105",
+        "meaning": "위로 향한 입꼬리를 많은 녹을 누리고 좋은 이름을 얻는 상으로 보았습니다.",
+        "topics": [
+          "벼슬",
+          "명예"
+        ],
+        "selection_reason": "앙월구 설명의 올라간 입꼬리와 직접 대응한다. 만궁구의 두툼한 입술이나 四字口의 반듯함·붉은 입술을 가정하지 않는다.",
+        "excluded_sources": {
+          "GS104": "입 전체의 활 윤곽보다 입꼬리 방향을 직접 설명하는 GS105를 선택한다.",
+          "GS106": "붉은 입술 조건을 확인하지 않는다.",
+          "GS107": "四자 모양과 붉은 입술 조건을 확인하지 않는다."
+        }
+      }
     },
     "S46": {
       "enabled": false,
       "required_labels": [],
-      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+      "reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+      "presentation": {
+        "title": "반듯하고 큰 입",
+        "aliases": [],
+        "related_types": [
+          "방구",
+          "호구",
+          "사자구(四字口)"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "남성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+        "excluded_sources": {
+          "GS108": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS109": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS110": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS111": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S47": {
       "enabled": false,
       "required_labels": [],
-      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음."
+      "reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+      "presentation": {
+        "title": "작고 도톰한 입 (여)",
+        "aliases": [],
+        "related_types": [
+          "앵도구"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "여성 한정 풀이이며 서비스에서 성별을 입력받거나 추정하지 않음.",
+        "excluded_sources": {
+          "GS112": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다.",
+          "GS113": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S48": {
       "enabled": false,
       "required_labels": [],
-      "reason": "입술 두께만으로 입 전체의 둥근 형태를 확인할 수 없음."
+      "reason": "입술 두께만으로 입 전체의 둥근 형태를 확인할 수 없음.",
+      "presentation": {
+        "title": "원후 · 둥글고 도톰한 입",
+        "aliases": [
+          "원후",
+          "둥글고 도톰한 입"
+        ],
+        "related_types": [
+          "두툼한 입술"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "입술 두께만으로 입 전체의 둥근 형태를 확인할 수 없음.",
+        "excluded_sources": {
+          "GS114": "입술 두께만으로 입 전체의 둥근 형태를 확인할 수 없음."
+        }
+      }
     },
     "S49": {
       "enabled": true,
@@ -294,34 +1057,133 @@
         "mouth_corner:level",
         "lip_bow:flat"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "일자구 · 얇게 다문 입",
+        "aliases": [
+          "일자구",
+          "수렴형 입",
+          "입술이 얇게 다물린 일자 입"
+        ],
+        "related_types": [
+          "입꼬리가 수평인 입",
+          "양구"
+        ],
+        "representative_source_id": "GS115",
+        "meaning": "얇게 다문 일자 입을 이름과 녹을 얻고 말을 잘하는 상으로 보았습니다.",
+        "topics": [
+          "명예",
+          "말솜씨"
+        ],
+        "selection_reason": "출처가 직접 一字口와 수렴을 연결한다. 입꼬리 수평뿐 아니라 얇은 입술과 평평한 입술 윤곽을 함께 확인한다.",
+        "excluded_sources": {}
+      }
     },
     "S50": {
       "enabled": false,
       "required_labels": [],
-      "reason": "입술 색을 판정하지 않음."
+      "reason": "입술 색을 판정하지 않음.",
+      "presentation": {
+        "title": "붉은 입술",
+        "aliases": [],
+        "related_types": [],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "입술 색을 판정하지 않음.",
+        "excluded_sources": {
+          "GS116": "입술 색을 판정하지 않음.",
+          "GS117": "입술 색을 판정하지 않음.",
+          "GS118": "입술 색을 판정하지 않음.",
+          "GS119": "입술 색을 판정하지 않음.",
+          "GS120": "입술 색을 판정하지 않음.",
+          "GS121": "성별 한정 기록이며 서비스는 성별을 추정하지 않는다."
+        }
+      }
     },
     "S51": {
       "enabled": false,
       "required_labels": [],
-      "reason": "현재 위아래 입술 비율 모델의 보정 자료가 부족해 판정을 보류함."
+      "reason": "현재 위아래 입술 비율 모델의 보정 자료가 부족해 판정을 보류함.",
+      "presentation": {
+        "title": "위아래 두께가 고른 입술",
+        "aliases": [],
+        "related_types": [
+          "두툼한 입술"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "현재 위아래 입술 비율 모델의 보정 자료가 부족해 판정을 보류함.",
+        "excluded_sources": {
+          "GS122": "현재 위아래 입술 비율 모델의 보정 자료가 부족해 판정을 보류함."
+        }
+      }
     },
     "S52": {
       "enabled": true,
       "required_labels": [
         "lip_thickness:full"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "두툼한 입술",
+        "aliases": [],
+        "related_types": [
+          "원후",
+          "우구",
+          "용구",
+          "만궁구"
+        ],
+        "representative_source_id": "GS123",
+        "meaning": "두툼한 입술을 효성과 의리가 있는 모습으로 보았습니다.",
+        "topics": [
+          "효성",
+          "의리"
+        ],
+        "selection_reason": "입술 두께만 직접 설명한다. 원후·우구·용구의 다른 조건을 추가 추정하지 않는다.",
+        "excluded_sources": {}
+      }
     },
     "S53": {
       "enabled": false,
       "required_labels": [],
-      "reason": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+      "reason": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+      "presentation": {
+        "title": "흰 치아",
+        "aliases": [],
+        "related_types": [
+          "가지런한 치아"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+        "excluded_sources": {
+          "GS124": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+          "GS125": "치아 색을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+        }
+      }
     },
     "S54": {
       "enabled": false,
       "required_labels": [],
-      "reason": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+      "reason": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+      "presentation": {
+        "title": "가지런하고 촘촘한 치아",
+        "aliases": [],
+        "related_types": [
+          "흰 치아"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+        "excluded_sources": {
+          "GS126": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음.",
+          "GS127": "치열을 판정하지 않음. 입을 다문 촬영 조건과도 맞지 않음."
+        }
+      }
     },
     "S55": {
       "enabled": true,
@@ -329,12 +1191,46 @@
         "chin_shape:rounded",
         "jaw_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "둥근 턱과 넓은 턱이 모두 확정된 경우 GS129에 연결한다. 턱의 연조직 살집을 판정한 것으로 표시하지 않는다.",
+      "presentation": {
+        "title": "둥글고 넓은 턱",
+        "aliases": [],
+        "related_types": [
+          "앞으로 들린 턱"
+        ],
+        "representative_source_id": "GS129",
+        "meaning": "둥글게 받쳐 주는 턱을 말년에 녹을 얻는 상으로 보았습니다.",
+        "topics": [
+          "말년"
+        ],
+        "selection_reason": "둥근 턱을 직접 설명한다. 턱 살집이나 이마·다른 부위의 윤기는 가정하지 않는다.",
+        "excluded_sources": {
+          "GS128": "턱의 연조직 풍만함을 따로 측정하지 않아 둥근 턱의 GS129를 선택한다.",
+          "GS130": "이마 옆과 여러 부위의 빛나는 기색 조건을 확인하지 않는다.",
+          "GS131": "턱의 살집이 꽉 찼는지를 따로 측정하지 않는다."
+        }
+      }
     },
     "S56": {
       "enabled": false,
       "required_labels": [],
-      "reason": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름."
+      "reason": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름.",
+      "presentation": {
+        "title": "앞으로 들린 턱",
+        "aliases": [],
+        "related_types": [
+          "둥글고 넓은 턱",
+          "각지고 넓은 턱"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름.",
+        "excluded_sources": {
+          "GS132": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름.",
+          "GS133": "기존 턱 돌출은 코밑점 기준이며 자료의 아랫입술 기준과 다름."
+        }
+      }
     },
     "S57": {
       "enabled": true,
@@ -342,12 +1238,50 @@
         "chin_shape:square",
         "jaw_width:wide"
       ],
-      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님."
+      "reason": "기존 형태 분류에서 이 생김새에 해당하는 조건이 모두 확정될 때 연결. 제공 수치로 새 모델을 학습한 결과는 아님.",
+      "presentation": {
+        "title": "각지고 넓은 턱",
+        "aliases": [],
+        "related_types": [
+          "각진 얼굴"
+        ],
+        "representative_source_id": "GS134",
+        "meaning": "각지고 넓은 턱을 재물이 넉넉한 상으로 보았습니다.",
+        "topics": [
+          "재물"
+        ],
+        "selection_reason": "턱의 모난 윤곽과 너비를 모두 확인한다. 얼굴 전체 금형이나 다른 기록의 자녀·말년 풀이를 합치지 않는다.",
+        "excluded_sources": {
+          "GS135": "원자료로 보존하며 이번 결과에는 선택한 좋은 대표 기록 하나만 표시한다."
+        }
+      }
     },
     "S58": {
       "enabled": false,
       "required_labels": [],
-      "reason": "기존 점 검출 영역은 귀 테두리를 포함하지 않음."
+      "reason": "기존 점 검출 영역은 귀 테두리를 포함하지 않음.",
+      "presentation": {
+        "title": "귀 테두리의 점",
+        "aliases": [],
+        "related_types": [
+          "이마·윗볼 피부 표시"
+        ],
+        "representative_source_id": null,
+        "meaning": null,
+        "topics": [],
+        "selection_reason": "기존 점 검출 영역은 귀 테두리를 포함하지 않음.",
+        "excluded_sources": {
+          "GS136": "기존 점 검출 영역은 귀 테두리를 포함하지 않음."
+        }
+      }
     }
+  },
+  "naming_policy": "동의 명칭은 하나의 생김새 코드로 관리한다. 다른 전통 유형과 공유하는 특징은 관련 이름으로만 남기고 동의어로 사용하지 않는다. 부위명은 유형명과 구분한다.",
+  "part_terms": {
+    "인당": "미간",
+    "산근": "코뿌리",
+    "지각": "턱",
+    "천정": "이마",
+    "천창": "이마 양옆"
   }
 }

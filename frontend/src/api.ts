@@ -20,6 +20,7 @@ const optionalText = (value: unknown) => value === undefined || value === null |
 const valence = (value: unknown) => VALENCES.includes(value as Reading['valence']);
 function validReading(r: unknown): r is Reading {
   return record(r) && text(r.title) && text(r.meaning) && valence(r.valence) && optionalText(r.valence_label)
+    && (r.meaning_basis === undefined || r.meaning_basis === 'representative' || r.meaning_basis === 'group')
     && (r.topics === undefined || (Array.isArray(r.topics) && r.topics.every(t => typeof t === 'string')));
 }
 const MAX_OVERLAY_POINTS = 20000;

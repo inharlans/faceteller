@@ -11,7 +11,8 @@ export type Valence = 'favorable' | 'unfavorable' | 'mixed' | 'neutral';
 export const VALENCES: readonly Valence[] = ['favorable', 'unfavorable', 'mixed', 'neutral'];
 export const VALENCE_LABELS: Record<Valence, string> = {favorable: '길하게 본 기록', unfavorable: '흉하게 본 기록', mixed: '길흉이 섞인 기록', neutral: '길흉 판단 없음'};
 /** Editorial reading supplied by the server; the UI never invents it. */
-export interface Reading {title: string; meaning: string; valence: Valence; valence_label?: string; topics?: string[]}
+/** meaning_basis 'representative': the meaning restates the one shown source, never a merged group summary. */
+export interface Reading {title: string; meaning: string; valence: Valence; valence_label?: string; topics?: string[]; meaning_basis?: 'representative' | 'group'}
 /** Traditional named morphology type matched by the server; may be empty. */
 export interface NamedType {id: string; name: string; name_hanja?: string | null; description?: string; meaning?: string; valence?: Valence; valence_label?: string; evidence_item_ids: string[]; source_url?: string; original_text?: string}
 export interface Passage {reading?: Reading | null; passage_id: string | number; original_text: string; translation: string; commentary: string; source: {literature_title?: string; title?: string; chapter: string; passage_no?: string; locator?: string; review_status?: string; annotation_status?: string; source_url?: string; url?: string; [key: string]: unknown}; evidence_item_ids: string[]; G?: number | null; rank?: number; score_components?: ComponentScore[]; score_feature_count?: number}

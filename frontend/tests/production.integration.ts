@@ -93,7 +93,8 @@ with zipfile.ZipFile(r/'data/raw/kface/zips'/f'{s}.zip') as z:
   const pdfjs=await import('pdfjs-dist/legacy/build/pdf.mjs'),doc=await pdfjs.getDocument({data:new Uint8Array(readFileSync(pdf))}).promise;
   const all=[];for(let n=1;n<=doc.numPages;n++)all.push((await(await doc.getPage(n)).getTextContent()).items.map(i=>'str'in i?i.str:'').join(''));
   const text=all.join('').replace(/\s/g,'');
-  for(const p of result.passages){expect(text).toContain(p.original_text.replace(/\s/g,''));expect(text).toContain(p.translation.replace(/\s/g,''));}
+  for(const p of result.passages){expect(text).toContain(p.original_text.replace(/\s/g,''));expect(text).toContain(p.translation.replace(/\s/g,''));
+    if(state.readings_version==='gwansang-grouped-v2'){expect(p.reading?.meaning_basis).toBe('representative');expect(text).toContain(p.reading!.meaning.replace(/\s/g,''));}}
   const onePage=await page.getByRole('button',{name:'A4 한 장 인쇄',exact:true}).isEnabled();
   if(onePage)expect(doc.numPages).toBe(1);
   // Opt-in only (FACETELLER_PHOTO_CHECK=1): verify the frontal photo/overlay geometry with scalar checks.
@@ -133,7 +134,7 @@ with zipfile.ZipFile(r/'data/raw/kface/zips'/f'{s}.zip') as z:
     corpus_sha256:state.corpus_sha256,passages:result.passages.length,confirmed:result.items.filter(i=>i.status==='CONFIRMED').length,
     held:result.items.filter(i=>i.status==='HELD').length,pdf_pages:doc.numPages,one_page_button:onePage,
     photos_saved:false,external_requests:external.length,page_errors:errors,received_to_result_seconds:raw.runtime?.timings?.received_to_result_seconds??null,
-    ...(state.reading_catalog_kind==='gwansang_grouped'?{unified_readings_verified:true,gwansang_catalog_sha256:state.gwansang_catalog_sha256}:{}),
+    ...(state.reading_catalog_kind==='gwansang_grouped'?{unified_readings_verified:true,representative_meaning_pdf_verified:state.readings_version==='gwansang-grouped-v2',gwansang_catalog_sha256:state.gwansang_catalog_sha256}:{}),
     ...(photoCheck?{photo_overlay_check:photoCheck}:{})},null,2));
   await doc.loadingTask.destroy();
 });

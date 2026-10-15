@@ -41,7 +41,7 @@ def oracle(document, items, measurements):
                 valid = False
         if not valid:
             continue
-        source = sorted((s for s in shape['출처'] if s['적용성별']=='공통'), key=lambda s:(s['순위'],s['출처id']))[0]
+        source = next(s for s in shape['출처'] if s['출처id'] == b['presentation']['representative_source_id'] and s['적용성별'] == '공통')
         candidates.append(Passage('GW-'+key, frozenset(b['required_labels']), source['원문'], source['번역'], source['해설'],
                                   {'shape':shape, 'source':source, 'binding':b}, 0, int(key[1:])))
     return candidates
@@ -62,8 +62,10 @@ def verify(result, catalog, document):
         assert p['source']['url'] == source['github']
         assert p['source']['title'] == source['책_한글']
         assert p['source']['chapter'] == source['편']
-        assert p['reading']['title'] == binding.get('title',shape['생김새'])
-        assert p['reading']['meaning'] == shape['종합풀이']
+        assert p['reading']['title'] == binding['presentation']['title']
+        assert p['reading']['meaning'] == binding['presentation']['meaning']
+        assert p['reading']['meaning_basis'] == 'representative'
+        assert p['source']['reading_basis'] == 'reviewed_representative'
         assert p['reading']['valence'] == 'favorable'
     assert result['named_types'] == []
     assert result['ranking_policy']['grouping'] == 'one_per_shape_before_top_five'

@@ -8,6 +8,7 @@ from copy import deepcopy
 import hashlib
 import json
 import math
+import unicodedata
 from pathlib import Path
 
 from facework.pilot_contract import Passage
@@ -30,6 +31,7 @@ class GwansangCatalog:
         if set(self.shapes) != set(self.bindings):
             raise ValueError('Every shape must have an explicit binding or exclusion')
         source_ids = set()
+        self.aliases = {}
         for key, shape in self.shapes.items():
             binding = self.bindings[key]
             if not binding.get('reason') or not isinstance(binding.get('enabled'), bool):
@@ -50,11 +52,38 @@ class GwansangCatalog:
             if len(shape['출처']) != shape['출처수']:
                 raise ValueError('Incorrect source count')
             labels = binding.get('required_labels', [])
+            presentation = binding.get('presentation', {})
+            if not isinstance(presentation.get('title'), str) or not presentation['title'].strip():
+                raise ValueError('Every shape needs a reviewed display title')
+            for field in ('aliases', 'related_types', 'topics'):
+                values = presentation.get(field)
+                if not isinstance(values, list) or any(not isinstance(v, str) or not v.strip() for v in values):
+                    raise ValueError('Invalid presentation terms')
+                if len({self.normalize_name(v) for v in values}) != len(values):
+                    raise ValueError('Duplicate presentation term')
+            names = {self.normalize_name(n) for n in [presentation['title'], *presentation['aliases']]}
+            if names & {self.normalize_name(n) for n in presentation['related_types']}:
+                raise ValueError('A related type is not an alias')
+            for name in names:
+                if name in self.aliases and self.aliases[name] != key:
+                    raise ValueError('Ambiguous shape alias')
+                self.aliases[name] = key
+            selected = presentation.get('representative_source_id')
+            excluded = presentation.get('excluded_sources', {})
+            ids = {s['출처id'] for s in shape['출처']}
+            if (not isinstance(excluded, dict) or any(not isinstance(v, str) or not v.strip() for v in excluded.values())
+                    or selected in excluded or set(excluded) | ({selected} if selected else set()) != ids
+                    or not presentation.get('selection_reason')):
+                raise ValueError('Every source needs an explicit selection or exclusion')
             if binding['enabled']:
                 if not labels or len(set(labels)) != len(labels):
                     raise ValueError('Enabled shape needs distinct required labels')
                 if shape['대상성별'] != '공통' or not self.representative(shape):
                     raise ValueError('Do not infer gender from a face')
+                if not isinstance(presentation.get('meaning'), str) or not presentation['meaning'].strip() or not presentation['topics']:
+                    raise ValueError('Enabled shape needs a source-specific meaning')
+            elif selected is not None or presentation.get('meaning') is not None:
+                raise ValueError('Excluded shape cannot supply an automatic reading')
             for gate in binding.get('measurement_gates', []):
                 if gate['feature'] != 'brow_length' or gate['source'] != 'segmentation' or gate['unit'] != 'ratio':
                     raise ValueError('Unknown measured condition')
@@ -93,11 +122,16 @@ class GwansangCatalog:
         return result
 
     @staticmethod
-    def representative(shape):
-        # This supplied archive contains favorable readings only. Other audiences
-        # cannot be promoted simply because they have a higher source priority.
-        common = [s for s in shape['출처'] if s['적용성별'] == '공통']
-        return min(common, key=lambda s: (s['순위'], s['출처id'])) if common else None
+    def normalize_name(name):
+        return ''.join(unicodedata.normalize('NFKC', name).split())
+
+    def shape_for_alias(self, name):
+        """Resolve a reviewed name only; related types never create extra cards."""
+        return self.aliases.get(self.normalize_name(name))
+
+    def representative(self, shape):
+        selected = self.bindings[shape['생김새코드']]['presentation']['representative_source_id']
+        return next((s for s in shape['출처'] if s['출처id'] == selected and s['적용성별'] == '공통'), None)
 
     def verify_snapshot(self, repository):
         stored, recorded_hash = repository.gwansang_catalog()
@@ -128,7 +162,7 @@ class GwansangCatalog:
                 'url': source['github'], 'annotation_status': '제공 자료 기준',
                 'shape_id': key, 'source_id': source['출처id'], 'source_rank': source['순위'],
                 'representative': True, 'archived_source_count': shape['출처수'],
-                'reading_basis': 'user_supplied_group_summary',
+                'reading_basis': 'reviewed_representative',
             }, literature_priority=0, passage_order=int(key[1:])))
         return out
 
@@ -145,16 +179,17 @@ class GwansangCatalog:
     def apply(self, result):
         for passage in result['passages']:
             key = passage['source']['shape_id']
-            shape, binding = self.shapes[key], self.bindings[key]
+            presentation = self.bindings[key]['presentation']
             passage['reading'] = {
-                'title': binding.get('title', shape['생김새']),
-                'meaning': shape['종합풀이'],
+                'title': presentation['title'],
+                'meaning': presentation['meaning'],
+                'meaning_basis': 'representative',
                 'valence': 'favorable', 'valence_label': '길하게 본 기록',
-                'topics': shape['분야'].split('·'),
+                'topics': list(presentation['topics']),
             }
         result['named_types'] = []
         result['ranking_policy'].update(
             grouping='one_per_shape_before_top_five',
-            representative_policy='user_curated_favorable_common_source_then_rank',
+            representative_policy='reviewed_compatible_favorable_common_source',
             catalog_version=self.document['bindings']['version'])
         return result

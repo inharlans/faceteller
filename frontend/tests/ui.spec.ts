@@ -175,3 +175,44 @@ test('19 backend overlay features: 4 default lines, all reachable, mobile/dark/p
   await expect(page.locator('img')).toHaveCount(0);expect(await page.evaluate(()=>(window as unknown as {testURLs:Set<string>}).testURLs.size)).toBe(0);
   expect(errors).toEqual([]);
 });
+test('agreed representative readings: long titles, source-specific meaning, same meaning on A4, no duplicate text',async({page})=>{
+  await testAdapter(page);const errors:string[]=[],external:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+  page.on('request',r=>{if(/^https?:/.test(r.url())&&!r.url().startsWith('http://127.0.0.1:5173/'))external.push(new URL(r.url()).origin);});
+  // Real source texts from the supplied catalogue, synthetic face result and scores; no photos.
+  const catalog=JSON.parse(readFileSync(path.resolve('../data/release/gwansang/gwansang.json'),'utf8').replace(/^﻿/,''));
+  const sources=new Map<string,Record<string,string|number>>();for(const shape of catalog['생김새'])for(const s of shape['출처'])sources.set(s['출처id'],s);
+  const picks:[string,string,string,'favorable'][]= [
+    ['GS105','앙월구 · 올라간 입꼬리','두 입꼬리가 달처럼 위로 젖혀진 입은 많은 녹을 누리고 맑은 이름을 얻는다고 보았습니다.','favorable'],
+    ['GS036','일자미 · 일자 눈썹','눈썹이 一자로 가로놓이면 의리가 넉넉하고 사람을 아낀다고 보았습니다.','favorable'],
+    ['GS047','가늘고 긴 눈','눈이 가늘면 정신을 안으로 갈무리하고, 가늘면서 길면 크게 귀하다고 보았습니다.','favorable'],
+    ['GS115','일자구 · 얇게 다문 입 · 위아래 입술이 안으로 거두어져 잘 보이지 않는 입','위아래 입술이 거두어진 입은 귀한 이름과 두터운 녹을 누리고 말을 잘한다고 보았습니다.','favorable'],
+    ['GS075','코끝이 둥글고 꽉 찬 코','','favorable']];
+  const data=fixture(5);data.named_types=[];
+  data.passages=data.passages.map((p,i)=>{const s=sources.get(picks[i][0])!;const meaning=picks[i][2]||String(s['번역']);
+    return {...p,original_text:String(s['원문']),translation:String(s['번역']),commentary:String(s['해설']),
+      source:{title:String(s['책_한글']),chapter:String(s['편']),locator:`제${s['조']}조`,url:String(s['github']),annotation_status:'제공 자료 기준'},
+      reading:{title:picks[i][1],meaning,valence:picks[i][3],valence_label:'길하게 본 기록',meaning_basis:'representative' as const}};});
+  await page.route('**/api/v1/analysis',route=>route.fulfill({status:200,contentType:'application/x-ndjson',body:payload(data)}));
+  await page.goto('/');await upload(page);await expect(page.locator('#result-title')).toBeVisible();
+  await expect(page.locator('.passage-card')).toHaveCount(5);await expect(page.locator('.type-card')).toHaveCount(0);
+  expect(await page.locator('.card-title').allTextContents()).toEqual(picks.map(p=>p[1]));
+  const card5=page.locator('.passage-card').nth(4);const t5=String(sources.get('GS075')!['번역']);
+  expect((await card5.textContent())!.split(t5).length-1).toBe(1);
+  await page.screenshot({path:path.join(artifacts,'agreed-readings-desktop.png'),fullPage:true});
+  await page.getByRole('button',{name:'어두운 테마로 전환'}).click();await page.setViewportSize({width:390,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  expect(await page.locator('.card-title').evaluateAll(h=>h.every(e=>e.scrollWidth<=e.clientWidth+1))).toBe(true);
+  await page.screenshot({path:path.join(artifacts,'agreed-readings-mobile-dark.png'),fullPage:true});
+  await page.setViewportSize({width:1280,height:1000});await page.getByRole('button',{name:'밝은 테마로 전환'}).click();
+  await page.getByRole('button',{name:'결과지 미리보기',exact:true}).click();await page.evaluate(()=>document.fonts.ready);
+  await expect(page.locator('#print-sheet')).toHaveAttribute('data-fits','true');
+  const screenMeanings=data.passages.map(p=>p.reading!.meaning);
+  expect(await page.locator('#print-sheet .print-meaning').allTextContents()).toEqual(screenMeanings);
+  await page.screenshot({path:path.join(artifacts,'agreed-readings-a4.png'),fullPage:true});
+  const pdf=path.join(artifacts,'agreed-readings-a4.pdf');await page.pdf({path:pdf,format:'A4',preferCSSPageSize:true,printBackground:true});
+  const pdfjs=await import('pdfjs-dist/legacy/build/pdf.mjs');const doc=await pdfjs.getDocument({data:new Uint8Array(readFileSync(pdf))}).promise;expect(doc.numPages).toBe(1);
+  const text=(await (await doc.getPage(1)).getTextContent()).items.map(i=>'str' in i?i.str:'').join('').replace(/\s/g,'');await doc.loadingTask.destroy();
+  for(const p of data.passages){expect(text).toContain(p.original_text.replace(/\s/g,''));expect(text).toContain(p.translation.replace(/\s/g,''));expect(text).toContain(p.reading!.meaning.replace(/\s/g,''));}
+  expect(text.split(t5.replace(/\s/g,'')).length-1).toBe(1);for(const p of data.passages)expect(text).not.toContain(p.commentary.replace(/\s/g,''));
+  expect(errors).toEqual([]);expect(external).toEqual([]);
+});
