@@ -1,0 +1,2819 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《論頭面黑子》",
+  "《論黑子》",
+  "《相黑子》",
+  "《論斑點》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642M-mole-001",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "生爰中者，主富壽，近上者尤極貴。",
+   "translation": "원중(爰中)에 난 것은 부유와 장수를 주관하고, 위쪽에 가까운 것은 더욱 지극히 귀하다.",
+   "commentary": "'爰中'이 어느 부위인지 원문만으로 분명하지 않아(머리 부위로 짐작될 뿐이다) 글자대로 옮겼다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生爰中",
+     "observable_ko": "원중 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "mole",
+     "evidence": "近上",
+     "observable_ko": "그 부위 위쪽에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-002",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "額上有七黑者，主大貴，",
+   "translation": "이마 위에 일곱 개의 검은 점이 있는 자는 크게 귀함을 주관하고,",
+   "commentary": "이마에 점 일곱 개가 있다는 서술로, 위치와 개수를 특정한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "額上有七黑",
+     "observable_ko": "이마에 점 일곱 개가 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-003",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "「天中主妨父，",
+   "translation": "천중(天中, 이마 맨 위 가운데)에 있으면 아버지를 해침(妨)을 주관하고,",
+   "commentary": "천중(天中, 이마 맨 위 가운데)에 난 점을 말한다. 문헌은 이를 아버지를 해친다는 낙인성 주장과 연결했다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天中",
+     "observable_ko": "천중에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-004",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "天庭主妨母，",
+   "translation": "천정(天庭, 이마 위쪽 가운데)에 있으면 어머니를 해침을 주관하고,",
+   "commentary": "천정(天庭, 이마 위쪽 가운데)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天庭",
+     "observable_ko": "천정에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-005",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "司空主妨父母，",
+   "translation": "사공(司空, 이마 가운데)에 있으면 부모를 해침을 주관하고,",
+   "commentary": "사공(司空, 이마 가운데)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "司空",
+     "observable_ko": "사공에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-006",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "印堂當中主貴，",
+   "translation": "인당(印堂, 두 눈썹 사이) 한가운데에 있으면 귀함을 주관하고,",
+   "commentary": "인당(印堂) 한가운데에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "印堂當中",
+     "observable_ko": "인당에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-007",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "兩耳輪主慧，",
+   "translation": "두 귓바퀴에 있으면 슬기로움을 주관하고,",
+   "commentary": "귓바퀴(耳輪)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "兩耳輪",
+     "observable_ko": "귓바퀴에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-008",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "耳內主壽，",
+   "translation": "귀 안에 있으면 장수를 주관하고,",
+   "commentary": "귀 안쪽에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳內",
+     "observable_ko": "귀 안쪽에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-009",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "耳珠主財，",
+   "translation": "이주(耳珠, 귓구슬)에 있으면 재물을 주관하고,",
+   "commentary": "이주(耳珠, 귓구슬)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳珠",
+     "observable_ko": "이주에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-010",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "眼眩主作賊，",
+   "translation": "안현(眼眩)에 있으면 도적이 됨을 주관하고,",
+   "commentary": "안현(眼眩, 눈가 부위)에 난 점을 말한다. '眼眩'은 눈가 부위로 읽히나 정확한 위치는 분명하지 않다. 문헌은 이를 도둑질이라는 낙인성 주장과 연결했다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眼眩",
+     "observable_ko": "안현에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-011",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "山根上主剋害，",
+   "translation": "산근(山根, 콧뿌리) 위에 있으면 극해(剋害)를 주관하고,",
+   "commentary": "산근(山根, 콧뿌리) 위에 난 점을 말한다. 극해(剋害)는 가족 등을 해치는 것을 이르는 관상 용어로 쓰인다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山根上",
+     "observable_ko": "산근에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-012",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "山根下主兵死，",
+   "translation": "산근 아래에 있으면 병기에 죽음(兵死)을 주관하고,",
+   "commentary": "산근(山根) 아래에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山根下",
+     "observable_ko": "산근에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-013",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "鼻側病苦死，",
+   "translation": "코 옆에 있으면 병고로 죽고,",
+   "commentary": "코 옆에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻側",
+     "observable_ko": "코 옆에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-014",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "目上窮困多，",
+   "translation": "눈 위에 있으면 궁핍과 곤란이 많고,",
+   "commentary": "눈 위에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "目上",
+     "observable_ko": "눈 위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-015",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "眉中主富貴，",
+   "translation": "눈썹 가운데 있으면 부귀를 주관하고,",
+   "commentary": "눈썹 가운데에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉中",
+     "observable_ko": "눈썹 가운데에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-016",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "眼上主吉利，",
+   "translation": "눈 위에 있으면 길하고 이로움을 주관하고,",
+   "commentary": "눈 위(眼上)에 난 점을 말한다. 앞의 '目上'과 위치 표현이 비슷하나 주장이 반대여서 서로 다른 부위를 뜻할 수 있다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眼上",
+     "observable_ko": "눈 위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-017",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "鼻頭防害刀死，",
+   "translation": "코끝에 있으면 해침을 당해 칼에 죽음을 막아야 하고,",
+   "commentary": "준두(鼻頭, 코끝)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻頭",
+     "observable_ko": "준두에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-018",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "鼻梁迍蹇多滯，",
+   "translation": "콧등에 있으면 일이 막히고 어려워 정체가 많고,",
+   "commentary": "콧등(鼻梁)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻梁",
+     "observable_ko": "콧등에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-019",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "人中求婦易，",
+   "translation": "인중(人中)에 있으면 아내를 구하기 쉽고,",
+   "commentary": "인중(人中)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中",
+     "observable_ko": "인중에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-020",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "口側聚財難，",
+   "translation": "입 옆에 있으면 재물을 모으기 어렵고,",
+   "commentary": "입 옆에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口側",
+     "observable_ko": "입 옆에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-021",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "口中主酒」食，",
+   "translation": "입 가운데 있으면 술과 음식을 주관하고,",
+   "commentary": "입 부위(口中)에 난 점을 말한다. 원문 중간의 따옴표(」)는 그대로 두었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口中",
+     "observable_ko": "입 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-tongue-001",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "tongue",
+   "original_text": "舌上主虛言，",
+   "translation": "혀 위에 있으면 헛된 말을 주관하고,",
+   "commentary": "혀 위의 점을 말한다. 혀는 얼굴 정면 사진의 피부 점 항목에 해당하지 않아 관찰할 수 없다. 문헌은 이를 거짓말과 연결했다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上",
+     "observable_ko": "혀 위에 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "혀 위의 점은 다문 입의 얼굴 사진에서 보이지 않으며 얼굴 피부 점 레이블과 다르다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-022",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "脣下多破財。",
+   "translation": "입술 아래에 있으면 재물을 깨뜨림이 많다.",
+   "commentary": "입술 아래에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "脣下",
+     "observable_ko": "입술 아래에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-023",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "口角主失職，",
+   "translation": "입꼬리에 있으면 직위를 잃음을 주관하고,",
+   "commentary": "입꼬리(口角)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口角",
+     "observable_ko": "입꼬리에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-024",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "承漿主醉死，",
+   "translation": "승장(承漿, 아랫입술 아래 오목한 곳)에 있으면 취해서 죽음을 주관하고,",
+   "commentary": "승장(承漿, 아랫입술 아래)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "承漿",
+     "observable_ko": "승장에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-025",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "左廂主橫失，",
+   "translation": "좌상(左廂)에 있으면 뜻밖의 잃음(橫失)을 주관하고,",
+   "commentary": "좌상(左廂, 이마 위쪽 줄 부위)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "左廂",
+     "observable_ko": "좌상에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-026",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "高廣妨二親，",
+   "translation": "고광(高廣)에 있으면 양친을 해치고,",
+   "commentary": "고광(高廣, 이마 위쪽 바깥 부위)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "高廣",
+     "observable_ko": "고광에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-027",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "尺陽主客死，",
+   "translation": "척양(尺陽)에 있으면 객사를 주관하고,",
+   "commentary": "척양(尺陽, 이마 위쪽 부위)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "尺陽",
+     "observable_ko": "척양에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-028",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "輔角主兵死，",
+   "translation": "보각(輔角)에 있으면 병기에 죽음을 주관하고,",
+   "commentary": "보각(輔角, 이마 모서리)에 난 점을 말한다. 같은 보각이 뒤에서 다시 '主下貧'으로 나와 한쪽은 전사 과정의 중복·오류일 수 있으나 고치지 않았다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "輔角主兵",
+     "observable_ko": "보각에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-029",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "邊地主外死，",
+   "translation": "변지(邊地)에 있으면 밖에서 죽음을 주관하고,",
+   "commentary": "변지(邊地, 이마 가장자리)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "邊地",
+     "observable_ko": "변지에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-030",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "輔角主下貧，",
+   "translation": "보각(輔角)에 있으면 아래로 가난함을 주관하고,",
+   "commentary": "보각(輔角, 이마 모서리)에 난 점을 말한다. 앞의 '輔角主兵死'와 같은 부위가 다시 나온다. '下貧'은 '몹시 가난함'으로도 읽힌다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "輔角主下",
+     "observable_ko": "보각에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-031",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "山林主蟲傷，",
+   "translation": "산림(山林)에 있으면 벌레(뱀)에게 다침을 주관하고,",
+   "commentary": "산림(山林, 이마 바깥쪽 부위)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山林",
+     "observable_ko": "산림에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-032",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "虎角主軍亡，",
+   "translation": "호각(虎角)에 있으면 군중(軍中)에서 죽음을 주관하고,",
+   "commentary": "호각(虎角)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "虎角",
+     "observable_ko": "호각에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-033",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "劫門主箭死，",
+   "translation": "겁문(劫門)에 있으면 화살에 죽음을 주관하고,",
+   "commentary": "겁문(劫門)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "劫門",
+     "observable_ko": "겁문에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-034",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "青路主客傷亡，",
+   "translation": "청로(青路)에 있으면 객지에서 다쳐 죽음을 주관하고,",
+   "commentary": "청로(青路)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "青路",
+     "observable_ko": "청로에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-035",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "太陽主夫婦吉，",
+   "translation": "태양(太陽)에 있으면 부부가 길함을 주관하고,",
+   "commentary": "태양(太陽)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "太陽",
+     "observable_ko": "태양에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-036",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "魚尾主市井亡，",
+   "translation": "어미(魚尾, 눈꼬리)에 있으면 저잣거리에서 죽음을 주관하고,",
+   "commentary": "어미(魚尾, 눈꼬리)에 난 점을 말한다. '市井亡'은 저잣거리에서의 죽음으로, 처형을 뜻하는 '시사(市死)'와 같은 맥락으로 읽힐 수 있다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "魚尾",
+     "observable_ko": "어미에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-037",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "奸門主刃死，",
+   "translation": "간문(奸門, 눈꼬리 바깥)에 있으면 칼날에 죽음을 주관하고,",
+   "commentary": "간문(奸門, 눈꼬리 바깥)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "奸門",
+     "observable_ko": "간문에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-038",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "天井主水亡，",
+   "translation": "천정(天井)에 있으면 물에 죽음을 주관하고,",
+   "commentary": "천정(天井)에 난 점을 말한다. 천정(天井)은 이마의 천정(天庭)과 다른 부위 이름이며 위치는 원문에 없다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天井",
+     "observable_ko": "천정에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-039",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "林中主清慎，",
+   "translation": "임중(林中)에 있으면 맑고 삼감을 주관하고,",
+   "commentary": "임중(林中)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "林中",
+     "observable_ko": "임중에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-040",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "夫座主喪夫，",
+   "translation": "부좌(夫座)에 있으면 남편을 잃음을 주관하고,",
+   "commentary": "부좌(夫座)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "夫座",
+     "observable_ko": "부좌에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-041",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "妻座主喪妻。",
+   "translation": "처좌(妻座)에 있으면 아내를 잃음을 주관한다.",
+   "commentary": "처좌(妻座)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "妻座",
+     "observable_ko": "처좌에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-042",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "長男主剋長子，",
+   "translation": "장남(長男) 자리에 있으면 맏아들을 극(剋)함을 주관하고,",
+   "commentary": "장남(長男)에 난 점을 말한다. 부위 이름 자체가 자녀에 배당된 자리임을 나타낸다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "長男",
+     "observable_ko": "장남에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-043",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "中男主剋中兒，",
+   "translation": "중남(中男) 자리에 있으면 가운데 아이를 극함을 주관하고,",
+   "commentary": "중남(中男)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "中男",
+     "observable_ko": "중남에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-044",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "次男主剋次子，",
+   "translation": "차남(次男) 자리에 있으면 둘째 아들을 극함을 주관하고,",
+   "commentary": "차남(次男)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "次男",
+     "observable_ko": "차남에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-045",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "金櫃主破敗，",
+   "translation": "금궤(金櫃)에 있으면 깨지고 패함을 주관하고,",
+   "commentary": "금궤(金櫃)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "金櫃",
+     "observable_ko": "금궤에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-046",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "上墓主無職，",
+   "translation": "상묘(上墓)에 있으면 직위가 없음을 주관하고,",
+   "commentary": "상묘(上墓)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "上墓",
+     "observable_ko": "상묘에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-047",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "學堂主無學，",
+   "translation": "학당(學堂)에 있으면 배움이 없음을 주관하고,",
+   "commentary": "학당(學堂)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "學堂",
+     "observable_ko": "학당에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-048",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "命門主火厄，",
+   "translation": "명문(命門, 귀 앞)에 있으면 불의 재액을 주관하고,",
+   "commentary": "명문(命門, 귀 앞)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "命門",
+     "observable_ko": "명문에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-049",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "僕使主為賤，",
+   "translation": "복사(僕使)에 있으면 천함을 주관하고,",
+   "commentary": "복사(僕使)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "僕使",
+     "observable_ko": "복사에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-050",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "嬰門小使主貧薄，",
+   "translation": "영문(嬰門)·소사(小使)에 있으면 가난하고 박함을 주관하고,",
+   "commentary": "영문(嬰門)·소사(小使)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "嬰門小使",
+     "observable_ko": "영문에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-051",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "支堂主剋妻，",
+   "translation": "지당(支堂)에 있으면 아내를 극함을 주관하고,",
+   "commentary": "지당(支堂)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "支堂",
+     "observable_ko": "지당에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-052",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "外宅主無屋，",
+   "translation": "외택(外宅)에 있으면 집이 없음을 주관하고,",
+   "commentary": "외택(外宅)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "外宅",
+     "observable_ko": "외택에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-053",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "奴婢主妨奴婢，",
+   "translation": "노비(奴婢) 자리에 있으면 노비를 해침을 주관하고,",
+   "commentary": "노비(奴婢)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "奴婢主",
+     "observable_ko": "노비에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-054",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "坑塹主落崖，",
+   "translation": "갱참(坑塹)에 있으면 벼랑에서 떨어짐을 주관하고,",
+   "commentary": "갱참(坑塹)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "坑塹",
+     "observable_ko": "갱참에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-055",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "陂池主溺水，",
+   "translation": "피지(陂池)에 있으면 물에 빠짐을 주관하고,",
+   "commentary": "피지(陂池)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "陂池",
+     "observable_ko": "피지에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-056",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "下墓主剋亡，",
+   "translation": "하묘(下墓)에 있으면 극하여 죽음을 주관하고,",
+   "commentary": "하묘(下墓)에 난 점을 말한다. '剋亡'은 남을 극해 죽게 함인지 자신이 죽음인지 분명하지 않다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "下墓",
+     "observable_ko": "하묘에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-057",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "三陽主謀人，",
+   "translation": "삼양(三陽)에 있으면 남을 모해함을 주관하고,",
+   "commentary": "삼양(三陽, 눈 아래 부위)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "三陽",
+     "observable_ko": "삼양에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-058",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "盜部主奸竊，",
+   "translation": "도부(盜部)에 있으면 간사한 도둑질을 주관하고,",
+   "commentary": "도부(盜部)에 난 점을 말한다. 문헌은 이를 도둑질이라는 낙인성 주장과 연결했다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "盜部",
+     "observable_ko": "도부에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-059",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "兩廚主乏食，",
+   "translation": "양주(兩廚)에 있으면 먹을 것이 모자람을 주관하고,",
+   "commentary": "양주(兩廚)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "兩廚",
+     "observable_ko": "양주에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-060",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "祖宅主移屋，",
+   "translation": "조택(祖宅)에 있으면 집을 옮김을 주관하고,",
+   "commentary": "조택(祖宅)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "祖宅",
+     "observable_ko": "조택에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-061",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "大海主水厄，",
+   "translation": "대해(大海)에 있으면 물의 재액을 주관하고,",
+   "commentary": "대해(大海)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "大海",
+     "observable_ko": "대해에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-062",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "年上主貧困，",
+   "translation": "연상(年上, 콧등 위쪽)에 있으면 가난과 곤궁을 주관하고,",
+   "commentary": "연상(年上, 콧등 위쪽)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "年上",
+     "observable_ko": "연상에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-063",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "地閣主少田宅，",
+   "translation": "지각(地閣, 턱)에 있으면 전택이 적음을 주관하고,",
+   "commentary": "지각(地閣, 턱)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "地閣",
+     "observable_ko": "지각에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-064",
+   "page_id": "gj642",
+   "section": "《論頭面黑子》",
+   "region": "mole",
+   "original_text": "家信主家破散也。",
+   "translation": "가신(家信)에 있으면 집안이 깨지고 흩어짐을 주관한다.",
+   "commentary": "가신(家信)에 난 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "家信",
+     "observable_ko": "가신에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-065",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "「夫黑子者，若山之生林木，地之出堆阜也。山有美質，則生善木以顯其秀；地積污土，則生惡阜以樂其濁。萬物之理皆然。",
+   "translation": "「무릇 흑자(黑子, 검은 점)란 산에 숲과 나무가 나고 땅에 언덕이 솟는 것과 같다. 산에 아름다운 바탕이 있으면 좋은 나무가 나서 그 빼어남을 드러내고, 땅에 더러운 흙이 쌓이면 나쁜 언덕이 나서 그 탁함을 즐긴다. 만물의 이치가 모두 그러하다.",
+   "commentary": "점을 산의 나무·땅의 언덕에 비유한 총론이다. 특정 형태 조건 없이 원리를 서술한다. '以樂其濁'의 '樂'은 뜻이 어색하나 글자대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-066",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "是以人有美質也，則生其黑以彰其貴；有濁質也，則生惡痣以表其賤。",
+   "translation": "이 때문에 사람이 아름다운 바탕이 있으면 그 검은 점이 나서 그 귀함을 드러내고, 탁한 바탕이 있으면 나쁜 점(惡痣)이 나서 그 천함을 나타낸다.",
+   "commentary": "앞의 비유를 사람에게 적용한 원리 서술이다. 점이 귀천을 드러낸다는 문헌의 주장이며 구체 위치는 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-067",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "故漢高祖左股七十二黑子，則見帝王之瑞相。",
+   "translation": "그러므로 한 고조(漢高祖)는 왼쪽 넓적다리에 일흔두 개의 검은 점이 있었으니, 제왕의 상서로운 상이 드러난 것이다.",
+   "commentary": "문헌이 한 고조의 일화를 예로 든 구절이다. 넓적다리의 점은 얼굴이 아니어서 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "左股七十二黑子",
+     "observable_ko": "왼쪽 넓적다리에 점 72개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴이 아닌 신체 부위의 점이라 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-068",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "凡黑子生於顯處者多凶，生於隱處者多吉，",
+   "translation": "무릇 검은 점이 드러난 곳에 난 것은 흉함이 많고, 숨은 곳에 난 것은 길함이 많으며,",
+   "commentary": "점이 드러난 곳·숨은 곳에 났는지에 따른 일반론이다. 드러난 곳은 얼굴을 포함할 수 있으나 범위가 특정되지 않고, 숨은 곳은 사진으로 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生於顯處",
+     "observable_ko": "드러난 곳에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "드러난 곳의 범위가 얼굴에 한정되지 않아 얼굴 점 유무 레이블의 근사일 뿐이다"
+    },
+    {
+     "region": "other",
+     "evidence": "生於隱處",
+     "observable_ko": "숨은 곳(가려진 신체)에 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "가려진 신체 부위는 얼굴 사진으로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-069",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "生於面上者皆不利也。",
+   "translation": "얼굴 위에 난 것은 모두 이롭지 않다.",
+   "commentary": "문헌의 黑子는 이 절에서 痣와 함께 쓰인 옛 피부 표식 명칭이다. 상안면의 점상 자국이 얼굴 위에 있다는 위치 조건은 충족할 수 있지만, 일반적인 짙은 자국과 이 문헌 범주의 외관상 대응은 확정되지 않아 직접 연결하지 않는다. 임상적 진단을 요구한다는 뜻은 아니다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生於面上",
+     "observable_ko": "얼굴에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "상안면 표식의 존재는 얼굴 위 존재를 충족하지만, 일반적인 짙은 점상 자국과 문헌의 黑子·痣 범주의 외관상 대응이 확정되지 않았다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-070",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "且黑者」其色黑如漆。赤如硃者善也。",
+   "translation": "또 검은 것은」 그 색이 옻처럼 검다. 주사(硃)처럼 붉은 것은 좋다.",
+   "commentary": "점의 색에 관한 서술이다. 원문 중간의 따옴표(」)는 그대로 두었다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "其色黑如漆",
+     "observable_ko": "점 색이 옻처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    },
+    {
+     "region": "mole",
+     "evidence": "赤如硃",
+     "observable_ko": "점 색이 주사처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-071",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "帶赤者主口舌鬥競。",
+   "translation": "붉은빛을 띤 것은 말다툼과 싸움을 주관한다.",
+   "commentary": "점의 색조에 관한 서술로 관찰 불가다. 문헌은 이를 구설·다툼과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "帶赤",
+     "observable_ko": "점이 붉은빛을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-072",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "帶白者主憂驚刑厄。",
+   "translation": "흰빛을 띤 것은 근심·놀람과 형벌의 재액을 주관한다.",
+   "commentary": "점의 색조에 관한 서술로 관찰 불가다. 문헌은 이를 형벌의 재액과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "帶白",
+     "observable_ko": "점이 흰빛을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-073",
+   "page_id": "gj642",
+   "section": "《論黑子》",
+   "region": "mole",
+   "original_text": "帶黃者主遺忘失脫。此義理之辯也。",
+   "translation": "누런빛을 띤 것은 잊어버림과 잃어버림을 주관한다. 이것이 의리(義理)의 분별이다.",
+   "commentary": "점의 색조에 관한 서술로 관찰 불가다. 마지막 문장은 이 논의를 맺는 말이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "帶黃",
+     "observable_ko": "점이 누런빛을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-074",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "天中貴位不宜居，男妨父母女妨夫，",
+   "translation": "천중(天中)은 귀한 자리이나 (점이) 머물기에 마땅하지 않으니, 남자는 부모를 해치고 여자는 남편을 해친다.",
+   "commentary": "이마 맨 위 가운데 천중의 점을 말한다. 성별에 따라 주장이 갈린다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天中",
+     "observable_ko": "천중(이마 맨 위 가운데)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-075",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "若見天庭憂市死，",
+   "translation": "만약 천정(天庭)에 보이면 저잣거리에서 죽음(市死)을 근심하고,",
+   "commentary": "천정(이마 위쪽 가운데)의 점을 말한다. '市死'는 저잣거리에서의 처형을 뜻하는 말로 쓰인다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天庭",
+     "observable_ko": "천정(이마 위쪽 가운데)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-076",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "印堂官事或才儲，",
+   "translation": "인당(印堂)이면 관청의 일(송사)이 있거나 재물을 쌓는다.",
+   "commentary": "인당(두 눈썹 사이)의 점을 말한다. '才儲'는 '財儲(재물 저축)'의 뜻으로 읽었으나 확실하지 않다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "印堂",
+     "observable_ko": "인당에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-077",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "壽上防妻尤自得，",
+   "translation": "수상(壽上)이면 아내를 막아야(해침을 경계해야) 하나 오히려 스스로 얻음이 있다.",
+   "commentary": "수상(壽上)은 콧등 가운데 부위다. '防妻尤自得'은 뜻이 분명하지 않아 글자대로 옮겼다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "壽上",
+     "observable_ko": "수상(콧등 가운데)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-078",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "承漿若有醉中殂，",
+   "translation": "승장(承漿)에 만약 있으면 취한 가운데 죽고,",
+   "commentary": "아랫입술 아래 오목한 승장의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "承漿若有",
+     "observable_ko": "승장(아랫입술 아래)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-079",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "女人地閣須憂產，",
+   "translation": "여인은 지각(地閣, 턱)에 있으면 반드시 해산을 근심해야 하고,",
+   "commentary": "턱의 점을 여성의 출산과 연결한 구절이다. 여성에게만 적용되는 조건이다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mole",
+     "evidence": "地閣",
+     "observable_ko": "턱에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-080",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "詔獄或見死囚拘，",
+   "translation": "조옥(詔獄)에 보이면 사형수로 갇히고,",
+   "commentary": "조옥(詔獄)은 부위 도식의 이름으로 보이나 위치는 원문에 없다. 문헌은 이를 사형수로 갇힘과 연결했다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "詔獄",
+     "observable_ko": "조옥 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-081",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "橫事相妨左廂出，",
+   "translation": "뜻밖의 일이 서로 해침은 좌상(左廂)에 나온 것이고,",
+   "commentary": "좌상(左廂, 이마 위쪽 줄 부위)의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "左廂出",
+     "observable_ko": "좌상에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-082",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "若臨，高廣二親無",
+   "translation": "만약 고광(高廣)에 임하면 양친이 없고,",
+   "commentary": "원문은 '若臨' 뒤에 쉼표가 있고 '無' 뒤에 끊김이 없어 구두가 어긋난 것으로 보이나 고치지 않고 '若臨高廣二親無'로 읽었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "高廣",
+     "observable_ko": "고광(이마 위쪽 바깥)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-083",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "尺陽，主往他鄉歿，",
+   "translation": "척양(尺陽)이면 타향에 가서 죽음을 주관하고,",
+   "commentary": "척양(尺陽)의 점을 말하며, 원문 구두가 앞 구절과 어긋나 있어 '尺陽'을 이 구절의 머리로 읽었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "尺陽",
+     "observable_ko": "척양에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-084",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "魚尾奸門盜賊辜。",
+   "translation": "어미(魚尾)·간문(奸門)이면 도적의 죄이다.",
+   "commentary": "눈꼬리(어미)와 그 바깥(간문)의 점을 말한다. 문헌은 이를 도적의 죄라는 낙인성 주장과 연결했다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "魚尾奸門",
+     "observable_ko": "눈꼬리·간문에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-085",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "華蓋暴亡",
+   "translation": "화개(華蓋)이면 갑자기 죽고,",
+   "commentary": "화개(華蓋) 부위의 점을 말한다. 한 행에 두 부위가 나와 따로 나누었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "華蓋",
+     "observable_ko": "화개 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-086",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "天井水，",
+   "translation": "천정(天井)이면 물(에 죽음)이다.",
+   "commentary": "앞 구절에 이어 천정(天井) 부위의 점을 물의 재앙과 연결한 것으로 읽었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天井",
+     "observable_ko": "천정(天井) 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-087",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "太陽官舍",
+   "translation": "태양(太陽)이면 관사(官舍)요,",
+   "commentary": "태양(太陽) 부위의 점을 말한다. '官舍'가 관직을 뜻하는지 관청 일을 뜻하는지 분명하지 않아 글자대로 옮겼다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "太陽",
+     "observable_ko": "태양 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-088",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "外陽逋，",
+   "translation": "외양(外陽)이면 달아남(逋)이다.",
+   "commentary": "외양(外陽) 부위의 점을 말한다. '逋'는 도망·체납 등으로 읽힐 수 있어 글자대로 옮겼다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "外陽",
+     "observable_ko": "외양 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-089",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "武庫主兵",
+   "translation": "무고(武庫)이면 병기(전쟁)를 주관하고,",
+   "commentary": "무고(이마 위쪽 가장자리)의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "武庫",
+     "observable_ko": "무고 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-090",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "邊地遠，",
+   "translation": "변지(邊地)이면 멀리 간다.",
+   "commentary": "변지(이마 바깥 가장자리)의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "邊地",
+     "observable_ko": "변지 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-091",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "遊軍亡陣或兵誅，",
+   "translation": "유군(遊軍)이면 진중에서 죽거나 병사에게 베인다.",
+   "commentary": "유군(遊軍)은 부위 이름으로 보이나 위치가 원문에 없다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "遊軍",
+     "observable_ko": "유군 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-092",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "或主書上憂無學，",
+   "translation": "혹 서상(書上)이면 배움이 없음을 근심함을 주관하고,",
+   "commentary": "'書上'을 부위 이름으로 읽었으나 확실하지 않다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "書上",
+     "observable_ko": "서상 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-093",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "井部宜防井厄虞。",
+   "translation": "정부(井部)이면 우물의 재액과 근심을 막아야 한다.",
+   "commentary": "정부(井部)는 부위 이름으로 보이나 위치가 원문에 없다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "井部",
+     "observable_ko": "정부 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-094",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "小便伎堂并內閣，主無侍養自區區。",
+   "translation": "소편(小便)·기당(伎堂)과 내각(內閣)이면 모시고 봉양할 이가 없어 스스로 구구함을 주관한다.",
+   "commentary": "세 부위 이름이 나열되나 위치가 원문에 없다. '侍養이 없음'은 노년에 봉양할 자식이 없음으로 읽힐 수 있다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "小便伎堂并內閣",
+     "observable_ko": "소편·기당·내각 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-095",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "不修幃帕看門閣，",
+   "translation": "휘장과 수건을 닦지 않음(집안이 문란함)은 문각(門閣)을 본다.",
+   "commentary": "'幃帕不修'는 '帷薄不修'와 같이 집안 남녀 관계가 문란함을 이르는 말로 읽힌다. 문각(門閣)은 위치가 원문에 없다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "門閣",
+     "observable_ko": "문각 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-096",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "祖宅如生沒故廬。",
+   "translation": "조택(祖宅)에 만약 나면 옛집을 잃는다.",
+   "commentary": "조택(祖宅) 부위의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "祖宅如生",
+     "observable_ko": "조택 부위에 점이 남",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-097",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "命門作事無終始，",
+   "translation": "명문(命門)이면 일을 함에 처음과 끝이 없고,",
+   "commentary": "명문(귀 앞)의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "命門",
+     "observable_ko": "명문(귀 앞)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-098",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "學館看來學豈餘。",
+   "translation": "학관(學館)을 보건대 배움이 어찌 남겠는가.",
+   "commentary": "학관(學館)의 점을 배움과 연결한 구절이다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "學館",
+     "observable_ko": "학관 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-099",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "止口囁嚅多咀喁，",
+   "translation": "지구(止口)이면 우물쭈물 말하고 수군거림이 많고,",
+   "commentary": "'止口'를 부위 이름으로 읽었으나 확실하지 않으며, 입가 부근으로 짐작될 뿐이다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "止口",
+     "observable_ko": "지구 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-100",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "帳廚妻室恐難胥。",
+   "translation": "장주(帳廚)이면 처실(妻室)과 함께하기 어려울까 두렵다.",
+   "commentary": "장주(帳廚)는 부위 이름으로 보이나 위치가 원문에 없다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "帳廚",
+     "observable_ko": "장주 부위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-101",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "山根鼻準兼廷尉，家業飄零骨肉疏。",
+   "translation": "산근(山根, 콧뿌리)·비준(鼻準, 코끝)과 아울러 정위(廷尉, 콧방울)이면 가업이 흩어지고 골육이 소원해진다.",
+   "commentary": "콧뿌리·코끝·콧방울의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山根鼻準兼廷尉",
+     "observable_ko": "콧뿌리·코끝·콧방울에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-102",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "眼下悲啼當不絕，",
+   "translation": "눈 아래면 슬피 울음이 끊이지 않을 것이고,",
+   "commentary": "눈 아래의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眼下",
+     "observable_ko": "눈 아래에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-103",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "耳根雙出倒商途。",
+   "translation": "귀뿌리에 쌍으로 나오면 장삿길이 거꾸러진다.",
+   "commentary": "귀뿌리에 점 두 개가 난 것을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳根雙出",
+     "observable_ko": "귀뿌리에 점 두 개가 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-104",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "正面所為皆不遂，",
+   "translation": "정면(正面)이면 하는 일이 모두 이루어지지 않고,",
+   "commentary": "'正面'이 얼굴 전체인지 얼굴 정면의 특정 부위인지 분명하지 않아 근사 대응으로 두었다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "正面",
+     "observable_ko": "얼굴 정면에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "'正面'이 얼굴 전체인지 특정 부위인지 불분명하여 근사 대응으로 두었다(pending 레이블)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-105",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "人中或有立身孤。",
+   "translation": "인중(人中)에 혹 있으면 몸을 세움이 외롭다.",
+   "commentary": "인중의 점을 말한다. 위치를 특정한 점(黑子) 서술이다. 지침상 pigmented_marks:present의 근사 대응이며 이 레이블은 등록 대기(pending) 상태다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中或有",
+     "observable_ko": "인중에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블(pigmented_marks, pending)의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-106",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "坑塹陂池并大海，諸方不見始安舒，",
+   "translation": "갱참(坑塹)·피지(陂池)와 대해(大海), 이 여러 곳에 보이지 않아야 비로소 편안하다.",
+   "commentary": "여러 위치에 점이 없어야 한다는 서술로, 특정 위치의 부재라 얼굴 전체 점 부재(pigmented_marks:absent)와 같지 않아 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "坑塹陂池并大海，諸方不見",
+     "observable_ko": "갱참·피지·대해 부위에 점이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:absent"
+     ],
+     "reason": "특정 위치들에 점이 없음은 얼굴 전체 점 부재 레이블(pending)과 같은 범위가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-107",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "擁旌仗節何由得。有痣深藏足底膚，",
+   "translation": "깃발을 안고 부절을 잡음(장수·사신의 높은 지위)을 무엇으로 말미암아 얻는가. 발바닥 살갗에 깊이 감추어진 점이 있음이다.",
+   "commentary": "발바닥의 점을 높은 지위와 연결한 구절이다. 얼굴이 아닌 신체 부위라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有痣深藏足底膚",
+     "observable_ko": "발바닥에 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴이 아닌 신체 부위의 점이라 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-108",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "五彩如龍下遶臂。",
+   "translation": "다섯 빛깔이 용처럼 아래로 팔을 휘감는다.",
+   "commentary": "팔의 무늬·점을 용에 빗댄 서술로 뜻이 분명하지 않다. 얼굴이 아닌 신체 부위이고 색에 관한 서술이라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "五彩如龍下遶臂",
+     "observable_ko": "팔에 다섯 빛깔 무늬가 용처럼 휘감김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴이 아닌 신체 부위의 색 무늬라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-109",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "梁武貴妃生赤痣。",
+   "translation": "양 무제(梁武)의 귀비에게 붉은 점이 났다.",
+   "commentary": "문헌이 역사 인물의 일화를 예로 든 구절로, 점의 위치가 원문에 없고 색에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生赤痣",
+     "observable_ko": "붉은 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-110",
+   "page_id": "gj642",
+   "section": "《相黑子》",
+   "region": "mole",
+   "original_text": "七星左脅貴為郎，未若班班七十二。",
+   "translation": "칠성(七星, 일곱 점)이 왼쪽 옆구리에 있으면 귀하여 낭관이 되나, 얼룩얼룩한 일흔둘(七十二)만 못하다.",
+   "commentary": "옆구리의 일곱 점과 한 고조의 일흔두 점 고사를 대비한 구절이다. 얼굴이 아닌 신체 부위라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "七星左脅",
+     "observable_ko": "왼쪽 옆구리에 점 일곱 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴이 아닌 신체 부위의 점이라 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-111",
+   "page_id": "gj642",
+   "section": "《論斑點》",
+   "region": "mole",
+   "original_text": "《雀》《卵斑》者，主妻子難為，作事犯重，作事愛便宜，女人傷夫剋子，夭年不吉。",
+   "translation": "작란반(雀卵斑, 참새알 같은 반점, 주근깨)이 있는 자는 처자를 두기 어렵고, 일을 함에 거듭 범하며, 일을 함에 잇속을 좋아함을 주관한다. 여인은 남편을 상하게 하고 자식을 극하며, 일찍 죽고 길하지 않다.",
+   "commentary": "작란반(雀卵斑)은 참새알 무늬 같은 얼굴의 작은 반점으로 주근깨를 가리키는 말로 쓰인다. 얼굴 반점 일반이라 점 유무 레이블과 같지 않아 근사 대응이며 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "《雀》《卵斑》",
+     "observable_ko": "얼굴에 주근깨 같은 작은 반점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "주근깨형 반점은 점(痣) 유무 레이블과 같은 대상이 아니며 레이블도 pending이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "family_children",
+    "kinship_harm",
+    "fertility_offspring",
+    "character",
+    "death_lifespan",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mole-112",
+   "page_id": "gj642",
+   "section": "《論斑點》",
+   "region": "mole",
+   "original_text": "「《豆》斑」者，主作事犯重，極其奸詐，便宜，男傷妻剋子，三度作新郎，女人如此，亦如是也。",
+   "translation": "「두반(豆斑, 콩알만 한 반점)」이 있는 자는 일을 함에 거듭 범하고 지극히 간사하고 속이며 잇속을 차림을 주관한다. 남자는 아내를 상하게 하고 자식을 극하여 세 번 신랑이 되며, 여인이 이와 같아도 또한 이와 같다.",
+   "commentary": "두반(豆斑)은 콩알만 한 반점을 말한다. 얼굴 반점 일반이라 근사 대응이며, 문헌은 이를 간사함·처자를 해침이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "「《豆》斑」",
+     "observable_ko": "콩알만 한 반점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "반점(斑)은 점(痣) 유무 레이블과 같은 대상이 아니며 레이블도 pending이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "kinship_harm",
+    "fertility_offspring",
+    "marriage",
+    "family_children",
+    "criminality"
+   ]
+  }
+ ]
+}

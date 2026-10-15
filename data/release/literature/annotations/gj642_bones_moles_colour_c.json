@@ -1,0 +1,694 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《辨口色》",
+  "《辨眼色》",
+  "《辨眉色》",
+  "《辨耳色》",
+  "《辨面色》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642M-mouth-002",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角并腮有黑紋，須憂臟腑不調勻。",
+   "translation": "입꼬리와 뺨에 검은 무늬가 있으면 장부(臟腑)가 고르지 않음을 근심해야 한다.",
+   "commentary": "기색(氣色)을 보아 길흉을 판단하는 구결이다. '검은 무늬(黑紋)'는 기색의 검은 줄기로 읽히며 색에 관한 서술이라 관찰 불가다. 문헌은 이를 내장의 부조화와 연결했으나 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角并腮有黑紋",
+     "observable_ko": "입꼬리와 뺨에 검은 기색 무늬",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-003",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "病人口畔如斯色，縱是《靈丹》未保身。",
+   "translation": "병든 사람의 입가가 이러한 색이면 비록 영단(靈丹)이라도 몸을 보전하지 못한다.",
+   "commentary": "병자의 입가 기색을 생사와 연결한 구절이다. 색은 관찰 불가 항목이며 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口畔如斯色",
+     "observable_ko": "입가가 (검은) 기색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    },
+    {
+     "region": "subject",
+     "evidence": "病人",
+     "observable_ko": "대상이 병자",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "건강 상태는 사진 형태 항목이 아니며 서비스는 이를 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-004",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角及腮上有青黑，防一月或半月內臟腑內暴患在床。",
+   "translation": "입꼬리와 뺨 위에 푸르고 검은 빛이 있으면 한 달 혹은 보름 안에 장부 안의 급한 병으로 자리에 누움을 막아야 한다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 푸르고 검은 기색은 관찰 불가 항목이며, 문헌의 질병 예측은 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角及腮上有青黑",
+     "observable_ko": "입꼬리와 뺨에 푸르고 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-005",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角紅黃紫色多，此般氣象最安和。",
+   "translation": "입꼬리에 붉고 누렇고 자줏빛이 많으면 이러한 기상(氣象)은 가장 편안하고 화평하다.",
+   "commentary": "입꼬리의 기색을 말한 시구로, 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角紅黃紫色多",
+     "observable_ko": "입꼬리에 붉고 누렇고 자줏빛 기색이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-006",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "「忽然角畔青青色，飯食侵刑沒奈何。」",
+   "translation": "「갑자기 입꼬리 가에 푸르디푸른 색이 있으면 밥과 음식이 해침(侵刑)을 어찌할 수 없다.」",
+   "commentary": "'飯食侵刑'은 음식으로 인한 해로움으로 읽었으나 뜻이 분명하지 않다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "角畔青青色",
+     "observable_ko": "입꼬리 가에 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-007",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角有黑色謂之「死氣。」入口遠至一百日內定死。",
+   "translation": "입꼬리에 검은 색이 있는 것을 「사기(死氣)」라 이르니, 입으로 들어가면 멀어도 백 일 안에 반드시 죽는다.",
+   "commentary": "입꼬리의 검은 기색을 죽음의 징조로 본 서술이다. 색은 관찰 불가 항목이며 문헌의 생사 예측은 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角有黑色",
+     "observable_ko": "입꼬리에 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "入口",
+     "observable_ko": "검은 기색이 입으로 들어감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-008",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角有紅黃紫色者，自身安樂。",
+   "translation": "입꼬리에 붉고 누렇고 자줏빛이 있는 자는 자신이 편안하고 즐겁다.",
+   "commentary": "입꼬리의 기색에 관한 산문 풀이로, 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角有紅黃紫色",
+     "observable_ko": "입꼬리에 붉고 누렇고 자줏빛 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-009",
+   "page_id": "gj642",
+   "section": "《辨口色》",
+   "region": "mouth",
+   "original_text": "口角有黑有青。主飲食之誤。",
+   "translation": "입꼬리에 검은 빛이 있고 푸른 빛이 있으면 음식의 잘못(탈)을 주관한다.",
+   "commentary": "입꼬리의 기색에 관한 산문 풀이로, 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角有黑有青",
+     "observable_ko": "입꼬리에 검고 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-eye-001",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "eye",
+   "original_text": "眼邊黑色切須知，百事施為亦不宜。災禍之來看十日，更防小輩暗欺軀。",
+   "translation": "눈가의 검은 색을 반드시 알아야 하니, 온갖 일을 베풀어 행함이 또한 마땅하지 않다. 재앙이 오는 것은 열흘을 보고, 또 소인배가 몰래 몸을 속임(해침)을 막아야 한다.",
+   "commentary": "눈가 기색을 다룬 칠언 시구다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼邊黑色",
+     "observable_ko": "눈가에 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-002",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下黑色，百事不利，防有不測，小人相撓，在十日內應謀望不成，事宜守舊。",
+   "translation": "눈 아래가 검은 색이면 온갖 일이 이롭지 않으니, 헤아리지 못할 일이 있음을 막아야 하고, 소인이 서로 어지럽히며, 열흘 안에 꾀하고 바라는 것이 이루어지지 않음에 응하니, 일은 옛것을 지킴이 마땅하다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 눈 아래의 검은 빛은 기색으로 다루어지며, 다크서클 같은 형태가 아니라 색에 관한 서술이라 관찰 불가로 두었다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下黑色",
+     "observable_ko": "눈 아래에 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-003",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下青青憂染軀，心中不樂暗嗟吁。",
+   "translation": "눈 아래가 푸르디푸르면 근심이 몸에 물들어 마음속이 즐겁지 않아 몰래 탄식한다.",
+   "commentary": "눈 아래 기색을 다룬 시구다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下青青",
+     "observable_ko": "눈 아래에 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-004",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "白色切須防父母，兄弟還同二日餘。",
+   "translation": "흰 색이면 반드시 부모(의 재액)를 막아야 하고, 형제도 또한 같아 이틀 남짓이다.",
+   "commentary": "앞 구절에 이어 눈 아래의 흰 기색을 부모·형제의 재액과 연결한 시구다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "白色",
+     "observable_ko": "눈 아래에 흰 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-005",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下青色，有心中不樂之事。",
+   "translation": "눈 아래가 푸른 색이면 마음속에 즐겁지 않은 일이 있다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下青色",
+     "observable_ko": "눈 아래에 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-006",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下白色防父母，兩日內有厄。無父母，防兄弟有災。",
+   "translation": "눈 아래가 흰 색이면 부모를 막아야 하니 이틀 안에 재액이 있다. 부모가 없으면 형제에게 재앙이 있음을 막아야 한다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 색은 관찰 불가 항목이며, 문헌은 이를 부모·형제의 재액과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下白色",
+     "observable_ko": "눈 아래에 흰 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-007",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下紅黃紫氣生，最宜求望事皆成，神仙留下通元術，凶則無災吉則榮。",
+   "translation": "눈 아래에 붉고 누렇고 자줏빛 기운이 나면 구하고 바라는 일이 모두 이루어지기에 가장 마땅하니, 신선이 남긴 통원술(通元術)로서 흉하면 재앙이 없고 길하면 영화롭다.",
+   "commentary": "눈 아래 기색을 다룬 시구다. 색·기운은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下紅黃紫氣生",
+     "observable_ko": "눈 아래에 붉고 누렇고 자줏빛 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-008",
+   "page_id": "gj642",
+   "section": "《辨眼色》",
+   "region": "under_eye",
+   "original_text": "眼下紅黃紫色者。百事吉。",
+   "translation": "눈 아래가 붉고 누렇고 자줏빛인 자는 온갖 일이 길하다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下紅黃紫色",
+     "observable_ko": "눈 아래에 붉고 누렇고 자줏빛 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-004",
+   "page_id": "gj642",
+   "section": "《辨眉色》",
+   "region": "brow",
+   "original_text": "左右眉頭赤色凶，定遭公事在官中。",
+   "translation": "좌우 눈썹머리가 붉은 색이면 흉하니, 반드시 공사(公事, 송사)를 만나 관청 안에 있게 된다.",
+   "commentary": "눈썹머리의 기색을 송사와 연결한 시구다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "左右眉頭赤色",
+     "observable_ko": "좌우 눈썹머리에 붉은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-005",
+   "page_id": "gj642",
+   "section": "《辨眉色》",
+   "region": "brow",
+   "original_text": "眉頭見得常明澤，所作施為百事通。",
+   "translation": "눈썹머리가 늘 밝고 윤택하게 보이면 하고 베푸는 바가 온갖 일에 통한다.",
+   "commentary": "눈썹머리의 밝고 윤택함은 광택·기색에 관한 것이라 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉頭見得常明澤",
+     "observable_ko": "눈썹머리가 늘 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-006",
+   "page_id": "gj642",
+   "section": "《辨眉色》",
+   "region": "brow",
+   "original_text": "左眉上有赤色，防官中公事。",
+   "translation": "왼쪽 눈썹 위에 붉은 색이 있으면 관청 안의 공사(송사)를 막아야 한다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "左眉上有赤色",
+     "observable_ko": "왼쪽 눈썹 위에 붉은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-007",
+   "page_id": "gj642",
+   "section": "《辨眉色》",
+   "region": "brow",
+   "original_text": "右眉上有赤色，防邑中公事。應在一月，",
+   "translation": "오른쪽 눈썹 위에 붉은 색이 있으면 고을 안의 공사(송사)를 막아야 한다. 응함은 한 달 안에 있다.",
+   "commentary": "앞 시구를 풀이한 산문이다. '應在一月'은 앞의 좌우 눈썹 모두에 걸리는 기한으로도 읽힌다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "右眉上有赤色",
+     "observable_ko": "오른쪽 눈썹 위에 붉은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-008",
+   "page_id": "gj642",
+   "section": "《辨眉色》",
+   "region": "brow",
+   "original_text": "兩眉常明澤，吉。",
+   "translation": "두 눈썹이 늘 밝고 윤택하면 길하다.",
+   "commentary": "광택·기색에 관한 서술이라 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "兩眉常明澤",
+     "observable_ko": "두 눈썹이 늘 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-003",
+   "page_id": "gj642",
+   "section": "《辨耳色》",
+   "region": "ear",
+   "original_text": "兩耳焦黑腎氣虛，",
+   "translation": "두 귀가 그을린 듯 검으면 신기(腎氣)가 허하다.",
+   "commentary": "귀의 색을 신장 기운과 연결한 시구로, 전통 의학 관념을 따른 문헌의 주장이며 의학적 판단이 아니다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳焦黑",
+     "observable_ko": "두 귀가 그을린 듯 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-004",
+   "page_id": "gj642",
+   "section": "《辨耳色》",
+   "region": "ear",
+   "original_text": "紅潤丹田病盡除，須信形神元且妙，建通氣色目光舒。",
+   "translation": "붉고 윤택하면 단전(丹田)의 병이 모두 없어지니, 형(形)과 신(神)이 근원적이고 또 묘함을 믿어야 하며, 기색이 세워지고 통하면 눈빛이 펴진다.",
+   "commentary": "귀의 붉고 윤택한 기색을 건강과 연결한 시구다. 색·윤기·눈빛은 관찰 불가 항목이며 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "紅潤",
+     "observable_ko": "귀가 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "目光舒",
+     "observable_ko": "눈빛이 펴짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-005",
+   "page_id": "gj642",
+   "section": "《辨耳色》",
+   "region": "ear",
+   "original_text": "兩耳上有黑色。防腎家有病也。",
+   "translation": "두 귀 위에 검은 색이 있으면 신장(腎家)에 병이 있음을 막아야 한다.",
+   "commentary": "앞 시구를 풀이한 산문이다. 색은 관찰 불가 항목이며 문헌의 질병 연결은 의학적 판단이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳上有黑色",
+     "observable_ko": "두 귀에 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-006",
+   "page_id": "gj642",
+   "section": "《辨耳色》",
+   "region": "ear",
+   "original_text": "兩耳紅潤者吉。丹田六腑無病之色。",
+   "translation": "두 귀가 붉고 윤택한 자는 길하다. 단전과 육부(六腑)에 병이 없는 색이다.",
+   "commentary": "귀의 붉고 윤택한 기색에 관한 산문 풀이다. 색·윤기는 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳紅潤",
+     "observable_ko": "두 귀가 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-013",
+   "page_id": "gj642",
+   "section": "《辨面色》",
+   "region": "face",
+   "original_text": "「滿面都青色，常懷毒害心。",
+   "translation": "「얼굴 가득 모두 푸른 색이면 늘 독하게 해치려는 마음을 품는다.",
+   "commentary": "얼굴 전체의 푸른 기색을 해치려는 마음과 연결한 낙인성 서술이다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "滿面都青色",
+     "observable_ko": "얼굴 전체가 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-014",
+   "page_id": "gj642",
+   "section": "《辨面色》",
+   "region": "face",
+   "original_text": "要知招喜慶，紅色滿容侵。",
+   "translation": "기쁜 경사를 불러옴을 알고자 하면 붉은 색이 얼굴 가득 스며든다.",
+   "commentary": "얼굴의 붉은 기색에 관한 구절로, 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "紅色滿容侵",
+     "observable_ko": "얼굴 가득 붉은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-015",
+   "page_id": "gj642",
+   "section": "《辨面色》",
+   "region": "face",
+   "original_text": "青色不明朗，乃是滯色深謀。",
+   "translation": "푸른 색이 밝고 맑지 않으면 곧 막힌 색이니 깊이 꾀한다.",
+   "commentary": "'滯色深謀'의 끊어 읽기가 분명하지 않아 글자대로 옮겼다. 색은 관찰 불가 항목이며, 문헌은 이를 깊은 모략과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "青色不明朗",
+     "observable_ko": "푸른 기색이 밝지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-016",
+   "page_id": "gj642",
+   "section": "《辨面色》",
+   "region": "face",
+   "original_text": "為諸吉慶，須還滿面明。」明澤之為吉慶順也。",
+   "translation": "여러 길한 경사가 되려면 반드시 얼굴 가득 밝아야 한다.」 밝고 윤택함이 길한 경사이고 순조로움이다.",
+   "commentary": "얼굴 전체의 밝고 윤택함을 길함과 연결한 결론이다. 광택·기색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "滿面明",
+     "observable_ko": "얼굴 전체가 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "明澤",
+     "observable_ko": "밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

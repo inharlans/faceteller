@@ -1,0 +1,49 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《論額》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642-forehead-001",
+   "section": "《論額》",
+   "region": "forehead",
+   "original_text": "額闊平無紋，助眼倍精神。〈闊以橫言平以直言無紋以少年言眼若無秀無神額雖平闊所得幾何〉",
+   "translation": "이마가 넓고 평평하며 주름이 없으면 눈을 도와 정신을 배로 한다. 〈'넓다(闊)'는 가로로 말한 것이고 '평평하다(平)'는 세로로 말한 것이며 '주름이 없다'는 젊은이를 두고 말한 것이다. 눈에 빼어남과 신기(神)가 없으면 이마가 비록 평평하고 넓어도 얻는 바가 얼마이겠는가.〉",
+   "commentary": "본문과 작은 글씨 주석으로 이루어진 구절이다. 주석이 '闊'을 가로 너비로 풀이하므로 이마 너비 레이블(forehead_width:wide)로 옮길 수 있으나, 이 레이블은 정의가 확정된 정식 항목이다. 주름과 '평평함'은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額闊",
+     "observable_ko": "이마가 가로로 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平",
+     "observable_ko": "이마가 세로로 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "평평함(굴곡 없음)의 측정 항목이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "無紋",
+     "observable_ko": "이마에 주름이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  }
+ ]
+}

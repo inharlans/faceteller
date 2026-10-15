@@ -1,0 +1,2292 @@
+{
+ "page_id": "gj634",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "龍鼻",
+  "虎鼻",
+  "胡羊鼻",
+  "獅鼻",
+  "懸膽鼻",
+  "伏犀鼻",
+  "牛鼻",
+  "截筒鼻",
+  "蒜鼻",
+  "盛囊鼻",
+  "猴鼻",
+  "鷹嘴鼻",
+  "狗鼻",
+  "鯽魚鼻",
+  "三彎三曲鼻",
+  "劍鋒鼻",
+  "偏凹鼻",
+  "孤峰鼻",
+  "露脊鼻",
+  "露竈鼻",
+  "獐鼻",
+  "猩鼻",
+  "鹿鼻",
+  "猿鼻",
+  "人中論",
+  "相人中篇"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ634N-nose-063",
+   "section": "龍鼻",
+   "region": "nose",
+   "original_text": "龍鼻豐隆準上齊，山根直聳若伏犀。鼻梁方正無偏曲，位至居尊九鼎時。",
+   "translation": "용비(龍鼻)는 풍만하게 솟고 준두(準頭, 코끝) 위가 가지런하며, 산근(山根, 콧뿌리)이 곧게 솟아 엎드린 무소(伏犀) 같다. 콧대가 반듯하고 치우치거나 굽음이 없으면, 지위가 높은 자리에 이르러 구정(九鼎)에 거하는 때가 있다.",
+   "commentary": "용의 이름은 형태 기준이 아니며, 그중 '산근이 곧게 솟음(山根直聳)'만 목록 표현과 직접 대응한다. 코 전체의 풍만한 솟음은 부위가 특정되지 않고 콧대 모양은 콧등 항목이 보류되어 레이블이 없다. 문헌은 이 코를 최고 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "豐隆",
+     "observable_ko": "코가 풍만하게 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high"
+     ],
+     "reason": "코 전체의 솟음으로 콧뿌리·코끝을 구분하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準上齊",
+     "observable_ko": "코끝 위가 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "齊(가지런함)가 어떤 형태 치수를 뜻하는지 불분명하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根直聳",
+     "observable_ko": "콧뿌리가 곧고 높이 솟음",
+     "status": "exact",
+     "label": "nose_bridge:high"
+    },
+    {
+     "region": "nose",
+     "evidence": "若伏犀",
+     "observable_ko": "엎드린 무소 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻梁方正無偏曲",
+     "observable_ko": "콧대가 반듯하고 치우치거나 굽지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-064",
+   "section": "虎鼻",
+   "region": "nose",
+   "original_text": "虎鼻《員融》不露孔，蘭臺廷尉亦須無。不偏不曲山根大，富貴名褒世罕夫。",
+   "translation": "호비(虎鼻)는 둥글고 원만하여(員融) 콧구멍이 드러나지 않고, 난대·정위(蘭臺·廷尉, 좌우 콧방울)도 또한 없어야(드러나지 않아야) 한다. 치우치지 않고 굽지 않으며 산근(山根, 콧뿌리)이 크면, 부귀하고 이름이 기려지니 세상에 드문 사내다.",
+   "commentary": "'콧구멍이 드러나지 않음(不露孔)'은 목록 표현 '孔不露'와 같은 뜻으로 직접 대응한다. '蘭臺廷尉亦須無'는 콧방울이 따로 드러나지 않아야 한다는 뜻으로 읽히나 분명하지 않아 글자대로 옮겼다. 문헌은 이 코를 부귀·명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "《員融》",
+     "observable_ko": "코가 둥글고 원만함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "員融(圓融)은 전체 인상어로 특정 치수가 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不露孔",
+     "observable_ko": "콧구멍이 드러나지 않음",
+     "status": "exact",
+     "label": "nostril_show:hidden"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉亦須無",
+     "observable_ko": "콧방울이 따로 드러나지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "alar_fullness:flat"
+     ],
+     "reason": "'없어야 한다'가 콧방울의 크기인지 콧구멍 노출인지 불분명하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不偏不曲",
+     "observable_ko": "코가 치우치거나 굽지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치우침·굽음을 재는 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根大",
+     "observable_ko": "콧뿌리가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "大는 크기어로 콧뿌리 높이와 같은 척도가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-065",
+   "section": "胡羊鼻",
+   "region": "nose",
+   "original_text": "胡羊鼻大準頭豐，蘭臺廷尉亦相同。山根年壽無脊露。大貴當時富石崇。",
+   "translation": "호양비(胡羊鼻)는 코가 크고 준두(準頭, 코끝)가 풍만하며, 난대·정위(蘭臺·廷尉, 좌우 콧방울)도 또한 서로 같다(풍만하다). 산근(山根)과 년수(年壽, 콧등)에 등마루가 드러남이 없다. 크게 귀하여 당대에 석숭(石崇)처럼 부유하다.",
+   "commentary": "코의 큼(鼻大)은 지침상 너비와 같지 않은 근사이고, 코끝의 풍만함도 둥긂에 근사할 뿐이다. 콧방울은 '역시 같다'로 풍만함을 간접 표현했으며, 콧등의 등마루는 레이블이 없다. 문헌은 이 코의 부를 석숭에 견주었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "鼻大/小는 지침상 너비와 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭豐",
+     "observable_ko": "코끝이 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準豐 단독은 둥긂과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉亦相同",
+     "observable_ko": "콧방울도 (코끝처럼) 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "풍만함을 '亦相同'으로 간접 서술하여 목록 표현과 그대로 같지 않다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根年壽無脊露",
+     "observable_ko": "콧뿌리·콧등에 등마루가 드러나지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-066",
+   "section": "獅鼻",
+   "region": "nose",
+   "original_text": "山根年壽略低平，準上豐大稱蘭廷。若令獅形真富貴，不然財帛有虛盈。",
+   "translation": "산근(山根, 콧뿌리)과 년수(年壽, 콧등)는 약간 낮고 평평하며, 준두(準頭) 위가 풍만하고 커서 난대·정위(蘭廷, 좌우 콧방울)와 걸맞다. 만약 사자의 형상이 참되면 부귀하고, 그렇지 않으면 재물에 비고 참이 있다.",
+   "commentary": "콧뿌리의 낮음은 '약간(略)'이고 콧등과 함께 말해 근사로 두었다. 코끝의 풍만함·큼과 콧방울과의 걸맞음은 목록 표현과 같지 않다. 문헌은 형상이 참될 때 부귀, 그렇지 않으면 재물의 기복과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根年壽略低平",
+     "observable_ko": "콧뿌리·콧등이 약간 낮고 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'약간'이라는 정도어와 콧등(年壽)이 함께 묶여 목록 표현과 같지 않다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準上豐大",
+     "observable_ko": "코끝이 풍만하고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準豐/大는 둥긂과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "稱蘭廷",
+     "observable_ko": "콧방울이 코끝과 걸맞게 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "'걸맞다(稱)'는 상대적 균형 서술이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "若令獅形",
+     "observable_ko": "사자의 형상(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-067",
+   "section": "懸膽鼻",
+   "region": "nose",
+   "original_text": "鼻如懸膽準頭齊，山根不斷無偏欹。蘭臺廷尉模糊小，富貴榮華應壯期。",
+   "translation": "현담비(懸膽鼻)는 코가 매단 쓸개 같고 준두(準頭, 코끝)가 가지런하며, 산근(山根, 콧뿌리)이 끊어지지 않고 치우치거나 기울지 않는다. 난대·정위(蘭臺·廷尉, 좌우 콧방울)는 흐릿하고 작으니, 부귀와 영화가 장년기에 응한다.",
+   "commentary": "콧방울이 작음은 목록 표현 '蘭廷小'와 같은 방향이라 직접 대응으로 보았으나, 나머지는 비유·부정형 서술이다. 문헌은 이 코를 장년기의 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如懸膽",
+     "observable_ko": "코가 매단 쓸개 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭齊",
+     "observable_ko": "코끝이 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "齊가 어떤 형태 치수를 뜻하는지 불분명하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根不斷",
+     "observable_ko": "콧뿌리가 끊어지지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "끊김(斷)의 부정은 콧뿌리 높이 등급과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "無偏欹",
+     "observable_ko": "코가 치우치거나 기울지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치우침·굽음을 재는 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉模糊小",
+     "observable_ko": "콧방울이 작고 두드러지지 않음",
+     "status": "exact",
+     "label": "alar_fullness:flat"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-068",
+   "section": "伏犀鼻",
+   "region": "nose",
+   "original_text": "伏犀鼻插天庭中，山根直上印堂隆。肉不多兮骨不露，神清位立至三公。",
+   "translation": "복서비(伏犀鼻)는 코가 천정(天庭, 이마 위쪽) 가운데로 꽂히고, 산근(山根, 콧뿌리)이 곧게 올라가 인당(印堂, 두 눈썹 사이)이 솟는다. 살은 많지 않고 뼈는 드러나지 않으며, 신(神)이 맑으면 지위가 서서 삼공에 이른다.",
+   "commentary": "콧대가 이마로 곧게 이어지는 형태는 콧뿌리가 높음과 관련되나 '山根直聳' 같은 목록 표현이 아니어서 근사로 두었다. 인당의 솟음과 살·뼈의 정도는 레이블이 없고 신(神)은 관찰 대상이 아니다. 문헌은 이 코를 삼공의 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻插天庭中",
+     "observable_ko": "코가 이마 가운데로 이어져 올라감",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "이마와의 연속은 콧뿌리 높이를 직접 말하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根直上",
+     "observable_ko": "콧뿌리가 곧게 위로 올라감",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "'直上'은 목록 표현(山根直聳·山根起)과 같지 않다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "印堂隆",
+     "observable_ko": "인당이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당 돌출은 brow_glabella 항목이 보류되어 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "肉不多兮骨不露",
+     "observable_ko": "코의 살이 많지 않고 뼈가 드러나지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 살집·골격 노출을 재는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神清",
+     "observable_ko": "신(神)이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·신(神)·품평은 정지 사진 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-069",
+   "section": "牛鼻",
+   "region": "nose",
+   "original_text": "牛鼻豐齊根且大，《蘭臺廷》尉又分明。年壽不高且不軟，富積金資家道成。",
+   "translation": "우비(牛鼻)는 풍만하고 가지런하며 (산)근이 또한 크고, 난대·정위(蘭臺·廷尉, 좌우 콧방울)가 또 분명하다. 년수(年壽, 콧등)는 높지 않고 또 무르지 않으니, 부가 쌓여 금과 재물로 집안의 도가 이루어진다.",
+   "commentary": "'根且大'의 根은 산근으로 읽었다. 콧방울이 '분명하다'는 풍만함과 관련되나 같은 표현이 아니며, 콧등의 높낮이는 콧등 항목이 보류되어 레이블이 없다. 문헌은 이 코를 재산 축적과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "豐齊",
+     "observable_ko": "코가 풍만하고 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "豐齊는 전체 인상어로 특정 치수가 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "根且大",
+     "observable_ko": "콧뿌리가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "大는 크기어로 콧뿌리 높이와 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "《蘭臺廷》尉又分明",
+     "observable_ko": "콧방울이 분명함",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "分明은 뚜렷함으로 풍만함과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "年壽不高且不軟",
+     "observable_ko": "콧등이 높지 않고 무르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-070",
+   "section": "截筒鼻",
+   "region": "nose",
+   "original_text": "功名富貴截筒佳，準頭齊直不偏斜，山根略軟年壽滿，中年富貴大成家。",
+   "translation": "공명과 부귀는 절통(截筒, 자른 대통)이 좋으니, 준두(準頭, 코끝)가 가지런하고 곧아 치우치거나 비뚤지 않으며, 산근(山根, 콧뿌리)은 약간 무르고 년수(年壽, 콧등)가 가득하면, 중년에 부귀하여 크게 집안을 이룬다.",
+   "commentary": "자른 대통 비유와 코끝의 곧음은 레이블과 같은 척도가 아니며, 산근이 '무름(軟)'은 촉감에 가까워 사진으로 볼 수 없다. 문헌은 이 코를 공명·부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "截筒",
+     "observable_ko": "코가 자른 대통 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭齊直不偏斜",
+     "observable_ko": "코끝이 가지런하고 곧아 치우치지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코끝의 곧음·치우침을 재는 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根略軟",
+     "observable_ko": "콧뿌리가 약간 무름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "무름(軟)은 촉감·질감 서술로 사진 형태로 볼 수 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "年壽滿",
+     "observable_ko": "콧등이 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-071",
+   "section": "蒜鼻",
+   "region": "nose",
+   "original_text": "《山根》年壽俱平小，蘭臺廷尉準頭豐。弟兄情欠心無毒，晚景中年家必隆。",
+   "translation": "산비(蒜鼻, 마늘코)는 산근(山根, 콧뿌리)과 년수(年壽, 콧등)가 모두 평평하고 작으며, 난대·정위(蘭臺·廷尉, 좌우 콧방울)와 준두(準頭, 코끝)가 풍만하다. 형제의 정은 모자라나 마음에 독이 없고, 만년과 중년에 집안이 반드시 융성한다.",
+   "commentary": "콧방울이 풍만함(蘭臺廷尉…豐)은 목록 표현과 같은 방향이라 직접 대응으로 보았고, 같은 글자에 걸린 코끝의 풍만함은 둥긂에 근사할 뿐이다. 콧뿌리·콧등이 평평하고 작다는 서술은 콧등과 묶여 근사로 두었다. 문헌은 이 코를 형제 정의 결핍, 독하지 않은 마음, 집안의 융성과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "《山根》年壽俱平小",
+     "observable_ko": "콧뿌리·콧등이 평평하고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "콧등(年壽)과 묶이고 '작음'이 더해져 목록 표현 '山根平'과 그대로 같지 않다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉準頭豐",
+     "observable_ko": "콧방울이 풍만함",
+     "status": "exact",
+     "label": "alar_fullness:full"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉準頭豐",
+     "observable_ko": "코끝이 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準豐 단독은 둥긂과 같은 척도가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "malice_deceit",
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-072",
+   "section": "盛囊鼻",
+   "region": "nose",
+   "original_text": "鼻如盛囊蘭廷小，兩邊尉竈亦員齊。始末貲財俱大盛，功名必定掛朱衣。",
+   "translation": "성낭비(盛囊鼻)는 코가 가득 찬 주머니 같고 난대·정위(蘭廷, 좌우 콧방울)가 작으며, 양쪽의 정위와 콧구멍(竈)도 또한 둥글고 가지런하다. 처음과 끝에 재물이 모두 크게 성하고, 공명으로 반드시 붉은 관복을 걸친다.",
+   "commentary": "콧방울이 작음(蘭廷小)은 목록 표현과 직접 대응한다. 다만 이어지는 '尉竈亦員齊'와의 관계가 분명하지 않고 주머니 비유는 기준이 없다. 문헌은 이 코를 재물과 관직에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如盛囊",
+     "observable_ko": "코가 가득 찬 주머니 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭廷小",
+     "observable_ko": "콧방울이 작음",
+     "status": "exact",
+     "label": "alar_fullness:flat"
+    },
+    {
+     "region": "nose",
+     "evidence": "兩邊尉竈亦員齊",
+     "observable_ko": "양쪽 콧방울·콧구멍이 둥글고 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "둥글고 가지런함(員齊)이 어떤 치수인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-073",
+   "section": "猴鼻",
+   "region": "nose",
+   "original_text": "山根年壽平且大，蘭臺廷尉要分明。準頭豐紅不露孔，雖然富貴恐奸情。",
+   "translation": "후비(猴鼻)는 산근(山根, 콧뿌리)과 년수(年壽, 콧등)가 평평하고 크며, 난대·정위(蘭臺·廷尉, 좌우 콧방울)는 분명해야 한다. 준두(準頭, 코끝)가 풍만하고 붉으며 콧구멍이 드러나지 않으면, 비록 부귀하나 간사한 정(奸情)이 두렵다.",
+   "commentary": "콧구멍이 드러나지 않음(不露孔)은 목록 표현과 같은 뜻이다. '平且大'의 平이 낮음인지 고름인지 불분명하고 코끝의 붉음은 색이다. '奸情'은 사통(私通) 또는 간사한 속셈으로 읽힐 수 있어 두 주제를 모두 표시했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根年壽平且大",
+     "observable_ko": "콧뿌리·콧등이 평평하고 큼",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "平이 낮음인지 고름인지 불분명하고 大와 함께 쓰였다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺廷尉要分明",
+     "observable_ko": "콧방울이 분명함",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "分明은 뚜렷함으로 풍만함과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭豐",
+     "observable_ko": "코끝이 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準豐 단독은 둥긂과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "紅",
+     "observable_ko": "코끝이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不露孔",
+     "observable_ko": "콧구멍이 드러나지 않음",
+     "status": "exact",
+     "label": "nostril_show:hidden"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "sexual_conduct",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-074",
+   "section": "鷹嘴鼻",
+   "region": "nose",
+   "original_text": "鼻梁露脊準頭尖，又如鷹嘴鎖脣邊。《蘭臺》廷尉俱短縮，啄人心髓惡奸殘。",
+   "translation": "응취비(鷹嘴鼻)는 콧대에 등마루가 드러나고 준두(準頭, 코끝)가 뾰족하며, 또 매의 부리처럼 입술 가장자리를 잠근다. 난대·정위(蘭臺·廷尉, 좌우 콧방울)는 모두 짧고 오그라들었으니, 남의 심장과 골수를 쪼아 먹으며 악하고 간사하고 잔인하다.",
+   "commentary": "코끝이 뾰족함(準頭尖)은 목록 표현과 직접 대응하지만 콧대의 등마루와 매부리 비유는 대응 레이블이 없거나 기준이 없다. 콧방울이 짧고 오그라듦은 납작함에 근사한다. 문헌은 이 코를 악독·간사·잔인이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁露脊",
+     "observable_ko": "콧대에 등마루가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭尖",
+     "observable_ko": "코끝이 뾰족함",
+     "status": "exact",
+     "label": "nose_tip:tapered"
+    },
+    {
+     "region": "nose",
+     "evidence": "又如鷹嘴鎖脣邊",
+     "observable_ko": "코끝이 매부리처럼 입술 쪽으로 처짐(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "《蘭臺》廷尉俱短縮",
+     "observable_ko": "콧방울이 짧고 오그라듦",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:flat"
+     ],
+     "reason": "짧고 오그라듦(短縮)은 목록 표현(蘭廷小·薄)과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-075",
+   "section": "狗鼻",
+   "region": "nose",
+   "original_text": "狗鼻年壽起骨峰。準頭蘭尉孔邊空。此鼻之人主有義。惟嫌竊取濟時窮。",
+   "translation": "구비(狗鼻)는 년수(年壽, 콧등)에 뼈 봉우리가 일어난다. 준두(準頭, 코끝)와 난대·정위(蘭尉, 콧방울)의 콧구멍 가가 비어 있다. 이 코를 가진 사람은 의리 있음을 주관한다. 다만 때의 궁함을 구하려 훔쳐 가짐이 꺼려진다.",
+   "commentary": "콧등의 뼈 봉우리는 콧등 항목이 보류되어 레이블이 없고, '孔邊空'은 콧방울이 빈약함으로 읽히나 분명하지 않다. 문헌은 이 코를 의리와 함께 궁할 때의 절도라는 범죄성 평가에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年壽起骨峰",
+     "observable_ko": "콧등에 뼈가 봉우리처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭蘭尉孔邊空",
+     "observable_ko": "코끝·콧방울의 콧구멍 가장자리가 빔",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "alar_fullness:flat"
+     ],
+     "reason": "'비어 있음(空)'이 콧방울의 살 없음인지 콧구멍 노출인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "criminality",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-076",
+   "section": "鯽魚鼻",
+   "region": "nose",
+   "original_text": "壽年高起如魚背，山根細小準頭垂。骨肉無親睛露白，一生衣食主伶仃。",
+   "translation": "즉어비(鯽魚鼻, 붕어코)는 수년(壽年, 콧등)이 높이 솟아 물고기 등과 같고, 산근(山根, 콧뿌리)이 가늘고 작으며 준두(準頭, 코끝)가 늘어진다. 골육에 친함이 없고 눈동자에 흰자가 드러나면, 일생 의식이 외롭고 영락함을 주관한다.",
+   "commentary": "콧등의 솟음은 콧등 항목이 보류되어 레이블이 없고, 콧뿌리가 '가늘고 작음'은 높이가 아닌 크기 서술이라 근사로 두었다. '睛露白'은 흰자가 드러나는 눈이나 위·아래 구분이 없다. 문헌은 이 상을 혈육과의 소원함과 고단한 삶에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "壽年高起如魚背",
+     "observable_ko": "콧등이 물고기 등처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根細小",
+     "observable_ko": "콧뿌리가 가늘고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "細小는 폭·크기 서술로 높이 등급과 같지 않다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭垂",
+     "observable_ko": "코끝이 늘어짐",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_projection:low",
+      "nose_tip:rounded"
+     ],
+     "reason": "늘어짐이 돌출 정도인지 코끝 모양인지 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛露白",
+     "observable_ko": "눈에 흰자가 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "흰자 노출의 위·아래 방향이 적혀 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-077",
+   "section": "三彎三曲鼻",
+   "region": "nose",
+   "original_text": "鼻有三彎為反吟，鼻有三曲為伏吟。反吟相見是絕滅，伏吟相見淚淋淋。",
+   "translation": "코에 세 번 휨이 있으면 반음(反吟)이 되고, 코에 세 번 굽음이 있으면 복음(伏吟)이 된다. 반음이 서로 보이면 끊어져 멸하고, 복음이 서로 보이면 눈물이 줄줄 흐른다.",
+   "commentary": "반음·복음은 점술 용어를 빌려 콧등의 굴곡을 이름 붙인 것으로 보인다. 콧등의 굴곡은 콧등 항목이 보류되어 레이블이 없다. 문헌은 이를 끊어져 멸함과 슬픔에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻有三彎",
+     "observable_ko": "콧등에 휜 곳이 셋 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻有三曲",
+     "observable_ko": "콧등에 굽은 곳이 셋 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-078",
+   "section": "劍鋒鼻",
+   "region": "nose",
+   "original_text": "鼻梁露脊如刀背，準頭無肉竈門關。兄弟無緣子剋盡。勞勞碌碌主孤單。",
+   "translation": "검봉비(劍鋒鼻)는 콧대에 등마루가 드러나 칼등 같고, 준두(準頭, 코끝)에 살이 없으며 콧구멍 문(竈門)이 닫혀 있다. 형제와 인연이 없고 자식을 모두 극(剋)한다. 수고롭고 고단하며 외로움을 주관한다.",
+   "commentary": "칼등 같은 콧대는 콧등 항목이 보류되어 레이블이 없고, 코끝에 살이 없음은 뾰족함에, 콧구멍 문이 닫힘은 콧구멍이 안 보임에 근사한다. 문헌은 이 코를 형제·자식을 해친다는 극(剋)의 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁露脊如刀背",
+     "observable_ko": "콧대 등마루가 칼등처럼 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭無肉",
+     "observable_ko": "코끝에 살이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:tapered"
+     ],
+     "reason": "살 없음은 뾰족함과 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "竈門關",
+     "observable_ko": "콧구멍이 닫혀 보이지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:hidden"
+     ],
+     "reason": "'竈門關'은 목록 표현(孔不露·不見孔·孔藏)에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-079",
+   "section": "偏凹鼻",
+   "region": "nose",
+   "original_text": "年壽低壓山根小，鼻面相生差不多。準頭臺尉些須見，不夭不貧疾見磨。",
+   "translation": "편요비(偏凹鼻)는 년수(年壽, 콧등)가 낮게 눌리고 산근(山根, 콧뿌리)이 작으며, 코와 얼굴이 서로 생함이 대략 비슷하다. 준두(準頭)와 난대·정위(臺尉, 콧방울)가 조금 보이면, 요절하지 않고 가난하지 않으나 병으로 시달림을 본다.",
+   "commentary": "콧등의 낮음은 콧등 항목이 보류되어 레이블이 없고 콧뿌리가 '작음'은 높이 서술이 아니다. '鼻面相生差不多'와 '些須見'은 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이 코를 수명·빈부·질병과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年壽低壓",
+     "observable_ko": "콧등이 낮게 눌림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根小",
+     "observable_ko": "콧뿌리가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "小는 크기어로 콧뿌리 높이와 같은 척도가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "鼻面相生差不多",
+     "observable_ko": "코와 얼굴이 대략 어울림",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "코와 얼굴의 조화는 측정 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭臺尉些須見",
+     "observable_ko": "코끝과 콧방울이 조금 보임",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇이 '보인다'는 것인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-080",
+   "section": "孤峰鼻",
+   "region": "nose",
+   "original_text": "鼻大無肉竈門開。兩顴低小鼻崔嵬。此鼻縱大無財積。若為僧道免哀哉。",
+   "translation": "고봉비(孤峰鼻)는 코가 크나 살이 없고 콧구멍 문(竈門)이 열려 있다. 두 관골(顴骨, 광대뼈)은 낮고 작은데 코만 우뚝하다. 이 코는 비록 크나 재물이 쌓임이 없다. 만약 승려나 도사가 되면 슬픔을 면한다.",
+   "commentary": "광대뼈가 낮음(顴低)은 목록 표현과 직접 대응한다. 코의 큼·우뚝함은 너비·높이 중 어느 것인지 특정되지 않고, 콧구멍 문이 열림은 콧구멍 노출에 근사한다. 문헌은 이 코를 재물 없음과 연결하고 출가를 피난처로 들었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "鼻大는 지침상 너비와 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "無肉",
+     "observable_ko": "코에 살이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 살집을 재는 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "竈門開",
+     "observable_ko": "콧구멍이 열려 보임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "'竈門開'는 목록 표현(孔露·露竈 등)에 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "兩顴低小",
+     "observable_ko": "두 광대뼈가 낮고 작음",
+     "status": "exact",
+     "label": "cheekbone:flat"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻崔嵬",
+     "observable_ko": "코가 우뚝 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nose_bridge:high"
+     ],
+     "reason": "鼻高 류 서술로 콧뿌리·코끝을 구분하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-081",
+   "section": "露脊鼻",
+   "region": "nose",
+   "original_text": "《鼻瘦露脊》山根小，形容粗俗骨神昏。土無萬物皆零落，縱然平穩也孤貧。",
+   "translation": "노척비(露脊鼻)는 코가 여위어 등마루가 드러나고 산근(山根, 콧뿌리)이 작으며, 용모가 거칠고 속되며 뼈와 신(神)이 어둡다. 흙(土)이 없으면 만물이 모두 시들어 떨어지니, 비록 평온하더라도 외롭고 가난하다.",
+   "commentary": "코를 토(土)에 배당하는 교설에 따라 코가 빈약하면 만물이 시든다고 비유했다. 콧등의 드러남은 콧등 항목이 보류되어 레이블이 없고, 용모·신(神)의 품평은 관찰 대상이 아니다. 문헌은 이 코를 고독과 빈궁에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "《鼻瘦露脊》",
+     "observable_ko": "코가 여위어 등마루가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根小",
+     "observable_ko": "콧뿌리가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "小는 크기어로 콧뿌리 높이와 같은 척도가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "形容粗俗",
+     "observable_ko": "용모가 거칠고 속됨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·신(神)·품평은 정지 사진 형태로 볼 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨神昏",
+     "observable_ko": "뼈와 신(神)이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·신(神)·품평은 정지 사진 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-082",
+   "section": "露竈鼻",
+   "region": "nose",
+   "original_text": "孔大鼻高竅又長，須知家下少衣糧。艱辛受苦多勞碌，末喪他鄉實可傷。",
+   "translation": "노조비(露竈鼻)는 콧구멍이 크고 코가 높으며 구멍이 또 길면, 집안에 옷과 양식이 적음을 알아야 한다. 고생하고 괴로움을 받으며 수고로움이 많고, 끝내 타향에서 죽으니 참으로 슬퍼할 만하다.",
+   "commentary": "표제의 '露竈(콧구멍 드러남)'는 본문이 아니라 제목이므로 조건으로 삼지 않았다. 본문의 콧구멍 큼·김과 코 높음은 목록 표현과 같은 척도가 아니다. 문헌은 이 코를 빈궁과 타향에서의 죽음에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "孔大",
+     "observable_ko": "콧구멍이 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "콧구멍 크기와 정면 노출 정도는 다른 척도다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻高",
+     "observable_ko": "코가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리·코끝을 구분하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "竅又長",
+     "observable_ko": "콧구멍이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧구멍 길이를 재는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-083",
+   "section": "獐鼻",
+   "region": "nose",
+   "original_text": "鼻小準尖庭竈露。金甲二櫃肉綳纏。徒勞遺蔭難居守。四復三番迍且邅。",
+   "translation": "장비(獐鼻, 노루코)는 코가 작고 준두가 뾰족하며 정(庭)과 콧구멍(竈)이 드러난다. 금갑(金甲) 두 궤(櫃)는 살이 팽팽하게 감겨 있다. 물려받은 음덕을 헛되이 수고하여 지켜 거하기 어렵다. 네 번 되풀이하고 세 번 뒤집히니 막히고 또 머뭇거린다.",
+   "commentary": "코끝이 뾰족함(準尖)과 콧구멍 드러남(竈露)은 목록 표현과 직접 대응한다. '金甲二櫃'는 콧방울 부위의 이름으로 읽히나 '肉綳纏'의 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이 코를 물려받은 재산을 지키지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow"
+     ],
+     "reason": "鼻小는 지침상 너비와 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準尖",
+     "observable_ko": "코끝이 뾰족함",
+     "status": "exact",
+     "label": "nose_tip:tapered"
+    },
+    {
+     "region": "nose",
+     "evidence": "庭竈露",
+     "observable_ko": "콧구멍이 드러남",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    },
+    {
+     "region": "nose",
+     "evidence": "金甲二櫃肉綳纏",
+     "observable_ko": "콧방울 살이 팽팽하게 감김",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "alar_fullness:flat"
+     ],
+     "reason": "'肉綳纏'이 풍만함인지 얇게 당겨짐인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-084",
+   "section": "猩鼻",
+   "region": "nose",
+   "original_text": "《猩猩之相》鼻梁高，眉眼相挨粗髮毛，面闊脣掀身廣厚，寬懷德重貴英豪。",
+   "translation": "성성이의 상은 콧대가 높고, 눈썹과 눈이 서로 붙어 있으며 머리털이 거칠고, 얼굴이 넓고 입술이 들리며 몸이 넓고 두터우니, 너그러운 품에 덕이 무겁고 귀한 영웅호걸이다.",
+   "commentary": "입술이 들림(脣掀)은 목록 표현과 직접 대응한다. 콧대 높음은 콧뿌리·코끝을 구분하지 않고, 눈썹과 눈이 붙음은 '壓眼' 류와 같은 방향이나 같은 표현이 아니며, 얼굴 너비·머리털·체형은 레이블이 없다. 문헌은 이 상을 덕과 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁高",
+     "observable_ko": "콧대가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧대(鼻梁) 높이는 콧등 서술로 콧뿌리 높이와 같은 척도가 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉眼相挨",
+     "observable_ko": "눈썹과 눈이 붙어 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "'相挨'는 목록 표현(壓眼·眉低近目)과 같지 않다"
+    },
+    {
+     "region": "other",
+     "evidence": "粗髮毛",
+     "observable_ko": "머리털이 거칢",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "모발 질감은 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面闊",
+     "observable_ko": "얼굴이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "jaw_width:wide",
+      "face_length:short"
+     ],
+     "reason": "얼굴 너비 자체를 재는 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 앞으로 들림",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "other",
+     "evidence": "身廣厚",
+     "observable_ko": "몸이 넓고 두터움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "체형은 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-085",
+   "section": "鹿鼻",
+   "region": "nose",
+   "original_text": "鹿鼻豐齊準更圓，情寬步急義仁全。驚疑坐起渾無定，福祿增添得自然。",
+   "translation": "녹비(鹿鼻, 사슴코)는 풍만하고 가지런하며 준두(準頭, 코끝)가 더욱 둥글고, 정이 너그럽고 걸음이 급하며 의와 인이 온전하다. 놀라고 의심하여 앉고 일어섬이 도무지 정함이 없으나, 복과 녹이 더하여 저절로 얻는다.",
+   "commentary": "코끝이 둥긂(準圓)은 목록 표현과 같은 뜻으로 직접 대응한다. 걸음·거동은 사진으로 볼 수 없다. 문헌은 이 코를 너그러움·인의, 불안한 거동, 복록과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "豐齊",
+     "observable_ko": "코가 풍만하고 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "豐齊는 전체 인상어로 특정 치수가 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準更圓",
+     "observable_ko": "코끝이 둥긂",
+     "status": "exact",
+     "label": "nose_tip:rounded"
+    },
+    {
+     "region": "other",
+     "evidence": "步急",
+     "observable_ko": "걸음이 급함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이는 정지 사진으로 볼 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "驚疑坐起渾無定",
+     "observable_ko": "앉고 일어섬이 일정하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "거동은 정지 사진으로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-nose-086",
+   "section": "猿鼻",
+   "region": "nose",
+   "original_text": "鼻竅小而口頗尖，猖狂輕躁不尊嚴，性靈嗔怒多憂慮，花果常時手好拈。",
+   "translation": "원비(猿鼻, 원숭이코)는 콧구멍이 작고 입이 자못 뾰족하니, 미쳐 날뛰고 가볍고 조급하여 존엄하지 않으며, 성정이 영민하나 성내고 근심이 많고, 꽃과 열매를 늘 손으로 즐겨 집는다.",
+   "commentary": "콧구멍이 작음은 콧구멍 노출 정도와 같은 척도가 아니며, 입이 뾰족함은 입술 돌출과 관련될 수 있으나 기준이 없다. '性靈'은 영민한 성정으로 읽었다. 문헌은 이 코를 경박·분노 등 성품 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻竅小",
+     "observable_ko": "콧구멍이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:hidden"
+     ],
+     "reason": "콧구멍 크기와 정면 노출 정도는 다른 척도다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口頗尖",
+     "observable_ko": "입이 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "입의 뾰족함이 돌출인지 폭 좁음인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-001",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "「人中」者，一身溝洫之象也。",
+   "translation": "인중(人中)이라는 것은 한 몸의 도랑의 형상이다.",
+   "commentary": "인중을 물길(溝洫)에 비유한 총론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-002",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "如溝洫疏通，則水流而不壅；如淺狹不深，則水壅而不流。",
+   "translation": "도랑이 트여 통하면 물이 흘러 막히지 않고, 얕고 좁아 깊지 않으면 물이 막혀 흐르지 않는 것과 같다.",
+   "commentary": "인중을 도랑에 견준 비유이며, '얕고 좁음'은 도랑에 대한 서술이라 인중 형태로 직접 옮기지 않고 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "淺狹不深",
+     "observable_ko": "인중이 얕고 좁음(도랑 비유)",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "도랑 비유 속 서술로 인중에 직접 붙은 표현이 아니며 너비는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-003",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "夫人中之長短，可定壽命之長短；人中之廣狹，可斷男女之多少。",
+   "translation": "무릇 인중의 길고 짧음으로 수명의 길고 짧음을 정할 수 있고, 인중의 넓고 좁음으로 아들딸의 많고 적음을 판단할 수 있다.",
+   "commentary": "인중의 길이·너비를 수명·자녀 수와 대응시킨 교설이다. 길이는 방향 없이 척도만 말해 한 클래스로 정할 수 없고, 너비는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中之長短",
+     "observable_ko": "인중의 길이(방향 없음)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "philtrum_length:long",
+      "philtrum_length:short"
+     ],
+     "reason": "척도만 말하고 길다/짧다를 정하지 않았다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "人中之廣狹",
+     "observable_ko": "인중의 너비(방향 없음)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-004",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "故人中所以為壽命男女之宮也。",
+   "translation": "그러므로 인중은 수명과 남녀(자녀)의 궁(宮)이 된다.",
+   "commentary": "인중을 수명·자녀의 궁으로 정의한 교설로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-005",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "是以欲長而不欲縮，中深而外闊，直而不斜，闊而下垂者，皆善相也。",
+   "translation": "이 때문에 길고자 하고 오그라들고자 하지 않으며, 가운데가 깊고 바깥이 넓으며, 곧고 비뚤지 않고, 넓으면서 아래로 드리워진 것은 모두 좋은 상이다.",
+   "commentary": "주어 인중이 앞 문장에서 이어지므로 '길다'는 인중 길이 긺으로 옮겼다. 가운데의 깊이는 philtrum_definition에 근사하며, 너비·곧음·아래로 퍼짐은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "欲長而不欲縮",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "中深",
+     "observable_ko": "인중 가운데 홈이 깊음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "'中深'은 목록 표현 '人中深'과 그대로 같지 않다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "外闊",
+     "observable_ko": "인중 바깥(가장자리)이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "直而不斜",
+     "observable_ko": "인중이 곧고 비뚤지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "闊而下垂",
+     "observable_ko": "인중이 아래로 넓게 퍼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-006",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "其或細而狹者，衣食逼迫；",
+   "translation": "그 혹 가늘고 좁은 자는 의식이 핍박하고,",
+   "commentary": "인중의 너비는 대응 레이블이 없다. 문헌은 이를 의식의 궁핍과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "細而狹",
+     "observable_ko": "인중이 가늘고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-007",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "滿而平者，迍邅災滯。",
+   "translation": "가득하고 평평한 자는 막히고 머뭇거리며 재앙과 정체가 있다.",
+   "commentary": "인중이 평평함은 philtrum_definition의 '흐림'에 가깝지만 주어가 생략되고 '가득함'이 더해져 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "滿而平",
+     "observable_ko": "인중이 가득하고 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "주어가 생략되고 滿과 함께 쓰여 목록 표현 '人中平'과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-008",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "上狹下廣者多「子孫。",
+   "translation": "위가 좁고 아래가 넓은 자는 자손이 많다.",
+   "commentary": "인중의 위아래 너비 비는 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上狹下廣",
+     "observable_ko": "인중이 위는 좁고 아래는 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-009",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "上廣下狹者，少兒息。",
+   "translation": "위가 넓고 아래가 좁은 자는 자식이 적다.",
+   "commentary": "인중의 위아래 너비 비는 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上廣下狹",
+     "observable_ko": "인중이 위는 넓고 아래는 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-010",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "上下俱狹而中心闊者，子息疾苦而難成。",
+   "translation": "위아래가 모두 좁고 가운데가 넓은 자는 자식이 병들고 괴로워 이루기 어렵다.",
+   "commentary": "인중의 너비 모양은 대응 레이블이 없다. 문헌은 이를 자식의 질병과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上下俱狹而中心闊",
+     "observable_ko": "인중 위아래가 좁고 가운데가 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "health_disease"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-011",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "上下直而深者，子息滿堂。",
+   "translation": "위아래가 곧고 깊은 자는 자식이 집에 가득하다.",
+   "commentary": "깊이는 philtrum_definition에 근사하며 곧음은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上下直而深",
+     "observable_ko": "인중이 곧고 깊음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "주어가 생략되고 直과 함께 쓰여 목록 표현 '人中深'과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-012",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "上下平而淺者，子息不生。",
+   "translation": "위아래가 평평하고 얕은 자는 자식이 나지 않는다.",
+   "commentary": "평평하고 얕음은 philtrum_definition의 '흐림'에 근사한다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上下平而淺",
+     "observable_ko": "인중이 평평하고 얕음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "주어가 생략된 서술로 목록 표현 '人中淺·人中平'과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-013",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "深而長者長壽，",
+   "translation": "깊고 긴 자는 장수하고,",
+   "commentary": "인중을 주어로 한 문단 안의 서술이라 '길다'는 인중 길이 긺으로 옮겼고, 깊이는 등록 대기 항목에 근사한다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "深",
+     "observable_ko": "인중이 깊음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "주어가 생략된 서술로 목록 표현 '人中深'과 그대로 같지 않다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "而長",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-014",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "淺而短者夭亡。",
+   "translation": "얕고 짧은 자는 일찍 죽는다.",
+   "commentary": "인중을 주어로 한 문단 안의 서술이라 '짧다'는 인중 길이 짧음으로 옮겼고, 얕음은 등록 대기 항목에 근사한다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "淺",
+     "observable_ko": "인중이 얕음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "주어가 생략된 서술로 목록 표현 '人中淺'과 그대로 같지 않다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "而短",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-015",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "人中屈曲者，無信之人。",
+   "translation": "인중이 굽은 자는 신의가 없는 사람이다.",
+   "commentary": "인중의 굽음은 대응 레이블이 없다. 문헌은 이를 신의 없음이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中屈曲",
+     "observable_ko": "인중이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-016",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "人中端直者，忠義之士。",
+   "translation": "인중이 단정하고 곧은 자는 충의로운 선비다.",
+   "commentary": "인중의 곧음은 대응 레이블이 없다. 문헌은 이를 충의와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中端直",
+     "observable_ko": "인중이 단정하고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-017",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "正而垂者富壽，",
+   "translation": "바르고 드리워진 자는 부유하고 장수하며,",
+   "commentary": "인중의 바름·드리워짐은 대응 레이블이 없다. 문헌은 이를 부와 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "正而垂",
+     "observable_ko": "인중이 바르고 아래로 드리워짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-018",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "蹇而縮者，夭賤。",
+   "translation": "절뚝이고(뒤틀리고) 오그라든 자는 일찍 죽고 천하다.",
+   "commentary": "'蹇'은 뒤틀림으로 읽었다. 오그라듦은 인중 짧음과 관련되나 같은 표현이 아니어서 근사로 두었다. 문헌은 이를 요절과 천함에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "蹇而縮",
+     "observable_ko": "인중이 뒤틀리고 오그라듦",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_length:short"
+     ],
+     "reason": "縮은 오그라듦으로 목록 표현 '人中短'과 같지 않고 蹇은 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-019",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "明如破竹者，二千石祿。",
+   "translation": "쪼갠 대나무처럼 분명한 자는 이천 석의 녹을 받는다.",
+   "commentary": "쪼갠 대나무처럼 홈이 뚜렷한 인중은 philtrum_definition의 '뚜렷함'에 근사한다. 이천 석은 고위 관리의 녹봉을 가리킨다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "明如破竹",
+     "observable_ko": "인중 홈이 쪼갠 대나무처럼 뚜렷함",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "비유 표현으로 목록 표현 '人中深'과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-020",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "細如懸針者，絕子，貧寒。",
+   "translation": "매단 바늘처럼 가는 자는 자식이 끊기고 가난하고 춥다.",
+   "commentary": "바늘처럼 가는 인중은 너비 서술이라 대응 레이블이 없다. 문헌은 이를 무자식과 빈한에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "細如懸針",
+     "observable_ko": "인중이 바늘처럼 가늚",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-021",
+   "section": "人中論",
+   "region": "mole",
+   "original_text": "上有黑子者，多子。",
+   "translation": "(인중) 위쪽에 검은 점이 있는 자는 아들이 많다.",
+   "commentary": "인중 위치의 점은 등록 대기 항목 pigmented_marks에 근사할 뿐이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "上有黑子",
+     "observable_ko": "인중 위쪽에 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present에 근사할 뿐이며 이 레이블은 등록 대기 상태다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-022",
+   "section": "人中論",
+   "region": "mole",
+   "original_text": "下有黑子者多女，",
+   "translation": "아래쪽에 검은 점이 있는 자는 딸이 많고,",
+   "commentary": "인중 위치의 점은 등록 대기 항목 pigmented_marks에 근사할 뿐이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "下有黑子",
+     "observable_ko": "인중 아래쪽에 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present에 근사할 뿐이며 이 레이블은 등록 대기 상태다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-023",
+   "section": "人中論",
+   "region": "mole",
+   "original_text": "中有黑子者婚妻易而養兒難，",
+   "translation": "가운데에 검은 점이 있는 자는 아내를 맞기는 쉬우나 아이를 기르기는 어렵고,",
+   "commentary": "인중 위치의 점은 등록 대기 항목 pigmented_marks에 근사할 뿐이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "中有黑子",
+     "observable_ko": "인중 가운데에 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present에 근사할 뿐이며 이 레이블은 등록 대기 상태다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-024",
+   "section": "人中論",
+   "region": "mole",
+   "original_text": "有兩黑子者，主雙生，",
+   "translation": "검은 점이 둘 있는 자는 쌍둥이를 낳음을 주관하고,",
+   "commentary": "인중의 점 두 개는 등록 대기 항목 pigmented_marks에 근사할 뿐이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "有兩黑子",
+     "observable_ko": "인중에 점이 둘",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present에 근사할 뿐이며 이 레이블은 등록 대기 상태다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-025",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "有橫理者至老無兒，",
+   "translation": "가로 결이 있는 자는 늙도록 아이가 없고,",
+   "commentary": "인중의 가로 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "有橫理",
+     "observable_ko": "인중에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결은 대응하는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-026",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "有豎理者，主養他子，",
+   "translation": "세로 결이 있는 자는 남의 자식을 기름을 주관하며,",
+   "commentary": "인중의 세로 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "有豎理",
+     "observable_ko": "인중에 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결은 대응하는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-027",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "有縱理者，主兒宿疾，",
+   "translation": "종으로 난 결이 있는 자는 아이의 오랜 병을 주관하고,",
+   "commentary": "앞의 '豎理'와 '縱理'는 모두 세로 결로 읽히나 원문이 구별하여 썼으므로 그대로 옮겼다. 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "有縱理",
+     "observable_ko": "인중에 세로 결",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결은 대응하는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-028",
+   "section": "人中論",
+   "region": "philtrum",
+   "original_text": "若人中漫漫平而無者，是謂傾陷，至老絕嗣，窮苦之相也。",
+   "translation": "만약 인중이 흐릿흐릿 평평하여 없는 듯한 자는 이를 경함(傾陷)이라 이르니, 늙도록 대가 끊기는 궁하고 괴로운 상이다.",
+   "commentary": "인중이 흐릿하고 평평함(人中漫·人中平)은 philtrum_definition의 '흐림'과 직접 대응하므로 문헌은 이를 후사 단절과 궁핍에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中漫漫平而無",
+     "observable_ko": "인중 홈이 흐릿하고 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "wealth"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-029",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中平長，至老吉昌。兼有年壽，更益兒郎。",
+   "translation": "인중이 평평하고 길면 늙도록 길하고 창성하다. 겸하여 년수(年壽, 콧등)가 있으면 아들이 더욱 늘어난다.",
+   "commentary": "이 편은 표제에 저자 이름이 없어 저자를 붙이지 않았다. '人中…長'은 인중 길이 긺과 직접 대응하나 '平'이 고름인지 얕음인지 불분명하고, 콧등은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中平長",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중이 평평함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "平이 고르다는 뜻인지 홈이 얕다는 뜻인지 불분명하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "兼有年壽",
+     "observable_ko": "콧등(年壽)이 좋음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "년수(年壽)·비량(鼻梁) 즉 콧등 형태는 nose_dorsum 항목이 보류되어 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "fortune_general"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-030",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中短促子孫不足。",
+   "translation": "인중이 짧고 촉박하면 자손이 넉넉하지 않다.",
+   "commentary": "인중이 짧음(人中短)은 목록 표현과 직접 대응한다. 문헌은 이를 자손이 적음과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中短促",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-031",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中高厚，壽年不久。",
+   "translation": "인중이 높고 두터우면 수명이 길지 않다.",
+   "commentary": "인중의 높고 두터움은 대응 레이블이 없다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中高厚",
+     "observable_ko": "인중이 높고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 부위의 돌출·두께는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-032",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中廣平，養子不成。雖即生產，常聞哭聲。",
+   "translation": "인중이 넓고 평평하면 자식을 길러 이루지 못한다. 비록 곧 낳더라도 늘 곡소리를 듣는다.",
+   "commentary": "넓음은 레이블이 없고 평평함은 philtrum_definition의 '흐림'에 근사한다. 문헌은 이를 자식을 잃는 슬픔과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中廣",
+     "observable_ko": "인중이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중이 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "廣과 함께 쓰여 목록 표현 '人中平'과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-033",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中廣厚，奸淫未足。",
+   "translation": "인중이 넓고 두터우면 간음함이 그치지 않는다.",
+   "commentary": "인중의 넓음·두터움은 대응 레이블이 없다. 문헌은 이를 간음이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中廣厚",
+     "observable_ko": "인중이 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-034",
+   "section": "相人中篇",
+   "region": "mole",
+   "original_text": "人中兩黑，的生可儗。",
+   "translation": "인중에 두 검은 점이 있으면 분명 낳음이 (쌍으로) 견줄 만하다.",
+   "commentary": "'的生可儗'는 뜻이 분명하지 않아, 「인중론」의 '두 점은 쌍둥이를 주관한다'는 서술을 참고해 쌍생으로 읽었다. 인중의 점은 pigmented_marks에 근사할 뿐이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中兩黑",
+     "observable_ko": "인중에 점이 둘",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present에 근사할 뿐이며 이 레이블은 등록 대기 상태다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-035",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "《詩》曰：「人中平淺短何堪，無信無兒見者嫌，",
+   "translation": "시에 이르기를: \"인중이 평평하고 얕고 짧으면 어찌 견디리, 신의가 없고 아이가 없어 보는 자가 싫어한다.",
+   "commentary": "인중이 짧음(人中…短)은 인중 길이와 직접 대응하고, 평평하고 얕음(人中平·人中淺)은 philtrum_definition과 직접 대응한다. 문헌은 이를 신의 없음과 무자식에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中平淺短",
+     "observable_ko": "인중 홈이 평평하고 얕음",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "人中平淺短",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring",
+    "malice_deceit"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-036",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "若見直深長一寸，定知兒女轉加添，",
+   "translation": "만약 곧고 깊고 길이가 한 치인 것을 보면 아들딸이 더욱 불어남을 반드시 안다.",
+   "commentary": "길이를 '한 치'라는 절대 단위로 말해 지침상 근사이며, 깊음도 주어가 생략되어 근사로 두었다. 곧음은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "長一寸",
+     "observable_ko": "인중 길이가 한 치",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_length:long"
+     ],
+     "reason": "절대 단위 길이는 얼굴 비율 기반 길이 등급과 같은 척도가 아니다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "深",
+     "observable_ko": "인중이 깊음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "주어가 생략된 서술로 목록 표현 '人中深'과 그대로 같지 않다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "直",
+     "observable_ko": "인중이 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 너비·모양(넓음·좁음·굽음)은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-037",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "人中平平子不成，",
+   "translation": "인중이 평평하고 평평하면 자식이 이루어지지 않고,",
+   "commentary": "인중이 평평함(人中平)은 philtrum_definition의 '흐림'과 직접 대응한다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中平平",
+     "observable_ko": "인중 홈이 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-038",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "三陽赤色主相爭，",
+   "translation": "삼양(三陽)이 붉은 빛이면 서로 다툼을 주관하며,",
+   "commentary": "삼양은 관상에서 눈 아래 부위를 이르는 말로 쓰이나 이 시에서의 위치는 분명하지 않다. 색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三陽赤色",
+     "observable_ko": "삼양 부위가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-039",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "黃色得財無盜賊，",
+   "translation": "누런 빛이면 재물을 얻고 도적이 없으며,",
+   "commentary": "색은 형태 항목이 아니다. 문헌은 이를 재물 획득과 도난 없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "黃色",
+     "observable_ko": "누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-040",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "赤黑妻與外奸情。",
+   "translation": "붉고 검으면 아내가 바깥 사람과 간통한다.",
+   "commentary": "색은 형태 항목이 아니다. 문헌은 이를 아내의 간통이라는 낙인성 서술과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "赤黑",
+     "observable_ko": "붉고 검은 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "marriage",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-041",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "又曰：「人中井部水橫紋，每到臨船莫進程，",
+   "translation": "또 이르기를: \"인중의 정부(井部)에 물결 같은 가로 주름이 있으면, 배에 임할 때마다 길을 나아가지 말라.",
+   "commentary": "'井部'의 정확한 위치는 분명하지 않아 글자대로 옮겼다. 가로 주름은 대응 레이블이 없다. 문헌은 이를 뱃길의 위험과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中井部水橫紋",
+     "observable_ko": "인중에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결은 대응하는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634N-philtrum-042",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "偏左生兒右生女，",
+   "translation": "왼쪽으로 치우치면 아들을 낳고 오른쪽이면 딸을 낳으며,",
+   "commentary": "인중의 좌우 치우침은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "偏左",
+     "observable_ko": "인중이 왼쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치우침·굽음을 재는 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "右",
+     "observable_ko": "인중이 오른쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치우침·굽음을 재는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634N-philtrum-043",
+   "section": "相人中篇",
+   "region": "philtrum",
+   "original_text": "上下平平子不成。",
+   "translation": "위아래가 평평하고 평평하면 자식이 이루어지지 않는다.",
+   "commentary": "주어 인중이 생략되었으나 평평함은 philtrum_definition의 '흐림'에 근사한다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "上下平平",
+     "observable_ko": "인중 위아래가 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "주어가 생략된 서술로 목록 표현 '人中平'과 그대로 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  }
+ ]
+}

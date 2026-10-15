@@ -1,0 +1,268 @@
+{
+ "page_id": "tq4",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "TQ4-face-001",
+   "section": "太清神鑑 卷四",
+   "section_title": "五短之形",
+   "region": "face",
+   "original_text": "一頭短二靣短三身短四手短五足短五者俱短骨細肉滑印堂明潤五嶽朝接者少卿公侯之相也",
+   "translation": "첫째 머리가 짧고, 둘째 얼굴이 짧고, 셋째 몸이 짧고, 넷째 손이 짧고, 다섯째 발이 짧다. 다섯이 모두 짧으면서 뼈가 가늘고 살이 매끄러우며 인당(印堂, 두 눈썹 사이)이 밝고 윤택하고 오악(五嶽, 이마·코·턱·좌우 광대)이 서로 향해 이어진 자는 소경(少卿)·공후(公侯)의 상이다.",
+   "commentary": "오단(五短)은 머리·얼굴·몸·손·발이 모두 짧은 형을 말한다. 이 가운데 얼굴이 짧다는 서술(靣은 面의 이체자)만 얼굴 길이 레이블에 직접 대응하고, 몸·손·발·인당의 윤택함·오악의 호응은 사진 형태로 옮길 수 없다. 문헌은 이 조합을 높은 관직에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一頭短",
+     "observable_ko": "머리가 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 길이에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "二靣短",
+     "observable_ko": "얼굴이 짧음",
+     "status": "exact",
+     "label": "face_length:short"
+    },
+    {
+     "region": "other",
+     "evidence": "三身短四手短五足短",
+     "observable_ko": "몸·손·발이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리 외 몸·손·발의 길이는 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨細",
+     "observable_ko": "뼈가 가늚",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격의 굵기는 얼굴 사진 레이블로 측정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "肉滑",
+     "observable_ko": "살이 매끄러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 촉감·질감은 형태 레이블이 아니다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "印堂明潤",
+     "observable_ko": "인당이 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "밝음·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽朝接",
+     "observable_ko": "이마·코·턱·좌우 광대가 서로 향해 이어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "오악의 호응이 어떤 측정에 해당하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ4-face-002",
+   "section": "太清神鑑 卷四",
+   "section_title": "五短之形",
+   "region": "face",
+   "original_text": "雖俱五短而骨麄惡五嶽缺䧟則為下賤之人也",
+   "translation": "비록 다섯이 모두 짧더라도 뼈가 거칠고 추하며 오악(五嶽)이 이지러지고 꺼졌으면 낮고 천한 사람이 된다.",
+   "commentary": "오단의 형이라도 골격이 거칠고 오악이 꺼지면 천하다는 단서다. '麄'는 '粗(거칠다)'와 같은 뜻의 글자다. 오악의 결함은 여러 부위를 아우르는 서술이라 하나의 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "雖俱五短",
+     "observable_ko": "머리·얼굴·몸·손·발이 모두 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·손·발을 포함한 전신 조건으로 얼굴 사진만으로 확인할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨麄惡",
+     "observable_ko": "뼈가 거칠고 추함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "거칠고 추함은 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽缺䧟",
+     "observable_ko": "이마·코·턱·좌우 광대가 이지러지고 꺼짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위가 어떻게 꺼졌는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ4-other-003",
+   "section": "太清神鑑 卷四",
+   "section_title": "五短之形",
+   "region": "other",
+   "original_text": "其或上長下短則多富貴上短下長主居貧下矣",
+   "translation": "혹 위가 길고 아래가 짧으면 부귀가 많고, 위가 짧고 아래가 길면 가난하고 낮은 데 머묾을 주관한다.",
+   "commentary": "오단의 문맥에서 상체와 하체의 길이 비율을 말한 것으로 보이며, 얼굴의 상·하정(停)을 가리키는지는 원문만으로 확정되지 않는다. 문헌은 상체가 긴 쪽을 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上長下短",
+     "observable_ko": "위(상체)가 길고 아래(하체)가 짧음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "몸의 상하 비율인지 얼굴 삼정 비율인지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "上短下長",
+     "observable_ko": "위가 짧고 아래가 긺",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "몸의 상하 비율인지 얼굴 삼정 비율인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ4-face-004",
+   "section": "太清神鑑 卷四",
+   "section_title": "五長之形",
+   "region": "face",
+   "original_text": "一頭長二面長三身長四手長五足長五者俱長而骨貎豐隆清秀滋潤者善",
+   "translation": "첫째 머리가 길고, 둘째 얼굴이 길고, 셋째 몸이 길고, 넷째 손이 길고, 다섯째 발이 길다. 다섯이 모두 길면서 뼈와 모습이 풍성하게 솟고 맑고 빼어나며 윤택한 자는 좋다.",
+   "commentary": "오장(五長)은 머리·얼굴·몸·손·발이 모두 긴 형을 말한다. 얼굴이 길다는 서술만 얼굴 길이 레이블에 직접 대응하고, 몸·손·발과 풍륭·청수·윤택은 사진 형태로 옮길 수 없다. 문헌은 이 조합을 좋은 상이라 했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一頭長",
+     "observable_ko": "머리가 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 길이에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "二面長",
+     "observable_ko": "얼굴이 긺",
+     "status": "exact",
+     "label": "face_length:long"
+    },
+    {
+     "region": "other",
+     "evidence": "三身長四手長五足長",
+     "observable_ko": "몸·손·발이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리 외 몸·손·발의 길이는 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨貎豐隆",
+     "observable_ko": "뼈와 모습이 풍성하게 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위의 풍륭인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "清秀滋潤",
+     "observable_ko": "맑고 빼어나며 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어와 윤기는 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ4-other-005",
+   "section": "太清神鑑 卷四",
+   "section_title": "五長之形",
+   "region": "other",
+   "original_text": "如骨肉枯槁筋脉迸露雖俱五長反為貧賤之輩也",
+   "translation": "만약 뼈와 살이 마르고 시들며 힘줄과 핏줄이 튀어나와 드러나면, 비록 다섯이 모두 길더라도 도리어 가난하고 천한 무리가 된다.",
+   "commentary": "오장의 형이라도 살이 마르고 힘줄·핏줄이 드러나면 빈천하다는 단서다. 마름·핏줄 노출은 몸 전체 상태에 관한 서술로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨肉枯槁",
+     "observable_ko": "뼈와 살이 마르고 시듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "마르고 시든 상태는 윤기·체형 서술로 형태 레이블이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "筋脉迸露",
+     "observable_ko": "힘줄·핏줄이 튀어나와 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "핏줄·힘줄 노출에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "雖俱五長",
+     "observable_ko": "머리·얼굴·몸·손·발이 모두 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·손·발을 포함한 전신 조건으로 얼굴 사진만으로 확인할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ4-other-006",
+   "section": "太清神鑑 卷四",
+   "section_title": "五長之形",
+   "region": "other",
+   "original_text": "或有手短足長者主貧而賤足短手長者主富而貴也",
+   "translation": "혹 손이 짧고 발이 긴 자는 가난하고 천함을 주관하고, 발이 짧고 손이 긴 자는 부유하고 귀함을 주관한다.",
+   "commentary": "손과 발의 길이 비교로 빈부를 판단한 대목으로, 얼굴 형태 조건이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手短足長",
+     "observable_ko": "손이 짧고 발이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손·발은 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足短手長",
+     "observable_ko": "발이 짧고 손이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손·발은 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

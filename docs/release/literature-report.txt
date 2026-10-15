@@ -1,0 +1,109 @@
+FaceTeller 문헌 참조 코퍼스 v1 보고서 (2026-10-14)
+==================================================
+
+산출물
+- 코퍼스: data/release/literature/reference_corpus_v1.json (schema_version "faceteller-reference-corpus-1")
+- 검증 보고: data/release/literature/validation_report.json (커버리지·제외 사유·레이블 사용 통계 포함)
+- 재현 스크립트: scripts/release/build_reference_corpus.py (fetch / inventory / build / validate / check)
+- 입력: source_registry.json(문헌·페이지·고정 revid), snapshots/(Wikisource 본문 HTML 조각 26개 + sha256 manifest),
+  annotations/(조항별 원문 인용·직역·해설·형태 조건 30개 파일), pending_labels.json, ANNOTATION_GUIDE.md
+- 시험: tests/test_release_literature.py (24개 통과). 기존 test_pilot_contract / test_interpretation_service /
+  test_type_rules_v3 56개도 그대로 통과.
+
+재현 방법
+  .venv/Scripts/python.exe scripts/release/build_reference_corpus.py build   (오프라인: 저장 스냅샷만 사용)
+  .venv/Scripts/python.exe scripts/release/build_reference_corpus.py fetch --refresh   (고정 revid 재다운로드)
+  build는 결정적이다. 시험이 재빌드 결과와 저장된 코퍼스의 완전 일치를 확인한다.
+  corpus_sha256(정렬 JSON) = 66099ac1221b4fbe2ddfbdda9b617b2e0279dee7a024c3470c648155b5039ef7
+
+출처와 접근성 (요구사항 명세서 제출본이 명명한 4종 기준)
+- 『神相全編』: 단행본 원문이 아니라 『欽定古今圖書集成』 博物彙編 藝術典 相術部彙考 2~14(卷632~644)에 재수록된
+  본문을 Wikisource 판(고정 revid)으로 사용. 卷632~639·641·642를 스냅샷, 이 중 얼굴 부위 장을 주석.
+  편집본 안에서 許負·達摩·袁柳莊·郭林宗 이름이 붙은 단편은 source.attributed_to로 표시했다(독립 판본이 아님).
+- 『許負相法』: Wikisource 단행 텍스트(夷門廣牘 수록으로 표기) 16편 중 얼굴 관련 1~8편 스냅샷, 1~6편 주석.
+  7(齒)·8(舌)편은 스냅샷만 있고 주석하지 않았다(치아·혀는 사진 형태 레이블 범위 밖).
+- 『太淸神鑑』: Wikisource 四庫全書本 6卷 스냅샷. 卷5의 論額部·論靣部·論眉部·論眼部만 주석. 이 판본(四庫 提要에 따르면
+  永樂大典 일문을 모아 재편)에는 코·입·귀를 다루는 독립 장이 없다.
+- 『柳莊相法』: 단행본 원문 접근 불가. Wikisource에 해당 책이 없고, ctext.org는 2026-10-14 스크립트 접근을
+  봇 차단 페이지로 응답했다. 『神相全編』 안에 袁柳莊 이름으로 실린 「袁柳莊識人賦」(卷638)와 「袁柳莊雜論 上·中·下篇」(卷639)만
+  attributed_to "袁柳莊"으로 주석했다. 이것은 책 『柳莊相法』이 아니며 sources[]에 넣지 않고 literature_coverage[]에 기록했다.
+- 추가: 『照膽經』(古今圖書集成 卷645~646, 명세서 미명명)을 최하위 우선순위로 포함. 卷646의 目·口·鼻·耳·人中·眉를 주석.
+- 古今圖書集成 페이지의 Wikisource 안내문: 원문에는 구두점이 없고, 구두점은 AI 프로그램 「古詩文斷句 v2.1」이 만든 뒤
+  사용자가 고친 것이다. 조항 경계·인용 구두점이 기계 구두에 기대므로 의심스러운 끊어 읽기는 해설에 명시했다.
+- 문헌 우선순위(낮을수록 우선): 神相全編 1, 許負相法 2, 太淸神鑑 3, 照膽經 4. 같은 문장이 여러 판본에 있으면 우선순위가 높은
+  쪽만 서비스 대상으로 두고 나머지는 DUPLICATE_TEXT_OF / NEAR_DUPLICATE_OF로 보존한다.
+- 모든 원문은 공공영역이며 Wikisource 전사·구두 층은 CC BY-SA 4.0이다. 얼굴 사진·개인정보는 받거나 보내지 않았다.
+
+규모와 커버리지 (실측)
+- 조항 1,624개: 神相全編 1,111 / 照膽經 370 / 許負相法 83 / 太淸神鑑 60.
+- 서비스 적격(service_eligible=true) 50개: 神相全編 41 / 照膽經 6 / 許負相法 2 / 太淸神鑑 1.
+  부위별 적격: 눈썹 19, 눈 10, 코 9, 입 7, 턱 2, 얼굴 2, 인중 1. 귀·이마·점·애교살·광대·미간 0.
+  필수 레이블 1개 43조, 2개 7조.
+- 주석한 182개 절 중 181개는 문자(구두점 제외) 커버리지 100%. 太淸神鑑 卷5는 단일 절이라 4개 하위 장만 덮어 15.6%다.
+- 스냅샷 대비 주석 범위(구두점 제외 문자): 神相全編 18,142 / 128,553, 照膽經 3,902 / 29,788,
+  許負相法 820 / 1,321, 太淸神鑑 783 / 37,364. 주석하지 않은 부분은 기색(氣色)·성음·손금·신체·여성/영아·동물형·
+  賦 장문(神異賦·人倫大統賦 등)·紀事다. 얼굴 형태와 무관하거나 분량이 커서 이번 범위에서 뺐다.
+- 기존 data/interpretation_catalog_v1.json 103건 중 102건이 같은 절의 조항과 legacy_record_ids로 연결된다.
+  나머지 1건은 연결 조건(같은 권·같은 표제·본문 포함)을 만족하지 않았다.
+- 猴口(卷634)는 Wikisource 전사본에 본문이 비어 있어 조항이 없다.
+
+적격 판정 규칙 (build가 강제, 사람이 손으로 바꾸지 않음)
+- 조항의 모든 형태 조건이 data/label_schema_kface_v3.json의 정식 feature:class 하나에 정확(exact) 대응해야 한다.
+  근사·모호·미대응·관찰 불가(색·광택·기운·눈빛·소리·행동·성별·신체) 조건이 하나라도 있으면 제외하고 사유를 남긴다.
+- 정확 대응 어휘는 ANNOTATION_GUIDE.md 표에 고정했다(예: 眉過目→brow_length:long, 山根高→nose_bridge:high,
+  準頭圓→nose_tip:rounded, 脣厚→lip_thickness:full). 중간 클래스(medium 등)는 정확 대응으로 쓰지 않는다.
+- 한 조항에 같은 feature의 서로 다른 클래스가 있으면 제외한다.
+- 민감 주장은 형태 대응이 정확해도 제외한다: 범죄, 성적 행실, 건강·질병, 수명·죽음(장수 주장 포함), 지능,
+  폭력, 친족 해악(剋·妨, 출생 의혹), 간사·악의. 이 사유로만 빠진 정확 대응 조항은 33개다.
+  재물·관직·일반 운·성품·가족·혼인 주장은 역사 문헌 조회로 표시할 수 있게 남겼다.
+  이 정책은 exclusion_reasons에 그대로 드러나므로 메인 담당자가 다르게 정하면 재빌드로 바꿀 수 있다.
+- 조정자가 공지한 미학습 레이블(forehead_*, ear_*, pigmented_marks, under_eye, philtrum_definition)은
+  exact로 기록하되 pending_labels에만 넣고 LABEL_PENDING_REGISTRY로 제외한다(현재 18조).
+  레지스트리가 확정되면 원문을 다시 받지 않고 pending_labels.json/라벨 스키마만 갱신해 재빌드하면 된다.
+- 근사·후보 대응은 observable_conditions[].candidate_labels에 보존했고, required_labels에는 정확 대응만 들어간다.
+- 서비스 적격 후보로 남았던 조항 중 6건은 교차 검토(AI, 사람 아님)로 조정했다.
+  '非是同腹'·'異父母' 계열 3건은 kinship_harm을 추가했다. 주어가 앞 구절에만 있는 '長則貴'는 제외했다.
+  OR 해석 여지가 있는 '圓而小，短而深'과 뒤 구절이 판독되지 않는 '口小餐美食'도 제외했다.
+  사유는 각 조항의 review_note / exclusions에 남겼다.
+
+스키마 (DB 작업자 계약: scripts/release/setup_database.validate_corpus 통과 확인)
+- 최상위: schema_version, generated_by, label_vocabulary, annotation_policy, sources[], literature_coverage[], passages[]
+- sources[]: literature_id, title, title_ko, literature_priority, text_witness, text_availability, priority_reason,
+  notes, punctuation_note, source_urls[]
+- passages[]: passage_id(ASCII 고정 문자열), literature_id, original_text, translation, commentary,
+  source{title, url(oldid 고정), chapter, locator, literature_title, passage_no, passage_no_kind, section_heading,
+  section_occurrence, char_span, scan_page, scan_page_end, wikisource_title, wikisource_revid, snapshot_file,
+  snapshot_sha256, text_witness, license, attributed_to?}, required_labels(정렬·중복 없음),
+  pending_labels, literature_priority, passage_order(문헌 내 고유), annotation_status, service_eligible,
+  exclusion_reasons, region, observable_conditions[], claim_topics, translation_kind, commentary_kind,
+  display_policy, legacy_record_ids, annotation_file, (선택) review_note
+- locator 예: "section 龍鼻 / chars 0-32 of section text / scan Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/34"
+  古今圖書集成 조항은 Wikisource djvu 스캔 쪽까지, 許負相法·太淸神鑑은 Wikisource 페이지·절·문자 범위까지 가리킨다.
+
+검증 내용 (시험으로 고정)
+- 스냅샷 sha256·revid 일치. 모든 스캔 쪽 표지가 추출에 보존되고, 라이선스 배너가 본문에 섞이지 않는다.
+- 모든 original_text가 스냅샷 절의 기록된 char_span과 일치하고, 모든 조건 evidence가 original_text 안에 있다.
+  (지어낸 인용은 빌드 실패)
+- passage_id·literature_id 참조 무결성, 문헌 내 passage_order 고유, 같은 문장(구두점 무시)의 적격 사본은 하나뿐.
+- 적격 조항: 정식 레이블만 사용, 비정확 조건·민감 주제·pending 레이블 없음, feature 중복 없음.
+- 제외 조항: 반드시 사유가 있음. sections_complete로 선언한 절은 커버리지 1.0.
+- 부정 시험: 지어낸 원문, 원문 밖 evidence, 비정식 레이블, 중복 ID는 빌드 실패. 민감 주제·근사 조건·
+  pending 레이블·모순 클래스·중복 문장은 각각 제외 사유로 처리된다.
+- facework.pilot_contract.PassageSelector가 적격 조항을 그대로 받아 선정한다.
+
+정직성·한계
+- 직역과 해설은 전부 AI(Claude) 초안이다(annotation_status=ai_annotated_unreviewed, human_review="none").
+  사람·전문가 검수는 없다. 10개 병렬 AI 주석 작업과 이 작업자의 AI 교차 검토만 거쳤다.
+- 고문 판독이 불확실한 구절(오자 의심, 기계 구두 오류, 뜻 미상 어구)은 직역하고 해설에 불확실성을 적었다.
+  원문 글자는 고치지 않았다.
+- 해설은 문헌의 주장을 "문헌은 ~라고 적었다" 형식으로만 전한다. 사용자 개인의 성격·지능·건강·운명을 판정하지 않는다.
+  display_policy = historical_text_only_not_a_personal_prediction.
+- 정식 v3 레이블 38개 feature 중 적격 조항이 있는 것은 31개 클래스(약 22개 feature)다.
+  alar_fullness, brow_gap, brow_tail_clarity, brow_thickness, cheek_fullness, cheekbone, chin_projection,
+  eye_asymmetry, eye_spacing, eyelid, jaw_width, lip_balance, lip_bow, lip_projection, nose_projection,
+  sclera_show은 적격 조항이 0개다. 원문이 동물 비유·복합 조건·민감 주장으로 서술하는 경우가 대부분이다.
+- 귀·이마·점·애교살은 레이블 레지스트리가 확정되기 전까지 적격 0이다.
+- 코퍼스 범위는 위 '주석 범위'로 한정되며 4종 문헌 전체 완역이 아니다.
+  남은 일: 神相全編 卷635~644·照膽經 卷645의 얼굴 관련 미주석 절, 許負相法 7~8편, 太淸神鑑 卷4·6 얼굴 서술,
+  柳莊相法 단행본 접근 경로 확보, 전문가 검수.
+- 이 작업은 GPU·모델·벤치마크·다른 작업자 파일을 건드리지 않았다(새 파일만 생성).

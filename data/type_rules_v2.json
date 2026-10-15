@@ -1,0 +1,3129 @@
+{
+ "version": "type-rules-v2-draft",
+ "authoring": "AI 초벌, 전문가 검수 전",
+ "feature_vocabulary": {
+  "eye_size": {
+   "values": [
+    "small",
+    "medium",
+    "large"
+   ],
+   "definition": "얼굴 폭 대비 눈 가로 길이 (한국인 400명 분포 3분위)"
+  },
+  "eye_roundness": {
+   "values": [
+    "narrow",
+    "intermediate",
+    "rounded"
+   ],
+   "definition": "눈 가로 대비 세로 개방 정도"
+  },
+  "eye_tilt": {
+   "values": [
+    "down",
+    "level",
+    "up"
+   ],
+   "definition": "눈머리 대비 눈꼬리 높이"
+  },
+  "eye_asymmetry": {
+   "values": [
+    "symmetric",
+    "asymmetric"
+   ],
+   "definition": "좌우 눈 크기·형태 차이"
+  },
+  "brow_shape": {
+   "values": [
+    "straight",
+    "arched",
+    "angled"
+   ],
+   "definition": "눈썹 윤곽(일자/곡선/꺾임)"
+  },
+  "brow_thickness": {
+   "values": [
+    "thin",
+    "medium",
+    "thick"
+   ],
+   "definition": "눈썹 띠의 세로 두께"
+  },
+  "brow_length": {
+   "values": [
+    "short",
+    "medium",
+    "long"
+   ],
+   "definition": "눈 가로 길이 대비 눈썹 길이"
+  },
+  "brow_eye_gap": {
+   "values": [
+    "close",
+    "medium",
+    "wide"
+   ],
+   "definition": "눈썹 하단과 윗눈꺼풀 사이 거리"
+  },
+  "brow_tail": {
+   "values": [
+    "descending",
+    "level",
+    "ascending"
+   ],
+   "definition": "눈썹 꼬리 방향"
+  },
+  "nose_width": {
+   "values": [
+    "narrow",
+    "medium",
+    "wide"
+   ],
+   "definition": "콧방울 폭"
+  },
+  "nose_length": {
+   "values": [
+    "short",
+    "medium",
+    "long"
+   ],
+   "definition": "코 길이(콧뿌리~코끝)"
+  },
+  "nose_tip": {
+   "values": [
+    "rounded",
+    "tapered"
+   ],
+   "definition": "코끝 윤곽"
+  },
+  "nose_projection": {
+   "values": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "definition": "코끝 돌출(다중 시점 깊이)"
+  },
+  "nose_bridge": {
+   "values": [
+    "low",
+    "medium",
+    "high"
+   ],
+   "definition": "콧대 높이(다중 시점 깊이)"
+  },
+  "mouth_width": {
+   "values": [
+    "narrow",
+    "medium",
+    "wide"
+   ],
+   "definition": "얼굴 폭 대비 입 너비"
+  },
+  "lip_thickness": {
+   "values": [
+    "thin",
+    "medium",
+    "full"
+   ],
+   "definition": "입술 두께"
+  },
+  "lip_balance": {
+   "values": [
+    "upper_thin",
+    "balanced",
+    "upper_full"
+   ],
+   "definition": "윗입술·아랫입술 두께 비"
+  },
+  "mouth_corner": {
+   "values": [
+    "down",
+    "level",
+    "up"
+   ],
+   "definition": "무표정 시 입꼬리 방향"
+  },
+  "face_shape": {
+   "values": [
+    "oval",
+    "round",
+    "angular",
+    "long"
+   ],
+   "definition": "얼굴 윤곽 유형"
+  },
+  "face_length": {
+   "values": [
+    "short",
+    "medium",
+    "long"
+   ],
+   "definition": "얼굴 세로 비율"
+  },
+  "jaw_width": {
+   "values": [
+    "narrow",
+    "medium",
+    "wide"
+   ],
+   "definition": "아래턱 폭"
+  }
+ },
+ "weight_legend": {
+  "1.0": "원문이 해당 특징을 직접 서술",
+  "0.7": "가까운 번역·관용 표현에서 옮김",
+  "0.5": "해석 여지가 큰 매핑(notes 참조)"
+ },
+ "matching_policy": "관찰 가능한 조건(conditions)을 모두 충족하면 '가까운 유형' 후보로 제시한다. 일부만 충족하면 '부분 유사'로만 표시한다. 관찰 가능한 조건이 없는 유형(rule_coverage='none')은 사진으로 제시하지 않는다. rule_coverage='partial'인 유형은 unobservable_conditions를 사진으로 확인하지 못했음을 함께 표시한다. min_conditions_to_suggest는 '가까운 유형' 제시에 필요한 충족 조건 수이며, 조건 하나(특히 weight<1.0)만으로 성립하는 유형은 같은 조건을 공유하는 다른 유형과 함께 후보로 나열하고 단정하지 않는다. 후보가 여럿이면 충족 조건 weight 합이 큰 순으로 정렬한다.",
+ "records": [
+  {
+   "record_id": "SXQP633-brow-001",
+   "name_ko": "귀미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "眉粗",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_eye_gap",
+     "values": [
+      "close"
+     ],
+     "evidence": "壓眼",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 2,
+   "notes": "'壓眼'(눈을 누름)을 눈썹-눈 간격이 좁음으로 옮겼다. 두 조건이 모두 필요하며, '眉粗' 단독으로는 尖刀眉·虎眉·獅子眉 등과 겹친다."
+  },
+  {
+   "record_id": "SXQP633-brow-002",
+   "name_ko": "소산미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "원문에 형태 서술이 없고 이름만으로 '성긴 눈썹' 조건을 만들지 않았다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-003",
+   "name_ko": "황박미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "short"
+     ],
+     "evidence": "眉短",
+     "weight": 1.0
+    },
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "目且長",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 털이 성기고 흩어짐",
+     "evidence": "疏散",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "정신이 흐리고 기운이 탁함",
+     "evidence": "神昏氣濁",
+     "reason": "기색·신기는 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'目且長'(눈이 긺)을 얼굴폭 대비 눈 가로가 큼으로 옮겼다. 짧은 눈썹 조건은 短促秀眉·大短促眉와 겹치므로 눈 조건과 함께 봐야 한다."
+  },
+  {
+   "record_id": "SXQP633-brow-004",
+   "name_ko": "소추미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 앞은 정돈되고 뒤쪽 털이 성기게 흩어짐",
+     "evidence": "前清後疏",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "눈썹 털이 흩어져 드문드문함",
+     "evidence": "眉散朗",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "형태 조건이 모두 털 밀도 차이여서 현재 어휘로 표현할 수 없다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-005",
+   "name_ko": "첨도미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "眉粗",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹에 악한 살기가 서림",
+     "evidence": "惡煞",
+     "reason": "인상·기운 판단은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건이 '굵은 눈썹' 하나뿐이라 鬼眉·虎眉·獅子眉 등과 겹친다. 단독 조건만으로는 '부분 유사' 이상으로 제시하지 않는 것이 바람직하다."
+  },
+  {
+   "record_id": "SXQP633-brow-006",
+   "name_ko": "팔자미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_tail",
+     "values": [
+      "descending"
+     ],
+     "evidence": "壓奸門",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 머리가 성기고 꼬리 털이 흩어짐",
+     "evidence": "頭疏尾散",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'壓奸門'(눈꼬리 바깥 부위를 누름)을 꼬리가 내려감으로 옮겼다. 이름 '八字'만으로 각도를 추가하지 않았으며, 고정 각도 기준은 없다."
+  },
+  {
+   "record_id": "SXQP633-brow-007",
+   "name_ko": "나한미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "원문에 형태 서술이 없다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-008",
+   "name_ko": "용미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_shape",
+     "values": [
+      "arched"
+     ],
+     "evidence": "彎彎",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 털이 드묾",
+     "evidence": "毫且稀",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "굽은 눈썹 조건은 輕清眉·臥蠶眉·清秀眉와 겹치므로 단독으로는 구별이 어렵다. 이름 '龍'에서 형태를 추가하지 않았다."
+  },
+  {
+   "record_id": "SXQP633-brow-009",
+   "name_ko": "유엽미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "眉粗",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹이 탁한 가운데 맑음이 있음",
+     "evidence": "帶濁濁中清",
+     "reason": "색·기색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "원문은 '眉粗'이지만 이름(가는 버들잎)과 모순되어 전사 오류 가능성 때문에 가중치를 낮췄다. 굵은 눈썹 조건은 鬼眉·尖刀眉·虎眉와 겹친다."
+  },
+  {
+   "record_id": "SXQP633-brow-010",
+   "name_ko": "검미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "long"
+     ],
+     "evidence": "秀且長",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹이 숲처럼 무성함",
+     "evidence": "眉若山林",
+     "reason": "털 밀도는 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "긴 눈썹 조건은 輕清眉·清秀眉·新月眉·小掃箒眉와 겹친다. 이름 '劍'에서 직선·각진 모양을 추가하지 않았다."
+  },
+  {
+   "record_id": "SXQP633-brow-011",
+   "name_ko": "사자미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "眉毫粗",
+     "weight": 0.7
+    },
+    {
+     "feature": "brow_eye_gap",
+     "values": [
+      "wide"
+     ],
+     "evidence": "喜高眼",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 털이 탁함",
+     "evidence": "粗濁",
+     "reason": "털 색·결은 형태 모델 범위 밖"
+    },
+    {
+     "description": "얼굴 삼정이 사자 형상과 어울림",
+     "evidence": "三停得配獅形像",
+     "reason": "얼굴 전체의 형상 비유는 어휘로 표현 불가"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'毫粗'는 털 자체의 굵기일 수 있어 가중치를 낮췄고, '喜高眼'을 눈썹-눈 간격이 넓음으로 옮긴 것은 해석 여지가 크다(0.5)."
+  },
+  {
+   "record_id": "SXQP633-brow-012",
+   "name_ko": "전청후소미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 앞은 맑고 꼬리 털은 흩어졌으나 흩어진 중에도 맑음",
+     "evidence": "眉清尾散散中清",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "형태 조건이 털 밀도·맑음뿐이어서 현재 어휘로 표현할 수 없다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-013",
+   "name_ko": "경청미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_shape",
+     "values": [
+      "arched"
+     ],
+     "evidence": "彎長",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_length",
+     "values": [
+      "long"
+     ],
+     "evidence": "彎長",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 꼬리 털이 약간 성김",
+     "evidence": "尾帶疏",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "굽고 긴 눈썹 조건은 清秀眉와 거의 같으므로 꼬리 밀도 없이 구별하기 어렵다."
+  },
+  {
+   "record_id": "SXQP633-brow-014",
+   "name_ko": "단촉수미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "short"
+     ],
+     "evidence": "秀短",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 1,
+   "notes": "짧은 눈썹 단일 조건이라 黃薄眉·大短促眉와 겹친다. '秀'(수려함)는 미적 평가라 조건으로 넣지 않았다."
+  },
+  {
+   "record_id": "SXQP633-brow-015",
+   "name_ko": "선라미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 털이 소라처럼 소용돌이침",
+     "evidence": "旋螺之眉",
+     "reason": "털 방향은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "유일한 형태 조건이 털 방향이라 어휘로 표현할 수 없다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-016",
+   "name_ko": "일자미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "medium",
+      "long"
+     ],
+     "evidence": "首尾皆如蓋",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 털이 맑음(정돈됨)",
+     "evidence": "毫清",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'머리부터 꼬리까지 덮개 같다'를 눈을 덮을 만큼의 길이로 읽어 0.5로 넣었다. 이름 '一字'만으로 brow_shape straight를 추가하지 않았다."
+  },
+  {
+   "record_id": "SXQP633-brow-017",
+   "name_ko": "와잠미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_shape",
+     "values": [
+      "arched"
+     ],
+     "evidence": "眉彎",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 1,
+   "notes": "굽은 눈썹 단일 조건이라 龍眉·輕清眉·清秀眉와 겹친다. 이름(누에)에서 두께 조건을 추가하지 않았다."
+  },
+  {
+   "record_id": "SXQP633-brow-018",
+   "name_ko": "신월미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "long"
+     ],
+     "evidence": "眉尾拂天倉",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 1,
+   "notes": "꼬리가 천창(관자놀이)까지 닿음을 긴 눈썹으로 옮겼다. 긴 눈썹 조건은 劍眉·輕清眉·清秀眉·小掃箒眉와 겹친다. '眉清目秀'는 미적 평가라 조건에서 제외했다."
+  },
+  {
+   "record_id": "SXQP633-brow-019",
+   "name_ko": "호미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "雖粗",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹에 위엄이 있음",
+     "evidence": "有威",
+     "reason": "인상 판단은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "굵은 눈썹 단일 조건이라 鬼眉·尖刀眉·獅子眉와 겹치며, 이들을 가르는 요소(위엄·살기 등)는 관찰 불가하다."
+  },
+  {
+   "record_id": "SXQP633-brow-020",
+   "name_ko": "소소추미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "若濃若大",
+     "weight": 0.7
+    },
+    {
+     "feature": "brow_length",
+     "values": [
+      "long"
+     ],
+     "evidence": "齊拂",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "털 한 올 한 올은 거칠지 않음",
+     "evidence": "毫不粗",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "눈썹 꼬리 털이 마르지 않고 이어짐",
+     "evidence": "尾不枯",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'齊拂《天倉》'(관자놀이까지 가지런히 스침)을 긴 눈썹으로 옮겼다. 굵고 긴 조합은 劍眉 등 길상과 겹칠 수 있어 털 결을 볼 수 없는 한 구별이 어렵다."
+  },
+  {
+   "record_id": "SXQP633-brow-021",
+   "name_ko": "대단촉미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_length",
+     "values": [
+      "short"
+     ],
+     "evidence": "短秀",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹 꼬리가 약간 누럼",
+     "evidence": "尾略黃",
+     "reason": "색은 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "눈썹 머리 털이 곧추섬",
+     "evidence": "眉頭豎立",
+     "reason": "털 방향은 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "눈썹 털이 맑음(정돈됨)",
+     "evidence": "毫清",
+     "reason": "털 밀도·결·색은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "짧은 눈썹 단일 조건이라 黃薄眉·短促秀眉와 겹치며, 이 유형을 구별하는 조건(색·털 방향)은 관찰 불가하다."
+  },
+  {
+   "record_id": "SXQP633-brow-022",
+   "name_ko": "청수미",
+   "part": "brow",
+   "conditions": [
+    {
+     "feature": "brow_shape",
+     "values": [
+      "arched"
+     ],
+     "evidence": "秀彎",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_length",
+     "values": [
+      "long"
+     ],
+     "evidence": "長順過天倉",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 2,
+   "notes": "굽고 긴 눈썹 조합은 輕清眉와 거의 같다(輕清眉는 꼬리가 성김). 두 유형은 사진 조건만으로 구별되지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-023",
+   "name_ko": "간단미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈썹이 누렇거나 옅음",
+     "evidence": "若黃若淡",
+     "reason": "색·농도는 형태 모델 어휘 범위 밖"
+    },
+    {
+     "description": "눈썹 털이 얽히고 꼬임",
+     "evidence": "有勾絞",
+     "reason": "털 방향은 형태 모델 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "형태 조건이 색·털 얽힘뿐이어서 어휘로 표현할 수 없다. 이름의 '끊김'을 조건으로 추가하지 않았다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-brow-024",
+   "name_ko": "교가미",
+   "part": "brow",
+   "conditions": [],
+   "unobservable_conditions": [],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "원문에 형태 서술이 없고 이름(교차)만으로 조건을 만들지 않았다. 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-001",
+   "name_ko": "용안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼大",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "검은자와 흰자의 경계가 뚜렷함",
+     "evidence": "黑白分明",
+     "reason": "흑백 대비·색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈빛에 광채가 있으면서 기운이 갈무리됨",
+     "evidence": "氣神藏",
+     "reason": "눈빛·신기는 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'波長'(긴 눈매)도 큰 눈을 뒷받침하나 eye_size 한 조건으로 합쳤습니다. 眼大 단일 조건은 獅眼·虎眼·牛眼과 겹치므로 비관찰 조건 확인 없이는 구별되지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-002",
+   "name_ko": "봉안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "波長",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈빛이 빼어나고 정신이 맑음",
+     "evidence": "影光秀氣又神清",
+     "reason": "눈빛·신기는 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'波長'을 가로로 긴 눈(eye_size large)으로 옮긴 근사 매핑입니다. 상향 눈꼬리 조건은 원문에 없어 넣지 않았습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-003",
+   "name_ko": "후안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "검은 눈동자가 위로 치켜 있음",
+     "evidence": "黑睛昂上",
+     "reason": "눈동자 위치·시선은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈가 주름 선이 곧게 솟음",
+     "evidence": "波紋矗",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    },
+    {
+     "description": "과일을 좋아하고 고개를 숙여 앉음",
+     "evidence": "好餐果品坐頭低",
+     "reason": "습성·자세는 사진 형태 분석 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "관찰 어휘로 표현 가능한 형태 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-004",
+   "name_ko": "상안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_roundness",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "眼細",
+     "weight": 1.0
+    },
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "波長",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "위아래 눈가에 선(주름)이 있음",
+     "evidence": "上下波紋",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'波長眼細'를 가로로 길고(large) 세로로 가는(narrow) 눈으로 옮겼습니다. 鳳眼(波長 단일 조건)과 겹칠 수 있으나 눈 세로 개방 조건으로 구별됩니다."
+  },
+  {
+   "record_id": "SXQP633-eye-005",
+   "name_ko": "귀안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 둥글고 기운을 감춤",
+     "evidence": "睛圓藏秀氣",
+     "reason": "눈동자 형태·신기는 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈 위쪽에 가는 선이 여러 줄 있음",
+     "evidence": "數條上有細紋波",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈 윤곽에 대한 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-006",
+   "name_ko": "작안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "秀且長",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈 위쪽에 주름 같은 선이 있음",
+     "evidence": "上有如紋",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'秀且長'이 눈을 가리키는지 위쪽 선을 가리키는지 모호해 weight 0.5로 두었습니다. 단독으로는 다른 '긴 눈' 유형과 구별되지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-007",
+   "name_ko": "사안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼大",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "粗眉",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈에 위엄이 있음",
+     "evidence": "威嚴",
+     "reason": "인상·기색은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "눈썹 조건을 포함한 눈·눈썹 복합 유형입니다. 眼大만 충족하면 虎眼·牛眼과 겹치므로 굵은 눈썹 조건이 구별 기준입니다."
+  },
+  {
+   "record_id": "SXQP633-eye-008",
+   "name_ko": "호안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼大",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 누런 옅은 금빛",
+     "evidence": "睛黃淡金色",
+     "reason": "눈동자 색은 조명 의존적이며 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈동자가 때로 짧게 때로 길게 보임",
+     "evidence": "瞳人或短有時長",
+     "reason": "눈동자 변화는 관찰 어휘 없음(뜻도 불분명)"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건은 眼大뿐이라 龍眼·牛眼·獅眼과 겹칩니다. 핵심 구별 조건(금빛 눈동자)이 비관찰이므로 '부분 유사' 이상으로 제시하기 어렵습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-009",
+   "name_ko": "우안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼大",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 둥글다",
+     "evidence": "睛圓",
+     "reason": "눈동자 형태는 형태 모델 범위 밖"
+    },
+    {
+     "description": "바람을 보는 듯, 원근이 분명치 않은 눈빛",
+     "evidence": "見之遠近不分明",
+     "reason": "시선·눈빛은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건은 眼大뿐이라 龍眼·虎眼·獅眼과 겹칩니다."
+  },
+  {
+   "record_id": "SXQP633-eye-010",
+   "name_ko": "공작안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈매가 밝고 눈동자가 검게 빛남",
+     "evidence": "眼有波明睛黑光",
+     "reason": "광택·눈동자 색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "검은자가 많고 흰자가 적음",
+     "evidence": "青多白少",
+     "reason": "흑백 비율은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈 윤곽에 대한 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-011",
+   "name_ko": "원앙안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_roundness",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "眼圓",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자에 붉은 윤기가 돌고 엷은 막이 있음",
+     "evidence": "睛紅潤有紗",
+     "reason": "색·윤기는 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈(안구)이 약간 드러남",
+     "evidence": "略露",
+     "reason": "안구 돌출 정도는 관찰 어휘 없음"
+    },
+    {
+     "description": "도화(색정)의 기색을 띰",
+     "evidence": "帶桃花",
+     "reason": "기색은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "眼圓만 관찰 가능해 둥근 눈 전반과 겹칩니다. 핵심 특징(붉은 윤기·도화)이 비관찰입니다."
+  },
+  {
+   "record_id": "SXQP633-eye-012",
+   "name_ko": "명봉안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "위 눈꺼풀 선이 솟아 뚜렷함",
+     "evidence": "上層波起",
+     "reason": "눈꺼풀 주름은 관찰 어휘 없음"
+    },
+    {
+     "description": "눈을 떠도 신기를 드러내지 않음",
+     "evidence": "視耳睜睜不露神",
+     "reason": "시선·눈빛은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈 윤곽 크기·개방·기울기 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-013",
+   "name_ko": "수봉안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "시선이 평평하고 치우치지 않음",
+     "evidence": "平平瞻視不偏斜",
+     "reason": "시선은 형태 모델 범위 밖"
+    },
+    {
+     "description": "웃음에 온화한 얼굴빛",
+     "evidence": "笑帶和容",
+     "reason": "표정은 무표정 사진 기준 형태 분석 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "이름만으로 '졸린 듯한 눈'을 조건화하지 않았습니다. 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-014",
+   "name_ko": "서봉안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "二波長秀",
+     "weight": 0.7
+    },
+    {
+     "feature": "eye_asymmetry",
+     "values": [
+      "symmetric"
+     ],
+     "evidence": "兩角齊",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "은은한 미소를 머금음",
+     "evidence": "笑微微",
+     "reason": "표정은 형태 모델 범위 밖"
+    },
+    {
+     "description": "흐르는 듯하되 흔들리지 않는 눈빛",
+     "evidence": "流而不動神光色",
+     "reason": "눈빛·신기는 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'兩角齊'를 좌우 대칭으로 옮겼으나 눈꼬리 수평(eye_tilt level)으로도 읽힐 수 있어 weight 0.5로 두었습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-015",
+   "name_ko": "안안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 옻칠처럼 검고 금빛을 띰",
+     "evidence": "睛如黑漆帶金黃",
+     "reason": "눈동자 색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "위아래 눈가 선이 둘 다 긺",
+     "evidence": "上下波紋二樣長",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "'波紋'(눈가 선)의 길이는 눈 가로 크기와 같지 않다고 보고 eye_size로 옮기지 않았습니다. 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-016",
+   "name_ko": "음양안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_asymmetry",
+     "values": [
+      "asymmetric"
+     ],
+     "evidence": "雌雄睛大小",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "사람을 비스듬히 봄",
+     "evidence": "視人斜",
+     "reason": "시선은 형태 모델 범위 밖"
+    },
+    {
+     "description": "정신과 광채가 있음",
+     "evidence": "精神光彩",
+     "reason": "눈빛·신기는 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "좌우 비대칭은 촬영 각도·머리 회전·표정에 민감하므로 정면 무표정 사진과 품질 검사가 전제되어야 합니다."
+  },
+  {
+   "record_id": "SXQP633-eye-017",
+   "name_ko": "학형안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "上層波秀到奸門",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "흑백이 분명하고 눈동자가 맑음",
+     "evidence": "黑白分明清秀瞳",
+     "reason": "흑백 대비·색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "바로 보아 치우침이 없음",
+     "evidence": "正視無偏",
+     "reason": "시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "위 눈매가 간문까지 이른다는 표현을 가로로 긴 눈으로 옮긴 해석적 매핑이라 weight 0.5입니다. 눈꺼풀 선의 연장일 수도 있습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-018",
+   "name_ko": "아안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "여러 줄의 눈가 선이 천창으로 뻗음",
+     "evidence": "數波紋秀射天倉",
+     "reason": "주름·눈가 선은 관찰 어휘 없음"
+    },
+    {
+     "description": "흰자가 적고 검은자가 많음",
+     "evidence": "白少黑多",
+     "reason": "흑백 비율은 관찰 어휘 없음"
+    },
+    {
+     "description": "사물을 분명히 봄",
+     "evidence": "視物分明",
+     "reason": "시선·눈빛은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈 윤곽 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-019",
+   "name_ko": "도화안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "사람을 만나면 살짝 웃고 눈에 물빛이 어림",
+     "evidence": "逢人微笑水光迷",
+     "reason": "표정·물기·광택은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈꺼풀이 젖은 듯하고 곁눈질함",
+     "evidence": "眼皮濕淚兼斜視",
+     "reason": "눈물기·시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "표정·상태 조건뿐이라 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-020",
+   "name_ko": "취안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈에 붉고 누런빛이 섞이고 빛이 흐름",
+     "evidence": "紅黃混雜卻流光",
+     "reason": "색·광택은 형태 모델 범위 밖"
+    },
+    {
+     "description": "취한 듯 멍한 눈빛",
+     "evidence": "如醉如癡",
+     "reason": "눈빛·상태는 관찰 어휘 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "색·상태 조건뿐이라 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP633-eye-021",
+   "name_ko": "학안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "흑백(흰자·검은자)이 맑게 구분된다",
+     "evidence": "黑白清",
+     "reason": "색·대비는 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈빛(神)을 감추어 드러내지 않는다",
+     "evidence": "藏神不露",
+     "reason": "신기·광채는 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "'眼秀'는 미적 평가라 조건으로 쓰지 않았다. 형태 어휘로 표현할 조건이 없어 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-022",
+   "name_ko": "양안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "검은자가 옅고 약간 누렇다",
+     "evidence": "黑淡微黃",
+     "reason": "눈동자 색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈동자가 얇은 막을 덮은 듯 흐리다",
+     "evidence": "瞳人紗樣卻昏睛",
+     "reason": "광택·흐림은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "조건이 모두 눈동자 색·광택이라 사진 형태 규칙이 없다."
+  },
+  {
+   "record_id": "SXQP633-eye-023",
+   "name_ko": "어안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 드러난다(돌출)",
+     "evidence": "睛露",
+     "reason": "안구 노출·돌출 정도는 어휘에 없음"
+    },
+    {
+     "description": "눈빛이 흐리고 물빛 같다",
+     "evidence": "神昏若水光",
+     "reason": "광택·습윤은 형태 모델 범위 밖"
+    },
+    {
+     "description": "초점이 아득하다",
+     "evidence": "定睛遠近視汪洋",
+     "reason": "시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "형태 어휘 조건이 없고 해석이 극단적이어서 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-024",
+   "name_ko": "마안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈꺼풀이 넓다",
+     "evidence": "皮寬",
+     "reason": "눈꺼풀 넓이는 어휘에 없음"
+    },
+    {
+     "description": "눈매가 세모지다",
+     "evidence": "三角",
+     "reason": "세모 윤곽은 어휘에 없음(eye_roundness·eye_tilt로 환원 불가)"
+    },
+    {
+     "description": "눈동자를 부릅뜬 듯 드러난다",
+     "evidence": "睛睜露",
+     "reason": "안구 노출·시선은 어휘에 없음"
+    },
+    {
+     "description": "눈 아래가 젖어 있다",
+     "evidence": "濕淚堂",
+     "reason": "습윤·광택은 형태 모델 범위 밖"
+    },
+    {
+     "description": "얼굴이 마르고 피부가 팽팽하다",
+     "evidence": "面瘦皮綳",
+     "reason": "살집·피부 긴장은 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "세모진 눈매는 어휘에 대응 항목이 없어 조건화하지 않았다. 형태 조건이 표현되지 않으므로 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-025",
+   "name_ko": "저안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "흰자가 흐리고 검은자가 흐릿하다",
+     "evidence": "白昏",
+     "reason": "색·광택은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈동자가 드러난다",
+     "evidence": "睛露",
+     "reason": "안구 노출 정도는 어휘에 없음"
+    },
+    {
+     "description": "눈두덩이 두껍고 눈꺼풀이 넓다",
+     "evidence": "波厚皮寬",
+     "reason": "눈꺼풀 두께·넓이는 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈꺼풀·안구 노출 조건은 현재 어휘로 표현되지 않는다. 낙인성 해석이 강해 사진 제시 대상에서 제외한다."
+  },
+  {
+   "record_id": "SXQP633-eye-026",
+   "name_ko": "사안_뱀",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 붉고 붉은 막(핏발)을 띤다",
+     "evidence": "睛紅",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈동자가 둥글게 드러난다",
+     "evidence": "圓露",
+     "reason": "눈동자 모양·안구 노출은 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "'圓'은 눈동자(睛)에 걸리므로 eye_roundness로 옮기지 않았다. 낙인성 해석이 강해 사진 제시 대상에서 제외한다."
+  },
+  {
+   "record_id": "SXQP633-eye-027",
+   "name_ko": "합안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 누렇다",
+     "evidence": "睛黃",
+     "reason": "눈동자 색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "눈동자가 작고 둥글다",
+     "evidence": "小垤圓",
+     "reason": "눈동자 크기·모양은 어휘에 없음"
+    },
+    {
+     "description": "머리를 흔들고 무릎을 까딱이며 비스듬히 앉는다",
+     "evidence": "搖頭擺膝坐還偏",
+     "reason": "동작·자세는 정지 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "'小·圓'은 눈동자에 걸리는 표현이라 eye_size·eye_roundness로 옮기지 않았다."
+  },
+  {
+   "record_id": "SXQP633-eye-028",
+   "name_ko": "난안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "準頭圓大",
+     "weight": 0.7
+    },
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼微長",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "걸음이 빠르다",
+     "evidence": "步急",
+     "reason": "동작은 정지 사진 범위 밖"
+    },
+    {
+     "description": "말씨가 곱고 좋다",
+     "evidence": "言辭媚且良",
+     "reason": "언행은 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'眼微長'은 '약간 긴 눈'이라 eye_size large 매핑의 확신이 낮다. 코끝의 '大'는 콧방울 폭과 달라 nose_width로 옮기지 않았다. 눈·코 복합 조건."
+  },
+  {
+   "record_id": "SXQP633-eye-029",
+   "name_ko": "낭목",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 누렇다",
+     "evidence": "睛黃",
+     "reason": "눈동자 색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "시선이 미친 듯 흔들린다",
+     "evidence": "視若顛",
+     "reason": "시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "형태 조건이 없고 인격 비난 위주라 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-030",
+   "name_ko": "복서안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "眼大",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_thickness",
+     "values": [
+      "thick"
+     ],
+     "evidence": "兩眉濃",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "머리가 둥글다",
+     "evidence": "頭圓",
+     "reason": "두상은 정면 얼굴 형태 어휘에 없음"
+    },
+    {
+     "description": "귀 안의 털이 길다",
+     "evidence": "耳內毫長",
+     "reason": "털은 형태 모델 범위 밖"
+    },
+    {
+     "description": "몸이 두텁고 풍만하다",
+     "evidence": "體厚豐",
+     "reason": "전신 체격은 얼굴 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'큰 눈 + 짙은 눈썹' 조합은 獅眼(eye-007)의 조건과 겹친다. 두상·체격 조건을 확인할 수 없어 부분 유사로만 제시해야 한다."
+  },
+  {
+   "record_id": "SXQP633-eye-031",
+   "name_ko": "노사안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈이 누렇다",
+     "evidence": "眼黃",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "걸을 때 흔들리고 움츠러든다",
+     "evidence": "行搖動縮",
+     "reason": "동작은 정지 사진 범위 밖"
+    },
+    {
+     "description": "눈썹이 움츠러든 모양",
+     "evidence": "眉縮",
+     "reason": "眉縮의 형태적 의미(짧음/찌푸림/모임)가 불확실해 어휘로 옮기지 않음"
+    },
+    {
+     "description": "몸이 길고 다리가 여위고 가늘다",
+     "evidence": "身長腳瘦細",
+     "reason": "전신 체형은 얼굴 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "유일한 얼굴 형태 단서인 '眉縮'이 뜻이 불확실해 조건화하지 않았다. 판본·주석 검토 후 brow_length short 등으로 옮길 수 있다."
+  },
+  {
+   "record_id": "SXQP633-eye-032",
+   "name_ko": "원안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_roundness",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "欠上開",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈이 약간 누렇다",
+     "evidence": "微黃",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "위를 올려다본다",
+     "evidence": "仰看",
+     "reason": "시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'欠上開'(위쪽이 덜 열림)을 세로 개방이 좁은 눈으로 해석한 0.5 매핑이며 확신이 낮다. 단일 약한 조건이라 다른 좁은 눈 유형(象眼 등)과 겹친다."
+  },
+  {
+   "record_id": "SXQP633-eye-033",
+   "name_ko": "녹안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "eye_size",
+     "values": [
+      "large"
+     ],
+     "evidence": "兩波長",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 검푸르다",
+     "evidence": "青黑",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "걸음이 나는 듯 빠르다",
+     "evidence": "行步如飛",
+     "reason": "동작은 정지 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'兩波長'을 눈 가로 길이로 본 0.5 매핑(눈꺼풀 선의 길이일 수도 있음). 단일 조건이라 龍眼·鳳眼 등 '긴 눈' 유형과 겹친다."
+  },
+  {
+   "record_id": "SXQP633-eye-034",
+   "name_ko": "웅안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 둥글다",
+     "evidence": "睛員",
+     "reason": "눈동자 모양은 어휘에 없음(eye_roundness는 눈꺼풀 개방)"
+    },
+    {
+     "description": "앉았다 펴기를 오래 못하고 숨이 가쁘다",
+     "evidence": "坐伸不久喘息急",
+     "reason": "동작·호흡은 사진 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "'睛員'은 눈동자에 걸리므로 eye_roundness로 옮기지 않았다."
+  },
+  {
+   "record_id": "SXQP633-eye-035",
+   "name_ko": "하안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "용모가 우뚝하다",
+     "evidence": "貌卓然",
+     "reason": "전체 인상 평가는 형태 어휘로 표현 불가"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "눈 형태 묘사가 없어 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-036",
+   "name_ko": "해안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 드러난다(돌출)",
+     "evidence": "睛露",
+     "reason": "안구 노출·돌출 정도는 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "유일한 형태 조건인 안구 노출이 어휘 밖이라 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-037",
+   "name_ko": "연안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "口小",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입술이 붉다",
+     "evidence": "脣紅",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "머리를 흔든다",
+     "evidence": "擺頭",
+     "reason": "동작은 정지 사진 범위 밖"
+    },
+    {
+     "description": "눈이 깊다",
+     "evidence": "眼深",
+     "reason": "눈 깊이는 어휘에 없음"
+    },
+    {
+     "description": "흑백이 밝고 또렷하다",
+     "evidence": "黑白朗明",
+     "reason": "색·대비는 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건은 입 폭뿐이고 눈 자체의 형태 조건(眼深)은 어휘 밖이다. 鯽魚口(mouth-015)의 '口小'와 겹치므로 눈 유형으로 제시하기에 근거가 약하다."
+  },
+  {
+   "record_id": "SXQP633-eye-038",
+   "name_ko": "자고안",
+   "part": "eye",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "눈이 붉고 누르며 얼굴이 붉다",
+     "evidence": "眼赤黃兮面帶紅",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "머리를 흔들며 걷는다",
+     "evidence": "搖頭征步",
+     "reason": "동작은 정지 사진 범위 밖"
+    },
+    {
+     "description": "몸과 귀가 작다",
+     "evidence": "小身小耳",
+     "reason": "체구·귀는 어휘에 없음"
+    },
+    {
+     "description": "늘 땅을 본다",
+     "evidence": "常看地",
+     "reason": "시선은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "얼굴 형태 조건이 없어 사진으로 제시하지 않는다."
+  },
+  {
+   "record_id": "SXQP633-eye-039",
+   "name_ko": "묘안",
+   "part": "eye",
+   "conditions": [
+    {
+     "feature": "face_shape",
+     "values": [
+      "round"
+     ],
+     "evidence": "面闊圓",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "눈동자가 누렇다",
+     "evidence": "睛黃",
+     "reason": "눈동자 색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'面闊圓'은 얼굴 조건이며 눈 자체의 형태 조건은 없다. 둥근 얼굴 단일 조건이라 눈 유형 제시 근거가 약하다."
+  },
+  {
+   "record_id": "SXQP634-nose-001",
+   "name_ko": "용비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_projection",
+     "values": [
+      "high"
+     ],
+     "evidence": "豐隆",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "high"
+     ],
+     "evidence": "山根直聳",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "코끝 윗부분이 가지런함",
+     "evidence": "準上齊",
+     "reason": "코끝 윤곽의 가지런함은 형태 어휘에 없음"
+    },
+    {
+     "description": "콧대가 반듯하고 휘지 않음",
+     "evidence": "鼻梁方正無偏曲",
+     "reason": "콧대의 휨·치우침은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "높은 콧대·돌출 조건은 伏犀鼻·猩鼻와 겹칠 수 있음. 곧음(無偏曲)은 사진 어휘로 확인 불가."
+  },
+  {
+   "record_id": "SXQP634-nose-002",
+   "name_ko": "호비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "員融",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧구멍이 정면에서 드러나지 않음",
+     "evidence": "不露孔",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    },
+    {
+     "description": "콧방울이 두드러지지 않음(해석 불확실)",
+     "evidence": "蘭臺廷尉亦須無",
+     "reason": "구절 뜻이 불확실하고 폭 어휘로 옮기기 어려움"
+    },
+    {
+     "description": "코가 치우치거나 굽지 않음",
+     "evidence": "不偏不曲",
+     "reason": "콧대의 휨·치우침은 형태 어휘에 없음"
+    },
+    {
+     "description": "산근(콧뿌리)이 큼",
+     "evidence": "山根大",
+     "reason": "콧뿌리 굵기·크기는 높이 어휘와 대응하지 않음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "員融은 코 전체의 둥긂이라 코끝 둥긂으로 옮긴 것은 약한 매핑. 코끝 둥긂 조건은 여러 유형과 겹침."
+  },
+  {
+   "record_id": "SXQP634-nose-003",
+   "name_ko": "호양비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "準頭豐",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "蘭臺廷尉亦相同",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "코 전체가 큼(크기의 방향 불명)",
+     "evidence": "鼻大",
+     "reason": "길이·폭·높이 중 무엇인지 특정할 수 없음"
+    },
+    {
+     "description": "콧대에 뼈 등성이가 드러나지 않음",
+     "evidence": "無脊露",
+     "reason": "콧대 뼈 드러남은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "풍만한 코끝+넓은 콧방울은 蒜鼻·獅鼻와 겹침. 蒜鼻와는 콧대 낮음 조건 유무로만 구별됨."
+  },
+  {
+   "record_id": "SXQP634-nose-004",
+   "name_ko": "사비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low"
+     ],
+     "evidence": "山根年壽略低平",
+     "weight": 1.0
+    },
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "準上豐大",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "稱蘭廷",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "얼굴 전체가 사자 형상과 조화를 이룸",
+     "evidence": "若令獅形",
+     "reason": "얼굴 전체의 비유적 형상은 형태 어휘로 정의 불가"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 3,
+   "notes": "콧방울 폭은 코끝과 \"어울린다\"는 구절에서 추론한 약한 매핑. 蒜鼻·猴鼻와 조건이 거의 같아 단독 구별 어려움."
+  },
+  {
+   "record_id": "SXQP634-nose-005",
+   "name_ko": "현담비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "蘭臺廷尉模糊小",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "매달린 쓸개 같은 전체 윤곽",
+     "evidence": "鼻如懸膽",
+     "reason": "비유 형태는 형태 어휘로 정의 불가"
+    },
+    {
+     "description": "코끝이 가지런함",
+     "evidence": "準頭齊",
+     "reason": "코끝 윤곽의 가지런함은 형태 어휘에 없음"
+    },
+    {
+     "description": "산근이 끊기지 않고 치우치지 않음",
+     "evidence": "山根不斷無偏欹",
+     "reason": "콧대 연속성·휨은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건이 좁은 콧방울 하나뿐이라 盛囊鼻·鷹嘴鼻 등과 겹침. 단독 제시는 부적절."
+  },
+  {
+   "record_id": "SXQP634-nose-006",
+   "name_ko": "복서비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "high"
+     ],
+     "evidence": "山根直上",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧대가 이마 중앙까지 이어지는 듯함",
+     "evidence": "插天庭中",
+     "reason": "이마·미간의 융기는 형태 어휘에 없음"
+    },
+    {
+     "description": "인당(미간)이 솟음",
+     "evidence": "印堂隆",
+     "reason": "미간 융기는 형태 어휘에 없음"
+    },
+    {
+     "description": "살은 적고 뼈는 드러나지 않음",
+     "evidence": "肉不多兮骨不露",
+     "reason": "연조직 두께·뼈 노출은 형태 어휘에 없음"
+    },
+    {
+     "description": "정신이 맑음",
+     "evidence": "神清",
+     "reason": "신기(神氣)는 형태 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "높은 콧대 단일 조건이라 龍鼻·猩鼻와 겹침. 이마 연결이 핵심인데 관찰 불가."
+  },
+  {
+   "record_id": "SXQP634-nose-007",
+   "name_ko": "우비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low",
+      "medium"
+     ],
+     "evidence": "年壽不高",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "牛鼻豐齊",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "산근(콧뿌리)이 큼",
+     "evidence": "根且大",
+     "reason": "콧뿌리 굵기는 높이 어휘와 대응하지 않음"
+    },
+    {
+     "description": "콧방울이 분명함",
+     "evidence": "尉又分明",
+     "reason": "콧방울 윤곽의 뚜렷함은 폭 어휘와 다름"
+    },
+    {
+     "description": "콧대가 무르지 않음",
+     "evidence": "不軟",
+     "reason": "연조직의 단단함은 형태 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "豐齊를 코끝 둥긂으로 옮긴 것은 약한 매핑. \"높지 않음\"을 low·medium으로 허용."
+  },
+  {
+   "record_id": "SXQP634-nose-008",
+   "name_ko": "절통비",
+   "part": "nose",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "코끝이 가지런하고 곧아 비뚤지 않음",
+     "evidence": "準頭齊直不偏斜",
+     "reason": "콧대의 휨·치우침은 형태 어휘에 없음"
+    },
+    {
+     "description": "산근이 약간 부드러움",
+     "evidence": "山根略軟",
+     "reason": "연조직의 부드러움은 형태 범위 밖이며 뜻도 불확실"
+    },
+    {
+     "description": "연수(콧대)가 꽉 참",
+     "evidence": "年壽滿",
+     "reason": "콧대 살집은 높이 어휘로 옮기기 어려움"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "어휘로 표현 가능한 조건이 없어 사진으로 제시하지 않음."
+  },
+  {
+   "record_id": "SXQP634-nose-009",
+   "name_ko": "산비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low"
+     ],
+     "evidence": "年壽俱平小",
+     "weight": 1.0
+    },
+    {
+     "feature": "nose_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "蘭臺廷尉準頭豐",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "蘭臺廷尉準頭豐",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 3,
+   "notes": "獅鼻·猴鼻와 조건이 거의 동일(낮은 콧대+풍만한 코끝·콧방울). 사진만으로는 세 유형 구별 불가."
+  },
+  {
+   "record_id": "SXQP634-nose-010",
+   "name_ko": "성낭비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "蘭廷小",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "亦員齊",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "가득 찬 주머니 같은 전체 윤곽",
+     "evidence": "鼻如盛囊",
+     "reason": "비유 형태는 형태 어휘로 정의 불가"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "員齊는 콧방울·콧구멍 주변의 둥긂이라 코끝 둥긂 매핑은 약함. 懸膽鼻와 좁은 콧방울 조건이 겹침."
+  },
+  {
+   "record_id": "SXQP634-nose-011",
+   "name_ko": "후비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low"
+     ],
+     "evidence": "山根年壽平且大",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "準頭豐",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧방울이 분명함",
+     "evidence": "蘭臺廷尉要分明",
+     "reason": "콧방울 윤곽의 뚜렷함은 폭 어휘와 다름"
+    },
+    {
+     "description": "코끝이 붉음",
+     "evidence": "豐紅",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "콧구멍이 드러나지 않음",
+     "evidence": "不露孔",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "平을 낮은 콧대로 옮김. 蒜鼻·獅鼻와 겹치며 색·콧구멍 조건으로만 구별되어 사진 구별력이 낮음."
+  },
+  {
+   "record_id": "SXQP634-nose-012",
+   "name_ko": "응취비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "tapered"
+     ],
+     "evidence": "準頭尖",
+     "weight": 1.0
+    },
+    {
+     "feature": "nose_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "廷尉俱短縮",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧대에 뼈 등성이가 드러남",
+     "evidence": "鼻梁露脊",
+     "reason": "콧대 뼈 드러남은 형태 어휘에 없음"
+    },
+    {
+     "description": "매부리처럼 굽은 코끝이 입술 쪽으로 내려옴",
+     "evidence": "又如鷹嘴鎖脣邊",
+     "reason": "코끝 처짐·갈고리 윤곽은 형태 어휘에 없음(측면 필요)"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "뾰족한 코끝+좁은 콧방울은 獐鼻와 겹침. 핵심인 매부리 윤곽은 관찰 불가."
+  },
+  {
+   "record_id": "SXQP634-nose-013",
+   "name_ko": "구비",
+   "part": "nose",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "콧대 중간에 뼈가 봉우리처럼 솟음",
+     "evidence": "年壽起骨峰",
+     "reason": "국소적 뼈 융기(혹)는 콧대 높이 3분위로 표현 불가"
+    },
+    {
+     "description": "코끝·콧방울 콧구멍 가장자리가 빔",
+     "evidence": "孔邊空",
+     "reason": "뜻이 불확실하고 콧구멍 노출은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "어휘로 표현 가능한 조건이 없어 사진으로 제시하지 않음."
+  },
+  {
+   "record_id": "SXQP634-nose-014",
+   "name_ko": "즉어비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "high"
+     ],
+     "evidence": "壽年高起",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "산근이 가늘고 작음",
+     "evidence": "山根細小",
+     "reason": "콧대 중간은 높고 뿌리는 낮은 구간별 차이는 단일 높이 어휘로 표현 불가"
+    },
+    {
+     "description": "코끝이 아래로 처짐",
+     "evidence": "準頭垂",
+     "reason": "코끝 처짐 방향은 형태 어휘에 없음"
+    },
+    {
+     "description": "눈 흰자가 드러남",
+     "evidence": "睛露白",
+     "reason": "안구 노출은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "콧대 중간만 솟고 산근은 낮은 형태라 nose_bridge high 매핑은 약함(0.5)."
+  },
+  {
+   "record_id": "SXQP634-nose-015",
+   "name_ko": "삼만삼곡비",
+   "part": "nose",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "코가 세 번 굽음",
+     "evidence": "鼻有三彎",
+     "reason": "콧대 굽음 횟수는 형태 어휘에 없음"
+    },
+    {
+     "description": "코가 세 번 꺾임",
+     "evidence": "鼻有三曲",
+     "reason": "콧대 꺾임 횟수는 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "어휘로 표현 가능한 조건이 없어 사진으로 제시하지 않음."
+  },
+  {
+   "record_id": "SXQP634-nose-016",
+   "name_ko": "검봉비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "tapered"
+     ],
+     "evidence": "準頭無肉",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧대에 뼈 등성이가 칼등처럼 드러남",
+     "evidence": "鼻梁露脊如刀背",
+     "reason": "콧대 뼈 드러남은 형태 어휘에 없음"
+    },
+    {
+     "description": "조문(콧구멍)이 닫힘/열림(판본 불확실)",
+     "evidence": "竈門關",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "살 없는 코끝을 tapered로 옮김. 핵심인 뼈 드러남은 관찰 불가라 鷹嘴鼻·獐鼻와 구별 어려움."
+  },
+  {
+   "record_id": "SXQP634-nose-017",
+   "name_ko": "편요비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low"
+     ],
+     "evidence": "年壽低壓",
+     "weight": 1.0
+    },
+    {
+     "feature": "nose_projection",
+     "values": [
+      "low"
+     ],
+     "evidence": "鼻面相生差不多",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [],
+   "rule_coverage": "full",
+   "min_conditions_to_suggest": 2,
+   "notes": "낮은 콧대+낮은 돌출. 準頭臺尉些須見(코끝·콧방울이 조금만 보임)도 낮은 돌출로 흡수함."
+  },
+  {
+   "record_id": "SXQP634-nose-018",
+   "name_ko": "고봉비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_projection",
+     "values": [
+      "high"
+     ],
+     "evidence": "鼻崔嵬",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "코에 살이 없음",
+     "evidence": "無肉",
+     "reason": "연조직 두께는 형태 어휘에 없음"
+    },
+    {
+     "description": "조문(콧구멍)이 드러남",
+     "evidence": "竈門開",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    },
+    {
+     "description": "양쪽 광대가 낮고 작음",
+     "evidence": "兩顴低小",
+     "reason": "광대 높이·크기는 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "높은 돌출 단일 조건은 露竈鼻와 겹침. 핵심인 광대 대비는 관찰 불가."
+  },
+  {
+   "record_id": "SXQP634-nose-019",
+   "name_ko": "노척비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "鼻瘦",
+     "weight": 0.7
+    },
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "low"
+     ],
+     "evidence": "山根小",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧대에 뼈 등성이가 드러남",
+     "evidence": "露脊",
+     "reason": "콧대 뼈 드러남은 형태 어휘에 없음"
+    },
+    {
+     "description": "용모가 거칠고 뼈대·정신이 흐림",
+     "evidence": "形容粗俗骨神昏",
+     "reason": "인상·신기는 형태 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "瘦(여윔)를 좁은 폭으로, 山根小를 낮은 산근으로 옮긴 것은 해석적 매핑."
+  },
+  {
+   "record_id": "SXQP634-nose-020",
+   "name_ko": "노조비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_projection",
+     "values": [
+      "high"
+     ],
+     "evidence": "鼻高",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "콧구멍이 크고 길게 드러남",
+     "evidence": "孔大",
+     "reason": "콧구멍 노출은 형태 어휘에 없음(촬영 각도 의존)"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "이름의 핵심 조건(콧구멍 노출)이 관찰 불가. 높은 돌출 단일 조건은 孤峰鼻와 겹침."
+  },
+  {
+   "record_id": "SXQP634-nose-021",
+   "name_ko": "장비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "tapered"
+     ],
+     "evidence": "準尖",
+     "weight": 1.0
+    },
+    {
+     "feature": "nose_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "鼻小",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "정위·조(콧구멍)가 드러남",
+     "evidence": "庭竈露",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    },
+    {
+     "description": "콧방울 살이 팽팽하게 얽힘",
+     "evidence": "肉綳纏",
+     "reason": "뜻이 불확실하고 연조직 상태는 형태 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "鼻小(작은 코)를 좁은 폭으로 옮긴 것은 약한 매핑. 鷹嘴鼻와 조건이 겹침."
+  },
+  {
+   "record_id": "SXQP634-nose-022",
+   "name_ko": "성비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_bridge",
+     "values": [
+      "high"
+     ],
+     "evidence": "鼻梁高",
+     "weight": 1.0
+    },
+    {
+     "feature": "brow_eye_gap",
+     "values": [
+      "close"
+     ],
+     "evidence": "眉眼相挨",
+     "weight": 1.0
+    },
+    {
+     "feature": "face_length",
+     "values": [
+      "short"
+     ],
+     "evidence": "面闊",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "머리털·체모가 굵음",
+     "evidence": "粗髮毛",
+     "reason": "털 굵기는 형태 모델 범위 밖"
+    },
+    {
+     "description": "입술이 들려 있음",
+     "evidence": "脣掀",
+     "reason": "입술의 뒤집힘은 입 어휘에 없음"
+    },
+    {
+     "description": "몸이 넓고 두툼함",
+     "evidence": "身廣厚",
+     "reason": "전신 체격은 얼굴 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 3,
+   "notes": "面闊(넓은 얼굴)을 face_length short로 옮긴 것은 약한 매핑. 눈썹-눈 간격 조건이 있어 다른 코 유형과 구별력이 있음."
+  },
+  {
+   "record_id": "SXQP634-nose-023",
+   "name_ko": "녹비",
+   "part": "nose",
+   "conditions": [
+    {
+     "feature": "nose_tip",
+     "values": [
+      "rounded"
+     ],
+     "evidence": "準更圓",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "코 전체가 풍만하고 가지런함",
+     "evidence": "豐齊",
+     "reason": "코 전체의 풍만함은 단일 어휘로 옮기기 어려움"
+    },
+    {
+     "description": "걸음이 빠르고 앉고 일어섬이 일정하지 않음",
+     "evidence": "驚疑坐起渾無定",
+     "reason": "동작·행동은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "코끝 둥긂 단일 조건이라 여러 유형과 겹침. 단독 제시 부적절."
+  },
+  {
+   "record_id": "SXQP634-nose-024",
+   "name_ko": "원비",
+   "part": "nose",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "콧구멍이 작음",
+     "evidence": "鼻竅小",
+     "reason": "콧구멍 노출은 형태 어휘에 없음"
+    },
+    {
+     "description": "입이 뾰족하게 나옴",
+     "evidence": "口頗尖",
+     "reason": "입 돌출·뾰족함은 입 어휘(폭·두께·입꼬리)에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "어휘로 표현 가능한 조건이 없어 사진으로 제시하지 않음."
+  },
+  {
+   "record_id": "SXQP634-mouth-001",
+   "name_ko": "사자구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_corner",
+     "values": [
+      "up"
+     ],
+     "evidence": "兩頭略仰",
+     "weight": 1.0
+    },
+    {
+     "feature": "lip_balance",
+     "values": [
+      "balanced"
+     ],
+     "evidence": "脣兩齊",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입가(입꼬리)가 밝고 윤기가 있다",
+     "evidence": "口角光明",
+     "reason": "광택·기색은 형태 어휘 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "입꼬리 상향 조건은 仰月口·彎弓口와 겹치므로 입술 균형 조건까지 함께 충족해야 제시합니다. 미소 사진은 제외해야 합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-002",
+   "name_ko": "방구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_balance",
+     "values": [
+      "balanced"
+     ],
+     "evidence": "齊脣",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입 윤곽이 네모나다",
+     "evidence": "方口",
+     "reason": "네모난 입 윤곽은 형태 어휘에 없음"
+    },
+    {
+     "description": "이가 드러나지 않는다",
+     "evidence": "不露牙",
+     "reason": "치아 노출은 형태 모델 범위 밖"
+    },
+    {
+     "description": "입술이 붉고 윤기가 난다",
+     "evidence": "脣紅光潤",
+     "reason": "색·광택은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "관찰 가능한 조건이 입술 균형 하나뿐이라 四字口·龍口와 쉽게 겹칩니다. 단독 매칭으로 '가까운 유형'을 제시하지 않는 편이 안전합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-003",
+   "name_ko": "앙월구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_corner",
+     "values": [
+      "up"
+     ],
+     "evidence": "上朝彎",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "이가 희다",
+     "evidence": "齒白",
+     "reason": "치아는 형태 모델 범위 밖"
+    },
+    {
+     "description": "입술이 붉다",
+     "evidence": "脣紅",
+     "reason": "색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "입꼬리 상향 단일 조건이라 四字口·彎弓口와 겹칩니다. 미소 사진을 반드시 배제해야 합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-004",
+   "name_ko": "만궁구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_thickness",
+     "values": [
+      "full"
+     ],
+     "evidence": "兩脣豐厚",
+     "weight": 1.0
+    },
+    {
+     "feature": "mouth_corner",
+     "values": [
+      "up"
+     ],
+     "evidence": "乍上弦",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입술이 붉고 선명하다",
+     "evidence": "若丹鮮",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "정신이 맑고 기운이 상쾌하다",
+     "evidence": "神清氣爽",
+     "reason": "신기·기색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'乍上弦'을 입꼬리 상향으로 본 것은 해석(가중치 0.5)입니다. 두꺼운 입술 조건은 牛口·龍口와 겹칩니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-005",
+   "name_ko": "우구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_thickness",
+     "values": [
+      "full"
+     ],
+     "evidence": "雙脣厚且豐",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "탁한 가운데 맑음을 띤다",
+     "evidence": "濁中帶清",
+     "reason": "기색·인상은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "두꺼운 입술 단일 조건이라 彎弓口·龍口와 겹칩니다. 그 둘은 추가 조건(입꼬리·입술 균형)이 있으므로 조건 수가 적은 우구는 '부분 유사'로 제시하는 편이 안전합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-006",
+   "name_ko": "용구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_thickness",
+     "values": [
+      "full"
+     ],
+     "evidence": "兩脣豐",
+     "weight": 0.7
+    },
+    {
+     "feature": "lip_balance",
+     "values": [
+      "balanced"
+     ],
+     "evidence": "豐且齊",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입꼬리가 밝게 빛난다",
+     "evidence": "光明口角",
+     "reason": "광택·기색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "'豐'을 도톰함(full)으로, '齊'를 위아래 입술 균형으로 옮긴 매핑입니다. 牛口(두꺼운 입술)·四字口(입술 균형)와 일부 겹칩니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-007",
+   "name_ko": "호구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "闊大",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입이 다물었을 때 잘 여며진다",
+     "evidence": "有收拾",
+     "reason": "입술 여밈 상태는 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "넓은 입 단일 조건이라 鯰魚口(넓은 입+처진 입꼬리+얇은 입술)와 겹칩니다. 鯰魚口 조건이 함께 충족되면 虎口 제시를 보류해야 합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-008",
+   "name_ko": "양구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_thickness",
+     "values": [
+      "thin"
+     ],
+     "evidence": "兩脣又薄",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "수염이 없다",
+     "evidence": "無鬚",
+     "reason": "수염은 형태 모델 범위 밖"
+    },
+    {
+     "description": "입이 길고 뾰족하게 나와 있다",
+     "evidence": "長且尖",
+     "reason": "입 돌출·뾰족함은 형태 어휘에 없음(측면 필요)"
+    },
+    {
+     "description": "음식 먹는 모습이 개와 같다",
+     "evidence": "食物如狗樣",
+     "reason": "동작은 정지 사진으로 판단 불가"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "얇은 입술 단일 조건이라 鯰魚口와 겹칩니다. 핵심 조건(뾰족한 입)이 관찰 불가라 '부분 유사' 이상으로 제시하지 않는 것이 좋습니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-009",
+   "name_ko": "저구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "lip_balance",
+     "values": [
+      "upper_full"
+     ],
+     "evidence": "上脣長粗闊",
+     "weight": 0.7
+    },
+    {
+     "feature": "mouth_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "粗闊",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "아랫입술이 뾰족하다",
+     "evidence": "下脣尖小",
+     "reason": "입술 끝 뾰족함은 형태 어휘에 없음"
+    },
+    {
+     "description": "입꼬리로 침이 흐른다",
+     "evidence": "角涎流",
+     "reason": "상태 조건은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 2,
+   "notes": "윗입술이 길고 굵고 아랫입술이 작다는 대비를 upper_full로 옮겼습니다. '闊'을 입 폭으로 본 것은 약한 해석(0.5)입니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-010",
+   "name_ko": "취화구",
+   "part": "mouth",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "입이 벌어진 채 다물어지지 않는다",
+     "evidence": "開不收",
+     "reason": "입 벌림은 표정·상태로 형태 어휘에 없음"
+    },
+    {
+     "description": "입이 불을 부는 듯 뾰족하게 나와 있다",
+     "evidence": "嘴尖",
+     "reason": "입 돌출·뾰족함은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "관찰 가능한 형태 조건이 없어 사진으로 제시하지 않습니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-011",
+   "name_ko": "추문구",
+   "part": "mouth",
+   "conditions": [],
+   "unobservable_conditions": [
+    {
+     "description": "입술 위에 주름이 있다",
+     "evidence": "脣上皺紋",
+     "reason": "주름은 형태 모델 범위 밖"
+    },
+    {
+     "description": "우는 얼굴처럼 보인다",
+     "evidence": "似哭顏",
+     "reason": "주름이 만드는 인상·표정은 형태 어휘로 표현 불가"
+    }
+   ],
+   "rule_coverage": "none",
+   "min_conditions_to_suggest": 0,
+   "notes": "관찰 가능한 형태 조건이 없어 사진으로 제시하지 않습니다. '似哭顏'을 처진 입꼬리로 옮기지 않았습니다(주름에 대한 비유이므로)."
+  },
+  {
+   "record_id": "SXQP634-mouth-012",
+   "name_ko": "앵도구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "口大",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입술이 연지처럼 붉다",
+     "evidence": "脣胭脂",
+     "reason": "색은 형태 모델 범위 밖"
+    },
+    {
+     "description": "이가 석류 알처럼 촘촘하고 고르다",
+     "evidence": "齒似榴牙",
+     "reason": "치아는 형태 모델 범위 밖"
+    },
+    {
+     "description": "웃음이 연꽃을 머금은 듯하다",
+     "evidence": "笑如含蓮",
+     "reason": "표정은 무표정 형태 분석 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'口大'는 전사 오류 가능성이 있어 가중치 0.5로만 넣었습니다. 판본 대조 전에는 사진으로 이 유형을 제시하지 않을 것을 권합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-013",
+   "name_ko": "후구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "又長",
+     "weight": 0.5
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "인중이 대나무를 쪼갠 듯 곧고 뚜렷하다",
+     "evidence": "人中破竹",
+     "reason": "인중 형태는 형태 어휘에 없음"
+    },
+    {
+     "description": "입술이 '喜'하다(뜻 불확실)",
+     "evidence": "兩脣喜",
+     "reason": "글자 뜻 불확실로 조건화 불가"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'입술이 길다'를 입 가로 폭으로 옮긴 것은 약한 해석(0.5)입니다. 虎口·鯰魚口와 겹치므로 단독 제시는 피합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-014",
+   "name_ko": "점어구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "wide"
+     ],
+     "evidence": "口闊",
+     "weight": 1.0
+    },
+    {
+     "feature": "mouth_corner",
+     "values": [
+      "down"
+     ],
+     "evidence": "角低",
+     "weight": 1.0
+    },
+    {
+     "feature": "lip_thickness",
+     "values": [
+      "thin"
+     ],
+     "evidence": "薄雙脣",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입꼬리가 뾰족하다",
+     "evidence": "角低尖",
+     "reason": "입꼬리 뾰족함은 형태 어휘에 없음"
+    },
+    {
+     "description": "입술이 둥근 맛이 없다",
+     "evidence": "欠圓",
+     "reason": "입술 윤곽의 둥긂은 형태 어휘에 없음"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 3,
+   "notes": "세 조건을 모두 요구하므로 虎口(넓은 입)·覆船口(처진 입꼬리)·羊口(얇은 입술)와 구별됩니다. 세 조건이 모두 맞으면 이 세 유형보다 우선합니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-015",
+   "name_ko": "즉어구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_width",
+     "values": [
+      "narrow"
+     ],
+     "evidence": "口小",
+     "weight": 1.0
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "기운이 탁하고 정신이 메마르다",
+     "evidence": "氣濁神枯澀",
+     "reason": "기색·신기는 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "작은 입 단일 조건입니다. 燕眼의 '口小' 조건과 겹칠 수 있습니다."
+  },
+  {
+   "record_id": "SXQP634-mouth-016",
+   "name_ko": "복선구",
+   "part": "mouth",
+   "conditions": [
+    {
+     "feature": "mouth_corner",
+     "values": [
+      "down"
+     ],
+     "evidence": "口角渾如覆破船",
+     "weight": 0.7
+    }
+   ],
+   "unobservable_conditions": [
+    {
+     "description": "입술이 소고기 빛이다",
+     "evidence": "牛肉色",
+     "reason": "색은 형태 모델 범위 밖"
+    }
+   ],
+   "rule_coverage": "partial",
+   "min_conditions_to_suggest": 1,
+   "notes": "'뒤집힌 배'를 처진 입꼬리로 옮긴 비유 매핑(0.7)입니다. 鯰魚口와 겹치며, 鯰魚口의 세 조건이 모두 맞으면 그쪽이 우선합니다."
+  }
+ ]
+}

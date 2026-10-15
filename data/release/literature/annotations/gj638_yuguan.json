@@ -1,0 +1,2419 @@
+{
+ "page_id": "gj638",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《姚括蒼玉管訣》〈男相〉"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ638Y-forehead-001",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "上輔學堂左右分，平如鏡子亦無紋。更兼中正無傾陷，定作公侯爵位尊。",
+   "translation": "상보학당(上輔學堂)이 좌우로 나뉘고 거울처럼 평평하며 주름도 없고, 게다가 중정(中正, 이마 가운데)이 기울거나 꺼진 데가 없으면 반드시 공후가 되어 작위가 높다.",
+   "commentary": "학당(學堂)은 학문·관록을 보는 얼굴 부위 개념이고 상보(上輔)는 그 위쪽을 가리키는 것으로 보이나 정확한 위치는 원문에 적혀 있지 않다. 이마의 평평함·무주름·꺼짐 없음은 정준 라벨이 없는 서술이다. 문헌은 이를 공후의 작위와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "上輔學堂左右分",
+     "observable_ko": "상보학당이 좌우로 나뉨",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平如鏡子亦無紋",
+     "observable_ko": "거울처럼 평평하고 주름이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 평탄도·주름 유무에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "中正無傾陷",
+     "observable_ko": "이마 가운데(중정)가 기울거나 꺼지지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 굴곡·함몰은 가시 이마 높이·너비 라벨과 다른 차원이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-002",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "中輔學堂七十分，平光潤澤是賢臣。更兼下部俱成就，六部尚書近聖人。",
+   "translation": "중보학당(中輔學堂)이 칠십 푼이고 평평하며 빛나고 윤택하면 어진 신하이다. 게다가 하부가 모두 이루어지면 육부상서가 되어 성인(임금)을 가까이한다.",
+   "commentary": "'칠십 푼(七十分)'이 무엇을 재는 수치인지 원문만으로는 알 수 없어 직역했다. 빛·윤택은 색택이라 관찰 형태가 아니며, 문헌은 이를 현신·상서 벼슬과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "中輔學堂七十分",
+     "observable_ko": "중보학당이 칠십 푼",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "수치의 단위와 측정 대상이 불명확하다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平光潤澤",
+     "observable_ko": "평평하고 빛나며 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "下部俱成就",
+     "observable_ko": "하부가 모두 이루어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "하부가 얼굴 하정인지 몸인지, '이루어짐'의 형태 기준이 무엇인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-chin-003",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "chin",
+   "original_text": "下輔學堂地閣朝，承漿俱滿是官高。如教上輔來相注，必坐樞廷佐帝堯。",
+   "translation": "하보학당(下輔學堂)의 지각(地閣, 턱)이 앞으로 향하고 승장(承漿, 아랫입술 아래 오목한 곳)이 모두 차 있으면 벼슬이 높다. 만약 상보(上輔)가 와서 서로 응한다면 반드시 추밀 조정에 앉아 요임금 같은 임금을 보좌한다.",
+   "commentary": "지각조(地閣朝)는 턱이 앞으로 들려 향한다는 뜻으로 턱 돌출에 가깝지만 지침상 근사 대응이다. 승장(承漿)이 찬 정도는 정준 라벨이 없다. 문헌은 이를 높은 벼슬과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣朝",
+     "observable_ko": "턱이 앞으로 향함",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_projection:prominent"
+     ],
+     "reason": "地閣朝는 지침상 턱 돌출의 근사 표현이다"
+    },
+    {
+     "region": "chin",
+     "evidence": "承漿俱滿",
+     "observable_ko": "아랫입술 아래 오목한 곳이 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "승장 부위의 충만도에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "上輔來相注",
+     "observable_ko": "상보가 서로 응함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 간 '응함'의 형태 기준이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-004",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "骨秀神清滿面全，學堂坑陷定難前。天生雖有聰明性，若論求官定不然。",
+   "translation": "뼈가 빼어나고 신(神)이 맑아 온 얼굴이 온전해도 학당(學堂)이 구덩이처럼 꺼지면 반드시 나아가기 어렵다. 타고나기를 총명한 성품이 있더라도 벼슬을 구하는 일을 논하면 반드시 그렇지 못하다.",
+   "commentary": "학당이 꺼진다(坑陷)는 것은 문헌 고유 부위의 함몰을 말하며 정준 라벨과 대응하지 않는다. 문헌은 이 형상이 총명하더라도 벼슬길이 막힌다고 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "骨秀神清",
+     "observable_ko": "뼈가 빼어나고 신이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂坑陷",
+     "observable_ko": "학당이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-005",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "面部雖然短不朝，神清骨秀氣超超。學堂更及分纏數，亦作郎官助聖朝。",
+   "translation": "얼굴 부위가 비록 짧고 서로 향하지 않더라도 신이 맑고 뼈가 빼어나며 기가 빼어나게 높고, 학당이 게다가 '분전수(分纏數)'에 미치면 또한 낭관이 되어 성스러운 조정을 돕는다.",
+   "commentary": "'분전수(分纏數)'는 뜻이 분명하지 않은 용어로 글자대로 옮겼다. 얼굴이 짧다는 서술은 얼굴 길이와 관련되나 '面部'가 얼굴 전체인지 부위들인지 불분명하다. 문헌은 이를 낭관 벼슬과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面部雖然短不朝",
+     "observable_ko": "얼굴(부위)이 짧고 서로 향하지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_length:short"
+     ],
+     "reason": "面部短은 面短과 같은 표현이 아니며 얼굴 전체 길이인지 부위 길이인지 불명확하다"
+    },
+    {
+     "region": "face",
+     "evidence": "神清骨秀氣超超",
+     "observable_ko": "신이 맑고 뼈가 빼어나며 기가 높음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂更及分纏數",
+     "observable_ko": "학당이 분전수에 미침",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "용어의 뜻이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-006",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "部位光充肉又肥，氣昏神暗性多癡，學堂若有朝官祿，壽短須防主卒危。",
+   "translation": "부위가 빛나고 충실하며 살도 살졌으나 기가 흐리고 신이 어두우면 성품이 어리석은 데가 많다. 학당에 만약 조정 벼슬의 녹이 있다면 수명이 짧으니 갑작스러운 위험을 막아야 한다.",
+   "commentary": "살집(肉肥)은 얼굴 전체 살의 양으로 볼의 충만과 같은 측정이 아니다. 문헌은 흐린 기색을 어리석음과, 학당의 관록을 단명과 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "部位光充",
+     "observable_ko": "부위가 빛나고 충실함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "肉又肥",
+     "observable_ko": "살이 살짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "얼굴·몸 전체의 살집으로, 볼의 충만도와 같은 측정이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "氣昏神暗",
+     "observable_ko": "기가 흐리고 신이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-007",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "骨格粗肥面闊橫，行如鴨子踏浮萍，學堂若有為官職，短命須防五十傾，",
+   "translation": "골격이 거칠고 살지며 얼굴이 넓게 가로로 퍼지고, 걸음이 오리가 떠 있는 부평초를 밟는 것 같으면, 학당에 만약 벼슬할 관직이 있더라도 단명하니 쉰에 쓰러짐을 막아야 한다.",
+   "commentary": "얼굴이 가로로 넓다(面闊橫)는 서술은 얼굴 너비와 관련되지만 얼굴 윤곽형·턱 너비 중 어느 것인지 특정되지 않는다. 걸음걸이는 사진으로 볼 수 없다. 문헌은 이를 쉰 살 무렵의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨格粗肥",
+     "observable_ko": "골격이 거칠고 살짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "面闊橫",
+     "observable_ko": "얼굴이 가로로 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "jaw_width:wide",
+      "face_shape:angular"
+     ],
+     "reason": "얼굴 가로 너비에 관한 서술로 정준 라벨과 같은 측정이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "行如鴨子踏浮萍",
+     "observable_ko": "오리처럼 뒤뚱이는 걸음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-008",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "上府六官人皆有，個個生來無可觀，若有學堂須食祿，忽然缺陷受饑寒，",
+   "translation": "상부(上府)의 여섯 관(官)은 사람마다 다 있으나 낱낱이 타고나기를 볼 만한 것이 없더라도 학당이 있으면 반드시 녹을 먹고, 갑자기 이지러지고 꺼지면 굶주림과 추위를 겪는다.",
+   "commentary": "상부 육관(上府六官)이 무엇을 가리키는지 원문에 적혀 있지 않다. 학당의 유무·결함은 문헌 고유 개념이라 정준 라벨이 없다. 문헌은 이를 녹봉과 빈곤에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "上府六官",
+     "observable_ko": "상부 여섯 관",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "가리키는 부위가 원문에 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂",
+     "observable_ko": "학당이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "缺陷",
+     "observable_ko": "이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-009",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "五露形神有學堂，骨清神」爽定朝郎。如無學館並神氣，必定區區死路傍。",
+   "translation": "오로(五露)의 형상과 신에 학당이 있고 뼈가 맑고 신이 상쾌하면 반드시 조정의 낭관이 된다. 만약 학관(學館)과 신기가 없으면 반드시 보잘것없이 길가에서 죽는다.",
+   "commentary": "오로(五露)는 다섯 곳이 드러난 형상을 말하는 관상 용어로 보이나 어느 부위인지 이 구절에는 적혀 있지 않다. 문헌은 학당·신기의 유무를 벼슬과 길가의 죽음에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "五露",
+     "observable_ko": "다섯 부위가 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "오로의 구성 부위가 원문에 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "有學堂",
+     "observable_ko": "학당이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "骨清神」爽",
+     "observable_ko": "뼈가 맑고 신이 상쾌함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-010",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "言人骨好心須好，若有學堂須顯榮。不問富豪全不發，富豪到底得亨通。",
+   "translation": "사람의 뼈가 좋으면 마음도 반드시 좋다고 말하니, 만약 학당이 있으면 반드시 드러나 영화롭다. 부호인지를 묻지 않으면 전혀 일어나지 못하나, 부호라면 끝내 형통을 얻는다.",
+   "commentary": "뼈와 마음씨를 바로 연결한 서술이다. 후반 두 구절은 뜻이 매끄럽지 않아 글자대로 옮겼다. 골격의 좋음은 측정 기준이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "骨好",
+     "observable_ko": "뼈가 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "有學堂",
+     "observable_ko": "학당이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-011",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "福見精神漫不全，坐來良久氣方鮮。少年須則未榮達，老享渠田作巨賢。",
+   "translation": "복은 정신에서 드러나니 정신이 흐릿해 온전하지 못하다가 앉은 지 한참 지나서야 기가 비로소 선명해지면, 젊어서는 아직 영달하지 못하나 늙어서는 도랑 있는 밭을 누리고 큰 현인이 된다.",
+   "commentary": "정신·기의 변화는 사진 형태로 볼 수 없다. 문헌은 이를 늦은 발복과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "精神漫不全，坐來良久氣方鮮",
+     "observable_ko": "앉은 뒤 한참 지나야 기가 선명해짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-012",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "遠看印骨宛如神，近神尤如醉病人。似此形人卑下賤，到頭短命又饑貧。",
+   "translation": "멀리서 보면 인골(印骨)이 완연히 신령스러우나 가까이서 신을 보면 오히려 술 취한 병자 같다. 이런 형상의 사람은 낮고 천하며 끝내 단명하고 또 굶주리고 가난하다.",
+   "commentary": "인골(印骨)은 인당 부위의 뼈로 보이나 원문에 설명이 없다. 신의 상태는 관찰할 수 없으며, 문헌은 이를 비천·단명·빈곤과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印骨宛如神",
+     "observable_ko": "인골이 신령스러워 보임",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "인골의 형태 기준이 적혀 있지 않은 품평이다"
+    },
+    {
+     "region": "other",
+     "evidence": "近神尤如醉病人",
+     "observable_ko": "가까이서 보면 신이 취한 병자 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-013",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "面似銀盤五嶽豐，神昏氣黑必「無終。豪家若產如斯子，總有資財亦是空。",
+   "translation": "얼굴이 은쟁반 같고 오악(五嶽)이 풍성해도 신이 흐리고 기가 검으면 반드시 끝이 좋지 못하다. 부호의 집에서 이런 아들을 낳으면 재산이 다 있어도 결국 빈다.",
+   "commentary": "은쟁반 같은 얼굴(面似銀盤)은 둥글고 흰 얼굴을 빗댄 비유로 얼굴형 둥긂에 가깝지만 비유라 근사 처리했다. 오악은 이마·턱·코·양 광대를 가리키는 관상 용어다. 문헌은 흐린 기색을 좋지 못한 끝과 재산 손실에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面似銀盤",
+     "observable_ko": "얼굴이 은쟁반 같음(둥글고 흼)",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:round"
+     ],
+     "reason": "비유 표현으로 둥긂과 흰 빛이 섞여 있다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽豐",
+     "observable_ko": "오악이 풍성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "오악 전체의 충만도에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "神昏氣黑",
+     "observable_ko": "신이 흐리고 기가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-014",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "形神不足頭低側，行步輕浮背又薄。貧賤身窮年老苦，生來必定破亡家。",
+   "translation": "형상과 신이 부족하고 머리가 낮게 기울며, 걸음이 가볍고 들뜨고 등도 얇으면 가난하고 천하며 몸이 궁하고 늙어서 고생하니, 태어나면 반드시 집안을 깨뜨리고 망하게 한다.",
+   "commentary": "머리 자세·걸음·등의 두께는 얼굴 사진 형태 항목이 아니다. 문헌은 이를 빈천과 집안의 파멸에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形神不足",
+     "observable_ko": "형상과 신이 부족함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭低側",
+     "observable_ko": "머리가 낮게 기욺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "行步輕浮",
+     "observable_ko": "걸음이 가볍고 들뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "背又薄",
+     "observable_ko": "등이 얇음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-015",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "語言虛斜行無步，生若無人定早亡。如此三般應促壽，不過三十入冥鄉。",
+   "translation": "말이 허황되고 비뚤며 걸음에 걸음새가 없고, 살아 있어도 사람이 없는 것 같으면 반드시 일찍 죽는다. 이 세 가지는 수명을 재촉하니 서른을 넘기지 못하고 저승에 든다.",
+   "commentary": "말투·걸음·존재감은 모두 관찰 형태가 아니다. '生若無人'은 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이를 서른 이전의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "語言虛斜",
+     "observable_ko": "말이 허황되고 비뚦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리·말투는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "行無步",
+     "observable_ko": "걸음새가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "生若無人",
+     "observable_ko": "살아도 사람이 없는 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-016",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "終日連宵神氣清，醒醒睡覺便分明。肉輕骨重無高下，學堂虛陷豈成名。",
+   "translation": "온종일 밤새도록 신기가 맑아 깨어 있든 잠을 깨든 곧 분명하고, 살이 가볍고 뼈가 무거워 높낮이가 없더라도 학당이 비고 꺼지면 어찌 이름을 이루겠는가.",
+   "commentary": "신기·살과 뼈의 무게는 관찰 형태가 아니며 학당의 함몰은 문헌 고유 개념이다. 문헌은 학당이 꺼지면 이름을 이루지 못한다고 적었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "神氣清",
+     "observable_ko": "신기가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "肉輕骨重",
+     "observable_ko": "살이 가볍고 뼈가 무거움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂虛陷",
+     "observable_ko": "학당이 비고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-017",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "虎頭龍骨人多貴，眉目分明便是官。許負當時一概說，令他後代好相看。",
+   "translation": "호랑이 머리에 용의 뼈인 사람은 대개 귀하고, 눈썹과 눈이 분명하면 곧 벼슬한다. 허부(許負)가 당시에 한결같이 말하여 후대 사람들이 잘 보도록 했다.",
+   "commentary": "호두·용골은 동물 비유이고 '분명(分明)'은 품평어여서 측정 기준이 없다. 허부는 원문이 인용한 이름이다. 문헌은 이를 귀함과 벼슬에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "虎頭龍骨",
+     "observable_ko": "호랑이 머리·용의 뼈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眉目分明",
+     "observable_ko": "눈썹과 눈이 분명함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-018",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "眉目分明骨氣清，眼如點漆更分明。學堂若無官職小，縱有文章恐沒聲。",
+   "translation": "눈썹과 눈이 분명하고 골기가 맑으며 눈이 옻칠을 찍은 듯하고 더욱 분명해도, 학당이 없으면 관직이 작고 비록 문장이 있어도 이름이 없을까 두렵다.",
+   "commentary": "점칠(點漆)은 눈동자가 옻처럼 검다는 색 표현으로 형태가 아니다. 문헌은 학당이 없으면 문장이 있어도 관직·명성이 작다고 적었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眉目分明",
+     "observable_ko": "눈썹과 눈이 분명함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼如點漆",
+     "observable_ko": "눈동자가 옻처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂若無",
+     "observable_ko": "학당이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-019",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "口角大雄心地惡，目窺斜視必無良。",
+   "translation": "입꼬리가 크고 웅장하면 마음 바탕이 악하고, 눈으로 엿보며 비스듬히 보면 반드시 어질지 못하다.",
+   "commentary": "'口角大雄'은 입이 크다는 뜻일 수도, 입꼬리 모양을 말한 것일 수도 있어 특정되지 않는다. 엿보는 시선은 동작이다. 문헌은 이를 악한 마음과 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角大雄",
+     "observable_ko": "입꼬리가 크고 웅장함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "입 너비인지 입꼬리 모양인지 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "目窺斜視",
+     "observable_ko": "엿보며 곁눈질함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈 움직임은 정지 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-020",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "青多白少斜歪甚，虛妄談非好鬥爭。",
+   "translation": "푸른 것이 많고 흰 것이 적으며 비뚤고 기욺이 심하면 허망하게 남의 잘못을 말하고 다투기를 좋아한다.",
+   "commentary": "'青多白少'는 눈의 검푸른 부분과 흰자의 비율을 말하는 것으로 보이나 색 표현이 섞여 있고 대상이 원문에 명시되지 않았다. 문헌은 이를 비방과 싸움을 좋아하는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "青多白少",
+     "observable_ko": "눈의 푸른(검은) 부분이 많고 흰자가 적음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "색 표현이며 대상 부위와 측정 기준이 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "斜歪甚",
+     "observable_ko": "심하게 비뚤고 기욺",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈의 기울기인지 시선인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-021",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "眼視偏斜視物斜，貧窮奸詐浼人家。不為盜賊并兇惡，路死街傍無土遮。",
+   "translation": "눈이 치우치고 비스듬히 보며 사물을 비스듬히 보면 가난하고 간사하며 남의 집을 더럽힌다. 도적이나 흉악한 자가 되지 않으면 길가에서 죽어 덮을 흙도 없다.",
+   "commentary": "시선의 방향은 정지 사진 형태가 아니다. 문헌은 이를 빈곤·간사·도적·노상의 죽음과 연결한 강한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼視偏斜視物斜",
+     "observable_ko": "시선이 치우치고 비스듬함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈 움직임은 정지 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "malice_deceit",
+    "criminality",
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-022",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "眼中赤脈雖刑死，露出睛來定惡亡。若不法場臨路死，不然自縊虎狼傷。",
+   "translation": "눈 속에 붉은 핏줄이 있으면 형벌로 죽고, 눈동자가 드러나 나오면 반드시 험하게 죽는다. 형장에서 죽거나 길에서 죽지 않으면 스스로 목매거나 호랑이·이리에게 상한다.",
+   "commentary": "붉은 핏줄은 색·충혈이라 형태가 아니다. 눈동자가 드러나 나온다(露出睛)는 눈 돌출과 관련되나 지침상 '露'만으로는 근사 처리한다. 문헌은 이를 처형·자살·횡사와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼中赤脈",
+     "observable_ko": "눈 속 붉은 핏줄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "露出睛來",
+     "observable_ko": "눈동자가 드러나 나옴",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露는 지침상 근사 표현으로 돌출(凸·突)과 같은 서술이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-023",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "白多羊眼覰人低，裹帽無頭沒了眉。更若露睛須惡夭，刀兵爭鬥更須虧。",
+   "translation": "흰자가 많은 양의 눈으로 사람을 낮게 엿보고, 모자를 싸맨 듯 머리가 없고 눈썹이 없어져 있으며, 게다가 눈동자가 드러나면 반드시 험하게 일찍 죽으니 칼과 병기의 다툼으로 더욱 상한다.",
+   "commentary": "흰자가 많다(白多)는 공막 노출과 관련되나 위·아래가 특정되지 않는다. '裹帽無頭沒了眉'는 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이를 요절과 병란의 상해에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "白多羊眼",
+     "observable_ko": "흰자가 많은 양의 눈",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "흰자 노출 방향이 특정되지 않고 동물 비유가 섞여 있다"
+    },
+    {
+     "region": "eye",
+     "evidence": "覰人低",
+     "observable_ko": "사람을 낮게 엿봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈 움직임은 정지 형태가 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "裹帽無頭沒了眉",
+     "observable_ko": "머리가 없고 눈썹이 없어진 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "구절의 뜻이 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "露睛",
+     "observable_ko": "눈동자가 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露는 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-024",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "縮囊口輔老無糧，兩畔紋多早死亡。",
+   "translation": "주머니를 졸라맨 듯한 입이면 늙어 양식이 없고, 양쪽 가에 주름이 많으면 일찍 죽는다.",
+   "commentary": "축낭(縮囊)은 입이 주머니 끈을 조인 듯 오므라든 모양을 빗댄 비유로 보이며 입 너비와 입술 주름 중 무엇인지 특정되지 않는다. 입 양쪽 주름은 정준 라벨이 없다. 문헌은 이를 노년 빈곤과 이른 죽음에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "縮囊口輔",
+     "observable_ko": "주머니를 조인 듯 오므라든 입",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "mouth_width:narrow"
+     ],
+     "reason": "비유 표현으로 입 크기·입술 주름 중 무엇인지 불명확하다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "兩畔紋多",
+     "observable_ko": "입 양쪽에 주름이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-025",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "口如吹火家貧賤，縱承祖廕費田莊。",
+   "translation": "입이 불을 부는 듯하면 집안이 가난하고 천하니, 조상의 음덕을 이어받더라도 논밭과 장원을 허비한다.",
+   "commentary": "취화구(吹火口)는 입술을 내밀어 불을 부는 모양으로, 지침상 입술 돌출의 근사 표현이다. 문헌은 이를 가산 탕진과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口如吹火",
+     "observable_ko": "불을 부는 듯 내민 입",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "吹火는 지침상 입술 돌출의 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-ear-026",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "ear",
+   "original_text": "耳本生來朝大海，亦看輪廓要垂肩。大主一生多近貴，小無輪廓不榮遷。",
+   "translation": "귀는 본래 타고나기를 대해(大海, 입)를 향해야 하고, 또 윤곽을 보아 어깨까지 드리워야 한다. 크면 일생 귀인을 많이 가까이함을 주관하고, 작고 윤곽이 없으면 영전하지 못한다.",
+   "commentary": "대해(大海)는 관상에서 입을 가리키는 말로 쓰인다. 귀가 어깨까지 드리운다는 것은 과장된 길이 표현이고 귀의 대소는 지침상 귀 길이의 근사 표현이다. 귀 윤곽의 뚜렷함은 정준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "朝大海",
+     "observable_ko": "귀가 입 쪽을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 방향에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "垂肩",
+     "observable_ko": "귀가 어깨까지 드리움",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "과장된 비유적 길이 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "大主",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "耳大는 지침상 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "小無輪廓",
+     "observable_ko": "귀가 작고 윤곽이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "耳小는 지침상 근사 표현이며 윤곽 유무는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-nose-027",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "nose",
+   "original_text": "鼻準生來直更圓潤，如犀伏主高賢，",
+   "translation": "코의 준두(準頭, 코끝)가 타고나기를 곧고 게다가 둥글고 윤택하며 엎드린 무소 같으면 높은 현인이 됨을 주관한다.",
+   "commentary": "코끝(鼻準)이 둥글다는 서술이 원문에 직접 있어 코끝 둥긂으로 옮길 수 있다. 콧대가 곧음(直)과 윤택함은 정준 라벨이 없거나 관찰 형태가 아니며, '엎드린 무소(犀伏)'는 비유다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻準生來直更圓",
+     "observable_ko": "코끝이 둥긂",
+     "status": "exact",
+     "label": "nose_tip:rounded"
+    },
+    {
+     "region": "nose",
+     "evidence": "直",
+     "observable_ko": "코가 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대 직선 여부에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "潤",
+     "observable_ko": "윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "nose",
+     "evidence": "如犀伏",
+     "observable_ko": "엎드린 무소 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-nose-028",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "nose",
+   "original_text": "若曲又高」孔仰露，心中奸詐不堪言。",
+   "translation": "만약 코가 굽고 또 높으며 콧구멍이 위로 들려 드러나면 마음속의 간사함을 이루 말할 수 없다.",
+   "commentary": "콧구멍이 들려 드러난다(孔仰露)는 표현은 콧구멍 노출로 직접 옮길 수 있다. 굽은 코는 콧대 모양으로 정준 라벨이 없고, '高'는 콧대·코끝 중 어디인지 특정되지 않는다. 문헌은 이를 간사함과 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "孔仰露",
+     "observable_ko": "콧구멍이 들려 보임",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    },
+    {
+     "region": "nose",
+     "evidence": "若曲",
+     "observable_ko": "코가 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대 굽음에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "又高",
+     "observable_ko": "코가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nose_bridge:high"
+     ],
+     "reason": "鼻高는 콧뿌리·코끝 중 어디인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-029",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "上部須長下亦長，腰身周正壽高強。坐如山峙行如箭，此人須貴坐高堂。",
+   "translation": "상부가 길어야 하고 하부도 길며 허리와 몸이 두루 바르면 수명이 높고 강하다. 앉으면 산이 우뚝 선 듯하고 걸으면 화살 같으면 이 사람은 반드시 귀하여 높은 당에 앉는다.",
+   "commentary": "상부·하부가 몸의 상·하반신인지 얼굴의 정(停)인지 원문에 특정되지 않는다. 자세와 걸음은 관찰 형태가 아니다. 문헌은 이를 장수와 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上部須長下亦長",
+     "observable_ko": "상부와 하부가 모두 긺",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "몸의 상·하반신인지 얼굴 구획인지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "腰身周正",
+     "observable_ko": "허리와 몸이 바름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "坐如山峙行如箭",
+     "observable_ko": "앉음이 산 같고 걸음이 화살 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-030",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "上部雖長下部尖，肥頭大肚不為賢。此人只是常流輩，任有文章祿不遷。",
+   "translation": "상부는 비록 길어도 하부가 뾰족하고 머리가 살지고 배가 크면 어질지 못하다. 이 사람은 그저 보통 무리이니 문장이 있어도 녹이 오르지 않는다.",
+   "commentary": "하부가 뾰족하다(下部尖)는 것이 턱인지 몸 아래쪽인지 특정되지 않는다. 머리·배의 크기는 얼굴 형태 항목이 아니다. 문헌은 이를 평범함과 녹봉 정체에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上部雖長下部尖",
+     "observable_ko": "상부가 길고 하부가 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "chin_shape:pointed"
+     ],
+     "reason": "하부가 턱인지 몸인지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "肥頭大肚",
+     "observable_ko": "머리가 살지고 배가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-031",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "身大鬚長面亦方，眉濃口潤準頭長。三才五嶽皆平滿，必定榮華作郡王。",
+   "translation": "몸이 크고 수염이 길며 얼굴도 모나고, 눈썹이 짙고 입이 윤택하며 준두(準頭, 코끝)가 길고, 삼재(三才)와 오악(五嶽)이 모두 평평하고 차 있으면 반드시 영화로워 군왕이 된다.",
+   "commentary": "얼굴이 모남(面方)과 눈썹이 짙음(眉濃)은 지침 표의 표현과 같아 그대로 옮길 수 있다. 준두가 길다는 서술은 코 길이와 관련되나 코끝만의 길이라 근사 처리했다. 삼재는 이마·코·턱, 오악은 이마·턱·코·양 광대를 가리킨다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面亦方",
+     "observable_ko": "얼굴이 모남",
+     "status": "exact",
+     "label": "face_shape:angular"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉濃",
+     "observable_ko": "눈썹이 짙음",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "other",
+     "evidence": "身大",
+     "observable_ko": "몸이 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "鬚長",
+     "observable_ko": "수염이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口潤",
+     "observable_ko": "입이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭長",
+     "observable_ko": "코끝이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:long"
+     ],
+     "reason": "코 전체 길이가 아니라 코끝에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "三才五嶽皆平滿",
+     "observable_ko": "삼재·오악이 평평하고 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "여러 부위의 충만도를 묶은 서술로 대응 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-032",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "兩部肥圓下部尖，重行露骨不為賢。讀書萬卷終無「立，縱有文章壽不全，",
+   "translation": "두 부(部)가 살지고 둥근데 하부가 뾰족하며 무겁게 걷고 뼈가 드러나면 어질지 못하다. 책을 만 권 읽어도 끝내 서지 못하고 문장이 있어도 수명이 온전하지 못하다.",
+   "commentary": "두 부·하부가 무엇을 가리키는지 원문에 특정되지 않는다. 뼈 드러남과 걸음은 정준 라벨이 없거나 관찰 형태가 아니다. 문헌은 이를 입신 실패와 수명 부족에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩部肥圓下部尖",
+     "observable_ko": "두 부가 둥글고 하부가 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "chin_shape:pointed"
+     ],
+     "reason": "가리키는 부위가 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "重行",
+     "observable_ko": "무겁게 걸음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "露骨",
+     "observable_ko": "뼈가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-033",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "額方印闊三才正，出外超群耀姓名，嶽瀆學堂皆飽滿，若非將相定公卿，",
+   "translation": "이마가 모나고 인당(印堂, 두 눈썹 사이)이 넓으며 삼재가 바르면 밖에 나가 무리에서 뛰어나 이름을 빛내고, 악독(嶽瀆)과 학당이 모두 가득 차 있으면 장상이 아니면 반드시 공경이다.",
+   "commentary": "인활(印闊)은 인당이 넓다(印堂闊)는 뜻으로 읽어 두 눈썹 사이 간격이 넓음으로 옮겼다. 이마가 모남은 가시 이마 너비와 같은 측정이 아니어서 근사 처리했고, 악독(오악·사독)과 학당의 충만은 정준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印闊",
+     "observable_ko": "두 눈썹 사이가 넓음",
+     "status": "exact",
+     "label": "brow_gap:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額方",
+     "observable_ko": "이마가 모남",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "모남은 윤곽 모양으로 이마 너비와 같은 측정이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "三才正",
+     "observable_ko": "삼재가 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'바름'의 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "嶽瀆學堂皆飽滿",
+     "observable_ko": "악독과 학당이 가득 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-034",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "天庭光潔司空起，中正朝高與準平，更兼鼻聳如懸膽，此是天官必少榮，",
+   "translation": "천정(天庭, 이마 위쪽)이 빛나고 깨끗하며 사공(司空)이 솟고, 중정(中正)이 향하며 높아 준두와 나란하고, 게다가 코가 솟아 매단 쓸개 같으면 이는 천관(天官)이니 반드시 젊어서 영화롭다.",
+   "commentary": "천정·사공·중정은 이마 중앙선의 부위 이름이다. 이마의 솟음은 지침상 가시 이마 높이가 아닌 돌출이므로 근사 처리했고, 현담비(懸膽鼻)는 쓸개를 매단 듯 코끝이 둥글고 풍성한 코를 빗댄 비유다. '與準平'의 뜻은 분명하지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天庭光潔",
+     "observable_ko": "이마 위쪽이 빛나고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "司空起",
+     "observable_ko": "사공 부위가 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "이마 돌출 서술로 가시 이마 높이와 다른 차원이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "中正朝高與準平",
+     "observable_ko": "중정이 높고 준두와 나란함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "구절의 형태 기준이 불명확하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻聳如懸膽",
+     "observable_ko": "코가 솟고 매단 쓸개 같음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nose_tip:rounded"
+     ],
+     "reason": "비유 표현으로 높이와 코끝 모양이 섞여 있다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-035",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "輔角光隆滿更平，天庭朝起學堂成，城廓闊寬邊地滿，必是王侯將相形，",
+   "translation": "보각(輔角)이 빛나고 솟고 차 있으며 평평하고, 천정이 향해 일어나고 학당이 이루어지며, 성곽(城廓)이 넓고 너그럽고 변지(邊地)가 차 있으면 반드시 왕후장상의 형상이다.",
+   "commentary": "보각·변지는 이마 양쪽 위 가장자리의 부위 이름이고, 성곽(城廓)은 귀 또는 얼굴 테두리를 가리키는 말로 쓰여 이 구절에서는 특정되지 않는다. 문헌은 이 부위들의 충만을 왕후장상과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "輔角光隆滿更平",
+     "observable_ko": "보각이 빛나고 솟아 차 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 모서리 부위 돌출·충만에 대응하는 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "天庭朝起",
+     "observable_ko": "이마 위쪽이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "이마 돌출 서술로 가시 이마 높이와 다른 차원이다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂成",
+     "observable_ko": "학당이 이루어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "城廓闊寬",
+     "observable_ko": "성곽이 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "성곽이 귀인지 얼굴 윤곽인지 불명확하다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "邊地滿",
+     "observable_ko": "변지가 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 충만에 대응하는 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-036",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "額方有角更身長，高聳伏犀似枕梁，定是貴人多仔細，學堂成就佐君王。",
+   "translation": "이마가 모나고 모서리가 있으며 게다가 키가 크고, 복서(伏犀)가 높이 솟아 베개 들보 같으면 반드시 귀인으로 세심한 데가 많고, 학당이 이루어지면 군왕을 보좌한다.",
+   "commentary": "복서(伏犀)는 이마 가운데에서 정수리로 솟은 뼈를 가리키는 관상 용어로, 골격 돌출이라 정준 라벨이 없다. 이마의 모남은 가시 이마 너비와 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額方有角",
+     "observable_ko": "이마가 모나고 모서리가 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "이마 윤곽 모양 서술로 너비 측정과 다르다"
+    },
+    {
+     "region": "other",
+     "evidence": "身長",
+     "observable_ko": "키가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "高聳伏犀似枕梁",
+     "observable_ko": "복서골이 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂成就",
+     "observable_ko": "학당이 이루어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "학당(學堂) 등 문헌 고유의 부위 개념으로, 위치와 판정 기준이 정준 라벨과 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-037",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "眉下黃光闊又平，眼長眉聳是公卿。",
+   "translation": "눈썹 아래가 누런 빛이 나고 넓으며 평평하고, 눈이 길고 눈썹이 솟으면 공경이다.",
+   "commentary": "눈이 길다(眼長)는 지침 표에서 눈 크기의 직접 표현이다. 눈썹 아래가 넓다는 것과 눈썹이 솟았다는 것은 눈썹과 눈 사이 간격과 관련되나 같은 측정이 아니어서 근사 처리했고, 누런 빛은 색이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉下黃光",
+     "observable_ko": "눈썹 아래가 누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "brow",
+     "evidence": "闊又平",
+     "observable_ko": "눈썹 아래가 넓고 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide"
+     ],
+     "reason": "눈썹 아래 부위의 너비·평탄도로 눈썹-눈 간격과 같은 측정이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉聳",
+     "observable_ko": "눈썹이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide",
+      "brow_tail:ascending"
+     ],
+     "reason": "솟음이 높이인지 꼬리 방향인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-cheekbone-038",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "cheekbone",
+   "original_text": "兩邊顴骨高侵鬢，福壽俱全一世榮。",
+   "translation": "양쪽 관골(顴骨, 광대뼈)이 높아 귀밑털까지 침범하면 복과 수명이 모두 온전하여 한평생 영화롭다.",
+   "commentary": "관골이 높다(顴骨高)는 지침 표의 '顴高'와 같은 서술이다. 귀밑털까지 뻗는다(侵鬢)는 것은 범위에 관한 서술로 정준 라벨이 없다. 문헌은 이를 복과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "顴骨高",
+     "observable_ko": "광대뼈가 높음",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "侵鬢",
+     "observable_ko": "광대가 귀밑털까지 뻗음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "광대뼈 범위에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-039",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "骨生髮際起天中，為儒必解利名通。貧下之家生此子，不須囊橐自然豐。",
+   "translation": "뼈가 발제(髮際, 머리털 경계)에서 생겨 천중(天中, 이마 맨 위)에 솟으면 선비가 되어 반드시 이익과 이름이 통함을 안다. 가난하고 낮은 집안에서 이런 아들을 낳으면 주머니가 필요 없이 저절로 풍족하다.",
+   "commentary": "이마 위쪽의 뼈 솟음은 골격·돌출 서술이어서 가시 이마 높이로 옮길 수 없다. 문헌은 이를 명리와 재물에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨生髮際起天中",
+     "observable_ko": "머리털 경계에서 이마 위로 뼈가 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "이마뼈 돌출 서술로 지침상 근사 처리한다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-brow-040",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "brow",
+   "original_text": "目秀眉疏細更濃，耳輪貼肉不愁窮。",
+   "translation": "눈이 빼어나고 눈썹이 성기고 가늘면서도 더욱 짙고, 귓바퀴가 살에 붙어 있으면 가난을 근심하지 않는다.",
+   "commentary": "눈썹을 '성기다(疏)'와 '짙다(濃)'로 동시에 서술해 숱에 관한 판단이 서로 어긋나므로 대응을 보류했다. 귀가 머리에 붙은 정도는 정준 라벨이 없다. 문헌은 이를 가난하지 않음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目秀",
+     "observable_ko": "눈이 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉疏細更濃",
+     "observable_ko": "눈썹이 성기고 가늘며 짙음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:sparse",
+      "brow_density:dense",
+      "brow_thickness:thin"
+     ],
+     "reason": "疏와 濃이 함께 쓰여 숱 방향이 서로 어긋난다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳輪貼肉",
+     "observable_ko": "귓바퀴가 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀가 머리에 붙은 정도에 대응하는 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-041",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "口須方闊兼紅潤，",
+   "translation": "입은 모나고 넓으며 아울러 붉고 윤택해야 한다.",
+   "commentary": "입이 넓다(闊)는 서술은 입 너비로 직접 옮길 수 있다. 이 구절은 '~해야 한다'는 규범 서술로, 따르는 결과가 이 구절 자체에는 적혀 있지 않다. 붉고 윤택함은 색택이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口須方闊",
+     "observable_ko": "입이 넓음",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "紅潤",
+     "observable_ko": "입이 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-teeth-042",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "teeth",
+   "original_text": "牙若如紅心不公。",
+   "translation": "이가 만약 붉은 듯하면 마음이 공정하지 않다.",
+   "commentary": "이의 색에 관한 서술로 형태가 아니다. 문헌은 이를 불공정한 마음과 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "牙若如紅",
+     "observable_ko": "이가 붉은 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-043",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "聲從臍下響連長，骨秀神清面又方。頭骨更方遐上壽，筭來九十始身亡。",
+   "translation": "소리가 배꼽 아래에서 나와 울림이 길게 이어지고 뼈가 빼어나고 신이 맑으며 얼굴이 또 모나고, 머리뼈가 더욱 모나면 높은 수명을 누리니 헤아려 아흔에야 비로소 죽는다.",
+   "commentary": "얼굴이 모남(面方)은 지침 표의 얼굴형 표현과 같다. 소리·신·머리뼈의 모양은 관찰 형태가 아니거나 정준 라벨이 없다. 문헌은 이를 아흔까지의 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面又方",
+     "observable_ko": "얼굴이 모남",
+     "status": "exact",
+     "label": "face_shape:angular"
+    },
+    {
+     "region": "other",
+     "evidence": "聲從臍下響連長",
+     "observable_ko": "소리가 배꼽 아래서 길게 울림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리·말투는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨秀神清",
+     "observable_ko": "뼈가 빼어나고 신이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭骨更方",
+     "observable_ko": "머리뼈가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-044",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "養男如女多淫慾，滿面嬌姿始害方。促壽更兼無福德，看看三十早身亡。",
+   "translation": "남자를 길렀는데 여자 같으면 음욕이 많고, 온 얼굴에 교태로운 자태가 있으면 비로소 해로움이 바야흐로 이른다. 수명을 재촉하고 게다가 복덕이 없으니 보건대 서른에 일찍 죽는다.",
+   "commentary": "남성인 대상이 여성스러운 자태를 띤다는 서술로, 성별과 자태는 얼굴 형태 라벨로 옮길 수 없다. '始害方'은 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이를 음욕과 단명에 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "養男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "如女",
+     "observable_ko": "여자 같은 용모",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "성별 인상은 형태 라벨이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "滿面嬌姿",
+     "observable_ko": "온 얼굴에 교태로운 자태",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "자태·표정은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-045",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "食祿之家生子薄，到頭須是祖光榮。若有一官兼食祿，亦須短命少年傾。",
+   "translation": "녹을 먹는 집안에 태어난 아들이 얇으면(薄) 끝내 조상의 영광에 기댈 뿐이고, 만약 한 벼슬과 녹을 겸하게 되면 또한 단명하여 젊어서 쓰러진다.",
+   "commentary": "'生子薄'의 '薄'이 체질·복·형상 중 무엇을 말하는지 원문에 특정되지 않아 글자대로 옮겼다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "生子薄",
+     "observable_ko": "태어난 아들이 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "薄이 무엇의 얇음인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-046",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "形貌雖然好十分，好心不正定沉淪。雖然有一微官職，到老虛名命不存。」",
+   "translation": "형상과 용모가 비록 십분 좋더라도 마음이 바르지 않으면 반드시 가라앉아 몰락한다. 비록 작은 관직 하나가 있더라도 늙어서는 헛된 이름뿐이고 명(命)이 남지 않는다.",
+   "commentary": "용모보다 마음씨를 앞세운 서술로, 형태 조건이 구체적으로 적혀 있지 않다. 문헌은 바르지 않은 마음을 몰락과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "形貌雖然好十分",
+     "observable_ko": "용모가 매우 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "好心不正",
+     "observable_ko": "마음이 바르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "마음씨·행실은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-047",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "頭生異骨人為貴，面若乾枯定是貧。",
+   "translation": "머리에 기이한 뼈가 나면 사람이 귀하고, 얼굴이 마르고 시들면 반드시 가난하다.",
+   "commentary": "머리뼈의 기이함은 정준 라벨이 없고 얼굴의 마르고 시듦(乾枯)은 피부 색택에 관한 서술이다. 문헌은 이를 귀함과 가난에 각각 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭生異骨",
+     "observable_ko": "머리에 기이한 뼈",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面若乾枯",
+     "observable_ko": "얼굴이 마르고 시듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 윤기·건조는 색택으로 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mole-048",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mole",
+   "original_text": "黑子靨紋多苦相，到頭衣食仰「他人。",
+   "translation": "검은 점과 보조개 주름이 많으면 고생하는 상이니 끝내 입고 먹는 것을 남에게 의지한다.",
+   "commentary": "흑자(黑子)는 점을 가리킨다. 위치가 적혀 있지 않은 점의 존재는 보류 중인 색소 표지 라벨의 근사 후보이고, 보조개 주름(靨紋)은 정준 라벨이 없다. 문헌은 이를 남에게 의지하는 빈곤과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子",
+     "observable_ko": "검은 점이 많음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "점의 개수·위치가 특정되지 않은 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "靨紋",
+     "observable_ko": "보조개 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-ear-049",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "ear",
+   "original_text": "大頭無骨兼驢耳，到底貧窮日漸涼。如此之人須剋害，家財盈足也應亡。",
+   "translation": "머리가 크고 뼈가 없으며 아울러 나귀 귀이면 끝내 가난하여 날로 쓸쓸해진다. 이런 사람은 반드시 극해(剋害)하니 집안 재물이 가득해도 마땅히 잃는다.",
+   "commentary": "나귀 귀(驢耳)는 동물 비유로 크기·모양이 특정되지 않는다. 극해(剋害)는 가족을 해친다는 관상 용어다. 문헌은 이를 빈곤과 가족 해침에 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "大頭無骨",
+     "observable_ko": "머리가 크고 뼈가 드러나지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기·골격에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "驢耳",
+     "observable_ko": "나귀 귀",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-chin-050",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "chin",
+   "original_text": "地閣尖小必貧虛，倉庫蹉跎舍亦無。",
+   "translation": "지각(地閣, 턱)이 뾰족하고 작으면 반드시 가난하고 비어 창고가 어긋나고 집도 없다.",
+   "commentary": "지각이 뾰족하다(地閣尖)는 지침 표의 턱 모양 표현과 같다. '작다(小)'는 별도 측정 라벨이 없다. 문헌은 이를 빈곤과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣尖",
+     "observable_ko": "턱이 뾰족함",
+     "status": "exact",
+     "label": "chin_shape:pointed"
+    },
+    {
+     "region": "chin",
+     "evidence": "小",
+     "observable_ko": "턱이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "턱 크기에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-face-051",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "face",
+   "original_text": "懸壁生紋並黑子，破家貧賤定區區。",
+   "translation": "현벽(懸壁)에 주름이 생기고 아울러 검은 점이 있으면 집안을 깨뜨리고 가난하고 천하여 반드시 보잘것없다.",
+   "commentary": "현벽(懸壁)은 귀 앞 볼 쪽 부위를 가리키는 관상 용어로 보인다. 특정 위치의 주름과 점은 정준 라벨이 없거나 보류 라벨의 근사 후보다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "懸壁生紋",
+     "observable_ko": "현벽 부위에 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黑子",
+     "observable_ko": "현벽 부위의 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-eye-052",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "eye",
+   "original_text": "頭似鎚尖體細長，眼薄無光定路傍。乞食死時無葬地，充軍做賊自刑傷。",
+   "translation": "머리가 망치처럼 뾰족하고 몸이 가늘고 길며, 눈이 얇고 빛이 없으면 반드시 길가에 있다. 빌어먹다 죽을 때 묻힐 땅도 없고, 군대에 충원되거나 도적이 되어 스스로 형벌과 상해를 입는다.",
+   "commentary": "머리 모양과 체형은 얼굴 형태 라벨이 아니고, 눈이 얇다(眼薄)는 것이 눈 크기·눈꺼풀 중 무엇인지 특정되지 않으며 눈빛은 관찰 형태가 아니다. 문헌은 이를 걸식·도적·형벌과 연결한 강한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭似鎚尖",
+     "observable_ko": "머리가 망치처럼 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 모양에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "體細長",
+     "observable_ko": "몸이 가늘고 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼薄",
+     "observable_ko": "눈이 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈 크기·눈꺼풀 중 무엇을 뜻하는지 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "無光",
+     "observable_ko": "눈빛이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "criminality",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-053",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "口角低垂薄又斜，孤單獨自傍人家。",
+   "translation": "입꼬리가 낮게 처지고 얇으며 또 비뚤면 외롭고 홀로 남의 집에 의지한다.",
+   "commentary": "입꼬리가 처짐(口角低垂)은 지침 표의 입꼬리 방향 표현과 같다. '얇음(薄)'은 입술 두께로 읽히나 주어가 입꼬리라 근사 처리했고, 비뚤어짐은 정준 라벨이 없다. 문헌은 이를 고독과 남에게 의지함에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口角低垂",
+     "observable_ko": "입꼬리가 아래로 처짐",
+     "status": "exact",
+     "label": "mouth_corner:down"
+    },
+    {
+     "region": "mouth",
+     "evidence": "薄",
+     "observable_ko": "입(술)이 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "입술이라고 명시되지 않았다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "又斜",
+     "observable_ko": "입이 비뚦",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입 비대칭에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mole-054",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mole",
+   "original_text": "懸壁更兼生黑子，終身貧困不生涯。",
+   "translation": "현벽(懸壁)에 게다가 검은 점이 나면 평생 가난하고 곤궁하여 살아갈 방도가 없다.",
+   "commentary": "특정 위치(현벽)의 점은 보류 중인 색소 표지 라벨의 근사 후보다. 문헌은 이를 평생 빈곤과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "懸壁更兼生黑子",
+     "observable_ko": "현벽 부위의 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-055",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "人生額角潤如卵。",
+   "translation": "사람이 나면서 이마 모서리가 알처럼 윤택하다.",
+   "commentary": "앞뒤 구절과 연결이 분명하지 않은 단독 구절로, 결과 주장이 적혀 있지 않다. 윤택함은 색택이고 '알 같다'는 비유다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額角潤",
+     "observable_ko": "이마 모서리가 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "如卵",
+     "observable_ko": "알 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유로 형태 기준이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-056",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "髮際低生近伴眉，定是為奴並走使。縱然富貴不多時，",
+   "translation": "발제(髮際, 머리털 경계)가 낮게 나서 눈썹에 가까이 짝하면 반드시 종이 되고 심부름꾼이 된다. 설령 부귀하더라도 오래가지 않는다.",
+   "commentary": "머리털 경계가 눈썹에 가깝다는 것은 보이는 이마가 낮다는 뜻과 통하지만, 지침상 머리털 경계 자체에 관한 서술은 근사 처리한다. 문헌은 이를 종·심부름꾼의 신분과 짧은 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際低生近伴眉",
+     "observable_ko": "머리털 경계가 낮아 눈썹에 가까움",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "머리털 경계에 관한 서술은 지침상 근사 처리한다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-057",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "立如錐卓坐如削。腰下無臀身又薄。不問豪家與貴子，到老無成自蹇落。",
+   "translation": "서면 송곳을 세운 듯하고 앉으면 깎은 듯하며, 허리 아래에 엉덩이가 없고 몸도 얇으면 부호의 집인지 귀한 집 아들인지를 묻지 않고 늙도록 이룬 것이 없어 스스로 고단하게 떨어진다.",
+   "commentary": "자세와 체형에 관한 서술로 얼굴 형태 항목이 아니다. 문헌은 이를 평생의 무성취와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "立如錐卓坐如削",
+     "observable_ko": "서고 앉은 자세가 송곳·깎은 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腰下無臀身又薄",
+     "observable_ko": "엉덩이가 없고 몸이 얇음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-058",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "額尖腦薄又無髮，眼嘴不堪鼻如墨。此是貧窮下賤人，饑寒處處無衣食。",
+   "translation": "이마가 뾰족하고 뒷머리가 얇으며 또 머리털이 없고, 눈과 입이 볼품없고 코가 먹 같으면 이는 가난하고 천한 사람이니 곳곳에서 굶주리고 추우며 입고 먹을 것이 없다.",
+   "commentary": "이마가 뾰족하다는 것은 이마가 좁다는 뜻과 관련되지만 같은 측정이 아니어서 근사 처리했다. 머리털 유무는 정준 라벨이 없고 '먹 같은 코'는 색 표현이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額尖",
+     "observable_ko": "이마가 뾰족함",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "뾰족함은 윤곽 모양으로 너비 측정과 같지 않다"
+    },
+    {
+     "region": "other",
+     "evidence": "腦薄",
+     "observable_ko": "뒷머리가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두개 형태에 대응하는 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "無髮",
+     "observable_ko": "머리털이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "모발에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "眼嘴不堪",
+     "observable_ko": "눈과 입이 볼품없음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어(秀·清·好·分明 등)로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻如墨",
+     "observable_ko": "코가 먹처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-059",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "不語自語貧下賤，妨害孤單目下見。",
+   "translation": "말하지 않을 때 혼잣말하면 가난하고 낮고 천하며, 방해(妨害)하여 외로운 것이 눈앞에(눈 아래) 보인다.",
+   "commentary": "혼잣말은 행동이라 관찰 형태가 아니다. '目下見'은 '당장 드러난다' 또는 '눈 아래에 보인다'로 읽힐 수 있어 뜻이 분명하지 않다. 방해(妨害)는 가족을 해친다는 관상 용어로 쓰인다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "不語自語",
+     "observable_ko": "혼잣말함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리·말투는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "目下見",
+     "observable_ko": "눈 아래에 보임(?)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "시간 표현인지 부위 표현인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-mouth-060",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "mouth",
+   "original_text": "一笑脣搖薄業財，到老無成命乖蹇。",
+   "translation": "한 번 웃을 때 입술이 흔들리면 가업과 재물이 엷어지고 늙도록 이룬 것이 없어 명이 어그러지고 고단하다.",
+   "commentary": "웃을 때 입술의 움직임은 동작이라 정지 사진 형태가 아니다. 문헌은 이를 재물의 감소와 불운에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "一笑脣搖",
+     "observable_ko": "웃을 때 입술이 흔들림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이·자세·동작은 정지 얼굴 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-under_eye-061",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "under_eye",
+   "original_text": "眼堂」黑氣戰中亡，",
+   "translation": "안당(眼堂, 눈 아래)에 검은 기가 있으면 싸움 중에 죽는다.",
+   "commentary": "안당은 눈 아래 부위로 보이며, 검은 기는 기색이라 관찰 형태가 아니다. 문헌은 이를 전쟁 중의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼堂」黑氣",
+     "observable_ko": "눈 아래의 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-062",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "手滿光明志氣榮，",
+   "translation": "손이 차고 빛나고 밝으면 뜻과 기개가 영화롭다.",
+   "commentary": "손에 관한 서술로 얼굴 형태 항목이 아니며 빛남은 색택이다. 원문의 '手'가 다른 글자의 오사인지는 판단하지 않고 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手滿光明",
+     "observable_ko": "손이 차고 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸통·체격 등 얼굴 밖의 신체는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-063",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "陷側邊庭刀下死，平高為將靖邊疆，",
+   "translation": "변정(邊庭)이 꺼지고 기울면 칼 아래 죽고, 평평하고 높으면 장수가 되어 변경을 평정한다.",
+   "commentary": "변정(邊庭)은 이마 양쪽 가장자리의 부위 이름(변지)으로 보인다. 그 함몰·높이는 정준 라벨이 없다. 문헌은 이를 칼에 의한 죽음과 장수 벼슬에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "陷側邊庭",
+     "observable_ko": "변정이 꺼지고 기욺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 굴곡에 대응하는 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平高",
+     "observable_ko": "변정이 평평하고 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 굴곡에 대응하는 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-forehead-064",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "forehead",
+   "original_text": "塚墓凶亡左右看，骨頭豐起必平安，乾枯必是喪父母，歉陷應知幼小難，",
+   "translation": "총묘(塚墓)로 흉한 죽음을 보되 좌우를 보아, 뼈가 풍성하게 솟으면 반드시 평안하고, 마르고 시들면 반드시 부모를 잃으며, 모자라고 꺼지면 어려서 어려움이 있음을 알아야 한다.",
+   "commentary": "총묘(塚墓)는 이마 위 양쪽 부위 이름으로 쓰이는 관상 용어로 보이나 이 구절에는 위치 설명이 없다. 뼈의 솟음·함몰은 정준 라벨이 없고 마르고 시듦은 색택이다. 문헌은 이를 부모의 죽음과 어린 시절 고난에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨頭豐起",
+     "observable_ko": "총묘 부위 뼈가 풍성하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "乾枯",
+     "observable_ko": "총묘 부위가 마르고 시듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "歉陷",
+     "observable_ko": "총묘 부위가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "kinship_harm",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-065",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "到老隨人做奴僕，",
+   "translation": "늙도록 남을 따라 종노릇을 한다.",
+   "commentary": "앞뒤 구절과 연결이 분명하지 않은 단독 구절로, 이 구절에는 형태 조건이 적혀 있지 않다. 문헌은 종의 신분을 말했다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638Y-other-066",
+   "section": "《姚括蒼玉管訣》〈男相〉",
+   "attributed_to": "姚括蒼",
+   "region": "other",
+   "original_text": "肥不露肉瘦無骨，方覺斯人壽命長，骨若露昂貧且賤，肉如露出少傾亡。",
+   "translation": "살져도 살이 드러나지 않고 말라도 뼈가 드러나지 않아야 비로소 이 사람의 수명이 긺을 알며, 뼈가 드러나 불거지면 가난하고 천하고, 살이 드러나 나오면 젊어서 쓰러져 죽는다.",
+   "commentary": "살과 뼈가 드러나는 정도에 관한 체형 서술로 정준 라벨이 없다. 문헌은 이를 장수·빈천·요절에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "肥不露肉瘦無骨",
+     "observable_ko": "살·뼈가 드러나지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "체형·살집 드러남에 대응하는 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨若露昂",
+     "observable_ko": "뼈가 드러나 불거짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격(뼈의 돌출·모양)에 대응하는 정준 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "肉如露出",
+     "observable_ko": "살이 드러나 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "살집 드러남에 대응하는 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

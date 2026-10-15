@@ -1,0 +1,249 @@
+{
+ "page_id": "xf07",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相齒篇第七"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF07-teeth-001",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒白如玉，自然謌樂。財食自至，不用苦作。",
+   "translation": "이가 희어 옥 같으면 자연히 노래하고 즐기며, 재물과 먹을 것이 절로 이르러 애써 일하지 않아도 된다.",
+   "commentary": "이의 흰 빛을 옥에 빗댄 색 서술로 형태가 아니다. 문헌은 이를 수고 없이 얻는 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒白如玉",
+     "observable_ko": "이가 옥처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-002",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒如斬銀，必是貴人。",
+   "translation": "이가 벤 은(斬銀) 같으면 반드시 귀인이다.",
+   "commentary": "'斬銀'은 갓 자른 은처럼 희고 가지런함을 비유한 것으로 보이나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如斬銀",
+     "observable_ko": "이가 벤 은 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "색 비유인지 가지런함의 비유인지 불명확하고 치아 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-003",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒如石橊，富貴他求。",
+   "translation": "이가 석류 (씨) 같으면 부귀를 남에게서(다른 데서) 구한다.",
+   "commentary": "석류 씨처럼 촘촘히 들어찬 이를 비유한 것으로 보인다. '富貴他求'의 함의는 해석 여지가 있어 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如石橊",
+     "observable_ko": "이가 석류 씨 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "배열·색 중 무엇의 비유인지 불명확하고 치아 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-004",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒如龍齒，法生貴子。",
+   "translation": "이가 용의 이 같으면 법(法)에 귀한 자식을 낳는다.",
+   "commentary": "용의 이에 빗댄 비유로 형태 기준이 특정되지 않는다. '法'은 관상법상 그러하다는 뜻으로 읽었다. 문헌은 이를 자식 운과 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如龍齒",
+     "observable_ko": "이가 용의 이 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-005",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒齦竅出，每事漏失。",
+   "translation": "잇몸에 구멍이 나와 있으면 매사에 새고 잃는다.",
+   "commentary": "'齒齦竅出'은 잇몸이 드러나거나 틈이 보이는 상태로 읽을 수 있으나 정확한 뜻은 불확실하다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒齦竅出",
+     "observable_ko": "잇몸이 드러나거나 틈이 보임(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "잇몸 노출인지 틈인지 불분명하고 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-006",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒縫踈稀，財食無餘。如此之人，與鬼同居。",
+   "translation": "이 틈이 성기고 드물면 재물과 먹을 것이 남음이 없다. 이와 같은 사람은 귀신과 함께 산다.",
+   "commentary": "이 사이가 벌어진 형태로 치아 레이블이 없다. '與鬼同居'는 곤궁하거나 불길함을 강하게 말한 표현으로 보이나 정확한 함의는 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒縫踈稀",
+     "observable_ko": "이 사이가 성기게 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-007",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒數三十六，貴聖有天祿。",
+   "translation": "이의 수가 서른여섯이면 귀하고 성스러워 하늘의 녹이 있다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒數",
+     "observable_ko": "이가 서른여섯 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-008",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "若三十向上，富貴豪望。",
+   "translation": "만약 서른 이상이면 부귀하고 호걸스러운 명망이 있다.",
+   "commentary": "앞 구절에 이어 치아 개수를 말한다. 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "若三十向上",
+     "observable_ko": "이가 서른 개 이상",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-009",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "足滿三十，衣食自如。",
+   "translation": "꼭 서른을 채우면 입고 먹음이 뜻대로 된다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "足滿三十",
+     "observable_ko": "이가 꼭 서른 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-010",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "齒色黑，多妨克。",
+   "translation": "이의 빛이 검으면 해치고 극(剋)함이 많다.",
+   "commentary": "치아 색에 관한 서술로 형태가 아니다. 가족을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒色黑",
+     "observable_ko": "이가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "XF07-teeth-011",
+   "section": "相齒篇第七",
+   "region": "teeth",
+   "original_text": "三十以下，漸多饑寒。衣食必少，壽命短促。",
+   "translation": "서른 이하이면 점점 굶주림과 추위가 많아지고, 입고 먹을 것이 반드시 적으며, 수명이 짧고 촉박하다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다. 문헌은 이를 빈곤과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "三十以下",
+     "observable_ko": "이가 서른 개 이하",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  }
+ ]
+}

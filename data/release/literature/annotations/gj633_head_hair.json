@@ -1,0 +1,1874 @@
+{
+ "page_id": "gj633",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相頭〈井髮〉",
+  "論髮"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ633H-other-001",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頭者，一身之尊，百骸之長，諸陽之會，五行之宗。居高而圓，象天之德也。",
+   "translation": "머리는 한 몸의 존귀한 것이요, 온갖 뼈의 우두머리요, 모든 양(陽)이 모이는 곳이요, 오행(五行)의 근본이다. 높은 곳에 있으면서 둥근 것은 하늘의 덕을 본뜬 것이다.",
+   "commentary": "머리의 지위와 상징을 정의하는 총론이다. '높고 둥글다'는 머리 일반에 대한 설명이지 개인 간 차이를 가르는 조건이 아니어서 조건으로 두지 않았다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-002",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "其骨欲豐而起，欲峻而凸。皮欲厚，額欲方，短則欲厚，長則欲方。",
+   "translation": "그 뼈는 풍만하고 솟아야 하며, 높고 볼록해야 한다. 가죽은 두터워야 하고, 이마는 모나야 하며, 짧으면 두터워야 하고, 길면 모나야 한다.",
+   "commentary": "머리뼈·두피·이마의 바람직한 형태를 든 기준이다. 머리뼈 형태는 레이블이 없고, 이마가 모남(額方)은 이마의 가시 높이·폭이 아닌 윤곽 모양이라 대응 항목이 없다. '短/長'의 주어는 머리로 읽었으나 이마로 읽을 여지도 있다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "其骨欲豐而起",
+     "observable_ko": "머리뼈가 풍만하고 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "欲峻而凸",
+     "observable_ko": "머리뼈가 높고 볼록함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "皮欲厚",
+     "observable_ko": "머리 가죽(두피)이 두터움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "두피 두께는 사진으로 판단할 수 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額欲方",
+     "observable_ko": "이마가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 모남은 forehead_height/width가 재는 가시 높이·폭과 다른 차원이다"
+    },
+    {
+     "region": "other",
+     "evidence": "短則欲厚，長則欲方",
+     "observable_ko": "짧으면 두텁고 길면 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-003",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頂凸者高貴，陷者夭壽，",
+   "translation": "정수리가 볼록한 자는 높고 귀하며, 꺼진 자는 일찍 죽고,",
+   "commentary": "정수리(頂)의 볼록함과 꺼짐을 대비한 구절이다. 정수리 형태는 정면 얼굴 레이블에 없으며, 문헌은 꺼진 정수리를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頂凸",
+     "observable_ko": "정수리가 볼록함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷者",
+     "observable_ko": "정수리가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-004",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "皮薄者主貧賤。",
+   "translation": "가죽이 얇은 자는 가난하고 천함을 주관한다.",
+   "commentary": "머리 가죽(두피)이 얇음에 관한 서술로 사진으로 판단할 수 없다. 문헌은 이를 빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "皮薄",
+     "observable_ko": "머리 가죽(두피)이 얇음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "두피 두께는 사진으로 판단할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-005",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頭有肉角者主大貴。",
+   "translation": "머리에 살로 된 뿔(肉角)이 있는 자는 크게 귀함을 주관한다.",
+   "commentary": "육각(肉角)은 머리에 뿔처럼 솟은 융기를 가리키는 말로 보인다. 머리 형태는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭有肉角",
+     "observable_ko": "머리에 뿔처럼 솟은 살이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-006",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "右陷者損母，左陷者損父。",
+   "translation": "오른쪽이 꺼진 자는 어머니를 손상하고, 왼쪽이 꺼진 자는 아버지를 손상한다.",
+   "commentary": "머리의 좌우 한쪽이 꺼진 형태를 부모에 대한 해와 연결한 서술이다. 머리 좌우 형태는 레이블이 없으며, 부모를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "右陷",
+     "observable_ko": "머리 오른쪽이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "左陷",
+     "observable_ko": "머리 왼쪽이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-007",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "耳後有骨，名曰「壽骨」，起者長年，陷者壽夭。",
+   "translation": "귀 뒤에 뼈가 있으니 이름하여 수골(壽骨)이라 한다. 솟은 자는 오래 살고, 꺼진 자는 수명이 짧다.",
+   "commentary": "수골(壽骨)은 귀 뒤의 뼈를 가리키는 이름이다. 귀 뒤는 정면 사진에서 보이지 않고 레이블도 없으며, 문헌은 이를 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "起者",
+     "observable_ko": "귀 뒤 수골이 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷者",
+     "observable_ko": "귀 뒤 수골이 꺼짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-008",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "太陽穴有骨，名曰「扶桑骨。」耳上有骨，名曰「玉樓骨。」並主富貴。",
+   "translation": "태양혈(太陽穴, 관자놀이)에 뼈가 있으니 이름하여 부상골(扶桑骨)이라 하고, 귀 위에 뼈가 있으니 이름하여 옥루골(玉樓骨)이라 한다. 모두 부귀를 주관한다.",
+   "commentary": "관자놀이와 귀 위의 뼈 융기에 이름을 붙인 서술이다. 관자놀이 부위는 정면에서 일부 보일 수 있으나 해당 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "太陽穴有骨",
+     "observable_ko": "관자놀이에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "관자놀이 뼈 융기는 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "耳上有骨",
+     "observable_ko": "귀 위에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위 뼈 융기는 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-009",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "行不欲搖頭，坐不欲低首，皆貧賤之相。",
+   "translation": "걸을 때는 머리를 흔들지 않아야 하고, 앉을 때는 머리를 숙이지 않아야 하니, (그리하는 것은) 모두 빈천한 상이다.",
+   "commentary": "걸음과 앉은 자세의 습관에 관한 서술로 형태가 아니다. 문헌은 이를 빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "行不欲搖頭",
+     "observable_ko": "걸을 때 머리를 흔듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "坐不欲低首",
+     "observable_ko": "앉을 때 머리를 숙임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-001",
+   "section": "相頭〈井髮〉",
+   "region": "forehead",
+   "original_text": "髮際低者，性愚而夭。",
+   "translation": "발제(髮際, 머리털이 나기 시작하는 경계)가 낮은 자는 성품이 어리석고 일찍 죽는다.",
+   "commentary": "발제가 낮으면 보이는 이마가 낮아지는 경향이 있으나, 발제선 자체에 관한 서술은 가시 이마 높이와 같은 측정이 아니어서 근사 대응으로 두었다. 지능과 수명에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際低",
+     "observable_ko": "발제선이 낮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "발제선 위치 서술이며 가시 이마 높이(forehead_height)와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "death_lifespan",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-002",
+   "section": "相頭〈井髮〉",
+   "region": "forehead",
+   "original_text": "髮際高者，性和而壽。",
+   "translation": "발제(髮際)가 높은 자는 성품이 온화하고 오래 산다.",
+   "commentary": "발제선이 높으면 보이는 이마가 높아지는 경향이 있으나 발제선 서술이어서 근사 대응으로 두었다. 문헌은 이를 성품과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際高",
+     "observable_ko": "발제선이 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "발제선 위치 서술이며 가시 이마 높이(forehead_height)와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-010",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "項後髮高，其性僻下。",
+   "translation": "목덜미 뒤의 머리털이 높은 자는 그 성품이 편벽되고 비루하다.",
+   "commentary": "목덜미 쪽 발제가 높음을 말하는 것으로 보이며 정면 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "項後髮高",
+     "observable_ko": "목덜미 발제가 높음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-011",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮欲疏而黑，短而潤。",
+   "translation": "머리털은 성기고 검으며, 짧고 윤택해야 한다.",
+   "commentary": "머리털의 바람직한 숱·색·길이·윤기를 든 기준이다. 머리털은 레이블 체계에 없고 색·윤기는 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮欲疏",
+     "observable_ko": "머리털이 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "而黑",
+     "observable_ko": "머리털이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "短",
+     "observable_ko": "머리털이 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "潤",
+     "observable_ko": "머리털이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-012",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頭小髮長，散走他鄉。",
+   "translation": "머리가 작고 머리털이 길면 흩어져 타향으로 달아난다.",
+   "commentary": "머리 크기와 머리털 길이는 레이블이 없다. 문헌은 이를 고향을 떠나 떠도는 운과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮長",
+     "observable_ko": "머리털이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-013",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮黃而焦，不貧則夭。",
+   "translation": "머리털이 누렇고 타 있으면 가난하지 않으면 일찍 죽는다.",
+   "commentary": "머리털의 색과 마른 상태에 관한 서술로 형태가 아니다. 문헌은 이를 빈곤과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮黃",
+     "observable_ko": "머리털이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "焦",
+     "observable_ko": "머리털이 타서 푸석함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-014",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮短如拳，立性剛強。",
+   "translation": "머리털이 짧아 주먹 같으면 성품이 굳세고 강하다.",
+   "commentary": "'如拳'은 짧게 곱슬곱슬 말린 머리털을 비유한 것으로 보이나 확정할 수 없다. 머리털 모양은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮短如拳",
+     "observable_ko": "머리털이 짧고 주먹처럼 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-015",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "或赤或白，貧窮之相。",
+   "translation": "(머리털이) 혹 붉거나 혹 희면 빈궁한 상이다.",
+   "commentary": "머리털 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "或赤或白",
+     "observable_ko": "머리털이 붉거나 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-016",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "《詩》曰：「腦後太陽骨豐起，為官享壽自延年，",
+   "translation": "『시』에 이르기를, '뒤통수와 태양(太陽, 관자놀이)의 뼈가 풍만하게 솟으면 벼슬하고 수를 누려 절로 해가 늘어나고,",
+   "commentary": "뒤통수(腦後)와 관자놀이 뼈의 융기를 벼슬·장수와 연결한 시구다. '腦後太陽骨'을 두 부위로 읽었으나 한 부위로 읽을 여지도 있으며, 어느 쪽이든 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腦後太陽骨豐起",
+     "observable_ko": "뒤통수·관자놀이 뼈가 풍만하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "뒤통수·관자놀이 뼈 융기는 레이블 체계에 없고 뒤통수는 정면 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-017",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮疏面薄皆貧相，",
+   "translation": "머리털이 성기고 얼굴이 얇으면 모두 가난한 상이요,",
+   "commentary": "'面薄'은 얼굴 살이 얇음(볼이 빈약함)으로 읽을 수 있으나 기준이 모호하여 확정하지 않았다. 머리털 숱은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮疏",
+     "observable_ko": "머리털이 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面薄",
+     "observable_ko": "얼굴이 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheek_fullness:hollow"
+     ],
+     "reason": "얼굴이 얇다는 것이 볼 살·얼굴 두께 중 무엇인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-018",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "父母難為左右偏。」",
+   "translation": "좌우로 치우치면 부모가 (온전하기) 어렵다.'",
+   "commentary": "'左右偏'은 앞 구절 맥락상 머리의 좌우 치우침으로 읽었으나 주어가 명시되어 있지 않다. 부모에게 해가 된다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "左右偏",
+     "observable_ko": "좌우로 치우침",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇이 치우쳤는지 원문에 주어가 없고 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-019",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "「頭小頸長，貧乏異常。",
+   "translation": "'머리가 작고 목이 길면 가난하고 궁핍함이 보통과 다르다.",
+   "commentary": "머리 크기와 목 길이에 관한 서술로 얼굴 형태 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頸長",
+     "observable_ko": "목이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "목 길이는 얼굴 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-020",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "蛇頭屈曲，糟糠不足。",
+   "translation": "뱀 머리처럼 구불구불하면 지게미와 쌀겨도 넉넉하지 않다.",
+   "commentary": "뱀 머리에 빗댄 비유로 형태 기준이 특정되지 않는다. 문헌은 이를 극심한 가난과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "蛇頭屈曲",
+     "observable_ko": "뱀 머리처럼 구불구불함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-021",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頭短而圓，福祿綿綿。",
+   "translation": "머리가 짧고 둥글면 복과 녹이 끊임없이 이어진다.",
+   "commentary": "머리(頭)의 짧고 둥근 모양을 말하며 얼굴형(面圓)을 말한 것이 아니어서 얼굴형 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭短而圓",
+     "observable_ko": "머리가 짧고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 형태 서술이며 얼굴형 레이블과 측정 대상이 다르다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-022",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "腹肚下垂，人僕相隨。」",
+   "translation": "배가 아래로 처지면 사람과 종이 서로 따른다.'",
+   "commentary": "배의 형태에 관한 서술로 얼굴 부위가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹肚下垂",
+     "observable_ko": "배가 아래로 처짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배는 얼굴 부위가 아니며 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-023",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "又云：「頭小髮長蹤跡散，",
+   "translation": "또 이르기를, '머리가 작고 머리털이 길면 발자취가 흩어지고,",
+   "commentary": "앞의 '頭小髮長，散走他鄉'과 같은 취지의 시구다. 머리 크기와 머리털 길이는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮長",
+     "observable_ko": "머리털이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-024",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮長頭窄命難長。",
+   "translation": "머리털이 길고 머리가 좁으면 목숨이 길기 어렵다.",
+   "commentary": "머리털 길이와 머리 폭에 관한 서술로 레이블이 없다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮長",
+     "observable_ko": "머리털이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭窄",
+     "observable_ko": "머리가 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-025",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮生到耳須餓死，",
+   "translation": "머리털이 귀까지 나면 모름지기 굶어 죽고,",
+   "commentary": "머리털이 귀 쪽까지 내려와 난 형태로 보인다. 머리털 분포는 레이블이 없으며, 굶어 죽는다는 단정적 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮生到耳",
+     "observable_ko": "머리털이 귀까지 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-026",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮捲如螺必有傷。」",
+   "translation": "머리털이 소라처럼 말려 있으면 반드시 다침이 있다.'",
+   "commentary": "소라처럼 말린 곱슬머리를 말한다. 머리털 모양은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮捲如螺",
+     "observable_ko": "머리털이 소라처럼 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-027",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "髮早白者凶，白而再黑者吉。",
+   "translation": "머리털이 일찍 희어지는 자는 흉하고, 희어졌다가 다시 검어지는 자는 길하다.",
+   "commentary": "머리털 색과 그 시간적 변화에 관한 서술로 형태가 아니며 나이 판단을 전제한다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮早白",
+     "observable_ko": "머리털이 일찍 희어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색이며 나이를 전제하므로 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "白而再黑",
+     "observable_ko": "흰 머리털이 다시 검어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시간에 따른 색 변화는 한 장의 사진으로 알 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-028",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "自古無濃髮宰相，亦無突髮之健兒。",
+   "translation": "예로부터 짙은 머리털의 재상은 없고, 또한 돌발(突髮)의 굳센 사내도 없다.",
+   "commentary": "'突髮'의 정확한 뜻은 불확실하여 글자대로 옮겼다. 머리털 숱과 모양은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "濃髮",
+     "observable_ko": "머리털이 짙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "突髮",
+     "observable_ko": "머리털이 솟음(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'突髮'의 뜻이 불확실하고 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-029",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "大概髮欲潤澤而黑，不喜焦枯而濃，",
+   "translation": "대개 머리털은 윤택하고 검어야 하며, 타서 마르고 짙은 것을 좋아하지 않는다.",
+   "commentary": "머리털의 윤기·색·숱에 관한 일반 기준이다. 윤기와 색은 형태가 아니고 숱은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "潤澤而黑",
+     "observable_ko": "머리털이 윤택하고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "焦枯",
+     "observable_ko": "머리털이 타서 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "而濃",
+     "observable_ko": "머리털이 짙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-030",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "若雙頂者，多妨父。",
+   "translation": "만약 정수리가 둘인 자는 아버지를 많이 해친다.",
+   "commentary": "쌍정(雙頂)은 정수리(가마)가 둘인 것으로 읽을 수 있다. 정면 사진에서 판단하기 어렵고 레이블이 없으며, 아버지를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "雙頂",
+     "observable_ko": "정수리가 둘임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-031",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "又云：「頭上方圓額又平，定是富貴有高名，",
+   "translation": "또 이르기를, '머리 위가 모나고 둥글며 이마 또한 평평하면 반드시 부귀하고 높은 이름이 있으며,",
+   "commentary": "머리 윗부분의 모양과 이마의 평평함을 부귀와 연결했다. 이마가 평평함은 굴곡에 관한 서술로 가시 이마 높이·폭과 다르다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭上方圓",
+     "observable_ko": "머리 위가 모나고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額又平",
+     "observable_ko": "이마가 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 평평함(굴곡)은 forehead_height/width가 재는 가시 높이·폭과 다르다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-032",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頂骨連鼻終拜相，世世生生不受貧，",
+   "translation": "정수리 뼈가 코까지 이어지면 끝내 재상에 임명되고, 대대로 나고 나도록 가난을 받지 않으며,",
+   "commentary": "정수리 뼈가 이마를 지나 코까지 이어진 융기를 말하는 것으로 보인다. 뼈 융기는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頂骨連鼻",
+     "observable_ko": "정수리 뼈가 코까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리·이마 뼈 융기는 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-033",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頭生角骨武封侯，",
+   "translation": "머리에 뿔 같은 뼈가 나면 무관으로 제후에 봉해지고,",
+   "commentary": "머리의 뿔 모양 뼈 융기에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭生角骨",
+     "observable_ko": "머리에 뿔 같은 뼈가 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-034",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "腦後連山富貴流。",
+   "translation": "뒤통수에 산이 이어지면 부귀가 흐른다.",
+   "commentary": "'連山'은 뒤통수 뼈가 산처럼 이어 솟음을 비유한 것으로 보인다. 뒤통수는 정면 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腦後連山",
+     "observable_ko": "뒤통수 뼈가 산처럼 이어 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-035",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "枕骨更生終不賤，",
+   "translation": "침골(枕骨, 뒤통수 뼈)이 또 나면 끝내 천하지 않고,",
+   "commentary": "침골은 뒤통수의 뼈 융기를 가리킨다. 정면 사진에서 보이지 않고 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "枕骨更生",
+     "observable_ko": "뒤통수 뼈가 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-036",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "上尖下長賤薄人。",
+   "translation": "위가 뾰족하고 아래가 길면 천하고 박한 사람이다.",
+   "commentary": "주어가 생략되어 앞뒤 맥락상 머리 모양으로 읽었으나 얼굴 윤곽으로 읽을 여지도 있다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上尖下長",
+     "observable_ko": "위가 뾰족하고 아래가 긺",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "주어가 머리인지 얼굴인지 불분명하고 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-037",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "兔頭多是性輕狂，",
+   "translation": "토끼 머리는 대개 성품이 경박하고 미친 듯하며,",
+   "commentary": "토끼에 빗댄 비유로 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兔頭",
+     "observable_ko": "토끼 머리(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-003",
+   "section": "相頭〈井髮〉",
+   "region": "forehead",
+   "original_text": "額上金微父早亡，",
+   "translation": "이마 위에 금(金)이 희미하면 아버지가 일찍 죽고,",
+   "commentary": "'金微'의 뜻이 불확실하다. 이마의 금빛(기색)이 약함으로 읽을 수 있으나 확정할 수 없어 글자대로 옮겼다. 아버지의 이른 죽음에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上金微",
+     "observable_ko": "이마 위의 금(金)이 희미함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "金이 기색인지 다른 지칭인지 불분명하며, 기색이라면 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-038",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "少年白髮多妨剋，",
+   "translation": "소년에 머리털이 희면 해치고 극(剋)함이 많고,",
+   "commentary": "젊은 나이와 흰머리라는 나이·색 조건으로 사진 형태가 아니다. 가족을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "少年",
+     "observable_ko": "대상이 젊은 나이",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 나이를 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "白髮",
+     "observable_ko": "머리털이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-039",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "兩鬢毛疏性不良，",
+   "translation": "두 귀밑털이 성기면 성품이 좋지 않고,",
+   "commentary": "귀밑털(鬢)의 숱에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩鬢毛疏",
+     "observable_ko": "두 귀밑털이 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-040",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "頂中低下是賢人，",
+   "translation": "정수리 가운데가 낮게 꺼지면 어진 사람이며,",
+   "commentary": "정수리 가운데의 오목함에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頂中低下",
+     "observable_ko": "정수리 가운데가 낮음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리(두개) 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-face-001",
+   "section": "相頭〈井髮〉",
+   "region": "face",
+   "original_text": "女長頭青嫁貴人，更得髮光面圓潤，必為妃后國恩頻，",
+   "translation": "여자가 머리가 길고 푸르면 귀인에게 시집가고, 다시 머리털이 빛나고 얼굴이 둥글고 윤택함을 얻으면 반드시 비(妃)나 후(后)가 되어 나라의 은혜가 잦다.",
+   "commentary": "'長頭青'은 머리(또는 머리털)가 길고 검푸름으로 읽었으나 끊어 읽기가 불확실하다. '面圓'은 얼굴형이 둥긂을 직접 말하므로 face_shape:round로 옮겼고, 윤기와 머리털 광택은 형태가 아니다. 여성에게만 적용되는 서술이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "長頭",
+     "observable_ko": "머리(또는 머리털)가 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리·머리털 길이는 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭青",
+     "observable_ko": "머리(털)가 검푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮光",
+     "observable_ko": "머리털이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "面圓",
+     "observable_ko": "얼굴형이 둥긂",
+     "status": "exact",
+     "label": "face_shape:round"
+    },
+    {
+     "region": "face",
+     "evidence": "潤",
+     "observable_ko": "얼굴이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-mole-001",
+   "section": "相頭〈井髮〉",
+   "region": "mole",
+   "original_text": "男女頭鼻面靨多。」〈靨音業面上黑子也〉再嫁重婚苦奔波，",
+   "translation": "남녀가 머리·코·얼굴에 엽(靨)이 많으면'〈靨은 음이 업(業)이니 얼굴 위의 검은 점이다〉 다시 시집가고 거듭 혼인하며 괴롭게 분주하고,",
+   "commentary": "협주는 靨을 얼굴의 검은 점(黑子)으로 풀이한다. 부위를 지정한 점에 관한 서술이므로 지침에 따라 pigmented_marks:present 후보의 근사 대응으로 두었고, 이 레이블은 아직 등록 대기 중이다. 인용 부호 위치는 원문 그대로 두었다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "頭鼻面靨多",
+     "observable_ko": "머리·코·얼굴에 점이 많음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "부위를 지정한 점의 많음에 관한 서술로 점 유무 레이블과 같은 측정이 아니며, 해당 레이블은 등록 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-face-002",
+   "section": "相頭〈井髮〉",
+   "region": "face",
+   "original_text": "無病面帶塵埃色，短命孤寒受坎坷。",
+   "translation": "병이 없는데 얼굴이 티끌 먼지 빛을 띠면 목숨이 짧고 외롭고 가난하며 험난함을 겪는다.",
+   "commentary": "얼굴빛에 관한 서술로 형태가 아니다. 문헌은 이를 단명과 곤궁에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面帶塵埃色",
+     "observable_ko": "얼굴이 먼지 낀 빛을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-041",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "又云：「髮青髮細貴榮高，女妃男貴佐明朝，",
+   "translation": "또 이르기를, '머리털이 푸르고 머리털이 가늘면 귀하고 영화가 높아, 여자는 비(妃)가 되고 남자는 귀하게 되어 밝은 조정을 돕고,",
+   "commentary": "머리털의 색과 굵기를 귀함과 연결한 시구다. 색은 형태가 아니고 머리털 굵기는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮青",
+     "observable_ko": "머리털이 검푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮細",
+     "observable_ko": "머리털이 가늚",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-042",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "黃粗更有捲毛者，定主亡夫殺婿苗，",
+   "translation": "(머리털이) 누렇고 굵으며 다시 말린 털이 있는 자는 반드시 남편을 잃고 서묘(婿苗)를 죽임을 주관하며,",
+   "commentary": "'婿'는 여기서 남편을 가리키는 것으로 보이며 '殺婿苗'의 정확한 뜻은 해석 여지가 있다. 대상이 여성임을 함의하며 남편에 대한 해를 말하는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "亡夫",
+     "observable_ko": "대상이 여성(남편을 잃는다는 주장에서 함의)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "黃",
+     "observable_ko": "머리털이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "粗",
+     "observable_ko": "머리털이 굵음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "捲毛",
+     "observable_ko": "머리털이 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-043",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "兩鬢毛疏好殺人，",
+   "translation": "두 귀밑털이 성기면 사람 죽이기를 좋아하고,",
+   "commentary": "귀밑털 숱에 관한 서술로 레이블이 없다. 살인을 좋아한다는 강한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩鬢毛疏",
+     "observable_ko": "두 귀밑털이 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "criminality",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-044",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "少生白髮剋雙親，",
+   "translation": "젊어서 흰머리가 나면 양친을 극(剋)하고,",
+   "commentary": "나이와 머리털 색에 관한 조건으로 사진 형태가 아니다. 부모를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "少",
+     "observable_ko": "대상이 젊은 나이",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 나이를 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "白髮",
+     "observable_ko": "머리털이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-045",
+   "section": "相頭〈井髮〉",
+   "region": "other",
+   "original_text": "有旋垂額兼垂項，多淫殺婦豈堪論。」",
+   "translation": "가마(旋)가 이마로 드리우고 겸하여 목덜미로 드리우면, 음란함이 많고 아내를 죽이니 어찌 논할 수 있겠는가.'",
+   "commentary": "머리털 가마(旋)가 이마 쪽과 목덜미 쪽으로 난 것을 말하는 것으로 보이나 확정할 수 없다. 대상이 남성임을 함의하며, 음란과 아내를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "殺婦",
+     "observable_ko": "대상이 남성(아내를 해친다는 주장에서 함의)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "有旋垂額",
+     "observable_ko": "머리털 가마가 이마 쪽으로 드리움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "兼垂項",
+     "observable_ko": "머리털 가마가 목덜미 쪽으로 드리움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "violence",
+    "kinship_harm",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-046",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "「人之有髮，象山岳之有草木。草木茂盛，則山岳蔽而不明，鬱而不清。」",
+   "translation": "'사람에게 머리털이 있음은 산악에 풀과 나무가 있음을 본뜬 것이다. 풀과 나무가 무성하면 산악이 가려져 밝지 않고, 막혀서 맑지 않다.'",
+   "commentary": "머리털을 산의 초목에 비유한 총론으로, 머리털이 지나치게 무성함을 꺼리는 논리를 편다. 개인의 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-047",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "故毛髮欲得密而細，短而潤，黑而光，秀而香，乃貴人之相也。",
+   "translation": "그러므로 털과 머리털은 촘촘하고 가늘며, 짧고 윤택하며, 검고 빛나며, 빼어나고 향기로움을 얻어야 하니, 이것이 곧 귀인의 상이다.",
+   "commentary": "머리털의 숱·굵기·길이는 레이블이 없고, 색·광택·향·빼어남은 형태가 아니다. 문헌은 이를 귀인의 상으로 보았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "密而細",
+     "observable_ko": "머리털이 촘촘하고 가늚",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "短",
+     "observable_ko": "머리털이 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "潤",
+     "observable_ko": "머리털이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "黑而光",
+     "observable_ko": "머리털이 검고 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "秀而香",
+     "observable_ko": "머리털이 빼어나고 향기로움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어와 냄새는 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-048",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "若夫髮色黃者，多妨剋；",
+   "translation": "만약 머리털 색이 누런 자는 해치고 극함이 많고,",
+   "commentary": "머리털 색에 관한 서술로 형태가 아니다. 가족을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮色黃",
+     "observable_ko": "머리털이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-049",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮色赤者，多災害。",
+   "translation": "머리털 색이 붉은 자는 재앙과 해가 많다.",
+   "commentary": "머리털 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮色赤",
+     "observable_ko": "머리털이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-050",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮粗硬而索者，性剛而孤獨。",
+   "translation": "머리털이 굵고 뻣뻣하며 새끼줄 같은 자는 성품이 굳세고 외롭다.",
+   "commentary": "머리털의 굵기·뻣뻣함·꼬인 모양에 관한 서술로 레이블이 없고, 뻣뻣함은 촉감이라 사진으로 판단하기 어렵다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮粗",
+     "observable_ko": "머리털이 굵음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "硬",
+     "observable_ko": "머리털이 뻣뻣함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뻣뻣함은 촉감으로 사진으로 판단할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "而索",
+     "observable_ko": "머리털이 새끼줄 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-051",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮繁多而氣臭者，迍滯而貧賤。",
+   "translation": "머리털이 번다하게 많고 냄새가 나는 자는 막히고 지체되며 가난하고 천하다.",
+   "commentary": "머리털 숱은 레이블이 없고 냄새는 사진으로 알 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮繁多",
+     "observable_ko": "머리털이 매우 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣臭",
+     "observable_ko": "냄새가 남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "냄새는 사진으로 알 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-052",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮如蓬拳者，性狡而貧苦。",
+   "translation": "머리털이 쑥대 같고 주먹 같은 자는 성품이 교활하고 가난하여 괴롭다.",
+   "commentary": "쑥대처럼 헝클어지고 말린 머리털을 비유한 것으로 보이나 형태 기준이 특정되지 않는다. 교활함에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮如蓬拳",
+     "observable_ko": "머리털이 쑥대·주먹 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-004",
+   "section": "論髮",
+   "region": "forehead",
+   "original_text": "髮際多者，貧賤。",
+   "translation": "발제(髮際)가 많은 자는 가난하고 천하다.",
+   "commentary": "'髮際多'는 이마 쪽 발제선에 잔털이 많음 또는 발제가 내려옴으로 읽을 수 있으나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際多",
+     "observable_ko": "발제가 많음(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "'多'가 잔털인지 발제가 낮음인지 불명확하며, 발제 서술은 가시 이마 높이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-005",
+   "section": "論髮",
+   "region": "forehead",
+   "original_text": "髮際高者，性和。",
+   "translation": "발제(髮際)가 높은 자는 성품이 온화하다.",
+   "commentary": "발제선이 높으면 보이는 이마가 높아지는 경향이 있으나 발제선 서술이어서 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際高",
+     "observable_ko": "발제선이 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "발제선 위치 서술이며 가시 이마 높이(forehead_height)와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-053",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "項後髮高，其性僻毒。",
+   "translation": "목덜미 뒤의 머리털이 높으면 그 성품이 편벽되고 독하다.",
+   "commentary": "목덜미 쪽 발제에 관한 서술로 정면 사진에서 보이지 않는다. 독하다는 낙인성 성품 평가다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "項後髮高",
+     "observable_ko": "목덜미 발제가 높음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수·목덜미·귀 뒤는 정면 얼굴 사진에서 보이지 않고 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-054",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "是以耳邊無鬢，心懷毒刃。",
+   "translation": "이 때문에 귀 옆에 귀밑털이 없으면 마음에 독한 칼날을 품는다.",
+   "commentary": "귀밑털 유무에 관한 서술로 레이블이 없다. 악의를 품는다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "耳邊無鬢",
+     "observable_ko": "귀 옆에 귀밑털이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-forehead-006",
+   "section": "論髮",
+   "region": "forehead",
+   "original_text": "侵眉亂額，多見災厄。",
+   "translation": "(머리털이) 눈썹을 침범하고 이마를 어지럽히면 재앙과 액을 많이 본다.",
+   "commentary": "머리털이 이마로 내려와 눈썹 가까이까지 침범한 상태로 읽었다. 낮은 발제는 보이는 이마를 낮게 만들 수 있으나 머리털에 관한 서술이므로 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "侵眉亂額",
+     "observable_ko": "머리털이 이마를 덮고 눈썹까지 침범함",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "머리털·발제에 관한 서술이며 가시 이마 높이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-055",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "鬢髮粗疏，之資；",
+   "translation": "귀밑털과 머리털이 굵고 성기면 ……의 자질이요,",
+   "commentary": "'粗疏，' 뒤와 '之資' 사이에 글자가 빠진 것으로 보여 주장 내용을 알 수 없다. 빠진 글자를 보충하지 않고 있는 그대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鬢髮粗疏",
+     "observable_ko": "귀밑털과 머리털이 굵고 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-056",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮鬢亂生，狡詐人憎。",
+   "translation": "머리털과 귀밑털이 어지럽게 나면 교활하고 속여 사람들이 미워한다.",
+   "commentary": "머리털의 난 모양에 관한 서술로 레이블이 없다. 교활함과 속임에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮鬢亂生",
+     "observable_ko": "머리털과 귀밑털이 어지럽게 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-057",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "髮中赤理，必主兵死。",
+   "translation": "머리털 가운데 붉은 결이 있으면 반드시 병기에 의한 죽음을 주관한다.",
+   "commentary": "머리털 색에 관한 서술로 형태가 아니다. 칼날에 죽는다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髮中赤理",
+     "observable_ko": "머리털 가운데 붉은 결이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-058",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "額髮亂垂，妨母之宜。",
+   "translation": "이마의 머리털이 어지럽게 드리우면 어머니를 해침이 마땅하다.",
+   "commentary": "앞머리가 이마로 어지럽게 늘어진 상태로, 머리 손질에 좌우되며 해당 레이블이 없다. 어머니를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "額髮亂垂",
+     "observable_ko": "이마 머리털이 어지럽게 늘어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-059",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "鬢髮不齊，剋害妻兒。",
+   "translation": "귀밑털과 머리털이 가지런하지 않으면 처와 자식을 극해(剋害)한다.",
+   "commentary": "머리털 모양에 관한 서술로 레이블이 없다. 아내와 자식을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鬢髮不齊",
+     "observable_ko": "귀밑털과 머리털이 가지런하지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-060",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "未及四十而髮「白者，是謂血衰」，乃性樂而命短矣。",
+   "translation": "마흔에 이르지 않았는데 머리털이 흰 자는 이를 혈쇠(血衰, 피가 쇠함)라 하니, 곧 성품은 즐거우나 목숨은 짧다.",
+   "commentary": "나이와 머리털 색을 조건으로 한 서술로 사진 형태가 아니다. 문헌은 이를 혈의 쇠약과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "未及四十",
+     "observable_ko": "대상이 마흔 이전",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 나이를 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "白者",
+     "observable_ko": "머리털이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ633H-other-061",
+   "section": "論髮",
+   "region": "other",
+   "original_text": "「毛髮硬磔如蝟毛者，為子為臣，必不忠孝」矣。",
+   "translation": "'털과 머리털이 뻣뻣하게 뻗쳐 고슴도치 털 같은 자는 자식이 되어서나 신하가 되어서나 반드시 충성스럽고 효성스럽지 않다'.",
+   "commentary": "고슴도치 털에 빗댄 비유로 형태 레이블이 없다. 불충·불효에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "硬磔如蝟毛",
+     "observable_ko": "털이 뻣뻣하게 뻗쳐 고슴도치 털 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "뻣뻣함(촉감)과 비유로 이루어져 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  }
+ ]
+}

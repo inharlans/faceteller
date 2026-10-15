@@ -1,0 +1,2083 @@
+{
+ "page_id": "gj632",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "許負論男女五官",
+  "五嶽",
+  "四瀆",
+  "六府論",
+  "三才三停論",
+  "相三主",
+  "論三柱",
+  "身相三停"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ632C-other-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "other",
+   "original_text": "夫人身手欲得厚，大小相覆，滑淨光澤，必應豪貴，",
+   "translation": "무릇 사람의 몸과 손은 두텁고자 하고, 크고 작음이 서로 덮어 맞으며, 매끄럽고 깨끗하며 광택이 있으면 반드시 호걸스럽고 귀함에 응한다.",
+   "commentary": "허부(許負)의 이름으로 실린 남녀 오관론의 첫 구절이다. 몸·손의 두께와 피부의 매끄러움·광택은 얼굴 형태 레이블이 아니다. 문헌은 이를 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身手欲得厚",
+     "observable_ko": "몸과 손이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸·손 형태는 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "大小相覆",
+     "observable_ko": "크고 작음이 서로 맞음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇의 크고 작음인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "滑淨光澤",
+     "observable_ko": "피부가 매끄럽고 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 질감·광택은 조명에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "face",
+   "original_text": "顏色光潤，財祿日進。",
+   "translation": "얼굴빛이 빛나고 윤택하면 재물과 녹이 날로 나아간다.",
+   "commentary": "얼굴 기색에 관한 서술로 형태가 아니다. 문헌은 이를 재록의 증가와 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色光潤",
+     "observable_ko": "얼굴빛이 빛나고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-002",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "face",
+   "original_text": "夫人顏色惡者，絕無官分。",
+   "translation": "무릇 사람의 얼굴빛이 나쁜 자는 벼슬할 분수가 전혀 없다.",
+   "commentary": "얼굴 기색에 관한 서술로 형태가 아니다. 문헌은 이를 벼슬 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色惡",
+     "observable_ko": "얼굴빛이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-002",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "other",
+   "original_text": "《墳經》云：「頭小為一極，不得上天力。",
+   "translation": "『분경(墳經)』에 이르기를 「머리가 작은 것이 첫째 극(極)이니, 위로 하늘의 힘을 얻지 못한다.",
+   "commentary": "머리가 작은 것을 여섯 가지 극(六極)의 첫째로 든 구절이다. 머리 크기는 얼굴 형태 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "forehead",
+   "original_text": "額小為二極，不得父母力。",
+   "translation": "이마가 작은 것이 둘째 극이니, 부모의 힘을 얻지 못한다.",
+   "commentary": "'額小'는 지침상 forehead_width:narrow의 근사 표현이다(작음이 폭인지 높이인지 불명). 문헌은 이를 부모의 도움을 받지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "額小는 지침상 근사 표현이며 폭·높이를 구분하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "eye",
+   "original_text": "目小為三極，無有廣知識。",
+   "translation": "눈이 작은 것이 셋째 극이니, 넓은 지식이 있지 않다.",
+   "commentary": "'目小'는 눈이 작다는 직접 서술로 eye_size:small의 정확 표현이다. 문헌은 이를 지식이 넓지 못함, 곧 지적 능력에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "nose",
+   "original_text": "鼻小為四極，農作無體息。",
+   "translation": "코가 작은 것이 넷째 극이니, 농사를 지어도 몸이 쉴 틈이 없다.",
+   "commentary": "'鼻小'는 지침상 근사 표현으로 길이·폭 중 무엇이 작은지 특정되지 않는다. 문헌은 이를 고된 노동과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow",
+      "nose_length:short"
+     ],
+     "reason": "鼻小는 지침상 근사 표현이며 길이·폭을 구분하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-052",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "mouth",
+   "original_text": "口小為五極，無有盛衣食。",
+   "translation": "입이 작은 것이 다섯째 극이니, 넉넉한 의식이 있지 않다.",
+   "commentary": "'口小'는 입이 작다는 직접 서술로 mouth_width:narrow의 정확 표현이다. 문헌은 이를 의식이 넉넉하지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음(가로 폭이 좁음)",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-ear-001",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳小為六極，方命難量測。",
+   "translation": "귀가 작은 것이 여섯째 극이니, 바야흐로 명(命)을 헤아려 재기 어렵다.",
+   "commentary": "'耳小'는 지침상 ear_length:short의 근사 표현이다. '方命'은 '명을 거스름'으로 읽을 수도 있어, 이 구절이 운명·수명을 헤아리기 어렵다는 뜻인지 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "耳小는 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-002",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "eye",
+   "original_text": "頭雖大，額無角，目雖大，無廓落。」〈無相也〉",
+   "translation": "머리가 비록 크더라도 이마에 모서리(角)가 없고, 눈이 비록 크더라도 테두리가 트이지 않으면(無廓落)」〈상이 없는 것이다〉.",
+   "commentary": "큰 머리·큰 눈이라도 다른 조건이 갖추어지지 않으면 좋은 상이 아니라는 구절이다. '目雖大'는 eye_size:large의 정확 표현이나 '無廓落'의 뜻이 불분명하고 다른 조건과 함께(AND) 성립한다. 문헌은 이를 '상이 없음(無相)'으로 평가했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭雖大",
+     "observable_ko": "머리가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額無角",
+     "observable_ko": "이마 모서리가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 모서리 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "目雖大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "無廓落",
+     "observable_ko": "눈 테두리가 트이지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "廓落이 눈 윤곽·기운 중 무엇을 뜻하는지 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-053",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "mouth",
+   "original_text": "鼻雖大，梁柱弱。口雖大語略綽。耳雖大，無輪廓。腹雖大，近上著。非奴即作客。〈是無相〉",
+   "translation": "코가 비록 크더라도 콧대(梁柱)가 약하고, 입이 비록 크더라도 말이 약작(略綽)하고, 귀가 비록 크더라도 윤곽(輪廓)이 없고, 배가 비록 크더라도 위쪽에 붙어 있으면, 종이 아니면 곧 나그네가 된다. 〈이는 상이 없는 것이다〉",
+   "commentary": "'口雖大'는 mouth_width:wide의 정확 표현이고 코·귀의 '크다'는 지침상 근사, 콧대·귀 윤곽·배는 레이블이 없다. 모든 조건이 함께 성립할 때의 평가이며, 문헌은 이를 종·떠돌이라는 신분 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻雖大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "鼻大는 지침상 근사 표현이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "梁柱弱",
+     "observable_ko": "콧대가 약함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口雖大",
+     "observable_ko": "입이 큼",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "語略綽",
+     "observable_ko": "말이 헤픔",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말투는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳雖大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "耳大는 지침상 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪廓",
+     "observable_ko": "귀 윤곽이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腹雖大，近上著",
+     "observable_ko": "배가 크고 위쪽에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-003",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "eye",
+   "original_text": "頭雖小方且平，目雖小精且明，鼻雖小梁柱成，口雖小語媚生。如此之人，法主聰明，兼不少衣食。",
+   "translation": "머리가 비록 작더라도 모나고 평평하며, 눈이 비록 작더라도 정기 있고 밝으며, 코가 비록 작더라도 콧대가 이루어지고, 입이 비록 작더라도 말이 곱게 나오면, 이와 같은 사람은 법에 총명함을 주관하고 아울러 의식도 적지 않다.",
+   "commentary": "작은 머리·눈·코·입이라도 다른 조건이 갖추어지면 좋다는 구절이다. '目雖小'·'口雖小'는 각각 eye_size:small·mouth_width:narrow의 정확 표현이나, 눈의 정기·말씨 등 관찰 불가 조건과 함께 성립한다. 문헌은 이를 총명함과 의식에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭雖小方且平",
+     "observable_ko": "머리가 작고 모나며 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 형태 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "目雖小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "精且明",
+     "observable_ko": "눈에 정기가 있고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·정기는 형태가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻雖小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow",
+      "nose_length:short"
+     ],
+     "reason": "鼻小는 지침상 근사 표현이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "梁柱成",
+     "observable_ko": "콧대가 이루어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口雖小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "mouth",
+     "evidence": "語媚生",
+     "observable_ko": "말씨가 고움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말씨는 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-003",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "other",
+   "original_text": "夫女人共語未了，即面看地，如此之人，必有病也。",
+   "translation": "무릇 여인이 함께 말하다가 끝나지 않았는데 곧 얼굴을 땅으로 향해 보면, 이와 같은 사람은 반드시 병이 있다.",
+   "commentary": "여성에게만 적용되는 말할 때의 태도에 관한 서술로 형태가 아니다. 문헌은 이를 질병과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "共語未了，即面看地",
+     "observable_ko": "말하는 도중 얼굴을 땅으로 향함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-004",
+   "section": "許負論男女五官",
+   "attributed_to": "許負",
+   "region": "other",
+   "original_text": "夫女人當共人語，手拈衣帶者，便低頭答者，必有奸婬之事也。",
+   "translation": "무릇 여인이 남과 함께 말할 때 손으로 옷고름을 비비고, 곧 머리를 숙이고 대답하는 자는 반드시 간음의 일이 있다.",
+   "commentary": "여성에게만 적용되는 말할 때의 동작에 관한 서술로 형태가 아니다. 성적 행실에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "手拈衣帶者，便低頭答",
+     "observable_ko": "손으로 옷고름을 만지며 머리 숙여 대답함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-003",
+   "section": "五嶽",
+   "region": "face",
+   "original_text": "額為「衡山」，頦為恆山，鼻為嵩山，左顴為泰山，右顴為「華山。」",
+   "translation": "이마는 「형산(衡山)」이고, 턱(頦)은 항산(恆山)이며, 코는 숭산(嵩山)이고, 왼쪽 광대뼈(顴)는 태산(泰山)이며, 오른쪽 광대뼈는 「화산(華山)」이다.",
+   "commentary": "얼굴의 다섯 돌출 부위를 중국의 오악(五嶽)에 배당한 부위 명칭 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-002",
+   "section": "五嶽",
+   "region": "nose",
+   "original_text": "中嶽要得高隆，東嶽須聳而朝應。不隆不峻，則無勢，為小人亦無高壽。",
+   "translation": "중악(中嶽, 코)은 높이 솟아야 하고, 동악(東嶽, 왼쪽 광대뼈)은 솟아 서로 향해 응해야 한다. 솟지 않고 높지 않으면 세(勢)가 없어 소인이 되고 또한 높은 수명이 없다.",
+   "commentary": "앞 구절의 배당에 따라 중악은 코, 동악은 왼쪽 광대뼈이다. 코가 높다는 표현은 콧뿌리·코끝을 구분하지 않고 광대뼈는 한쪽만 지정해 모두 근사로 두었다. 문헌은 솟지 않은 경우를 소인·짧은 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "中嶽要得高隆",
+     "observable_ko": "코가 높이 솟음(요구 기준)",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "바람직한 기준을 말한 것이며 코 높이가 콧뿌리인지 코끝인지 구분되지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "東嶽須聳",
+     "observable_ko": "왼쪽 광대뼈가 솟음(요구 기준)",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "한쪽(왼쪽) 광대뼈만 지정한 side-specific 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "朝應",
+     "observable_ko": "부위들이 서로 향해 응함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "서로 향함이 어떤 측정 형태인지 정의되어 있지 않다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不隆不峻",
+     "observable_ko": "코(와 광대)가 솟지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:low",
+      "nose_bridge:low"
+     ],
+     "reason": "鼻低처럼 콧뿌리·코끝을 구분하지 않고 광대까지 가리킬 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-003",
+   "section": "五嶽",
+   "region": "nose",
+   "original_text": "中嶽薄而無勢，則四嶽無主，縱別有好處，不至大貴，無威嚴重權，壽不甚遠。",
+   "translation": "중악이 얇아 세가 없으면 나머지 사악(四嶽)에 주인이 없으니, 비록 따로 좋은 곳이 있더라도 크게 귀함에 이르지 못하고, 위엄과 무거운 권세가 없으며, 수명이 그리 길지 않다.",
+   "commentary": "중악(코)이 얇다는 표현이 폭이 좁음인지 살이 적음인지 특정되지 않는다. 문헌은 이를 귀함·권세의 부족과 짧은 수명에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "中嶽薄而無勢",
+     "observable_ko": "코가 얇고 세가 없음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_width:narrow"
+     ],
+     "reason": "薄이 폭이 좁음인지 살집이 적음인지 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-004",
+   "section": "五嶽",
+   "region": "nose",
+   "original_text": "中嶽不及，且長者止中壽。",
+   "translation": "중악이 미치지 못하고 또 긴 자는 중간 수명에 그친다.",
+   "commentary": "중악(코)이 '미치지 못함(不及)'과 '긺(長)'이 함께 쓰여 뜻이 분명하지 않다. 판독에 의문이 있어 근사로 두었다. 문헌은 이를 중간 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "中嶽不及",
+     "observable_ko": "코가 (기준에) 미치지 못함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇이 미치지 못하는지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "且長",
+     "observable_ko": "코가 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:long"
+     ],
+     "reason": "鼻長 표현이 아니며 不及과 함께 쓰여 뜻이 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-005",
+   "section": "五嶽",
+   "region": "nose",
+   "original_text": "如尖薄，晚年見破，到頭少稱意。",
+   "translation": "만약 (중악이) 뾰족하고 얇으면 만년에 깨어짐을 보고 끝내 뜻에 맞는 일이 적다.",
+   "commentary": "앞 구절에 이어 중악(코)이 뾰족하고 얇은 경우로 읽힌다. 코끝이 뾰족함과 가깝지만 '鼻尖'·'準尖' 표현이 아니고 주어가 생략되어 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "尖薄",
+     "observable_ko": "코가 뾰족하고 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:tapered"
+     ],
+     "reason": "주어가 생략되었고 準尖 같은 직접 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-002",
+   "section": "五嶽",
+   "region": "forehead",
+   "original_text": "南嶽傾側，則主見破，不宜長家。",
+   "translation": "남악(南嶽, 이마)이 기울면 깨어짐을 보는 것을 주관하니, 집안의 어른이 되기에 마땅하지 않다.",
+   "commentary": "남악은 앞 배당에 따라 이마(衡山)이다. 이마의 기울어짐은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "南嶽傾側",
+     "observable_ko": "이마가 기울어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 기울기 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-001",
+   "section": "五嶽",
+   "region": "chin",
+   "original_text": "北嶽尖陷，末主無成，終亦不貴。",
+   "translation": "북악(北嶽, 턱)이 뾰족하고 꺼지면 말년에 이룸이 없고 끝내 귀하지도 않다.",
+   "commentary": "앞 배당에서 턱(頦)은 항산, 곧 북악이므로 '北嶽尖'은 턱이 뾰족하다는 직접 서술로 chin_shape:pointed에 해당한다. '陷(꺼짐)'은 턱 후퇴와 가깝지만 직접 표현이 아니다. 문헌은 이를 말년의 무성취와 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "北嶽尖",
+     "observable_ko": "턱이 뾰족함",
+     "status": "exact",
+     "label": "chin_shape:pointed"
+    },
+    {
+     "region": "chin",
+     "evidence": "尖陷",
+     "observable_ko": "턱이 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_projection:receding"
+     ],
+     "reason": "陷이 턱 후퇴인지 살이 꺼짐인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-cheekbone-001",
+   "section": "五嶽",
+   "region": "cheekbone",
+   "original_text": "東西傾側無勢，則心惡毒，無慈愛。",
+   "translation": "동악과 서악(좌우 광대뼈)이 기울고 세가 없으면 마음이 악독하여 자애가 없다.",
+   "commentary": "동·서악은 좌우 광대뼈이다. '세가 없음'은 광대가 낮음과 가깝지만 직접 표현이 아니고 기울어짐은 레이블이 없다. 악독함이라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "東西傾側",
+     "observable_ko": "좌우 광대뼈가 기울어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "광대 기울기 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "無勢",
+     "observable_ko": "광대뼈에 세가 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheekbone:flat"
+     ],
+     "reason": "'세 없음'은 顴低·顴平 같은 직접 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-004",
+   "section": "五嶽",
+   "region": "face",
+   "original_text": "五嶽須要相朝。",
+   "translation": "오악은 모름지기 서로 향해야 한다.",
+   "commentary": "다섯 돌출 부위가 서로 조화롭게 향해야 한다는 총론이다. 측정 가능한 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "五嶽須要相朝",
+     "observable_ko": "오악이 서로 향함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "서로 향함이 어떤 측정 형태인지 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-005",
+   "section": "四瀆",
+   "region": "face",
+   "original_text": "耳為江，目為河，口為淮，鼻為濟。",
+   "translation": "귀는 강(江)이고, 눈은 하(河)이며, 입은 회(淮)이고, 코는 제(濟)이다.",
+   "commentary": "얼굴의 네 구멍 부위를 중국의 네 큰 강(四瀆)에 배당한 부위 명칭 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-006",
+   "section": "四瀆",
+   "region": "face",
+   "original_text": "四瀆，要深遠成就，而涯岸不走，則財穀有成，財物不耗，多蓄積。",
+   "translation": "사독은 깊고 멀어 이루어져야 하고 물가 언덕이 달아나지 않으면, 재물과 곡식이 이루어지고 재물이 소모되지 않으며 쌓아 둠이 많다.",
+   "commentary": "사독의 총론으로, '깊고 멂'·'물가 언덕'은 비유적 기준이라 특정 형태로 옮길 수 없다. 문헌은 이를 재물 축적과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "深遠成就，而涯岸不走",
+     "observable_ko": "네 구멍 부위가 깊고 가장자리가 반듯함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "강물 비유로 부위별 측정 형태가 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-ear-002",
+   "section": "四瀆",
+   "region": "ear",
+   "original_text": "「耳為江瀆，竅要闊而深，有重城之副，緊則聰明，家業不破。",
+   "translation": "「귀는 강독(江瀆)이니, 구멍은 넓고 깊어야 하며 겹성(重城)의 보좌가 있고, 단단하면(緊) 총명하고 가업이 깨어지지 않는다.",
+   "commentary": "귓구멍의 넓이·깊이와 귀의 겹 윤곽(重城)은 레이블 체계에 없다. 문헌은 이를 총명함과 가업에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "竅要闊而深",
+     "observable_ko": "귓구멍이 넓고 깊음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓구멍 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "有重城之副",
+     "observable_ko": "귀에 겹 윤곽이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "緊",
+     "observable_ko": "귀가 단단함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "단단함은 촉감으로 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-004",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "目為河瀆，深為壽小，",
+   "translation": "눈은 하독(河瀆)이니, 깊으면 수명이 작다.",
+   "commentary": "눈이 깊다는 직접 서술로 eye_depth:deep의 정확 표현이다. 다만 '深為壽小'는 '깊으면 장수하고(深為壽)' 다음 구절로 이어지는 '小'로 끊어 읽을 수도 있어 주장 부분의 판독에 의문이 있다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "深",
+     "observable_ko": "눈이 깊음",
+     "status": "exact",
+     "label": "eye_depth:deep"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-005",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "長則貴，",
+   "translation": "길면 귀하다.",
+   "commentary": "하독(눈) 구절의 일부로, 눈이 길다는 서술은 가로 길이로 보아 eye_size:large로 옮겼다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ],
+   "exclusions": [
+    "SUBJECT_ONLY_IN_SURROUNDING_TEXT"
+   ],
+   "review_note": "AI cross-file review (not human): '長則貴'는 주어(눈)가 앞 구절에만 있어 단독 조항으로 표시하면 근거가 불분명하다"
+  },
+  {
+   "passage_id": "SQ632C-eye-006",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "光則聰明，",
+   "translation": "빛나면 총명하다.",
+   "commentary": "눈빛에 관한 서술로 형태가 아니다. 문헌은 이를 총명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "光",
+     "observable_ko": "눈이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛은 형태가 아니며 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-007",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "淺則短命，昏濁多滯；",
+   "translation": "얕으면 명이 짧고, 흐리고 탁하면 막힘이 많다.",
+   "commentary": "눈이 얕음은 깊은 눈의 반대이나 돌출(突)과 같지 않아 근사로 두었고, 흐림·탁함은 관찰 불가이다. 문헌은 얕은 눈을 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "淺",
+     "observable_ko": "눈이 얕음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "얕음은 目突·眼凸 같은 돌출 표현과 같지 않다"
+    },
+    {
+     "region": "eye",
+     "evidence": "昏濁",
+     "observable_ko": "눈이 흐리고 탁함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 맑고 흐림은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-008",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "圓則多夭，",
+   "translation": "둥글면 요절이 많다.",
+   "commentary": "하독(눈) 구절의 일부로 눈(눈동자가 아닌 눈 윤곽)이 둥글다는 서술이라 eye_roundness:rounded로 옮겼다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-009",
+   "section": "四瀆",
+   "region": "eye",
+   "original_text": "不大不小貴。",
+   "translation": "크지도 작지도 않으면 귀하다.",
+   "commentary": "중간 크기의 눈을 말하는데, 중간 클래스는 정확 대응으로 쓰지 않는다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "不大不小",
+     "observable_ko": "눈 크기가 중간임",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "중간 클래스는 지침상 exact로 쓸 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-054",
+   "section": "四瀆",
+   "region": "mouth",
+   "original_text": "口為淮瀆，要方闊而脣吻相覆載，",
+   "translation": "입은 회독(淮瀆)이니, 모나고 넓어야 하며 입술이 서로 덮고 받쳐야 한다.",
+   "commentary": "입이 넓어야 한다는 기준으로 '方闊'의 '闊'은 입 폭이 넓다는 직접 서술이라 mouth_width:wide로 옮겼다. 위아래 입술이 서로 덮고 받침은 특정 측정 형태가 아니다. 구체적 주장은 다음 구절에 있다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "方闊",
+     "observable_ko": "입이 모나고 넓음",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣吻相覆載",
+     "observable_ko": "위아래 입술이 서로 덮고 받침",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "입술 맞물림이 어떤 측정 형태인지 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-055",
+   "section": "四瀆",
+   "region": "mouth",
+   "original_text": "上薄則不覆，下薄則不載，不覆不載則無壽無晚福，不覆則家必覆。",
+   "translation": "윗입술이 얇으면 덮지 못하고, 아랫입술이 얇으면 받치지 못하니, 덮지 못하고 받치지 못하면 수명도 없고 늦복도 없으며, 덮지 못하면 집이 반드시 뒤집힌다.",
+   "commentary": "윗입술·아랫입술이 각각 얇은 경우로, 한쪽 입술만 말해 '脣薄'·'上薄下厚' 같은 직접 표현이 아니어서 근사로 두었다. 문헌은 이를 단명·늦복 없음·집안의 몰락과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "上薄",
+     "observable_ko": "윗입술이 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_balance:upper_thin",
+      "lip_thickness:thin"
+     ],
+     "reason": "윗입술만 말하며 上薄下厚 표현이 아니다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "下薄",
+     "observable_ko": "아랫입술이 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "아랫입술만 말하며 脣薄 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-006",
+   "section": "四瀆",
+   "region": "nose",
+   "original_text": "鼻為濟」 瀆，要豐隆，光圓、不破、不露，則家必富。",
+   "translation": "코는 제」독(濟瀆)이니, 풍성하고 솟아야 하며, 빛나고 둥글며, 깨어지지 않고 드러나지 않으면 집이 반드시 부유하다.",
+   "commentary": "코가 솟음은 지침상 근사(콧뿌리·코끝 미구분), 둥긂은 코끝인지 특정되지 않아 근사이며, '不露'는 콧구멍이 드러나지 않음으로 읽힐 수 있으나 확정할 수 없다. 문헌은 이를 부유함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "要豐隆",
+     "observable_ko": "코가 풍성하고 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high"
+     ],
+     "reason": "鼻高처럼 콧뿌리·코끝을 구분하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "光",
+     "observable_ko": "코가 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 조명에 좌우된다"
+    },
+    {
+     "region": "nose",
+     "evidence": "圓",
+     "observable_ko": "코가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準頭圓 같은 직접 표현이 아니며 코 전체일 수 있다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不破",
+     "observable_ko": "코가 깨어지지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·결손 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "不露",
+     "observable_ko": "(콧구멍·뼈가) 드러나지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nostril_show:hidden"
+     ],
+     "reason": "무엇이 드러나지 않는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-007",
+   "section": "六府論",
+   "region": "face",
+   "original_text": "六府者，兩輔骨、兩顴骨、兩頤骨，欲其充實相輔，不欲支離孤露。",
+   "translation": "육부(六府)란 두 보골(輔骨)·두 관골(顴骨, 광대뼈)·두 이골(頤骨, 턱뼈)이니, 충실하여 서로 돕기를 바라고, 흩어지고 홀로 드러나기를 바라지 않는다.",
+   "commentary": "육부는 얼굴 좌우의 세 쌍 뼈 부위를 이르는 관상 용어다. '充實'·'孤露'는 부위 전체의 조화에 관한 평가어라 특정 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "充實相輔",
+     "observable_ko": "여섯 부위가 충실하여 서로 도움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위의 조화 평가로 측정 형태가 정의되어 있지 않다"
+    },
+    {
+     "region": "face",
+     "evidence": "支離孤露",
+     "observable_ko": "부위들이 흩어지고 홀로 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위가 어떻게 드러나는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-008",
+   "section": "六府論",
+   "region": "face",
+   "original_text": "《靈臺祕訣》云：「上二府自輔角至天倉，中二府自命門至虎耳，下二府自肩骨至地閣。",
+   "translation": "『영대비결(靈臺祕訣)』에 이르기를 「위의 두 부는 보각(輔角)에서 천창(天倉)까지이고, 가운데 두 부는 명문(命門)에서 호이(虎耳)까지이며, 아래 두 부는 견골(肩骨)에서 지각(地閣, 턱)까지이다.",
+   "commentary": "육부의 범위를 정의한 부위 명칭 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-009",
+   "section": "六府論",
+   "region": "face",
+   "original_text": "六府充直，無缺陷瘢痕者，主財旺。",
+   "translation": "육부가 충실하고 곧으며 결함·함몰·흉터가 없는 자는 재물이 왕성함을 주관한다.",
+   "commentary": "부위 전체의 충실함은 평가어이고 흉터·결함은 레이블 체계에 없다. 문헌은 이를 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "六府充直",
+     "observable_ko": "육부가 충실하고 곧음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위의 조화 평가로 측정 형태가 정의되어 있지 않다"
+    },
+    {
+     "region": "face",
+     "evidence": "無缺陷瘢痕",
+     "observable_ko": "결함·함몰·흉터가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·결손 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-003",
+   "section": "六府論",
+   "region": "forehead",
+   "original_text": "天倉峻起多財祿，",
+   "translation": "천창(天倉)이 높이 솟으면 재물과 녹이 많고,",
+   "commentary": "천창은 이마 양쪽 위 관자놀이 부근을 가리키는 관상 부위다. 이 부위의 솟음은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天倉峻起",
+     "observable_ko": "이마 양옆 위(천창)가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "천창(관자놀이 위) 부위 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-002",
+   "section": "六府論",
+   "region": "chin",
+   "original_text": "地閣方停萬頃田。」缺者不合。",
+   "translation": "지각(地閣, 턱)이 모나고 고르면 만 경의 밭이 있다.」 결함이 있는 자는 맞지 않는다.",
+   "commentary": "'地閣方'은 턱이 모나다는 직접 서술로 chin_shape:square의 정확 표현이다. '缺者不合'은 육부 전체에 결함이 있으면 이에 해당하지 않는다는 뜻으로 읽힌다. 문헌은 이를 많은 전답과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣方",
+     "observable_ko": "턱이 모남",
+     "status": "exact",
+     "label": "chin_shape:square"
+    },
+    {
+     "region": "face",
+     "evidence": "缺者",
+     "observable_ko": "부위에 결함이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "결손 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-004",
+   "section": "三才三停論",
+   "region": "forehead",
+   "original_text": "三才者：額為天，欲闊而圓，名曰有天者貴。",
+   "translation": "삼재(三才)란, 이마는 하늘이니 넓고 둥글기를 바라며, 이를 하늘이 있다 하여 귀하다.",
+   "commentary": "'額…闊'은 이마가 넓다는 직접 서술로 forehead_width:wide(정의가 확정된 정식 레이블)에 해당한다. 이마의 둥긂은 레이블이 없다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額為天，欲闊",
+     "observable_ko": "이마가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "而圓",
+     "observable_ko": "이마가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 곡률 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ632C-nose-007",
+   "section": "三才三停論",
+   "region": "nose",
+   "original_text": "鼻為人，欲旺而齊，名曰有人者壽。",
+   "translation": "코는 사람이니 왕성하고 가지런하기를 바라며, 이를 사람이 있다 하여 장수한다.",
+   "commentary": "'旺而齊'는 코의 기세와 가지런함을 말하는 평가어로 특정 측정 형태가 아니다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "欲旺而齊",
+     "observable_ko": "코가 왕성하고 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "旺·齊가 어떤 측정 형태인지 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-003",
+   "section": "三才三停論",
+   "region": "chin",
+   "original_text": "頦為地，欲方而闊，名曰有地者富。",
+   "translation": "턱(頦)은 땅이니 모나고 넓기를 바라며, 이를 땅이 있다 하여 부유하다.",
+   "commentary": "'頦…方'은 턱이 모나다는 직접 서술로 chin_shape:square에 해당한다. 턱이 넓음은 턱선 폭과 가깝지만 '腮闊' 표현이 아니어서 근사로 두었다. 문헌은 이를 부유함과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "頦為地，欲方",
+     "observable_ko": "턱이 모남",
+     "status": "exact",
+     "label": "chin_shape:square"
+    },
+    {
+     "region": "chin",
+     "evidence": "而闊",
+     "observable_ko": "턱이 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "jaw_width:wide"
+     ],
+     "reason": "턱 끝의 넓음인지 턱선 폭인지 구분되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-010",
+   "section": "三才三停論",
+   "region": "face",
+   "original_text": "三停者，髮際至印堂為上府，是初主。自山根至準頭為中府，是中主；自人中至地閣為下府，是末主。",
+   "translation": "삼정(三停)이란, 발제(髮際, 머리털 경계)에서 인당(印堂, 두 눈썹 사이)까지가 상부(上府)이니 초년을 주관하고, 산근(山根, 콧뿌리)에서 준두(準頭, 코끝)까지가 중부(中府)이니 중년을 주관하며, 인중(人中)에서 지각(地閣, 턱)까지가 하부(下府)이니 말년을 주관한다.",
+   "commentary": "얼굴을 세 구역으로 나누어 인생의 시기에 배당한 부위 정의로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-011",
+   "section": "三才三停論",
+   "region": "face",
+   "original_text": "自髮際至眉為上停，眉至準頭為中停，準頭至地閣為下停。",
+   "translation": "발제에서 눈썹까지가 상정(上停)이고, 눈썹에서 준두까지가 중정(中停)이며, 준두에서 지각까지가 하정(下停)이다.",
+   "commentary": "삼정의 경계를 정의한 부위 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-005",
+   "section": "三才三停論",
+   "region": "forehead",
+   "original_text": "《訣》曰：「上停長，老吉昌，",
+   "translation": "『결(訣)』에 이르기를 「상정이 길면 늙어서 길하고 창성하며,",
+   "commentary": "상정은 발제에서 눈썹까지로 이마 높이와 가깝지만, 발제선이 사진에서 보이지 않을 수 있고 '額長' 표현이 아니어서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "上停長",
+     "observable_ko": "발제~눈썹 구간(상정)이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "상정 길이는 발제선 위치에 달려 있어 이마 높이 레이블과 같은 측정인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-008",
+   "section": "三才三停論",
+   "region": "nose",
+   "original_text": "中停長，近君王，",
+   "translation": "중정이 길면 군왕을 가까이하고,",
+   "commentary": "중정은 눈썹에서 준두까지로 코 길이와 가깝지만 같은 측정이 아니어서 근사로 두었다. 문헌은 이를 높은 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "中停長",
+     "observable_ko": "눈썹~코끝 구간(중정)이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:long"
+     ],
+     "reason": "중정은 눈썹부터 재므로 코 길이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-004",
+   "section": "三才三停論",
+   "region": "chin",
+   "original_text": "下停長，少吉祥，",
+   "translation": "하정이 길면 길상이 적고,",
+   "commentary": "'下停長'은 코끝에서 턱까지의 아래 얼굴이 길다는 직접 서술로 lower_face_ratio:long의 정확 표현이다. '少吉祥'은 '길상이 적다' 또는 '젊어서 길하다'로 읽힐 여지가 있어 주장 판독에 의문이 있다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "下停長",
+     "observable_ko": "코끝~턱 구간(하정)이 긺",
+     "status": "exact",
+     "label": "lower_face_ratio:long"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-012",
+   "section": "三才三停論",
+   "region": "face",
+   "original_text": "三停平等，富貴榮顯，",
+   "translation": "삼정이 고르면 부귀하고 영화롭게 드러나며,",
+   "commentary": "세 구역이 고른 얼굴은 중간 클래스에 해당해 정확 대응으로 쓰지 않는다. 문헌은 이를 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "三停平等",
+     "observable_ko": "얼굴 세 구역이 고름",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "고른 비율(중간 클래스)은 지침상 exact로 쓸 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-face-013",
+   "section": "三才三停論",
+   "region": "face",
+   "original_text": "三停不均，孤夭貧賤。」",
+   "translation": "삼정이 고르지 않으면 외롭고 요절하며 가난하고 천하다」고 하였다.",
+   "commentary": "어느 구역이 길고 짧은지 특정하지 않아 레이블로 옮길 수 없다. 문헌은 이를 고독·요절·빈천과 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "三停不均",
+     "observable_ko": "얼굴 세 구역이 고르지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 구역이 어떻게 다른지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "death_lifespan",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-006",
+   "section": "三才三停論",
+   "region": "forehead",
+   "original_text": "《詩》曰：「面上三停仔細看，額高須得耳門寬，學堂三部奚堪足，空有文章恐不官，",
+   "translation": "『시(詩)』에 이르기를 「얼굴 위의 삼정을 자세히 보라. 이마가 높으면 모름지기 이문(耳門)이 넓어야 하니, 학당(學堂) 세 부위가 어찌 넉넉하랴, 공연히 문장만 있고 벼슬하지 못할까 두렵다.",
+   "commentary": "'額高'는 지침상 높이와 돌출을 구분하지 않는 근사 표현이고, 이문(耳門)·학당(學堂)은 레이블이 없는 관상 부위다. 문헌은 이 조건이 갖추어지지 않으면 문재가 있어도 벼슬하지 못한다고 적었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額高",
+     "observable_ko": "이마가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "額高는 지침상 높이·돌출을 구분하지 않는 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳門寬",
+     "observable_ko": "귀 앞(이문)이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이문 부위 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "學堂三部奚堪足",
+     "observable_ko": "학당 세 부위가 넉넉하지 못함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "학당 세 부위가 무엇을 가리키는지 원문에 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-009",
+   "section": "三才三停論",
+   "region": "nose",
+   "original_text": "鼻梁隆起如懸膽，促者中年壽不長，",
+   "translation": "콧등(鼻梁)이 솟아 쓸개를 매단 듯하니, 짧은(促) 자는 중년에 수명이 길지 않다.",
+   "commentary": "콧등(鼻梁)의 솟음과 '쓸개를 매단 듯함(懸膽)'은 레이블이 없거나 비유이다. '促'은 코가 짧음으로 읽히나 '鼻短' 표현이 아니어서 근사로 두었다. 문헌은 이를 중년의 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁隆起",
+     "observable_ko": "콧등이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "如懸膽",
+     "observable_ko": "코가 쓸개를 매단 듯함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유로 측정 형태가 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "促",
+     "observable_ko": "코가 짧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:short"
+     ],
+     "reason": "鼻短 같은 직접 표현이 아니며 오그라듦의 뜻일 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-005",
+   "section": "三才三停論",
+   "region": "chin",
+   "original_text": "地閣滿來田地盛，",
+   "translation": "지각(턱)이 가득하면 전답이 성하고,",
+   "commentary": "턱이 '가득함(滿)'은 둥글고 살집이 있음으로 읽힐 수 있으나 직접 표현이 아니어서 근사로 두었다. 문헌은 이를 전답과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣滿",
+     "observable_ko": "턱이 가득함",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:rounded"
+     ],
+     "reason": "滿이 둥긂인지 살집인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-forehead-007",
+   "section": "三才三停論",
+   "region": "forehead",
+   "original_text": "天廷平闊子孫昌。」",
+   "translation": "천정(天廷, 이마 윗부분)이 평평하고 넓으면 자손이 창성한다」고 하였다.",
+   "commentary": "천정은 이마 위쪽 가운데 부위로 이마 전체의 폭과 같은 측정이 아니어서 근사로 두었다. 문헌은 이를 자손의 번성과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天廷平闊",
+     "observable_ko": "이마 윗부분이 평평하고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "천정은 이마 일부 부위로 額闊과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632C-forehead-008",
+   "section": "相三主",
+   "region": "forehead",
+   "original_text": "額尖初主災，",
+   "translation": "이마가 뾰족하면 초년(初主)에 재앙이 있고,",
+   "commentary": "이마가 뾰족함은 이마 위쪽이 좁아지는 모양으로 읽힐 수 있으나 폭 레이블과 같은 측정이 아니어서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額尖",
+     "observable_ko": "이마가 뾰족함",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "뾰족함은 이마 윤곽의 모양으로 폭 측정과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-nose-010",
+   "section": "相三主",
+   "region": "nose",
+   "original_text": "鼻歪中主逃，",
+   "translation": "코가 비뚤면 중년(中主)에 도망하며,",
+   "commentary": "코의 비뚤어짐은 레이블 체계에 없다. '逃'가 도피·유랑 중 무엇인지 원문만으로 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻歪",
+     "observable_ko": "코가 비뚤어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 좌우 비대칭 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-chin-006",
+   "section": "相三主",
+   "region": "chin",
+   "original_text": "欲知晚景事，地閣喜方高。",
+   "translation": "만년의 일을 알고자 하면, 지각(턱)은 모나고 높은 것을 좋아한다.",
+   "commentary": "'地閣…方'은 턱이 모나다는 직접 서술로 chin_shape:square에 해당한다. '高'는 턱이 앞으로 나옴과 가깝지만 직접 표현이 아니어서 근사로 두었다. 문헌은 이를 만년의 운과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣喜方",
+     "observable_ko": "턱이 모남",
+     "status": "exact",
+     "label": "chin_shape:square"
+    },
+    {
+     "region": "chin",
+     "evidence": "方高",
+     "observable_ko": "턱이 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_projection:prominent"
+     ],
+     "reason": "高가 돌출인지 길이인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-005",
+   "section": "論三柱",
+   "region": "other",
+   "original_text": "頭為壽柱，鼻為梁柱，足為楝柱。",
+   "translation": "머리는 수주(壽柱)이고, 코는 양주(梁柱)이며, 발은 연주(楝柱)이다.",
+   "commentary": "머리·코·발을 세 기둥에 배당한 명칭 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-006",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "身分三停，「頭為上停。」",
+   "translation": "몸은 세 정(停)으로 나뉘니, 「머리가 상정이다.」",
+   "commentary": "몸 전체를 머리·몸통·하체의 세 구역으로 나눈 신상(身相) 삼정의 정의로, 얼굴 삼정과 다르다. 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-007",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "人矮小而頭大長者，有上梢無下梢。",
+   "translation": "사람이 키가 작고 왜소한데 머리가 크고 긴 자는, 윗끝(초년)은 있으나 아랫끝(말년)은 없다.",
+   "commentary": "몸과 머리의 비율에 관한 서술로 얼굴 형태 레이블 체계에 없다. '上梢·下梢'는 처음과 끝을 뜻하는 말로 읽힌다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "人矮小而頭大長",
+     "observable_ko": "키가 작은데 머리가 크고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-008",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "身長大而頭短小者，一生貧賤。",
+   "translation": "몸이 길고 큰데 머리가 짧고 작은 자는 일생 가난하고 천하다.",
+   "commentary": "몸과 머리의 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身長大而頭短小",
+     "observable_ko": "키가 큰데 머리가 짧고 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-009",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "自肩至腰為中停，要相稱短而無壽，長則貧。",
+   "translation": "어깨에서 허리까지가 중정이니 서로 걸맞아야 하는데, 짧으면 수명이 없고 길면 가난하다.",
+   "commentary": "몸통 길이에 관한 서술로 얼굴 레이블이 아니다. 문헌은 짧은 몸통을 단명, 긴 몸통을 가난과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "自肩至腰為中停",
+     "observable_ko": "몸통(어깨~허리)의 길이",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-010",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "腰軟而坐俱動者，無力而無壽。",
+   "translation": "허리가 무르고 앉을 때 함께 움직이는 자는 힘이 없고 수명이 없다.",
+   "commentary": "앉은 자세의 움직임에 관한 서술로 형태가 아니다. 문헌은 이를 무력함과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腰軟而坐俱動",
+     "observable_ko": "허리가 무르고 앉을 때 움직임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-011",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "自腰至足為下停，要與上停齊而不欲長，長則多病。",
+   "translation": "허리에서 발까지가 하정이니 상정과 가지런해야 하고 길지 않아야 하니, 길면 병이 많다.",
+   "commentary": "몸의 하정(하체)에 관한 서술로, 얼굴의 하정(lower_face_ratio)과 다른 부위다. 문헌은 긴 하체를 잦은 병과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "自腰至足為下停",
+     "observable_ko": "하체(허리~발)의 길이",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 하정은 얼굴 하정이 아니며 신체 비율 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-012",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "若上中下三停，長大短小不齊者，此人無壽。",
+   "translation": "만약 상·중·하 삼정의 길고 크고 짧고 작음이 가지런하지 않은 자는 이 사람은 수명이 없다.",
+   "commentary": "몸의 세 구역 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上中下三停，長大短小不齊",
+     "observable_ko": "몸의 세 구역이 고르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-013",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "一身三停相稱為美。",
+   "translation": "한 몸의 삼정이 서로 걸맞은 것이 아름답다.",
+   "commentary": "몸의 세 구역이 고른 것을 좋게 본 총론이다. 신체 비율은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一身三停相稱",
+     "observable_ko": "몸의 세 구역이 고름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-014",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "「上停豐秀厚而長，此是平生大吉昌，",
+   "translation": "「상정(머리)이 풍성하고 빼어나며 두텁고 길면, 이는 평생 크게 길하고 창성하며,",
+   "commentary": "신상 삼정에서 상정은 머리이다. 머리 형태와 '빼어남'은 레이블 체계에 없거나 평가어이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上停豐秀厚而長",
+     "observable_ko": "머리가 풍성하고 두텁고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 형태 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-015",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "若是下停長且薄，似此貧窮走四方，",
+   "translation": "만약 하정(하체)이 길고 또 얇으면, 이와 같으면 가난하고 궁하여 사방으로 떠돈다.",
+   "commentary": "몸의 하정(하체)에 관한 서술로 얼굴의 하정(lower_face_ratio)과 다르다. 문헌은 이를 빈궁·유랑과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "下停長且薄",
+     "observable_ko": "하체가 길고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 하정은 얼굴 하정이 아니며 신체 비율 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-016",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "身上三停頭足腰，看他長短要均調，",
+   "translation": "몸 위의 삼정은 머리·발·허리이니, 그 길고 짧음을 보아 고르게 어울려야 한다.",
+   "commentary": "신상 삼정의 원칙을 말한 구절로 구체적 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-017",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "上長下短公侯相，",
+   "translation": "위가 길고 아래가 짧으면 공후(公侯)의 상이다.",
+   "commentary": "몸의 상하 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 높은 신분과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上長下短",
+     "observable_ko": "상체가 길고 하체가 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-018",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "長短無差福不饒，",
+   "translation": "길고 짧음에 차이가 없으면 복이 넉넉하지 않다.",
+   "commentary": "몸의 상하 비율에 관한 서술로 레이블 체계에 없다. 앞의 '고르게 어울려야 한다'와 상충하는 듯하나 원문 그대로 직역했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "長短無差",
+     "observable_ko": "상하 길이에 차이가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-019",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "中停長者人多貴，背聳三山足寶珍，",
+   "translation": "중정이 긴 자는 사람이 귀함이 많고, 등이 세 산처럼 솟으면 보배가 넉넉하다.",
+   "commentary": "몸통 길이와 등의 솟음에 관한 서술로 얼굴 레이블이 아니다. 문헌은 이를 귀함·재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "中停長",
+     "observable_ko": "몸통이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "背聳三山",
+     "observable_ko": "등이 세 산처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-020",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "萬一腳長身又短，區區浪走一凡民。」",
+   "translation": "만일 다리가 길고 몸이 또 짧으면, 구차하게 떠도는 한낱 평민이다.」",
+   "commentary": "다리와 몸통의 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 떠도는 평민이라는 신분 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腳長身又短",
+     "observable_ko": "다리가 길고 몸통이 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-021",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "又云：「下長上短賤人體，形貌乾枯骨又粗，",
+   "translation": "또 이르기를 「아래가 길고 위가 짧은 것은 천한 사람의 몸이니, 모습이 마르고 시들며 뼈가 또 거칠다.",
+   "commentary": "몸의 상하 비율과 마른 모습·굵은 뼈에 관한 서술로 얼굴 레이블이 아니다. 문헌은 이를 천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "下長上短",
+     "observable_ko": "하체가 길고 상체가 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "形貌乾枯",
+     "observable_ko": "모습이 마르고 시듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·생기는 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨又粗",
+     "observable_ko": "뼈가 거침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격 굵기 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-eye-010",
+   "section": "身相三停",
+   "region": "eye",
+   "original_text": "若見眼圓如竹葉，中年裡面產田無，",
+   "translation": "만약 눈이 둥글기가 대나무 잎 같음을 보면, 중년에 집안에 재산과 밭이 없다.",
+   "commentary": "'眼圓'은 지침상 둥근 눈의 표현이지만, 대나무 잎은 가늘고 긴 모양이어서 비유와 충돌한다. 둥긂인지 가늘고 긺인지 정할 수 없어 모호로 두었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼圓如竹葉",
+     "observable_ko": "눈이 대나무 잎 같은 모양",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "'圓'과 가늘고 긴 대나무 잎 비유가 서로 맞지 않아 형태를 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-022",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "上停短，下停長，終日區區促壽疆。",
+   "translation": "상정이 짧고 하정이 길면 종일 구차하고 수명의 한계를 재촉한다.",
+   "commentary": "신상 삼정의 머리·하체 비율에 관한 서술로, 얼굴 하정과 다르며 레이블 체계에 없다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上停短，下停長",
+     "observable_ko": "머리가 짧고 하체가 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 삼정 비율은 얼굴 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-023",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "上停長，下停短，衣食自然倉廩滿。",
+   "translation": "상정이 길고 하정이 짧으면 의식이 저절로 넉넉하여 창고가 가득하다.",
+   "commentary": "신상 삼정의 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 의식의 넉넉함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上停長，下停短",
+     "observable_ko": "머리가 길고 하체가 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 삼정 비율은 얼굴 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-024",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "三停俱短無虧陷，五嶽端嚴富貴全。",
+   "translation": "삼정이 모두 짧더라도 이지러지거나 꺼짐이 없고 오악(五嶽)이 단정하고 엄하면 부귀가 온전하다.",
+   "commentary": "몸의 삼정과 얼굴의 오악을 함께 말한 구절이다. 오악의 단정함은 평가어로 측정 형태가 정의되어 있지 않다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三停俱短無虧陷",
+     "observable_ko": "몸의 세 구역이 모두 짧되 결함이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽端嚴",
+     "observable_ko": "오악이 단정하고 엄함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "평가어로 측정 형태가 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-other-025",
+   "section": "身相三停",
+   "region": "other",
+   "original_text": "上下兩停兼短促，一生終是受迍邅。」",
+   "translation": "상하 두 정이 아울러 짧고 오그라들면, 일생 끝내 어려움과 막힘을 받는다.」",
+   "commentary": "몸의 상하 비율에 관한 서술로 레이블 체계에 없다. 문헌은 이를 평생의 곤궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上下兩停兼短促",
+     "observable_ko": "머리와 하체가 모두 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸통·팔다리 비율은 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1352 @@
+{
+ "page_id": "gj646",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "上局四",
+  "中局四",
+  "下局四",
+  "五形"
+ ],
+ "passages": [
+  {
+   "passage_id": "ZD646C-eye-001",
+   "section": "上局四",
+   "region": "eye",
+   "original_text": "其一曰「文貴」，「學堂在眼，須得長秀，黑白分明，動有神光，下如臥蠶，主文章聲譽高貴也。」",
+   "translation": "그 첫째는 '문귀(文貴)'라 한다. \"학당(學堂)은 눈에 있으니, 반드시 길고 빼어나야 하고, 검은자와 흰자가 분명하며, 움직이면 신광(神光)이 있고, 아래는 누운 누에(臥蠶)와 같아야 하니, 문장과 명성이 높고 귀함을 주관한다.\"",
+   "commentary": "상국(上局) 네 학당 중 첫째로, 눈을 '학당'으로 본 항목이다. '長'은 눈의 가로 길이로 옮길 수 있고 '아래가 누운 누에 같다'는 눈 밑 와잠(臥蠶) 볼록함을 가리키는 관상 용어이나, 빼어남·흑백 분명·신광은 형태 항목이 아니다. 문헌은 이를 문장의 명성과 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "須得長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "長秀",
+     "observable_ko": "눈이 빼어남(품평어)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "秀는 형태 수치가 아닌 품평어다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 분명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "검은자·흰자 대비는 색·조명에 좌우되며 대응 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "動有神光",
+     "observable_ko": "움직일 때 눈에 신광이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신광·움직임은 정지 사진의 형태가 아니다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "下如臥蠶",
+     "observable_ko": "눈 아래에 누운 누에 같은 볼록함이 있음",
+     "status": "exact",
+     "label": "under_eye:visible"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-ear-002",
+   "section": "上局四",
+   "region": "ear",
+   "original_text": "其二曰「祿貴」，學堂在耳，須得紅潤，色白于面，圓厚不缺。主爵祿豐厚，衣食充足，富貴非常人比也。",
+   "translation": "그 둘째는 '녹귀(祿貴)'라 한다. 학당이 귀에 있으니, 반드시 붉고 윤택해야 하고, 색이 얼굴보다 희며, 둥글고 두터워 이지러짐이 없어야 한다. 작록이 풍부하고 두터우며, 입을 것과 먹을 것이 넉넉하고, 부귀가 보통 사람에 비할 바가 아님을 주관한다.",
+   "commentary": "귀를 학당으로 본 항목이다. 붉고 윤택함·얼굴보다 흰 색은 색채 조건이고, '둥글고 두텁다'는 귀의 윤곽·두께에 관한 서술이어서 귀 길이·너비 레이블과 같은 측정이 아니다. 문헌은 이를 작록과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "須得紅潤",
+     "observable_ko": "귀가 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "色白于面",
+     "observable_ko": "귀 색이 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "圓厚不缺",
+     "observable_ko": "귀가 둥글고 두터우며 이지러진 데가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 둥글기·두께는 ear_length/ear_width가 재는 차원이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-003",
+   "section": "上局四",
+   "region": "other",
+   "original_text": "其三曰：「聰貴學堂，在耳前二分，須得平完清潤，展闊看，有異光，如珠蚌色，主聰貴天下。」",
+   "translation": "그 셋째는 이렇다. \"총귀학당(聰貴學堂)은 귀 앞 2푼(分)에 있으니, 반드시 평평하고 온전하며 맑고 윤택해야 하고, 펼쳐 넓게 보이며, 기이한 빛이 있어 진주조개 빛깔 같으면, 총명함과 귀함이 천하에 으뜸임을 주관한다.\"",
+   "commentary": "귀 바로 앞의 좁은 부위를 학당으로 본 항목이다. '평평하고 온전함'·'펼쳐 넓음'은 형태 서술이나 해당 부위를 재는 레이블이 없고, 빛·진주조개 빛깔은 색채 조건이다. 문헌은 이를 총명과 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "在耳前二分，須得平完",
+     "observable_ko": "귀 앞 부위가 평평하고 온전함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 앞 피부 부위의 평탄도를 재는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "清潤",
+     "observable_ko": "맑고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "展闊看",
+     "observable_ko": "펼쳐 넓게 보임",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇이 넓은지(부위의 폭인지 인상인지) 원문만으로 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "有異光，如珠蚌色",
+     "observable_ko": "기이한 빛·진주조개 빛깔",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-glabella-004",
+   "section": "上局四",
+   "region": "glabella",
+   "original_text": "其四曰「『天印學堂』。在上中二部間，有平如半指，一二指大及三指。若鏡無瑕而有異光，中或有紋及異氣。主符印刊文之貴。」",
+   "translation": "그 넷째는 '천인학당(天印學堂)'이라 한다. 상부와 중부 두 부위 사이에 있으니, 평평한 곳이 반 손가락만 하거나 한두 손가락 크기, 세 손가락에 이르기까지 있다. 만약 거울처럼 티가 없고 기이한 빛이 있으며, 가운데에 혹 무늬와 기이한 기운이 있으면 부인(符印)과 간문(刊文)의 귀함을 주관한다.",
+   "commentary": "상정(上停)과 중정(中停) 사이, 곧 이마 아래·눈썹 사이 부근의 평평한 부위를 가리키는 것으로 보이나 원문이 정확한 위치를 특정하지 않는다. 손가락 너비라는 절대 단위만 있어 두 눈썹 사이 너비 레이블과 같다고 볼 수 없다. 부인(符印)·간문(刊文)은 관인과 공문을 다루는 관직의 귀함으로 해석된다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "有平如半指，一二指大及三指",
+     "observable_ko": "상·중부 사이 평평한 부위가 반~세 손가락 너비",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "위치가 확정되지 않고 손가락 단위의 절대 크기라 상대 비율 레이블과 대응이 불확실하다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "若鏡無瑕",
+     "observable_ko": "거울처럼 티가 없음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:absent"
+     ],
+     "reason": "거울 비유가 점·흠이 없음인지 피부 광택인지 불명확하다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "有異光",
+     "observable_ko": "기이한 빛이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "中或有紋",
+     "observable_ko": "가운데에 무늬(주름)가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "及異氣",
+     "observable_ko": "기이한 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기(氣)는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-forehead-005",
+   "section": "中局四",
+   "region": "forehead",
+   "original_text": "其一曰：「武貴學堂在邊地，隱隱一骨入兩眉，與耳相接，下印堂至山根有彩，主武威聲動天下。」",
+   "translation": "그 첫째는 이렇다. \"무귀학당(武貴學堂)은 변지(邊地)에 있으니, 은은하게 한 뼈가 두 눈썹으로 들어가 귀와 서로 이어지고, 아래로 인당(印堂, 두 눈썹 사이)에서 산근(山根, 콧뿌리)까지 광채가 있으면, 무위(武威)의 명성이 천하를 움직임을 주관한다.\"",
+   "commentary": "변지(邊地)는 이마 가장자리 부위 이름으로 쓰인다. 눈썹과 귀를 잇는 뼈 줄기는 골격 서술로 대응 레이블이 없고, 인당~산근의 광채는 색채 조건이다. 문헌은 이를 무관의 위세와 명성에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "隱隱一骨入兩眉，與耳相接",
+     "observable_ko": "변지에서 눈썹·귀로 이어지는 은은한 뼈 줄기",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 옆 뼈 융기에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "下印堂至山根有彩",
+     "observable_ko": "인당에서 산근까지 광채가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-nose-006",
+   "section": "中局四",
+   "region": "nose",
+   "original_text": "其二曰「諫諍學堂」，在眉準間，聳直有劍紋，首尾生逆毛，視有清氣，準勢掀烈，直有劍脊露鋒。主清廉公正不屈。",
+   "translation": "그 둘째는 '간쟁학당(諫諍學堂)'이라 한다. 눈썹과 준두(準頭, 코끝) 사이에 있으니, 솟고 곧으며 칼 무늬가 있고, 머리와 꼬리에 거꾸로 난 털이 나며, 보면 맑은 기운이 있고, 준두의 기세가 들려 맹렬하며, 곧게 칼등이 있어 칼날을 드러낸다. 청렴하고 공정하며 굽히지 않음을 주관한다.",
+   "commentary": "눈썹과 코끝 사이, 곧 콧마루 일대를 학당으로 본 항목이다. '솟고 곧다'는 코 높이를 말하나 콧뿌리인지 코끝인지 특정하지 않으며, 칼 무늬·칼등·역모는 비유적이거나 대응 레이블이 없는 서술이다. '首尾'가 눈썹의 머리·꼬리인지 콧마루의 양끝인지 원문만으로 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "聳直",
+     "observable_ko": "콧마루가 솟고 곧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "코가 솟았다고만 하여 콧뿌리 높이인지 콧마루 전체인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "有劍紋",
+     "observable_ko": "칼 모양 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "무늬·주름에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "首尾生逆毛",
+     "observable_ko": "머리·꼬리에 거꾸로 난 털",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위의 머리·꼬리인지 불명확하고 털 방향 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "視有清氣",
+     "observable_ko": "맑은 기운이 보임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기(氣)는 형태가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準勢掀烈",
+     "observable_ko": "코끝 기세가 들려 맹렬함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nostril_show:visible"
+     ],
+     "reason": "'掀'이 코끝 돌출인지 들린 코(콧구멍 노출)인지 불명확하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "直有劍脊露鋒",
+     "observable_ko": "콧마루가 칼등처럼 곧고 날이 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧마루 능선 모양에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-007",
+   "section": "中局四",
+   "region": "other",
+   "original_text": "其三曰「天壽學堂」，在耳後一二指有骨如準，明淨紅潤，主福壽遠大，逾九九之數，神仙多有此骨。",
+   "translation": "그 셋째는 '천수학당(天壽學堂)'이라 한다. 귀 뒤 한두 손가락 되는 곳에 준두(準頭, 코끝) 같은 뼈가 있고, 밝고 깨끗하며 붉고 윤택하면, 복과 수명이 멀고 큼을 주관하여 81세(九九)의 수를 넘기니, 신선이 대개 이 뼈를 가졌다.",
+   "commentary": "귀 뒤쪽 뼈(오늘날의 유양돌기 부근으로 보임)를 학당으로 본 항목으로, 정면 사진에서는 보이지 않는다. '九九之數'는 81을 뜻한다. 문헌은 이 뼈를 장수와 복에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "在耳後一二指有骨如準",
+     "observable_ko": "귀 뒤 한두 손가락 거리에 코끝 같은 뼈가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "귀 뒤 골격은 정면 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "明淨紅潤",
+     "observable_ko": "밝고 깨끗하며 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-cheekbone-008",
+   "section": "中局四",
+   "region": "cheekbone",
+   "original_text": "其四曰「清貴學堂」，在顴壽間，一骨聳直入耳，與眉骨相應，而有光彩。主清高隱逸、孤貴。",
+   "translation": "그 넷째는 '청귀학당(淸貴學堂)'이라 한다. 관골(顴骨, 광대뼈)과 수(壽) 사이에 있으니, 한 뼈가 솟고 곧게 귀로 들어가 눈썹뼈와 서로 호응하며 광채가 있다. 청고하게 은거함과 외로우나 귀함을 주관한다.",
+   "commentary": "광대뼈에서 귀 쪽으로 뻗는 뼈(광대활 부근)를 가리키는 것으로 보인다. '壽'가 연수(年壽, 콧마루 중간)를 뜻하는지 원문만으로 확정되지 않는다. 광대 돌출과 관련되나 '광대가 높다'는 직접 서술이 아니어서 근사 대응으로 둔다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "一骨聳直入耳",
+     "observable_ko": "광대에서 귀로 솟아 곧게 뻗는 뼈",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "광대 돌출 자체가 아니라 귀로 이어지는 뼈 줄기를 말한다"
+    },
+    {
+     "region": "brow",
+     "evidence": "與眉骨相應",
+     "observable_ko": "눈썹뼈와 호응함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 융기에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "而有光彩",
+     "observable_ko": "광채가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-brow-009",
+   "section": "下局四",
+   "region": "brow",
+   "original_text": "其一曰「智勇」學堂在眉尾二骨豐隆聳起。秀有奇文。露稜骨主心智勇敢多信義，亦清貴。",
+   "translation": "그 첫째는 '지용(智勇)' 학당이라 하니, 눈썹 꼬리의 두 뼈가 풍성하게 융기하여 솟은 데 있다. 빼어나고 기이한 무늬가 있다. 모난 뼈가 드러나면 마음이 지혜롭고 용감하며 신의가 많고, 또한 청귀함을 주관한다.",
+   "commentary": "눈썹 꼬리 쪽 뼈(눈썹뼈 바깥 끝)의 융기를 학당으로 본 항목이다. 뼈 융기·무늬·모난 뼈는 대응 레이블이 없는 형태 서술이다. 문헌은 이를 지혜·용기·신의에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉尾二骨豐隆聳起",
+     "observable_ko": "눈썹 꼬리 쪽 두 뼈가 풍성하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 융기에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "秀有奇文",
+     "observable_ko": "빼어나고 기이한 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "秀는 품평어이고 무늬가 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "露稜骨",
+     "observable_ko": "모난 뼈가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "뼈 모서리 노출에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-nose-010",
+   "section": "下局四",
+   "region": "nose",
+   "original_text": "其二曰「平準學堂」，在準頭圓淨光潤，主作事平正，無虧歹，若圓而露尖者非也。",
+   "translation": "그 둘째는 '평준학당(平準學堂)'이라 하니, 준두(準頭, 코끝)가 둥글고 깨끗하며 빛나고 윤택한 데 있어, 일 처리가 공평하고 바르며 이지러지거나 나쁜 것이 없음을 주관한다. 만약 둥글되 뾰족함이 드러나는 것이면 아니다.",
+   "commentary": "코끝이 둥글다는 서술은 코끝 둥근형 레이블과 직접 대응한다. 깨끗함·광택은 색채 조건이고, 둥글면서 뾰족함이 드러나는 경우를 제외하는 단서가 붙어 있다. 문헌은 이를 공정한 일 처리에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭圓",
+     "observable_ko": "코끝이 둥긂",
+     "status": "exact",
+     "label": "nose_tip:rounded"
+    },
+    {
+     "region": "nose",
+     "evidence": "淨光潤",
+     "observable_ko": "코끝이 깨끗하고 빛나며 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "nose",
+     "evidence": "若圓而露尖者非也",
+     "observable_ko": "둥글되 끝에 뾰족함이 드러나는 경우 제외",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "둥근 코끝 안에서 뾰족함 정도를 구분하는 단서로, 별도 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-brow-011",
+   "section": "下局四",
+   "region": "brow",
+   "original_text": "其三曰「技藝學堂」，在正面眉間，面平潤，眉灣曲，手纖長，骨細，主文藝方技，精善概世也。",
+   "translation": "그 셋째는 '기예학당(技藝學堂)'이라 하니, 정면의 눈썹 사이에 있어, 얼굴이 평평하고 윤택하며, 눈썹이 굽어 휘고, 손이 가늘고 길며, 뼈가 가늘면, 문예와 방기(方技, 의술·점술 등 기술)를 주관하여 정밀하고 뛰어남이 세상을 덮는다.",
+   "commentary": "원문의 '灣曲'은 '彎曲(굽어 휨)'의 뜻으로 읽히나 글자가 표의 '彎'과 달라 근사 대응으로 둔다. 손·뼈의 가늘기는 얼굴 사진 형태가 아니다. 문헌은 이를 문예·기술의 탁월함에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面平",
+     "observable_ko": "얼굴이 평평함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "평평함이 얼굴 윤곽인지 피부 표면인지 불명확하다"
+    },
+    {
+     "region": "face",
+     "evidence": "平潤",
+     "observable_ko": "얼굴이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉灣曲",
+     "observable_ko": "눈썹이 굽어 휨",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "원문 글자가 '灣'으로 표의 '彎'과 달라 통가로 읽어야만 대응한다"
+    },
+    {
+     "region": "other",
+     "evidence": "手纖長",
+     "observable_ko": "손이 가늘고 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손은 얼굴 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨細",
+     "observable_ko": "뼈가 가늚",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격의 굵기는 얼굴 사진 레이블로 측정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-teeth-012",
+   "section": "下局四",
+   "region": "teeth",
+   "original_text": "其四曰「祿食學堂。」在齒。端正不邪側。縝密完滿無破缺。光淨如銀。主多祿食身體充悅。",
+   "translation": "그 넷째는 '녹식학당(祿食學堂)'이라 한다. 이에 있다. 단정하여 비뚤거나 기울지 않고, 촘촘하고 완전하여 깨지거나 빠진 데가 없으며, 빛나고 깨끗하기가 은과 같다. 녹봉과 먹을 것이 많고 몸이 충실하고 기쁨을 주관한다.",
+   "commentary": "이(齒)를 학당으로 본 항목이다. 치아 배열·결손은 대응 레이블이 없고, 은 같은 광택은 색채 조건이다. 문헌은 이를 녹식과 몸의 충실함에 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "端正不邪側",
+     "observable_ko": "이가 단정하고 비뚤지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 배열에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "縝密完滿無破缺",
+     "observable_ko": "이가 촘촘하고 온전하여 결손이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 간격·결손에 대응하는 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "光淨如銀",
+     "observable_ko": "이가 은처럼 빛나고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-013",
+   "section": "五形",
+   "region": "other",
+   "original_text": "瘠而潤者金之形。瘠者，骨節之露也。潤者，澤而不油，油則賤。",
+   "translation": "마르고 윤택한 것은 금(金)의 형이다. 마름(瘠)이란 뼈마디가 드러난 것이다. 윤택함(潤)이란 윤기가 있되 기름지지 않은 것이니, 기름지면 천하다.",
+   "commentary": "오행으로 나눈 다섯 체형 중 금형(金形)의 정의다. 뼈마디가 드러난 마른 체형은 몸 전체의 서술이고, 윤기·기름기는 피부 광택 조건이다. 문헌은 기름진 경우를 천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "瘠者，骨節之露也",
+     "observable_ko": "마르고 뼈마디가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "other",
+     "evidence": "澤而不油",
+     "observable_ko": "윤기가 있되 기름지지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-014",
+   "section": "五形",
+   "region": "other",
+   "original_text": "滿而脆者，水之形。滿者，四平無缺也。脆者，肥而不急，急則暴死。",
+   "translation": "가득하고 무른 것은 수(水)의 형이다. 가득함(滿)이란 사방이 평평하여 이지러짐이 없는 것이다. 무름(脆)이란 살찌되 팽팽하지 않은 것이니, 팽팽하면 갑자기 죽는다.",
+   "commentary": "수형(水形)의 정의다. 사방이 평평하고 살찐 체형은 몸 전체의 서술로 대응 레이블이 없으며, '急'은 살이 팽팽하게 당긴 상태로 해석된다. 문헌은 이를 급사와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "四平無缺",
+     "observable_ko": "사방이 평평하고 이지러짐이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "other",
+     "evidence": "肥而不急",
+     "observable_ko": "살찌되 팽팽하지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'急'이 살의 긴장인지 다른 상태인지 불명확하고 체형 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-015",
+   "section": "五形",
+   "region": "other",
+   "original_text": "《修而疏》者，木之形。修者，貌長而古也；疏者，四靈不蹙，蹙則貧賤。〈四觀耳目口鼻〉",
+   "translation": "길고 성근(修而疏) 것은 목(木)의 형이다. 길다(修)는 것은 모습이 길고 예스러운 것이다. 성글다(疏)는 것은 네 영(四靈)이 오그라들지 않은 것이니, 오그라들면 가난하고 천하다. (사관(四觀)은 귀·눈·입·코이다.)",
+   "commentary": "목형(木形)의 정의다. '貌長'은 모습(얼굴 또는 몸)이 길다는 뜻으로, 얼굴 길이로 한정되지 않아 근사 대응이다. 사령(四靈)은 주석에 따라 귀·눈·입·코로 보이며, 이목구비가 몰리지 않았다는 서술은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "貌長",
+     "observable_ko": "모습이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_length:long"
+     ],
+     "reason": "'貌'는 얼굴만이 아니라 전체 모습일 수 있다"
+    },
+    {
+     "region": "other",
+     "evidence": "而古",
+     "observable_ko": "모습이 예스러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 형태 측정이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "四靈不蹙",
+     "observable_ko": "귀·눈·입·코가 오그라들어 몰리지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이목구비 전체의 간격·배치를 재는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-016",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「銳而隆者火之形。」銳者，尖上而下闊也。隆者，四靈皆起，不起則下賤。",
+   "translation": "\"날카롭고 솟은 것은 화(火)의 형이다.\" 날카로움(銳)이란 위가 뾰족하고 아래가 넓은 것이다. 솟음(隆)이란 네 영(四靈)이 모두 일어난 것이니, 일어나지 않으면 낮고 천하다.",
+   "commentary": "화형(火形)의 정의다. 위가 뾰족하고 아래가 넓은 윤곽은 얼굴인지 몸인지 특정되지 않으며, 아래가 넓다는 점은 턱 너비와 관련될 수 있으나 같은 측정이 아니다. 문헌은 이목구비가 솟지 않으면 천하다고 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "尖上而下闊",
+     "observable_ko": "위가 뾰족하고 아래가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "jaw_width:wide"
+     ],
+     "reason": "얼굴 윤곽인지 체형인지 특정되지 않고 전체 비율 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "四靈皆起",
+     "observable_ko": "귀·눈·입·코가 모두 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'起'가 각 기관의 돌출·크기 중 무엇인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-017",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「平而敦」者，土之形。平者，方而不露也。敦者，匾而方整，不整則下賤。",
+   "translation": "\"평평하고 두터운(平而敦)\" 것은 토(土)의 형이다. 평평함(平)이란 모나되 드러나지 않는 것이다. 두터움(敦)이란 납작하고 모나며 반듯한 것이니, 반듯하지 않으면 낮고 천하다.",
+   "commentary": "토형(土形)의 정의다. '方'은 모난 윤곽이나 얼굴·몸 중 무엇인지 특정되지 않아 근사 대응이고, '匾'은 '扁(납작함)'의 뜻으로 읽힌다. 문헌은 반듯하지 않으면 천하다고 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "方而不露",
+     "observable_ko": "모나되 (뼈가) 드러나지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:angular"
+     ],
+     "reason": "얼굴형인지 체형인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "匾而方整",
+     "observable_ko": "납작하고 모나며 반듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "납작함의 대상과 기준이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-018",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「瘦宜黃枯」，黃則死無日矣。白則喪服，黑則失財，赤則官刑，蒼則勞苦，此乃時下之形也。",
+   "translation": "\"마른 형은 누렇고 마름(黃枯)이 마땅하다(宜).\" 누러면 죽을 날이 없다(곧 죽는다). 희면 상복을 입고, 검으면 재물을 잃고, 붉으면 관형(官刑)을 받고, 푸르면 수고롭고 괴로우니, 이것이 곧 시하(時下)의 형이다.",
+   "commentary": "금형(마른 형)에 나타나는 일시적 기색(時下之形)을 다섯 색으로 판단하는 대목이다. '宜'를 글자대로 '마땅하다'로 옮겼으나 곧이어 누런 기색을 죽음과 연결하므로 문맥상 뜻이 분명하지 않다. 모두 색채 조건이며, 문헌은 이를 죽음·상사·재물 손실·형벌과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "瘦",
+     "observable_ko": "마른 체형",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "黃則死無日矣。白則喪服，黑則失財，赤則官刑，蒼則勞苦",
+     "observable_ko": "누렇거나 희거나 검거나 붉거나 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "kinship_harm",
+    "wealth",
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-019",
+   "section": "五形",
+   "region": "other",
+   "original_text": "常枯，疾病而夭，常白一生貧，常黑，貧賤下流；常赤沒世官刑，常蒼一生孤苦。惟黃而潤，潤而不枯者，終身富貴。此平生之形也。",
+   "translation": "늘 마르면 병들어 일찍 죽고, 늘 희면 한평생 가난하며, 늘 검으면 가난하고 천하여 하류이고, 늘 붉으면 죽을 때까지 관형을 받으며, 늘 푸르면 한평생 외롭고 괴롭다. 오직 누렇고 윤택하며, 윤택하되 마르지 않은 자는 평생 부귀하다. 이것이 평생(平生)의 형이다.",
+   "commentary": "같은 형의 항상적 색(平生之形)을 판단하는 대목으로, 모두 색·윤기 조건이다. 문헌은 이를 질병·요절·빈천·형벌·고독과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "常枯",
+     "observable_ko": "늘 마르고 윤기가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "常白一生貧，常黑，貧賤下流；常赤沒世官刑，常蒼一生孤苦",
+     "observable_ko": "늘 희거나 검거나 붉거나 푸른 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "惟黃而潤，潤而不枯者",
+     "observable_ko": "누렇고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "wealth",
+    "rank_office",
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-020",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「滿宜白擁」，白則死無日矣。黃則官刑，赤則孤苦，黑則貧，蒼則喪病，此乃時下之形也。",
+   "translation": "\"가득한 형은 희고 부음(白擁)이 마땅하다(宜).\" 희면 죽을 날이 없다. 누러면 관형을 받고, 붉으면 외롭고 괴로우며, 검으면 가난하고, 푸르면 상사와 병이 있으니, 이것이 곧 시하의 형이다.",
+   "commentary": "수형(가득한 형)의 일시적 기색을 판단하는 대목이다. '擁'은 살이 부어 막힌 상태로 해석되나 확정되지 않는다. 색 조건만 있으며, 문헌은 이를 죽음·형벌·고독·빈곤·상사와 병에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "滿",
+     "observable_ko": "가득한 체형",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "白則死無日矣。黃則官刑，赤則孤苦，黑則貧，蒼則喪病",
+     "observable_ko": "희거나 누렇거나 붉거나 검거나 푸른 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "擁",
+     "observable_ko": "부어 막힌 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'擁'의 구체적 형태가 원문만으로 확정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality",
+    "wealth",
+    "health_disease",
+    "kinship_harm",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-021",
+   "section": "五形",
+   "region": "other",
+   "original_text": "常擁疾而病夭；常黃，沒世官刑；常赤，平生孤苦；常黑，終身貧寒；常蒼，賤而不立，惟白而脆，脆而不擁者，終身富貴。此平生之形也。",
+   "translation": "늘 부어 막히면 병들어 일찍 죽고, 늘 누러면 죽을 때까지 관형을 받고, 늘 붉으면 평생 외롭고 괴로우며, 늘 검으면 종신토록 가난하고 춥고, 늘 푸르면 천하여 서지 못한다. 오직 희고 무르며, 무르되 부어 막히지 않은 자는 평생 부귀하다. 이것이 평생의 형이다.",
+   "commentary": "수형의 항상적 색과 상태를 판단하는 대목이다. 색은 관찰 레이블이 아니고 '擁'·'脆'는 살의 상태에 관한 불명확한 표현이다. 문헌은 이를 질병·요절·형벌·빈곤과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "常擁",
+     "observable_ko": "늘 부어 막힌 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'擁'의 구체적 형태가 원문만으로 확정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "常黃，沒世官刑；常赤，平生孤苦；常黑，終身貧寒；常蒼",
+     "observable_ko": "늘 누렇거나 붉거나 검거나 푸른 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "惟白而脆",
+     "observable_ko": "희고 무름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "criminality",
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-022",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「修宜蒼露」，蒼則死無日矣。黃則夭賤，赤則孤喪，黑則勞苦，白則官刑，此乃時下之形也。",
+   "translation": "\"긴 형은 푸르고 드러남(蒼露)이 마땅하다(宜).\" 푸르면 죽을 날이 없다. 누러면 일찍 죽고 천하며, 붉으면 외롭고 상을 당하며, 검으면 수고롭고 괴로우며, 희면 관형을 받으니, 이것이 곧 시하의 형이다.",
+   "commentary": "목형(긴 형)의 일시적 기색을 판단하는 대목이다. '露'는 뼈가 드러남으로 보이나 원문에 대상이 없다. 문헌은 색에 따라 죽음·요절·상사·형벌을 판단했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "修",
+     "observable_ko": "긴 체형",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "蒼則死無日矣。黃則夭賤，赤則孤喪，黑則勞苦，白則官刑",
+     "observable_ko": "푸르거나 누렇거나 붉거나 검거나 흰 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office",
+    "kinship_harm",
+    "fortune_general",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-023",
+   "section": "五形",
+   "region": "other",
+   "original_text": "常露，疾而貧夭，常黃，沒世貧寒，常赤，孤寒不易，常黑，一世貧勞，常白，沒世官刑。惟蒼而疏，疏而不露者，終身富貴，此平生之形也。",
+   "translation": "늘 드러나면 병들고 가난하며 일찍 죽고, 늘 누러면 죽을 때까지 가난하고 춥고, 늘 붉으면 외롭고 추움이 바뀌지 않으며, 늘 검으면 한평생 가난하고 수고롭고, 늘 희면 죽을 때까지 관형을 받는다. 오직 푸르고 성글며, 성글되 드러나지 않은 자는 평생 부귀하니, 이것이 평생의 형이다.",
+   "commentary": "목형의 항상적 색과 상태를 판단하는 대목이다. '露'의 대상(뼈·힘줄 등)이 명시되지 않아 형태로 특정할 수 없다. 문헌은 이를 질병·요절·빈곤·형벌과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "常露",
+     "observable_ko": "늘 (뼈 등이) 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "드러나는 대상이 명시되지 않았다"
+    },
+    {
+     "region": "face",
+     "evidence": "常黃，沒世貧寒，常赤，孤寒不易，常黑，一世貧勞，常白",
+     "observable_ko": "늘 누렇거나 붉거나 검거나 흰 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "惟蒼而疏",
+     "observable_ko": "푸르고 성긂",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "wealth",
+    "criminality",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-024",
+   "section": "五形",
+   "region": "other",
+   "original_text": "銳宜赤焦，赤則死無日矣。黃則貧沒，白則喪病，黑則寒下賤。",
+   "translation": "날카로운 형은 붉고 그을림(赤焦)이 마땅하다(宜). 붉으면 죽을 날이 없다. 누러면 가난하게 죽고, 희면 상사와 병이 있으며, 검으면 춥고 낮고 천하다.",
+   "commentary": "화형(날카로운 형)의 일시적 기색을 판단하는 대목이다. 다른 형과 달리 '푸르면'의 판단과 '時下之形也' 결구가 보이지 않고 '黑則' 뒤에서 줄이 바뀌어, 사본에 탈문이 있을 가능성이 있다. 문헌은 색에 따라 죽음·빈곤·상사와 병을 판단했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "銳",
+     "observable_ko": "날카로운 체형",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "赤則死無日矣。黃則貧沒，白則喪病，黑則",
+     "observable_ko": "붉거나 누렇거나 희거나 검은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "health_disease",
+    "kinship_harm",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-025",
+   "section": "五形",
+   "region": "other",
+   "original_text": "惟赤而隆，隆而不焦者，終身富貴，此平生之形也。",
+   "translation": "오직 붉고 솟으며, 솟되 그을리지 않은 자는 평생 부귀하니, 이것이 평생의 형이다.",
+   "commentary": "화형의 항상적 형을 말하는 대목으로, 바로 앞 '常…' 판단 부분이 사본에 빠진 것으로 보인다. 붉음·그을림은 색 조건이고 '隆'의 대상은 앞의 사령(四靈)으로 해석된다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "惟赤",
+     "observable_ko": "붉은 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "而隆，隆而不焦",
+     "observable_ko": "솟되 그을리지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "솟는 대상이 명시되지 않았고 그을림은 색 조건이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-026",
+   "section": "五形",
+   "region": "other",
+   "original_text": "平宜黑浮，黑則死無日矣。黃則災病，白則失財，蒼則官刑，赤則賤沒，此乃時下之形也。",
+   "translation": "평평한 형은 검고 들뜸(黑浮)이 마땅하다(宜). 검으면 죽을 날이 없다. 누러면 재앙과 병이 있고, 희면 재물을 잃고, 푸르면 관형을 받으며, 붉으면 천하게 죽으니, 이것이 곧 시하의 형이다.",
+   "commentary": "토형(평평한 형)의 일시적 기색을 판단하는 대목이다. 모두 색 조건이며, 문헌은 이를 죽음·병·재물 손실·형벌과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平",
+     "observable_ko": "평평한 체형",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진의 형태 레이블이 아닌 몸 전체 체형에 관한 서술이다"
+    },
+    {
+     "region": "face",
+     "evidence": "黑則死無日矣。黃則災病，白則失財，蒼則官刑，赤則賤沒",
+     "observable_ko": "검거나 누렇거나 희거나 푸르거나 붉은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease",
+    "wealth",
+    "criminality",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-027",
+   "section": "五形",
+   "region": "other",
+   "original_text": "常黑疾而病夭，常黃刑而夭亡，常白貧而勞苦，常蒼沒世官刑，常赤孤寒不易。惟黑而敦，敦而不浮者，終身富貴，此平生之形也。",
+   "translation": "늘 검으면 병들어 일찍 죽고, 늘 누러면 형벌을 받아 일찍 죽으며, 늘 희면 가난하고 수고로우며, 늘 푸르면 죽을 때까지 관형을 받고, 늘 붉으면 외롭고 추움이 바뀌지 않는다. 오직 검고 두터우며, 두텁되 들뜨지 않은 자는 평생 부귀하니, 이것이 평생의 형이다.",
+   "commentary": "토형의 항상적 색을 판단하는 대목이다. 색은 관찰 레이블이 아니며, 문헌은 이를 질병·요절·형벌·빈곤과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "常黑疾而病夭，常黃刑而夭亡，常白貧而勞苦，常蒼沒世官刑，常赤",
+     "observable_ko": "늘 검거나 누렇거나 희거나 푸르거나 붉은 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "惟黑而敦，敦而不浮者",
+     "observable_ko": "검고 두터우며 들뜨지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "criminality",
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-028",
+   "section": "五形",
+   "region": "other",
+   "original_text": "黃而擁者貧。寒露則夭，焦則刑，浮則下賤。",
+   "translation": "누렇고 부어 막힌 자는 가난하다. 춥고 드러나면 일찍 죽고, 그을리면 형벌을 받으며, 들뜨면 낮고 천하다.",
+   "commentary": "색과 살의 상태를 조합한 판단이다. '貧。寒露'는 '貧寒，露…'로 끊어 읽어야 앞뒤 구조와 맞을 수 있으나 사본의 구두를 그대로 따라 옮겼다. 모두 색·상태 조건이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "黃而擁者",
+     "observable_ko": "누렇고 부어 막힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "寒露則夭，焦則刑，浮則",
+     "observable_ko": "드러남·그을림·들뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·피부 상태 표현으로 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "criminality",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-029",
+   "section": "五形",
+   "region": "other",
+   "original_text": "白而枯者刑夭；露則賤，焦則刑，浮則貧乏。",
+   "translation": "희고 마른 자는 형벌을 받거나 일찍 죽는다. 드러나면 천하고, 그을리면 형벌을 받으며, 들뜨면 가난하고 궁핍하다.",
+   "commentary": "색과 피부 상태를 조합한 판단이다. 문헌은 이를 형벌·요절·빈곤에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "白而枯者",
+     "observable_ko": "희고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "露則賤，焦則刑，浮則",
+     "observable_ko": "드러남·그을림·들뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·피부 상태 표현으로 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-030",
+   "section": "五形",
+   "region": "other",
+   "original_text": "「蒼而焦者貧賤，浮則邪偽，枯則孤貧，擁則夭賤。",
+   "translation": "\"푸르고 그을린 자는 가난하고 천하며, 들뜨면 사악하고 거짓되고, 마르면 외롭고 가난하며, 부어 막히면 일찍 죽고 천하다.",
+   "commentary": "색과 피부 상태를 조합한 판단이다. 문헌은 들뜬 상태를 사악·거짓과 연결하는 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "蒼而焦者",
+     "observable_ko": "푸르고 그을림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "浮則邪偽，枯則孤貧，擁則",
+     "observable_ko": "들뜸·마름·부어 막힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·피부 상태 표현으로 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "malice_deceit",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-031",
+   "section": "五形",
+   "region": "other",
+   "original_text": "赤而焦者夭折，擁則貧寒，露則夭折，浮則失所，",
+   "translation": "붉고 그을린 자는 요절하고, 부어 막히면 가난하고 춥고, 드러나면 요절하며, 들뜨면 머물 곳을 잃는다.",
+   "commentary": "색과 피부 상태를 조합한 판단이다. 문헌은 이를 요절·빈곤·떠돎과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "赤而焦者",
+     "observable_ko": "붉고 그을림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "擁則貧寒，露則夭折，浮則",
+     "observable_ko": "부어 막힘·드러남·들뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·피부 상태 표현으로 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-032",
+   "section": "五形",
+   "region": "other",
+   "original_text": "黑而枯者夭折，擁則貧乏，露則刑戮，焦則下賤。」",
+   "translation": "검고 마른 자는 요절하고, 부어 막히면 가난하고 궁핍하며, 드러나면 형벌로 죽임을 당하고, 그을리면 낮고 천하다.\"",
+   "commentary": "색과 피부 상태를 조합한 판단이다. 형륙(刑戮)은 형벌로 죽임을 당함을 뜻하며, 문헌은 이를 요절·빈곤과 함께 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "黑而枯者",
+     "observable_ko": "검고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기·광채는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "擁則貧乏，露則刑戮，焦則",
+     "observable_ko": "부어 막힘·드러남·그을림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·피부 상태 표현으로 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "criminality",
+    "violence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-033",
+   "section": "五形",
+   "region": "other",
+   "original_text": "以上聲形五行，不分男女，生時失令，皆斷其孤失令者如火聲。人不生春夏，生于秋冬也。",
+   "translation": "이상의 소리와 형의 오행은 남녀를 나누지 않으니, 태어난 때가 철(令)을 잃으면 모두 외롭다고 판단한다. 철을 잃는다는 것은, 예컨대 화(火)의 소리를 가진 사람이 봄·여름에 태어나지 않고 가을·겨울에 태어난 것이다.",
+   "commentary": "목소리와 체형의 오행을 태어난 계절과 맞춰 보는 원칙을 적은 대목이다. 남녀 모두에 적용된다고 밝혔고, 목소리·출생 계절은 사진으로 관찰할 수 없다. 문헌은 계절이 맞지 않으면 외롭다고 판단했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "如火聲",
+     "observable_ko": "화(火)에 속하는 목소리",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "人不生春夏，生于秋冬也",
+     "observable_ko": "출생 계절",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출생 시기는 얼굴 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-034",
+   "section": "五形",
+   "region": "other",
+   "original_text": "冀州人宜《水聲形》，青州人宜《木聲形》，徐揚州人宜《火聲形》，荊豫州人宜土《聲形》，秦雍州人宜《金聲形》，不如此富貴有減。",
+   "translation": "기주(冀州) 사람은 수(水)의 소리와 형이 마땅하고, 청주(靑州) 사람은 목(木)의 소리와 형이, 서주·양주(徐揚州) 사람은 화(火)의 소리와 형이, 형주·예주(荊豫州) 사람은 토(土)의 소리와 형이, 진·옹주(秦雍州) 사람은 금(金)의 소리와 형이 마땅하니, 이와 같지 않으면 부귀가 줄어든다.",
+   "commentary": "구주(九州)의 출신 지역별로 맞는 오행 목소리·체형을 배당한 대목이다. 출신 지역과 목소리는 사진으로 관찰할 수 없다. 문헌은 이에 맞지 않으면 부귀가 줄어든다고 적었다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "冀州人",
+     "observable_ko": "출신 지역",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "宜《水聲形》",
+     "observable_ko": "오행에 맞는 목소리와 체형",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리와 오행 체형 분류는 사진 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-035",
+   "section": "五形",
+   "region": "other",
+   "original_text": "問：「平生氣數，以三朝早晨觀之，聲形如一，則可斷也。",
+   "translation": "묻는다: \"평생의 기수(氣數)는 사흘 아침 이른 새벽에 보아, 소리와 형이 한결같으면 판단할 수 있다.",
+   "commentary": "평생 운수를 판단하는 관찰 방법(사흘 연속 새벽 관찰)을 적은 대목이다. 목소리와 기수는 사진 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "聲形如一",
+     "observable_ko": "사흘 새벽의 목소리와 형이 한결같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리와 시점별 변화는 정지 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-036",
+   "section": "五形",
+   "region": "other",
+   "original_text": "如三朝早晨，聲形如一，上壽聲正，形小殊期，中壽聲正，形大殊期；壯壽形正，聲小殊期，壯壽形正，聲大殊期，夭折斯在，賢者默識而詳言之。上壽九十餘，中壽五十，壯壽三十以下，為夭折。」",
+   "translation": "만약 사흘 아침 새벽에 소리와 형이 한결같으면, 소리가 바르고 형이 조금 기약에 어긋나면 상수(上壽)이고, 소리가 바르고 형이 크게 기약에 어긋나면 중수(中壽)이며, 형이 바르고 소리가 조금 기약에 어긋나면 장수(壯壽)이고, 형이 바르고 소리가 크게 기약에 어긋나면 요절이 여기에 있으니, 어진 자는 묵묵히 알아 자세히 말한다. 상수는 90여 세, 중수는 50세, 장수는 30세이고, 그 이하는 요절이다.\"",
+   "commentary": "목소리와 형의 일치 정도로 수명 등급을 나누는 대목이다. 원문에 '壯壽形正'이 두 번 나오는데 두 번째는 문맥상 요절 등급으로 읽히며, '殊期'의 정확한 뜻은 확정되지 않아 '기약에 어긋남'으로 직역했다. 형태 레이블로 옮길 조건은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "聲正",
+     "observable_ko": "목소리가 바름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "形小殊期",
+     "observable_ko": "형이 기약에서 조금 어긋남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'殊期'의 뜻과 측정 기준이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646C-other-037",
+   "section": "五形",
+   "region": "other",
+   "original_text": "問時下氣數以問之。日起數，以六十日為聲形，吉凶之限也。",
+   "translation": "시하(時下)의 기수를 물어 그것을 묻는다. 날로 수를 일으키되 60일을 소리와 형의 길흉의 한도로 삼는다.",
+   "commentary": "일시적 운수(時下氣數)를 60일 단위로 본다는 방법론적 서술이다. 첫 구절은 문장이 중복되어 뜻이 분명하지 않아 글자 그대로 옮겼다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

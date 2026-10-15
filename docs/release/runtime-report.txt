@@ -1,0 +1,361 @@
+FaceTeller release runtime implementation and CPU verification
+2026-10-14, Asia/Seoul
+
+Implementation readiness
+Owned files: facework/release_runtime.py, scripts/release/serve.py,
+scripts/release/verify_service.py, tests/test_release_runtime.py, this report.
+At the user's subsequent explicit request, also amended the previously owned
+release_repository.py and its PostgreSQL tests/report to expose annotation_status.
+No frontend, pilot_contract, preprocessing, depth, training or benchmark code was
+changed by this runtime worker. No GPU was used, no training interrupted, no real
+face processed or saved, and no request image sent outside this machine.
+
+Runtime/verification implementation is ready. Actual model startup and all400 HTTP
+execution remain PENDING the main queue's release models, final registry, new400+80
+depth calibration and permission to use the GPU after run_training_queue.py finishes.
+Running serve.py --validate-only currently correctly refuses startup because
+models/release/deployment.json is missing. No placeholder output/model, old pilot
+calibration, MemoryRepository or automatically downloaded model is substituted.
+Do not treat synthetic tests below as actual CNN/VGGT accuracy, latency or service
+completion. Independent human labels/review count is zero. Training/selection/
+calibration/test participants remain distinct in the offline report (270/34/34/62).
+The depth400 quantile distribution is a whole-cohort descriptive reference, not
+independent depth accuracy or a human/metric-3D ground truth evaluation.
+Original VGGT research weights are noncommercial; this implementation is NOT
+labelled commercial-ready. A replacement checkpoint requires matching recalibration.
+
+Main integration / commands (run only AFTER the main GPU queue completes)
+  .venv/Scripts/python.exe scripts/release/serve.py --validate-only
+  .venv/Scripts/python.exe scripts/release/serve.py --port 8767
+  .venv/Scripts/python.exe scripts/release/verify_service.py
+Optional whole-image resize client:
+  .venv/Scripts/python.exe scripts/release/verify_service.py --max-side 1280 --output outputs/release/service-verification-1280.json
+No inference command above has been executed during this worker task. Only the
+validate-only refusal and CPU tests were run. Runtime import loads neither torch
+nor VGGT. Explicit CPU torch test uses two threads and small synthetic tensors.
+
+HTTP interface
+facework.release_runtime.make_app() creates the production app. Its lifespan loads
+verified resources once on one shared inference worker. Startup failure prevents
+the application from serving. Health/service-info:
+  GET /api/v1/health
+  GET /api/v1/service-info
+These report ready, deployment/registry/depth-config hashes, pinned depth checkpoint
+hash and code commit, research license identification, calibrated_head_count,
+uncalibrated_heads, read-only PostgreSQL identity, score semantics and input limits.
+Health rechecks DB eligibility/readability; database failure returns503 readiness.
+Active-corpus proof amendment: health/service-info additionally report the CURRENT
+corpus_sha256 from ReleaseRepository.corpus_revision(), not a cached startup count
+or newest import timestamp. An unknown active revision means ready=false (503).
+Each result.runtime.corpus_sha256 comes from the SAME read-only PostgreSQL snapshot
+as its candidate texts. The new active_corpus singleton is updated atomically on
+every import, including restoration of an older corpus. Runtime verifies that the
+service account cannot write this metadata either.
+GET / serves frontend/dist/index.html; /assets serves frontend/dist/assets on the
+same origin. The launcher binds 127.0.0.1:8767, one worker, without access logs.
+Missing frontend build refuses the launcher; no demo fallback page is served.
+POST /api/v1/analysis uses pilot_contract.create_app memory-only multipart parsing:
+exactly front/left_oblique/right_oblique plus input_mode upload or camera; all three
+directions pass real face detection before streaming. PNG/JPEG/WebP MIME matches,
+8MiB per file, roughly24MiB total,12MP/image,8192-byte header limits are shared with
+health metadata through the same InputLimits object. No disk-spooled UploadFile.
+Admission is bounded at ONE active analysis before reading the body, with immediate
+503 SERVICE_BUSY and Retry-After:1 for excess requests; no unbounded upload queue.
+NDJSON progress is emitted immediately before each actual alignment/quality,
+crop/parsing, CNN, depth and literature stage. Result construction uses the existing
+DecisionPolicy/build_result and geometric-mean/AND/3-per-region/5-overall selector.
+
+Deployment validation
+models/release/deployment.json: config.architectures, registry_sha256,
+preprocess_version; weights map keyed by project-relative models/release/{arch}/{part}.pt;
+features map with per-head calibration, threshold and train_support.
+All12 part definitions must exist with nonempty categorical heads. Their crops and
+input_size match the current shared release_preprocess module. Feature sets and
+class counts/orders are validated. Checkpoint meta fields arch/part/head order,
+classes/crops/input_size/registry_sha256/preprocess_version must match exactly.
+Weights are checksum-verified and loaded with weights_only=True into
+PartNet(arch,0,cls_sizes,pretrained=False), strict state_dict loading, eval mode,
+gradients disabled. No inference model is downloaded or reloaded per request.
+
+Calibrated heads require finite positive temperature, optimizer_success=True,
+n_val>0, test_used_for_fit=False and a legal classification threshold. Classes with
+zero training support can never be confirmed. Legitimate unsupported calibration
+state is permitted ONLY as calibrated=False, temperature=None, n_val=0,
+status=no_valid_validation_labels. Such a head is explicitly HELD with
+CONFIDENCE_NOT_CALIBRATED and listed in readiness metadata; it is not claimed verified.
+Malformed/nonfinite calibrated temperature, failed optimizer with targets, hash or
+metadata mismatch, missing required model/part remain startup errors.
+
+New depth calibration is mandatory: data/release/depth_config.json must match
+release_depth.VERSION, cohort_n400, four expected depth features, valid ordered
+boundaries, positive sigma_repeat_train and at least5 repeated training people.
+It must have checkpoint_sha256 and code_commit. The checkpoint is hashed once in
+startup validation; pinned third_party/vggt/provenance.json commit and all listed
+file hashes are checked. VGGTEngine.VGGT_SOURCE must be third_party/vggt, not tmp.
+The current commit is a288dd0f14786c93483e45524328726ab7b1b4ce.
+depth_config.checkpoint is a display string (e.g. original research checkpoint).
+Optional checkpoint_path is a project-relative filesystem path; default is
+models/vggt/model.pt, passed explicitly to VGGTEngine(weights_path=...). No previous
+provider-box boundary config is accepted or searched as a fallback.
+
+Preprocessing, inference and partial failure
+Original decoded RGB images and original-pixel MediaPipe detections feed the shared
+release_preprocess functions. Training/runtime both use eye-centre normalization,
+isotropic crop/letterbox and network_array. Changes to the main-owned shared
+forehead crop are automatically used; no copy of old crop geometry is embedded.
+ImageNet normalization precedes inference. Softmax probabilities are averaged
+equally across architectures and available valid bilateral crops (valid_fraction
+>=0.9), then the feature's own T applies exact normalized p**(1/T). Zero probability
+remains zero; no logit averaging or average of separately calibrated confidences.
+
+Bohr parser is local CPU-only ReleaseParser(threads=2); parse(image,landmarks) returns
+the original-coordinate mask. Mask is only a visibility/geometry aid; original RGB
+is unchanged, never skin-masked. Ear box comes from visible_ear_box and ear_metrics
+quality. C4=ear_left_oblique mirror=False; C10=ear_right_oblique mirror=True, matching
+training. Missing or unreliable ear sides are excluded individually. Forehead
+visibility uses forehead_metrics reasons. visible_mark_candidates quality gates the
+mole/visible-skin-mark head; candidate coordinates are discarded and never returned,
+logged or stored. Detector scores/weak geometric measurements never become CNN
+confidence. Skin marks are a limited visible morphology task, not clinical diagnosis.
+Pose/scale/illumination checks cover all12 regions; smile/blink/frown/open-mouth
+checks explicitly extend to under_eye/philtrum/cheekbone/forehead/glabella. No legacy
+five-region-only quality scope is reused. These gates are heuristic/weak visibility
+checks and do not claim independent occlusion/quality ground-truth validation.
+
+A missing crop, model exception in one part, invalid head output, unsupported
+predicted class, or uncalibrated rare head holds only affected items. Exceptions are
+caught as Exception, never cancellation BaseException, for partial inference.
+Depth uses release_depth.estimate(engine,images,detections,detect): original whole
+images are framed internally by MediaPipe OVAL1.5; VGGT518 and re-detection match the
+new cohort protocol. release_depth.observations supplies depth membership scores.
+A depth failure produces held depth items and continues CNN decisions/DB matching.
+No old boundaries, human GT claim, classifier-confidence reinterpretation or raw
+landmark coordinates are introduced. Runtime keeps a failed request error generic.
+
+Memory lifecycle
+One inference worker serializes shared MediaPipe/parser/CNN/VGGT resources. A
+cancelled request waits for its nonpreemptible worker before closing its PIL images,
+crop images and detection lists; repeated task cancellation is covered by tests.
+InputSet bytearrays are cleared by pilot_contract's existing response finalizer,
+including validation/response failures. The VGGT wrapper closes prepared PIL images
+if inference raises; the shared release_depth closes them on successful inference.
+Startup/shutdown also close owned resources. There is no request image/history
+database, temporary face image, outgoing face request or analysis logger.
+
+PostgreSQL and annotation integration
+Only ReleaseRepository is instantiated in production. Startup verifies a nonprivileged
+login with read-only default, absence of table write privileges and at least one
+eligible corpus passage. No MemoryRepository fallback. Lookup failures propagate to
+the generic NDJSON error, never silently become a valid empty literature match.
+At the user's request, repository source now includes authoritative passage-column
+annotation_status, overriding a conflicting nested source tag on a COPY. Stored raw
+source/corpus JSON remains unchanged. This exposes AI/unreviewed status and prevents
+an inconsistent nested tag from promoting a row to human-reviewed.
+
+Offline verification output schema (frozen for final PDF/XLSX consumers)
+Default: outputs/release/service-verification.json
+schema_version: release-service-verification-v1
+Existing output is never overwritten at start; choose --output for another run.
+During a run the JSON is atomically replaced after each participant so an interrupted
+file explicitly has complete=false. No old prediction cache is silently reused.
+Top-level fields:
+  schema_version,input,max_side,independent_human_labels(0),license_note,
+  model_metrics_path(outputs/release/test_metrics.json),service(health identity),
+  warmup[],errors_tested[],participants[],split_summary,complete,all400,
+  error_checks_passed (set when the run finishes).
+Each participants[] record:
+  subject_id,split,http_status,status,seconds,progress_event_seconds[],
+  features,confirmed,held,passage_count,db_source_verified,db_verified_passages,
+  db_candidates,deployment_sha256,depth_config_sha256,
+  regions:{part:{confirmed,held}},
+  timings:{validation_seconds,alignment_seconds,preprocessing_seconds,cnn_seconds,
+           depth_seconds,literature_seconds},
+  items:[{item_id,region,kind,status,confidence,measurement_score,label_id,hold_reasons}],
+  passages:[{passage_id,G,rank,score_feature_count,evidence_item_ids}].
+Error records have status=error,error_code,empty items/passages/timings,zero counts,
+db_source_verified=false. No response image, source text, measurements/landmarks or
+temporary image is copied into this report. Source proof comes from independently
+querying PostgreSQL eligible AND candidates and comparing every returned original,
+translation, commentary and enriched source in memory before saving proof/counts.
+Zero passages may have db_source_verified=true vacuously but db_verified_passages=0;
+consumers must use the count, not claim that a source was demonstrated in that case.
+Warmup has separate records of the same compact schema and does not enter timing
+split_summary. Split summaries report participants,errors,mean_seconds,mean_confirmed,
+mean_held,db_verified_passages. They are service summaries, not model accuracy.
+Both deployment and depth-config identities are checked against initial health for
+every successful request; changed deployments during the run abort verification.
+Corpus proof amendment (additive to schema v1): top-level corpus_sha256 and
+service.corpus_sha256 identify the initial active canonical corpus. Every successful
+participants[]/warmup[] record also has corpus_sha256, independently checked against
+the current DB revision and the initial service identity. Error records use null
+because no successful reference lookup is claimed. Changed/missing revisions abort
+verification. Hash formula matches setup_database.canonical_json UTF-8 SHA256, not
+raw corpus-file bytes. Candidate proof reads and active hash share a DB snapshot.
+Kuhn's report builder has been notified of the exact canonicalization and fields.
+Final active-revision regression run:45 tests passed in8.192s (19 repository,
+26 runtime). Added coverage includes current rather than cached service-info hash,
+result/DB corpus mismatch rejection, verification-run identity mismatch rejection,
+and ready=false when no active revision exists. No GPU/real-face run was performed.
+
+The client reads original JPEG/PNG K-FACE S001/L1/E01 C7,C4,C10 bytes from ZIPs and
+sends all400 once (plus one separate warmup). --max-side1280 optionally isotropically
+resizes the WHOLE image and encodes PNG; it never reads provider annotations or
+performs face/guide cropping. It allows only an explicit loopback HTTP origin,
+disables proxies and redirects, and does not send photographs to external servers.
+Real-service error probes: missing direction400, corrupt image415, MIME mismatch415,
+no-face422, oversized file413, and concurrent warmup admission503. Until the main
+queue completes these probes are implemented and ASGI-tested with synthetic input;
+their actual real-model execution remains pending.
+
+Completed verification evidence
+  .venv/Scripts/python.exe -m unittest tests.test_release_repository tests.test_release_runtime -v
+40 tests passed in8.592s:16 repository tests (actual local PostgreSQL integration
+plus validation) and24 runtime tests (synthetic CPU/ASGI). No skipped tests.
+After the final alignment-stage and original PNG/JPEG handling refinements, the
+runtime24-test suite was rerun and passed in3.152s with the shared forehead-v2 code.
+Coverage: startup refusal, weights/registry/depth-source/depth-checkpoint corruption,
+head/class order, exact mean/temperature/ImageNet normalization, partial depth and
+part failure, missing crops, class support0, no-calibration-label partial hold, all12
+quality scopes, parser visibility, ear mirror convention, closed PIL crops/inputs,
+cancel-twice waiting, admission503 without reading body, real multipart/error response
+paths, source proof/schema, external URL rejection, full-image aspect preservation,
+and authoritative annotation_status with no human-review promotion.
+The actual release validate-only command refused missing deployment as intended.
+GPU/CNN/VGGT400 latency/accuracy outputs have not been generated by these tests.
+
+Actual crop training support amendment (2026-10-14)
+Deployment per-class train_support must be a nonnegative integer list with the exact
+class count, bounded above by the raw registry train counts. Equality with registry
+is no longer required: training excludes unavailable/ineligible crops and counts
+unique people for each head. Every loaded checkpoint meta.train_support must exactly
+match the deployment support for all heads of its part, for every architecture.
+Missing metadata, differing counts, extra heads, bool/float counts, negative counts
+or deployment counts exceeding registry are rejected. Zero-support predicted classes
+remain HELD/PREDICTED_CLASS_NOT_TRAINED and are excluded from literature-query labels;
+registry labels alone never establish that a class received actual training.
+The main-owned trainer now embeds actual_support in checkpoint metadata and its JSON.
+No old-fold calibration/registry is substituted; registry hash and preprocessing
+checks remain mandatory. Current 270-person-only threshold/label rebuild is main-owned
+and remains subject to the final registry/deployment/checkpoint hash agreement.
+CPU synthetic plus actual PostgreSQL combined suite: 48 tests passed in8.871s,
+zero skipped (28 runtime,20 repository), including reduced/zero actual support,
+inflated or malformed support, checkpoint/deployment mismatch and historical source
+display_policy preservation. Real weights/GPU inference were not used.
+
+Browser acquisition consistency review (CPU/static review, 2026-10-14)
+Main reported a real CPU browser upload of the first sorted train participant:
+original864x576, landmark bounding-box width156.7px, ratio0.181, acceptable front pose.
+The original browser gate rejected this solely because its camera framing ratio was
+also applied to upload. This observation is main-reported, not independently rerun here.
+Design3.3 requires camera face/direction/size/brightness guidance;3.4 requires upload
+format/size/decode/face checks and the same downstream API. Neither specifies150px
+or ratio0.25..0.8. A camera-only framing-ratio gate is compatible with those sections;
+these numerical thresholds remain implementation choices, not design-mandated values.
+No frontend files were edited by this reviewer. Main is implementing the mode split.
+
+Remaining consistency findings observed before/during that change:
+1. Browser150px means clipped horizontal all-landmark bbox width; release backend150px
+   means Euclidean234-to454 distance on the FRONT image. Passing one does not prove
+   passing the other. The stated156.7px bbox alone cannot establish backend eligibility.
+2. decodeFile can reduce only the inspection ImageBitmap to longest-side1600 while
+   Upload keeps/sends the original File. An absolute pixel gate therefore uses a
+   different scale for large images. Use a documented original-pixel coordinate
+   scale/width definition or explicitly document a stricter browser gate; do not
+   silently crop or enlarge inputs simply to pass. Existing864x576 case is unscaled.
+3. Browser hard-gates all three views on size/pitch/roll/brightness/expression;
+   release backend uses frontal size/pose, scoped HELD reasons and separate oblique
+   checks. Removing the ratio alone does not make acceptance behavior equivalent.
+4. Browser brightness is weighted RGB over the face bbox (45..235); backend currently
+   uses whole-front-image PIL grayscale mean >=45. Background and pixel coefficients
+   differ, and backend has no matching upper-brightness/roll gate. This is a policy
+   distinction that needs explicit accounting in acquisition vs inference reports.
+5. Production executes the bundled public/assets/mediapipe/vision-worker.js: mode must
+   pass Upload->VisionPort->worker->quality, and the worker plus dist must be rebuilt.
+   Unit-testing capture.ts alone does not verify the shipped worker or upload flow.
+
+Required browser acquisition evidence, separate from direct HTTP400 verification:
+- original same-person C7/C4/C10 in production CPU MediaPipe worker; record only
+  participant/split, dimensions, scalar gate outcomes, reasons and exactly-one-submit;
+- upload ratio<0.25 with adequate absolute face width accepted, camera framing still
+  rejected; absolute width149/150 boundary, oblique view behavior and missing-view hold;
+- original vs longest-side1280 paths where applicable, >1600 inspection scaling,
+  EXIF rotation and preserved original upload bytes; no provider/guide crops;
+- intercept the local analysis request until GPU is released, recording this
+  as acquisition-only proof, never actual model/E2E success. No photo screenshots,
+  raw coordinates or external transmissions should be added to the scalar evidence.
+scripts/release/verify_service.py bypasses these browser gates. Its400 HTTP results
+alone cannot establish that400 users can reach submission through the browser.
+This review ran no new real-face/browser/GPU inference; pending browser evidence
+must be measured by the frontend owner and reported separately from backend checks.
+
+Continuous receive-complete to server-result-ready timing (2026-10-14)
+Minimal authorized shared create_app hook in facework/pilot_contract.py uses
+time.perf_counter immediately AFTER await receive_inputs and immediately BEFORE
+serializing the terminal result. For results with a runtime object it attaches:
+  data.runtime.timings.received_to_result_seconds
+The verifier already copies runtime.timings to participant.timings and warmup.timings.
+This is one continuously measured monotonic interval, NOT a sum of stage timings.
+It includes image decode, service factory/validation, all inference stages, DB lookup
+and intervening awaits (including any progress-stream backpressure). It excludes
+input receive/upload, final-result JSON encoding, final network delivery and cleanup.
+The endpoint is explicitly SERVER RESULT READY BEFORE SERIALIZATION, not complete
+client receipt. Keep participant.seconds as HTTP end-to-end time: it is a conservative
+bound on actual receive-complete-to-client-response latency, not the same endpoint.
+Pilot results without runtime and terminal error events retain their previous schema.
+CPU tests record actual boundaries and inject receive/decode/validation/stage/encoding
+delays; confirm exact two-clock difference, included/excluded intervals, preservation
+of existing stage timings, and unmodified pilot/error events. No wall-time sum or
+actual-service five-second performance claim is made from these synthetic tests.
+Run pilot and runtime test modules in separate processes: the pilot isolation test
+requires torch absent from sys.modules, while the runtime suite deliberately uses
+two-thread CPU torch for a synthetic normalization test. Combined-process execution
+had one isolation assertion failure; it did not indicate GPU execution or timing error.
+Separate-process results: tests.test_pilot_contract 38/38 passed in0.266s;
+tests.test_release_runtime 38/38 passed in2.824s. No skipped tests or GPU inference.
+
+Independent response selection proof (CPU verification, 2026-10-14)
+scripts/release/verify_service.py now validates every successful HTTP result against
+the complete AND-matched candidate set in one read-only DB revision snapshot:
+- every required label has exactly one CONFIRMED feature; no held evidence is used;
+- evidence_item_ids matches the complete sorted required-label list exactly;
+- score_components has one entry per required feature and exactly matches the
+  response item's CNN confidence or depth measurement_score, with the correct kind;
+- independent G = exp(fsum(log(scores))/n), or exactly0 if any score is0; no epsilon,
+  ignored depth scores, feature pooling, arithmetic mean or product underflow;
+- independent ordering by descending G, literature_priority, passage_order and
+  numeric/string passage ID; greedy cap3 for EACH participating region and total5;
+- actual selected IDs and order equal the independent full-candidate selection,
+  including the case where a valid candidate was silently omitted;
+- rank/count/score-mode metadata and unchanged DB text/source are validated;
+- the production PassageSelector is additionally cross-checked against the
+  independent selection and G calculation, not used as the sole arithmetic oracle.
+Corruption raises an error before that response is recorded as verified.
+
+Output remains outputs/release/service-verification.json, schema v1 with additive
+fields (no original text, images, landmarks or measurement coordinates persisted).
+Per participant and separate warmup row:
+  score_formula_verified: bool
+  score_formula_verified_count: number of selected passages whose formula passed
+  score_components_verified_count: total required feature components checked
+  selection_verified: bool
+At report top level and each split_summary entry, the two counts are summed over
+participants only; score_formula_verified is true only when every participant row
+passed, and selection_verified_participants counts successful selection checks.
+Errors carry false/0; legitimate empty selections carry true/0. Therefore a true flag
+with count0 proves empty-selection correctness, not a measured nonempty score case.
+Warmup and error probes are excluded from participant totals. These are retrieval
+consistency checks, not independent model accuracy, human GT or prediction validity.
+Latest CPU runtime suite:36 tests passed in3.287s, including8 new selection proof
+tests with mixed CNN/depth G=.72, omitted/held conditions, wrong components/ranks,
+numeric-ID tie breaking, single/multiple-region caps, zero/tiny scores and deliberately
+incorrect production-selector math. Actual400 HTTP/GPU run still pending main queue.
+
+Additional actual DB + synthetic scoring integration check
+{
+  "corpus_sha256": "4bd109aa69e5d99fc6f08c9d6dea3950ccb3164f5ddecabca6cc8a8e591c10d6",
+  "stimulus": "synthetic scores only; actual read-only PostgreSQL candidates, no HTTP/model/face run",
+  "eligible_condition_sets": 50,
+  "verified_selected_passages_across_queries": 103,
+  "verified_score_components_across_queries": 110,
+  "seconds": 1.768
+}

@@ -1,0 +1,1277 @@
+{
+ "page_id": "gj632",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "三曰目為監察官"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ632B-eye-001",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "「兩眼浮光，雙輪噴火」，殺人賊，好奸謀。",
+   "translation": "「두 눈에 빛이 떠 있고, 두 눈동자 둘레에 불을 뿜는 듯하면」 사람을 죽이는 도적이요, 간사한 꾀를 좋아한다.",
+   "commentary": "『신상전편』 감찰관(監察官, 눈) 항목의 첫 구결이다. 떠 있는 빛(浮光)과 불을 뿜는 듯한 붉음(噴火)은 눈빛·색에 관한 서술이라 형태 항목으로 옮길 수 없다. 문헌은 이를 살인·간모와 연결한 낙인성 주장을 적었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩眼浮光",
+     "observable_ko": "두 눈의 빛이 떠 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "雙輪噴火",
+     "observable_ko": "두 눈 둘레가 불을 뿜듯 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "violence",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-002",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "兩眼浮光者，謂噴突不收，光射人也。雙輪噴火，上下眼堂紅赤，如炎火噴外也。似此者，則主人凶惡，奸狡貪鄙，衷懷姦盜之心。",
+   "translation": "두 눈에 빛이 떠 있다는 것은 뿜듯 튀어나와 거두어지지 않고 빛이 사람을 쏘는 것을 이른다. 두 눈 둘레에 불을 뿜는다는 것은 위아래 안당(眼堂, 눈두덩)이 붉어 타오르는 불이 밖으로 뿜어 나오는 것 같음이다. 이와 같은 자는 사람됨이 흉악하고 간교하며 탐욕스럽고 비루하며, 속에 간사하고 도둑질하는 마음을 품음을 주관한다.",
+   "commentary": "앞 구결의 주석이다. '噴突不收'는 눈이 튀어나온 모양을 뜻할 수 있으나 빛의 서술과 섞여 있어 근사 대응으로 두었고, 눈두덩의 붉음은 색이다. 문헌은 이를 흉악·간교·도둑의 마음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "噴突不收",
+     "observable_ko": "눈이 뿜듯 튀어나와 거두어지지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "'突'이 안구 돌출인지 빛이 튀어나옴인지 확정할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "光射人",
+     "observable_ko": "눈빛이 사람을 쏨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "上下眼堂紅赤",
+     "observable_ko": "위아래 눈두덩이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-003",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "然平生之惡，三十歲入運，至三十五此五年大發，三十七至四十此四年亦不利。",
+   "translation": "그러나 평생의 악함은 서른 살에 운에 들어 서른다섯까지 이 다섯 해에 크게 드러나고, 서른일곱부터 마흔까지 이 네 해도 또한 이롭지 않다.",
+   "commentary": "앞 형상의 흉함이 나이별 운한(運限)에서 드러나는 시기를 적은 부분이다. 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-004",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《大統賦》云：「睛如點漆。」",
+   "translation": "『대통부』에 이르기를 「눈동자가 옻칠을 찍은 듯하다」라고 하였다.",
+   "commentary": "『대통부(大統賦)』 인용이다. 정(睛)은 눈동자(홍채·동공)를 가리키며, 옻칠처럼 검고 윤기 있다는 것은 색·광택 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛如點漆",
+     "observable_ko": "눈동자가 옻칠처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-005",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "許負曰：「目中赤沙起法死須妨己。」",
+   "translation": "허부가 말하기를 「눈 속에 붉은 모래가 일어나면 형법으로 죽으니 모름지기 자신을 해친다」라고 하였다.",
+   "commentary": "허부(許負)의 말로 인용된 구절로, 『허부상법』의 '目中赤砂起，法死須妨已'와 거의 같다. 눈 속 붉은 점은 색·충혈 서술이며, 형벌에 의한 죽음이라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目中赤沙起",
+     "observable_ko": "눈 속에 붉은 점이 생김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-006",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "又謂之蛇眼赤沙，便是噴火。",
+   "translation": "또 이를 뱀눈의 붉은 모래라 이르니, 곧 불을 뿜는 것이다.",
+   "commentary": "눈 속의 붉은 점을 '뱀눈의 붉은 모래'라 부르고 앞의 '噴火'와 같은 것으로 풀이했다. 뱀 비유와 색 서술이라 형태 항목이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蛇眼",
+     "observable_ko": "뱀의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "赤沙",
+     "observable_ko": "눈 속 붉은 점",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-007",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "睛如點漆。應不是常流。",
+   "translation": "눈동자가 옻칠을 찍은 듯하다. 마땅히 보통 무리가 아니다.",
+   "commentary": "두 번째 구결이다. 눈동자의 검은 색과 윤기에 관한 서술로 형태 항목이 아니다. 문헌은 이를 평범하지 않은 인물됨과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛如點漆",
+     "observable_ko": "눈동자가 옻칠처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-008",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《廣鑑集》云：「兩睛黑光如點漆，昭暉明朗，光彩射人者極貴，人臣神仙高士奇異之相，然為平生之福。三十歲至三十五歲，此六歲顯耀功名。」",
+   "translation": "『광감집』에 이르기를 「두 눈동자의 검은 빛이 옻칠을 찍은 듯하고 밝게 빛나 환하며 광채가 사람을 쏘는 자는 지극히 귀하니, 신하·신선·고사(高士)의 기이한 상이요, 평생의 복이 된다. 서른 살에서 서른다섯 살까지 이 여섯 해에 공명이 빛나게 드러난다」라고 하였다.",
+   "commentary": "『광감집(廣鑑集)』 인용이다. 눈동자 색과 광채는 색·눈빛 서술이라 형태 항목이 없다. 서른~서른다섯을 '여섯 해'라 한 것은 원문 그대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩睛黑光如點漆",
+     "observable_ko": "두 눈동자가 옻칠처럼 검고 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "光彩射人",
+     "observable_ko": "광채가 사람을 쏨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-009",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "眼大者多攻藝業。",
+   "translation": "눈이 큰 자는 흔히 기예와 학업을 닦는다.",
+   "commentary": "세 번째 구결이다. '眼大'는 눈 크기를 직접 서술한 표현으로 eye_size:large에 대응한다. 문헌은 이를 기예·학업에 힘쓰는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-010",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《月波洞中經》云：「眼睛大而端定，不浮不露，黑白分明者，主可學藝業，異於眾人成家立業。」",
+   "translation": "『월파동중경』에 이르기를 「눈동자가 크고 단정하며 안정되어 뜨지도 드러나지도 않고 검은자와 흰자가 분명한 자는 기예와 학업을 배울 만하여 뭇사람과 달리 집안을 이루고 업을 세움을 주관한다」라고 하였다.",
+   "commentary": "『월파동중경(月波洞中經)』 인용이다. '眼睛'은 눈 전체인지 눈동자인지 분명하지 않아 크기는 근사 대응으로 두었고, 시선의 안정·명암 대비는 형태가 아니다. '不露'는 돌출되지 않음을 뜻하나 대응하는 클래스가 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼睛大",
+     "observable_ko": "눈(또는 눈동자)이 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "'眼睛'이 눈 전체인지 눈동자인지 확정할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "端定，不浮",
+     "observable_ko": "눈이 단정하고 안정되어 뜨지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "不露",
+     "observable_ko": "눈이 드러나지(튀어나오지) 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "돌출되지 않음은 중간 상태로 정확히 대응하는 클래스가 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-011",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "上視者勿與交游。",
+   "translation": "위를 보는 자와는 사귀어 놀지 말라.",
+   "commentary": "네 번째 구결이다. 위로 치떠 보는 시선은 동작·시선이라 사진 형태 항목이 아니다. 문헌은 이런 사람과 사귀지 말라고 적었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "上視",
+     "observable_ko": "위를 치떠 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-012",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "上視者，或看物觀望，或觀人昂面，睛昂向上視者，主為人賊性自強自是不容物，太察多疑，不可為友，同行須在富貴之中，不可深交。",
+   "translation": "위를 본다는 것은, 혹 물건을 보며 바라보거나 혹 사람을 볼 때 얼굴을 쳐들거나 눈동자를 쳐들어 위를 향해 보는 것이니, 사람됨이 해치는 성품으로 스스로 강하고 스스로 옳다 하여 남을 용납하지 않으며, 지나치게 살피고 의심이 많아 벗으로 삼을 수 없고, 함께 다니더라도 모름지기 부귀한 가운데에서 할 것이요 깊이 사귀어서는 안 됨을 주관한다.",
+   "commentary": "앞 구결의 주석이다. 얼굴을 쳐드는 자세와 눈동자를 치뜨는 시선은 모두 동작이라 형태 항목이 없다. '賊性'은 남을 해치는 사나운 성품을 뜻하는 낙인성 평가어다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛昂向上視",
+     "observable_ko": "눈동자를 치떠 위를 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "觀人昂面",
+     "observable_ko": "사람을 볼 때 얼굴을 쳐듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리 자세·동작은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-013",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "又曰：「上視者人多狠。」",
+   "translation": "또 말하기를 「위를 보는 자는 사람이 흔히 모질다」라고 하였다.",
+   "commentary": "시선 방향에 관한 서술로 형태 항목이 아니다. 문헌은 이를 모진(狠) 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "上視",
+     "observable_ko": "위를 치떠 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-014",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "斜觀狼目強獨勝，慳吝更貪求。",
+   "translation": "비스듬히 보는 이리의 눈은 굳세어 홀로 이기려 하고, 인색하며 더욱 탐내어 구한다.",
+   "commentary": "다섯 번째 구결이다. 곁눈질(斜觀)은 시선이고 이리 눈(狼目)은 동물 비유라 형태 조건이 특정되지 않는다. 문헌은 이를 인색·탐욕과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "斜觀",
+     "observable_ko": "비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "狼目",
+     "observable_ko": "이리의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-015",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "斜觀者，主為人稟性剛強，獨能慳吝者，自慳不施，貪鄙愛聚，損人安己，縱居富貴能文，亦不改慳吝之心，口腹不能相應之人也。",
+   "translation": "비스듬히 보는 자는 사람됨이 타고난 성품이 굳세고 강함을 주관하며, 홀로 인색할 수 있는 자는 스스로 아껴 베풀지 않고 탐하고 비루하여 모으기를 좋아하며 남을 덜어 자신을 편안히 하니, 비록 부귀에 거하고 글에 능하더라도 인색한 마음을 고치지 못하는, 입과 속이 서로 응하지 않는 사람이다.",
+   "commentary": "앞 구결의 주석이다. 곁눈질은 시선이라 형태 항목이 없다. '口腹不能相應'은 말과 속마음이 다르다는 뜻으로, 기만에 관한 낙인성 평가다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "斜觀",
+     "observable_ko": "비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-016",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《廣鑑集》云：「目為心之外戶，觀其物外而知其內也。」",
+   "translation": "『광감집』에 이르기를 「눈은 마음의 바깥 문이니, 그 사물의 바깥을 보고 그 안을 안다」라고 하였다.",
+   "commentary": "눈을 마음의 창으로 보는 일반 원리를 적은 인용으로, 구체적 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-017",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《孟子》曰：「胸中正，則眸子瞭焉，胸中不正，則眸子眊焉，眸子不能掩其惡也。」",
+   "translation": "『맹자』에 이르기를 「가슴속이 바르면 눈동자가 맑고, 가슴속이 바르지 않으면 눈동자가 흐리니, 눈동자는 그 악함을 가릴 수 없다」라고 하였다.",
+   "commentary": "『맹자』를 인용해 눈동자의 맑고 흐림을 마음의 바름과 연결했다. 눈동자의 맑음·흐림은 광택·인상 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眸子瞭",
+     "observable_ko": "눈동자가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "맑음·흐림은 형태가 아닌 광택·인상 평가다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眸子眊",
+     "observable_ko": "눈동자가 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "맑음·흐림은 형태가 아닌 광택·인상 평가다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-018",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "善惡在目中偏正，善者正視神清睛定，惡則斜視不定神濁。",
+   "translation": "선악은 눈 속의 치우침과 바름에 있으니, 선한 자는 바로 보고 신(神)이 맑으며 눈동자가 안정되고, 악하면 비스듬히 보아 안정되지 않고 신이 흐리다.",
+   "commentary": "시선 방향과 신(神, 눈의 기운)으로 선악을 가르는 서술로, 모두 정지 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "正視神清睛定",
+     "observable_ko": "바로 보고 눈의 기운이 맑으며 눈동자가 안정됨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "斜視不定神濁",
+     "observable_ko": "비스듬히 보고 안정되지 않으며 기운이 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-019",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《太清。〈神鑑〉》云：「眼有些小病，心有些小毒。眼有十分病，心有十分毒。眼善心亦善，眼惡心亦惡。」",
+   "translation": "『태청신감』에 이르기를 「눈에 조금 병이 있으면 마음에 조금 독이 있다. 눈에 십분 병이 있으면 마음에 십분 독이 있다. 눈이 선하면 마음도 선하고, 눈이 악하면 마음도 악하다」라고 하였다.",
+   "commentary": "『태청신감(太淸神鑑)』 인용으로, 서명 표기의 구두점은 원문대로 두었다. '눈의 병(病)'은 결함 일반을 가리켜 특정 형태가 아니다. 문헌은 눈의 결함 정도를 마음의 독함과 비례시켰다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼有些小病",
+     "observable_ko": "눈에 작은 결함이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'病'이 질환인지 형태 결함인지, 어떤 형태인지 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼善",
+     "observable_ko": "눈이 선함(평가)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "선악은 품평어로 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-020",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《大統賦》云：「斜盼者人遭其毒。」",
+   "translation": "『대통부』에 이르기를 「비스듬히 흘겨보는 자에게는 사람이 그 독을 만난다」라고 하였다.",
+   "commentary": "흘겨봄(斜盼)은 시선이라 형태 항목이 없다. 문헌은 이를 남에게 해를 끼침과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "斜盼",
+     "observable_ko": "비스듬히 흘겨봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-021",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "然居富貴知書，只是心中不正，何況於小人乎？",
+   "translation": "그러나 부귀에 거하고 글을 알아도 다만 마음속이 바르지 않으니, 하물며 소인이겠는가?",
+   "commentary": "앞의 곁눈질 논의를 맺는 문장으로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-022",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "圓大神光露，心懷兇狠，訟獄堪憂。",
+   "translation": "둥글고 크며 신광(神光)이 드러나면 마음에 흉하고 모짊을 품으니, 송사와 옥사를 근심할 만하다.",
+   "commentary": "여섯 번째 구결이다. 구결 자체에는 '目'이 없고 주석은 이를 '圓大眼睛'으로 풀었는데, 눈 전체인지 눈동자인지 분명하지 않아 근사 대응으로 두었다. 문헌은 이를 흉포함과 송사·옥사와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "圓大",
+     "observable_ko": "눈(또는 눈동자)이 둥글고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_size:large"
+     ],
+     "reason": "구결에 대상(目/睛)이 명시되지 않고 주석은 '眼睛'으로 풀어 눈 전체인지 확정할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "神光露",
+     "observable_ko": "눈빛이 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "criminality",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-023",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "若圓大眼睛突露光者，主兇暴，多招禍患，常遭囹圄之囚繫，然為平生之凶。",
+   "translation": "만약 둥글고 큰 눈동자가 튀어나와 빛을 드러내는 자는 흉포함을 주관하여 화와 근심을 많이 부르고 늘 감옥에 갇히게 되니, 평생의 흉함이 된다.",
+   "commentary": "앞 구결의 주석이다. '突露'는 돌출된 눈을 뜻할 수 있으나 '露光'과 이어져 빛의 서술일 가능성도 있어 근사 대응으로 두었다. 문헌은 이를 흉포·투옥과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "圓大眼睛",
+     "observable_ko": "눈(또는 눈동자)이 둥글고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_size:large"
+     ],
+     "reason": "'眼睛'이 눈 전체인지 눈동자인지 확정할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "突露光",
+     "observable_ko": "눈이 튀어나와 빛을 드러냄",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "'突露'가 안구 돌출인지 빛의 드러남인지 확정할 수 없다(露 단독은 근사)"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-024",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "二十八限至三十五歲不利，三十七八九亦然，雖居富貴，亦為凶徒。",
+   "translation": "스물여덟 운한에서 서른다섯 살까지 이롭지 않고 서른일곱·여덟·아홉도 그러하니, 비록 부귀에 거하더라도 또한 흉도(凶徒)가 된다.",
+   "commentary": "운한별 시기와 흉도라는 평가를 덧붙인 부분으로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-025",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "若肯讀書，近君子遠小人，其凶減半。",
+   "translation": "만약 기꺼이 글을 읽고 군자를 가까이하고 소인을 멀리하면 그 흉함이 반으로 준다.",
+   "commentary": "행실에 따라 흉함이 줄어든다는 서술로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-026",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《月波洞中經》云：「莫交眼突，往往見災迍。」",
+   "translation": "『월파동중경』에 이르기를 「눈이 튀어나온 자와 사귀지 말라, 왕왕 재앙과 곤경을 본다」라고 하였다.",
+   "commentary": "'眼突'은 눈이 앞으로 튀어나온 형태를 직접 적은 표현으로 eye_depth:prominent에 대응한다. 문헌은 이를 재앙과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼突",
+     "observable_ko": "안구가 앞으로 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-027",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "又曰：「眼露心亦露。」",
+   "translation": "또 말하기를 「눈이 드러나면 마음도 드러난다」라고 하였다.",
+   "commentary": "'露' 단독은 돌출인지 흰자·빛의 드러남인지 불분명해 근사 대응으로 두었다. 문헌은 이를 속마음이 드러남과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼露",
+     "observable_ko": "눈이 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露 단독은 돌출 정도를 명시하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-028",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "似雞《蛇鼠目》，不濫須偷。",
+   "translation": "닭·뱀·쥐의 눈과 같으면 음란하지 않으면 반드시 도둑질한다.",
+   "commentary": "일곱 번째 구결이다. 닭·뱀·쥐에 빗댄 동물 비유로 형태 조건이 특정되지 않는다. 문헌은 이를 음란과 도둑질이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "似雞《蛇鼠目》",
+     "observable_ko": "닭·뱀·쥐의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-029",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《月波洞中經》云：「雞目無痕，好鬥貪淫。",
+   "translation": "『월파동중경』에 이르기를 「닭의 눈에 흔적이 없으면 싸우기를 좋아하고 음란함을 탐한다.",
+   "commentary": "닭 눈 비유이며 '無痕'은 눈꺼풀 주름이 없음 등으로 읽힐 수 있으나 확정할 수 없다. 문헌은 이를 다툼과 음란함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞目",
+     "observable_ko": "닭의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "無痕",
+     "observable_ko": "눈에 흔적(주름·결)이 없음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eyelid:single"
+     ],
+     "reason": "'痕'이 쌍꺼풀 주름인지 다른 흔적인지 원문만으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-030",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "蛇目上胞厚而心毒，",
+   "translation": "뱀의 눈은 윗눈꺼풀이 두텁고 마음이 독하며,",
+   "commentary": "윗눈꺼풀(上胞)이 두텁다는 형태 서술은 있으나 눈꺼풀 두께 항목은 레이블 체계에 없다. 문헌은 이를 독한 마음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蛇目",
+     "observable_ko": "뱀의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "上胞厚",
+     "observable_ko": "윗눈꺼풀이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꺼풀 두께 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-031",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "鼠目左小而竊盜，",
+   "translation": "쥐의 눈은 왼쪽이 작고 도둑질하며,",
+   "commentary": "왼눈이 작다는 좌우 특정 서술이라 좌우를 구분하지 않는 eye_asymmetry와 정확히 대응하지 않는다. 도둑질이라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鼠目",
+     "observable_ko": "쥐의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "左小",
+     "observable_ko": "왼눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우 방향을 특정한 서술이라 레이블과 기준이 다르다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-032",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "似者男女盜竊貪婪無恥，然居富貴亦不改姦妬之象。」",
+   "translation": "이와 같은 자는 남녀가 도둑질하고 탐욕스러우며 부끄러움이 없으니, 부귀에 거하더라도 간사하고 시기하는 상을 고치지 못한다」라고 하였다.",
+   "commentary": "앞 세 가지 동물 눈 인용을 맺는 부분으로 새로운 형태 조건은 없다. 도둑질·간사함에 관한 낙인성 주장이다.",
+   "conditions": [],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-033",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《三角深藏》毒害。",
+   "translation": "삼각(三角)으로 깊이 감추어져 있으면 독하게 해친다.",
+   "commentary": "여덟 번째 구결이다. 삼각 눈은 눈꺼풀 윤곽이 세모진 모양을 가리키는 용어로 대응 항목이 없고, '深藏'은 깊이 들어간 눈과 비슷하나 사전의 정확 표현(目深·眼深·深陷)이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "세모진 윤곽이 눈꼬리 기울기인지 눈꺼풀 모양인지 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "深藏",
+     "observable_ko": "눈이 깊이 감추어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:deep"
+     ],
+     "reason": "'深藏'은 정확 표현 목록에 없고 '감추어짐'의 뜻이 함께 있다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-034",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "眼生三角，凶狠之人，常能損物害人。若是女子，妨夫不良。",
+   "translation": "눈이 삼각으로 생긴 것은 흉하고 모진 사람이니, 늘 물건을 덜고 사람을 해칠 수 있다. 만약 여자라면 남편을 해치고 어질지 못하다.",
+   "commentary": "앞 구결의 주석이다. 삼각 눈은 대응 항목이 없다. 문헌은 이를 남을 해침과, 여성의 경우 남편을 해침(妨夫)과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼生三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "세모진 윤곽이 어떤 측정 항목인지 특정되지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "若是女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "malice_deceit",
+    "character",
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-035",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《大統賦》云：「三角多嗔，為妨夫命。」",
+   "translation": "『대통부』에 이르기를 「삼각 눈은 성냄이 많으니 남편의 명을 해친다」라고 하였다.",
+   "commentary": "삼각 눈은 대응 항목이 없다. 문헌은 이를 잦은 성냄과 남편의 목숨을 해침과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "세모진 윤곽이 어떤 측정 항목인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "kinship_harm",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-036",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "刃者，劍刃也。婦人眼生三角，如殺夫之劍也。",
+   "translation": "인(刃)이란 칼날이다. 부인의 눈이 삼각으로 생기면 남편을 죽이는 칼과 같다.",
+   "commentary": "이 전사본의 앞 인용에는 '刃' 자가 보이지 않아 이 풀이가 무엇을 가리키는지 분명하지 않다. 여성에게만 적용되며 남편을 죽인다는 낙인성 비유다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼生三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "세모진 윤곽이 어떤 측정 항목인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "violence",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-037",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "「頻偷視」，定無良籌。",
+   "translation": "「자주 훔쳐보면」 반드시 좋은 꾀가 없다.",
+   "commentary": "아홉 번째 구결이다. 훔쳐보는 행동은 시선·동작이라 형태 항목이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "頻偷視",
+     "observable_ko": "자주 훔쳐봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-038",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《頻偷視》者，謂談話之間，廣會之座，低目沈吟，常常用眼偷觀人者，乃為人心性不定，多疑智淺之象。",
+   "translation": "자주 훔쳐본다는 것은 이야기하는 사이나 많은 사람이 모인 자리에서 눈을 내리깔고 깊이 읊조리며 늘 눈으로 남을 훔쳐보는 자를 이르니, 사람됨이 마음과 성품이 안정되지 않고 의심이 많으며 지혜가 얕은 상이다.",
+   "commentary": "앞 구결의 주석이다. 눈을 내리깔고 훔쳐보는 것은 행동이라 형태 항목이 없다. 문헌은 이를 의심 많음과 지혜가 얕음(智淺)과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "低目沈吟，常常用眼偷觀人",
+     "observable_ko": "눈을 내리깔고 늘 남을 훔쳐봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-039",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "神清爽秀，長如鳳目，身顯作王侯。",
+   "translation": "신(神)이 맑고 시원하며 빼어나고, 길기가 봉황의 눈과 같으면 몸이 드러나 왕후가 된다.",
+   "commentary": "열 번째 구결이다. 신의 맑음은 형태가 아니며, '長'은 눈의 가로 길이를 직접 서술해 eye_size:large에 대응하나 봉황 눈 비유 자체는 형태로 쓰지 않았다. 문헌은 이를 왕후의 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神清爽秀",
+     "observable_ko": "눈의 기운이 맑고 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "長如鳳目",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-040",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "《神清秀》者，瞳子瑩潔，黑白分明，如曉星光射四遠也。",
+   "translation": "신이 맑고 빼어나다는 것은 눈동자가 밝고 깨끗하며 검은자와 흰자가 분명하여 새벽별의 빛이 사방 멀리 비치는 것과 같음이다.",
+   "commentary": "앞 구결의 '神清秀'를 풀이한 부분이다. 눈동자의 광택과 명암 대비는 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "瞳子瑩潔，黑白分明",
+     "observable_ko": "눈동자가 맑고 흑백이 분명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택·명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-041",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "「長如鳳」 者，鳳目細長入鬢極一寸五分，陰陽大富大貴，蜀關雲長，唐房元齡俱應。",
+   "translation": "「길기가 봉황과 같다」는 것은, 봉황의 눈은 가늘고 길어 귀밑머리에 들어가 지극하면 한 치 다섯 푼이니, 음양(두 눈)이 크게 부유하고 크게 귀하다. 촉의 관운장과 당의 방원령이 모두 이에 응하였다.",
+   "commentary": "봉황 눈을 '가늘고 길다(細長)'고 정의해 눈의 세로 개방이 좁고 가로가 긴 형태로 옮길 수 있다. 귀밑까지 들어간다·한 치 다섯 푼은 절대 길이 표현이라 근사로 두었다. 房元齡은 원문 표기대로 두었으며, 문헌은 역사 인물을 이 상의 예로 들었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "細長",
+     "observable_ko": "눈의 세로 개방이 좁아 가늚",
+     "status": "exact",
+     "label": "eye_roundness:narrow"
+    },
+    {
+     "region": "eye",
+     "evidence": "鳳目細長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "入鬢極一寸五分",
+     "observable_ko": "눈이 귀밑까지 길어 한 치 다섯 푼",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "절대 길이·귀밑 도달은 코호트 상대 분위 레이블과 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-042",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "論曰：「運限者，兩目管六年。左目三十三十一二，右目三十四五。",
+   "translation": "논(論)에 이르기를 「운한(運限)은 두 눈이 여섯 해를 관장한다. 왼눈은 서른·서른하나·둘, 오른눈은 서른셋·넷·다섯이다.",
+   "commentary": "얼굴 부위별 나이 운을 배정한 운한설이다. 원문의 숫자 나열은 그대로 옮겼으며 '右目三十四五'를 서른셋~서른다섯으로 읽는 것은 문맥상 추정이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-043",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "目有四神，黑子生在眼胞上者，貪婪作竊。",
+   "translation": "눈에는 네 신(神)이 있으니, 검은 사마귀가 눈꺼풀 위에 난 자는 탐욕스러워 도둑질한다.",
+   "commentary": "'四神'의 구체 뜻은 이 구절만으로 분명하지 않다. 눈꺼풀 위의 점은 특정 위치의 점이라 pigmented_marks:present의 근사 대응이다. 문헌은 이를 도둑질과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子生在眼胞上",
+     "observable_ko": "눈꺼풀 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블과 기준이 다르다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-044",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "眼下者，妨害氣色者，三陰三陽。",
+   "translation": "눈 아래의 것은 해친다. 기색(氣色)은 삼음삼양(三陰三陽)이다.",
+   "commentary": "구두점이 어긋나 보이며, 앞 문장을 이어 눈 아래의 검은 점이 해친다는 뜻으로 읽었으나 확실하지 않다. 삼음삼양은 눈 아래 부위의 이름으로 쓰인다. 해치는 대상은 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眼下者",
+     "observable_ko": "눈 아래에 (점이) 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "점이라는 대상이 생략되어 있고 특정 위치 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-045",
+   "section": "三曰目為監察官",
+   "region": "under_eye",
+   "original_text": "忽然生黑氣，深者二五日，淺者二七日，家宅不寧，陰人是非。",
+   "translation": "갑자기 검은 기운이 생기면, 깊은 것은 이오(二五)일, 얕은 것은 이칠(二七)일에 집안이 편치 않고 여자로 인한 시비가 있다.",
+   "commentary": "눈 아래 기색에 관한 서술로 색은 형태 항목이 아니다. 이오·이칠일은 열흘·열나흘로 읽을 수 있으나 원문대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "忽然生黑氣",
+     "observable_ko": "눈 아래에 검은 기운이 생김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-046",
+   "section": "三曰目為監察官",
+   "region": "under_eye",
+   "original_text": "紅者火災。",
+   "translation": "붉은 것은 화재다.",
+   "commentary": "눈 아래 기색이 붉은 경우로 색 서술이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "紅者",
+     "observable_ko": "눈 아래가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-047",
+   "section": "三曰目為監察官",
+   "region": "under_eye",
+   "original_text": "眼下鋪青者，連累口舌。",
+   "translation": "눈 아래에 푸른빛이 깔린 자는 말썽에 연루된다.",
+   "commentary": "눈 아래 색에 관한 서술로 형태 항목이 아니다. '口舌'은 말다툼·구설을 뜻한다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下鋪青",
+     "observable_ko": "눈 아래가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-048",
+   "section": "三曰目為監察官",
+   "region": "under_eye",
+   "original_text": "赤者官災，黑者破耗，黃明者最吉。",
+   "translation": "붉은 것은 관재(官災), 검은 것은 재물을 깨뜨리고 소모함이며, 누렇고 밝은 것이 가장 길하다.",
+   "commentary": "눈 아래 기색의 색깔별 판단이다. 관재는 관청·송사로 인한 재앙을 뜻한다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "赤者",
+     "observable_ko": "눈 아래가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "黑者",
+     "observable_ko": "눈 아래가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "黃明者",
+     "observable_ko": "눈 아래가 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-049",
+   "section": "三曰目為監察官",
+   "region": "under_eye",
+   "original_text": "陰人目下青者，喪夫，赤者產厄。",
+   "translation": "여인의 눈 아래가 푸른 자는 남편을 잃고, 붉은 자는 출산의 액이 있다.",
+   "commentary": "음인(陰人)은 여성을 가리킨다. 눈 아래 색 서술이라 형태 항목이 없으며, 남편의 죽음과 출산의 액이라는 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "陰人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "目下青",
+     "observable_ko": "눈 아래가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "kinship_harm",
+    "marriage",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-eye-050",
+   "section": "三曰目為監察官",
+   "region": "eye",
+   "original_text": "眼尾其色瑩白光」 潤者，主夫位增遷，財祿之喜。",
+   "translation": "눈꼬리의 색이 밝고 희며 빛나고 윤택한 자는 남편의 자리가 더하여 오름과 재물과 녹봉의 기쁨을 주관한다.",
+   "commentary": "눈꼬리 부위의 색과 윤기에 관한 서술로 형태 항목이 아니다. 인용 부호의 위치는 원문대로 두었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼尾其色瑩白光」 潤",
+     "observable_ko": "눈꼬리 색이 희고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "marriage"
+   ]
+  }
+ ]
+}

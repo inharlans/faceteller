@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-14",
+  "language": "ko",
+  "scope": "전체 release 요구사항 추적. CPU 정적감사/기존artifact 확인; 수용시험 완료 선언 아님.",
+  "ownership": [
+    "docs/release/requirements.json",
+    "docs/release/acceptance-plan.txt",
+    "docs/release/data-plan.txt"
+  ],
+  "source_precedence": [
+    "명시적 최신 사용자지시/current-directive 승인변경",
+    "최신 상세설계서 제출본(23쪽)",
+    "상세요구사항 명세서 제출본(14쪽)",
+    "실제 HTML 목업(화면 참고; 예시수치/구형흐름은규범아님)"
+  ],
+  "sources": [
+    {
+      "id": "directive",
+      "path": "docs/release/current-directive.txt",
+      "sha256": "eee516edf789a56c8fff3072c2082864aa78185d16453ec11ce7738cac158cf0"
+    },
+    {
+      "id": "design",
+      "path": "tmp/pilot-20261014/design.txt",
+      "sha256": "7829f7647782d55afbeee3519253bdf6221c6fde143b82d1d210a597f509dd08",
+      "original": "C:/Users/user/Downloads/FaceTeller_상세설계서_제출본.pdf"
+    },
+    {
+      "id": "requirements",
+      "path": "C:/Users/user/Documents/카카오톡 받은 파일/FaceTeller_상세요구사항 명세서_제출본.pdf",
+      "sha256": "45e475a5c6c1557a4634131a11987971894782036edcac591bac4b824cc2a79f",
+      "read_method": "14쪽 PDF text 추출; 기존설치 pypdfium2를 WindowsPython에서읽음;이미지그림픽셀감사아님"
+    },
+    {
+      "id": "mockup",
+      "path": "C:/Users/user/Documents/카카오톡 받은 파일/페이스텔러 프로토타입.html",
+      "sha256": "8503811b4fe38bc6c22ac414673805ae4b78be48d09fab0c4c1595dc782fcf4d",
+      "read_method": "HTML source/text"
+    }
+  ],
+  "excluded_source": "AI_관상_상세요구사항명세서_FaceTeller.docx (읽지 않음)",
+  "resolved_conflicts": [
+    {
+      "topic": "귀",
+      "older": "요구사항2.5 귀제외",
+      "effective": "최신설계5.3 귀포함(사선입력), 사용자new7 지시도일치"
+    },
+    {
+      "topic": "G",
+      "older": "설계5.5 CNN만",
+      "effective": "OV_G 혼합G; 특징별동일가중"
+    },
+    {
+      "topic": "인간검수",
+      "older": "독립검수없이초벌정답금지",
+      "effective": "인간검수제외 승인; automated/weak provenance를사실대로보존"
+    },
+    {
+      "topic": "목업",
+      "older": "단일이미지/분류신뢰도순 예시",
+      "effective": "3방향필수/혼합G/NDJSON최신설계 적용"
+    }
+  ],
+  "status_definitions": {
+    "pilot_implemented": "관련파일및기존파일럿증거존재; release수용완료아님",
+    "partial": "일부구현·중요gap존재",
+    "missing": "필수전체경로미구현",
+    "overridden": "원설계를명시승인으로대체",
+    "in_progress": "main진행;동결실험중단금지",
+    "not_verified": "증거/수용정의부족"
+  },
+  "evidence": [
+    {
+      "path": "outputs/pilot-20261014/contract-mixed-g-20261014T101704138440Z/contract_results.json",
+      "kind": "fixture+실제문헌+독립PG",
+      "counts": {
+        "tests": 38,
+        "pg_checks": 34
+      },
+      "limitation": "실제얼굴/GPU시험아님;기존report재검토"
+    },
+    {
+      "path": "outputs/pilot-20261014/mixed-service/live_verification.json",
+      "kind": "기존실제로컬HTTP",
+      "counts": {
+        "people": 62,
+        "photos": 186
+      },
+      "limitation": "옛10CNN+MemoryRepository14;새release검증아님"
+    },
+    {
+      "path": "outputs/pilot-20261014/ui_results.json",
+      "kind": "fixture/실제응답JSON재생",
+      "counts": {
+        "checks": 12
+      },
+      "limitation": "real_webcam=false;real_api=false"
+    },
+    {
+      "path": "data/derived/pilot-20261014/cohort_518.jsonl",
+      "kind": "기존깊이실측",
+      "counts": {
+        "measured": 400
+      },
+      "limitation": "전체최종pipeline400명완료아님"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "FR_001",
+      "source": "design 3.3,6.2; requirements FR_001",
+      "requirement": "실제 웹캠 얼굴·방향·크기·밝기 검사와 안내, 권한 거부→업로드",
+      "status": "partial",
+      "implementation_files": [
+        "web/pilot.js",
+        "web/pilot.html"
+      ],
+      "gap": "evaluateFrame 주입 hook만 있고 실제 검사기가 기본 연결되지 않음. 물리 카메라 검증 없음.",
+      "acceptance_ids": [
+        "A05"
+      ]
+    },
+    {
+      "id": "FR_002",
+      "source": "design 3.3",
+      "requirement": "연속 유지·이탈 초기화·stale 응답 무시·각 방향1회·3장 후1회 요청",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "web/pilot.js",
+        "facework/pilot_contract.py",
+        "tests/test_pilot_contract.py"
+      ],
+      "gap": "순수 상태/fixture 근거는 있으나 실제 detector·camera 결합 수용검증 필요.",
+      "acceptance_ids": [
+        "A05"
+      ]
+    },
+    {
+      "id": "FR_003",
+      "source": "design 3.4,6.1",
+      "requirement": "3슬롯 preview/검사, camera/upload 공통 InputSet, 같은 사람 3방향",
+      "status": "partial",
+      "implementation_files": [
+        "web/pilot.js",
+        "facework/pilot_contract.py",
+        "facework/pilot/runtime.py"
+      ],
+      "gap": "파일/디코딩/얼굴 검사는 있음. 실제 camera 동등경로와 동일인 입력 일관성 검증 미확인.",
+      "acceptance_ids": [
+        "A06",
+        "A23"
+      ]
+    },
+    {
+      "id": "FR_004",
+      "source": "design 4.2,6.1",
+      "requirement": "오류 코드·direction·HTTP/stream error 구분, 입력 방식 복귀·메모리 정리",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "facework/pilot/runtime.py",
+        "tests/test_pilot_contract.py",
+        "web/pilot.js"
+      ],
+      "gap": "fixture cleanup/오류 근거를 새 실제 release 서비스에도 재검증.",
+      "acceptance_ids": [
+        "A07",
+        "A08"
+      ]
+    },
+    {
+      "id": "FR_005",
+      "source": "design 5.2",
+      "requirement": "눈 중심 수평/눈 거리 scale/부위 crop/종횡비 letterbox/3장 특징점 전달",
+      "status": "partial",
+      "implementation_files": [
+        "facework/morphometrics.py",
+        "facework/pilot/design_preprocess.py",
+        "facework/pilot/runtime.py",
+        "facework/release_preprocess.py"
+      ],
+      "gap": "main이sharedv2 눈거리/등방전처리와이마ROI를수정·재캐시진행. train유효526프레임에서hairline밖330→0,귀2373crop원본pixel/affine parity검증. 최종모델학습/실서비스parity는main수용시험필요.",
+      "acceptance_ids": [
+        "A04"
+      ]
+    },
+    {
+      "id": "FR_006",
+      "source": "design 5.3,5.4",
+      "requirement": "12영역 CNN 관찰가능 레이블·보정 confidence·근거 및 4깊이 비율",
+      "status": "partial",
+      "implementation_files": [
+        "facework/pilot/runtime.py",
+        "data/label_schema_kface_v3.json",
+        "scripts/model_selection_train.py"
+      ],
+      "gap": "현 benchmark15visualheads/5부위. 신규7영역 전용 학습/검증/배포 없음. legacy19landmark회귀도 categorical calibrated 결과로 미연결.",
+      "acceptance_ids": [
+        "A03",
+        "A09",
+        "A10",
+        "A11"
+      ]
+    },
+    {
+      "id": "FR_007",
+      "source": "design 5.4",
+      "requirement": "theta 초기.60, binary≥.60/multiclass≥.50; 품질불량·미학습 보류; 확정없음 재입력",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "tests/test_pilot_contract.py",
+        "facework/pilot/runtime.py"
+      ],
+      "gap": "항목 실패를 전체 실패로 전파하지 않는 실제 깊이 예외경로 보강 필요. threshold는 validation만 사용.",
+      "acceptance_ids": [
+        "A12",
+        "A13"
+      ]
+    },
+    {
+      "id": "FR_008",
+      "source": "design 5.5 + OV_G",
+      "requirement": "확정 전체조건AND·중복제거·혼합G·동률문헌/순서/ID·모든 관련부위3·전체5",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "tests/test_pilot_contract.py",
+        "scripts/pilot_contract_check.py"
+      ],
+      "gap": "메모리/독립PG fixture 검증 있음. 전체 실제 corpus와 runtime PG 연결 미완료.",
+      "acceptance_ids": [
+        "A14",
+        "A15",
+        "A16"
+      ]
+    },
+    {
+      "id": "FR_009",
+      "source": "design 6.2",
+      "requirement": "얼굴 도해·확정/보류/문헌없음·원문/직역/해설/근거/출처·비예측 안내",
+      "status": "partial",
+      "implementation_files": [
+        "web/pilot.html",
+        "web/pilot.js",
+        "web/pilot.css"
+      ],
+      "gap": "목록/카드 구현, 얼굴 상태 도해 없음. 기존 실제응답 label 한글 깨짐 기록 있어 원천 문자검사 필요. React/TS 전환 필요.",
+      "acceptance_ids": [
+        "A17"
+      ]
+    },
+    {
+      "id": "FR_010",
+      "source": "design 6.2",
+      "requirement": "동일 결과로 A4한장, 원문·직역·출처·주요판정/근거, 해설제외·브라우저인쇄",
+      "status": "partial",
+      "implementation_files": [
+        "web/pilot.js",
+        "web/pilot.css",
+        "scripts/pilot/ui-check.cjs"
+      ],
+      "gap": "fixture 한장 근거만으로 충분하지 않음: 실제응답 재생PDF3장/overflow5장. multipage fallback은 A4한장 충족 아님.",
+      "acceptance_ids": [
+        "A18"
+      ]
+    },
+    {
+      "id": "ARCH_UI",
+      "source": "design 3.1",
+      "requirement": "React+TypeScript,6화면 공유 InputSet/AnalysisResult, 메모리 상태",
+      "status": "missing",
+      "implementation_files": [
+        "web/pilot.js",
+        "web/pilot.html"
+      ],
+      "gap": "현재 vanilla JS. 기존 목업의 화면/도해 참고하되 단일입력/과거점수 문구는 최신SSOT로 교체.",
+      "acceptance_ids": [
+        "A17"
+      ]
+    },
+    {
+      "id": "ARCH_API",
+      "source": "design 4.2,6.1",
+      "requirement": "단일 FastAPI, 필수 service injection, NDJSON 진행/terminal, 모델1회로딩",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "facework/pilot/runtime.py",
+        "scripts/pilot/serve.py"
+      ],
+      "gap": "release 모델/PG 자원 연결 및 startup readiness/동시요청 검증 필요.",
+      "acceptance_ids": [
+        "A07",
+        "A08",
+        "A22"
+      ]
+    },
+    {
+      "id": "ARCH_DEPTH",
+      "source": "design 4.2 + user dependency clarification",
+      "requirement": "DepthEstimator는3장+특징점; VGGT network에는RGB만, 3D mapping 후특징점 결합",
+      "status": "pilot_implemented",
+      "implementation_files": [
+        "facework/pilot/depth.py",
+        "facework/pilot/runtime.py"
+      ],
+      "gap": "구조 분리는 있음. 실제 품질 gate와 item별 실패복구 미완료.",
+      "acceptance_ids": [
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "DB_SCHEMA",
+      "source": "design 4.3",
+      "requirement": "literature/passage/label/label_passage PK/FK/BIGINT·전체조건조회·읽기전용서비스",
+      "status": "partial",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "scripts/pilot_contract_check.py"
+      ],
+      "gap": "독립PG17 시험 성공했으나 운영 migration/안정ID/role/read-only transaction 연결 없음. PG source에 review provenance 보존 경로도 없음.",
+      "acceptance_ids": [
+        "A15"
+      ]
+    },
+    {
+      "id": "DB_CORPUS",
+      "source": "design 4.3,5.5 + directive",
+      "requirement": "전체 참조 corpus 사전 원문·직역·해설·출처·조건/검증상태 적재",
+      "status": "partial",
+      "implementation_files": [
+        "data/interpretation_catalog_v1.json",
+        "data/interpretation_service_v1.json",
+        "data/type_rules_v3.json",
+        "facework/pilot_contract.py"
+      ],
+      "gap": "103조항 JOIN; full15/partial65/none23, draft허용선정14. 전체 corpus 범위·수집·자동검증은 Claude 담당. 미충족조건 삭제하여 eligible로 만들지 않음.",
+      "acceptance_ids": [
+        "A16"
+      ]
+    },
+    {
+      "id": "OV_G",
+      "source": "current-directive explicit override",
+      "requirement": "CNN confidence와 유효 depth measurement_score를 특징별동일가중 기하평균에 포함",
+      "status": "overridden",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "facework/pilot/scoring.py"
+      ],
+      "gap": "원설계CNN-only는 legacy explicit 비교용. depth-only도 유효점수로 경쟁; score는 정답확률아님.",
+      "acceptance_ids": [
+        "A14"
+      ]
+    },
+    {
+      "id": "OV_DEPTH",
+      "source": "current-directive explicit override",
+      "requirement": "400명분포 두경계 low/medium/high, Phi 경계 membership; confidence=null",
+      "status": "partial",
+      "implementation_files": [
+        "facework/pilot/scoring.py",
+        "data/derived/pilot-20261014/boundary_config.json",
+        "facework/pilot/depth.py"
+      ],
+      "gap": "현재P25/P75는 구현 선택, 사용자 지정분위수 아님. quality finite-only, repeat sigma는구276train 정의; 새270group과 구분 필요.",
+      "acceptance_ids": [
+        "A11",
+        "A21"
+      ]
+    },
+    {
+      "id": "OV_REVIEW",
+      "source": "current-directive human-review exclusion",
+      "requirement": "인간검수 요구 제외, AI/자동검증 출처 보존; 독립humanGT=0",
+      "status": "overridden",
+      "implementation_files": [
+        "data/annotations/kface_visual_v4_soft.json",
+        "data/annotations/kface_rater_agreement.json",
+        "facework/pilot_contract.py"
+      ],
+      "gap": "AI합의를 human-reviewed로 승격금지. 신규label은 로컬 자동/weak 상태와 unknown 보존. runtime draft와 PG provenance 정합화 필요.",
+      "acceptance_ids": [
+        "A03",
+        "A16",
+        "A24"
+      ]
+    },
+    {
+      "id": "DATA_SPLIT",
+      "source": "design 5.3 + directive",
+      "requirement": "400명전원활용·사람분리·split별평가·testfit금지",
+      "status": "partial",
+      "implementation_files": [
+        "models/selection-20261014/protocol.json",
+        "data/derived/kface/dataset_v3/participants.csv",
+        "scripts/model_selection_train.py"
+      ],
+      "gap": "270/34/34/62 benchmark 동결. 다른 manifest276/62/62와 섞지 않음. 전400 최종pipeline E2E 아직 없음.",
+      "acceptance_ids": [
+        "A02",
+        "A21"
+      ]
+    },
+    {
+      "id": "DATA_NEW7",
+      "source": "design 5.3",
+      "requirement": "이마·미간·애교살·광대·귀·인중·점 전용 관찰가능 target와입력",
+      "status": "partial",
+      "implementation_files": [
+        "data/label_schema_kface_v3.json",
+        "facework/pilot/runtime.py",
+        "facework/release_preprocess.py",
+        "facework/release_parsing.py",
+        "scripts/release/prepare_extended_labels.py",
+        "data/release/extended_schema.json",
+        "data/release/extended_labels.json",
+        "docs/release/extended-labels.txt"
+      ],
+      "gap": "후속CPU 작업으로400명 이마/귀weak target4개 및strict visible-mark target 생성. 표식train음성1/선정유효0으로자료부족. 신규7영역 모델학습/보정/배포는미완료;기존proxy/under_eye/philtrum_definition은main담당.",
+      "acceptance_ids": [
+        "A03",
+        "A09"
+      ]
+    },
+    {
+      "id": "MODEL_BENCHMARK",
+      "source": "user frozen CNN protocol",
+      "requirement": "3백본×3seed×5부위45학습;max12/min6/patience3;선정34·보정34",
+      "status": "in_progress",
+      "implementation_files": [
+        "scripts/model_selection_train.py",
+        "scripts/model_selection_evaluate.py",
+        "scripts/model_selection_report.py",
+        "models/selection-20261014/protocol.json"
+      ],
+      "gap": "현재15head legacy pipeline 선택일 뿐 새12영역/전처리 우승 증거아님. GPU main독점.",
+      "acceptance_ids": [
+        "A09",
+        "A10"
+      ]
+    },
+    {
+      "id": "MODEL_CALIBRATION",
+      "source": "design 5.3,5.4",
+      "requirement": "head별 보정·보류기준 validation 전용,클래스 mapping metadata",
+      "status": "partial",
+      "implementation_files": [
+        "outputs/pilot-20261014/cnn_fold0_calibration.json",
+        "scripts/model_selection_evaluate.py",
+        "facework/pilot/runtime.py"
+      ],
+      "gap": "현재runtime 이전fold0 두백본. 최종새전처리/모델용T·theta 다시fit. 빈class support, AI label 한계보고.",
+      "acceptance_ids": [
+        "A10",
+        "A13"
+      ]
+    },
+    {
+      "id": "NFR_LATENCY",
+      "source": "design 6.3; requirements4.2.1",
+      "requirement": "모델로딩후3장수신완료→최종응답5초이내",
+      "status": "partial",
+      "implementation_files": [
+        "outputs/pilot-20261014/mixed-service/live_verification.json",
+        "facework/pilot/runtime.py"
+      ],
+      "gap": "62명로컬HTTP mean.892/p95.912/max1.202초지만Memory14/옛10CNN. 새12영역+PG+HTTPS 경로는미검증.",
+      "acceptance_ids": [
+        "A20"
+      ]
+    },
+    {
+      "id": "NFR_PRIVACY",
+      "source": "design 2.1,4.2,6.1",
+      "requirement": "서비스사진·crop·원시좌표·분석이력 파일/DB/log/외부전송 금지;취소포함정리",
+      "status": "partial",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "facework/pilot/runtime.py",
+        "scripts/pilot/serve.py",
+        "web/pilot.js"
+      ],
+      "gap": "앱contract 증거 있음. 배포proxy body buffering/temp/log/core dump/외부호출·browserstorage 검증필요. 승인오프라인 연구자료와서비스저장구분.",
+      "acceptance_ids": [
+        "A08",
+        "A19"
+      ]
+    },
+    {
+      "id": "NFR_TRANSPORT",
+      "source": "design2.1,6.1; requirements2.3",
+      "requirement": "HTTPS·로컬Windows·원격은VPN, 공개배포없음",
+      "status": "missing",
+      "implementation_files": [
+        "scripts/pilot/serve.py"
+      ],
+      "gap": "현재127.0.0.1 HTTP만. 최종TLS/프록시무spool/카메라secure-context 수용시험 필요.",
+      "acceptance_ids": [
+        "A22"
+      ]
+    },
+    {
+      "id": "NFR_DATA_GOVERNANCE",
+      "source": "requirements2.5",
+      "requirement": "승인KFace 로컬·접근통제·외부AI사진전송/재식별금지·연구종료폐기",
+      "status": "not_verified",
+      "implementation_files": [
+        "facework/kface.py",
+        "data/raw/kface/zips"
+      ],
+      "gap": "허가범위/접근권한/폐기절차는 파일존재로 증명불가. 신규파싱과주석은 로컬만. 배포bundle에raw/derived사람자료제외.",
+      "acceptance_ids": [
+        "A19",
+        "A22",
+        "A24"
+      ]
+    },
+    {
+      "id": "NFR_NONPREDICTION",
+      "source": "design1.2,6.1",
+      "requirement": "형태와역사문헌조회 분리;성격/지능/건강/운명판정없음",
+      "status": "partial",
+      "implementation_files": [
+        "facework/pilot_contract.py",
+        "web/pilot.js",
+        "data/interpretation_service_v1.json"
+      ],
+      "gap": "고정안내 있음. 전체corpus 해설의개인화예측·의학명명 없는지 자동문안검사 필요.",
+      "acceptance_ids": [
+        "A16",
+        "A24"
+      ]
+    },
+    {
+      "id": "NFR_ACCURACY",
+      "source": "design6.3",
+      "requirement": "분할별형태일치·보정·coverage/보류율, 목표정확도별도확정",
+      "status": "not_verified",
+      "implementation_files": [
+        "outputs/model-selection-20261014/independent-audit.txt",
+        "scripts/model_selection_metrics.py"
+      ],
+      "gap": "목표정확도/희소head 수용하한은 SSOT에숫자없음. 임의합격수치 만들지않고 최종평가전동결. test62 retrospective.",
+      "acceptance_ids": [
+        "A09",
+        "A10",
+        "A21"
+      ]
+    }
+  ],
+  "implementation_updates": [
+    {
+      "date": "2026-10-14",
+      "scope": "후속 승인 CPU parsing",
+      "report": "docs/release/extended-labels.txt",
+      "people": 400,
+      "masks": 3600,
+      "ear_crops": 2373,
+      "ear_pixel_parity": "2373/2373",
+      "preprocess_version": "eye-centre-isotropic-v2",
+      "ear_transform_version": "visible-ear-isotropic-v1",
+      "train_threshold_fit_people": 270,
+      "mark_data_limit": "train absent1/present19; selection34 all unknown; not model-ready"
+    }
+  ]
+}

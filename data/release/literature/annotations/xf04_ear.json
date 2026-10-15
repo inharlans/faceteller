@@ -1,0 +1,250 @@
+{
+ "page_id": "xf04",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相耳篇第四"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF04-ear-001",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳高於目，合受他祿。 （作為人師也）",
+   "translation": "귀가 눈보다 높으면 마땅히 남의 녹을 받는다. (남의 스승이 된다.)",
+   "commentary": "괄호 안 '作為人師也'는 본문에 덧붙은 주석으로 보인다. 귀와 눈의 상하 위치 관계는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高於目",
+     "observable_ko": "귀 윗끝이 눈보다 높이 위치함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-002",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "高於眉一寸，永不踐貧困。",
+   "translation": "(귀가) 눈썹보다 한 치 높으면 영원히 빈곤을 밟지 않는다.",
+   "commentary": "앞 구절에 이어 귀의 위치를 절대 길이(한 치)로 말하며 해당 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "高於眉一寸",
+     "observable_ko": "귀가 눈썹보다 한 치 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치 레이블이 없고 절대 길이 기준이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-003",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳高輪廓，亦主安樂。",
+   "translation": "귀가 높고 윤곽(輪廓)이 있으면 또한 편안하고 즐거움을 주관한다.",
+   "commentary": "귀의 위치와 귀바퀴 윤곽에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高輪廓",
+     "observable_ko": "귀가 높고 윤곽이 뚜렷함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-004",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳有刀環，五等高官。",
+   "translation": "귀에 칼고리(刀環)가 있으면 다섯 등급의 높은 관직에 오른다.",
+   "commentary": "칼고리 비유는 귀의 둥근 윤곽을 뜻하는 듯하나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有刀環",
+     "observable_ko": "귀가 칼고리 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-005",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳門垂厚，富貴長久。",
+   "translation": "귀문(耳門)이 드리워지고 두터우면 부귀가 길고 오래다.",
+   "commentary": "'耳門'은 귀 앞 구멍 부위를 가리키는 말이나 '垂厚'와 함께 귓불의 드리움·두께를 말하는 것인지 불분명하다. 귀 두께 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門垂厚",
+     "observable_ko": "귀(귓불)가 드리워지고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께·귓불 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-006",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳門容筋，家貧易去。",
+   "translation": "귀문(耳門)에 힘줄이 들어 있으면 집이 가난하고 쉽게 떠난다.",
+   "commentary": "'容筋'과 '易去'의 구체적 뜻이 분명하지 않아 글자대로 옮겼다. 귀 앞 부위의 힘줄 형태는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門容筋",
+     "observable_ko": "귀문에 힘줄이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-007",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳有毫毛，長壽富貴，兼沒災殃。（毛若目能自見者吉。）",
+   "translation": "귀에 긴 털이 있으면 오래 살고 부귀하며, 아울러 재앙이 없다. (털이 만약 눈으로 스스로 볼 수 있을 정도면 길하다.)",
+   "commentary": "괄호 안은 본문에 덧붙은 주석으로 보인다. 귀털은 레이블 체계에 없다. 문헌은 이를 장수·부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有毫毛",
+     "observable_ko": "귀에 긴 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀털 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-008",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳如獸耳，自安自止。",
+   "translation": "귀가 짐승의 귀 같으면 스스로 편안하고 스스로 그친다.",
+   "commentary": "짐승 비유로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳如獸耳",
+     "observable_ko": "귀가 짐승 귀 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-009",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳門寬大，聰明財足。",
+   "translation": "귀문(耳門)이 너르고 크면 총명하고 재물이 넉넉하다.",
+   "commentary": "'耳門'은 귀 앞 구멍 부위로, 귀 전체의 너비를 말하는 정확 표현(耳闊·耳寬)이 아니어서 근사 대응이다. 문헌은 이를 총명·재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門寬大",
+     "observable_ko": "귀문이 너르고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:wide"
+     ],
+     "reason": "귀 전체가 아닌 귀문(귀 앞 구멍 부위)의 너비라 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-010",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳門薄小，命短食少。",
+   "translation": "귀문(耳門)이 얇고 작으면 목숨이 짧고 먹을 것이 적다.",
+   "commentary": "귀문의 얇음·작음은 귀 전체 크기를 말하는 정확 표현이 아니고 두께는 레이블이 없어 근사 대응이다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門薄小",
+     "observable_ko": "귀문이 얇고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:narrow",
+      "ear_length:short"
+     ],
+     "reason": "귀문 부위의 얇음·작음으로 귀 길이·너비의 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF04-ear-011",
+   "section": "相耳篇第四",
+   "region": "ear",
+   "original_text": "耳白於面，名滿赤縣。",
+   "translation": "귀가 얼굴보다 희면 이름이 적현(赤縣, 온 나라)에 가득하다.",
+   "commentary": "귀와 얼굴의 색 대비에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白於面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  }
+ ]
+}

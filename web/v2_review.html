@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>블라인드 검수 · K-FACE v2</title>
+<style>
+:root{--ink:#152636;--muted:#647483;--line:#dce2e7;--paper:#f5f6f8;--blue:#275af1}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 'Malgun Gothic',system-ui,sans-serif}
+main{max-width:1100px;margin:auto;padding:28px 20px}h1{font-size:24px;margin:4px 0}
+.muted{color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:14px}
+.imgs{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:12px;align-items:center}.imgs img{width:100%;border-radius:8px;background:#eef1f4}
+.opts{display:grid;gap:12px;margin-top:14px}.opts div{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.opts b{width:110px}
+label.o{border:1px solid var(--line);border-radius:18px;padding:4px 12px;cursor:pointer}label.o:has(input:checked){background:var(--blue);color:white;border-color:var(--blue)}label.o input{display:none}
+button,input[type=text]{font:inherit;border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:white}button.primary{background:var(--blue);color:white;border-color:var(--blue)}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+@media(max-width:800px){.imgs{grid-template-columns:1fr}}
+</style></head><body><main>
+<a href="/v2">← 관상 분석 v2</a>
+<h1>시각 레이블 블라인드 검수</h1>
+<p class="muted">AI 레이블은 보여주지 않습니다. 사진만 보고 판단하세요. 이 화면과 사진은 이 컴퓨터의 로컬 서버에서만 열리며, 승인된 이용자만 사용해야 합니다.</p>
+<div class="row"><input type="text" id="reviewer" placeholder="검수자 이름/코드"><span id="progress" class="muted"></span></div>
+<div class="card" id="panel"></div>
+</main><script>
+const $=id=>document.getElementById(id);let ITEMS=null,idx=0;
+const KO={brow_shape:{t:'눈썹 모양',straight:'일자형',arched:'완만한 곡선',angled:'꺾인 형',unknown:'가림·판정 불가'},brow_thickness:{t:'눈썹 굵기',thin:'가는 편',medium:'보통',thick:'굵은 편',unknown:'가림·판정 불가'},face_shape:{t:'얼굴형',oval:'달걀형',round:'둥근형',angular:'각진형',long:'긴형',unknown:'가림·판정 불가'}};
+function show(){const s=ITEMS.subjects[idx];const done=(ITEMS.done[$('reviewer').value]||[]);$('progress').textContent=`${idx+1} / ${ITEMS.subjects.length} · 이 검수자 저장 ${done.length}건`;
+ $('panel').innerHTML=`<div class="muted">참여자 ${s}${done.includes(s)?' · 저장됨':''}</div><div class="imgs"><img src="/api/v2/review/crop/${s}/brow_right" alt="오른쪽 눈썹"><img src="/api/v2/review/crop/${s}/brow_left" alt="왼쪽 눈썹(좌우 반전)"><img src="/api/v2/review/crop/${s}/face" alt="얼굴"></div>
+ <div class="opts">${Object.entries(ITEMS.tasks).map(([t,vals])=>`<div><b>${KO[t].t}</b>${vals.map(v=>`<label class="o"><input type="radio" name="${t}" value="${v}">${KO[t][v]}</label>`).join('')}</div>`).join('')}
+ <div><b>메모</b><input type="text" id="notes" style="flex:1"></div></div>
+ <div class="row" style="margin-top:14px"><button id="prev">이전</button><button class="primary" id="save">저장 후 다음</button><span id="msg" class="muted"></span></div>`;
+ $('prev').onclick=()=>{idx=Math.max(0,idx-1);show()};
+ $('save').onclick=async()=>{const body={subject_id:s,reviewer:$('reviewer').value.trim(),notes:$('notes').value};for(const t in ITEMS.tasks){const c=document.querySelector(`input[name=${t}]:checked`);if(!c){$('msg').textContent='세 항목을 모두 선택하세요.';return}body[t]=c.value}
+  if(!body.reviewer){$('msg').textContent='검수자 이름을 입력하세요.';return}
+  const r=await fetch('/api/v2/review',{method:'POST',headers:{'Content-Type':'application/json','X-Face-Workbench':'1'},body:JSON.stringify(body)});
+  if(!r.ok){$('msg').textContent='저장 실패: '+(await r.json()).detail;return}(ITEMS.done[body.reviewer]=ITEMS.done[body.reviewer]||[]).push(s);idx=Math.min(ITEMS.subjects.length-1,idx+1);show()}}
+fetch('/api/v2/review/items').then(r=>r.json()).then(j=>{ITEMS=j;show()});$('reviewer').oninput=()=>ITEMS&&show();
+</script></body></html>

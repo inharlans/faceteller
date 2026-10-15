@@ -1,0 +1,1430 @@
+{
+  "page_id": "gj636",
+  "annotator": "AI model draft (Codex), pinned-source translation; no human review",
+  "sections_complete": [],
+  "coverage_note": "기존 주석과 중복하지 않는 미주석 구간만 보충. 완결 여부는 파일 단독이 아닌 기존 파일과 합산해 검사한다.",
+  "passages": [
+    {
+      "passage_id": "SQ636CA-other-001",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "五代間有聖人陳摶，宋太祖賜其號曰：《希夷先生》。\n陳摶字圖南，自號扶搖子，精相法。嘗相宋太祖，後乘驢入小路，聞宋太祖即位，大笑墜地，曰：「天下定矣。」 太祖召至，以野服見，服華陽巾還山，賜號白雲先生。",
+      "translation": "오대 때 성인 진단(陳摶)이 있었는데 송 태조가 희이선생(希夷先生)이라는 호를 주었다. 진단의 자는 도남이고 스스로 부요자라 불렀으며 상법에 정통했다. 일찍이 송 태조의 상을 보았는데, 뒤에 나귀를 타고 작은 길에 들어갔다가 송 태조의 즉위를 듣고 크게 웃어 땅에 떨어지며 천하가 안정되었다고 말했다. 태조가 불러 이르자 야인의 옷으로 뵈었고 화양건을 쓰고 산으로 돌아가 백운선생이라는 호를 받았다.",
+      "commentary": "이 서문이 전하는 진단과 송 태조의 일화이다. 문헌 자체의 귀속 서술을 옮겼으며 독립 역사 검증을 뜻하지 않는다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-002",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "師麻衣。〈乃仙翁也〉學相諭以「冬深擁爐而教之。」希夷如期而往，至華山石室之中。\n《華山石室》乃麻衣先生修道之地也。後希夷亦隱於此。\n「不以言語而度」，與《希夷》隱而授之也。\n但用火著畫字於爐灰之中以傳授。此賦又名《金鎖賦》，又別有《銀匙歌》，悉皆授之，希夷盡其學也。",
+      "translation": "마의를 스승으로 삼았는데 그는 선옹이었다. 상법을 배울 때 깊은 겨울에 화로를 끼고 가르치겠다고 일러 주었다. 희이는 약속대로 가서 화산 석실에 이르렀다. 화산 석실은 마의선생이 도를 닦던 곳이며 뒤에 희이도 여기에 숨었다. 말로 전하지 않고 희이와 숨어서 전수하였는데, 다만 부젓가락으로 화로 재 속에 글자를 그려 전했다. 이 부는 금쇄부(金鎖賦)라고도 하며 따로 은시가(銀匙歌)가 있어 모두 전하니 희이가 그 학문을 다 배웠다.",
+      "commentary": "화로의 글씨로 전수했다는 서문의 계보 이야기이다. 본문은 마의를 스승으로 서술하지만 이 일화를 실제 전승의 독립 증거로 삼지 않는다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-003",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《賦》云：「相有前定，世無預知。」\n欲預知相之前定，都非奇妙異常之資不能知，然「密授此《書》」 者，又豈世俗凡下之人所能解推哉？意必希夷能之者。\n非神異以祕授，豈塵凡之解推。\n人之生也，富貴、貧愚、壽夭、福禍、善惡，一定於相之形貌、皮髮、骨格、氣色、聲音焉。世人無有能預知者，惟《希夷》而已。",
+      "translation": "부에서 상에는 앞서 정해진 것이 있으나 세상에는 미리 아는 이가 없다고 했다. 상에 앞서 정해진 것을 미리 알려면 기이하고 비상한 바탕이 없이는 알 수 없다. 이 책을 은밀히 전수받는 것 또한 어찌 세속의 평범한 사람이 이해하고 추론할 수 있겠는가. 뜻은 반드시 희이가 능하다는 것이다. 신이함으로 비밀히 전수하지 않으면 어찌 속인이 이해하고 추론하겠는가. 사람이 태어나 부귀·가난과 어리석음·장수와 요절·복과 화·선과 악은 모두 상의 형체·피부와 머리카락·골격·기색·목소리에서 정해진다. 세상에는 미리 알 수 있는 이가 없고 오직 희이뿐이라고 한다.",
+      "commentary": "외형으로 삶의 여러 결과가 정해진다는 서문의 총론이다. 구체적 형태 조건이나 검증된 인과관계가 아니다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "fortune_general",
+        "wealth",
+        "rank_office",
+        "intelligence",
+        "death_lifespan",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-eye-004",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "若夫「舜目重瞳」，遂獲禪堯之位。\n舜，虞帝名。瞳目童子也。舜有重瞳之異相。遂受帝堯之禪而有天下。",
+      "translation": "순의 눈에는 겹눈동자가 있어 마침내 요에게서 선양받는 지위를 얻었다. 순은 우제의 이름이며 동(瞳)은 눈동자이다. 순에게 겹눈동자라는 특이한 상이 있어서 요 임금의 선양을 받아 천하를 차지했다고 한다.",
+      "commentary": "重瞳은 눈동자에 관한 전승이다. 쌍꺼풀·눈 크기 레이블로 바꾸지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "重瞳",
+          "observable_ko": "겹눈동자",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-005",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「《重耳》駢脅」，果興霸晉之基。\n《重耳》，晉文公名駢，并也。文公有駢脅之奇骨果興晉室之基而成霸業也。",
+      "translation": "중이(重耳)는 갈비뼈가 나란히 붙어 과연 진나라 패업의 기초를 일으켰다. 중이는 진 문공의 이름이고 변(駢)은 나란함이다. 문공에게 갈비뼈가 나란히 붙은 기이한 뼈가 있어 진나라 왕실의 기초를 일으키고 패업을 이루었다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "駢脅",
+          "observable_ko": "갈비뼈가 나란히 붙음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-006",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "發石室之丹書，莫忘吾道。「剖神仙之古祕，度與希夷。」\n麻衣謂「今日開發石室寶冊之書。剖破古仙祕奧之傳。授爾希夷。吾之相法。盡於此矣。當念念不忘可也。」",
+      "translation": "석실의 붉은 책을 열어 나의 도를 잊지 말라. 신선의 오래된 비밀을 밝혀 희이에게 전한다. 마의가 오늘 석실의 보배로운 책을 열고 옛 신선의 비밀스러운 전승을 밝혀 너 희이에게 주니 내 상법은 여기에 다 있으므로 늘 생각하여 잊지 말아야 한다고 했다.",
+      "commentary": "서문 속 마의의 전수 발언을 그대로 옮겼다. 구체적인 형태 조건은 없다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-007",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "寺\n當知「骨格」為一世之榮枯，氣色定行年之休咎。\n「骨格無異」 ，相之體也，則一世之榮枯，可由此而知；「氣色旋生」 ，相之用也，則判行年之休咎，可由此而能。知者參之人之貴賤，思過半矣。",
+      "translation": "사[원문의 寺]는 골격이 한평생의 영화와 쇠퇴가 되고 기색이 해마다의 길흉을 정함을 알아야 한다. 골격은 달라지지 않으므로 상의 체가 되어 한평생의 영화와 쇠퇴를 여기서 알 수 있다. 기색은 그때그때 생기므로 상의 용이 되어 나이에 따른 길흉을 여기서 판단할 수 있다. 아는 이가 이를 사람의 귀천에 대조하면 생각한 바가 절반을 넘는다고 한다.",
+      "commentary": "첫 글자 寺와 원문 구두점을 임의로 고치지 않았다. 골격과 기색을 체·용으로 나눈 이론 설명이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-008",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《三停平等》，一生衣祿無虧。\n自髮際至印堂為上停，山根至於準頭為中停，人中至地閣為下停，此面上三停也，頭腰足為身上三停也。古云：「面上三停額鼻閣，身上三停足頭腰，三停平等多衣祿長短如差」 ，福不饒，則衣祿豐虧，於此可見矣。",
+      "translation": "삼정(三停, 세 부분)이 고르면 평생 의복과 녹에 부족함이 없다. 머리카락 경계에서 인당(印堂, 두 눈썹 사이)까지 상정, 산근(山根, 콧뿌리)에서 준두(準頭, 코끝)까지 중정, 인중에서 지각(地閣, 턱)까지 하정이니 얼굴의 삼정이다. 머리·허리·발은 몸의 삼정이다. 옛말에 얼굴의 삼정은 이마·코·턱이고 몸의 삼정은 발·머리·허리라 하며, 삼정이 고르면 의복과 녹이 많고 길이가 다르면 복이 넉넉하지 않다고 했으니 의식의 풍족함과 부족함을 여기서 볼 수 있다고 한다.",
+      "commentary": "각 부위의 서로 같은 길이는 집단 분위수의 long/short와 다르다. 하안면 비율 중간형으로 바꾸지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "三停平等",
+          "observable_ko": "얼굴과 몸의 세 부분 길이가 같음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "長短如差",
+          "observable_ko": "세 부분의 길이가 다름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-009",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "五嶽朝歸，今世錢財自旺。\n左顴為東嶽，右顴為西嶽，額為南嶽，地閣為北嶽，鼻為中嶽也。此五嶽欲其朝拱豐隆，不宜缺陷傷破。《混儀》云：「五嶽不正，相君終始薄寒。八卦高隆，須是多招財祿。」 則錢財旺相，於此知矣。",
+      "translation": "오악(五岳)이 향해 모이면 이 세상의 재물이 저절로 왕성하다. 왼 광대는 동악, 오른 광대는 서악, 이마는 남악, 턱은 북악, 코는 중악이다. 오악은 서로 향해 받들고 풍성하게 솟아야 하며 결함이나 손상이 있어서는 안 된다. 혼의(混儀)에서는 오악이 바르지 않으면 살펴보는 그 사람은 처음부터 끝까지 빈한하고, 팔괘 부위가 높이 솟으면 재물과 녹을 많이 부른다고 했다. 재물이 왕성함을 여기서 안다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "五嶽朝歸",
+          "observable_ko": "오악이 서로 향해 모임",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "朝拱豐隆",
+          "observable_ko": "오악이 향해 받들며 풍성하게 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "缺陷傷破",
+          "observable_ko": "오악의 결함·손상",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "八卦高隆",
+          "observable_ko": "팔괘 부위가 높게 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-chin-010",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「頦為《地閣》」，見晚歲之規模。\n豐厚者，富饒，尖削者，貧薄。凡相人末限在此，地閣為水星，屬下停，若推金水形人尤準也。",
+      "translation": "턱을 지각(地閣)이라 하며 늙은 때의 규모를 본다. 풍성하고 두터우면 부유하며 뾰족하고 깎이면 가난하고 빈약하다. 사람의 말년을 보는 한계가 여기에 있다. 지각은 수성(水星)으로 하정에 속하니 금형·수형 사람을 추론하면 더욱 정확하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "豐厚",
+          "observable_ko": "턱이 풍성하고 두터움",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "尖削",
+          "observable_ko": "턱이 뾰족하고 깎인 듯함",
+          "status": "approximate",
+          "candidate_labels": [
+            "chin_shape:pointed"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "金水形人",
+          "observable_ko": "금형·수형이라는 전통 체형 분류",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-nose-011",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "鼻乃「財星」，管中年之造化。\n《豐隆》端正者貴顯，掀露斜曲者下賤。凡相人中限在此，鼻乃土星，屬居中停，若推土形人最應。",
+      "translation": "코는 재성(財星)으로 중년의 변화를 맡는다. 풍성하게 솟고 단정하면 귀하게 드러나며, 들려 드러나고 비스듬히 굽으면 하천하다. 사람의 중년을 보는 한계가 여기에 있다. 코는 토성(土星)으로 중정에 있으니 토형 사람을 추론하면 가장 잘 맞는다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "豐隆",
+          "observable_ko": "코가 풍성하게 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high",
+            "nose_projection:high"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "端正",
+          "observable_ko": "코가 단정함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "掀露斜曲",
+          "observable_ko": "코가 들려 드러나고 비스듬히 굽음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "土形人",
+          "observable_ko": "토형이라는 전통 체형 분류",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-forehead-012",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「額方而闊」，初主榮華。骨有削偏，早年偃蹇。\n額為火星，乃官祿父母之宮，在限為初。若方正寬闊，必主初年榮華。其骨削偏陷，須早歲見不利矣。",
+      "translation": "이마가 모나고 넓으면 초년에 영화롭고, 뼈가 깎이거나 치우치면 젊어서 곤궁하다. 이마는 화성(火星)으로 관록과 부모의 궁이며 나이에서는 처음에 속한다. 모나고 바르며 넓으면 반드시 초년에 영화롭다. 그 뼈가 깎이고 치우치고 꺼지면 젊어서 불리함을 보게 된다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額方",
+          "observable_ko": "이마가 모남",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "而闊",
+          "observable_ko": "이마가 넓음",
+          "status": "exact",
+          "label": "forehead_width:wide"
+        },
+        {
+          "region": "forehead",
+          "evidence": "方正",
+          "observable_ko": "이마가 모나고 바름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "骨削偏陷",
+          "observable_ko": "이마뼈가 깎이고 치우치고 꺼짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-eye-013",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《目清眉秀》，定為聰俊之兒。\n《眉分羅計》「目屬陰陽。眉宜秀而不粗散低垂，目宜清而不昏暗斜視，知富貴早，必為聰明俊秀之人。」",
+      "translation": "눈이 맑고 눈썹이 빼어나면 반드시 총명하고 준수한 아이이다. 눈썹은 나후와 계도로 나뉘고 눈은 음양에 속한다. 눈썹은 빼어나고 거칠거나 성기거나 낮게 처지지 않아야 하며, 눈은 맑고 어둡거나 비스듬히 보지 않아야 하니 부귀가 이른 줄 알며 반드시 총명하고 준수한 사람이 된다고 한다.",
+      "commentary": "羅計는 전통 성명에 눈썹을 배당한 표현이다. 좋다는 평가를 특정 형태 class로 임의 변환하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目清眉秀",
+          "observable_ko": "눈이 맑고 눈썹이 빼어남",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "不粗散低垂",
+          "observable_ko": "눈썹이 거칠거나 성기거나 낮게 처지지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "eye",
+          "evidence": "不昏暗斜視",
+          "observable_ko": "눈이 어둡거나 비스듬히 보지 않음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-014",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "氣濁神枯，必是貧窮之漢。\n相中言神氣最多，人所難辨。觀夫白閣道者云：「神氣者，百閱之秀裔也。」 如陽氣舒而山川秀發，日月出而天地清明，在人為一身之主，諸相之驗。故《清鑑》云：「大都神氣賦於人，有似油兮又似燈。氣神不濁人自富，油清然後燈方明。」 然則神氣濁枯者終身不達之相也。",
+      "translation": "기가 탁하고 정신이 마르면 반드시 가난한 사람이다. 상에서 정신과 기를 가장 많이 말하나 사람들이 분별하기 어렵다. 백각도자는 정신과 기가 온갖 살핌의 빼어난 후예라고 했다. 양기가 펴지면 산천이 빼어나고 해와 달이 나오면 천지가 맑듯이, 사람에게는 한 몸의 주인이며 여러 상의 증험이다. 청감에서는 대체로 정신과 기는 사람에게 주어져 기름과 등불 같으며, 기와 정신이 탁하지 않으면 사람이 저절로 부유하고 기름이 맑아야 등불이 밝다고 했다. 그러므로 정신과 기가 탁하고 마르면 평생 뜻을 이루지 못할 상이라고 한다.",
+      "commentary": "정신과 기를 기름·등불에 비유한 문헌의 이론이다. 百閱은 고정 원문대로 살핌을 뜻하는 문자로 옮겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "神氣濁枯",
+          "observable_ko": "정신과 기가 탁하고 마름",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-forehead-015",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《天庭高聳》，少年富貴可期。\n天庭位印堂之上，髮際之下，以其處於至高之位，故曰「天庭。」 宜高聳，如立壁覆肝，無瑟絞偏陷，更兼五嶽朝拱，幼必顯貴。",
+      "translation": "천정(天庭, 이마 윗부분)이 높게 솟으면 젊어서 부귀를 기약할 수 있다. 천정은 인당 위와 머리카락 경계 아래에 있으며 가장 높은 곳에 있어 천정이라 한다. 높게 솟아 세운 벽이나 엎은 간 같고, 슬교(瑟絞)나 치우쳐 꺼짐이 없으며 오악(五岳)이 향해 받들기까지 하면 어릴 때 반드시 귀하게 드러난다고 한다.",
+      "commentary": "高聳은 이마 높이와 돌출을 구별하지 않아 approximate이다. 瑟絞의 뜻은 불확실하여 원문자를 남겼다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "天庭高聳",
+          "observable_ko": "천정이 높게 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "forehead_height:high"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "如立壁覆肝",
+          "observable_ko": "세운 벽이나 엎은 간 같은 모양",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "無瑟絞偏陷",
+          "observable_ko": "瑟絞 또는 치우쳐 꺼짐이 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "五嶽朝拱",
+          "observable_ko": "오악이 향해 받듦",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-chin-016",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《地閣》在承漿之下，頤頦之間，為田宅奴婢之宮。若方則貴，厚則富可期；薄則貧，方又圓，末主榮華。",
+      "translation": "지각(地閣, 턱)은 승장(承漿, 아랫입술 아래 오목한 곳) 아래와 턱 사이에 있어 전택과 노비의 궁이다. 모나면 귀하고 두터우면 부를 기약할 수 있으며, 얇으면 가난하다. 모나면서 또 둥글면 말년에 영화를 주관한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "若方",
+          "observable_ko": "턱이 모난 경우",
+          "status": "approximate",
+          "candidate_labels": [
+            "chin_shape:square"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "chin",
+          "evidence": "厚",
+          "observable_ko": "턱이 두터움",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "薄",
+          "observable_ko": "턱이 얇음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "方又圓",
+          "observable_ko": "턱이 모나면서 둥글다는 복합 표현",
+          "status": "approximate",
+          "candidate_labels": [
+            "chin_shape:rounded",
+            "chin_shape:square"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-eye-017",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "視瞻平正，為人剛介平心。\n視不欲偏斜。若斜視者。其人奸邪。心必險惡。正視。心地坦直。志氣剛介耳。",
+      "translation": "바라봄이 평정하면 사람됨이 강직하고 마음이 공평하다. 보는 것은 치우치거나 비스듬하지 않아야 한다. 비스듬히 보면 그 사람이 간사하고 마음이 반드시 험악하다. 바르게 보면 마음이 솔직하고 의지가 강직할 뿐이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "斜視",
+          "observable_ko": "비스듬히 봄",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "eye",
+          "evidence": "正視",
+          "observable_ko": "바르게 봄",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "malice_deceit"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-018",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "冷笑無情作事機深內重。\n凡與謀為，惟冷笑而不言情由者，其人機謀必深而難測，心量必重而不輕也。",
+      "translation": "무정하게 냉소하면 일을 하는 기략이 깊고 속이 무겁다. 함께 일을 도모할 때 오직 냉소하고 사정을 말하지 않는 사람은 계략이 반드시 깊어 헤아리기 어렵고 마음의 헤아림이 무거워 가볍지 않다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "冷笑而不言情由",
+          "observable_ko": "냉소하며 사정을 말하지 않는 행동",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-nose-019",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "準頭豐大心無毒，面肉橫生性必凶。\n準頭「為土星」 ，主乎信。若豐大如獅子截竹者，心必善。如鷹嘴者，性多毒也　。「面肉」 即顴骨，與肉俱露而橫生者，其性必凶暴。",
+      "translation": "준두(準頭, 코끝)가 풍성하고 크면 마음에 독이 없고, 얼굴 살이 가로 자라면 성품이 반드시 흉하다. 코끝은 토성(土星)으로 신의를 주관한다. 풍성하고 커서 사자나 자른 대나무 같으면 마음이 반드시 선하고, 매의 부리 같으면 성품에 독함이 많다. 얼굴 살은 곧 광대뼈로서 뼈와 살이 함께 드러나 가로 자라면 성품이 반드시 흉폭하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準頭豐大",
+          "observable_ko": "코끝이 풍성하고 큼",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_tip:rounded"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "如獅子截竹",
+          "observable_ko": "사자나 자른 대나무 같은 코끝",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "如鷹嘴",
+          "observable_ko": "매 부리 같은 코",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "與肉俱露而橫生",
+          "observable_ko": "광대뼈와 살이 함께 드러나 가로 자람",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "violence",
+        "malice_deceit"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-020",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "智慧生於皮毛，苦樂觀乎手足。\n皮膚細膩光瑩，毛髮疏秀潤澤者，主智慧聰明。若反此者，必「粗俗之人也　。」 手指節枯大粗硬，足背瘦長乾燥者，其人必辛苦。手若細軟潤澤，足若骨肉圓肥者，其人必然逸樂。",
+      "translation": "지혜는 피부와 털에서 생기고 괴로움과 즐거움은 손발에서 살핀다. 피부가 섬세하고 맑게 빛나며 털이 성기고 빼어나며 윤택하면 지혜롭고 총명하다. 반대이면 반드시 거칠고 속된 사람이다. 손가락 마디가 마르고 크며 거칠고 단단하고 발등이 마르고 길며 건조하면 반드시 고생한다. 손이 섬세하고 부드러우며 윤택하고 발의 골육이 둥글고 살찌면 반드시 편안하고 즐겁다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "皮膚細膩",
+          "observable_ko": "피부가 섬세함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "光瑩",
+          "observable_ko": "피부가 맑게 빛남",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "毛髮疏秀",
+          "observable_ko": "털이 성기고 빼어남",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "潤澤",
+          "observable_ko": "윤택함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "手指節枯大粗硬",
+          "observable_ko": "손가락 마디가 마르고 크며 거칠고 단단함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "足背瘦長乾燥",
+          "observable_ko": "발등이 마르고 길고 건조함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "手若細軟",
+          "observable_ko": "손이 섬세하고 부드러움",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "骨肉圓肥",
+          "observable_ko": "발의 골육이 둥글고 살찜",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-forehead-021",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「《髮際低》而《皮膚粗》」，終見愚頑；「《指節細》而《腳背肥》」，須知俊雅。\n髮際「若額而低。」 皮膚燥枯而粗者，畢竟愚頑之徒也　。指節細潤如春蔥。腳背肥豐而有肉者，必俊秀閑雅之人也。",
+      "translation": "머리카락 경계가 낮고 피부가 거칠면 끝내 어리석고 완고하며, 손가락 마디가 가늘고 발등이 살찌면 준수하고 우아함을 알아야 한다. 머리카락 경계가 이마 같으며 낮고 피부가 마르고 거칠면 결국 어리석고 완고한 무리이다. 손가락 마디가 봄 파처럼 가늘고 윤택하며 발등이 풍성하고 살이 있으면 반드시 준수하고 한가롭고 우아한 사람이라고 한다.",
+      "commentary": "若額은 뜻이 매끄럽지 않아 원문 뜻을 보수적으로 옮겼다. 헤어라인 위치를 이마 피부 높이 레이블과 동일시하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "髮際低",
+          "observable_ko": "머리카락 경계가 낮음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "皮膚燥枯而粗",
+          "observable_ko": "피부가 마르고 거침",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "指節細潤如春蔥",
+          "observable_ko": "손가락 마디가 봄 파처럼 가늘고 윤택함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "腳背肥豐而有肉",
+          "observable_ko": "발등이 풍성하고 살이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-022",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "富者自然體厚，貴者定是形殊。\n體貌豐隆者，《倉庫形相》異常而必貴。清奇者，骨格無虧而必富。",
+      "translation": "부자는 자연히 몸이 두텁고 귀한 사람은 반드시 형체가 남다르다. 몸의 모습이 풍성하게 솟은 것은 창고의 형상으로 비상하여 반드시 귀하다. 맑고 기이한 것은 골격에 결함이 없어 반드시 부유하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "體貌豐隆",
+          "observable_ko": "몸의 모습이 풍성하게 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "形相》異常",
+          "observable_ko": "모습이 비상함",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "清奇",
+          "observable_ko": "맑고 기이함",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "骨格無虧",
+          "observable_ko": "골격에 결함이 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-forehead-023",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "南方貴宦清高，多主天庭豐闊。\n南方以天庭為主，天庭為額，乃火星也。南方之人，若頭額豐闊而不偏陷，官祿星得躔，故多為清高貴宦人也。",
+      "translation": "남방의 귀한 관리가 청고한 것은 대체로 천정(天庭, 이마 윗부분)이 풍성하고 넓기 때문이다. 남방에서는 천정을 중심으로 삼고 천정은 이마이며 화성이다. 남방 사람이 머리와 이마가 풍성하고 넓으며 치우쳐 꺼지지 않으면 관록성이 제자리를 얻어 청고한 귀한 관리가 되는 일이 많다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "南方之人",
+          "observable_ko": "남방 사람이라는 대상 제한",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "天庭豐闊",
+          "observable_ko": "이마가 넓음",
+          "status": "exact",
+          "label": "forehead_width:wide"
+        },
+        {
+          "region": "forehead",
+          "evidence": "豐",
+          "observable_ko": "이마가 풍성함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "不偏陷",
+          "observable_ko": "이마가 치우쳐 꺼지지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-chin-024",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《北方公侯大貴》，皆由「地閣寬隆」；\n北方以地閣為主，地閣為頦，乃水星也。北方之人若頤頦寬隆而朝天庭，若臣相得局，故多為大貴公侯也。",
+      "translation": "북방의 공후가 크게 귀한 것은 모두 지각(地閣, 턱)이 넓고 솟았기 때문이다. 북방에서는 지각을 중심으로 삼고 지각은 턱이며 수성이다. 북방 사람이 턱이 넓고 솟아 천정을 향하면 마치 신하가 형세를 얻은 듯하여 크게 귀한 공후가 되는 경우가 많다고 한다.",
+      "commentary": "若臣相得局은 원문 글자를 따른 비유로 옮겼다. 턱의 향함만으로 정량적 전방 돌출을 확정하지 않는다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "北方之人",
+          "observable_ko": "북방 사람이라는 대상 제한",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "頤頦寬隆",
+          "observable_ko": "턱이 넓고 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "朝天庭",
+          "observable_ko": "턱이 이마를 향함",
+          "status": "approximate",
+          "candidate_labels": [
+            "chin_projection:prominent"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-chin-025",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《重頤豐頷》北方之人貴且強。\n頦頤肥大而若重，兩腮頷闊而如燕頷者，貴相。北人尤強。",
+      "translation": "이중턱과 풍성한 턱이면 북방 사람은 귀하고 강하다. 턱이 크고 살쪄 겹친 듯하고 두 뺨과 턱이 넓어 제비 턱 같으면 귀한 상이다. 북방 사람에게 특히 강하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "頦頤肥大而若重",
+          "observable_ko": "턱이 크고 살쪄 겹친 듯함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "兩腮頷闊",
+          "observable_ko": "두 턱옆이 넓음",
+          "status": "exact",
+          "label": "jaw_width:wide"
+        },
+        {
+          "region": "chin",
+          "evidence": "如燕頷",
+          "observable_ko": "제비 턱 같은 모양",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "北方之人",
+          "observable_ko": "북방 사람이라는 대상 제한",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-026",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "駝背面田，南方之人富而足。\n駝背豐厚類駝峰，面貌方圓如田字。南方之人有此相者，既云富足矣。觀夫上文有曰：「南方貴宦清高，多主天庭」 ，似乎相戾。及觀《廣鑑》云：「浙人俗於清，若面背豐厚，得北方厚重之相，不貴而富矣。」",
+      "translation": "곱사등이고 얼굴이 전(田)자이면 남방 사람은 부유하고 넉넉하다. 등이 두텁게 솟아 낙타 봉우리 같고 얼굴이 모나고 둥글어 전자 같으면, 남방 사람이 이런 상을 지녀 부유하다고 한다. 앞에서 남방의 귀한 관리가 청고한 것은 천정 때문이라고 한 것은 서로 어긋나는 듯하다. 그러나 광감에서는 절강 사람은 풍속상 맑은데 얼굴과 등이 두터우면 북방의 후중한 상을 얻어 귀하지 않아도 부유하다고 했다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "駝背豐厚類駝峰",
+          "observable_ko": "등이 두텁게 솟아 낙타 봉우리 같음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "面貌方圓如田字",
+          "observable_ko": "얼굴이 모나고 둥글어 田자 같음",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "南方之人",
+          "observable_ko": "남방 사람이라는 대상 제한",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-eye-027",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "河目海口，食祿千鍾。\n眼為四瀆之官河也，口為百納之官海也。目若光明而不露，口若方正而不反貴顯食祿千鍾，謂之河目。《海口》者，言有容納而不反露也。",
+      "translation": "하목(河目, 강에 비긴 눈)과 해구(海口, 바다에 비긴 입)는 천 종의 녹을 먹는다. 눈은 사독의 관인 강이며 입은 온갖 것을 받는 관인 바다이다. 눈이 밝고 드러나지 않으며 입이 모나고 바르고 뒤집히지 않으면 귀하게 드러나 천 종의 녹을 먹는 것을 하목이라 한다. 해구는 받아들이되 뒤집혀 드러나지 않는다는 말이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目若光明",
+          "observable_ko": "눈이 밝음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "eye",
+          "evidence": "而不露",
+          "observable_ko": "눈이 드러나지 않음",
+          "status": "approximate",
+          "candidate_labels": [
+            "eye_depth:deep"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口若方正而不反",
+          "observable_ko": "입이 모나고 바르며 뒤집히지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-brow-028",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "鐵面劍眉，兵權萬里。\n「鐵面」 者，神氣黑若鐵色也；「劍眉」 者，稜骨如劍脊也。此相乃羅討橫行於天位，水氣遠居於火方，非兵權萬里之兆歟？言神氣忽變而黑色，定主凶也。",
+      "translation": "철면(鐵面, 쇠 같은 얼굴)과 검미(劍眉, 칼 같은 눈썹)는 만 리의 병권을 가진다. 철면은 정신과 기색이 쇠처럼 검은 것이고 검미는 눈썹마루 뼈가 칼등 같은 것이다. 이 상은 나토(羅討)가 천위에서 가로 다니고 수기가 화방에 멀리 거한 것이니 만 리 병권의 징조가 아니겠는가. 정신과 기색이 갑자기 변해 검어지는 것은 반드시 흉함을 주관한다고 한다.",
+      "commentary": "羅討는 고정 전사본의 글자를 남겼다. 검미를 눈썹털의 각진 모양으로 바꾸지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "神氣黑若鐵色",
+          "observable_ko": "정신과 기색이 쇠처럼 검음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "brow",
+          "evidence": "稜骨如劍脊",
+          "observable_ko": "눈썹마루 뼈가 칼등 같음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-029",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《龍顏鳳頸》女，人必配君王。\n《龍》貌如龍光之秀異，而頸若彩鳳之非常，乃后妃之相也。",
+      "translation": "용의 얼굴과 봉황의 목이면 여자는 반드시 군왕의 짝이 된다. 모습이 용의 광채처럼 빼어나고 목이 채색 봉황처럼 비상하면 후비의 상이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "龍》貌如龍光之秀異",
+          "observable_ko": "얼굴이 용의 광채처럼 빼어남",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "頸若彩鳳之非常",
+          "observable_ko": "목이 채색 봉황처럼 비상함",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "女，人",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "marriage",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-030",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "燕頷虎頭，男子定登將相。\n《頷》在頦額之間，骨肉豐滿，稍起者，如燕頷也。頭頷方圓，口眼俱大，視有威神者，如虎頭也。男子有此者，超群之相也。",
+      "translation": "제비 턱과 범 머리이면 남자는 반드시 장수와 재상에 오른다. 함(頷)은 턱과 이마 사이에 있으며 골육이 풍만하고 조금 솟은 것이 제비 턱 같다. 머리와 턱이 모나고 둥글며 입과 눈이 모두 크고 바라봄에 위엄 있는 정신이 있으면 범 머리 같다. 남자가 이러하면 무리보다 뛰어난 상이라고 한다.",
+      "commentary": "원문의 頦額은 턱과 이마로 그대로 옮겼다. 동물 비유의 설명에 실제 명시된 입·눈 크기만 각각 조건화했다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "骨肉豐滿，稍起",
+          "observable_ko": "턱의 골육이 풍만하고 조금 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "頭頷方圓",
+          "observable_ko": "머리와 턱이 모나고 둥긂",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口眼俱大",
+          "observable_ko": "입이 큼",
+          "status": "exact",
+          "label": "mouth_width:wide"
+        },
+        {
+          "region": "eye",
+          "evidence": "口眼俱大",
+          "observable_ko": "눈이 큼",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "eye",
+          "evidence": "視有威神",
+          "observable_ko": "바라봄에 위엄이 있음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "subject",
+          "evidence": "男子",
+          "observable_ko": "남성 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-philtrum-031",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《相中訣法》，壽夭最難，不獨人中，惟神是定。\n相書中訣法，惟壽夭為最難，如郭林宗觀人八法，而不及壽夭者非難，而何不獨曰：「人中為保壽宮」 ，欲分明如破竹之形者，壽夭當以神氣為之主也。學者宜參之可矣。",
+      "translation": "상법의 비결에서 수명과 요절이 가장 어려우니 인중만이 아니라 정신으로 정한다. 상서의 비결에서는 수명과 요절만이 가장 어렵다. 곽임종이 사람을 보는 여덟 법에서 수명과 요절에 미치지 않은 것이 어렵지 않아서라면 어째서겠는가. 인중을 보수궁(保壽宮)이라고만 할 것이 아니라 쪼개 놓은 대나무 모양처럼 분명해야 한다. 수명은 정신과 기를 중심으로 삼아야 하니 배우는 이는 참조해야 한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "分明如破竹之形",
+          "observable_ko": "인중이 쪼갠 대나무처럼 분명함",
+          "status": "approximate",
+          "candidate_labels": [
+            "philtrum_definition:clear"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "神氣",
+          "observable_ko": "정신과 기",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-eye-032",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "目長《輔采》，榮登天府之人；神短無光，早赴幽冥之客。\n《輔》即星輔眉也。「采」 即光也。若目細長而有神，眉清秀而有光，必聰明登第之士也　。目神短促而無光，視瞻無力而昏暗者，主夭折。",
+      "translation": "눈이 길고 보좌하는 광채가 있으면 천부에 영화롭게 오르는 사람이고, 정신이 짧고 빛이 없으면 일찍 저승에 가는 손님이다. 보(輔)는 별이 보좌하는 눈썹이며 채(采)는 빛이다. 눈이 가늘고 길며 정신이 있고 눈썹이 맑고 빼어나며 빛이 있으면 반드시 총명하여 과거에 합격하는 선비이다. 눈의 정신이 짧고 급하며 빛이 없고, 바라봄이 힘없고 어두우면 요절을 주관한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目細長",
+          "observable_ko": "눈이 가늚",
+          "status": "exact",
+          "label": "eye_roundness:narrow"
+        },
+        {
+          "region": "eye",
+          "evidence": "目細長",
+          "observable_ko": "눈이 긺",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "eye",
+          "evidence": "而有神",
+          "observable_ko": "눈에 정신이 있음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "brow",
+          "evidence": "眉清秀",
+          "observable_ko": "눈썹이 맑고 빼어남",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "而有光",
+          "observable_ko": "눈썹에 빛이 있음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "eye",
+          "evidence": "目神短促而無光",
+          "observable_ko": "눈의 정신이 짧고 급하며 빛이 없음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "eye",
+          "evidence": "視瞻無力而昏暗",
+          "observable_ko": "바라봄이 힘없고 어두움",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "intelligence",
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-033",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "面皮虛薄，後三十壽難再期。\n虛者，肉不稱骨也。薄者，有皮而無肉也。故《經》云：「面皮急如鼓，不過三十五。」 此之謂也。",
+      "translation": "얼굴 피부가 허하고 얇으면 서른 뒤의 수명을 다시 기약하기 어렵다. 허하다는 것은 살이 뼈에 어울리지 않는 것이고, 얇다는 것은 피부만 있고 살이 없는 것이다. 경에서 얼굴 피부가 북처럼 팽팽하면 서른다섯을 넘지 못한다고 했으니 이를 말한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面皮虛薄",
+          "observable_ko": "얼굴 피부가 허하고 얇음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "肉不稱骨",
+          "observable_ko": "살이 뼈에 어울리지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "有皮而無肉",
+          "observable_ko": "피부는 있고 살은 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "face",
+          "evidence": "面皮急如鼓",
+          "observable_ko": "얼굴 피부가 북처럼 팽팽함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-034",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "肉色輕浮，前《四九》如何可過。\n肉者，骨之榮衛，體之基本也。色者，氣之精粹，神之胎息也。肉宜稱骨而實，色宜有氣而顯，若輕薄浮暗者，必夭。故《經》云：「肉緩筋寬色又嫩，三十六前是去程。」 正此之謂也。",
+      "translation": "살과 빛이 가볍고 뜨면 네 번 아홉 이전을 어떻게 넘겠는가. 살은 뼈를 두르고 지키며 몸의 근본이고, 빛은 기의 정수이며 정신의 태식이다. 살은 뼈에 어울리고 실해야 하며 빛은 기가 있어 드러나야 한다. 가볍고 얇고 뜨고 어두우면 반드시 요절한다. 경에서 살이 느슨하고 힘줄이 넓으며 빛이 또 연하면 서른여섯 전에 떠날 길이라고 했으니 이를 말한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "肉緩筋寬",
+          "observable_ko": "살이 느슨하고 힘줄이 넓음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "色又嫩",
+          "observable_ko": "빛이 연함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "輕薄",
+          "observable_ko": "살이 가볍고 얇음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "浮暗",
+          "observable_ko": "빛이 뜨고 어두움",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-face-035",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《雙絛項下》遇休咎而愈見「康強。」\n蘭臺左右有兩紋，下至于項者，謂之壽絛，主壽。老人有此絛，若遇休囚而不凶，愈見其康吉矣。故《經》云：「眉毫不如耳毫，耳毫不如項下絛也。」",
+      "translation": "목 아래 두 줄의 띠가 있으면 길흉을 만나도 더욱 건강하고 강함이 드러난다. 난대(蘭臺, 콧방울 부위) 좌우의 두 주름이 목까지 내려가면 수조(壽絛, 수명의 띠)라 하여 장수를 주관한다. 노인에게 이 띠가 있으면 쇠하고 갇히는 때를 만나도 흉하지 않고 더욱 건강하고 길하다고 한다. 그래서 경에서 눈썹의 긴 털은 귀의 긴 털만 못하고 귀의 긴 털은 목 아래 띠만 못하다고 했다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "左右有兩紋，下至于項",
+          "observable_ko": "난대 좌우 주름 두 줄이 목까지 내려감",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "subject",
+          "evidence": "老人",
+          "observable_ko": "노인 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "brow",
+          "evidence": "眉毫",
+          "observable_ko": "긴 눈썹털",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "ear",
+          "evidence": "耳毫",
+          "observable_ko": "귀의 긴 털",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "health_disease"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-036",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "凡骨頂頭中有疾厄，而終無艱險。\n一作「凡骨頂中」 ，蓋謂頂額有凡貴骨，然人難得俱全，恐非是，終不若凡骨頂中為有理，但凡有奇骨。\n生於頂中者，雖有疾厄，而終無危險。古云：「面無善靨，頭無惡骨」 ，此其證者也。",
+      "translation": "범골(凡骨)이 머리 꼭대기 가운데 있으면 병과 어려움이 있어도 끝내 위험하지 않다. 어떤 본에는 범골이 꼭대기 가운데 있다고 하였으니 머리꼭대기와 이마에 범귀골이 있음을 이르는 듯하나, 사람이 모두 갖추기 어려워 아닐 듯하며 결국 범골이 꼭대기 가운데 있다는 쪽이 이치에 맞는다. 무릇 기이한 뼈가 정수리에 있으면 병과 어려움이 있어도 끝내 위험이 없다. 옛말에 얼굴에는 좋은 점이 없고 머리에는 나쁜 뼈가 없다고 했으니 이것이 증거라고 한다.",
+      "commentary": "凡骨·凡貴骨은 전사본의 이문 논의를 그대로 옮겼다. 특정 돌출 위치를 임의 추정하지 않는다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "奇骨。生於頂中",
+          "observable_ko": "정수리에 기이한 뼈가 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "mole",
+          "evidence": "面無善靨",
+          "observable_ko": "얼굴의 점에 대한 부정적 총칭",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-other-037",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "《骨髮旋生，形容忽變。遇吉則推，逢凶可斷》。\n夫人未貴之先，雖有骨格；既仕之後，旋有形容；未富之先，雖有形容；既富之後，忽有更變。蓋骨隨貴生，肉隨財長，而形有五行之分，病生於飽煖，憂出於極樂，其氣有色之變。學者仔細推之，吉凶可斷。",
+      "translation": "뼈와 머리카락이 그때그때 생기고 모습이 갑자기 변하면, 길한 것을 만나면 추론하고 흉한 것을 만나면 판단할 수 있다. 귀해지기 전에는 골격이 있어도 벼슬한 뒤에 모습이 새로 생기고, 부유해지기 전에는 모습이 있어도 부유해진 뒤 갑자기 변화가 생긴다. 뼈는 귀함에 따라 생기고 살은 재물에 따라 자라며 형체에는 오행의 구분이 있다. 병은 배부르고 따뜻한 데서 생기고 근심은 지극한 즐거움에서 나오며 기에는 빛의 변화가 있다. 배우는 사람이 자세히 추론하면 길흉을 판단할 수 있다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "形容忽變",
+          "observable_ko": "시간에 따라 모습이 갑자기 변함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "其氣有色之變",
+          "observable_ko": "기의 빛깔이 변함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth",
+        "rank_office",
+        "health_disease"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-nose-038",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「常遭疾厄」，只因根上昏沉。\n「根」 即山根位在印堂之下，與年壽三位為疾厄宮，宜神色光明，不欲昏暗而不明者，常有疾厄。",
+      "translation": "자주 병과 어려움을 만나는 것은 뿌리 위가 어둡고 가라앉기 때문이다. 뿌리는 산근(山根, 콧뿌리)으로 인당 아래에 있으며 연수와 합한 세 곳이 질액궁이다. 정신과 빛이 밝아야 하고 어둡거나 밝지 않아서는 안 되니, 그러하면 늘 병과 어려움이 있다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "根上昏沉",
+          "observable_ko": "콧뿌리 위가 어둡고 가라앉음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "昏暗而不明",
+          "observable_ko": "콧뿌리·연수의 기색이 어둡고 밝지 않음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease"
+      ]
+    },
+    {
+      "passage_id": "SQ636CA-forehead-039",
+      "section": "《神異賦》〈有序〉",
+      "original_text": "「頻遇吉祥」，蓋謂福堂潤澤。\n《福堂》在兩眉之上，華蓋之傍，若常明潤而色紅黃者，有吉祥而無凶也。",
+      "translation": "자주 길한 일을 만나는 것은 복당(福堂)이 윤택하기 때문이다. 복당은 두 눈썹 위와 화개(華蓋) 옆에 있으니 늘 밝고 윤택하며 빛이 붉고 누르면 길함이 있고 흉함이 없다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "明潤而色紅黃",
+          "observable_ko": "복당이 밝고 윤택하며 붉고 누른 빛임",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    }
+  ]
+}

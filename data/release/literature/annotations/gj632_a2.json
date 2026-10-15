@@ -1,0 +1,1323 @@
+{
+ "page_id": "gj632",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "二曰眉為保壽官"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ632A-brow-002",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "濃厚、淹留、孤獨。眉黑稠濃密，主淹留蹇滯久困。",
+   "translation": "(눈썹이) 짙고 두터우면 머물러 막히고 외롭다. 눈썹이 검고 빽빽하고 짙고 촘촘하면 머물러 막히고 절뚝이며 정체되어 오래 곤궁함을 주관한다.",
+   "commentary": "구결과 풀이다. 풀이의 '濃密'은 지침의 眉濃·眉密에 해당해 숱 밀도로 정확 대응했으나, 구결의 '厚'는 굵기인지 숱인지 불분명하고 '黑'은 빛깔이다. 문헌은 이를 정체·곤궁·고독과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "稠濃密",
+     "observable_ko": "눈썹 숱이 빽빽하고 짙음",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "brow",
+     "evidence": "濃厚",
+     "observable_ko": "눈썹이 짙고 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_thickness:thick"
+     ],
+     "reason": "厚가 눈썹 폭(굵기)인지 숱의 두터움인지 불분명하다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉黑",
+     "observable_ko": "눈썹이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-003",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《五總龜》云：「眉濃髮厚人多滯。」",
+   "translation": "『오총귀』에 이르기를 「눈썹이 짙고 머리털이 두터운 사람은 막힘이 많다」라고 하였다.",
+   "commentary": "눈썹이 짙다(眉濃)는 지침의 정확 표현이나, 머리털의 두터움이라는 레이블 없는 조건이 함께 요구된다. 문헌은 이를 일의 정체와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉濃",
+     "observable_ko": "눈썹 숱이 짙음",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "other",
+     "evidence": "髮厚",
+     "observable_ko": "머리털이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리카락 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-004",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《萬金相》云：「陽，男子也」，陽得虎眉蹇滯，虎眉稠濃密也，主平生少快，二十六歲入運，至三十五歲，此一運中主上五年多淹滯。",
+   "translation": "『만금상』에 이르기를 「양(陽)은 남자이다」라 하니, 양(남자)이 호랑이 눈썹(虎眉)을 얻으면 절뚝이며 막히니, 호랑이 눈썹이란 빽빽하고 짙고 촘촘한 것이다. 평생 시원함이 적음을 주관하며, 스물여섯 살에 운에 들어 서른다섯 살에 이르기까지, 이 한 운 가운데 앞 다섯 해에 머물러 막힘이 많음을 주관한다.",
+   "commentary": "호미(虎眉)는 동물 비유 명칭이지만 원문이 '稠濃密'이라는 명시적 형태 정의를 붙여 숱 밀도로 정확 대응했다. 남자에게 적용되는 서술이며, 눈썹이 26~35세의 운을 맡는다는 운한 관념이 함께 적혀 있다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "陽，男子也",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "稠濃密",
+     "observable_ko": "눈썹 숱이 빽빽하고 짙음",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "brow",
+     "evidence": "虎眉",
+     "observable_ko": "호랑이 눈썹(비유 명칭)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유 명칭으로, 형태는 뒤의 稠濃密 조건으로 따로 두었다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-005",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《短促》兄弟非宜。",
+   "translation": "(눈썹이) 짧고 촉박하면 형제에게 마땅치 않다.",
+   "commentary": "눈썹 항목의 구결로, '짧다(短)'는 눈썹 길이로 정확 대응했다. 문헌은 이를 형제 관계의 불리함과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "短促",
+     "observable_ko": "눈썹 길이가 짧음",
+     "status": "exact",
+     "label": "brow_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-006",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《廣鑑集》云：「眉為君，目為臣，宜清長過目，宜如雁行。",
+   "translation": "『광감집』에 이르기를 「눈썹은 임금이 되고 눈은 신하가 되니, 맑고 길어 눈을 지나야 하며, 기러기 행렬 같아야 한다.",
+   "commentary": "'눈을 지난다(過目)'는 지침의 눈썹 길이 정확 표현이다. '맑다(清)'는 품평어이고 '기러기 행렬(雁行)'은 형태가 특정되지 않는 비유다. 바라는 형태만 적고 별도 주장은 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "長過目",
+     "observable_ko": "눈썹이 눈보다 길게 뻗음",
+     "status": "exact",
+     "label": "brow_length:long"
+    },
+    {
+     "region": "brow",
+     "evidence": "清",
+     "observable_ko": "눈썹이 맑음(품평)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "清은 품평어로 형태 측정 항목이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "如雁行",
+     "observable_ko": "기러기 행렬 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "숱의 배열인지 모양인지 특정되지 않는 비유다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-007",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "若短不及目者，難為兄弟。縱有二三四，終須不靠也。」",
+   "translation": "만약 짧아서 눈에 미치지 못하는 자는 형제를 두기 어렵다. 설령 둘, 셋, 넷이 있더라도 끝내 의지할 수 없다.」",
+   "commentary": "'짧아 눈에 미치지 못함(短不及目)'은 지침의 눈썹 길이 정확 표현이다. 문헌은 이를 형제 관계와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "短不及目",
+     "observable_ko": "눈썹이 눈 길이에 못 미침",
+     "status": "exact",
+     "label": "brow_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-008",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《萬金相》云：「眉長於目，兄弟五六。",
+   "translation": "『만금상』에 이르기를 「눈썹이 눈보다 길면 형제가 대여섯이다.",
+   "commentary": "눈썹이 눈보다 길다(眉長於目)는 눈썹 길이 정확 표현이다. 문헌은 이를 형제 수와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉長於目",
+     "observable_ko": "눈썹이 눈보다 긺",
+     "status": "exact",
+     "label": "brow_length:long"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-009",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "眉如掃箒，兄弟八九。",
+   "translation": "눈썹이 빗자루 같으면 형제가 여덟아홉이다.",
+   "commentary": "빗자루 비유는 숱이 흩어진 모양인지 길이인지 특정되지 않는다. 문헌은 이를 형제 수와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如掃箒",
+     "observable_ko": "눈썹이 빗자루 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:sparse",
+      "brow_tail_clarity:fading"
+     ],
+     "reason": "빗자루 비유가 숱·꼬리 퍼짐·길이 중 무엇인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-010",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "與目同等，兄弟一兩。",
+   "translation": "(눈썹이) 눈과 같은 길이면 형제가 하나둘이다.",
+   "commentary": "눈과 같은 길이는 중간 계급에 해당해 지침상 정확 대응이 아니다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "與目同等",
+     "observable_ko": "눈썹 길이가 눈과 같음",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "중간(medium) 길이로, 중간 계급은 정확 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-011",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "短不及目，兄弟不足。縱有一兩，非是同腹。",
+   "translation": "짧아서 눈에 미치지 못하면 형제가 넉넉하지 않다. 설령 하나둘 있더라도 같은 배에서 난 것이 아니다.",
+   "commentary": "'短不及目'은 눈썹 길이 정확 표현이다. '같은 배가 아니다'는 이복형제를 뜻하는 것으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "短不及目",
+     "observable_ko": "눈썹이 눈 길이에 못 미침",
+     "status": "exact",
+     "label": "brow_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ],
+   "review_note": "AI cross-file review (not human): '非是同腹'은 형제의 출생(다른 어머니)에 관한 낙인성 가족 주장이라 kinship_harm으로 태깅"
+  },
+  {
+   "passage_id": "SQ632A-other-009",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "二十六至三十五，上四五年不利。」",
+   "translation": "스물여섯에서 서른다섯까지 가운데 앞 네다섯 해가 이롭지 않다.」",
+   "commentary": "눈썹이 맡는 나이(운한)에 관한 덧붙임으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-012",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "骨稜高起，性勇好為非。",
+   "translation": "(눈썹) 뼈의 모서리가 높이 일어나면 성품이 용맹하고 그릇된 일 하기를 좋아한다.",
+   "commentary": "눈썹뼈(眉稜骨)의 돌출을 말한 구결로, 눈썹뼈는 정규 레이블이 없다. '好為非'는 비행을 좋아한다는 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "骨稜高起",
+     "observable_ko": "눈썹뼈가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-013",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "「稜骨高起」者，言眉骨尖峻顯露也，則主人麤鹵，知進而不知退，知存而不知亡，知成而不知敗，自強自勝，作事不應為而強為，性暴好鬥不可為，友之相也，平生宜遠之。",
+   "translation": "「모서리 뼈가 높이 일어남」이란 눈썹뼈가 뾰족하고 가파르게 드러남을 말하니, 곧 사람됨이 거칠고 우둔하여, 나아감은 알되 물러남을 모르고, 보존함은 알되 망함을 모르며, 이룸은 알되 무너짐을 모르고, 스스로 강하다 하고 스스로 이긴다 하며, 일을 함에 해서는 안 될 것을 억지로 하고, 성질이 사납고 싸움을 좋아하니 벗으로 삼을 수 없는 상이므로 평생 멀리해야 한다.",
+   "commentary": "앞 구결의 풀이다. 원문 구두는 '不可為，友之相也'이나 '벗으로 삼을 수 없는 상'으로 이어 읽었다. 눈썹뼈 돌출은 정규 레이블이 없으며, 폭력성과 성품에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉骨尖峻顯露",
+     "observable_ko": "눈썹뼈가 뾰족하고 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-014",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "清秀彎如月樣，文章顯、折桂榮奇。",
+   "translation": "(눈썹이) 맑고 빼어나며 달처럼 굽은 모양이면 문장이 드러나고 계수나무 가지를 꺾어(과거에 급제하여) 영화가 기이하다.",
+   "commentary": "'달처럼 굽음(彎如月)'은 지침의 활 모양 눈썹 정확 표현이다. '清秀'는 품평어다. 절계(折桂)는 과거 급제를 이르는 관용 표현이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "彎如月樣",
+     "observable_ko": "눈썹이 달처럼 굽음",
+     "status": "exact",
+     "label": "brow_shape:arched"
+    },
+    {
+     "region": "brow",
+     "evidence": "清秀",
+     "observable_ko": "눈썹이 맑고 빼어남(품평)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "清秀는 품평어로 형태 측정 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-015",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《廣鑑集》云：「眉是目之君，膽之苗，面之表也。若得清秀，彎如月樣，主為人聰明智慧，文學博雅，必攀蟾桂高明富貴之相，知為平生之福。二十六歲運至中主，便得顯煥功名。」",
+   "translation": "『광감집』에 이르기를 「눈썹은 눈의 임금이요, 쓸개의 싹이요, 얼굴의 겉이다. 만약 맑고 빼어나며 달처럼 굽은 모양을 얻으면 사람됨이 총명하고 지혜로우며 문학이 넓고 고아함을 주관하니, 반드시 달의 계수나무를 잡아 오르는(급제하는) 높고 밝으며 부귀한 상이요, 평생의 복이 됨을 안다. 스물여섯 살에 운이 중주(中主)에 이르면 곧 빛나는 공명을 얻는다」라고 하였다.",
+   "commentary": "앞 구결을 뒷받침하는 인용이다. 굽은 눈썹은 정확 대응이나 품평어 清秀가 함께 요구된다. 문헌은 이를 총명·급제·부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "彎如月樣",
+     "observable_ko": "눈썹이 달처럼 굽음",
+     "status": "exact",
+     "label": "brow_shape:arched"
+    },
+    {
+     "region": "brow",
+     "evidence": "清秀",
+     "observable_ko": "눈썹이 맑고 빼어남(품평)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "清秀는 품평어로 형태 측정 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-016",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "郭林宗曰：「眉如新月樣，名譽四方聞。」",
+   "translation": "곽임종이 말하기를 「눈썹이 초승달 모양 같으면 명예가 사방에 들린다」라고 하였다.",
+   "commentary": "'초승달 같음(如新月)'은 지침의 활 모양 눈썹 정확 표현이다. 문헌은 이를 명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如新月",
+     "observable_ko": "눈썹이 초승달처럼 굽음",
+     "status": "exact",
+     "label": "brow_shape:arched"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-017",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "許負曰：「眉如月弓，衣食不窮。」",
+   "translation": "허부가 말하기를 「눈썹이 달이나 활 같으면 입고 먹는 것이 궁하지 않다」라고 하였다.",
+   "commentary": "굽은 눈썹을 달·활에 빗댄 표현으로 활 모양 눈썹에 가깝지만, 지침에 열거된 '如新月·如彎弓'과 글자가 달라 근사 대응으로 두었다. 문헌은 이를 의식주의 넉넉함과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如月弓",
+     "observable_ko": "눈썹이 달·활처럼 굽음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "'月弓'은 지침의 정확 표현 목록에 없는 비유 조합이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-018",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《大清神鑑》云：「眉曲欒彎多學識。」",
+   "translation": "『대청신감』에 이르기를 「눈썹이 굽고 둥글게 휘면 학식이 많다」라고 하였다.",
+   "commentary": "'휘다(彎)'는 지침의 활 모양 눈썹 정확 표현이다. 문헌은 이를 학식과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉曲欒彎",
+     "observable_ko": "눈썹이 굽어 휨",
+     "status": "exact",
+     "label": "brow_shape:arched"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-019",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《印堂廣》，雙分入鬢，卿相位何疑。",
+   "translation": "인당(印堂, 두 눈썹 사이)이 넓고 (눈썹이) 둘로 나뉘어 귀밑머리로 들어가면 경상(卿相)의 지위를 어찌 의심하랴.",
+   "commentary": "'인당이 넓다(印堂廣)'는 지침의 두 눈썹 간격 정확 표현이다. 귀밑머리까지 뻗는다는 서술은 과장된 길이 서술이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂廣",
+     "observable_ko": "두 눈썹 사이가 넓음",
+     "status": "exact",
+     "label": "brow_gap:wide"
+    },
+    {
+     "region": "brow",
+     "evidence": "雙分入鬢",
+     "observable_ko": "눈썹 끝이 귀밑머리까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "귀밑머리까지라는 과장된 도달점 서술로 상대 길이 기준과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-010",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "眉中為印堂，名曰官祿宮、相貌宮、福德紫氣宮。一面之中，此位最干禍福，",
+   "translation": "눈썹 가운데가 인당이니, 관록궁(官祿宮)·상모궁(相貌宮)·복덕자기궁(福德紫氣宮)이라 이름한다. 한 얼굴 가운데 이 자리가 화복에 가장 관계되니,",
+   "commentary": "인당의 별칭을 소개하는 이론 서술로 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-020",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "所以眉毛欲得寬廣。雙分入鬢，主生平多福而貴。二十六歲入運行中，主大發功名。",
+   "translation": "그러므로 눈썹 털은 너그럽고 넓음을 얻고자 한다. 둘로 나뉘어 귀밑머리로 들어가면 평생 복이 많고 귀함을 주관한다. 스물여섯 살에 운에 들어 중간을 지나면 공명을 크게 떨침을 주관한다.",
+   "commentary": "'寬廣'은 눈썹 폭인지 두 눈썹 사이 간격인지 불분명하다. 문맥이 인당에 관한 것이므로 간격일 가능성이 있으나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛欲得寬廣",
+     "observable_ko": "눈썹이 너그럽고 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_gap:wide",
+      "brow_thickness:thick"
+     ],
+     "reason": "눈썹 폭인지 두 눈썹 사이 간격인지 불분명하다"
+    },
+    {
+     "region": "brow",
+     "evidence": "雙分入鬢",
+     "observable_ko": "눈썹 끝이 귀밑머리까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "귀밑머리까지라는 과장된 도달점 서술로 상대 길이 기준과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-021",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《瑋林真人》曰：「眉為羅計之星，宜闊而不欲侵犯紫氣宮。」",
+   "translation": "『위림진인(瑋林真人)』이 말하기를 「눈썹은 나계(羅計, 나후·계도)의 별이 되니, 넓어야 하고 자기궁(紫氣宮, 인당)을 침범하기를 바라지 않는다」라고 하였다.",
+   "commentary": "오성육요(五星六曜) 배당에서 눈썹은 나후·계도, 인당은 자기에 해당한다. 눈썹이 인당을 침범하지 않음은 두 눈썹 간격이 넓음과 관련되나 직접 표현이 아니어서 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "宜闊",
+     "observable_ko": "눈썹이 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_thickness:thick",
+      "brow_gap:wide"
+     ],
+     "reason": "눈썹 폭인지 간격인지 불분명하다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "不欲侵犯紫氣宮",
+     "observable_ko": "눈썹이 인당을 침범하지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "印堂廣 같은 직접 표현이 아닌 부정 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-022",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《陳圖南》曰：「翠眉入鬢，位至公卿。」",
+   "translation": "진도남(陳圖南)이 말하기를 「비취빛 눈썹이 귀밑머리로 들어가면 지위가 공경(公卿)에 이른다」라고 하였다.",
+   "commentary": "비취빛(翠)은 빛깔·윤기 표현이고, 귀밑머리까지 뻗음은 과장된 길이 서술이라 근사 대응이다. 문헌은 이를 높은 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "翠眉",
+     "observable_ko": "눈썹이 비취빛으로 윤기 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "入鬢",
+     "observable_ko": "눈썹 끝이 귀밑머리까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "귀밑머리까지라는 과장된 도달점 서술로 상대 길이 기준과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-023",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《廣鑑集》云：「朝中無交眉宰相。」",
+   "translation": "『광감집』에 이르기를 「조정 가운데 눈썹이 맞닿은 재상은 없다」라고 하였다.",
+   "commentary": "교미(交眉)는 두 눈썹이 인당에서 맞닿은 것으로, 지침상 레이블 없는 일자눈썹 항목이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "交眉",
+     "observable_ko": "두 눈썹이 맞닿음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두 눈썹이 맞닿음(眉交)은 레이블 체계에 없는 일자눈썹 항목이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-024",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "豎毛多主殺神剛氣暴，豈有思維。",
+   "translation": "(눈썹) 털이 곧추서면 대개 죽이는 기질에 정신이 굳세고 기운이 사나움을 주관하니, 어찌 생각함이 있겠는가.",
+   "commentary": "눈썹 털이 곧추선 모양을 말한 구결로, 털의 방향은 정규 레이블이 없다. 살성(殺性)·폭력성과 사려 없음에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "豎毛",
+     "observable_ko": "눈썹 털이 곧추섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-025",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "豎眉者，謂眉毛直立而生也，多主殺性。",
+   "translation": "곧추선 눈썹이란 눈썹 털이 곧게 서서 나는 것을 이르니, 대개 죽이는 성품을 주관한다.",
+   "commentary": "앞 구결의 풀이다. 털의 방향은 정규 레이블이 없으며 폭력성에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛直立而生",
+     "observable_ko": "눈썹 털이 곧게 서서 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-011",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "《大統賦》曰：「主性急神猛，好鬥貪殺，無思筭之相也。」",
+   "translation": "『대통부』에 이르기를 「성질이 급하고 정신이 사나우며, 싸움을 좋아하고 죽이기를 탐하는, 생각과 셈이 없는 상을 주관한다」라고 하였다.",
+   "commentary": "곧추선 눈썹에 대한 인용으로, 이 구절 자체에는 형태 서술이 없다. 폭력성과 사려 없음에 관한 낙인성 서술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "violence",
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-026",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "又云：「毛直性狠。」",
+   "translation": "또 이르기를 「(눈썹) 털이 곧으면 성품이 모질다」라고 하였다.",
+   "commentary": "털의 방향은 정규 레이블이 없다. 문헌은 이를 모진 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "毛直",
+     "observable_ko": "눈썹 털이 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-027",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "交頭并印促背祿奔馳。",
+   "translation": "(눈썹) 머리가 맞닿고 인당이 아울러 좁으면 녹을 등지고 분주히 내달린다.",
+   "commentary": "눈썹 머리가 맞닿음은 레이블 없는 일자눈썹 항목이고, '인당이 좁음(印促)'은 두 눈썹 간격이 좁음과 관련되나 지침의 印堂狹·印堂窄 표현과 글자가 달라 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "交頭",
+     "observable_ko": "두 눈썹 머리가 맞닿음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두 눈썹이 맞닿음(眉交)은 레이블 체계에 없는 일자눈썹 항목이다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "并印促",
+     "observable_ko": "인당이 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:narrow"
+     ],
+     "reason": "'印促'은 지침의 정확 표현 목록에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-028",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《交頭》者，言兩頭印提交鎖，侵犯印堂也。",
+   "translation": "교두(交頭)란 두 (눈썹) 머리가 인당에서 끌어당겨 서로 잠기듯 맞닿아 인당을 침범함을 말한다.",
+   "commentary": "앞 구결의 용어 풀이다. '印提交鎖'는 판독이 매끄럽지 않아 문맥에 따라 옮겼다. 일자눈썹 항목은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "兩頭印提交鎖，侵犯印堂",
+     "observable_ko": "두 눈썹 머리가 인당에서 맞닿음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두 눈썹이 맞닿음(眉交)은 레이블 체계에 없는 일자눈썹 항목이다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-029",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "蓋緣印堂是官祿宮，若得眉宇寬，則為官，平生安穩，",
+   "translation": "대개 인당은 관록궁이기 때문에, 만약 눈썹 사이(眉宇)가 넓음을 얻으면 관리가 되어 평생 편안하고,",
+   "commentary": "눈썹 사이가 넓다는 서술로 두 눈썹 간격과 관련되나 지침의 印堂寬·兩眉相遠 표현과 글자가 달라 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉宇寬",
+     "observable_ko": "두 눈썹 사이가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "'眉宇寬'은 지침의 정확 표현 목록에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-030",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "若交促者，無祿而一生走驟，愚夫",
+   "translation": "만약 맞닿고 좁은 자는 녹이 없어 일생 내달리니, 어리석은 사내이다.",
+   "commentary": "'愚夫'는 원문 구두상 뒤 문장(印堂又為命宮)에 붙어 있으나 문법상 앞 문장의 결론으로 읽어 이 단락에 두었으며, 확정할 수 없다. 눈썹이 맞닿음은 레이블 없는 일자눈썹 항목이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "交促",
+     "observable_ko": "두 눈썹이 맞닿고 사이가 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두 눈썹이 맞닿음(眉交)은 레이블 체계에 없는 일자눈썹 항목이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-031",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "印堂又為命宮，眉宇為羅計星羅計，侵犯交促，不利財祿，",
+   "translation": "인당은 또 명궁(命宮)이 되고 눈썹은 나계성(羅計星)이 되니, 나계가 침범하여 맞닿고 좁으면 재물과 녹에 이롭지 않다.",
+   "commentary": "눈썹(나계)이 인당(명궁)을 침범하는 형태를 말한다. '羅計星羅計'의 중복은 원문 그대로 두었다. 일자눈썹 항목은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "侵犯交促",
+     "observable_ko": "눈썹이 인당을 침범해 맞닿음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두 눈썹이 맞닿음(眉交)은 레이블 체계에 없는 일자눈썹 항목이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-012",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "胡人不在此限，神強者不在此限，在此限即為平生之滯，六六交運至四十一，此四五年最緊。",
+   "translation": "호인(胡人)은 이 제한에 있지 않고, 정신(神)이 강한 자도 이 제한에 있지 않으며, 이 제한에 있으면 곧 평생의 막힘이 되니, 육육(六六)에 운이 바뀌어 마흔하나에 이르기까지 이 네다섯 해가 가장 긴박하다.",
+   "commentary": "앞의 맞닿은 눈썹 규칙의 예외를 적은 것으로, 호인(胡人)은 이민족을 가리키는 옛말이다. 민족과 정신의 강약은 사진으로 판정할 대상이 아니다. '六六'은 서른여섯 살로 읽히나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "胡人",
+     "observable_ko": "대상의 민족",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 민족·인종을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "神強者",
+     "observable_ko": "정신(神)이 강함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-032",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "橫直妨妻害子。",
+   "translation": "(눈썹 털이) 가로로 곧게 서면 아내를 해치고 자식을 해친다.",
+   "commentary": "눈썹 털의 결이 가로·곧게 선 것을 말한 구결로 정규 레이블이 없다. 아내와 자식을 해친다는 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "橫直",
+     "observable_ko": "눈썹 털이 가로로 곧게 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-033",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "「夫直」者，言眉毛凡生，直豎不順也，左妨子，右妨妻，左右如此，妻子俱傷，然為平生不利。二十八限至三十，此五年最是不利。",
+   "translation": "「부직(夫直)」이란 눈썹 털이 대체로 날 때 곧추서서 순하지 않음을 말하니, 왼쪽은 자식을 해치고 오른쪽은 아내를 해치며, 좌우가 이와 같으면 아내와 자식이 모두 다치니, 그러므로 평생 이롭지 않다. 스물여덟 한(限)에서 서른까지 이 다섯 해가 가장 이롭지 않다.",
+   "commentary": "앞 구결 '橫直'의 풀이인데 표제가 '夫直'으로 되어 있어 전사상 차이로 보이나 원문대로 두었다. 털의 방향은 정규 레이블이 없으며, 아내와 자식을 해친다는 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "直豎不順",
+     "observable_ko": "눈썹 털이 곧추서고 순하지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "fortune_general",
+    "kinship_harm",
+    "marriage"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632A-brow-034",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《旋螺聚》，必執鎗旗。",
+   "translation": "(눈썹 털이) 소라처럼 돌아 모이면 반드시 창과 깃발을 잡는다.",
+   "commentary": "선라(旋螺)는 털이 소라 껍데기처럼 소용돌이친 모양이다. 털의 결은 정규 레이블이 없다. 문헌은 이를 무관(武官)의 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "旋螺聚",
+     "observable_ko": "눈썹 털이 소용돌이쳐 모임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-035",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《旋螺》：言其中毛盤旋似螺螄，尾尖盤盤旋旋而生者，主為人剛健勇猛，可車前鎗旗之首，當先無懼。而戰也",
+   "translation": "선라란 그 가운데 털이 서려 돌아 소라 같고, 꼬리 끝이 빙빙 돌며 나는 것을 말하니, 사람됨이 굳세고 용맹하여 수레 앞 창과 깃발의 우두머리가 될 만하고, 앞장서서 두려움 없이 싸운다.",
+   "commentary": "앞 구결의 풀이로, 마지막 '而戰也'는 전사에서 따로 줄이 나뉘어 있으나 앞 문장에 이어 읽었다. 털의 결은 정규 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "毛盤旋似螺螄",
+     "observable_ko": "눈썹 털이 소라처럼 서려 돎",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "尾尖盤盤旋旋而生",
+     "observable_ko": "눈썹 꼬리 끝 털이 돌며 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향은 정규 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-036",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "低壓眼相連不斷，運至必災危。",
+   "translation": "(눈썹이) 낮게 눈을 누르고 서로 이어져 끊이지 않으면 운이 이르러 반드시 재앙과 위태로움이 있다.",
+   "commentary": "'눈을 누른다(壓眼)'는 지침의 눈썹-눈 간격이 좁음 정확 표현이다. '서로 이어져 끊이지 않음'은 뒤 인용에 따르면 눈썹과 눈이 붙어 있음을 말하나 별도 기준이 없어 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "低壓眼",
+     "observable_ko": "눈썹이 낮아 눈을 누름",
+     "status": "exact",
+     "label": "brow_eye_gap:close"
+    },
+    {
+     "region": "brow",
+     "evidence": "相連不斷",
+     "observable_ko": "눈썹과 눈이 끊김 없이 이어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "이어짐의 뜻이 간격인지 눈썹 연속성인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-037",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "《廣鑑集》云：「眉為羅計之星，眼為日月之象。相眉緊緊貼而與眼相連不斷者，是羅計二星侵犯太陰太陽，太陰太陽為日月之臺，一身之主，二十六限至二十九不利，三十七八九亦不利。",
+   "translation": "『광감집』에 이르기를 「눈썹은 나계의 별이 되고 눈은 해와 달의 형상이 된다. 눈썹을 보아 바싹 붙어 눈과 서로 이어져 끊이지 않는 자는, 나계 두 별이 태음·태양(太陰太陽, 두 눈)을 침범한 것이니, 태음·태양은 해와 달의 대(臺)이자 한 몸의 주인이라, 스물여섯 한에서 스물아홉까지 이롭지 않고 서른일곱·여덟·아홉도 이롭지 않다.",
+   "commentary": "오성육요 배당에서 눈썹은 나후·계도, 두 눈은 태양·태음에 해당한다. 눈썹이 눈에 바싹 붙음은 눈썹-눈 간격이 좁음과 같은 방향이나 지침의 壓眼·眉低近目 표현과 글자가 달라 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "相眉緊緊貼而與眼相連不斷",
+     "observable_ko": "눈썹이 눈에 바싹 붙어 이어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "지침의 정확 표현 목록에 없는 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-013",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "若孛星高廣，日月分明，災禍減半。」",
+   "translation": "만약 패성(孛星)이 높고 넓으며 해와 달이 분명하면 재앙과 화가 반으로 준다.」",
+   "commentary": "같은 문헌의 오성육요설에서 월패(月孛)는 산근(山根, 콧뿌리)에 배정되어 있어 패성은 콧뿌리를 가리키는 것으로 보인다. 콧뿌리가 높다는 서술은 근사 대응이고, 해와 달(두 눈)이 분명함은 관찰 불가 조건이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "孛星高廣",
+     "observable_ko": "콧뿌리가 높고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "별 이름으로 부위를 간접 지칭했고 넓음이 함께 요구된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "日月分明",
+     "observable_ko": "두 눈이 분명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 맑음·분명함은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-014",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "論曰：「運限者，兩眉管四年入中，主左二年二十六七，右二年二十八九，",
+   "translation": "논하여 이르기를 「운한이란, 두 눈썹이 네 해를 맡아 중주(中主)에 들어가니, 왼쪽은 두 해로 스물여섯·일곱, 오른쪽은 두 해로 스물여덟·아홉을 주관하며,",
+   "commentary": "눈썹이 맡는 나이(운한)를 설명한 이론 서술로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-mole-005",
+   "section": "二曰眉為保壽官",
+   "region": "mole",
+   "original_text": "眉生四理黑子。眉中生者，初主水厄。",
+   "translation": "눈썹에 네 가지 결의 검은 점이 난다. 눈썹 가운데 난 자는 처음에 물의 재액을 주관한다.",
+   "commentary": "'眉生四理黑子'는 뜻이 분명하지 않아 글자대로 옮겼으며, 이어지는 문장들이 점의 위치별 의미를 나열하는 도입부로 보인다. 특정 위치의 점이라 근사 대응만 가능하다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉中生者",
+     "observable_ko": "눈썹 가운데에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present의 근사 대응일 뿐이다(pending 레이블)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-mole-006",
+   "section": "二曰眉為保壽官",
+   "region": "mole",
+   "original_text": "眉頭生者，主性剛，",
+   "translation": "(점이) 눈썹 머리에 난 자는 성품이 굳셈을 주관하고,",
+   "commentary": "눈썹 머리 위치의 점이라 근사 대응만 가능하다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉頭生者",
+     "observable_ko": "눈썹 머리에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present의 근사 대응일 뿐이다(pending 레이블)"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-mole-007",
+   "section": "二曰眉為保壽官",
+   "region": "mole",
+   "original_text": "眉上生者，主貴官。",
+   "translation": "(점이) 눈썹 위에 난 자는 귀한 관직을 주관한다.",
+   "commentary": "눈썹 위 위치의 점이라 근사 대응만 가능하다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉上生者",
+     "observable_ko": "눈썹 위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks:present의 근사 대응일 뿐이다(pending 레이블)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-038",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "紋理眉中十字元字紋者，大亨，",
+   "translation": "무늬결이 눈썹 가운데에 열 십(十) 자나 으뜸 원(元) 자 무늬인 자는 크게 형통하고,",
+   "commentary": "눈썹 속 주름·무늬는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉中十字元字紋",
+     "observable_ko": "눈썹 가운데 十·元 자 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-039",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "有坤卦紋者，祿二千石，",
+   "translation": "곤괘(坤卦) 무늬가 있는 자는 녹봉이 이천 석이고,",
+   "commentary": "곤괘 모양 무늬를 말하며 주름·무늬는 레이블 체계에 없다. 이천 석은 고위 관직의 녹봉을 이르는 표현이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "坤卦紋",
+     "observable_ko": "곤괘 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-040",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "有成土字并魚鳥形紋者，主大將公卿之位。",
+   "translation": "흙 토(土) 자를 이루거나 아울러 물고기·새 모양 무늬가 있는 자는 대장·공경의 지위를 주관한다.",
+   "commentary": "글자·동물 모양 무늬를 말하며 주름·무늬는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "成土字并魚鳥形紋",
+     "observable_ko": "土 자·물고기·새 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-041",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "眉上氣色忽然白者，主哭泣聲服忌；",
+   "translation": "눈썹 위 기색이 갑자기 흰 자는 곡하고 우는 소리와 상복의 꺼림을 주관하고,",
+   "commentary": "눈썹 위 기색(氣色)의 변화는 빛깔이라 관찰 불가 조건이다. 상복(服忌)은 집안의 상(喪)을 뜻한다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉上氣色忽然白",
+     "observable_ko": "눈썹 위 기색이 갑자기 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-042",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "忽然紅色者，三日七日主口舌官」訟。",
+   "translation": "갑자기 붉은빛인 자는 사흘이나 이레 안에 구설과 관가의 송사를 주관한다.",
+   "commentary": "기색의 빛깔 변화로 관찰 불가 조건이다. 따옴표가 '官'과 '訟' 사이에 있어 전사상 위치가 어긋난 것으로 보이나 원문대로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "忽然紅色",
+     "observable_ko": "눈썹 위 기색이 갑자기 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-043",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "黃明入華蓋日，近遠喜信入宅，又主動出為吉。",
+   "translation": "누르고 밝은 빛이 화개(華蓋)에 드는 날에는 가깝고 먼 곳에서 기쁜 소식이 집에 들어오며, 또 움직여 나감이 길함을 주관한다.",
+   "commentary": "화개(華蓋)는 눈썹 위 부위를 가리키는 관상 용어로 쓰인다. 기색의 빛깔이라 관찰 불가 조건이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "黃明入華蓋",
+     "observable_ko": "화개 부위에 누르고 밝은 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-044",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "眉中忽然生毫長，謂之壽毛，然不宜早生。",
+   "translation": "눈썹 가운데 갑자기 긴 털이 나는 것을 수모(壽毛)라 하나, 일찍 나는 것은 마땅치 않다.",
+   "commentary": "눈썹 속의 긴 털 한 가닥을 말하며 레이블 체계에 없다. '수모(壽毛)'라는 이름은 수명과 연결된 것이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉中忽然生毫長",
+     "observable_ko": "눈썹 가운데 긴 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "개별 긴 털은 레이블 체계에 없고 사진에서 확인하기 어렵다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-other-015",
+   "section": "二曰眉為保壽官",
+   "region": "other",
+   "original_text": "《萬金相》云：「二十生毛三十死，四十生毛命壽長。」",
+   "translation": "『만금상』에 이르기를 「스물에 (긴) 털이 나면 서른에 죽고, 마흔에 털이 나면 목숨이 길다」라고 하였다.",
+   "commentary": "눈썹 속 긴 털이 나는 나이에 따라 수명을 달리 말한 인용이다. 긴 털과 나이는 레이블 체계에 없거나 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "生毛",
+     "observable_ko": "눈썹에 긴 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "개별 긴 털은 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "二十",
+     "observable_ko": "털이 난 나이",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "나이는 형태 조건이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632A-brow-045",
+   "section": "二曰眉為保壽官",
+   "region": "brow",
+   "original_text": "若四十之上，忽然生一毫長者，三年內遇貴。",
+   "translation": "만약 마흔 이상에 갑자기 긴 털 하나가 나는 자는 삼 년 안에 귀인을 만난다.",
+   "commentary": "눈썹 속 긴 털에 관한 서술로 레이블 체계에 없고, 나이 조건은 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "忽然生一毫長",
+     "observable_ko": "눈썹에 긴 털 하나가 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "개별 긴 털은 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "若四十之上",
+     "observable_ko": "대상의 나이가 마흔 이상",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 나이를 조건으로 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  }
+ ]
+}

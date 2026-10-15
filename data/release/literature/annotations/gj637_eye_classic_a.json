@@ -1,0 +1,2504 @@
+{
+ "page_id": "gj637",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《巖電道人神眼經》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ637-other-001",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "二十年後有「顯官，妙矣，希夷」之語。",
+   "translation": "20년 뒤에 '현달한 관직이로다, 묘하도다, 희이(希夷)'라는 말이 있다.",
+   "commentary": "스냅숏의 이 절은 본문 구절의 중간부터 시작하며, 뒤의 주석(임방 고사)에 나오는 진희이(陳希夷)의 예언을 가리키는 구절로 보인다. 따옴표 위치는 전사본 그대로이며 구절의 원래 끊어 읽기는 확정하기 어렵다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-002",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "林放字明逸，隱居林谷，往見陳希夷先生，一日令灑掃庭除，曰：「有嘉客至。」 明逸作樵夫拜庭下，希夷挽其上曰：「君豈樵者？二十年後當有顯官，名聲聞於天下。」 後為諫議大夫，改為工部侍郎。",
+   "translation": "임방(林放)은 자가 명일(明逸)로, 숲과 골짜기에 은거하다가 진희이 선생을 찾아가 뵈었다. 하루는 뜰과 섬돌에 물을 뿌리고 쓸게 하며 말하기를 '귀한 손님이 올 것이다' 하였다. 명일이 나무꾼 차림으로 뜰 아래에서 절하니, 희이가 그를 끌어 올리며 말하기를 '그대가 어찌 나무꾼이겠는가? 20년 뒤에 마땅히 현달한 관직이 있어 명성이 천하에 들릴 것이다' 하였다. 뒤에 간의대부가 되었고, 공부시랑으로 바뀌었다.",
+   "commentary": "앞 구절에 붙은 주석 고사다. 인물 이름은 원문 표기(林放) 그대로 옮겼다. 형태 조건은 없고, 문헌은 관상가의 예언이 관직으로 들어맞았다고 적었다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-003",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "《一百日內秉國政》。至哉《唐舉》之言。",
+   "translation": "백 일 안에 나라의 정사를 잡는다. 지극하도다, 당거(唐舉)의 말이여.",
+   "commentary": "본문 구절로, 뒤 주석의 채택·당거 고사를 가리킨다. 당거는 문헌에서 관상가로 등장하는 인물이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-004",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "蔡澤求唐舉相，曰：「先生相李斯，百日之內秉國政，有之。」 曰：「有之。」 蔡澤曰：「臣如何？」 唐舉曰：「吾聞聖人不相，殆先生乎？」 蔡澤知唐舉，戲之曰：「富貴吾所自有，所不知者壽也。」 曰：「先生之壽，從今以始。」 四十三歲。",
+   "translation": "채택(蔡澤)이 당거에게 관상을 청하며 말하기를 '선생께서 이사(李斯)를 보시고 백 일 안에 나라의 정사를 잡는다 하셨다는데, 그런 일이 있습니까?' 하니, '있었다'고 하였다. 채택이 '신은 어떻습니까?' 하니 당거가 말하기를 '내가 듣기로 성인은 관상을 보지 않는다 하였는데, 아마 선생이 그런 분이 아니겠소?' 하였다. 채택이 당거의 뜻을 알고 그를 놀리며 말하기를 '부귀는 내가 스스로 가진 것이고, 모르는 것은 수명이오' 하니, (당거가) '선생의 수명은 지금부터 시작하여' 43년이라 하였다.",
+   "commentary": "본문 '백일 안에 국정을 잡는다'에 붙은 주석 고사다. 당거가 본 인물을 원문은 李斯로 적었으며 그대로 옮겼다. 수명 예언을 담고 있어 수명 주제로 분류했다.",
+   "conditions": [],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-005",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "容貌雖出乎天然，貴賤不逃於風鑑。",
+   "translation": "용모는 비록 타고난 데서 나오나, 귀천은 풍감(風鑑, 관상)을 벗어나지 못한다.",
+   "commentary": "풍감(風鑑)은 관상술을 가리키는 말이다. 형태 조건 없이 관상으로 귀천을 알 수 있다는 일반 원칙을 말한다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-006",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "鶴形《龜息棄書》，往康廬而得神仙。",
+   "translation": "학의 형상에 거북의 숨결로 책을 버리고, 강려(康廬)로 가서 신선이 되었다.",
+   "commentary": "뒤 주석의 여동빈 고사를 가리키는 구절로, 주석에서는 여산(廬山)으로 간 것으로 적었다. 학의 형상(鶴形)은 체형 비유이고 거북 숨(龜息)은 호흡에 관한 말이라 사진 형태 항목으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鶴形",
+     "observable_ko": "학과 같은 형상(체형 비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "龜息",
+     "observable_ko": "거북처럼 쉬는 숨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-007",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "宋朝陳摶有《風鑑歌　》",
+   "translation": "송나라 진단(陳摶)에게 『풍감가(風鑑歌)』가 있다.",
+   "commentary": "주석 사이에 끼어든 출전 표기로 보이며, 뒤의 여동빈 기사와의 관계는 원문만으로 분명하지 않다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-008",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "呂洞賓，唐天寶中十四年四月十四日巳時生。幼習儒業，進士出身，開元中授江州德化縣令。",
+   "translation": "여동빈(呂洞賓)은 당 천보(天寶) 연간 14년 4월 14일 사시(巳時)에 태어났다. 어려서 유학을 익혀 진사 출신이며, 개원(開元) 연간에 강주 덕화현령을 제수받았다.",
+   "commentary": "주석의 인물 소개 부분이다. 연호 순서상 개원이 천보보다 앞서므로 기록의 연대가 맞지 않으나 원문대로 옮겼다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-009",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "真人鶴形，龜息虎體，龍腮鳳眼而聳，雙眉入鬢，頭闊身長，頂華陽冠，身披唐衣，似漢張子房形容。",
+   "translation": "진인(眞人)은 학의 형상에 거북의 숨결, 범의 몸이며, 용의 뺨에 봉황의 눈이 솟았고, 두 눈썹은 살쩍(귀밑털)으로 들어가며, 머리는 넓고 몸은 길며, 정수리에 화양관(華陽冠)을 쓰고 몸에 당나라 옷을 걸쳐, 한나라 장자방(張子房)의 모습과 같았다.",
+   "commentary": "여동빈의 외모 묘사다. 대부분 동물 비유와 체격 서술이며, '두 눈썹이 살쩍으로 들어간다(雙眉入鬢)'는 눈썹이 매우 길게 뻗은 모양으로 읽을 수 있으나 '眉長·過目'과 같은 표현은 아니다. 문헌은 이 외모에 대한 별도 길흉 주장을 붙이지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鶴形",
+     "observable_ko": "학과 같은 형상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "龜息",
+     "observable_ko": "거북처럼 쉬는 숨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "虎體",
+     "observable_ko": "범과 같은 몸",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "龍腮",
+     "observable_ko": "용과 같은 뺨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "鳳眼而聳",
+     "observable_ko": "봉황 같은 눈이 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "雙眉入鬢",
+     "observable_ko": "두 눈썹이 살쩍까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "살쩍까지 뻗었다는 비유적 길이 표현으로, 눈 길이 대비인 '過目'과 같은 기준이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭闊身長",
+     "observable_ko": "머리가 넓고 몸이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-010",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "一日私行徐步至廬山，道逢鍾離真人，同懸葫蘆，悟「一飯黃粱」 之語，遂棄官修道。後受天仙，一除煩惱，二去貪癡，三除淫慾。遍度有緣之人，道號「純陽子。」",
+   "translation": "하루는 몰래 길을 나서 천천히 걸어 여산에 이르렀는데, 길에서 종리진인(鍾離眞人)을 만나 함께 호리병을 걸고, '한 끼 황량(黃粱)'의 말을 깨달아 마침내 관직을 버리고 도를 닦았다. 뒤에 천선(天仙)을 받아, 첫째 번뇌를 없애고, 둘째 탐욕과 어리석음을 버리고, 셋째 음욕을 없앴다. 인연 있는 사람을 두루 제도하였으니 도호는 '순양자(純陽子)'이다.",
+   "commentary": "여동빈이 관직을 버리고 수도한 전설을 전하는 주석이다. '일반황량(一飯黃粱)'은 덧없는 부귀를 깨닫는 고사를 가리키는 말로 쓰인다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637-chin-011",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "chin",
+   "original_text": "「燕頷虎頭」投筆《出陽關》而成功業。",
+   "translation": "제비 턱에 범의 머리로 붓을 던지고 양관(陽關)을 나가 공업을 이루었다.",
+   "commentary": "뒤 주석의 반초(班超) 고사를 가리킨다. 주석은 옥문관(玉門關)이라 적었으나 본문은 양관이라 하여 원문대로 옮겼다. 제비 턱·범의 머리는 동물 비유로 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "燕頷",
+     "observable_ko": "제비와 같은 턱",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "虎頭",
+     "observable_ko": "범과 같은 머리",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-chin-012",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "chin",
+   "original_text": "相者謂班超曰：「君虎頭燕頷，飛而食肉，萬里侯相也。」 後投筆硯，出玉門關，立大功，威鎮西域，封定遠侯。",
+   "translation": "관상가가 반초에게 말하기를 '그대는 범의 머리에 제비 턱이니, 날아서 고기를 먹는 만리후(萬里侯)의 상이다' 하였다. 뒤에 붓과 벼루를 던지고 옥문관을 나가 큰 공을 세워 위엄이 서역을 누르고 정원후(定遠侯)에 봉해졌다.",
+   "commentary": "본문 '燕頷虎頭'의 주석 고사다. '날아서 고기를 먹는다'는 비유로 먼 곳에서 공을 세움을 뜻하는 말로 읽힌다. 형태는 동물 비유뿐이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "虎頭",
+     "observable_ko": "범과 같은 머리",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "燕頷",
+     "observable_ko": "제비와 같은 턱",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-013",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "耳白於面，終為柱石之臣；",
+   "translation": "귀가 얼굴보다 희면 마침내 주석(柱石)의 신하가 된다.",
+   "commentary": "주석지신(柱石之臣)은 나라를 떠받치는 중신을 뜻한다. 귀와 얼굴의 색 대비에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白於面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-tongue-014",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "tongue",
+   "original_text": "舌紅如硃，必處廟堂之位。",
+   "translation": "혀가 주사(硃砂)처럼 붉으면 반드시 묘당(廟堂)의 자리에 처한다.",
+   "commentary": "묘당은 조정을 가리킨다. 혀의 색은 얼굴 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌紅如硃",
+     "observable_ko": "혀가 주사처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-015",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "歐陽公云：「少時有相者曰：『耳白於面，脣不蓋齒，後官至宰相　』。」",
+   "translation": "구양공(歐陽公)이 이르기를 '젊을 때 관상가가 말하기를 「귀가 얼굴보다 희고 입술이 이를 덮지 못하니, 뒤에 벼슬이 재상에 이를 것이다」 하였다' 하였다.",
+   "commentary": "본문 '耳白於面'의 주석이다. 귀의 색은 관찰 불가 항목이고, '입술이 이를 덮지 않음(脣不蓋齒)'은 치아 노출에 관한 형태라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白於面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣不蓋齒",
+     "observable_ko": "입술이 이를 다 덮지 못함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입을 다문 상태의 치아 노출 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-tongue-016",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "tongue",
+   "original_text": "《相法》云：「舌如硃紅，位至三公。」",
+   "translation": "『상법(相法)』에 이르기를 '혀가 주사처럼 붉으면 지위가 삼공(三公)에 이른다' 하였다.",
+   "commentary": "본문 '舌紅如硃'의 주석으로 혀의 색을 최고위 관직과 연결했다. 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌如硃紅",
+     "observable_ko": "혀가 주사처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-017",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "《天庭》起至玉枕，乃極品官；",
+   "translation": "천정(天庭, 이마 윗부분)이 일어나 옥침(玉枕, 뒤통수 뼈)에 이르면 곧 최고 품계의 관리다.",
+   "commentary": "천정에서 옥침까지 뼈가 이어 솟은 형태를 말한다. 뼈 융기는 보이는 이마의 높이·너비와 다른 측정이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《天庭》起至玉枕",
+     "observable_ko": "이마 윗부분에서 뒤통수까지 뼈가 솟아 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마에서 정수리로 이어지는 뼈 융기는 보이는 이마 높이·너비 레이블과 같은 측정이 아니며 해당 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-018",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "「《日角》近映珠庭」，非庸人相。",
+   "translation": "일각(日角)이 주정(珠庭)을 가까이 비추면 평범한 사람의 상이 아니다.",
+   "commentary": "일각은 이마 위쪽에 솟은 뼈, 주정은 이마(천정) 부위를 가리키는 관상 용어로 쓰인다. 뒤 주석의 '日角珠庭'과 같은 표현이며, 형태 기준이 구체적이지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《日角》近映珠庭",
+     "observable_ko": "이마 위쪽 뼈와 이마 부위의 모양",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "관상 용어로 뼈의 솟음을 가리키나 높이·정도가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-019",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "《相法》云：天庭骨至玉枕，官居三品也　。",
+   "translation": "『상법』에 이르기를 천정의 뼈가 옥침에 이르면 관직이 3품에 거한다 하였다.",
+   "commentary": "본문 '天庭起至玉枕'의 주석이다. 이마에서 뒤통수로 이어지는 뼈를 관품과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天庭骨至玉枕",
+     "observable_ko": "이마 뼈가 뒤통수까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마에서 정수리로 이어지는 뼈 융기는 보이는 이마 높이·너비 레이블과 같은 측정이 아니며 해당 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-020",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "李白舉明經，李絳曰：「日角珠庭，非庸人相；明經碌碌，非子所宜也。」",
+   "translation": "이백(李白)이 명경과에 응시하려 하자 이강(李絳)이 말하기를 '일각과 주정이니 평범한 사람의 상이 아니다. 명경과는 하찮으니 그대에게 마땅한 바가 아니다' 하였다.",
+   "commentary": "본문 '日角近映珠庭'의 주석 고사다. 명경(明經)은 경서 시험 과목이다. 이마 뼈에 관한 관상 용어만 있고 구체적 형태 기준은 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "日角珠庭",
+     "observable_ko": "이마 위쪽 뼈와 이마 부위",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "관상 용어로 뼈의 솟음을 가리키나 높이·정도가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-021",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "《脣不著齒》善調金鼎之羹；",
+   "translation": "입술이 이에 붙지 않으면 금솥의 국을 잘 조리한다.",
+   "commentary": "'솥의 국을 조리한다(調鼎)'는 재상이 나라를 다스림을 비유하는 말로 쓰인다. 입술이 이에 닿지 않는 형태는 치아·입술 관계를 다루는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "《脣不著齒》",
+     "observable_ko": "입술이 이에 붙지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술과 치아의 접촉·치아 노출 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-022",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "口可容拳能借玉階之地。",
+   "translation": "입에 주먹이 들어갈 만하면 옥계단의 땅을 빌릴 수 있다.",
+   "commentary": "옥계(玉階)는 궁궐 계단으로 조정의 높은 자리를 뜻한다. 가이드는 '口容拳'을 입 너비의 근사 표현으로 정한다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口可容拳",
+     "observable_ko": "입이 주먹이 들어갈 만큼 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "주먹 비유의 크기 표현으로 '口大·口闊'과 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-023",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "歐陽修至宰相，相者云：「脣不著齒，無事得謗　。」",
+   "translation": "구양수(歐陽修)가 재상에 이르렀는데, 관상가가 이르기를 '입술이 이에 붙지 않으니 일이 없어도 비방을 얻는다' 하였다.",
+   "commentary": "본문 '脣不著齒'의 주석이다. 같은 형태를 비방을 받는 운과 연결했으며, 입술·치아 관계는 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣不著齒",
+     "observable_ko": "입술이 이에 붙지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술과 치아의 접촉·치아 노출 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-024",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "昔日宋文圭舉進士，途中遇一叟，目文圭久之，曰：「拳必入口，神仙狀也。如學道當沖虛，不爾有大名於天下。」",
+   "translation": "옛날 송문규(宋文圭)가 진사에 응시하러 가는 길에 한 노인을 만났는데, 문규를 오래 바라보고 말하기를 '주먹이 반드시 입에 들어가니 신선의 모습이다. 만약 도를 배우면 마땅히 충허(沖虛)하고, 그렇지 않으면 천하에 큰 이름이 있을 것이다' 하였다.",
+   "commentary": "본문 '口可容拳'의 주석 고사다. 충허는 도가의 텅 비고 고요한 경지를 뜻한다. 입 크기는 주먹 비유라 근사 대응만 가능하다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "拳必入口",
+     "observable_ko": "입에 주먹이 들어감",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "주먹 비유의 크기 표현으로 '口大·口闊'과 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-025",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "「龍鳳姿」天日，表知必安民。",
+   "translation": "용봉(龍鳳)의 자태에 하늘의 해(같은) 겉모습이면 반드시 백성을 편안히 할 것을 안다.",
+   "commentary": "주석의 '龍鳳之姿，天日之表'에 해당하는 본문으로, 전사본의 따옴표·구두점이 어긋나 있어 끊어 읽기가 불확실하다. 형태는 비유뿐이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "「龍鳳姿」天日，表",
+     "observable_ko": "용봉의 자태·하늘의 해 같은 모습",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-026",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "「熊虎狀豺狼，聲終當滅後。」",
+   "translation": "곰과 범의 형상에 승냥이와 이리의 소리면 끝내 마땅히 뒤(후손·일족)를 멸한다.",
+   "commentary": "주석의 초나라 월초(越椒) 고사를 가리키며, 주석은 약오씨(若敖氏) 일족의 멸망으로 적었다. 구두점이 어긋나 '滅後'의 뜻은 해석 여지가 있다. 동물 비유와 목소리라 형태 항목이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "熊虎狀",
+     "observable_ko": "곰과 범 같은 형상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "豺狼，聲",
+     "observable_ko": "승냥이·이리 같은 목소리",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-027",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "唐太宗四歲，有書生見曰：「龍鳳之姿，天日之表，年幾冠，必能濟世安民　。」",
+   "translation": "당 태종이 네 살 때 한 서생이 보고 말하기를 '용봉의 자태요 하늘의 해 같은 겉모습이니, 나이가 관례(20세)에 가까워지면 반드시 세상을 구제하고 백성을 편안히 할 것이다' 하였다.",
+   "commentary": "본문 '龍鳳姿'의 주석 고사다. 형태는 비유적 품평뿐이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "龍鳳之姿，天日之表",
+     "observable_ko": "용봉의 자태·하늘의 해 같은 모습",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-028",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "楚司馬子良生子越椒，子文曰：「必殺之。是子也，熊虎之狀，豺狼之聲，弗殺，必滅若敖氏矣。」",
+   "translation": "초나라 사마(司馬) 자량(子良)이 아들 월초(越椒)를 낳자, 자문(子文)이 말하기를 '반드시 죽여라. 이 아이는 곰과 범의 형상에 승냥이와 이리의 소리이니, 죽이지 않으면 반드시 약오씨(若敖氏)를 멸할 것이다' 하였다.",
+   "commentary": "본문 '熊虎狀豺狼聲'의 주석 고사다. 문헌은 갓난아이의 외모와 울음소리를 근거로 일족 멸망을 예언하고 살해를 권했다고 적었다. 형태는 동물 비유와 소리뿐이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "熊虎之狀",
+     "observable_ko": "곰과 범 같은 형상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "豺狼之聲",
+     "observable_ko": "승냥이·이리 같은 소리",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-029",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "《學堂光瑩》，天下文名；",
+   "translation": "학당(學堂)이 빛나고 맑으면 천하에 글로 이름난다.",
+   "commentary": "학당은 관상에서 학문과 관련지은 얼굴 부위 이름으로 쓰이나 위치는 문헌마다 다르다. 빛남·맑음은 광택이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《學堂光瑩》",
+     "observable_ko": "학당 부위가 빛나고 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-030",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "《骨法異常》，人中真貴。",
+   "translation": "골법(骨法, 뼈대의 법식)이 보통과 다르면 사람 가운데 참으로 귀하다.",
+   "commentary": "여기서 '人中'은 인중(코밑 홈)이 아니라 '사람들 가운데'라는 뜻으로 읽힌다. 골법은 뼈대 전반에 대한 품평이라 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《骨法異常》",
+     "observable_ko": "뼈대가 보통과 다름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-031",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "袁天罡相岑文本曰：「學堂瑩夷眉過眼，故文章振天下　。」",
+   "translation": "원천강(袁天罡)이 잠문본(岑文本)을 보고 말하기를 '학당이 맑고 평평하며 눈썹이 눈을 지나니, 그러므로 문장이 천하를 떨친다' 하였다.",
+   "commentary": "본문 '學堂光瑩'의 주석 고사다. '눈썹이 눈을 지난다(眉過眼)'는 눈썹이 눈 길이보다 길다는 직접 서술로 가이드의 brow_length:long 표현이다. 학당의 맑음은 광택이라 관찰 불가로 두었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "學堂瑩夷",
+     "observable_ko": "학당이 맑고 평평함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉過眼",
+     "observable_ko": "눈썹이 눈보다 길게 뻗음",
+     "status": "exact",
+     "label": "brow_length:long"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-032",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "豫章相者游錢塘，見五代錢鏐，曰：「此真貴人也。骨法非常，而常願自安。」",
+   "translation": "예장(豫章)의 관상가가 전당(錢塘)에 유람하다가 오대의 전류(錢鏐)를 보고 말하기를 '이는 참된 귀인이다. 골법이 보통이 아니나 늘 스스로 편안하기를 원한다' 하였다.",
+   "commentary": "본문 '骨法異常'의 주석 고사다. 골법은 뼈대 전반에 대한 품평이라 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨法非常",
+     "observable_ko": "뼈대가 보통이 아님",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-033",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "出將入相，都緣足下龜紋；",
+   "translation": "나가서는 장수, 들어와서는 재상이 됨은 모두 발바닥의 거북 무늬 때문이다.",
+   "commentary": "발바닥 무늬는 얼굴 형태가 아니라 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足下龜紋",
+     "observable_ko": "발바닥의 거북 무늬",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-034",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "背印封侯，蓋為頂中犀骨。",
+   "translation": "등에 인(印)을 지고 제후에 봉해짐은 대개 정수리 가운데의 서골(犀骨) 때문이다.",
+   "commentary": "서골(犀骨)은 이마에서 정수리로 솟아 뻗은 뼈(伏犀骨)를 가리키는 관상 용어로, 주석이 이를 풀이한다. 정수리 뼈는 얼굴 사진의 이마 레이블로 측정되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "頂中犀骨",
+     "observable_ko": "정수리 가운데 솟은 뼈",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마에서 정수리로 이어지는 뼈 융기는 보이는 이마 높이·너비 레이블과 같은 측정이 아니며 해당 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-035",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "《下命論》：河目龜紋，公侯之相。註曰：「足下有龜紋也。」",
+   "translation": "『하명론(下命論)』에 하목(河目)과 거북 무늬는 공후의 상이라 하였다. 주에 이르기를 '발바닥에 거북 무늬가 있는 것이다' 하였다.",
+   "commentary": "본문 '足下龜紋'의 주석이다. 하목(河目)은 눈 모양을 이르는 옛 관상 용어이나 원문에 구체적 형태가 적혀 있지 않다. 발바닥 무늬는 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "河目",
+     "observable_ko": "하목(옛 눈 모양 명칭)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "용어만 있고 눈의 크기·모양 기준이 원문에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足下有龜紋",
+     "observable_ko": "발바닥의 거북 무늬",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-036",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "相法云：「自天庭起，伏犀骨貫頂，位至封侯也。」",
+   "translation": "『상법』에 이르기를 '천정에서 일어나 복서골(伏犀骨)이 정수리를 꿰면 지위가 제후에 봉해짐에 이른다' 하였다.",
+   "commentary": "본문 '頂中犀骨'의 주석이다. 복서골은 이마 가운데에서 정수리로 솟아 뻗은 뼈를 말한다. 뼈 융기라 보이는 이마 높이·너비 레이블과 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀骨貫頂",
+     "observable_ko": "이마에서 정수리로 솟은 뼈가 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마에서 정수리로 이어지는 뼈 융기는 보이는 이마 높이·너비 레이블과 같은 측정이 아니며 해당 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-037",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "睡後氣從耳出，貴則無疑。",
+   "translation": "잠든 뒤 숨이 귀로부터 나오면 귀함은 의심이 없다.",
+   "commentary": "잠잘 때의 숨결에 관한 서술로 형태가 아니다. 주석은 이를 귀식(龜息)이라 부른다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "睡後氣從耳出",
+     "observable_ko": "잠든 뒤 숨이 귀로 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-038",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "笑則脣揭露牙，貧焉可見。",
+   "translation": "웃으면 입술이 들려 이가 드러나니, 가난함을 볼 수 있다.",
+   "commentary": "웃을 때의 입술·치아 노출은 표정(동작)에 관한 서술이라 정지 형태 레이블로 옮길 수 없다. 문헌은 이를 가난과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "笑則脣揭露牙",
+     "observable_ko": "웃을 때 입술이 들려 이가 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "웃는 표정에서의 변화로 무표정 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-039",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "袁天罡相。李嶠云：「睡後氣從耳出，名龜息，此大貴也　。」",
+   "translation": "원천강이 관상을 보았다. 이교(李嶠)가 이르기를 '잠든 뒤 숨이 귀로부터 나오니 이름하여 귀식(龜息)이라 하며, 이는 크게 귀하다' 하였다.",
+   "commentary": "본문 '睡後氣從耳出'의 주석이다. 전사본 구두점대로 옮겼으나 문맥상 '원천강이 이교를 보고 이르기를'로 읽힐 여지가 있다. 숨결은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "睡後氣從耳出",
+     "observable_ko": "잠든 뒤 숨이 귀로 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-040",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "《相法》云：「笑語掀脣露齒，主貧賤也。」",
+   "translation": "『상법』에 이르기를 '웃고 말할 때 입술이 들리고 이가 드러나면 빈천을 주관한다' 하였다.",
+   "commentary": "본문 '笑則脣揭露牙'의 주석이다. 웃고 말하는 동작 중의 모습이라 정지 형태 레이블이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "笑語掀脣露齒",
+     "observable_ko": "웃고 말할 때 입술이 들리고 이가 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말하거나 웃는 동작 중의 변화로 무표정 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-041",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "「吉凶定矣」，富貴昭然。若見於陰德之中，又在於形相之外。",
+   "translation": "길흉이 정해졌으니 부귀가 환히 드러난다. 만약 음덕(陰德) 가운데 나타난다면, 또한 형상 밖에 있는 것이다.",
+   "commentary": "음덕은 남모르게 쌓은 덕행을 말한다. 형상 외에 행실이 운명을 바꾼다는 일반 원칙이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-042",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "形狀不吉，陰德文現，亦主富貴　。",
+   "translation": "형상이 길하지 않아도 음덕의 무늬가 나타나면 또한 부귀를 주관한다.",
+   "commentary": "본문 '陰德'에 대한 주석이다. 음덕문(陰德文)이 얼굴의 특정 무늬를 가리키는지는 원문만으로 분명하지 않으며, 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "陰德文現",
+     "observable_ko": "음덕의 무늬가 나타남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위의 어떤 무늬인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-043",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "荀子《非相篇》云：「相形不如相心。」",
+   "translation": "순자(荀子)의 『비상편(非相篇)』에 이르기를 '형상을 보는 것은 마음을 보는 것만 못하다' 하였다.",
+   "commentary": "관상보다 마음을 중시하는 인용으로 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-044",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "麻衣道者云：「有心無相，相逐心生；有相無心，相隨心滅。」",
+   "translation": "마의도자(麻衣道者)가 이르기를 '마음이 있고 상이 없으면 상이 마음을 좇아 생기고, 상이 있고 마음이 없으면 상이 마음을 따라 사라진다' 하였다.",
+   "commentary": "마음이 상을 바꾼다는 일반 원칙의 인용이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-045",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "位登宰相，自授夫《犀帶》之功。",
+   "translation": "지위가 재상에 오름은 스스로 저 서대(犀帶)를 돌려준 공 때문이다.",
+   "commentary": "뒤 주석의 배진공(裴晉公) 고사를 가리킨다. 서대는 무소뿔로 장식한 띠다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-046",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "裴晉公形相眇小，有相者曰：「郎君若不至貴，必當餓死。」 一日遊香山寺，有婦人以夫被罪，假得玉帶三、犀帶一，以賄津要，挂於欄楯，忘收之，度得而還之。後見相者曰：「必有陰德及人，前途萬里，非某所知也。」 後官至宰相。",
+   "translation": "배진공(裴晉公)은 형상이 작고 왜소했는데, 한 관상가가 말하기를 '낭군은 만약 지극히 귀해지지 않으면 반드시 굶어 죽을 것이다' 하였다. 하루는 향산사(香山寺)에 노닐었는데, 한 부인이 남편이 죄를 입어 옥대 셋과 서대 하나를 빌려 요직에 뇌물로 바치려다가 난간에 걸어 두고 거두기를 잊었는데, 도(度)가 이를 얻어 돌려주었다. 뒤에 관상가를 보니 말하기를 '반드시 남에게 미친 음덕이 있으니 앞길이 만 리라, 내가 알 바가 아니다' 하였다. 뒤에 벼슬이 재상에 이르렀다.",
+   "commentary": "음덕이 관상을 바꾼다는 주석 고사다. 형상이 작고 왜소함은 체격에 관한 말이라 얼굴 형태 레이블이 없다. 굶어 죽는다는 예언을 포함한다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形相眇小",
+     "observable_ko": "형상이 작고 왜소함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-047",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "《選中狀元》由造，乃蟻橋之力。",
+   "translation": "장원에 뽑힘이 이루어진 것은 곧 개미 다리의 힘이다.",
+   "commentary": "뒤 주석의 송교(宋郊) 고사를 가리킨다. '由造'의 끊어 읽기는 불확실하다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-048",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "宋郊入試，相者見之，未許其登第，歸於宿處。時大雨花臺，水將沒，有蟻萬計，周全無計，郊以竹作橋救之。後數日再見相，曰：「有大陰德及物，今年及第，必中狀元。」",
+   "translation": "송교(宋郊)가 시험에 들어갈 때 관상가가 그를 보고 급제를 허락하지 않으니, 묵는 곳으로 돌아갔다. 그때 큰비가 화대(花臺)에 내려 물이 잠기려 하는데 개미가 만으로 헤아릴 만큼 있어 온전히 할 방도가 없으니, 교가 대나무로 다리를 만들어 구했다. 며칠 뒤 다시 관상을 보니 말하기를 '큰 음덕이 만물에 미쳤으니 올해 급제하고 반드시 장원에 들 것이다' 하였다.",
+   "commentary": "음덕이 관상을 바꾼다는 주석 고사다. '花臺'는 장소 이름 또는 꽃밭 축대로 읽힐 수 있다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-049",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "行似龍騰，此相超群膽志；坐如虎踞，其人出眾英雄。",
+   "translation": "걸음이 용이 오르는 듯하면 이 상은 무리를 뛰어넘는 담력과 뜻이요, 앉음이 범이 웅크린 듯하면 그 사람은 무리에서 뛰어난 영웅이다.",
+   "commentary": "걸음걸이와 앉음새에 관한 동물 비유로, 정지 사진의 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "行似龍騰",
+     "observable_ko": "걸음이 용이 오르는 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "坐如虎踞",
+     "observable_ko": "앉음이 범이 웅크린 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-chin-050",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "chin",
+   "original_text": "原夫唧唧噥噥者，地閣尖瘦；",
+   "translation": "무릇 근원을 따지면, 중얼중얼 수군거리는 자는 지각(地閣, 턱)이 뾰족하고 여위었다.",
+   "commentary": "'地閣尖'은 턱끝이 뾰족하다는 직접 서술로 가이드의 chin_shape:pointed 표현이다. '여윔(瘦)'은 살집에 관한 말이나 어느 측정인지 특정되지 않는다. 문헌은 이 턱을 중얼거리는 말버릇의 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣尖",
+     "observable_ko": "턱끝이 뾰족함",
+     "status": "exact",
+     "label": "chin_shape:pointed"
+    },
+    {
+     "region": "chin",
+     "evidence": "瘦",
+     "observable_ko": "턱이 여윔",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여윔이 턱의 너비인지 살집인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-051",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "氣氣勢勢者，天庭飽滿。",
+   "translation": "기세가 등등한 자는 천정(天庭)이 가득 차 있다.",
+   "commentary": "천정이 '가득 참(飽滿)'은 이마의 둥근 볼륨에 관한 말로, 보이는 이마의 높이·너비 레이블과 다른 측정이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天庭飽滿",
+     "observable_ko": "이마 윗부분이 도톰하게 가득 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 볼륨·돌출은 forehead_height/width와 다른 측정으로 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-052",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "鼻梁聳直者，穀食豐厚。",
+   "translation": "콧대(鼻梁)가 솟고 곧은 자는 곡식과 먹을 것이 풍족하고 넉넉하다.",
+   "commentary": "콧대(鼻梁)의 모양은 가이드상 대응 레이블이 없는 항목이다. 콧대가 솟음은 산근 높이(nose_bridge)와 관련되나 같은 부위·측정이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁聳直",
+     "observable_ko": "콧대가 솟고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧대(鼻梁) 모양은 레이블 체계에 없으며 산근 높이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-053",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "山根不折者，功名俊美，",
+   "translation": "산근(山根, 콧뿌리)이 꺾이지 않은 자는 공명이 뛰어나고 아름답다.",
+   "commentary": "'꺾이지 않음(不折)'은 콧뿌리가 끊기거나 꺼지지 않았다는 부정 서술로, '山根高·聳'처럼 높이를 직접 말하지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根不折",
+     "observable_ko": "콧뿌리가 꺾이거나 끊기지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "꺾이지 않음은 높음과 같은 기준이 아니며 보통 높이도 포함한다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-glabella-054",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "glabella",
+   "original_text": "學館清高。〈印堂也〉「凌雲《折桂》」，",
+   "translation": "학관(學館)이 맑고 높으면〈인당(印堂)이다〉 구름을 넘고 계수나무를 꺾는다.",
+   "commentary": "주석은 학관을 인당(印堂, 두 눈썹 사이)으로 풀었다. '절계(折桂)'는 과거 급제를 뜻한다. '맑고 높음'은 품평어라 미간 너비 등 구체적 형태로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "學館清高",
+     "observable_ko": "인당 부위가 맑고 높음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "맑음(清)은 품평어이고 높음이 돌출인지 넓이인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-under_eye-055",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "under_eye",
+   "original_text": "淚堂深陷。〈子宮也〉剋子刑妻，",
+   "translation": "누당(淚堂, 눈 아래)이 깊이 꺼지면〈자궁(子宮)이다〉 자식을 극하고 아내를 형(刑)한다.",
+   "commentary": "누당은 눈 아래 부위로, 주석은 자녀를 보는 자궁(子宮)이라 풀었다. 눈 밑이 깊이 꺼진 형태는 와잠 유무(under_eye)와 다른 측정이라 대응 레이블이 없다. 문헌은 이를 자식과 아내를 해친다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "淚堂深陷",
+     "observable_ko": "눈 아래가 깊이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈 밑 함몰 깊이는 와잠 유무 레이블과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-056",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "若更持行立正，端的忠良，",
+   "translation": "만약 또한 몸가짐과 걸음과 섬이 바르면 틀림없이 충성스럽고 어질다.",
+   "commentary": "몸가짐과 서고 걷는 자세에 관한 서술로 정지 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "持行立正",
+     "observable_ko": "걸음과 서는 자세가 바름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-057",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "更兼雞眼虎睛，決明詞理。〈雞眼橫赤色也〉",
+   "translation": "게다가 닭의 눈에 범의 눈동자를 겸하면 말의 이치를 결단하고 밝힌다.〈닭의 눈은 가로로 붉은빛이 있는 것이다〉",
+   "commentary": "동물 비유이며, 주석은 닭의 눈을 가로로 붉은빛이 도는 눈으로 풀어 색에 관한 서술로 만들었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞眼虎睛",
+     "observable_ko": "닭의 눈·범의 눈동자",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "雞眼橫赤色",
+     "observable_ko": "눈에 가로로 붉은빛이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-058",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "是以鼻如鷹嘴，喫人心髓；",
+   "translation": "그러므로 코가 매의 부리 같으면 남의 심장과 골수를 먹는다.",
+   "commentary": "매부리코 비유로, 코끝이 갈고리처럼 아래로 굽은 모양을 가리키는 것으로 보이나 원문에 형태가 직접 적혀 있지 않다. 문헌은 남을 착취한다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如鷹嘴",
+     "observable_ko": "코가 매의 부리 같음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_tip:tapered"
+     ],
+     "reason": "동물 비유로 코끝 모양·콧대 굽음 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637-teeth-059",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "teeth",
+   "original_text": "齒如石榴，為國封侯。",
+   "translation": "이가 석류(알) 같으면 나라를 위해 제후에 봉해진다.",
+   "commentary": "치아 모양은 레이블 체계에 없는 항목이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如石榴",
+     "observable_ko": "이가 석류알처럼 가지런하고 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-060",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "腦門敦厚者，常清貴；",
+   "translation": "뇌문(腦門)이 도탑고 두터운 자는 늘 맑고 귀하다.",
+   "commentary": "뇌문은 이마 윗부분·정수리 앞쪽을 가리키는 말로 쓰인다. 도탑고 두터움은 볼륨에 관한 말이라 이마 높이·너비 레이블과 다른 측정이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "腦門敦厚",
+     "observable_ko": "이마 윗부분이 도탑고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 볼륨·두께는 forehead_height/width와 다른 측정으로 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-cheekbone-061",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "cheekbone",
+   "original_text": "顴骨尖高者，不自由。",
+   "translation": "관골(顴骨, 광대뼈)이 뾰족하고 높은 자는 자유롭지 못하다.",
+   "commentary": "광대뼈가 높다는 직접 서술로 가이드의 cheekbone:prominent(顴高) 표현에 해당한다. '뾰족함(尖)'은 추가 수식이다. 문헌은 이를 얽매인 삶과 연결했다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "顴骨尖高",
+     "observable_ko": "광대뼈가 높이 솟음",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-062",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "懸壁無露，燕腮莫浮。",
+   "translation": "현벽(懸壁)은 드러나지 말아야 하고, 연시(燕腮, 제비 뺨)는 들뜨지 말아야 한다.",
+   "commentary": "현벽·연시는 얼굴 옆면 부위를 이르는 관상 용어로 보이나 정확한 위치와 '드러남·들뜸'의 형태는 원문만으로 특정되지 않는다. 길흉 주장 없이 바람직한 모양만 말한다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "懸壁無露",
+     "observable_ko": "현벽 부위가 드러나지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 위치와 '드러남'의 형태가 특정되지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "燕腮莫浮",
+     "observable_ko": "뺨이 들뜨지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "비유적 부위명이고 '들뜸'의 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-063",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "《金門》一字四橫，偏多貪啖；鐵鎖深關罕用卻被拘留。〈金門鐵鎖口也此如無腮貪婪拘留〉",
+   "translation": "금문(金門)이 한 일(一) 자에 네 가로줄이면 치우쳐 탐하여 먹기를 많이 하고, 철쇄(鐵鎖)가 깊이 잠겨 드물게 쓰면 도리어 구류를 당한다.〈금문·철쇄는 입이다. 이는 뺨이 없는 것과 같아 탐욕스럽고 구류된다〉",
+   "commentary": "주석은 금문·철쇄를 입으로 풀었다. 입의 '一字四橫'과 '깊이 잠김'이 어떤 형태인지 분명하지 않고, 주석의 '뺨이 없음(無腮)'도 볼·턱 중 어느 측정인지 특정되지 않는다. 문헌은 탐욕과 구류(구금)를 주장했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "《金門》一字四橫",
+     "observable_ko": "입이 일자이고 네 가로줄이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "입 모양과 '四橫'이 무엇을 가리키는지 불분명하다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "鐵鎖深關",
+     "observable_ko": "입이 깊이 닫힘",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "입을 꽉 다문 모양인지 형태인지 불분명하다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "無腮",
+     "observable_ko": "뺨(턱살)이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:hollow",
+      "jaw_width:narrow"
+     ],
+     "reason": "'뺨이 없다'가 볼 꺼짐인지 턱 너비인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-064",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "《八卦》也。《乾》須壯大，欲象蓋盤。〈乾頭也天庭欲圓而聳〉",
+   "translation": "팔괘(八卦)이다. 건(乾)은 모름지기 장대해야 하니 덮개 쟁반을 닮고자 한다.〈건은 머리이다. 천정은 둥글고 솟고자 한다〉",
+   "commentary": "얼굴·머리를 팔괘에 배당하는 대목의 시작이다. 머리 크기는 얼굴 형태가 아니며, 천정이 '솟음(聳)'은 가이드상 이마 높이와 돌출을 구분할 수 없는 근사 표현이다. 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《乾》須壯大",
+     "observable_ko": "머리가 장대함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "天庭欲圓而聳",
+     "observable_ko": "이마 윗부분이 둥글고 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "솟음(聳)은 높이가 아니라 돌출일 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-chin-065",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "chin",
+   "original_text": "《坤》若寬停，必須朝口。〈坤地閣也宜朝上〉",
+   "translation": "곤(坤)이 만약 넓고 고르면 모름지기 입을 향해야 한다.〈곤은 지각이다. 위로 향함이 마땅하다〉",
+   "commentary": "주석은 곤을 지각(地閣, 턱)으로 풀었다. 턱이 위(입 쪽)로 향함은 가이드상 '地閣朝'에 해당하는 근사 표현이다. 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "寬停",
+     "observable_ko": "턱이 넓고 고름",
+     "status": "approximate",
+     "candidate_labels": [
+      "jaw_width:wide",
+      "chin_shape:square"
+     ],
+     "reason": "턱끝 너비인지 아래턱 너비인지 특정되지 않는다"
+    },
+    {
+     "region": "chin",
+     "evidence": "宜朝上",
+     "observable_ko": "턱이 위로 향함",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_projection:prominent"
+     ],
+     "reason": "'地閣朝'류 표현은 가이드상 근사로 정해져 있다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-066",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "《坎》若清兮足才學，〈坎口也脣紅聲清〉",
+   "translation": "감(坎)이 만약 맑으면 재주와 학문이 넉넉하다.〈감은 입이다. 입술이 붉고 목소리가 맑다〉",
+   "commentary": "주석은 감을 입으로 풀고 '맑음'을 입술 색과 목소리로 설명했다. 둘 다 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣紅",
+     "observable_ko": "입술이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲清",
+     "observable_ko": "목소리가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-067",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "離若垂兮貪花柳，〈離眉也如分八字〉",
+   "translation": "이(離)가 만약 드리우면 화류(花柳)를 탐한다.〈이는 눈썹이다. 팔(八) 자를 나눈 듯하다〉",
+   "commentary": "주석은 이를 눈썹으로 풀고 드리움을 팔자(八字) 모양으로 설명했다. '八字'는 가이드의 brow_tail:descending 표현이다. 화류는 유흥·여색을 뜻하며 문헌은 성적 행실에 관한 낙인성 주장을 붙였다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "如分八字",
+     "observable_ko": "눈썹 꼬리가 팔자로 처짐",
+     "status": "exact",
+     "label": "brow_tail:descending"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ637-cheekbone-068",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "cheekbone",
+   "original_text": "《震》若寬上者無定止，《兌》若《離》開者常游走。〈離兌兩顴也無肉主游走〉",
+   "translation": "진(震)이 만약 위가 넓은 자는 정하여 머무름이 없고, 태(兌)가 만약 떨어져 벌어진 자는 늘 떠돌아다닌다.〈이·태는 두 광대뼈이다. 살이 없으면 떠돎을 주관한다〉",
+   "commentary": "주석은 '離兌'를 두 광대뼈라 했으나 앞에서 이(離)를 눈썹으로 풀었으므로 본문의 진·태를 가리키는 것으로 보이며 해석 여지가 있다. 광대 부위에 살이 없음은 볼 꺼짐 또는 광대 돌출과 관련되나 같은 측정으로 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "《震》若寬上",
+     "observable_ko": "진 부위의 위가 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "괘에 배당된 부위와 '넓음'의 형태가 특정되지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "《兌》若《離》開",
+     "observable_ko": "태 부위가 떨어져 벌어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "괘에 배당된 부위와 '벌어짐'의 형태가 특정되지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "無肉",
+     "observable_ko": "광대 부위에 살이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:hollow",
+      "cheekbone:prominent"
+     ],
+     "reason": "광대뼈 위 살집 부족이 볼 꺼짐인지 광대 돌출인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-069",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "「步重一聲如奔馬，行穿兩腳聊充口，",
+   "translation": "걸음이 무거워 한 번 내는 소리가 달리는 말 같고, 걸을 때 두 발이 서로 엇갈려 꿰면 겨우 입에 풀칠한다.",
+   "commentary": "걸음걸이와 발소리에 관한 서술로 정지 사진의 형태가 아니다. '聊充口'는 간신히 먹고사는 형편을 뜻하는 것으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "步重一聲如奔馬",
+     "observable_ko": "걸음 소리가 무거움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "行穿兩腳",
+     "observable_ko": "걸을 때 두 발이 엇갈림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-070",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "巽起三停於外越。」便使愚痴。〈巽乃兩耳不貼肉也〉",
+   "translation": "손(巽)이 일어나 삼정(三停)에서 밖으로 넘어서면 곧 어리석게 한다.〈손은 곧 두 귀가 살에 붙지 않은 것이다〉",
+   "commentary": "주석은 손을 두 귀가 머리 옆에 붙지 않고 벌어진 것으로 풀었다. 귀의 돌출(벌어짐)은 귀 길이·너비 레이블과 다른 측정이라 대응 레이블이 없다. 문헌은 이를 어리석음과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳不貼肉",
+     "observable_ko": "두 귀가 머리에 붙지 않고 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도는 ear_length/ear_width와 다른 측정으로 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-071",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "《艮》若齊貫而端直，聰明富有。〈艮鼻正直而平齊貫也〉",
+   "translation": "간(艮)이 만약 가지런히 꿰뚫고 단정하고 곧으면 총명하고 부유하다.〈간은 코이다. 바르고 곧으며 평평하고 가지런히 꿰뚫은 것이다〉",
+   "commentary": "주석은 간을 코로 풀었다. 코가 바르고 곧게 이어짐은 콧대 모양·좌우 치우침에 관한 서술로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "艮鼻正直而平齊貫",
+     "observable_ko": "코가 바르고 곧게 고르게 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대 곧음·치우침 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-072",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "夫何重分次第？目下異端？",
+   "translation": "무릇 어찌 거듭 차례를 나누는가? 눈 아래가 다른 갈래인가?",
+   "commentary": "다음 단락으로 넘어가는 수사적 물음으로 보이나 '目下異端'의 뜻은 원문만으로 분명하지 않다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-073",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "有刑傷者太陽陷，",
+   "translation": "형벌과 상해가 있는 자는 태양(太陽, 관자놀이)이 꺼졌다.",
+   "commentary": "태양은 관자놀이 부위를 가리킨다. 관자놀이의 꺼짐은 레이블 체계에 없는 항목이다. '刑傷'은 형벌과 몸의 상해를 함께 가리키는 말로 읽힌다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "太陽陷",
+     "observable_ko": "관자놀이가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "관자놀이 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-074",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "無破敗者面門寬。",
+   "translation": "깨지고 무너짐(파산·실패)이 없는 자는 면문(面門)이 넓다.",
+   "commentary": "면문은 얼굴(또는 입 주변)을 가리키는 말로 쓰이나 이 구절에서 가리키는 부위와 '넓음'의 측정이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面門寬",
+     "observable_ko": "면문이 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "face_shape:round",
+      "mouth_width:wide"
+     ],
+     "reason": "면문이 얼굴 전체인지 입 부위인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-075",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "mouth",
+   "original_text": "夭壽者，則辨其脣掀，",
+   "translation": "요절과 장수는 그 입술이 들렸는지(脣掀)를 분별한다.",
+   "commentary": "'脣掀'은 입술이 앞으로 들려 젖혀진 모양으로 가이드의 lip_projection:protruded 표현이다. 문헌은 이 입술로 수명을 판별한다고 했으며, 뒤의 '眉長者脣掀無害' 주석은 들린 입술을 요절과 연결한다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 앞으로 들려 젖혀짐",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-076",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "窮險者，則知其骨寒，",
+   "translation": "궁하고 험한 자는 그 뼈가 차가움을 안다.",
+   "commentary": "'뼈가 차다(骨寒)'는 빈한한 골상을 이르는 품평어로 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨寒",
+     "observable_ko": "뼈대가 차가움(빈한한 골상)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-under_eye-077",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "under_eye",
+   "original_text": "《金匱》滿者，主有厚祿。〈眼下有肉如橫指也〉",
+   "translation": "금궤(金匱)가 가득 찬 자는 두터운 녹봉이 있음을 주관한다.〈눈 아래에 살이 있어 가로 놓인 손가락 같은 것이다〉",
+   "commentary": "주석은 금궤를 눈 아래에 가로 놓인 손가락 같은 살로 풀어, 와잠(臥蠶)과 비슷한 눈 밑 볼록함을 가리키는 것으로 보인다. 다만 '臥蠶'이라는 표현이 아니어서 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下有肉如橫指",
+     "observable_ko": "눈 아래에 가로로 도톰한 살이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "'臥蠶'이라는 명시 표현이 아니라 주석의 비유적 설명이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-078",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "《小得大》者，必有高官。〈眼上重紋眼貴有角〉",
+   "translation": "소득대(小得大)인 자는 반드시 높은 관직이 있다.〈눈 위에 겹친 주름이 있고, 눈은 모서리가 있음을 귀히 여긴다〉",
+   "commentary": "'小得大'의 뜻은 원문만으로 분명하지 않으며 주석은 눈 위의 겹친 주름과 눈의 모서리로 설명했다. 눈 위 겹주름은 쌍꺼풀일 수 있으나 '雙'을 명시하지 않았다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼上重紋",
+     "observable_ko": "눈 위에 겹친 주름이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eyelid:double"
+     ],
+     "reason": "쌍꺼풀을 명시하지 않았고 눈두덩 주름일 수도 있다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼貴有角",
+     "observable_ko": "눈에 모서리가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈꼬리 각이 무엇을 뜻하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-079",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "《妖人邪視》，《偷人低觀》。〈賊人眼視地也〉",
+   "translation": "요사한 사람은 비스듬히 보고, 훔치는 사람은 낮게 본다.〈도적은 눈이 땅을 본다〉",
+   "commentary": "보는 방식(시선)에 관한 서술로 형태가 아니다. 문헌은 이를 요사함·도둑이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "邪視",
+     "observable_ko": "비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·보는 방식은 형태가 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "低觀",
+     "observable_ko": "낮게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·보는 방식은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-080",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "「鳳眉象眼，營生正易；",
+   "translation": "봉황 눈썹에 코끼리 눈이면 생계를 꾸림이 바로 쉽다.",
+   "commentary": "봉황·코끼리에 빗댄 비유로 구체적 형태가 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "鳳眉",
+     "observable_ko": "봉황 같은 눈썹",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "象眼",
+     "observable_ko": "코끼리 같은 눈",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-081",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "鴨背鵝胸，餓死何難？」",
+   "translation": "오리 등에 거위 가슴이면 굶어 죽기가 어찌 어렵겠는가?",
+   "commentary": "등과 가슴의 체형 비유로 얼굴 형태가 아니다. 문헌은 굶어 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鴨背鵝胸",
+     "observable_ko": "오리 등·거위 가슴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-philtrum-082",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "philtrum",
+   "original_text": "「人中既現，不必鬚長；",
+   "translation": "인중(人中, 코밑 홈)이 이미 드러났으면 수염이 길 필요가 없다.",
+   "commentary": "인중이 뚜렷이 드러남은 인중 윤곽의 선명도(philtrum_definition)와 가깝지만 '人中深'처럼 깊이를 직접 말하지 않는다. 수염은 형태 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中既現",
+     "observable_ko": "인중이 뚜렷이 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "'드러남'이 깊이(深)를 말하는지 수염에 가리지 않음을 말하는지 확정할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "鬚長",
+     "observable_ko": "수염이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "수염은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-ear-083",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "ear",
+   "original_text": "《輪廓雖小，且要有氣》。」〈耳雖小且要白〉",
+   "translation": "윤곽(輪廓, 귓바퀴)이 비록 작아도 또한 기운이 있어야 한다.〈귀가 비록 작아도 또한 희어야 한다〉",
+   "commentary": "윤곽은 귓바퀴를 가리키며 주석이 이를 귀로 풀었다. 귀가 작다는 표현은 가이드상 귀 길이의 근사 표현이고, 기운·흰색은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳雖小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short",
+      "ear_width:narrow"
+     ],
+     "reason": "'耳小'는 가이드상 길이·너비를 구분하지 않는 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "且要白",
+     "observable_ko": "귀가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-084",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "眼雖薄兮清奇穩，〈眼飽寬也〉",
+   "translation": "눈이 비록 얇아도 맑고 기이하며 안온하다.〈눈이 도톰하고 넉넉한 것이다〉",
+   "commentary": "본문의 '얇음(薄)'과 주석의 '도톰하고 넉넉함(飽寬)'이 서로 어긋나 무엇을 가리키는지 분명하지 않다. 맑고 기이함은 품평어다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼雖薄",
+     "observable_ko": "눈이 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "본문과 주석의 설명이 어긋나 형태가 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "清奇穩",
+     "observable_ko": "맑고 기이하고 안온함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-085",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "鼻若仰兮竅不祥，〈鼻仰孔露也〉",
+   "translation": "코가 만약 들리면 구멍이 상서롭지 못하다.〈코가 들려 콧구멍이 드러난 것이다〉",
+   "commentary": "주석은 들린 코를 콧구멍이 드러난 것으로 풀었으며 '孔露'는 가이드의 nostril_show:visible 표현이다. 문헌은 이를 불길함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻仰孔露",
+     "observable_ko": "코가 들려 콧구멍이 정면에서 보임",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-086",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "眉長者，脣掀無害。〈眉長而脣掀則不夭折也〉",
+   "translation": "눈썹이 긴 자는 입술이 들려도 해가 없다.〈눈썹이 길고 입술이 들렸으면 요절하지 않는다〉",
+   "commentary": "'眉長'은 brow_length:long, '脣掀'은 lip_projection:protruded의 가이드 표현이다. 문헌은 긴 눈썹이 들린 입술의 요절 징조를 상쇄한다고 적었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉長者",
+     "observable_ko": "눈썹이 긺",
+     "status": "exact",
+     "label": "brow_length:long"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣掀無害",
+     "observable_ko": "입술이 앞으로 들려 젖혀짐",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-087",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "面大者。結喉不良。〈面雖大而結喉露者則凶也〉",
+   "translation": "얼굴이 큰 자라도 결후(結喉, 울대뼈)가 좋지 않다.〈얼굴이 비록 커도 결후가 드러나면 흉하다〉",
+   "commentary": "얼굴 크기 자체는 얼굴 비율 레이블이 아니며, 결후(목울대)는 얼굴 밖 부위다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面大",
+     "observable_ko": "얼굴이 큼",
+     "status": "unmapped",
+     "candidate_labels": [
+      "face_length:long"
+     ],
+     "reason": "얼굴의 절대 크기는 비율 기반 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "結喉露",
+     "observable_ko": "울대뼈가 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-088",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "任是猴相之形真，終有財糧之富足。",
+   "translation": "설령 원숭이 상의 형상이 참되더라도 끝내 재물과 양식의 넉넉함이 있다.",
+   "commentary": "원숭이 상은 동물 비유로 구체적 형태가 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "猴相之形",
+     "observable_ko": "원숭이 같은 상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-089",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "若見形端正直，須知高貴多福。",
+   "translation": "만약 형상이 단정하고 바르고 곧음을 보면, 높고 귀하며 복이 많음을 알아야 한다.",
+   "commentary": "형상 전반의 단정함에 관한 품평으로 구체적 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形端正直",
+     "observable_ko": "형상이 단정하고 곧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-090",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "蛇奔雀步，乞丐之輩，",
+   "translation": "뱀이 달리듯 참새가 걷듯 하면 거지의 무리이고,",
+   "commentary": "걸음걸이에 관한 동물 비유로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "蛇奔雀步",
+     "observable_ko": "뱀·참새 같은 걸음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-091",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "狗坐蛟騰，毒害之徒，",
+   "translation": "개처럼 앉고 교룡처럼 뛰면 독하게 해치는 무리이다.",
+   "commentary": "앉음새와 움직임에 관한 동물 비유로 형태가 아니다. 문헌은 남을 해치는 무리라는 낙인성 주장을 붙였다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "狗坐蛟騰",
+     "observable_ko": "개처럼 앉고 교룡처럼 뜀",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음·앉음새 등 동작은 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-092",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "eye",
+   "original_text": "《官殺》現以為殃。〈眼內有赤筋者是官殺也〉",
+   "translation": "관살(官殺)이 나타나면 재앙이 된다.〈눈 안에 붉은 힘줄이 있는 것이 관살이다〉",
+   "commentary": "주석은 관살을 눈 안의 붉은 핏줄로 풀었다. 충혈·색은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼內有赤筋",
+     "observable_ko": "눈 안에 붉은 핏줄이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-093",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "《蘭臺》腫。以為奴。〈鼻偏面腫多為奴僕〉",
+   "translation": "난대(蘭臺, 콧방울)가 부으면 종이 된다.〈코가 치우치고 얼굴이 부으면 흔히 노복이 된다〉",
+   "commentary": "난대는 콧방울을 가리킨다. 부어오름은 콧방울의 풍만함과 같은 기준이 아니며, 코의 치우침은 레이블이 없고 얼굴 부기는 상태에 관한 서술이다. 문헌은 이를 노비 신분과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "《蘭臺》腫",
+     "observable_ko": "콧방울이 부음",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "부어오름은 풍만함(豐)과 같은 기준이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻偏",
+     "observable_ko": "코가 한쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 좌우 치우침 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面腫",
+     "observable_ko": "얼굴이 부음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "부기는 일시적 상태로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-094",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "《柳葉眉》齊而有藝，",
+   "translation": "버들잎 눈썹이 가지런하면 재주가 있고,",
+   "commentary": "버들잎 눈썹(柳葉眉)은 가늘고 길게 휜 눈썹을 가리키는 이름으로 쓰이나, 원문에 구체적 형태가 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "《柳葉眉》齊",
+     "observable_ko": "버들잎 모양 눈썹이 가지런함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_thickness:thin",
+      "brow_shape:arched"
+     ],
+     "reason": "눈썹 유형 이름만 있고 형태 기준이 원문에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-095",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "《了字眉》反而定孤。",
+   "translation": "요(了) 자 눈썹이 뒤집히면 반드시 외롭다.",
+   "commentary": "요자 눈썹(了字眉)의 모양과 '뒤집힘(反)'의 뜻이 원문만으로 특정되지 않는다. '孤'는 의지할 가족이 없음을 뜻하는 것으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "《了字眉》反",
+     "observable_ko": "요 자 모양 눈썹이 뒤집힘",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "글자 모양 비유로 형태 기준이 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-096",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "nose",
+   "original_text": "卻知鼻頭如懸膽，耳白綴珠。",
+   "translation": "또 알지니, 코끝(鼻頭)은 매단 쓸개 같고, 귀는 희고 구슬을 꿴 듯하다.",
+   "commentary": "현담비(懸膽鼻)는 쓸개를 매단 듯 코끝이 둥글고 도톰한 코를 이르나, '準圓'처럼 직접 서술한 것이 아니다. 귀의 흰색은 색이고 '구슬을 꿴 듯함'은 귓불 모양의 비유다. 길흉 주장은 붙어 있지 않다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻頭如懸膽",
+     "observable_ko": "코끝이 매단 쓸개처럼 둥글고 도톰함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "비유 표현으로 '準圓'과 같은 직접 서술이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳白",
+     "observable_ko": "귀가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "綴珠",
+     "observable_ko": "귓불이 구슬을 꿴 듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-097",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "brow",
+   "original_text": "女眉垂兮在宦族，",
+   "translation": "여자의 눈썹이 드리우면 벼슬하는 집안에 있다.",
+   "commentary": "여성에게만 적용되는 구절이다. '눈썹이 드리움(眉垂)'은 눈썹 꼬리가 처진 모양으로 읽을 수 있으나 '尾垂·八字'처럼 꼬리를 명시하지 않았다. 혼인으로 관료 집안에 든다는 뜻으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉垂",
+     "observable_ko": "눈썹이 아래로 드리움",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail:descending"
+     ],
+     "reason": "꼬리(尾)를 명시하지 않아 눈썹 전체 위치일 수도 있다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-forehead-098",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "forehead",
+   "original_text": "男額寬兮達帝都。",
+   "translation": "남자의 이마가 넓으면 황제의 도읍에 이른다(현달한다).",
+   "commentary": "남성에게만 적용되는 구절이다. '額寬'은 가이드의 forehead_width:wide 표현이다. 문헌은 이를 관직 현달과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額寬",
+     "observable_ko": "이마가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-099",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "豈不識御苑公卿，田面本來無異；邊塵將相，龍頭必竟無殊。",
+   "translation": "어찌 알지 못하는가, 어원(御苑)의 공경(公卿)은 전(田) 자 얼굴로 본래 다름이 없고, 변방 먼지 속의 장수와 재상은 용의 머리로 필경 다름이 없다.",
+   "commentary": "'田面'은 밭 전(田) 자처럼 네모진 얼굴을 가리키는 것으로 보이나 '面方'과 같은 직접 서술은 아니다. 용의 머리는 동물 비유다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "田面",
+     "observable_ko": "밭 전(田) 자 같은 얼굴",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:angular"
+     ],
+     "reason": "글자 모양 비유로 '面方'과 같은 직접 서술이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "龍頭",
+     "observable_ko": "용과 같은 머리",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-100",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "莫怪泄盡天機，統言道遍，二樣皆能相和合。〈二樣頭象天足象地者是也〉",
+   "translation": "천기를 다 누설함을 괴이하게 여기지 말라. 통틀어 말하고 두루 말하였으니, 두 모양이 모두 서로 어울려 합할 수 있다.〈두 모양은 머리가 하늘을 본뜨고 발이 땅을 본뜬 것이 이것이다〉",
+   "commentary": "결론부의 일반론이다. 머리와 발이 하늘·땅을 본뜬다는 주석은 체형 전반에 관한 말로 얼굴 형태 기준이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭象天足象地",
+     "observable_ko": "머리는 하늘, 발은 땅을 본뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-101",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "other",
+   "original_text": "《四象相揖則無先》，〈面部與色相透四象也〉是則富貴，否則貧賤。",
+   "translation": "사상(四象)이 서로 읍하면 먼저 됨이 없으니,〈얼굴 부위와 기색이 서로 통하는 것이 사상이다〉 이러하면 부귀하고, 그렇지 않으면 빈천하다.",
+   "commentary": "주석은 사상을 얼굴 부위와 기색의 조화로 풀었다. 기색은 형태가 아니며 구체적 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面部與色相透",
+     "observable_ko": "얼굴 부위와 기색이 서로 통함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-102",
+   "section": "《巖電道人神眼經》",
+   "attributed_to": "巖電道人",
+   "region": "face",
+   "original_text": "更有一百二十部星辰，排於一面。",
+   "translation": "또 120부위의 별자리가 한 얼굴에 늘어서 있다.",
+   "commentary": "얼굴을 120부위로 나누어 별자리에 배당하는 체계를 말하는 맺음 구절이다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  }
+ ]
+}

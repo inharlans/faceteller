@@ -1,0 +1,58 @@
+:root { font-family: "Malgun Gothic", "Noto Sans CJK KR", system-ui, sans-serif; color: #1b2936; background: #f4f6f8; line-height: 1.6; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+header { padding: 20px max(24px, calc((100vw - 1040px)/2)); background: #183b4a; color: white; display: flex; flex-wrap: wrap; gap: 20px; align-items: baseline; }
+header strong { font-size: 24px; }
+header span { font-size: 13px; }
+main { max-width: 1088px; margin: auto; padding: 24px; }
+h1 { font-size: 27px; margin: 0 0 12px; } h2 { font-size: 20px; }
+section { background: white; border: 1px solid #d9e0e5; padding: 24px; border-radius: 8px; margin-bottom: 20px; }
+button, input { font: inherit; }
+button { cursor: pointer; border: 1px solid #24566b; background: #24566b; color: white; padding: 10px 16px; border-radius: 5px; }
+button:hover { background: #173e50; } button:disabled { opacity: .5; cursor: not-allowed; } button:focus-visible, input:focus-visible { outline: 3px solid #c65e0d; outline-offset: 3px; }
+.secondary { background: white; color: #24566b; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.notice { background: #e7eff2; padding: 14px; font-size: 14px; }
+.muted { color: #526372; font-size: 14px; }
+.alert { border: 1px solid #b45612; background: #fff3df; padding: 16px; margin-bottom: 20px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.slots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.slot { border: 1px solid #cad4db; padding: 16px; border-radius: 5px; }
+.slot label { display: block; font-weight: bold; } .slot input { width: 100%; font-size: 13px; margin-top: 12px; }
+.slot img { width: 100%; height: 160px; object-fit: contain; background: #f0f3f5; margin-top: 12px; }
+.slot p { font-size: 13px; } .slot button { font-size: 13px; padding: 5px 10px; }
+.item, .passage { border: 1px solid #d9e0e5; padding: 14px; margin: 12px 0; overflow-wrap: anywhere; }
+.item p, .passage p { margin: 5px 0; white-space: pre-wrap; } .held { border-left: 4px solid #b77929; }
+.passage .passage-ranking { font-size: 18px; font-weight: 700; color: #183b4a; }
+.score-notice { color: #526372; font-size: 13px; }
+.score-details { border-top: 1px solid #d9e0e5; padding-top: 8px; margin: 8px 0 14px; }
+.score-details summary { cursor: pointer; font-weight: 600; }
+.score-details summary:focus-visible { outline: 3px solid #c65e0d; outline-offset: 3px; }
+.score-details ul { padding-left: 22px; }
+.score-details li { margin: 6px 0; overflow-wrap: anywhere; }
+.camera-preview { position: relative; max-width: 600px; background: #172b39; aspect-ratio: 4 / 3; }
+video { width: 100%; height: 100%; object-fit: contain; transform: scaleX(-1); }
+.face-guide { position: absolute; inset: 12% 28%; border: 2px dashed #fff; border-radius: 50%; }
+.gauge { --value: 0%; width: 80px; height: 80px; display: grid; place-items: center; margin-top: 15px; border-radius: 50%; background: conic-gradient(#287c8e var(--value), #e6ecef 0); }
+.gauge span { border-radius: 50%; background: white; padding: 13px 8px; }
+#camera-steps { display: flex; flex-wrap: wrap; gap: 30px; } #camera-steps .done { color: #24735a; font-weight: bold; }
+#preview-panel { overflow-x: auto; }
+#print-sheet { width: 190mm; min-height: 277mm; margin: 20px auto 0; padding: 0; background: white; outline: 1px solid #aebbc3; font-size: 11pt; line-height: 1.35; }
+#print-content { width: 100%; padding: 5mm; overflow-wrap: anywhere; }
+#print-content h2 { font-size: 1.5em; margin: 0 0 .4em; }
+#print-content h3 { font-size: 1em; margin: .4em 0; }
+#print-content p { margin: .3em 0; white-space: pre-wrap; }
+.print-item { border-bottom: 1px solid #d9e0e5; padding: .2em 0; }
+.print-passage { border: 0; border-top: 1px solid #aebbc3; border-radius: 0; margin: .7em 0 0; padding: .4em 0 0; break-inside: avoid; }
+.print-notice { font-size: .9em; }
+@media (max-width: 640px) { main { padding: 12px; } section { padding: 16px; } .slots { grid-template-columns: 1fr; } h1 { font-size: 23px; } header { padding: 16px; } #print-sheet { margin-left: 0; } }
+@page { size: A4; margin: 10mm; }
+@media print {
+  :root, body { background: white; color: black; }
+  .screen-only { display: none !important; }
+  main { padding: 0; margin: 0; max-width: none; }
+  #preview-panel { display: block !important; border: 0; border-radius: 0; padding: 0; margin: 0; overflow: visible; }
+  #print-sheet { outline: 0; margin: 0; width: 190mm; min-height: 0; }
+  #print-content { padding: 5mm; }
+  body[data-print-mode="multipage"] .print-passage { break-inside: auto; }
+}

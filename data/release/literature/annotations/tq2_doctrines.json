@@ -1,0 +1,420 @@
+{
+ "page_id": "tq2",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "TQ2D-face-001",
+   "section": "太清神鑑 卷二",
+   "section_title": "二儀相應",
+   "region": "face",
+   "original_text": "肅肅出乎天赫赫發乎地兩者交通已成和而萬物生焉此乾坤二儀之應也",
+   "translation": "엄숙하고 차가운 기운(肅肅)은 하늘에서 나오고 밝고 뜨거운 기운(赫赫)은 땅에서 일어나, 둘이 서로 통하여 조화를 이루니 만물이 생겨난다. 이것이 건곤(乾坤) 이의(二儀, 하늘과 땅)의 응함이다.",
+   "commentary": "음양의 두 기운이 하늘과 땅에서 나와 서로 통한다는 표현으로 하늘·땅의 상응을 설명한 총론이다. 관상 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-002",
+   "section": "太清神鑑 卷二",
+   "section_title": "二儀相應",
+   "region": "face",
+   "original_text": "故能富萬物盛徳大業無所不至矣",
+   "translation": "그러므로 만물을 풍부하게 할 수 있어, 성대한 덕과 큰 사업이 이르지 않는 바가 없다.",
+   "commentary": "하늘과 땅의 응함이 가져오는 효과를 말한 구절로, 사람에 대한 주장이나 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-003",
+   "section": "太清神鑑 卷二",
+   "section_title": "二儀相應",
+   "region": "face",
+   "original_text": "且人之二儀者亦有像焉以頭為天以頦為地又以天庭像天地角像地",
+   "translation": "또 사람의 이의(二儀)에도 본뜬 것이 있으니, 머리를 하늘로 삼고 턱(頦)을 땅으로 삼으며, 또 천정(天庭, 이마 위쪽)으로 하늘을 본뜨고 지각(地角, 턱 끝 부위)으로 땅을 본뜬다.",
+   "commentary": "얼굴의 위·아래 부위를 하늘·땅에 배당한 부위 설명이다. 길흉 주장과 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-004",
+   "section": "太清神鑑 卷二",
+   "section_title": "二儀相應",
+   "region": "face",
+   "original_text": "此兩位欲得豐滿相朝上下相應故亦能富貴福禄矣",
+   "translation": "이 두 부위는 풍만하고 서로 마주 향하여 위아래가 서로 응하기를 바라니, 그러므로 (사람) 또한 부귀하고 복록을 누릴 수 있다.",
+   "commentary": "천정(이마 위쪽)과 지각(턱)이 모두 풍만하고 서로 호응해야 한다는 서술이다. 이마 위쪽·턱의 풍만함은 cheek_fullness 같은 볼 항목과 다른 부위이고, '서로 마주 향함'은 측정 기준이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "豐滿",
+     "observable_ko": "천정(이마 위쪽)과 지각(턱)이 풍만함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 위쪽·턱 부위의 살집 풍만함에 대한 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "相朝上下相應",
+     "observable_ko": "이마와 턱이 서로 마주 향하여 호응함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "위아래 부위의 '호응'이 어떤 형태 비율인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-005",
+   "section": "太清神鑑 卷二",
+   "section_title": "五嶽",
+   "region": "face",
+   "original_text": "五嶽者上應天之五星下鎮地之五方髙峻敦厚所以卓然立於乾坤之内者以其相資而成天地之大也",
+   "translation": "오악(五嶽)이라는 것은 위로는 하늘의 다섯 별(五星)에 응하고 아래로는 땅의 다섯 방위를 누르며, 높고 가파르며 도탑고 두터워, 하늘과 땅 안에 우뚝 서 있는 까닭은 서로 도와 천지의 큼을 이루기 때문이다.",
+   "commentary": "오악은 중국의 다섯 명산으로, 관상에서 얼굴의 다섯 솟은 부위에 배당된다. 이 구절은 자연의 오악에 대한 설명이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-006",
+   "section": "太清神鑑 卷二",
+   "section_title": "五嶽",
+   "region": "face",
+   "original_text": "人亦有所像焉故額為衡嶽欲得方而廣頷為恒嶽欲得圓而厚左顴為泰嶽右顴為華嶽左右欲得圓而正鼻為嵩嶽欲得髙而峻故五嶽須要豐隆而相朝髙峻而不陷乃相之貴矣〈人倫風鑑同〉",
+   "translation": "사람에게도 본뜬 것이 있으니, 그러므로 이마는 형악(衡嶽)이 되어 모나고 넓기를 바라고, 턱(頷)은 항악(恒嶽)이 되어 둥글고 두텁기를 바라며, 왼쪽 관골(顴, 광대뼈)은 태악(泰嶽)이 되고 오른쪽 관골은 화악(華嶽)이 되어 좌우가 둥글고 바르기를 바라고, 코는 숭악(嵩嶽)이 되어 높고 가파르기를 바란다. 그러므로 오악은 반드시 풍성하게 솟아 서로 마주 향하고, 높고 가파르되 꺼지지 않아야 곧 귀한 상이다. 〈『인륜풍감(人倫風鑑)』도 같다.〉",
+   "commentary": "얼굴의 다섯 부위(이마·턱·양 관골·코)를 오악에 배당하고 각각의 바람직한 형태를 적은 뒤 귀한 상과 연결했다. 이마가 '넓다(廣)'는 너비 서술은 forehead_width:wide로 옮겼고, 턱의 둥긂은 頷이 아래턱 전체를 가리킬 수 있어 근사로, 코의 '높음'은 콧등과 코끝 중 어느 쪽인지 특정되지 않아 근사로 두었다. 〈〉 안은 같은 내용이 다른 책에 있다는 협주이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額為衡嶽欲得方而廣",
+     "observable_ko": "이마가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方",
+     "observable_ko": "이마가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 모남에 대한 레이블이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "頷為恒嶽欲得圓而厚",
+     "observable_ko": "턱이 둥글고 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:rounded"
+     ],
+     "reason": "頷은 아래턱 전체를 가리킬 수 있고 地閣圓·頦圓 같은 정형 표현이 아니며, 두터움은 대응 레이블이 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "左右欲得圓而正",
+     "observable_ko": "좌우 관골이 둥글고 바름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "관골의 둥긂·바름은 관골 돌출 정도(cheekbone) 레이블과 다른 서술이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻為嵩嶽欲得髙而峻",
+     "observable_ko": "코가 높고 가파름",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nose_bridge:high"
+     ],
+     "reason": "鼻高는 산근(콧뿌리)과 준두(코끝) 중 어느 높이인지 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽須要豐隆而相朝髙峻而不陷",
+     "observable_ko": "다섯 부위가 풍성하게 솟아 서로 마주 향하고 꺼지지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "다섯 부위를 묶은 종합 평가로 단일 측정 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-007",
+   "section": "太清神鑑 卷二",
+   "section_title": "四瀆",
+   "region": "face",
+   "original_text": "地之四瀆者所以相朝以接其流通人之形貎亦有像焉且鼻為濟目為淮耳為江口為河",
+   "translation": "땅의 사독(四瀆)이라는 것은 서로 마주 향하여 그 흐름을 이어 통하게 하는 것이다. 사람의 형모에도 본뜬 것이 있으니, 코는 제수(濟水)가 되고 눈은 회수(淮水)가 되며 귀는 장강(江)이 되고 입은 황하(河)가 된다.",
+   "commentary": "사독은 중국의 네 큰 강(장강·황하·회수·제수)으로, 관상에서는 귀·눈·입·코의 구멍에 배당된다. 부위 배당 설명이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-008",
+   "section": "太清神鑑 卷二",
+   "section_title": "四瀆",
+   "region": "face",
+   "original_text": "故四瀆欲得端直清大眀浄流暢涯岸成就者則應於神故貴而多智也",
+   "translation": "그러므로 사독은 단정하고 곧으며 맑고 크며 밝고 깨끗하며 흐름이 막힘없고 기슭(涯岸)이 이루어져 있기를 바라니, 그러한 자는 신(神)에 응하므로 귀하고 지혜가 많다.",
+   "commentary": "코·눈·귀·입 네 부위를 한꺼번에 평가한 서술이라 단일 레이블로 옮길 수 없다. '맑다·밝다·깨끗하다'는 품평어 또는 광택 서술이고, '기슭이 이루어짐'은 강 비유이다. 문헌은 이를 귀함과 지혜에 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "端直",
+     "observable_ko": "네 부위가 단정하고 곧음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "네 부위를 묶은 품평으로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "清大",
+     "observable_ko": "네 부위가 맑고 큼",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "清은 품평어이고 大는 네 부위 중 어느 크기인지 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "眀浄",
+     "observable_ko": "네 부위가 밝고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "밝음·깨끗함은 광택·색에 가까워 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "流暢涯岸成就",
+     "observable_ko": "흐름이 막힘없고 기슭이 이루어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "강에 빗댄 비유로 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-009",
+   "section": "太清神鑑 卷二",
+   "section_title": "四瀆",
+   "region": "face",
+   "original_text": "若夫醜而不端則為愚人毁而陷者則為賤類也〈人倫風鑑同〉",
+   "translation": "만약 무릇 추하고 단정하지 않으면 어리석은 사람이 되고, 헐고 꺼진 자는 천한 부류가 된다. 〈『인륜풍감(人倫風鑑)』도 같다.〉",
+   "commentary": "사독(코·눈·귀·입)이 추하거나 꺼진 경우를 어리석음과 천함에 연결한 구절이다. '추함'은 품평어이고 '헐고 꺼짐'은 어느 부위의 어떤 함몰인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "醜而不端",
+     "observable_ko": "네 부위가 추하고 단정하지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "추함은 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "毁而陷",
+     "observable_ko": "네 부위가 헐고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "어느 부위의 함몰인지 특정되지 않고 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-010",
+   "section": "太清神鑑 卷二",
+   "section_title": "五官",
+   "region": "face",
+   "original_text": "五官者目為鑒察官鼻為審辨官口為出納官耳為採聽官眉為保夀官",
+   "translation": "오관(五官)이라는 것은 눈은 감찰관(鑒察官, 살피는 관)이 되고, 코는 심변관(審辨官, 가려내는 관)이 되며, 입은 출납관(出納官, 내고 들이는 관)이 되고, 귀는 채청관(採聽官, 듣는 관)이 되며, 눈썹은 보수관(保壽官, 수명을 지키는 관)이 된다.",
+   "commentary": "얼굴의 다섯 기관에 관직 이름을 붙인 정의이다. 보수관이라는 명칭은 눈썹과 수명을 잇는 관념을 반영하지만 이 구절 자체는 예측을 하지 않는다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-011",
+   "section": "太清神鑑 卷二",
+   "section_title": "五官",
+   "region": "face",
+   "original_text": "五者欲得清而秀豐而隆或一官好則貴十年",
+   "translation": "다섯 가지는 맑고 빼어나며 풍성하고 솟기를 바라니, 혹 한 관(官)이라도 좋으면 십 년 동안 귀하다.",
+   "commentary": "다섯 기관을 묶어 평가한 서술로 '맑다·빼어나다'는 품평어이다. 문헌은 한 기관만 좋아도 십 년 귀하다고 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "清而秀",
+     "observable_ko": "다섯 기관이 맑고 빼어남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "清·秀는 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "豐而隆",
+     "observable_ko": "다섯 기관이 풍성하고 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "다섯 기관을 묶은 서술이라 단일 레이블로 옮길 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "一官好",
+     "observable_ko": "한 기관이 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'좋음'의 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-012",
+   "section": "太清神鑑 卷二",
+   "section_title": "五官",
+   "region": "face",
+   "original_text": "或有缺陷者及醜惡者㐫",
+   "translation": "혹 이지러지고 꺼진 것이 있거나 추하고 나쁜 것은 흉하다.",
+   "commentary": "오관 가운데 결함이 있는 경우를 흉하다고 한 구절이다. 어느 기관의 어떤 결함인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "有缺陷",
+     "observable_ko": "기관이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "어느 기관의 결함인지 특정되지 않고 대응 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "醜惡",
+     "observable_ko": "기관이 추하고 나쁨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "추함은 품평어로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-013",
+   "section": "太清神鑑 卷二",
+   "section_title": "六府",
+   "region": "face",
+   "original_text": "兩目上為二府兩輔角為四府兩顴骨為六府",
+   "translation": "두 눈 위가 이부(二府)가 되고, 두 보각(輔角, 이마 양옆 모서리)이 사부(四府)가 되며, 두 관골(顴骨, 광대뼈)이 육부(六府)가 된다.",
+   "commentary": "육부(六府)를 이루는 세 쌍의 부위를 정의한 구절로, 차례로 2·4·6을 세어 나간 것으로 읽었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-014",
+   "section": "太清神鑑 卷二",
+   "section_title": "六府",
+   "region": "face",
+   "original_text": "六府者欲得平滿光而瑩若一府好乃富十年",
+   "translation": "육부라는 것은 평평하고 꽉 차며 빛나고 윤이 나기를 바라니, 만약 한 부(府)라도 좋으면 곧 십 년 동안 부유하다.",
+   "commentary": "여섯 부위의 평만함과 광택을 함께 말했다. 평만함은 부위가 여러 곳이라 단일 레이블이 없고, 광택은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "平滿",
+     "observable_ko": "육부 부위가 평평하고 꽉 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈 위·이마 모서리·관골을 묶은 살집 서술로 대응 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "光而瑩",
+     "observable_ko": "육부 부위가 빛나고 윤이 남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "一府好",
+     "observable_ko": "한 부위가 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'좋음'의 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2D-face-015",
+   "section": "太清神鑑 卷二",
+   "section_title": "六府",
+   "region": "face",
+   "original_text": "或有缺陷疵瘢黒痣者㐫也",
+   "translation": "혹 이지러지고 꺼지거나 흠·흉터·검은 점이 있는 자는 흉하다.",
+   "commentary": "육부 부위의 함몰·흠집·흉터·점을 흉하다고 했다. 점의 존재는 아직 대기(pending) 상태인 pigmented_marks 후보로만 두었고, 흉터·함몰은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "缺陷",
+     "observable_ko": "육부 부위가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "부위 함몰에 대한 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "疵瘢",
+     "observable_ko": "육부 부위에 흠·흉터가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·흠에 대한 레이블이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "육부 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 부위의 점이라 근사 대응이며 pigmented_marks는 아직 대기 레이블이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+ "page_id": "xf02",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相鼻篇第二"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF02-nose-001",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻准洪直，富貴無極。",
+   "translation": "코의 준두(準頭, 코끝)가 크고 곧으면 부귀가 끝이 없다.",
+   "commentary": "'洪'은 코끝이 큼을, '直'은 곧음을 말하나 크기는 코끝 둥근 정도와 같은 기준이 아니고 곧음은 콧등 모양 레이블이 없다. 문헌은 이를 큰 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻准洪",
+     "observable_ko": "코끝이 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "'洪'(큼)은 코끝 둥긂/뾰족함과 같은 기준이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "直",
+     "observable_ko": "코가 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-002",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻狹高危，兄弟微羸。",
+   "translation": "코가 좁고 높아 위태로우면 형제가 미약하고 여윈다.",
+   "commentary": "'鼻狹'은 nose_width:narrow로 정확히 옮길 수 있으나, '高危'는 콧뿌리와 코끝 중 어느 쪽의 높이인지 말하지 않아 근사 대응이다. 문헌은 이를 형제의 쇠약과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻狹",
+     "observable_ko": "코 너비가 좁음",
+     "status": "exact",
+     "label": "nose_width:narrow"
+    },
+    {
+     "region": "nose",
+     "evidence": "高危",
+     "observable_ko": "코가 높고 가파름",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리인지 코끝인지 말하지 않아 근사 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-003",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻梁不直，欺詐未息。",
+   "translation": "콧등(鼻梁)이 곧지 않으면 속이고 거짓됨이 그치지 않는다.",
+   "commentary": "콧등의 휨은 레이블 체계에 없다. 기만에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁不直",
+     "observable_ko": "콧등이 곧지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-004",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻毛出外，誹謗凶害。",
+   "translation": "코털이 밖으로 나오면 비방과 흉한 해가 있다.",
+   "commentary": "코털은 레이블 체계에 없다. 문헌은 이를 비방·흉해와 연결했으며, 그 주체가 본인인지 남인지는 원문에 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻毛出外",
+     "observable_ko": "코털이 밖으로 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코털 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-005",
+   "section": "相鼻篇第二",
+   "region": "mole",
+   "original_text": "鼻上黑子，疾在陰里。",
+   "translation": "코 위에 검은 점이 있으면 병이 음부(陰) 속에 있다.",
+   "commentary": "특정 위치의 점이라 근사 대응이다. 문헌은 이를 은밀한 부위의 질병과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻上黑子",
+     "observable_ko": "코 위에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-006",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻有縱理，主養他子。",
+   "translation": "코에 세로 결이 있으면 남의 자식을 기름을 주관한다.",
+   "commentary": "코의 세로 주름에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻有縱理",
+     "observable_ko": "코에 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-007",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻上橫理，憂危不已。若是胡人，富貴如市。",
+   "translation": "코 위에 가로 결이 있으면 근심과 위태로움이 그치지 않는다. 만약 호인(胡人)이라면 부귀가 시장처럼 (넘친다).",
+   "commentary": "코의 가로 주름에 관한 서술로 레이블이 없다. 뒷구절은 대상이 호인(胡人, 이민족)일 때의 예외로, 출신은 사진으로 판단할 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻上橫理",
+     "observable_ko": "코 위 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "若是胡人",
+     "observable_ko": "대상이 호인(이민족)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 출신·민족을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-008",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻柱不平，委的他姓。",
+   "translation": "콧기둥(鼻柱)이 평평하지 않으면 틀림없이 다른 성(姓)에 맡겨진다.",
+   "commentary": "콧기둥의 고르지 않음은 콧등 모양에 관한 서술로 레이블이 없다. '委的他姓'은 다른 성씨 집안에 맡겨짐으로 직역했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻柱不平",
+     "observable_ko": "콧기둥이 고르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-009",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻柱薄，立志弱。",
+   "translation": "콧기둥이 얇으면 뜻을 세움이 약하다.",
+   "commentary": "콧기둥의 두께(얇음)는 코 너비와 같은 기준인지 불분명하여 레이블에 대응하지 않았다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻柱薄",
+     "observable_ko": "콧기둥이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧기둥 두께 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-010",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻如縮囊，至老吉昌。",
+   "translation": "코가 오므린 주머니 같으면 늙을 때까지 길하고 번창한다.",
+   "commentary": "주머니 비유로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如縮囊",
+     "observable_ko": "코가 오므린 주머니 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-011",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻如獅子，聰明達士。",
+   "translation": "코가 사자 같으면 총명하고 통달한 선비다.",
+   "commentary": "동물 비유로 형태가 특정되지 않는다. 문헌은 이를 총명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如獅子",
+     "observable_ko": "코가 사자 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-012",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻高而昂，仕宦欣昌。",
+   "translation": "코가 높고 들려 있으면 벼슬길이 기쁘게 번창한다.",
+   "commentary": "'鼻高'는 콧뿌리인지 코끝인지 말하지 않아 근사 대응이며, '昂'은 코끝이 들린 것인지 콧구멍이 보이는 것인지 불분명하다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻高",
+     "observable_ko": "코가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리인지 코끝인지 말하지 않아 근사 대응이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "昂",
+     "observable_ko": "코가 들림",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "코끝이 들림인지 콧구멍 노출인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-013",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻上光澤，富貴盈宅。",
+   "translation": "코 위가 빛나고 윤택하면 부귀가 집에 가득하다.",
+   "commentary": "광택에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻上光澤",
+     "observable_ko": "코 위가 빛나고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 조명에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-014",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻如截筒，富貴興隆。",
+   "translation": "코가 자른 대통 같으면 부귀가 흥성한다.",
+   "commentary": "자른 대통 비유는 콧등이 곧고 둥근 모양을 뜻하는 듯하나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如截筒",
+     "observable_ko": "코가 자른 대통 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-015",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻起中央，車馬敗傷。",
+   "translation": "코가 가운데에서 솟으면 수레와 말로 인해 다치고 상한다.",
+   "commentary": "콧등 중간이 솟은 형태로 읽히며 콧등 모양 레이블이 없다. 문헌은 이를 사고로 다침과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻起中央",
+     "observable_ko": "콧등 가운데가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-016",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻頭短小，意志淺小。",
+   "translation": "코머리(鼻頭)가 짧고 작으면 뜻이 얕고 작다.",
+   "commentary": "'鼻頭'가 코끝인지 코 전체인지 불분명하고 정확 표현 '鼻短'이 아니어서 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻頭短小",
+     "observable_ko": "코머리가 짧고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:short"
+     ],
+     "reason": "정확 표현 '鼻短'이 아니고 코끝인지 코 전체인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-017",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻相廣長，必多伎倆。",
+   "translation": "코의 생김이 넓고 길면 반드시 재주(伎倆)가 많다.",
+   "commentary": "코가 넓음은 nose_width:wide, 긺은 nose_length:long으로 정확히 옮길 수 있다. '伎倆'은 재주로 직역했으나 술수의 뜻으로도 읽힐 수 있다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "廣",
+     "observable_ko": "코 너비가 넓음",
+     "status": "exact",
+     "label": "nose_width:wide"
+    },
+    {
+     "region": "nose",
+     "evidence": "長",
+     "observable_ko": "코가 긺",
+     "status": "exact",
+     "label": "nose_length:long"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-018",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻直而厚，天子諸侯。",
+   "translation": "코가 곧고 두터우면 천자나 제후가 된다.",
+   "commentary": "곧음은 콧등 모양 레이블이 없고, '厚'는 콧방울·코끝 중 어디의 두터움인지 불분명하다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻直",
+     "observable_ko": "코가 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 모양 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "厚",
+     "observable_ko": "코가 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full",
+      "nose_tip:rounded"
+     ],
+     "reason": "두터운 부위가 콧방울인지 코끝인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF02-nose-019",
+   "section": "相鼻篇第二",
+   "region": "nose",
+   "original_text": "鼻如缺破，孤獨飢餓。",
+   "translation": "코가 이지러지고 깨진 것 같으면 외롭고 굶주린다.",
+   "commentary": "코의 결손·흠에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如缺破",
+     "observable_ko": "코가 이지러지고 깨진 듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코 결손 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  }
+ ]
+}

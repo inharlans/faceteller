@@ -1,0 +1,2375 @@
+{
+ "page_id": "gj634",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "論齒",
+  "許負相齒篇",
+  "論舌",
+  "許負相舌篇",
+  "論髭髯",
+  "相魚尾"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ634T-teeth-001",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "搆百骨之精華，作一口之鋒刃，運化萬物，以頤六腑者，齒也。",
+   "translation": "온갖 뼈의 정화(精華)를 얽어 한 입의 칼날을 이루고, 만물을 운화(運化)하여 육부(六腑)를 기르는 것이 이(齒)이다.",
+   "commentary": "치아의 기능을 정의하는 총론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-002",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "故欲得大而密、長而直、多而白為佳也。",
+   "translation": "그러므로 크고 촘촘하며, 길고 곧으며, 많고 흰 것을 얻음이 좋다.",
+   "commentary": "바람직한 치아의 크기·배열·길이·개수·색을 든 기준이다. 치아 형태는 레이블이 없고 개수와 색은 사진 형태로 판단할 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "大而密",
+     "observable_ko": "이가 크고 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "長而直",
+     "observable_ko": "이가 길고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "多",
+     "observable_ko": "이가 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "白",
+     "observable_ko": "이가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-003",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "堅牢密固者長壽，",
+   "translation": "단단하고 촘촘히 굳은 자는 오래 살고,",
+   "commentary": "치아의 견고함과 촘촘함에 관한 서술이다. 견고함은 사진으로 판단할 수 없고 치아 레이블도 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "堅牢密固",
+     "observable_ko": "이가 단단하고 촘촘함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아의 견고함은 사진으로 판단할 수 없고 치아 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-004",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "繚亂疊生者狡橫，",
+   "translation": "어지럽게 얽히고 겹쳐 난 자는 교활하고 횡포하며,",
+   "commentary": "치열이 고르지 않고 겹쳐 난 형태로 치아 레이블이 없다. 교활함과 횡포에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "繚亂疊生",
+     "observable_ko": "이가 어지럽게 겹쳐 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-005",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "露出者暴亡，",
+   "translation": "드러나 나온 자는 갑자기 죽고,",
+   "commentary": "이가 입술 밖으로 드러남을 말하는 것으로 보인다. 치아 노출 레이블은 없으며, 갑작스러운 죽음에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "露出",
+     "observable_ko": "이가 드러나 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-006",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "疏漏者貧薄，",
+   "translation": "성기고 새는 자는 가난하고 박하며,",
+   "commentary": "이 사이가 벌어진 형태로 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "疏漏",
+     "observable_ko": "이 사이가 성기게 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-007",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "短缺者愚下，",
+   "translation": "짧고 이지러진 자는 어리석고 낮으며,",
+   "commentary": "치아가 짧거나 빠진 형태로 레이블이 없다. 어리석다는 지능에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "短缺",
+     "observable_ko": "이가 짧고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-008",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "焦枯橫夭，",
+   "translation": "타고 마른 자는 비명에 일찍 죽고,",
+   "commentary": "치아의 빛깔·윤기에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "焦枯",
+     "observable_ko": "이가 타고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-009",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "語不見齒者富貴，",
+   "translation": "말할 때 이가 보이지 않는 자는 부귀하고,",
+   "commentary": "말하는 동작 중의 치아 노출에 관한 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "語不見齒",
+     "observable_ko": "말할 때 이가 보이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-010",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "壯而齒落者壽促。",
+   "translation": "장년인데 이가 빠진 자는 수명이 촉박하다.",
+   "commentary": "나이를 전제한 치아 결손 서술로, 치아 레이블이 없고 나이는 판단하지 않는다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "壯",
+     "observable_ko": "대상이 장년",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 나이를 추정하지 않는다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒落",
+     "observable_ko": "이가 빠짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-011",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "三十八齒者王侯，三十六齒者卿相，三十四齒者朝郎巨福，三十二齒者中人福祿，三十者平常之人，二十八者下貧之輩。",
+   "translation": "이가 서른여덟인 자는 왕후(王侯)요, 서른여섯인 자는 경상(卿相)이요, 서른넷인 자는 조정의 낭관(郎官)으로 큰 복이 있고, 서른둘인 자는 보통 사람의 복록이요, 서른인 자는 평범한 사람이요, 스물여덟인 자는 낮고 가난한 무리이다.",
+   "commentary": "치아 개수에 따라 지위를 등급화한 목록이다. 치아 개수는 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "三十八齒",
+     "observable_ko": "이가 서른여덟 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "三十六齒",
+     "observable_ko": "이가 서른여섯 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "三十四齒",
+     "observable_ko": "이가 서른네 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "三十二齒",
+     "observable_ko": "이가 서른두 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "三十者",
+     "observable_ko": "이가 서른 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "二十八者",
+     "observable_ko": "이가 스물여덟 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-012",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "瑩白者百謀百稱，黃色者千求阻滯，",
+   "translation": "맑게 흰 자는 백 가지를 꾀하여 백 가지가 뜻에 맞고, 누런 빛인 자는 천 가지를 구하여도 막히고 지체되며,",
+   "commentary": "치아 색을 대비한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "瑩白",
+     "observable_ko": "이가 맑게 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "黃色",
+     "observable_ko": "이가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-013",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如白玉者高貴，",
+   "translation": "흰 옥 같은 자는 높고 귀하며,",
+   "commentary": "흰 옥에 빗댄 색 비유로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如白玉",
+     "observable_ko": "이가 흰 옥 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-014",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如爛銀者清職，",
+   "translation": "빛나는 은 같은 자는 청직(淸職, 청요한 관직)을 얻고,",
+   "commentary": "빛나는 은에 빗댄 색·광택 비유로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如爛銀",
+     "observable_ko": "이가 빛나는 은 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-015",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如榴子者福祿，",
+   "translation": "석류 씨 같은 자는 복록이 있고,",
+   "commentary": "석류 씨에 빗댄 비유로, 촘촘한 배열인지 색인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如榴子",
+     "observable_ko": "이가 석류 씨 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-016",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如劍鋒貴壽，",
+   "translation": "칼끝 같으면 귀하고 오래 살며,",
+   "commentary": "칼끝에 빗댄 비유로 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如劍鋒",
+     "observable_ko": "이가 칼끝 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-017",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如粳米者高年，",
+   "translation": "멥쌀 같은 자는 높은 나이를 누리고,",
+   "commentary": "멥쌀에 빗댄 비유로 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如粳米",
+     "observable_ko": "이가 멥쌀 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-018",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "如黑葚者命短，",
+   "translation": "검은 오디 같은 자는 목숨이 짧으며,",
+   "commentary": "검은 오디에 빗댄 색 비유로 형태가 아니다. 단명에 관한 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "如黑葚",
+     "observable_ko": "이가 검은 오디 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-019",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "上闊下尖如列鋸者性粗而食肉，",
+   "translation": "위가 넓고 아래가 뾰족하여 늘어선 톱 같은 자는 성품이 거칠고 고기를 먹으며,",
+   "commentary": "개별 치아의 모양과 배열을 톱날에 빗댄 서술로 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "上闊下尖如列鋸",
+     "observable_ko": "이가 위가 넓고 아래가 뾰족해 톱날 같음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-020",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "上尖下闊如排角者性鄙而食菜。",
+   "translation": "위가 뾰족하고 아래가 넓어 늘어놓은 뿔 같은 자는 성품이 비루하고 나물을 먹는다.",
+   "commentary": "개별 치아의 모양을 뿔에 빗댄 서술로 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "上尖下闊如排角",
+     "observable_ko": "이가 위가 뾰족하고 아래가 넓어 뿔 같음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-021",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "羊齒者子息顯達，",
+   "translation": "양의 이를 가진 자는 자식이 현달하고,",
+   "commentary": "양에 빗댄 비유로 형태 기준이 특정되지 않는다. 문헌은 이를 자식의 출세와 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "羊齒",
+     "observable_ko": "양의 이(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-022",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "牛齒者自身起榮，",
+   "translation": "소의 이를 가진 자는 자신이 일어나 영화롭고,",
+   "commentary": "소에 빗댄 비유로 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "牛齒",
+     "observable_ko": "소의 이(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-023",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "鼠齒者貧夭，",
+   "translation": "쥐의 이를 가진 자는 가난하고 일찍 죽으며,",
+   "commentary": "쥐에 빗댄 비유로 형태 기준이 특정되지 않는다. 빈곤과 단명에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "鼠齒",
+     "observable_ko": "쥐의 이(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-024",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "大齒者毒忿。",
+   "translation": "이가 큰 자는 독하고 성낸다.",
+   "commentary": "치아 크기에 관한 서술로 레이블이 없다. 독함에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "大齒",
+     "observable_ko": "이가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-025",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "《訣》曰：「齒如含玉，受天福祿。",
+   "translation": "『결』에 이르기를, '이가 옥을 머금은 듯하면 하늘의 복록을 받는다.",
+   "commentary": "옥에 빗댄 비유로 색·광택인지 모양인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如含玉",
+     "observable_ko": "이가 옥을 머금은 듯함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-026",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "齒如爛銀，富貴不貧。",
+   "translation": "이가 빛나는 은 같으면 부귀하여 가난하지 않다.",
+   "commentary": "빛나는 은에 빗댄 색·광택 비유로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如爛銀",
+     "observable_ko": "이가 빛나는 은 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-027",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "白而密者，仕宦無殃。",
+   "translation": "희고 촘촘한 자는 벼슬살이에 재앙이 없다.",
+   "commentary": "치아 색은 형태가 아니고 촘촘함은 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "白",
+     "observable_ko": "이가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "密",
+     "observable_ko": "이가 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-028",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "黑而疏縫，一生災重。",
+   "translation": "검고 틈이 성기면 일생 재앙이 무겁다.",
+   "commentary": "치아 색은 형태가 아니고 틈은 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "黑",
+     "observable_ko": "이가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "疏縫",
+     "observable_ko": "이 틈이 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-029",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "直長一寸，極貴難論。",
+   "translation": "곧고 길이가 한 치이면 지극히 귀하여 논하기 어렵다.",
+   "commentary": "치아의 곧음과 절대 길이(한 치)에 관한 서술로 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "直長一寸",
+     "observable_ko": "이가 곧고 한 치 길이",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-030",
+   "section": "論齒",
+   "region": "teeth",
+   "original_text": "參差不齊，心行詐欺。」",
+   "translation": "들쭉날쭉 가지런하지 않으면 마음과 행실이 속이고 기만한다.'",
+   "commentary": "고르지 않은 치열에 관한 서술로 치아 레이블이 없다. 속임에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "參差不齊",
+     "observable_ko": "이가 들쭉날쭉 고르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-031",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒白如玉，自然歌樂，財食自至，不用苦作。",
+   "translation": "이가 희어 옥 같으면 자연히 노래하고 즐기며, 재물과 먹을 것이 절로 이르러 애써 일하지 않아도 된다.",
+   "commentary": "이의 흰 빛을 옥에 빗댄 색 서술로 형태가 아니다. 문헌은 이를 수고 없이 얻는 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒白如玉",
+     "observable_ko": "이가 옥처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-032",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒如斬銀，必是貴人。",
+   "translation": "이가 벤 은(斬銀) 같으면 반드시 귀인이다.",
+   "commentary": "'斬銀'은 갓 자른 은처럼 희고 가지런함을 비유한 것으로 보이나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如斬銀",
+     "observable_ko": "이가 벤 은 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "색 비유인지 가지런함의 비유인지 불명확하고 치아 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-033",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒如石榴，富貴他求。",
+   "translation": "이가 석류 (씨) 같으면 부귀를 남에게서(다른 데서) 구한다.",
+   "commentary": "석류 씨처럼 촘촘히 들어찬 이를 비유한 것으로 보인다. '富貴他求'의 함의는 해석 여지가 있어 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如石榴",
+     "observable_ko": "이가 석류 씨 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "배열·색 중 무엇의 비유인지 불명확하고 치아 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-034",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒如龍齒，法生貴子。",
+   "translation": "이가 용의 이 같으면 법(法)에 귀한 자식을 낳는다.",
+   "commentary": "용의 이에 빗댄 비유로 형태 기준이 특정되지 않는다. '法'은 관상법상 그러하다는 뜻으로 읽었다. 문헌은 이를 자식 운과 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒如龍齒",
+     "observable_ko": "이가 용의 이 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-035",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒齦竅出，每事漏失。",
+   "translation": "잇몸에 구멍이 나와 있으면 매사에 새고 잃는다.",
+   "commentary": "'齒齦竅出'은 잇몸이 드러나거나 틈이 보이는 상태로 읽을 수 있으나 정확한 뜻은 불확실하다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒齦竅出",
+     "observable_ko": "잇몸이 드러나거나 틈이 보임(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "잇몸 노출인지 틈인지 불분명하고 해당 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-036",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒縫疏稀，財食無餘。如此之人，與鬼同居。",
+   "translation": "이 틈이 성기고 드물면 재물과 먹을 것이 남음이 없다. 이와 같은 사람은 귀신과 함께 산다.",
+   "commentary": "이 사이가 벌어진 형태로 치아 레이블이 없다. '與鬼同居'는 곤궁하거나 불길함을 강하게 말한 표현으로 보이나 정확한 함의는 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒縫疏稀",
+     "observable_ko": "이 사이가 성기게 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-037",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒數《三十六》貴聖有天祿。",
+   "translation": "이의 수가 서른여섯이면 귀하고 성스러워 하늘의 녹이 있다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒數",
+     "observable_ko": "이가 서른여섯 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-038",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "若三十向上，富貴豪望。",
+   "translation": "만약 서른 이상이면 부귀하고 호걸스러운 명망이 있다.",
+   "commentary": "앞 구절에 이어 치아 개수를 말한다. 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "若三十向上",
+     "observable_ko": "이가 서른 개 이상",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-039",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "足滿三十，衣食自如。",
+   "translation": "꼭 서른을 채우면 입고 먹음이 뜻대로 된다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "足滿三十",
+     "observable_ko": "이가 꼭 서른 개",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-040",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "齒色黑，多妨剋。",
+   "translation": "이의 빛이 검으면 해치고 극(剋)함이 많다.",
+   "commentary": "치아 색에 관한 서술로 형태가 아니다. 가족을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒色黑",
+     "observable_ko": "이가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-041",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "三十已下，漸多飢寒，衣食必少，壽命短促。",
+   "translation": "서른 이하이면 점점 굶주림과 추위가 많아지고, 입고 먹을 것이 반드시 적으며, 수명이 짧고 촉박하다.",
+   "commentary": "치아 개수에 관한 서술로 얼굴 사진으로 셀 수 없다. 문헌은 이를 빈곤과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "三十已下",
+     "observable_ko": "이가 서른 개 이하",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "치아 개수는 얼굴 사진으로 셀 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-042",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "《詩》曰：「齒密方為君子儒，分明小輩齒牙疏。",
+   "translation": "『시』에 이르기를, '이가 촘촘해야 바야흐로 군자다운 선비가 되고, 분명히 소인배는 이가 성기다.",
+   "commentary": "치아의 촘촘함과 성김을 대비한 시구로 치아 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "齒密",
+     "observable_ko": "이가 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒牙疏",
+     "observable_ko": "이가 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-043",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "色如白玉須相稱，年少聲名達帝都。",
+   "translation": "빛이 흰 옥 같고 모름지기 서로 걸맞으면, 젊어서 명성이 제도(帝都)에 이른다.",
+   "commentary": "치아 색은 형태가 아니며, '須相稱'이 무엇과 무엇의 어울림인지 불명확하다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "色如白玉",
+     "observable_ko": "이가 흰 옥 같은 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "須相稱",
+     "observable_ko": "서로 걸맞음(대상 불명확)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇과 무엇이 어울리는지 원문에서 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-044",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "脣紅齒白文章士，",
+   "translation": "입술이 붉고 이가 희면 문장하는 선비요,",
+   "commentary": "입술과 치아의 색에 관한 서술로 형태가 아니다. 문헌은 이를 문장 재능과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣紅",
+     "observable_ko": "입술이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒白",
+     "observable_ko": "이가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-brow-001",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "brow",
+   "original_text": "眼秀眉高是貴人。",
+   "translation": "눈이 빼어나고 눈썹이 높으면 귀인이다.",
+   "commentary": "'眉高'는 눈썹이 눈에서 높이 떨어져 있음을 말하는 표현으로 지침의 정확 표현에 해당하여 brow_eye_gap:wide로 옮겼다. '眼秀'는 품평어라 형태가 아니며, 치아를 논하는 시 안에 들어 있는 구절이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼秀",
+     "observable_ko": "눈이 빼어남(미적 평가)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "秀는 형태 수치가 아닌 품평어로, 대응하는 관찰 항목이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "눈썹과 눈 사이가 넓음(눈썹이 높이 위치)",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-teeth-045",
+   "section": "許負相齒篇",
+   "attributed_to": "許負",
+   "region": "teeth",
+   "original_text": "細小短粗貧且夭，燈窗費力枉勞神。」",
+   "translation": "(이가) 가늘고 작고 짧고 거칠면 가난하고 또 일찍 죽으니, 등잔 밝힌 창가에서 힘을 써도 헛되이 정신만 수고롭다.'",
+   "commentary": "치아의 크기·길이·거칠기에 관한 서술로 레이블이 없다. 뒷구절은 공부해도 성취가 없다는 뜻으로 읽었다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "細小短粗",
+     "observable_ko": "이가 가늘고 작고 짧고 거칢",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태는 레이블 체계에 없고 입을 다문 사진에서는 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-001",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "夫舌之為道，內與丹元為號令，外與重機為鈴鐸。",
+   "translation": "무릇 혀의 도(道)는 안으로는 단원(丹元)과 더불어 호령이 되고, 밖으로는 중기(重機)와 더불어 방울이 된다.",
+   "commentary": "혀의 역할을 논하는 총론이다. 단원(丹元)은 마음(심장)과 관련된 도가 용어로 읽히나, 중기(重機)와 함께 정확한 뜻은 불확실하여 글자대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-002",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "故善性靈液也，則為神之舍體；密傳志慮也，則為心之舟楫。",
+   "translation": "그러므로 성품을 좋게 하는 신령한 액(液)이니 곧 신(神)이 머무는 몸이 되고, 뜻과 생각을 은밀히 전하니 곧 마음의 배와 노가 된다.",
+   "commentary": "혀를 신의 거처와 마음의 배·노에 비유한 총론이다. 첫 구절은 끊어 읽기가 불확실하다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-003",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "是以性命樞機，一身得失，有所托焉。由是古人評其端醜，戒其妄動也。",
+   "translation": "이 때문에 성명(性命)의 지도리와 한 몸의 얻고 잃음이 (혀에) 의탁하는 바가 있다. 이로 말미암아 옛사람은 그 단정함과 추함을 평하고, 그 망령된 움직임을 경계하였다.",
+   "commentary": "혀를 관상에서 보는 이유를 설명하는 총론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-004",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "故舌之形，欲得端而利。長而大者，上相也。",
+   "translation": "그러므로 혀의 모양은 단정하고 날카로움을 얻어야 한다. 길고 큰 자는 상상(上相)이다.",
+   "commentary": "혀의 바람직한 모양을 든 기준이다. '上相'은 으뜸가는 상 또는 재상으로 읽을 수 있다. 혀 형태는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "端而利",
+     "observable_ko": "혀가 단정하고 날카로움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "長而大",
+     "observable_ko": "혀가 길고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-005",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "若狹而長者，詐而賊；",
+   "translation": "만약 좁고 긴 자는 속이고 해치며(도적질하며),",
+   "commentary": "혀 형태는 레이블이 없다. 속임과 도적(해침)에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "狹而長",
+     "observable_ko": "혀가 좁고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-006",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "禿而短者，迍而蹇；",
+   "translation": "뭉툭하고 짧은 자는 막히고 순조롭지 못하며,",
+   "commentary": "혀 형태는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "禿而短",
+     "observable_ko": "혀가 뭉툭하고 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-007",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "大而薄者，多妄謬；",
+   "translation": "크고 얇은 자는 망령되고 그릇됨이 많으며,",
+   "commentary": "혀 형태는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "大而薄",
+     "observable_ko": "혀가 크고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-008",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "尖而小者，為貪人。",
+   "translation": "뾰족하고 작은 자는 탐욕스러운 사람이 된다.",
+   "commentary": "혀 형태는 레이블이 없다. 탐욕에 관한 낙인성 성품 평가다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "尖而小",
+     "observable_ko": "혀가 뾰족하고 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-009",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "引至鼻者，位至侯王。",
+   "translation": "(혀를) 끌어 코에 이르는 자는 지위가 제후와 왕에 이른다.",
+   "commentary": "혀를 내밀어 코에 닿게 하는 동작 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "引至鼻",
+     "observable_ko": "혀를 내밀어 코에 닿음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-010",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "剛如掌者，祿至卿相。",
+   "translation": "단단하기가 손바닥 같은 자는 녹이 경상(卿相)에 이른다.",
+   "commentary": "'剛如掌'의 정확한 뜻은 불확실하여 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "剛如掌",
+     "observable_ko": "혀가 손바닥처럼 단단함(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 뜻이 불분명하고 혀 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-011",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "色紅如硃者貴。色黑如翳者賤。色赤如血者祿。色白如灰者貧。",
+   "translation": "빛이 붉어 주사(硃砂) 같은 자는 귀하다. 빛이 검어 가림(翳) 같은 자는 천하다. 빛이 붉어 피 같은 자는 녹이 있다. 빛이 희어 재 같은 자는 가난하다.",
+   "commentary": "혀 색에 따라 귀천을 나눈 목록으로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "色紅如硃",
+     "observable_ko": "혀가 주사처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "色黑如翳",
+     "observable_ko": "혀가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "色赤如血",
+     "observable_ko": "혀가 피처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "色白如灰",
+     "observable_ko": "혀가 재처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-012",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌上有直理者，官至卿監。",
+   "translation": "혀 위에 곧은 결이 있는 자는 벼슬이 경감(卿監)에 이른다.",
+   "commentary": "혀 표면의 결(무늬)에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上有直理",
+     "observable_ko": "혀 위에 곧은 결이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-013",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌上有縱紋者，職任館殿。",
+   "translation": "혀 위에 세로 무늬가 있는 자는 직책이 관전(館殿)에 맡겨진다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上有縱紋",
+     "observable_ko": "혀 위에 세로 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-014",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌紋有理而繞者至貴。",
+   "translation": "혀 무늬에 결이 있고 휘감긴 자는 지극히 귀하다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌紋有理而繞",
+     "observable_ko": "혀 무늬가 결이 있고 휘감김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-015",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌艷而吐滿口者，至富。",
+   "translation": "혀가 곱고 내밀면 입을 가득 채우는 자는 지극히 부유하다.",
+   "commentary": "혀의 고운 빛은 색이고, 입을 가득 채운다는 것은 혀를 내민 상태의 크기로 정지 얼굴 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌艷",
+     "observable_ko": "혀가 고운 빛임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "吐滿口",
+     "observable_ko": "혀를 내밀면 입을 가득 채움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-016",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌上有錦紋者，出入朝省。",
+   "translation": "혀 위에 비단 무늬가 있는 자는 조정과 성(省)에 드나든다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上有錦紋",
+     "observable_ko": "혀 위에 비단 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-017",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌上有黑子者，言語虛偽。",
+   "translation": "혀 위에 검은 점이 있는 자는 말이 헛되고 거짓되다.",
+   "commentary": "혀의 점은 얼굴 피부의 점이 아니어서 점 레이블로 옮기지 않았다. 거짓말에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上有黑子",
+     "observable_ko": "혀 위에 검은 점이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 점은 얼굴 피부의 점(pigmented_marks)이 아니며 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-018",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌出如蛇者毒害。",
+   "translation": "혀를 뱀처럼 내미는 자는 독하게 해친다.",
+   "commentary": "혀를 내미는 동작을 뱀에 빗댄 서술로 정지 사진의 형태가 아니다. 남을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌出如蛇",
+     "observable_ko": "혀를 뱀처럼 내밂",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-019",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌斷如掘者，蹇滯。",
+   "translation": "혀가 끊어져 파낸 듯한 자는 막히고 지체된다.",
+   "commentary": "'斷如掘'의 정확한 뜻은 불확실하여 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌斷如掘",
+     "observable_ko": "혀가 끊어져 파낸 듯함(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 뜻이 불분명하고 혀 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-020",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "未語而舌先至者，好妄談。",
+   "translation": "말하기 전에 혀가 먼저 이르는 자는 망령된 말을 좋아한다.",
+   "commentary": "말하는 습관에 관한 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "未語而舌先至",
+     "observable_ko": "말하기 전에 혀가 먼저 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-021",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "未言而《舌餂》脣者，多淫逸。",
+   "translation": "말하기 전에 혀로 입술을 핥는 자는 음란하고 방탕함이 많다.",
+   "commentary": "입술을 핥는 습관에 관한 서술로 정지 사진의 형태가 아니다. 성적 행실에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌餂》脣",
+     "observable_ko": "말하기 전에 혀로 입술을 핥음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-022",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "《訣》曰：「舌短而大，愚鹵懈怠；",
+   "translation": "『결』에 이르기를, '혀가 짧고 크면 어리석고 둔하며 게으르고,",
+   "commentary": "혀 형태는 레이블이 없다. 어리석음에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌短而大",
+     "observable_ko": "혀가 짧고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-023",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌小而長，仕宦吉昌。",
+   "translation": "혀가 작고 길면 벼슬살이가 길하고 번창하며,",
+   "commentary": "혀 형태는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小而長",
+     "observable_ko": "혀가 작고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-024",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "長而餂鼻，位隆輔弼。",
+   "translation": "길어서 코를 핥으면 지위가 보필(輔弼)로 높아지고,",
+   "commentary": "혀를 내밀어 코를 핥는 동작 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "長而餂鼻",
+     "observable_ko": "혀가 길어 코를 핥음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-025",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌出如蛇，毒害淫奢。",
+   "translation": "혀를 뱀처럼 내밀면 독하게 해치고 음란하고 사치하다.",
+   "commentary": "혀를 내미는 동작을 뱀에 빗댄 서술로 형태가 아니다. 해침·음란에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌出如蛇",
+     "observable_ko": "혀를 뱀처럼 내밂",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-026",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌形欲方，舌勢欲深；",
+   "translation": "혀의 모양은 모나야 하고, 혀의 기세는 깊어야 하며,",
+   "commentary": "혀의 바람직한 모양을 든 기준이다. '舌勢欲深'의 뜻은 불확실하다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌形欲方",
+     "observable_ko": "혀가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "tongue",
+     "evidence": "舌勢欲深",
+     "observable_ko": "혀의 기세가 깊음(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'勢'와 '深'이 가리키는 형태가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-027",
+   "section": "論舌",
+   "region": "tongue",
+   "original_text": "舌無紋理，尋常之侶。」",
+   "translation": "혀에 무늬와 결이 없으면 평범한 무리이다.'",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌無紋理",
+     "observable_ko": "혀에 무늬가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-028",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌小窄方，法主公王。",
+   "translation": "혀가 작고 좁으며 모나면 법(法)에 공(公)과 왕을 주관한다.",
+   "commentary": "혀의 크기·폭·모양에 관한 서술로 레이블이 없고 일반 얼굴 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小窄方",
+     "observable_ko": "혀가 작고 좁고 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-029",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌上長理，三公可擬。",
+   "translation": "혀 위에 긴 결이 있으면 삼공(三公)에 견줄 만하다.",
+   "commentary": "혀 표면의 결(무늬)에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上長理",
+     "observable_ko": "혀 위에 긴 결이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-030",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌小多紋理，安樂常不已。",
+   "translation": "혀가 작고 무늬와 결이 많으면 편안하고 즐거움이 늘 그치지 않는다.",
+   "commentary": "혀의 크기와 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小多紋理",
+     "observable_ko": "혀가 작고 무늬가 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-031",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌至鼻頭，必得封侯。",
+   "translation": "혀가 코끝에 이르면 반드시 제후에 봉해짐을 얻는다.",
+   "commentary": "혀를 내밀어 코끝에 닿는다는 동작 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌至鼻頭",
+     "observable_ko": "혀가 코끝에 닿음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-032",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌大而薄，萬事虛耗。",
+   "translation": "혀가 크고 얇으면 만사가 헛되이 소모된다.",
+   "commentary": "혀의 크기·두께에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌大而薄",
+     "observable_ko": "혀가 크고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-033",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌大口小，言不了了。",
+   "translation": "혀가 크고 입이 작으면 말이 또렷하지 않다.",
+   "commentary": "'口小'는 입의 가로 폭이 좁음을 직접 말하므로 mouth_width:narrow로 옮겼으나, 혀 크기 조건은 대응 레이블이 없다. 문헌은 혀와 입의 크기 대비를 말의 또렷함과 연결했다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌大",
+     "observable_ko": "혀가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입의 가로 폭이 좁음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-034",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌小口大，言語捷快。",
+   "translation": "혀가 작고 입이 크면 말이 빠르고 시원하다.",
+   "commentary": "'口大'는 입의 가로 폭이 넓음을 직접 말하므로 mouth_width:wide로 옮겼으나, 혀 크기 조건은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小",
+     "observable_ko": "혀가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口大",
+     "observable_ko": "입의 가로 폭이 넓음",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-035",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌過粗大，主多饑餓。",
+   "translation": "혀가 지나치게 굵고 크면 굶주림이 많음을 주관한다.",
+   "commentary": "혀의 굵기·크기에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌過粗大",
+     "observable_ko": "혀가 지나치게 굵고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-036",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌小而短，法主貧賤。",
+   "translation": "혀가 작고 짧으면 법(法)에 가난하고 천함을 주관한다.",
+   "commentary": "혀의 크기·길이에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小而短",
+     "observable_ko": "혀가 작고 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-037",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌上黑紫，必無終始。",
+   "translation": "혀 위가 검고 자줏빛이면 반드시 처음과 끝이 없다.",
+   "commentary": "혀의 색에 관한 서술로 형태가 아니다. '無終始'는 일의 시작과 끝을 이루지 못함으로 읽었다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上黑紫",
+     "observable_ko": "혀 위가 검붉은 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-038",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "口語未出，其舌先見，好語他事必自改變。",
+   "translation": "입에서 말이 나오기 전에 그 혀가 먼저 보이면, 남의 일을 말하기 좋아하고 반드시 스스로 (말을) 바꾼다.",
+   "commentary": "말하기 전에 혀를 내미는 습관에 관한 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "其舌先見",
+     "observable_ko": "말하기 전에 혀가 먼저 보임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-039",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌上繡文，奴馬成群，財帛千萬，富貴凌雲。",
+   "translation": "혀 위에 수놓은 무늬가 있으면 종과 말이 무리를 이루고, 재물과 비단이 천만이며, 부귀가 구름을 넘는다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上繡文",
+     "observable_ko": "혀 위에 수놓은 듯한 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-tongue-040",
+   "section": "許負相舌篇",
+   "attributed_to": "許負",
+   "region": "tongue",
+   "original_text": "舌有支理紋，富貴必超昇。",
+   "translation": "혀에 갈래 진 결의 무늬가 있으면 부귀하여 반드시 뛰어오른다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌有支理紋",
+     "observable_ko": "혀에 갈래 진 결 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-001",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "上為祿，下為官，寧可有祿而無官，莫教有官而無祿。",
+   "translation": "위는 녹(祿)이 되고 아래는 관(官)이 되니, 차라리 녹이 있고 관이 없을지언정 관이 있고 녹이 없게 하지 말라.",
+   "commentary": "윗수염(髭)을 녹, 아랫수염(髯)을 관에 배당한 것으로 보인다. 수염 유무는 사진에서 보일 수 있으나 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有祿而無官",
+     "observable_ko": "윗수염이 있고 아랫수염이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有官而無祿",
+     "observable_ko": "아랫수염이 있고 윗수염이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-002",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "有祿無官主富，有福有壽，有官無祿，貧賤財散人離，縱有五官，亦主貧寒卻有壽。",
+   "translation": "녹이 있고 관이 없으면 부를 주관하고 복이 있고 수가 있다. 관이 있고 녹이 없으면 가난하고 천하며 재물이 흩어지고 사람이 떠나니, 비록 오관(五官)이 있더라도 역시 가난하고 추움을 주관하되 도리어 수는 있다.",
+   "commentary": "윗수염·아랫수염의 유무를 대비한 서술로 레이블이 없다. '五官'은 얼굴의 다섯 기관으로 읽을 수 있으나 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有祿無官",
+     "observable_ko": "윗수염이 있고 아랫수염이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有官無祿",
+     "observable_ko": "아랫수염이 있고 윗수염이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-003",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "若官祿雙全，五福俱全之相，",
+   "translation": "만약 관과 녹이 모두 온전하면 오복(五福)이 모두 갖추어진 상이요,",
+   "commentary": "윗수염과 아랫수염이 모두 갖추어진 경우를 말한다. 수염은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "官祿雙全",
+     "observable_ko": "윗수염과 아랫수염이 모두 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-004",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "鬚拳髮捲，可作貧窮之漢，則為弓兵祇候，死凶之相也。",
+   "translation": "수염이 주먹처럼 말리고 머리털이 말려 있으면 가난하고 궁한 사내가 될 만하니, 곧 궁병(弓兵)이나 지후(祇候)가 되며, 흉하게 죽는 상이다.",
+   "commentary": "곱슬한 수염과 머리털에 관한 서술로 레이블이 없다. 궁병·지후는 낮은 직임으로 읽었으며, 흉사에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鬚拳",
+     "observable_ko": "수염이 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 유무·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮捲",
+     "observable_ko": "머리털이 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-005",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "髭鬚黑而清秀者，貴而富，",
+   "translation": "윗수염과 턱수염이 검고 맑고 빼어난 자는 귀하고 부유하며,",
+   "commentary": "수염의 색과 품평어에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "黑",
+     "observable_ko": "수염이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "清秀",
+     "observable_ko": "수염이 맑고 빼어남(품평)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어는 형태 수치가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-006",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "滋潤者發福，",
+   "translation": "윤택한 자는 복을 일으키고,",
+   "commentary": "수염의 윤기에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "滋潤",
+     "observable_ko": "수염이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-007",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "乾燥者蹇滯，",
+   "translation": "건조한 자는 막히고 지체되며,",
+   "commentary": "수염의 윤기에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "乾燥",
+     "observable_ko": "수염이 건조함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·광택은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-008",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "勁直者性剛不住財，",
+   "translation": "뻣뻣하고 곧은 자는 성품이 굳세어 재물이 머물지 않고,",
+   "commentary": "수염의 뻣뻣함과 곧음에 관한 서술로 레이블이 없고 뻣뻣함은 촉감이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "勁直",
+     "observable_ko": "수염이 뻣뻣하고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염의 곧음은 레이블이 없고 뻣뻣함은 사진으로 판단하기 어렵다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-009",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "柔者性柔，",
+   "translation": "부드러운 자는 성품이 부드럽고,",
+   "commentary": "수염의 부드러움은 촉감으로 사진으로 판단할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "柔者",
+     "observable_ko": "수염이 부드러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "부드러움은 촉감으로 사진으로 판단할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-010",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "赤者孤剋。",
+   "translation": "붉은 자는 외롭고 극(剋)한다.",
+   "commentary": "수염 색에 관한 서술로 형태가 아니다. 가족을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "赤者",
+     "observable_ko": "수염이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-011",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "又曰：「捲髮赤鬚，貧困路途；",
+   "translation": "또 이르기를, '말린 머리털에 붉은 수염이면 길에서 가난하고 곤궁하며,",
+   "commentary": "곱슬머리는 레이블이 없고 수염 색은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "捲髮",
+     "observable_ko": "머리털이 말림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털의 숱·길이·굵기·모양은 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "赤鬚",
+     "observable_ko": "수염이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-other-012",
+   "section": "論髭髯",
+   "region": "other",
+   "original_text": "黑而光澤，富貴無虧。」",
+   "translation": "검고 광택이 있으면 부귀가 이지러짐이 없다.'",
+   "commentary": "수염의 색·광택에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "黑而光澤",
+     "observable_ko": "수염이 검고 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634T-eye-001",
+   "section": "相魚尾",
+   "region": "eye",
+   "original_text": "眼尾生魚尾，多財必主榮，太陰相對照，晚歲定功名。",
+   "translation": "눈꼬리에 어미(魚尾)가 생기면 재물이 많고 반드시 영화를 주관하며, 태음(太陰)과 서로 마주 비추면 늘그막에 반드시 공명을 이룬다.",
+   "commentary": "어미(魚尾)는 바깥 눈꼬리 부위, 또는 그곳에 생기는 물고기 꼬리 모양 잔주름을 가리킨다. 주름은 레이블 체계에 없으며, '太陰相對照'는 눈 부위의 대응 관계를 말하는 듯하나 뜻이 불확실하다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼尾生魚尾",
+     "observable_ko": "바깥 눈꼬리에 물고기 꼬리 모양 주름이 생김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꼬리 주름은 레이블 체계에 없고 나이에도 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "太陰相對照",
+     "observable_ko": "태음과 마주 비춤(뜻 불확실)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "태음이 가리키는 부위와 '마주 비춤'의 뜻이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

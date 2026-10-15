@@ -1,0 +1,74 @@
+Optional local HTTPS setup and verification (2026-10-14)
+
+Design references: tmp/pilot-20261014/design.txt lines45 and610 require HTTPS.
+The existing coordinator/acceptance target remains HTTP127.0.0.1:8767.
+HTTPS is opt-in, direct Uvicorn TLS on127.0.0.1:8768 only. No reverse proxy,
+request spooling, public bind, firewall change or system certificate trust change.
+
+Dependency / private certificate setup (CPU only, project root):
+  .venv\Scripts\python.exe -m pip install cryptography==50.0.2
+  .venv\Scripts\python.exe scripts\release\setup_local_tls.py
+
+cryptography50.0.2 was installed into the existing Windows project.venv and pinned
+in requirements-release.txt. The setup helper fails explicitly if it is absent;
+serve.py with supplied certificate/key uses Python ssl and does not generate keys.
+The helper creates/reuses these files only:
+  %LOCALAPPDATA%\FaceTeller\tls\localhost-cert.pem
+  %LOCALAPPDATA%\FaceTeller\tls\localhost-key.pem
+Private directory ACL inheritance is removed; current Windows user and SYSTEM
+receive access before key creation. No private key is stored in the repository.
+Certificate SAN: DNS localhost, IP127.0.0.1; RSA2048/SHA256; server-auth leaf,
+30-day validity. Re-running reuses a matching, currently valid pair. Missing one
+file or an expired/malformed pair fails; replacement is explicit:
+  .venv\Scripts\python.exe scripts\release\setup_local_tls.py --renew
+No automatic renewal while a service is running. Restart the selected service
+after intentional renewal so it loads the new pair.
+
+Launch only after the GPU owner releases the GPU and release artifacts/DB are ready:
+  powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\start-release.ps1 -Https
+The ExecutionPolicy flag is limited to this PowerShell process; it does not change
+machine/user policy. The launcher retains its existing manifest/DB preflights,
+prepares private local TLS files, and passes both certificate paths to serve.py.
+-Https -Port8767 fails before preflight; -Https uses8768. Without-Https the existing
+HTTP8767 default and custom HTTP-Port behavior are retained.
+  .venv\Scripts\python.exe scripts\release\serve.py --https
+The direct serve command requires existing TLS files; there is no HTTP fallback.
+Explicit --ssl-certfile and --ssl-keyfile are supported together with --https.
+-Https -ValidateOnly validates existing TLS files without generating/renewing them;
+it also retains the existing CPU manifest/DB checks. It cannot pass before all
+required release artifacts exist. TLS setup alone does not mark service readiness.
+
+Trust and deployment scope:
+This is a SELF-SIGNED DEVELOPMENT certificate, not a publicly trusted certificate.
+Browsers do not trust it by default. We did not import it into Windows/browser
+trust stores or disable browser verification globally. No actual browser HTTPS
+acceptance or actual CNN/VGGT HTTPS service run is claimed. Remote deployment and
+a publicly trusted certificate remain pending. Local HTTP coordinator measurements
+remain HTTP measurements; this separate TLS test does not relabel them as HTTPS.
+
+CPU verification:
+  .venv\Scripts\python.exe -m unittest tests.test_release_tls -v
+The test uses a tiny independent ASGI application and actual Uvicorn TLS handshake
+on an OS-assigned loopback port, never8767/8768 or the release service. Its client
+trusts only the test certificate within a temporary SSLContext; hostname checking
+remains enabled. localhost and127.0.0.1 requests return200 with scheme=https;
+wrong-host and default-system-trust connections fail certificate verification.
+Temporary test keys remain under LocalAppData and are deleted afterward.
+Other tests cover unchanged HTTP defaults, explicit HTTPS options, missing/mismatched
+keys, illegal port/options, repeatable private certificate generation, explicit
+renewal of an incomplete pair, no model/torch imports and Windows launcher parsing.
+Initial launcher test hit existing Windows script execution policy; the test now
+uses a process-only ExecutionPolicy Bypass, matching the documented launch command.
+Final Windows .venv result: 9 tests passed in 1.141 seconds.
+Actual private development certificate created successfully; read-only icacls
+inspection confirmed the directory and key grant only the current user and SYSTEM.
+No GPU, release-service startup, port8767/8768 listener, corpus import or readiness
+change was performed.
+
+Official references checked for the TLS implementation and scope:
+Uvicorn official settings source (HTTPS ssl_certfile/ssl_keyfile arguments):
+https://github.com/Kludex/uvicorn/blob/master/docs/settings.md#https
+Python SSLContext.load_cert_chain and client verification:
+https://docs.python.org/3/library/ssl.html#ssl.SSLContext.load_cert_chain
+PyCA official X.509 tutorial, self-signed certificates are for local testing:
+https://cryptography.io/en/latest/x509/tutorial/#creating-a-self-signed-certificate

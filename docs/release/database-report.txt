@@ -1,0 +1,929 @@
+FaceTeller release PostgreSQL implementation / actual CPU verification
+Date: 2026-10-14 (Asia/Seoul)
+
+Scope and status
+Implemented only facework/release_repository.py, scripts/release/setup_database.py,
+data/release/migrations/, tests/test_release_repository.py and this report.
+Read docs/release/current-directive.txt and tmp/pilot-20261014/design.txt, especially
+4.3 database integrity and 5.5 all-condition matching. No pilot_contract, runtime,
+benchmark, training code or weights were changed. No GPU/model inference, photographs,
+raw coordinates, participant records or analysis history were used/stored/transmitted.
+
+Actual environment
+Existing PostgreSQL 17.10 binaries: C:\Program Files\PostgreSQL\17\bin.
+Existing Windows PostgreSQL service on 5432 was left unchanged. Its administrative
+password was not available, so the same installed binaries provisioned a separate
+cluster bound only to 127.0.0.1:55432, database faceteller_release.
+Persistent data: %LOCALAPPDATA%\FaceTeller\postgresql\data.
+Private connection config: %LOCALAPPDATA%\FaceTeller\postgresql\connection.json.
+Directory ACL is restricted to the current Windows user and SYSTEM; generated SCRAM
+passwords/DSNs are not stored in the repository or printed in this report.
+Administrative user: faceteller_admin (dedicated cluster only).
+Runtime login: faceteller_reference_reader.
+Python: .venv/Scripts/python.exe; installed psycopg 3.3.6 was already available.
+No PostgreSQL or Python package installation was necessary.
+Local startup is a persistent-data user process, NOT an auto-start Windows service.
+After reboot, run the idempotent local-init command below. It reuses existing data,
+credentials, schema, and imports; it does not reset the database.
+Windows pg_ctl child startup uses file handles instead of captured pipes to avoid
+waiting indefinitely for inherited pipes in the persistent server process.
+
+Commands (project root, Windows .venv Python)
+  .venv/Scripts/python.exe scripts/release/setup_database.py local-init
+  .venv/Scripts/python.exe scripts/release/setup_database.py status
+  .venv/Scripts/python.exe scripts/release/setup_database.py import --corpus PATH_TO_COMPLETE_CORPUS_JSON
+  .venv/Scripts/python.exe -m unittest tests.test_release_repository -v
+For an externally managed dedicated PostgreSQL DB, set FACETELLER_ADMIN_DATABASE_URL
+and FACETELLER_SERVICE_PASSWORD, run setup_database.py provision, then import.
+Set FACETELLER_DATABASE_URL to the reader DSN for runtime. These variables override
+the private local config. Do not point provision at a shared application database:
+it revokes database PUBLIC privileges and PUBLIC CREATE in schema public.
+The admin connection must be able to manage roles/database grants; migration and
+import must never use the reader login. After adding future migrations, rerun
+provision to grant the explicit runtime table allowlist as appropriate.
+
+Runtime interface (ready for the main agent to connect)
+  from facework.release_repository import ReleaseRepository
+  repository = ReleaseRepository()  # reader config or FACETELLER_DATABASE_URL
+  candidates = repository.load_candidates({'eye_shape:round', 'nose_width:wide'})
+Alternatively ReleaseRepository(service_dsn, connect_timeout=5).
+PostgresRepository is an alias in this NEW module, not the old bigint repository.
+Returns list[facework.pilot_contract.Passage]. No database/socket access on import.
+Each nonempty query owns/closes a connection and read-only transaction, with a
+five-second statement timeout. Errors propagate as database errors rather than
+being silently reported as zero matches. Empty labels return [] without connecting.
+
+Schema and corpus contract
+Schema face_release; migration 001_reference_corpus.sql is applied transactionally.
+schema_migration stores filename/SHA256; changed or missing applied migrations and
+out-of-order migrations fail. Migration/import/role setup share an advisory lock.
+literature: literature_id TEXT primary key, title, complete original JSON document.
+passage: passage_id TEXT primary key, literature_id FK, original_text, translation,
+commentary, source JSONB, literature_priority, passage_order, annotation_status,
+service_eligible BOOLEAN, complete original JSON document.
+label: canonical feature:class TEXT key. label_passage has a composite primary key
+and foreign keys, plus reverse-label lookup index. No bigint casts anywhere.
+corpus_import: complete original corpus document and SHA256, one row per distinct
+canonical JSON document, preserving all source/passages/extra metadata revisions.
+Migration002 adds active_corpus(singleton=1,version,canonical_sha256). version is the
+input schema_version rendered as text; canonical_sha256 references corpus_import.
+Every successful import updates this singleton in the SAME transaction, including
+re-importing an older document. Historical import times do NOT establish active
+state. The reader has SELECT on this safe metadata only, with no write privileges
+and still no SELECT on corpus_import or schema_migration.
+ReleaseRepository.corpus_revision() returns the active hash string or None before
+an explicit import. snapshot() binds revision and candidate text to one repeatable-
+read, read-only transaction so concurrent imports cannot mix hashes and text.
+Canonical hash is SHA256 of UTF-8 json.dumps(document,ensure_ascii=False,
+sort_keys=True,separators=(',',':'),allow_nan=False); it is NOT the raw-file hash.
+On an existing installation run setup_database.py provision to migrate/grant, then
+re-import the intended complete corpus. Migration002 deliberately never backfills
+from the most recent historical timestamp. status now includes corpus_sha256.
+Local migration002 and reader grant were applied. Release DB still has no corpus,
+so its active hash is correctly null; no synthetic corpus was loaded into release.
+Final active-revision verification: 45 tests passed in8.192s (19 repository tests,
+26 runtime tests). Actual PostgreSQL tests prove older-revision reimport changes
+the active hash despite a newer historical import timestamp, concurrent import
+cannot change a pinned read snapshot, no import means unknown revision, failed
+imports roll back revision/text together, and reader writes/archive reads remain
+denied. A separate release-reader connection confirmed safe metadata SELECT,
+no corpus_import SELECT, and no active_corpus writes. No pending migrations remain.
+
+Input is one complete JSON object with schema_version (nonempty string or integer),
+sources[] and passages[]. Each source needs a nonempty string literature_id and
+title. Each passage needs a unique nonempty string passage_id and literature_id
+present in that input's sources, source object, required_labels array of canonical
+feature:class strings, integer literature_priority and passage_order, nonempty
+annotation_status, and a real boolean service_eligible. IDs are not converted to
+numbers; Unicode/string keys survive unchanged. Extra input fields are preserved.
+Eligible entries require nonempty original_text, translation, commentary, source
+title/url/chapter/locator and at least one condition. Duplicate labels and conflicting
+classes for the same feature are rejected for eligible AND rules. Excluded entries
+may have empty translations/commentary/source metadata/conditions; they are stored.
+Label validation checks canonical syntax, not scientific correctness or a fixed
+classifier vocabulary; unsupported new-region annotations can therefore be archived.
+No human review is asserted or manufactured: annotation_status is preserved verbatim.
+Explicit service_eligible is honored; it does not mean independent human validation.
+
+Import semantics
+Validate the whole document before writes. In one transaction, upsert sources and
+passages by their canonical IDs, replace each included passage's full mapping set,
+retain all omitted source/passage records, and deactivate omitted passages for
+runtime. Therefore each import must be a COMPLETE snapshot, not a partial chunk.
+Importing the same input repeatedly adds no duplicate rows, mappings, or audit
+entries. Reimporting an older snapshot restores its eligible projection, with its
+original audit record retained. SQL failures roll back every write in that import.
+Previous raw inputs remain in corpus_import; this is reference-content provenance,
+not face-analysis history. No runtime result tables exist.
+
+Candidate matching and ordering
+Parameterized SQL uses text[] labels. Eligibility plus EXISTS(overlap) and
+NOT EXISTS(any missing required label) enforce AND matching and exclude empty rules.
+Every returned Passage contains ALL original required labels and full source dict.
+Integration amendment: the response source additionally carries annotation_status
+from the dedicated passage column. This column overrides a conflicting nested
+source.annotation_status; raw archived JSON is unchanged. No status is converted
+to human-reviewed. This closes the previous API omission of annotation provenance.
+Post-amendment verification: repository suite now16 tests, combined with runtime24
+tests; all40 passed in8.592s on actual local PostgreSQL plus synthetic CPU runtime.
+There is no query LIMIT; the existing PassageSelector still computes per-feature
+geometric-mean scores, deduplicates and applies max3 per region/max5 overall.
+Repository order: literature_priority ascending, passage_order ascending, numeric
+IDs numerically before nonnumeric IDs lexically, matching the selector's ID tie-break.
+Numeric-looking string IDs still retain their original spelling in storage/output.
+
+Actual PostgreSQL checks completed
+Command: .venv/Scripts/python.exe -m unittest tests.test_release_repository -v
+Result: 15 tests passed, 5.063 seconds, zero skipped (11 actual PostgreSQL integration
+tests plus 4 input/empty-query tests). Each integration run creates an isolated,
+randomly named database and reader login and removes both; release DB is not cleared.
+Verified on PostgreSQL 17.10:
+- partial-condition exclusion, full AND match, complete labels/source and unknown labels;
+- explicit exclusion of ineligible and empty-condition archival entries;
+- deterministic priority/order/2-vs-10/canonical-string ID ordering;
+- repeated migration, repeated grant setup and repeated corpus import with unchanged counts;
+- all 7 synthetic records, source metadata, original documents and unreviewed status preserved;
+- changed conditions remove stale mappings; omitted records are archived, not served;
+- invalid input performs no writes; a deliberately induced late SQL constraint failure
+  rolls back earlier source changes and eligibility updates;
+- reader can SELECT; INSERT/UPDATE/DELETE/TRUNCATE, schema/table/temporary-table creation,
+  ALTER TABLE, and access to administrative import/migration tables fail by permissions,
+  EVEN after the reader disables default_transaction_read_only;
+- refusing to reuse privileged/owner roles as the service role;
+- changed migration checksum rejection;
+- actual PassageSelector compatibility and no premature repository candidate limit;
+- connection failure propagates instead of returning an empty result.
+Separate service connection confirmed current_user=faceteller_reference_reader,
+database=faceteller_release and default_transaction_read_only=on.
+No leftover test databases remained after the run.
+
+Earlier synthetic verification preceded corpus arrival; actual integration follows below.
+
+ACTUAL CORPUS AUDIT — 2026-10-14
+Actual local PostgreSQL import and service-role lookup; no CNN/GPU/face input.
+Corpus annotations are AI drafts; human/expert review count remains zero.
+Stored historical quotations include claims about character, fortune and family.
+Those statements are preserved as source text, NOT accepted predictions about users.
+API source carries authoritative annotation_status and document.display_policy;
+original source/document JSON is preserved unchanged. Visible historical quotation
+headings and no-personal-prediction notice remain the UI responsibility.
+
+Semantic caveat: SQ632B-nose-051 was eligible in this initial revision despite
+commentary admitting the forehead-continuity condition is unmeasured. Requested
+Claude review/exclusion and all compound-condition audit; DB mechanical passes do
+not certify semantic label completeness. NLC/literature expansion remains in progress.
+Any final changed corpus must be reviewed and reimported; never assume last import
+timestamp means active content. Local provenance checks validate stored snapshots,
+section spans, evidence substrings and revision URLs, not independent online edition
+authenticity, expert translation or historical prediction validity.
+
+Reproducible import: .venv/Scripts/python.exe scripts/release/setup_database.py import --corpus data/release/literature/reference_corpus_v1.json
+CPU regression command: .venv/Scripts/python.exe -m unittest tests.test_release_repository tests.test_release_runtime -q
+Result: 48 tests passed, zero skipped, 8.871s (20 repository + 28 runtime).
+All actual corpus cases below used ReleaseRepository.snapshot/load_candidates with
+the real service reader, preserving exact source/text/order and active revision.
+The four real ACL probes used rollback transactions with READ WRITE explicitly set;
+permissions still denied access. Repeat import left every status/count/hash unchanged.
+
+{
+  "corpus_path": "data\\release\\literature\\reference_corpus_v1.json",
+  "canonical_sha256": "4bd109aa69e5d99fc6f08c9d6dea3950ccb3164f5ddecabca6cc8a8e591c10d6",
+  "raw_file_sha256": "3454ae7ac4815690bba94cf81b5ab7193458bd1b6101c54637ad5f2b937a5dd7",
+  "database": {
+    "database": "faceteller_release",
+    "corpus_sha256": "4bd109aa69e5d99fc6f08c9d6dea3950ccb3164f5ddecabca6cc8a8e591c10d6",
+    "postgresql": 170010,
+    "sources": 4,
+    "passages": 1624,
+    "eligible": 50,
+    "labels": 57,
+    "imports": 1
+  },
+  "unique_snapshot_files": 15,
+  "annotation_status": {
+    "ai_annotated_unreviewed": 1624
+  },
+  "eligible_by_literature": {
+    "shenxiang_quanbian": 41,
+    "xufu_xiangfa": 2,
+    "taiqing_shenjian": 1,
+    "zhaodan_jing": 6
+  },
+  "checks": {
+    "snapshot_hash": 1624,
+    "original_span": 1624,
+    "revision_url": 1624,
+    "condition_evidence": 2582,
+    "eligible_current_vocabulary": 50,
+    "eligible_declared_conditions": 50,
+    "historical_display_policy": 50,
+    "db_full_passage_preserved": 1624,
+    "db_full_source_preserved": 4,
+    "db_full_import_preserved": 1,
+    "reader_revision": 1,
+    "candidate_order": 266,
+    "returned_complete_and_eligible": 394,
+    "api_text_preserved": 394,
+    "api_provenance_preserved": 394,
+    "positive_and": 50,
+    "missing_required_negative": 57,
+    "wrong_class_negative": 57,
+    "extra_irrelevant_positive": 50,
+    "unrelated_only_negative": 50,
+    "all_eligible_only": 1,
+    "empty_query": 1,
+    "actual_reader_role": 1,
+    "reader_default_readonly": 1,
+    "reader_acl_denied": 4,
+    "real_corpus_repeat_import_idempotent": 1,
+    "active_revision_after_repeat": 1,
+    "file_unchanged_during_audit": 1
+  },
+  "seconds": 3.017,
+  "per_eligible_passage": [
+    {
+      "passage_id": "SQ632A-brow-005",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632A-brow-007",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632A-brow-008",
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632A-brow-016",
+      "required_labels": [
+        "brow_shape:arched"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632B-eye-009",
+      "required_labels": [
+        "eye_size:large"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632B-eye-026",
+      "required_labels": [
+        "eye_depth:prominent"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632B-nose-041",
+      "required_labels": [
+        "nostril_show:visible"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632B-nose-046",
+      "required_labels": [
+        "nostril_show:visible"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632B-nose-051",
+      "required_labels": [
+        "nose_bridge:high"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632C-mouth-043",
+      "required_labels": [
+        "mouth_corner:down"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632C-mouth-044",
+      "required_labels": [
+        "mouth_corner:down"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632C-mouth-052",
+      "required_labels": [
+        "mouth_width:narrow"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ632C-chin-004",
+      "required_labels": [
+        "lower_face_ratio:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-face-020",
+      "required_labels": [
+        "face_length:long",
+        "face_shape:angular"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-face-025",
+      "required_labels": [
+        "lower_face_ratio:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-chin-005",
+      "required_labels": [
+        "chin_shape:rounded"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-004",
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-005",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-006",
+      "required_labels": [
+        "brow_eye_gap:close"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-009",
+      "required_labels": [
+        "brow_tail:descending"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-014",
+      "required_labels": [
+        "brow_eye_gap:wide"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-028",
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-029",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-036",
+      "required_labels": [
+        "brow_eye_gap:wide",
+        "brow_shape:straight"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-044",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-057",
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-059",
+      "required_labels": [
+        "brow_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633FB-brow-060",
+      "required_labels": [
+        "brow_density:dense",
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633E-eye-036",
+      "required_labels": [
+        "brow_length:long",
+        "eye_size:small"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633E-eye-045",
+      "required_labels": [
+        "eye_tilt:down"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633E-eye-051",
+      "required_labels": [
+        "eye_depth:deep",
+        "eye_roundness:narrow"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ633E-eye-059",
+      "required_labels": [
+        "eye_depth:deep"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634N-nose-001",
+      "required_labels": [
+        "nose_bridge:high"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634N-nose-035",
+      "required_labels": [
+        "nose_tip:rounded"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634N-nose-045",
+      "required_labels": [
+        "nostril_show:visible"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634N-nose-047",
+      "required_labels": [
+        "nose_tip:tapered"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634N-philtrum-030",
+      "required_labels": [
+        "philtrum_length:short"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634M-mouth-081",
+      "required_labels": [
+        "lip_thickness:thin"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634M-mouth-086",
+      "required_labels": [
+        "lip_thickness:full"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634M-mouth-116",
+      "required_labels": [
+        "lip_thickness:full"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "SQ634M-mouth-117",
+      "required_labels": [
+        "lip_thickness:thin"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "XF01-eye-006",
+      "required_labels": [
+        "eye_tilt:up"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "XF02-nose-017",
+      "required_labels": [
+        "nose_length:long",
+        "nose_width:wide"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "TQ5-brow-023",
+      "required_labels": [
+        "brow_shape:arched"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646A-eye-038",
+      "required_labels": [
+        "eye_tilt:down"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646A-eye-062",
+      "required_labels": [
+        "eye_size:large"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646A-eye-069",
+      "required_labels": [
+        "eye_size:small"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646A-nose-010",
+      "required_labels": [
+        "nose_length:long",
+        "nose_width:wide"
+      ],
+      "positive": true,
+      "missing_required_negatives": 2,
+      "wrong_class_negatives": 2,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646B-brow-009",
+      "required_labels": [
+        "brow_density:sparse"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    },
+    {
+      "passage_id": "ZD646B-brow-013",
+      "required_labels": [
+        "brow_length:long"
+      ],
+      "positive": true,
+      "missing_required_negatives": 1,
+      "wrong_class_negatives": 1,
+      "irrelevant_extra": true,
+      "provenance": true
+    }
+  ]
+}
+
+PRIVATE SOURCE SECTION ARCHIVE EXTENSION — 2026-10-14
+Migration003 source_section is a private active-revision projection, not a runtime candidate table.
+Service reader has NO SELECT or mutation privilege; actual local-role SELECT denial verified,
+even with READ WRITE enabled. ReleaseRepository needs no archive access and is unchanged.
+Each source section stores all proposed fields plus corpus_sha256 FK and the unchanged raw
+document JSON. No translation/commentary/label placeholders are invented. Exact original
+UTF8 text_sha256 is checked both in Python and by a PostgreSQL SHA256 CHECK constraint.
+
+Optional root source_sections defaults to[] for legacy corpora. If present it must be a list.
+Each entry requires section_id=page_id:occurrence:index1, positive int32 occurrence, positive
+canonical integer index1, referenced literature_id, page_id, heading string (may be empty),
+nonblank original_text, lowercase64hex text_sha256, annotation_status exactly
+source_archive_unreviewed, service_eligible exactly false, and source object.
+Source requires title/url/chapter/snapshot_file/snapshot_sha256. A pinned Wikisource record
+requires positive integer wikisource_revid; scan_page may be null when not provided by the
+source. A PDF transcription instead requires scan_source_id, scan_page, transcription_sha256,
+nonempty transcription_files and positive pdf_page<=pdf_page_end. Additional provenance is
+preserved unchanged. Local source-file authenticity is separately checked, not inferred solely
+from valid hash syntax. Transcription remains automatic and not human-proofread.
+
+Import semantics: source_sections is replaced completely inside the SAME transaction as
+passages, immutable corpus_import document and active_corpus pointer. Removed sections vanish
+from the active table; old complete documents remain in corpus_import. Reimporting an older
+revision restores its archive. Reimporting a legacy corpus lacking the field clears only the
+active archive. Validation runs before DB writes; a late archive SQL failure rolls back all
+passage/text/archive/hash changes. Administrative import/status now return source_sections count.
+
+Verification: .venv/Scripts/python.exe -m unittest tests.test_release_repository -q
+25 tests passed in7.941s, zero skipped, using disposable actual PostgreSQL databases. New
+checks cover strict optional schema/pinned-vs-scan provenance, wrong text hash, status promotion,
+full Unicode preservation, idempotence, reader denial, removed/old/legacy revisions and late
+archive failure rollback. Production migration/provision applied003 only; NO interim import.
+Production remains corpus4bd109aa69e5d99fc6f08c9d6dea3950ccb3164f5ddecabca6cc8a8e591c10d6,
+1624 passages/50eligible/4sources/1import/source_sections0. This does not claim the new corpus
+is loaded. Final import awaits main explicit final-corpus handoff.
+
+Current-file read-only validation and local inventory/snapshot audit (not final approval):
+{
+  "corpus_sha256": "286eff6c08acf659505a258adfe5c7b0e4ddd6de91e74e3980d93e818d1a2e63",
+  "passages": 3773,
+  "eligible_passages": 40,
+  "source_sections": 925,
+  "archive_inventory_exact_match": 925,
+  "snapshot_files_verified": 42,
+  "wiki_sections": 813,
+  "scan_sections": 112,
+  "archived_characters": 357986,
+  "interim_only_not_imported": true
+}
+
+FINAL ACTUAL CORPUS IMPORT — 2026-10-15 KST
+
+The preceding initial/interim counts, hashes and per-passage checks are preserved
+as historical evidence of those revisions. The following completed finalizer run
+supersedes their active-DB status; it does not retroactively make interim checks
+final-corpus checks.
+
+Completion: 2026-10-14T16:03:54.179568+00:00 (2026-10-15 01:03:54 KST).
+Actual evidence files:
+  outputs/release/literature-finalization.json
+  outputs/release/literature-finalization-state.json
+  data/release/literature_ready.json
+Final compact-canonical corpus SHA256 (actual PostgreSQL import and reader revision):
+  e9e7a092604cbfbeead424659e7cb9bf064b3b155513b1282e93b21c4fa59b05
+Finalization report file SHA256, bound by the ready marker:
+  6ae6b7e030a09659c0cac3135e4675b066a9feaffba965b4119ce65950a73355
+The current corpus canonical hash, report-file hash, marker/import hash and recorded
+runtime revision were cross-checked from these files for this documentation update.
+This identity uses canonical_json with compact separators, not the raw corpus file
+hash or the builder's differently formatted validation-report hash.
+
+Actual import: 5 source records, 5304 passages, 73 service-eligible passages,
+5231 excluded passages retained, and 925 private source-archive sections. The DB
+retains 5 source rows and 5304 passage rows at this revision. Archive counts describe
+preserved source text, not complete translations, reviewed conditions or human GT.
+
+Finalizer actual PostgreSQL checks PASSED:
+  - Two identical complete imports returned the same canonical identity/counts;
+    DB status was unchanged by the second import (idempotent_reimport=true).
+  - Complete imported JSON, source/passage documents and all 925 archive documents,
+    active revision references and original-text SHA256 values matched the corpus.
+  - ReleaseRepository's read-only snapshot returned the active canonical revision.
+    Reader default read-only/role/table ACLs passed; private source_section,
+    corpus_import and schema_migration tables remained inaccessible to the reader.
+    Archive inspection used administrative SELECT, without broadening reader ACLs.
+  - All 73 eligible condition sets were queried against the actual repository:
+    92 missing-condition checks, 92 wrong-class checks and 73 unrelated-extra-label
+    checks passed. Deduplication yielded 159 unique queries, including empty input.
+    Full expected candidate sets, AND matching, deterministic order, original text,
+    translation, commentary, required labels and source annotation/display-policy
+    provenance matched. Excluded passages were not runtime candidates.
+
+Completed finalizer test logs (not rerun for this documentation update):
+  literature-literature-tests.log: 34 tests passed in 17.188s.
+  literature-repository-tests.log: 25 tests passed in 7.893s, zero skipped.
+Repository tests used their own random faceteller_test_<uuid> databases/readers;
+their synthetic fixtures never replaced the active release corpus.
+
+Automatic-label prerequisite and pending transition:
+The finalizer validated registry/overlay/source hashes, all 400 v2 annotation-record
+hashes, frozen participant splits and predeclared minimum mark-label support before
+removing only pigmented_marks from pending_labels.features. Original pending bytes
+were preserved at outputs/release/literature-pending-labels.original.json. Annotation
+files were not rewritten; 94 frozen literature input hashes are recorded in the
+finalization report. SQ642M-mole-069 remained approximate/nonmedical-category
+excluded; vocabulary promotion did not make it eligible. The final eligible count
+remained 73. Support readiness means weak automated target availability, not model
+accuracy or full per-class calibration coverage (calibration absent-mark targets=0).
+
+Windows source-path correction:
+The first readiness attempt failed because registry source_hashes keys used Windows
+backslashes while the overlay lookup constant used forward slashes. The finalizer
+now normalizes only its lookup view and filesystem lookup, rejecting duplicate path
+aliases even when their digests agree. Raw readiness-map equality and byte-level
+registry/ready hash checks remain unchanged. Registry, ready, frozen training and
+pending artifacts were not changed by the fix. Four targeted CPU regression tests
+passed in 3.277s; actual validate_readiness() then passed for registry SHA256:
+  b9c4f0b97c54685716b4951ee2d9ecb6a1ddb47074821bb6650e3b697d974d7b
+Main subsequently restarted the finalizer and obtained the successful import above.
+
+literature_ready.json is now ready=true only for the verified canonical DB revision.
+human_review_count remains 0. These results establish persistent historical-text
+retrieval/provenance and automatic checks, not independent human ground truth,
+personality/health/fortune inference or completed CNN/VGGT service acceptance.
+This update changed only database-report.txt; no DB tests, imports, GPU jobs,
+training files, readiness markers, README or acceptance documents were changed.

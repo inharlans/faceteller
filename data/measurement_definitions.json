@@ -1,0 +1,244 @@
+{
+  "version": "measurement-definitions-v2",
+  "point_system": "MediaPipe Face Landmarker 478; d=동일 사진 픽셀 좌표에서 유클리드 거리",
+  "reference_policy": {
+    "cohort": "승인된 한국인 자료의 조건 통일 표본. 아직 확보되지 않음.",
+    "subject_weighting": "학습 분할의 사람별 대표값 1개",
+    "experimental_quantiles": [
+      0.25,
+      0.75
+    ],
+    "quantile_status": "프로젝트 초안. 관상 표준 아님.",
+    "boundary_policy": "반복 측정 오차 구간이 경계와 겹치면 보류",
+    "deployment_ready": false
+  },
+  "capture_policy": {
+    "version": "capture-draft-v2",
+    "instructions": [
+      "정면·무표정·입을 편하게 다문 상태",
+      "미용 필터·얼굴 보정 해제",
+      "눈썹과 얼굴 외곽 가림 제거",
+      "균일한 조명과 고정 카메라/거리 기록",
+      "화면 가이드는 자세와 프레이밍 보조이며 실제 크기 기준 아님"
+    ],
+    "pilot_quality_heuristics": {
+      "max_abs_yaw_deg": 15,
+      "max_abs_pitch_deg": 20,
+      "min_face_width_px": 150,
+      "max_smile_score": 0.45,
+      "max_mouth_open_ratio": 0.08
+    },
+    "quality_validation": "기존 파일럿 임시값. 촬영 허용 범위를 검증한 값 아님. 흐림·가림·거리·필터는 자동 검증하지 못함."
+  },
+  "features": [
+    {
+      "id": "nose_relative_width",
+      "label_ko": "얼굴 대비 코 폭",
+      "formula": "d(98,327) / d(234,454)",
+      "metric_keys": [
+        "nose_width_face"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "랜드마크 대리 폭. 실제 콧방울 최외측과 일치하는지 검수 필요. 촬영 거리의 원근 효과가 남음."
+    },
+    {
+      "id": "face_visible_elongation",
+      "label_ko": "얼굴의 보이는 세로 비율",
+      "formula": "d(10,152) / d(234,454)",
+      "metric_keys": [
+        "face_visible_height_width"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "점10은 실제 헤어라인이 아님. 실제 얼굴 크기나 해부학적 총안면 높이가 아님."
+    },
+    {
+      "id": "mouth_relative_width",
+      "label_ko": "얼굴 대비 입 너비",
+      "formula": "d(61,291) / d(234,454)",
+      "metric_keys": [
+        "mouth_width_face"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "입꼬리 기준. 무표정·입 다문 상태에서 측정."
+    },
+    {
+      "id": "lip_relative_thickness",
+      "label_ko": "입 너비 대비 입술 붉은 부분 두께",
+      "formula": "(d(0,13)+d(14,17)) / d(61,291)",
+      "metric_keys": [
+        "lip_vermilion_mouth"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "입 벌림·힘주기·화장 영향. 털·피부 음영과 구별."
+    },
+    {
+      "id": "jaw_relative_width",
+      "label_ko": "얼굴 대비 턱 기준 폭",
+      "formula": "d(172,397) / d(234,454)",
+      "metric_keys": [
+        "jaw_width_face"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "하악각의 실측 폭과 동일하지 않은 랜드마크 대리값."
+    },
+    {
+      "id": "eye_right_elongation",
+      "label_ko": "오른쪽 눈 가로·세로 비율",
+      "formula": "d(33,133) / max(d(159,145),1px)",
+      "metric_keys": [
+        "eye_right_aperture_ratio"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "깜박임·표정 영향. 기존 구현의 1px 하한 때문에 극소 해상도 값은 비교 불가."
+    },
+    {
+      "id": "eye_right_relative_width",
+      "label_ko": "오른쪽 눈의 얼굴 대비 너비",
+      "formula": "d(33,133) / d(234,454)",
+      "metric_keys": [
+        "eye_right_width_face"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "정면에서 비교. 좌우 값은 따로 보존."
+    },
+    {
+      "id": "brow_right_relative_length",
+      "label_ko": "오른쪽 눈썹 기준선 길이",
+      "formula": "polyline[70, 63, 105, 66, 107] / d(33,133)",
+      "metric_keys": [
+        "brow_right_length_eye"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "털 실제 끝점·눈썹 밀도가 아닌 랜드마크 기준선. 반영구 화장과 가림 확인."
+    },
+    {
+      "id": "eye_left_elongation",
+      "label_ko": "왼쪽 눈 가로·세로 비율",
+      "formula": "d(263,362) / max(d(386,374),1px)",
+      "metric_keys": [
+        "eye_left_aperture_ratio"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "깜박임·표정 영향. 기존 구현의 1px 하한 때문에 극소 해상도 값은 비교 불가."
+    },
+    {
+      "id": "eye_left_relative_width",
+      "label_ko": "왼쪽 눈의 얼굴 대비 너비",
+      "formula": "d(263,362) / d(234,454)",
+      "metric_keys": [
+        "eye_left_width_face"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "정면에서 비교. 좌우 값은 따로 보존."
+    },
+    {
+      "id": "brow_left_relative_length",
+      "label_ko": "왼쪽 눈썹 기준선 길이",
+      "formula": "polyline[300, 293, 334, 296, 336] / d(263,362)",
+      "metric_keys": [
+        "brow_left_length_eye"
+      ],
+      "measurement_status": "available_proxy",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "털 실제 끝점·눈썹 밀도가 아닌 랜드마크 기준선. 반영구 화장과 가림 확인."
+    },
+    {
+      "id": "nose_relative_length",
+      "label_ko": "얼굴 대비 코 길이",
+      "formula": "합의한 코뿌리~코밑 / 합의한 얼굴 기준 높이",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "해부학적 기준점 대응과 주석 지침 검증 필요."
+    },
+    {
+      "id": "nose_projection",
+      "label_ko": "코 돌출량",
+      "formula": "보정된 측면/3D에서 기준면 대비 거리",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "mm_requires_calibration",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "정면 사진에서 실측하지 않음."
+    },
+    {
+      "id": "face_absolute_size",
+      "label_ko": "실제 얼굴 크기",
+      "formula": "보정된 얼굴 폭·높이를 각각 mm로 측정",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "mm_requires_calibration",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "카메라·깊이/기준물 보정 필요. 화면 타원만으로 판정 불가."
+    },
+    {
+      "id": "brow_hair_thickness",
+      "label_ko": "눈썹 털 영역 두께",
+      "formula": "털 영역 단면 두께 / 눈 가로 길이",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "털 영역 분할·윤곽 주석 필요. 랜드마크 띠 두께로 대체하지 않음."
+    },
+    {
+      "id": "brow_eye_gap",
+      "label_ko": "눈썹과 눈 사이 간격",
+      "formula": "정해진 안쪽·중앙·바깥쪽 위치에서 하단 눈썹~위눈꺼풀 / 눈 가로 길이",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "털 하단 마스크·측정 대응점 검증 필요."
+    },
+    {
+      "id": "brow_density",
+      "label_ko": "눈썹 털 밀도",
+      "formula": "정의된 눈썹 구역별 털 점유율",
+      "metric_keys": [],
+      "measurement_status": "not_implemented",
+      "unit": "ratio",
+      "threshold_status": "uncalibrated",
+      "thresholds": null,
+      "limitation": "고해상도와 조명 통제, 털·화장 구분 필요."
+    }
+  ]
+}

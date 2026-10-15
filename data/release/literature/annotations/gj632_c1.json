@@ -1,0 +1,1530 @@
+{
+ "page_id": "gj632",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "五曰口為出納官"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ632C-mouth-001",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "短促脣掀，色青齒露，偏斜骨肉相煎。",
+   "translation": "(입이) 짧고 오그라들며 입술이 들려 뒤집히고, 빛이 푸르며 이가 드러나고, 치우치고 비뚤어지면 골육(骨肉, 혈육)이 서로 볶아댄다.",
+   "commentary": "출납관(出納官)인 입에 관한 운문 본문 구절로, 뒤따르는 주석이 각 어구를 차례로 풀이한다. '脣掀'은 입술이 들려 뒤집힌 형태로 lip_projection:protruded의 정확 표현에 해당하고, 나머지 어구는 근사·미대응·관찰 불가로 두었다. 문헌은 이를 혈육 간의 불화와 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "短促",
+     "observable_ko": "입이 짧고 오그라듦",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:narrow"
+     ],
+     "reason": "주석은 短을 가로로 좁음, 促을 입이 모임으로 풀어 폭 외의 요소가 섞여 있다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 들려 뒤집힘",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "mouth",
+     "evidence": "色青",
+     "observable_ko": "입(입술) 빛이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒露",
+     "observable_ko": "이가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 노출 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "偏斜",
+     "observable_ko": "입이 한쪽으로 치우치고 비뚤어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-002",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "促者，口聚也，短者，橫窄也。促短者，並主孤也。",
+   "translation": "촉(促)이란 입이 모인 것이고, 단(短)이란 가로로 좁은 것이다. 촉하고 단한 것은 모두 고독함을 주관한다.",
+   "commentary": "본문의 '短促'을 풀이한 주석이다. '橫窄(가로로 좁음)'은 입의 가로 폭이 좁다는 직접 서술이라 mouth_width:narrow로 옮겼고, '口聚(입이 모임)'는 입을 오므린 모양으로 대응 항목이 불분명하다. 문헌은 이를 고독과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口聚",
+     "observable_ko": "입이 오므라져 모임",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "입을 오므린 모양인지 입술이 앞으로 모인 모양인지 정할 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "橫窄",
+     "observable_ko": "입의 가로 폭이 좁음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-003",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《大統賦》云：「口如吹火似寒酸。」 吹者，撮聚也，",
+   "translation": "『대통부(大統賦)』에 이르기를 「입이 불을 부는 듯하면 춥고 궁색한 듯하다」고 하였다. 취(吹)란 오므려 모은 것이다.",
+   "commentary": "'불을 부는 입(吹火)'은 입술을 오므려 내민 모양을 비유한 표현으로, 지침상 lip_projection:protruded의 근사 표현이다. 문헌은 이를 빈한함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口如吹火",
+     "observable_ko": "불을 불듯 입술을 오므려 내밂",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "吹火는 지침상 근사 표현이며 돌출 정도가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-004",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《通神。鬼眼相》曰：「口有三聚：一曰猴口，吹火聚注，令人無子，孑立自身亡。",
+   "translation": "『통신(通神)·귀안상(鬼眼相)』에 이르기를 「입에는 세 가지 모임(三聚)이 있다. 첫째는 원숭이 입(猴口)이니, 불을 불듯 모아 쏟는 모양으로, 사람으로 하여금 자식이 없게 하고 홀로 서서 자신이 죽는다.",
+   "commentary": "입이 오므라진 세 유형(三聚) 가운데 첫째인 원숭이 입이다. 동물 비유와 '불을 붊' 비유뿐이라 정확한 형태 대응은 없다. 문헌은 이를 무자식·고독한 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "猴口",
+     "observable_ko": "원숭이 입(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "吹火聚注",
+     "observable_ko": "불을 불듯 입술이 모여 쏠림",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "吹火는 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632C-mouth-005",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "二曰羊口，飲水聚注，令人孤寒，好歌樂，無衣糧。",
+   "translation": "둘째는 양의 입(羊口)이니, 물을 마시듯 모아 쏟는 모양으로, 사람으로 하여금 외롭고 가난하게 하며, 노래와 음악을 좋아하고, 입을 옷과 먹을 양식이 없다.",
+   "commentary": "삼취(三聚)의 둘째인 양의 입이다. 동물 비유와 '물을 마심' 비유로만 서술되어 형태 기준이 특정되지 않는다. 문헌은 이를 고독·빈궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "羊口",
+     "observable_ko": "양의 입(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "飲水聚注",
+     "observable_ko": "물을 마시듯 입술이 모여 쏠림",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "비유적 동작 묘사로 돌출인지 오므림인지 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-006",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "三曰鵲口，縮囊聚注，令孤寒性寡，親子另房。",
+   "translation": "셋째는 까치 입(鵲口)이니, 주머니를 오므린 듯 모아 쏟는 모양으로, 외롭고 가난하며 성품이 적적하게(寡) 하고, 친자식이 다른 방에 있게 한다.",
+   "commentary": "삼취의 셋째인 까치 입이다. '주머니를 오므림(縮囊)'은 입이 졸아든 모양을 비유한 것으로 보이나 폭인지 입술 후퇴인지 특정되지 않는다. '性寡'의 정확한 뜻은 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "鵲口",
+     "observable_ko": "까치 입(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "縮囊聚注",
+     "observable_ko": "주머니를 오므린 듯 입이 졸아 모임",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:retruded",
+      "mouth_width:narrow"
+     ],
+     "reason": "주머니 비유가 입 폭의 좁음인지 입술이 들어감인지 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-007",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "脣掀者，口脣番蹇也，亦主孤剋。」",
+   "translation": "순흔(脣掀)이란 입술이 뒤집혀 들린 것이니, 또한 고독함과 극(剋)함을 주관한다.",
+   "commentary": "본문의 '脣掀'을 풀이한 주석으로, 입술이 들려 뒤집힌 형태는 lip_projection:protruded의 정확 표현이다. '孤剋'은 홀로 되고 가족을 극한다(해친다)는 관상 용어로, 문헌은 이를 가족 관계의 손상과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 들려 뒤집힘",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-008",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《大清神鑑》曰：「眼露睛，脣皮蹇，男憂」 賊盜，女憂產難，若去寺觀及出家，免得一身見八難。",
+   "translation": "『대청신감(大清神鑑)』에 이르기를 「눈에 눈동자가 드러나고 입술 껍질이 들리면, 남자는 도적을 근심하고 여자는 난산을 근심하니, 만약 절이나 도관에 가거나 출가하면 한 몸이 여덟 가지 어려움(八難)을 당하는 것을 면할 수 있다」고 하였다.",
+   "commentary": "서명은 원문 표기 그대로 옮겼다. '露睛'은 눈동자가 드러남으로 지침상 eye_depth:prominent의 근사이고, '脣皮蹇'은 입술이 들린 모양으로 돌출과 가깝지만 정확 표현이 아니다. '賊盜'를 근심함이 도적을 만남인지 도적이 됨인지 원문만으로 정할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼露睛",
+     "observable_ko": "눈동자가 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露 단독은 지침상 근사 표현이다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣皮蹇",
+     "observable_ko": "입술 껍질이 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "蹇은 들림·말림을 뜻하나 脣突·脣掀 같은 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-009",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "青色者，言脣氣青黑，亦主孤貧。《五總龜》云：「貧窮似鼠常青黑，破盡田園不住家。」",
+   "translation": "청색(青色)이란 입술의 기색이 푸르고 검은 것을 말하니, 또한 고독과 가난을 주관한다. 『오총귀(五總龜)』에 이르기를 「가난하고 궁한 자는 쥐처럼 늘 푸르고 검으니, 전원을 다 깨뜨리고 집에 머물지 못한다」고 하였다.",
+   "commentary": "본문의 '色青'을 입술 기색으로 풀이한 주석이다. 기색은 형태 항목이 아니다. 문헌은 이를 고독·빈궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣氣青黑",
+     "observable_ko": "입술 기색이 푸르고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-010",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《大統賦》云：「青黑禍發。",
+   "translation": "『대통부』에 이르기를 「푸르고 검으면 화가 일어난다.",
+   "commentary": "입술의 푸르고 검은 기색에 관한 인용이다. 색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "青黑",
+     "observable_ko": "입술 빛이 푸르고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-teeth-001",
+   "section": "五曰口為出納官",
+   "region": "teeth",
+   "original_text": "齒露者，凡語笑露齒牙，孤剋。」 《廣鑑集》云：「相中大忌露齒也。",
+   "translation": "치로(齒露)란 무릇 말하고 웃을 때 이가 드러나는 것이니, 고독하고 극한다. 『광감집(廣鑑集)』에 이르기를 「상법에서 이가 드러나는 것을 크게 꺼린다」고 하였다.",
+   "commentary": "본문의 '齒露'를 말하고 웃을 때 이가 보이는 것으로 풀이했다. 말·웃음이라는 동작 중의 모습이라 정지 사진의 형태 항목이 아니며 치아 노출 레이블도 없다. 문헌은 이를 고독과 가족을 극함에 연결했다.",
+   "conditions": [
+    {
+     "region": "teeth",
+     "evidence": "語笑露齒牙",
+     "observable_ko": "말하고 웃을 때 이가 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말·웃음 동작 중의 모습이며 치아 노출 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-011",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "偏斜者，口不正也，亦主孤貧。」",
+   "translation": "편사(偏斜)란 입이 바르지 않은 것이니, 또한 고독과 가난을 주관한다.",
+   "commentary": "본문의 '偏斜'를 입이 바르지 않음으로 풀이했다. 입의 좌우 비대칭·기울기는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口不正",
+     "observable_ko": "입이 바르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-012",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《萬金相》云：「海朝文陽十七禍至，陰二八大病。海朝武陽二八災病，陰十七禍生。」 文左武右也。",
+   "translation": "『만금상(萬金相)』에 이르기를 「해조(海朝)가 문(文)의 양(陽)이면 열일곱에 화가 이르고, 음(陰)이면 이팔(二八)에 큰 병이 난다. 해조가 무(武)의 양이면 이팔에 재앙과 병이 있고, 음이면 열일곱에 화가 생긴다」고 하였다. 문은 왼쪽이고 무는 오른쪽이다.",
+   "commentary": "'海朝'가 입의 어느 상태를 가리키는지 원문에 설명이 없고, '二八'이 16세인지 28세인지도 원문만으로 정할 수 없다. 나이별 재앙·병을 좌우와 음양에 따라 나눈 운한(運限) 서술이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "海朝文陽",
+     "observable_ko": "해조(海朝)의 좌측·음양 상태",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "海朝의 뜻과 대상 형태가 원문에 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-013",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "又曰：「水星不正，骨肉相煎。」 水星，口也，骨肉，六親也，然主平生之象。五十六歲入運，至六十四歲不利骨肉。",
+   "translation": "또 이르기를 「수성(水星)이 바르지 않으면 골육이 서로 볶아댄다」고 하였다. 수성은 입이고, 골육은 육친(六親)이다. 그러나 평생의 상을 주관한다. 쉰여섯 살에 운에 들어 예순네 살에 이르기까지 골육에게 이롭지 않다.",
+   "commentary": "수성(水星)은 오성(五星) 가운데 입을 가리키는 관상 용어다. 입이 바르지 않음은 비대칭 레이블이 없어 대응하지 않는다. 문헌은 이를 육친 간의 불화와 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "水星不正",
+     "observable_ko": "입이 바르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-014",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "「闊而不正」，虛詐不堪言。",
+   "translation": "「넓으면서 바르지 않으면」 헛되고 속임이 말할 수 없을 정도다.",
+   "commentary": "입에 관한 운문 본문 구절로, '闊(넓음)'은 입의 가로 폭이 넓다는 서술이라 mouth_width:wide로 옮겼다. '不正'은 비대칭 레이블이 없어 대응하지 않는다. 문헌은 이를 허위·사기와 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "闊",
+     "observable_ko": "입의 가로 폭이 넓음",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "不正",
+     "observable_ko": "입이 바르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-015",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "橫口不收而偏斜不正者，主為人多奸猾，虛謬不實。",
+   "translation": "가로로 된 입이 거두어지지 않고 치우쳐 비뚤어져 바르지 않은 것은, 사람됨이 간사하고 교활함이 많으며 헛되고 그릇되어 진실하지 않음을 주관한다.",
+   "commentary": "본문의 '闊而不正'을 풀이한 주석이다. '橫口不收'는 입이 가로로 퍼져 다물어지지 않는 모양으로 넓은 입과 가깝지만 다물지 못함까지 포함할 수 있어 근사로 두었다. 간교·허위라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "橫口不收",
+     "observable_ko": "입이 가로로 퍼져 거두어지지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "폭이 넓음 외에 입을 다물지 못함을 포함할 수 있다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "偏斜不正",
+     "observable_ko": "입이 치우치고 비뚤어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-016",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《大統賦》曰：「大言無信者略綽。」 略綽者，即橫闊不收也。",
+   "translation": "『대통부』에 이르기를 「큰소리치고 신의가 없는 자는 약작(略綽)하다」고 하였다. 약작이란 곧 가로로 넓어 거두어지지 않는 것이다.",
+   "commentary": "'略綽'을 입이 가로로 넓게 퍼진 모양으로 풀이한 인용이다. '橫闊不收'는 넓은 입과 가깝지만 다물지 못함이 섞여 근사로 두었다. 문헌은 이를 신의 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "橫闊不收",
+     "observable_ko": "입이 가로로 넓어 거두어지지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "口闊 표현이 아니며 입을 다물지 못함이 섞여 있다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-017",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《五總龜》曰：「若傷歸於左畔，是非奸詐愛便宜。」 口脣左邊也。",
+   "translation": "『오총귀』에 이르기를 「만약 상함이 왼쪽 가에 돌아가면, 시비를 일삼고 간사하게 속이며 이익을 좋아한다」고 하였다. 입술의 왼쪽 가이다.",
+   "commentary": "입술 왼쪽에 어떤 '상함(傷)'이 있는지 원문이 특정하지 않아 형태로 옮길 수 없다. 문헌은 이를 간사함과 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "傷歸於左畔",
+     "observable_ko": "입술 왼쪽이 상함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "상함이 흉터·비뚤어짐·처짐 중 무엇인지 원문만으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-018",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "偏薄「是非。」謗訕。",
+   "translation": "치우치고 얇으면 「시비(是非)」하고 비방한다.",
+   "commentary": "입에 관한 운문 본문 구절이다. '偏薄'의 '薄'은 입술이 얇음으로 읽히나 본문에는 '脣薄'이 아닌 '薄'만 치우침과 함께 있어 근사로 두었다. 문헌은 이를 남을 헐뜯는 성향과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "偏薄",
+     "observable_ko": "입(입술)이 치우치고 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "본문에는 '薄'만 있고 치우침과 결합되어 있어 脣薄과 같은 직접 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-019",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "偏薄者，口脣薄橫偏也。主好說談是非。",
+   "translation": "편박(偏薄)이란 입술이 얇고 가로로 치우친 것이니, 남의 시비를 즐겨 말함을 주관한다.",
+   "commentary": "본문의 '偏薄'을 '입술이 얇음(口脣薄)'으로 직접 풀이해 lip_thickness:thin으로 옮겼다. '橫偏(가로로 치우침)'은 비대칭 레이블이 없다. 문헌은 이를 말버릇·성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口脣薄",
+     "observable_ko": "입술이 얇음",
+     "status": "exact",
+     "label": "lip_thickness:thin"
+    },
+    {
+     "region": "mouth",
+     "evidence": "橫偏",
+     "observable_ko": "입이 가로로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-020",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "謗訕者，不知己口快舌長，專提人語，失取笑，渾語毀，善譏調不顧忌諱。似此之人，雖居富貴，亦不脫小人也。",
+   "translation": "방산(謗訕)이란 자기 입이 빠르고 혀가 긴 줄 모르고, 오로지 남의 말을 들추어 실수로 웃음거리가 되고, 마구 말하여 헐뜯으며, 비꼬고 놀리기를 잘하여 꺼리고 삼갈 것을 돌아보지 않는 것이다. 이와 같은 사람은 비록 부귀에 있더라도 소인을 벗어나지 못한다.",
+   "commentary": "'口快舌長'은 말이 많고 가벼움을 뜻하는 관용 표현으로 혀의 실제 길이를 말한 것이 아니다. 행실에 관한 서술이며 문헌은 이를 소인(小人)이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口快舌長",
+     "observable_ko": "입이 빠르고 혀가 긺(말버릇 관용어)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말버릇에 관한 관용 표현으로 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-021",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《五總龜》曰：「水星偏陷兩頭垂，尖薄無稜作乞兒。」 無稜者，薄也。",
+   "translation": "『오총귀』에 이르기를 「수성이 치우치고 꺼지며 두 끝이 처지고, 뾰족하고 얇으며 모서리(稜)가 없으면 거지가 된다」고 하였다. 모서리가 없다는 것은 얇다는 것이다.",
+   "commentary": "수성(입)의 두 끝이 처짐은 입꼬리 처짐으로 읽히나 '口角' 표현이 아니어서 근사로 두었다. '無稜'은 입술 윤곽선(稜)이 없음이지만 주석이 이를 '薄'으로 풀어 두께와 섞여 있다. 문헌은 이를 빈궁(거지)과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "偏陷",
+     "observable_ko": "입이 치우치고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 비대칭·함몰 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "兩頭垂",
+     "observable_ko": "입의 두 끝이 처짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_corner:down"
+     ],
+     "reason": "'두 끝'이 입꼬리를 뜻하는 것으로 보이나 口角垂 같은 직접 표현이 아니다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "尖薄",
+     "observable_ko": "입이 뾰족하고 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "脣薄 표현이 아니며 뾰족함과 결합되어 있다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "無稜",
+     "observable_ko": "입술 윤곽선이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:flat"
+     ],
+     "reason": "주석이 無稜을 얇음으로 풀어 윤곽선과 두께가 섞여 있다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-022",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "如《硃抹》，「名譽相傳。」",
+   "translation": "주사를 바른 듯하면(如硃抹) 「명예가 서로 전해진다.」",
+   "commentary": "입에 관한 운문 본문 구절로, 입술 빛이 주사(硃砂)처럼 붉음을 말한다. 색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "如《硃抹》",
+     "observable_ko": "입술이 주사를 바른 듯 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-023",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "如硃抹者，口脣紅鮮，似塗抹硃砂之紅色也。主文章才俊，其名姓傳揚四方。",
+   "translation": "주사를 바른 듯하다는 것은 입술이 붉고 선명하여 주사를 칠한 붉은빛과 같은 것이다. 문장과 재주가 뛰어남을 주관하니, 그 이름이 사방에 전해 퍼진다.",
+   "commentary": "본문의 '如硃抹'을 입술 색으로 풀이한 주석이다. 색은 형태 항목이 아니다. 문헌은 이를 문재(文才)와 명성에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口脣紅鮮",
+     "observable_ko": "입술이 붉고 선명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-024",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《陳圖南》曰：「脣如潑砂富貴如華，紅色也。」",
+   "translation": "『진도남(陳圖南)』에 이르기를 「입술이 모래(주사)를 뿌린 듯하면 부귀가 화려하다. 붉은빛이다」라고 하였다.",
+   "commentary": "입술의 붉은빛에 관한 인용으로 형태가 아니다. 문헌은 이를 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣如潑砂",
+     "observable_ko": "입술이 주사를 뿌린 듯 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-025",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "許負曰：「口如含丹，不受饑寒。」",
+   "translation": "허부(許負)가 이르기를 「입이 붉은 단(丹)을 머금은 듯하면 굶주림과 추위를 받지 않는다」고 하였다.",
+   "commentary": "'含丹'은 입술이 단사(丹砂)를 머금은 듯 붉다는 색 비유로 읽힌다. 형태 항목이 아니다. 문헌은 이를 의식의 넉넉함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口如含丹",
+     "observable_ko": "입술이 단을 머금은 듯 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-026",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "郭林宗曰：「脣紅齒白食天祿，多藝多才又多富貧。」",
+   "translation": "곽림종(郭林宗)이 이르기를 「입술이 붉고 이가 희면 하늘의 녹을 먹고, 재예가 많고 재주가 많으며 또 부와 가난이 많다」고 하였다.",
+   "commentary": "입술과 이의 색에 관한 인용으로 형태가 아니다. 끝의 '多富貧'은 원문 그대로 직역했으며 뜻이 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣紅",
+     "observable_ko": "입술이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒白",
+     "observable_ko": "이가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-027",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "女曰：「貴人脣紅似潑砂，更加四字足榮華」 ，然主平生之貴，五十六歲入運，大發財祿。",
+   "translation": "여(女)가 이르기를 「귀인은 입술이 붉어 주사를 뿌린 듯하고, 다시 사(四) 자를 더하면 영화가 넉넉하다」고 하였다. 그러나 평생의 귀함을 주관하니, 쉰여섯 살에 운에 들면 재물과 녹이 크게 일어난다.",
+   "commentary": "화자 표기 '女曰'은 이례적이어서 판독에 의문이 있으나 원문 그대로 옮겼다. '四字'는 입 모양을 '四' 자에 빗댄 것으로 보이나 원문에 설명이 없어 형태로 옮기지 않았다. 문헌은 이를 부귀·재록과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣紅",
+     "observable_ko": "입술이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "四字",
+     "observable_ko": "입이 '四' 자 모양(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "글자 모양 비유로 어떤 측정 형태인지 원문에 정의되어 있지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-028",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《脣裡紫》，食肉千里，衣祿自天然。",
+   "translation": "「입술 속이 자줏빛」이면 천 리의 고기를 먹고 의식과 녹이 저절로 천연히 이루어진다.",
+   "commentary": "입에 관한 운문 본문 구절로 입술의 자줏빛을 말한다. 색은 형태 항목이 아니다. 문헌은 이를 녹봉·의식과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "《脣裡紫》",
+     "observable_ko": "입술(속)이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-029",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "脣鮮紫紅色者。主富貴。可食千里之爵祿。乃為天生自然之福。平生之貴。五十六入限。快。",
+   "translation": "입술이 선명한 자홍색인 자는 부귀를 주관한다. 천 리의 작록(爵祿)을 먹을 수 있다. 곧 하늘이 낸 자연의 복이다. 평생의 귀함이다. 쉰여섯에 운한에 든다. 빠르다(快).",
+   "commentary": "본문의 '脣裡紫'를 입술의 자홍색으로 풀이한 주석이다. 색은 형태 항목이 아니다. 끝의 '快'는 원문 그대로 직역했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣鮮紫紅色",
+     "observable_ko": "입술이 선명한 자홍색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-030",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "「覆載多紋理，掩人過惡」，得子孫須賢。",
+   "translation": "「복재(覆載)에 무늬와 결이 많으면 남의 허물과 악을 덮어 주니」, 얻는 자손이 반드시 어질다.",
+   "commentary": "입에 관한 운문 본문 구절로, 복재는 윗입술·아랫입술을 이르는 이름이다(다음 주석). 입술의 주름·결은 레이블 체계에 없다. 문헌은 이를 성품과 어진 자손에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "覆載多紋理",
+     "observable_ko": "입술에 주름·결이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술 주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632C-mouth-031",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "覆載，脣之名也。《萬金相》云：「上脣名金覆，下脣名金載。」",
+   "translation": "복재(覆載)는 입술의 이름이다. 『만금상』에 이르기를 「윗입술은 금복(金覆)이라 하고, 아랫입술은 금재(金載)라 한다」고 하였다.",
+   "commentary": "입술 부위의 명칭을 풀이한 용어 설명으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-032",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "若唇上下有紋理多者，主為人寬和，見善多為遇惡勸歸於善，而喜避其惡，又招貴子賢孫。",
+   "translation": "만약 입술 위아래에 무늬와 결이 많은 자는, 사람됨이 너그럽고 온화하며, 선을 보면 대부분 악을 만나도 선으로 돌아가도록 권하고, 그 악을 피하기를 좋아함을 주관하며, 또 귀한 아들과 어진 손자를 부른다.",
+   "commentary": "입술 주름에 관한 주석으로, 주름 항목은 레이블 체계에 없다. 문헌은 이를 너그러운 성품과 자손에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇上下有紋理多",
+     "observable_ko": "입술 위아래에 주름·결이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술 주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632C-mouth-033",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《大統賦》云：「上下紋交子孫眾，周匝稜利仁信全。」",
+   "translation": "『대통부』에 이르기를 「위아래 무늬가 교차하면 자손이 많고, 둘레가 모서리 지고 날카로우면 인(仁)과 신(信)이 온전하다」고 하였다.",
+   "commentary": "입술 주름의 교차는 레이블 체계에 없다. '周匝稜利'는 입술 둘레의 윤곽선이 뚜렷함으로 읽혀 lip_bow:pronounced와 가깝지만 '脣有稜' 같은 직접 표현이 아니어서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "上下紋交",
+     "observable_ko": "입술 위아래 주름이 교차함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술 주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "周匝稜利",
+     "observable_ko": "입술 둘레 윤곽선이 뚜렷하고 날카로움",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:pronounced"
+     ],
+     "reason": "입술 둘레 전체의 윤곽을 말해 윗입술 활 모양과 같은 측정인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ632C-mouth-034",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "哽咽者，喫飯食吞噎向喉咽之中作沃沃之聲是也。迍邅者，平生蹇滯不通。",
+   "translation": "경열(哽咽)이란 밥과 음식을 먹다가 삼키며 목구멍 속에서 꿀꺽꿀꺽 소리를 내는 것이 이것이다. 둔전(迍邅)이란 평생 막히고 통하지 않는 것이다.",
+   "commentary": "'哽咽'과 '迍邅'을 풀이한 주석이나, 이 주석이 풀이하는 운문 본문 구절은 이 절 텍스트에 보이지 않는다. 먹을 때의 소리는 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "哽咽",
+     "observable_ko": "음식을 삼킬 때 목에서 소리가 남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-035",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "張紫菱曰：「食為性之本，所以欲詳而不暴，啜不欲聲，吞不欲鳴也。」",
+   "translation": "장자릉(張紫菱)이 이르기를 「먹는 것은 성품의 근본이니, 그러므로 자상하고 사납지 않게 하고자 하며, 마실 때 소리 내지 않고자 하며, 삼킬 때 울리지 않고자 한다」고 하였다.",
+   "commentary": "먹는 태도에 관한 인용으로, 행동은 정지 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "啜不欲聲，吞不欲鳴",
+     "observable_ko": "마시고 삼킬 때 소리를 냄 여부",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-036",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《五總龜》曰：「鳥啄豬餐最賤客，相他衣食必無終。",
+   "translation": "『오총귀』에 이르기를 「새가 쪼듯 돼지가 먹듯 하는 것은 가장 천한 손님이니, 그의 의식을 보면 반드시 끝이 없다(끝까지 가지 못한다).",
+   "commentary": "먹는 모습을 새·돼지에 빗댄 행동 서술이다. 문헌은 이를 천함과 의식의 부족에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "鳥啄豬餐",
+     "observable_ko": "새가 쪼듯 돼지가 먹듯 먹음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-037",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "咽粗急者人多躁，鼠食從來飲食空。」",
+   "translation": "삼킴이 거칠고 급한 자는 사람이 조급함이 많고, 쥐처럼 먹으면 예로부터 마시고 먹을 것이 비었다」고 하였다.",
+   "commentary": "먹는 모습에 관한 행동 서술로 형태가 아니다. 문헌은 이를 조급한 성품과 빈궁에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "咽粗急",
+     "observable_ko": "삼킴이 거칠고 급함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "鼠食",
+     "observable_ko": "쥐처럼 먹음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-038",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "又曰：「相食看詳緩，窮忙豈合宜。更嫌將鳥啄，更忌食淋漓。",
+   "translation": "또 이르기를 「먹는 것을 상볼 때는 자상하고 느림을 보니, 궁하고 바쁜 것이 어찌 마땅하겠는가. 더욱이 새가 쪼는 것을 싫어하고, 더욱이 먹을 때 흘리는 것을 꺼린다.",
+   "commentary": "먹는 태도에 관한 행동 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "鳥啄",
+     "observable_ko": "새가 쪼듯 먹음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "食淋漓",
+     "observable_ko": "먹을 때 흘림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-039",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "性暴吞須急，心寬食必遲。問君」 榮貴處，牛哺福相隨。",
+   "translation": "성품이 사나우면 삼킴이 반드시 급하고, 마음이 너그러우면 먹음이 반드시 느리다. 그대에게 묻노니」 영화롭고 귀한 곳은, 소처럼 되새기며 먹으면 복이 따른다.",
+   "commentary": "먹는 속도와 성품을 연결한 행동 서술로 형태가 아니다. 인용부호 위치는 원문 그대로 두었다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "吞須急",
+     "observable_ko": "삼킴이 급함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "牛哺",
+     "observable_ko": "소처럼 되새기며 먹음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-040",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "常向睡中不合。泄元氣。夭促天年。",
+   "translation": "늘 잠잘 때 (입이) 다물어지지 않으면 원기(元氣)를 새게 하여, 타고난 수명을 일찍 재촉한다.",
+   "commentary": "입에 관한 운문 본문 구절로, 잠잘 때 입을 벌리는 습관을 말한다. 수면 중 상태는 정지 얼굴 사진으로 관찰할 수 없다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "睡中不合",
+     "observable_ko": "잠잘 때 입이 다물어지지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-041",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "口者，宣言語以接萬物，博飲食以安五臟，造化之權，禍福之柄，脣為口之城郭，舌之門戶，一開一合，榮辱所繫也。",
+   "translation": "입이란 말을 펴서 만물과 접하고, 마시고 먹는 것을 넓혀 오장(五臟)을 편안히 하니, 조화의 권세이고 화복의 자루이다. 입술은 입의 성곽이고 혀의 문호이니, 한 번 열고 한 번 닫음에 영욕이 매여 있다.",
+   "commentary": "입의 기능과 의미를 말하는 총론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-042",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "所以夜睡開口者，泄其元氣，元氣既泄，壽不永也。",
+   "translation": "그러므로 밤에 잘 때 입을 여는 자는 그 원기를 새게 하니, 원기가 이미 새면 수명이 길지 않다.",
+   "commentary": "본문의 '睡中不合'을 풀이한 주석이다. 수면 중 입 벌림은 사진 형태가 아니다. 문헌은 이를 짧은 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "夜睡開口",
+     "observable_ko": "밤에 잘 때 입을 벌림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-043",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "親曾見，低垂兩角，常被世人嫌。",
+   "translation": "친히 일찍이 보니, 두 (입)꼬리가 낮게 드리우면 늘 세상 사람들에게 미움을 받는다.",
+   "commentary": "입에 관한 운문 본문 구절로, 두 입꼬리가 아래로 처진다는 직접 서술이라 mouth_corner:down으로 옮겼다. 문헌은 이를 남의 미움을 받음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "低垂兩角",
+     "observable_ko": "두 입꼬리가 아래로 처짐",
+     "status": "exact",
+     "label": "mouth_corner:down"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-044",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "兩角下垂者，無衣食也。最招人憎嫌。",
+   "translation": "두 (입)꼬리가 아래로 드리운 자는 입을 옷과 먹을 것이 없다. 남의 미움을 가장 많이 부른다.",
+   "commentary": "본문의 '低垂兩角'을 풀이한 주석으로, 입꼬리가 아래로 처진 형태는 mouth_corner:down의 정확 표현이다. 문헌은 이를 의식의 부족과 남의 미움에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "兩角下垂",
+     "observable_ko": "두 입꼬리가 아래로 처짐",
+     "status": "exact",
+     "label": "mouth_corner:down"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-045",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《五總龜》曰：「口者，心之外表，賞罰之所出，榮辱之所關。欲端而厚，言不亂發，謂之口德；若多言而亂發者，謂之口佞。",
+   "translation": "『오총귀』에 이르기를 「입은 마음의 바깥 표상이고, 상과 벌이 나오는 곳이며, 영화와 욕됨이 관계되는 곳이다. 단정하고 두텁고자 하며, 말을 어지러이 내지 않는 것을 구덕(口德)이라 하고, 만약 말이 많고 어지러이 내는 것은 구녕(口佞)이라 한다.",
+   "commentary": "'端而厚'는 입(입술)이 두터움으로 읽히나 '脣厚' 표현이 아니고 단정함과 결합되어 근사로 두었다. 말하는 태도는 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "端而厚",
+     "observable_ko": "입이 단정하고 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:full"
+     ],
+     "reason": "입술이 아닌 입 전체에 대한 표현이며 단정함과 결합되어 있다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "多言而亂發",
+     "observable_ko": "말이 많고 어지러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·습관은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-046",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "若方廣有稜者，主壽。",
+   "translation": "만약 (입이) 모나고 넓으며 모서리(稜)가 있는 자는 장수를 주관한다.",
+   "commentary": "앞 문장의 주어인 입이 모나고 넓다는 서술이다. '方廣'은 넓은 입과 가깝지만 모남이 결합되어 있고 '有稜'은 입술 윤곽이 뚜렷함으로 읽히나 '脣有稜' 표현이 아니어서 둘 다 근사로 두었다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "方廣",
+     "observable_ko": "입이 모나고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_width:wide"
+     ],
+     "reason": "넓음과 모남이 결합되어 있고 口 자가 이 구절에 직접 나오지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "有稜",
+     "observable_ko": "입술 윤곽선이 뚜렷함",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:pronounced"
+     ],
+     "reason": "脣有稜 같은 직접 표현이 아니고 입 전체의 모서리일 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-047",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "形如弓稍向上者，主貴；",
+   "translation": "모양이 활과 같아 끝(稍)이 위로 향하는 자는 귀함을 주관한다.",
+   "commentary": "입 모양이 활처럼 휘어 끝이 위를 향함은 입꼬리가 올라간 모양으로 읽히나, 활 비유이고 '稍'의 뜻(끝 또는 조금)에 해석 여지가 있어 근사로 두었다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "形如弓稍向上",
+     "observable_ko": "입이 활처럼 휘어 끝이 위로 향함",
+     "status": "approximate",
+     "candidate_labels": [
+      "mouth_corner:up"
+     ],
+     "reason": "활 비유이며 '稍'가 끝인지 '조금'인지에 따라 뜻이 달라진다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-048",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "若尖而薄反者，主賤。",
+   "translation": "만약 뾰족하고 얇으며 뒤집힌 자는 천함을 주관한다.",
+   "commentary": "입이 뾰족하고 얇으며 뒤집힌 모양이다. 얇음과 뒤집힘은 각각 입술 두께·돌출과 가깝지만 '脣薄'·'脣掀' 같은 직접 표현이 아니어서 근사로 두었다. 문헌은 이를 천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "尖",
+     "observable_ko": "입이 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입 모양의 뾰족함 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "薄",
+     "observable_ko": "입(입술)이 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "脣薄 같은 직접 표현이 아니다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "反",
+     "observable_ko": "입(입술)이 뒤집힘",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "뒤집힘이 입술 돌출인지 입꼬리 방향인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-001",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "若黑子生於脣上者，平生酒肉來。",
+   "translation": "만약 검은 점(黑子)이 입술 위에 난 자는 평생 술과 고기가 온다.",
+   "commentary": "입술 위의 점에 관한 서술이다. 특정 위치의 점은 지침상 pigmented_marks:present의 근사이다. 문헌은 이를 먹을 복과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子生於脣上",
+     "observable_ko": "입술 위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-002",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "自然生於口角者，災滯；",
+   "translation": "저절로 입꼬리에 난 자는 재앙과 막힘이 있다.",
+   "commentary": "입꼬리 위치의 점에 관한 서술로, 특정 위치의 점은 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生於口角",
+     "observable_ko": "입꼬리에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-003",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "生於壽帶入口，主饑餓而死。",
+   "translation": "수대(壽帶)에 나서 입으로 들어가면 굶주려 죽음을 주관한다.",
+   "commentary": "앞의 점(黑子) 서술에 이어지지만, 뒤의 『論』 구절('帶入口直')과 견주면 수대(壽帶)라는 선이 입으로 들어가는 형태를 말하는 것일 수도 있어 판독이 불확실하다. 문헌은 이를 굶주려 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生於壽帶入口",
+     "observable_ko": "수대 부위에 점이 남 또는 수대 선이 입으로 들어감",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "점의 위치인지 주름선이 입에 닿는 형태인지 원문만으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-004",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "女人脣生黑」 子者，主淫，無媒自嫁也。",
+   "translation": "여인의 입술에 검은」 점이 난 자는 음란함을 주관하니, 중매 없이 스스로 시집간다.",
+   "commentary": "여성에게만 적용되는 입술 점에 관한 서술이다. 성적 행실에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mole",
+     "evidence": "脣生黑」 子",
+     "observable_ko": "입술에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-049",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "《論》曰：「運限者，口管十五年為末主，五十六至六十四，口有三聚，",
+   "translation": "『논(論)』에 이르기를 「운한(運限)이란, 입은 열다섯 해를 맡아 말년의 주(末主)가 되니 쉰여섯에서 예순넷까지이다. 입에는 세 가지 모임(三聚)이 있다.",
+   "commentary": "입이 맡는 운한 나이를 말하고 앞서 나온 삼취(三聚)를 다시 언급한 구절이다. 원문의 '열다섯 해'와 56~64세의 햇수가 맞지 않으나 원문 그대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口有三聚",
+     "observable_ko": "입이 오므라져 모인 세 유형",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:protruded"
+     ],
+     "reason": "삼취는 동물 비유 유형으로 측정 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-005",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "黑子生在脣上者，主一生得酒食，脣內亦然，",
+   "translation": "검은 점이 입술 위에 난 자는 일생 술과 음식을 얻음을 주관하니, 입술 안도 그러하다.",
+   "commentary": "입술 위의 점은 근사 대응이고, 입술 안쪽의 점은 사진에서 보이지 않는다. 문헌은 이를 먹을 복과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子生在脣上",
+     "observable_ko": "입술 위에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    },
+    {
+     "region": "mole",
+     "evidence": "脣內",
+     "observable_ko": "입술 안쪽의 점",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "입술 안쪽은 정면 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mole-006",
+   "section": "五曰口為出納官",
+   "region": "mole",
+   "original_text": "口角生者，末主水災，",
+   "translation": "입꼬리에 난 자는 말년에 물의 재앙을 주관한다.",
+   "commentary": "입꼬리 위치의 점에 관한 서술로 근사 대응이다. 문헌은 이를 말년의 수재와 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口角生",
+     "observable_ko": "입꼬리에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-050",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "紋理者壽，帶入口直，饑餓不食而死，",
+   "translation": "무늬와 결이 있는 자는 장수하고, 띠(帶)가 입으로 곧게 들어가면 굶주려 먹지 못하고 죽는다.",
+   "commentary": "원문의 구두대로 직역했으나 '紋理者壽，帶入口直'은 '수대(壽帶)가 입으로 곧게 들어감'으로 읽힐 수도 있어 판독에 의문이 있다. 주름·선 항목은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "紋理",
+     "observable_ko": "입 주위에 주름·결이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "帶入口直",
+     "observable_ko": "띠 모양 선이 입으로 곧게 들어감",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 주름선 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632C-mouth-051",
+   "section": "五曰口為出納官",
+   "region": "mouth",
+   "original_text": "氣色紅潤者則貴，黑者賤，青者毒，白者亦然，黃者病，惟繞口黃明者最吉。」",
+   "translation": "기색이 붉고 윤택한 자는 귀하고, 검은 자는 천하며, 푸른 자는 독하고, 흰 자도 그러하며, 누런 자는 병들고, 오직 입 둘레가 누렇고 밝은 자가 가장 길하다」고 하였다.",
+   "commentary": "입 주변 기색에 관한 서술로 형태 항목이 아니다. '毒'이 성품의 악독함인지 해로움인지 원문만으로 정할 수 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "氣色紅潤",
+     "observable_ko": "입 주변 기색의 색과 윤기",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "malice_deceit",
+    "health_disease",
+    "fortune_general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "page_id": "gj637",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《麻衣金鎖賦》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ637-other-103",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "「《相法百家》歸一理，文字泛多難以揆。刪出諸家奧妙歌，盡與後人容易記。",
+   "translation": "『상법』 백가가 한 이치로 돌아가나 글자가 넘치도록 많아 헤아리기 어렵다. 여러 학파의 오묘한 노래를 가려 뽑아 모두 후인에게 주어 쉽게 기억하게 한다.",
+   "commentary": "부(賦)의 서두로 여러 관상서의 요지를 노래로 추렸다는 편찬 취지를 밝힌다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-glabella-104",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "glabella",
+   "original_text": "六害眉心親義絕，纔如秋月圓還缺。剋妻害子老不閒，作事弄巧反成拙。」",
+   "translation": "육해(六害)가 눈썹 사이(眉心)에 있으면 친족의 의리가 끊어지니, 마치 가을 달이 둥글었다가 다시 이지러지는 것 같다. 아내를 극하고 자식을 해치며 늙어서도 한가하지 못하고, 일을 함에 재주를 부리다가 도리어 그르친다.",
+   "commentary": "육해는 해로움을 뜻하는 관상 용어로, 미심(眉心, 두 눈썹 사이)에 나타나는 어떤 형태인지 원문에 적혀 있지 않다. 문헌은 이를 친족·아내·자식을 해친다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "六害眉心",
+     "observable_ko": "미간의 육해(형태 미상)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "용어만 있고 미간의 어떤 형태인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "fertility_offspring",
+    "family_children",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-nose-105",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "nose",
+   "original_text": "山根斷兮早虛花，祖業飄零足破家，兄弟無緣離祖宅，老來轉見事如麻，",
+   "translation": "산근(山根, 콧뿌리)이 끊어지면 일찍 헛되이 꽃피고, 조상의 업이 흩어져 넉넉히 집안을 깨뜨리며, 형제와 인연이 없어 조상의 집을 떠나고, 늙어서는 도리어 일이 삼처럼 얽힘을 본다.",
+   "commentary": "'山根斷'은 가이드상 콧뿌리 높이(nose_bridge:low)의 근사 표현이다. 문헌은 이를 가산 탕진과 형제 무연에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根斷",
+     "observable_ko": "콧뿌리가 끊긴 듯 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "끊어짐(斷)은 가이드상 근사로 정해져 있다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-106",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "brow",
+   "original_text": "眉高面黑神憔悴，愛管他人事掛懷。",
+   "translation": "눈썹이 높고 얼굴이 검으며 신(神)이 초췌하면, 남의 일에 간섭하기를 좋아하고 마음에 걸어 둔다.",
+   "commentary": "'眉高'는 가이드의 brow_eye_gap:wide 표현이다. 얼굴 색과 신(神)의 초췌함은 형태가 아니다. 문헌은 이를 남의 일에 참견하는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "눈썹이 눈에서 높이 떨어져 있음",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    },
+    {
+     "region": "face",
+     "evidence": "面黑",
+     "observable_ko": "얼굴이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神憔悴",
+     "observable_ko": "신(神)이 초췌함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637-eye-107",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "eye",
+   "original_text": "冷眼見人笑一面，不知毒在暗中來。",
+   "translation": "차가운 눈으로 사람을 보며 한쪽 얼굴로 웃으면, 독이 어둠 속에서 오는 줄 알지 못한다.",
+   "commentary": "차가운 눈길과 웃는 표정은 시선·표정에 관한 서술로 형태가 아니다. 문헌은 이를 숨은 악의라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "冷眼見人",
+     "observable_ko": "차가운 눈길로 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·보는 방식은 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "笑一面",
+     "observable_ko": "한쪽 얼굴로 웃음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "표정 변화로 무표정 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-108",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "乍逢滿座有精神，久「看原來色轉昏。似此之人終壽短，縱然有壽亦孤貧。",
+   "translation": "처음 만나면 온 자리에 정신이 있으나, 오래 보면 원래 기색이 도리어 어두워진다. 이와 같은 사람은 끝내 수명이 짧고, 설령 수명이 있어도 외롭고 가난하다.",
+   "commentary": "정신과 기색의 변화에 관한 서술로 형태가 아니다. 전사본의 따옴표 위치는 원문 그대로다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有精神",
+     "observable_ko": "정신(신기)이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "色轉昏",
+     "observable_ko": "기색이 어두워짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-109",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "face",
+   "original_text": "五星列曜在人面，除眉之外怕偏斜。耳偏口側末年破，鼻曲迎突四十年。",
+   "translation": "오성(五星)이 빛을 벌여 사람 얼굴에 있으니, 눈썹 외에는 치우치고 기울어짐을 꺼린다. 귀가 치우치고 입이 기울면 말년에 깨지고, 코가 굽고 맞이해 튀어나오면 40년(이다).",
+   "commentary": "오성은 얼굴의 다섯 부위(귀·이마·코·입 등)를 별에 배당한 관상 용어다. 귀·입·코의 치우침과 굽음은 좌우 대칭·치우침 항목이 레이블 체계에 없다. '迎突'과 '四十年'의 뜻은 원문만으로 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳偏",
+     "observable_ko": "귀가 한쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 위치 비대칭 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口側",
+     "observable_ko": "입이 한쪽으로 기욺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입의 기울기·비대칭 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻曲",
+     "observable_ko": "코가 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 굽음·치우침 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "迎突",
+     "observable_ko": "(코가) 맞이해 튀어나옴",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "뜻이 분명하지 않아 형태를 특정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-110",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "讀盡詩書生得寒，文章千載不為官。平生雖有衝天志，爭奈鶯雛翼未乾。",
+   "translation": "시서(詩書)를 다 읽어도 생김이 차가우면 문장이 천 년을 가도 관직을 하지 못한다. 평생 하늘을 찌를 뜻이 있어도, 꾀꼬리 새끼의 날개가 아직 마르지 않음을 어찌하랴.",
+   "commentary": "'생김이 차갑다(生得寒)'는 빈한한 인상을 이르는 품평어로 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "生得寒",
+     "observable_ko": "생김이 차가움(빈한한 인상)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-111",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "face",
+   "original_text": "面大眉寒止秀才，",
+   "translation": "얼굴이 크고 눈썹이 차가우면 수재(秀才)에 그치고,",
+   "commentary": "수재는 낮은 단계의 과거 합격자를 말한다. 얼굴 크기는 비율 레이블이 아니고 '눈썹이 차갑다'는 품평어다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面大",
+     "observable_ko": "얼굴이 큼",
+     "status": "unmapped",
+     "candidate_labels": [
+      "face_length:long"
+     ],
+     "reason": "얼굴의 절대 크기는 비율 기반 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉寒",
+     "observable_ko": "눈썹이 차가움",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:sparse"
+     ],
+     "reason": "품평어로 숱·길이 등 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-mouth-112",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "mouth",
+   "original_text": "脣掀齒露更多災。終朝腳跡忙忙走，富貴平生不帶來。",
+   "translation": "입술이 들리고 이가 드러나면 재앙이 더욱 많다. 아침 내내 발자취가 바삐 달리니 부귀는 평생 지니고 오지 못한다.",
+   "commentary": "'脣掀'은 lip_projection:protruded의 가이드 표현이다. 이가 드러남은 치아 노출 항목이 없어 대응하지 않는다. 문헌은 이를 재앙과 빈궁에 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 앞으로 들려 젖혀짐",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒露",
+     "observable_ko": "이가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 노출 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-113",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "face",
+   "original_text": "上停短兮下停長，多成多敗值空亡。縱然營得成家計，猶如烈日照冰霜。",
+   "translation": "상정(上停, 이마 부분)이 짧고 하정(下停, 코밑에서 턱까지)이 길면 많이 이루고 많이 실패하여 공망(空亡)을 만난다. 설령 경영하여 살림을 이루더라도 뜨거운 해가 얼음과 서리를 비추는 것 같다.",
+   "commentary": "'下停長'은 가이드의 lower_face_ratio:long 표현이다. 상정이 짧음은 이마 높이(forehead_height:low)와 관련되나 상정의 경계가 보이는 이마와 같지 않아 근사로 두었다. 공망은 헛되이 사라지는 운을 뜻한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "上停短",
+     "observable_ko": "상정(이마 부분)이 짧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "상정 구간은 머리선이 아닌 관상 구획이라 보이는 이마 높이와 같은 기준이 아니다"
+    },
+    {
+     "region": "chin",
+     "evidence": "下停長",
+     "observable_ko": "하정(코밑~턱)이 긺",
+     "status": "exact",
+     "label": "lower_face_ratio:long"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-114",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "face",
+   "original_text": "下停短兮上停長，必為宰相侍君王。若是庶人生得此，金珠財寶滿倉箱。",
+   "translation": "하정이 짧고 상정이 길면 반드시 재상이 되어 군왕을 모신다. 만약 서민이 이렇게 생겼다면 금과 구슬과 재물과 보화가 창고와 상자에 가득하다.",
+   "commentary": "'下停短'은 가이드의 lower_face_ratio:short 표현이다. 상정이 긺은 이마 높이와 관련되나 관상 구획이라 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "下停短",
+     "observable_ko": "하정(코밑~턱)이 짧음",
+     "status": "exact",
+     "label": "lower_face_ratio:short"
+    },
+    {
+     "region": "forehead",
+     "evidence": "上停長",
+     "observable_ko": "상정(이마 부분)이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "상정 구간은 머리선이 아닌 관상 구획이라 보이는 이마 높이와 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-115",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "形愛恢弘又怕肥，恢主榮華肥死期。二十之上肥定死，四十形恢定發時。",
+   "translation": "형상은 크고 넓음을 좋아하고 또 살찜을 꺼리니, 넓으면 영화를 주관하고 살찌면 죽을 때이다. 스무 살 위에 살찌면 반드시 죽고, 마흔에 형상이 넓으면 반드시 발복할 때이다.",
+   "commentary": "체격과 비만에 관한 서술로 얼굴 형태 레이블이 없다. 문헌은 비만을 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形愛恢弘又怕肥",
+     "observable_ko": "체격이 크고 넓음·살찜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-116",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "瘦自瘦兮寒自寒，寒瘦之人不一般。瘦有精神終必達，寒雖形彩定孤單。」",
+   "translation": "여윈 것은 여윈 것이고 차가운 것은 차가운 것이니, 차갑고 여윈 사람은 한가지가 아니다. 여위었어도 정신이 있으면 끝내 반드시 현달하고, 차가우면 비록 형상에 광채가 있어도 반드시 외롭다.",
+   "commentary": "여윔(체격)과 차가움(품평), 정신에 관한 서술로 얼굴 형태 기준이 없다. 전사본의 닫는 따옴표는 원문 그대로다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "瘦有精神",
+     "observable_ko": "여위었으나 정신이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체·체격은 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "寒雖形彩",
+     "observable_ko": "차가우나 형상에 광채가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 쓰여 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-face-117",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "face",
+   "original_text": "色怕嫩兮又怕嬌，氣嬌神嫩不「相饒。老年色嫩招辛苦，少年色嫩不堅牢。",
+   "translation": "기색은 여림을 꺼리고 또 교태로움을 꺼리니, 기운이 교태롭고 신(神)이 여리면 서로 용서하지 않는다. 노년에 기색이 여리면 고생을 부르고, 소년에 기색이 여리면 견고하지 못하다.",
+   "commentary": "기색·기운·신(神)에 관한 서술로 형태가 아니다. '견고하지 못하다(不堅牢)'는 수명·건강이 오래가지 못함으로 읽힐 여지가 있어 수명 주제로 함께 분류했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "色怕嫩",
+     "observable_ko": "기색이 여림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣嬌神嫩",
+     "observable_ko": "기운이 교태롭고 신이 여림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·신(神)·숨결은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-118",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "brow",
+   "original_text": "眉要曲兮不要直，曲直愚人不得知。曲者多學又聰俊，直者刑妻又剋兒。",
+   "translation": "눈썹은 굽어야 하고 곧지 않아야 하니, 굽음과 곧음을 어리석은 사람은 알지 못한다. 굽은 자는 많이 배우고 또 총명하고 빼어나며, 곧은 자는 아내를 형(刑)하고 또 아이를 극한다.",
+   "commentary": "굽은 눈썹과 곧은 눈썹을 대비한 구절이다. '曲'은 '彎·如新月' 같은 가이드 표현이 아니고, 한 구절 안에서 두 클래스를 대비하므로 둘 다 근사로 두었다. 문헌은 곧은 눈썹을 아내·자식을 해친다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "曲者",
+     "observable_ko": "눈썹이 굽음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "'曲'은 가이드의 '彎·如新月' 표현이 아니며 한 구절에서 반대 클래스와 대비된다"
+    },
+    {
+     "region": "brow",
+     "evidence": "直者",
+     "observable_ko": "눈썹이 곧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:straight"
+     ],
+     "reason": "한 구절에서 굽은 눈썹과 대비되는 생략형 서술이라 단독 클래스로 확정하지 않았다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "kinship_harm",
+    "marriage",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-119",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "髭髯要黑又要稀，依稀見肉始為奇。最嫌濃濁焦黃色，父在東頭子在西。",
+   "translation": "콧수염과 구레나룻은 검어야 하고 또 성겨야 하니, 어렴풋이 살이 보여야 비로소 기이하다. 가장 꺼리는 것은 짙고 탁하며 그을린 누런색이니, 아비는 동쪽 끝에 자식은 서쪽에 있다.",
+   "commentary": "수염의 색과 숱에 관한 서술로 얼굴 형태 레이블이 없다. 부자가 떨어져 산다는 주장으로 가족 주제로 분류했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "髭髯要黑又要稀",
+     "observable_ko": "수염이 검고 성김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "수염은 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "濃濁焦黃色",
+     "observable_ko": "수염이 짙고 탁하며 누런색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637-other-120",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "other",
+   "original_text": "議論爭差識者稀，附於金鎖號銀匙。",
+   "translation": "의론이 서로 어긋나 아는 자가 드무니, 금쇄(金鎖)에 붙여 은시(銀匙)라 부른다.",
+   "commentary": "이 부(賦)에 이어지는 『은시가(銀匙歌)』와의 관계를 밝히는 편찬 문구로 보인다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637-brow-121",
+   "section": "《麻衣金鎖賦》",
+   "attributed_to": "麻衣",
+   "region": "brow",
+   "original_text": "眉高性巧能通變，侍待王公在此時。」",
+   "translation": "눈썹이 높으면 성품이 교묘하여 변통에 능하니, 왕공을 모시고 기다림이 이때에 있다.",
+   "commentary": "'眉高'는 가이드의 brow_eye_gap:wide 표현이다. 문헌은 이를 재치 있는 성품과 왕공을 섬기는 지위에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "눈썹이 눈에서 높이 떨어져 있음",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence",
+    "rank_office"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+import {createRoot} from 'react-dom/client';
+import App from './App';
+import '@fontsource/noto-sans-kr/400.css';
+import '@fontsource/noto-sans-kr/500.css';
+import '@fontsource/noto-sans-kr/700.css';
+import '@fontsource/noto-serif-kr/400.css';
+import '@fontsource/noto-serif-kr/700.css';
+import '@fontsource/noto-serif-tc/400.css';
+import './style.css';
+createRoot(document.getElementById('root')!).render(<App/>);

@@ -1,0 +1,3266 @@
+{
+ "page_id": "gj637",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "SQ637RB-glabella-001",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "印堂終日不開者謂之鬼形，故嘆其若蜉蝣之影。",
+   "translation": "인당(印堂, 두 눈썹 사이)이 종일 펴지지 않는 것을 귀형(鬼形)이라 하니, 그러므로 그것이 하루살이(蜉蝣)의 그림자 같음을 탄식한다.",
+   "commentary": "범위 앞의 부(賦) 구절에 대한 주석의 뒷부분이다. '펴지지 않음(不開)'은 인당이 좁다는 뜻일 수도, 늘 찌푸린 표정을 뜻할 수도 있어 형태가 확정되지 않는다. 하루살이 비유로 문헌은 이를 짧은 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂終日不開",
+     "observable_ko": "인당이 종일 펴지지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_gap:narrow"
+     ],
+     "reason": "좁은 인당인지 찌푸린 표정(움직임)인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-brow-002",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉長及寸者謂之壽毫，四十以上生者，得其壽考，必享遐齡之慶也。",
+   "translation": "눈썹(털)이 한 치에 이를 만큼 긴 것을 수호(壽毫, 장수 털)라 하니, 마흔 이후에 난 것은 장수를 얻어 반드시 먼 나이(遐齡)의 경사를 누린다.",
+   "commentary": "수호(壽毫)는 눈썹 가운데 유난히 길게 자란 털을 가리키는 관상 용어로, 눈썹 전체의 가로 길이(brow_length)와는 다른 대상이다. 나이 조건(마흔 이후)은 사진으로 판단할 수 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉長及寸",
+     "observable_ko": "눈썹 털이 한 치 길이로 자람",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "개별 눈썹 털의 길이로, 눈썹 가로 길이 라벨과 측정 대상이 다르다"
+    },
+    {
+     "region": "subject",
+     "evidence": "四十以上生者",
+     "observable_ko": "마흔 이후에 생김(나이 조건)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "나이·발생 시기는 사진 형태로 알 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-003",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "《十字高品》，天文大亨。",
+   "translation": "『십자(十字) 무늬는 높은 품계』이고, 하늘 천(天) 자 무늬는 크게 형통한다.",
+   "commentary": "부의 본문으로, 바로 뒤 주석이 이를 인당의 십자 무늬와 '天' 자 무늬로 풀이한다. 《》 표시는 전사본 그대로이다. 주름·무늬 모양은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "十字",
+     "observable_ko": "인당에 십자 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "天文",
+     "observable_ko": "인당에 天 자 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-004",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "兩眉間印堂上有紋如十字者。主有高位　。",
+   "translation": "두 눈썹 사이 인당 위에 십자 같은 무늬가 있는 자는 높은 지위가 있음을 주관한다.",
+   "commentary": "앞 구절 '십자고품(十字高品)'의 주석이다. 문헌은 인당의 십자 무늬를 높은 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂上有紋如十字",
+     "observable_ko": "인당에 십자 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-005",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "若紋理似「天」 字者。一生亨通。縱有災咎。自能消散。",
+   "translation": "만약 무늬결이 '천(天)' 자와 비슷한 자는 일생 형통하며, 비록 재앙과 허물이 있더라도 저절로 사라질 수 있다.",
+   "commentary": "앞 구절 '천문대형(天文大亨)'의 주석이다. 문헌은 天 자 무늬를 평생의 형통과 재앙 해소에 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "紋理似「天」 字",
+     "observable_ko": "인당 무늬가 天 자 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-006",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "作《坤》字者，祿二千石。",
+   "translation": "『곤(坤)』 자를 이루는 자는 녹봉이 이천 석이다.",
+   "commentary": "인당 무늬가 坤 자(또는 곤괘) 모양을 이루는 경우를 말한다. 이천 석은 고위 관리의 녹봉 등급을 가리키는 표현이다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "作《坤》字",
+     "observable_ko": "인당 무늬가 坤 자 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-007",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "成「土」字者，將百萬兵。",
+   "translation": "'토(土)' 자를 이루는 자는 백만 군사를 거느린다.",
+   "commentary": "인당 무늬가 土 자 모양인 경우로, 문헌은 이를 대군을 거느리는 장수의 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "成「土」字",
+     "observable_ko": "인당 무늬가 土 자 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-008",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "印堂有紋。作《坤》卦者。則祿享千石　。",
+   "translation": "인당에 무늬가 있어 『곤(坤)』 괘를 이루는 자는 녹으로 천 석을 누린다.",
+   "commentary": "앞 부 구절의 주석인데, 본문은 '이천 석(二千石)', 주석은 '천 석(千石)'으로 숫자가 다르게 전사되어 있다. 곤괘(☷)처럼 끊긴 가로 무늬로 읽을 수 있으나 무늬 모양은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂有紋。作《坤》卦",
+     "observable_ko": "인당 무늬가 곤괘 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-009",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "成「土」 字紋者。當帥兵百萬。",
+   "translation": "'토(土)' 자 무늬를 이룬 자는 마땅히 백만 군사를 통솔한다.",
+   "commentary": "앞 부 구절 '將百萬兵'의 주석이다. 문헌은 土 자 무늬를 대군 통솔과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "成「土」 字紋",
+     "observable_ko": "인당 무늬가 土 자 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-010",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "列土分茅，由玉田之高朗。",
+   "translation": "땅을 나누어 받고 띠풀을 나누는(列土分茅, 제후로 봉해짐) 것은 옥전(玉田)이 높고 밝은 데서 말미암는다.",
+   "commentary": "열토분모(列土分茅)는 제후로 봉해짐을 뜻하는 관용 표현이다. 주석은 옥전(玉田)을 인당의 '玉田' 자 모양 무늬로 풀이하나, '높고 밝음(高朗)'은 품평어여서 형태로 옮기기 어렵다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "玉田之高朗",
+     "observable_ko": "옥전(인당 무늬)이 높고 밝음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "玉田이 무늬인지 부위인지, 高朗이 높이인지 빛인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-011",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "紆朱曳紫，蓋水鳥之圓成。",
+   "translation": "붉은 인끈을 두르고 자줏빛을 끄는(紆朱曳紫, 고관의 복식) 것은 대개 물새(水鳥)가 둥글게 이루어진 데서이다.",
+   "commentary": "우주예자(紆朱曳紫)는 고관대작의 복색을 가리키는 관용 표현이다. 주석은 물새를 인당의 물새 모양 무늬로 풀이하며, 비유적 무늬라 형태 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "水鳥之圓成",
+     "observable_ko": "물새 모양 무늬가 둥글게 이루어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 모양 비유의 무늬로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-012",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "有列土分茅之貴者。謂印堂中有紋如「玉田」 之字。",
+   "translation": "열토분모의 귀함이 있는 자는 인당 가운데 '玉田'이라는 글자 같은 무늬가 있음을 이른다.",
+   "commentary": "앞 부 구절의 옥전(玉田)을 인당 무늬로 풀이한 주석이다. 문헌은 이를 봉작의 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂中有紋如「玉田」 之字",
+     "observable_ko": "인당에 玉田 자 모양 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인당의 주름·무늬 모양은 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-glabella-013",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "「紆朱曳紫之官。」 蓋印堂中紋如水鳥。",
+   "translation": "'우주예자(紆朱曳紫)의 관직'은 대개 인당 가운데 무늬가 물새 같은 것이다.",
+   "commentary": "앞 부 구절의 물새(水鳥)를 인당 무늬로 풀이한 주석이다. 물새 모양이라는 비유만 있어 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂中紋如水鳥",
+     "observable_ko": "인당 무늬가 물새 모양",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 모양 비유의 무늬로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-014",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "欲察神氣，先觀目睛。",
+   "translation": "신기(神氣)를 살피려면 먼저 눈동자(目睛)를 본다.",
+   "commentary": "눈을 논하는 단락의 첫 구절로, 신기(정신과 기운)를 눈으로 살핀다는 일반 원리이다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-015",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "賢良澄澈，豪俊精英。",
+   "translation": "어질고 선량한 이는 (눈이) 맑고 투명하며, 호걸·준재는 정기가 빼어나다(精英).",
+   "commentary": "눈의 맑음과 정기를 인품에 연결한 구절이다. 맑음·정기는 눈빛에 관한 표현이라 사진 형태로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "澄澈",
+     "observable_ko": "눈이 맑고 투명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "精英",
+     "observable_ko": "눈의 정기가 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-016",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "人之神在目，夜則神寤於心，晝則神遊於目。",
+   "translation": "사람의 신(神)은 눈에 있으니, 밤에는 신이 마음에서 깨어 있고(寤) 낮에는 신이 눈에서 노닌다.",
+   "commentary": "신(神)이 낮에는 눈에, 밤에는 마음에 머문다는 관상 이론이다. '寤(깨어 있음)'는 문맥상 '머묾·쉼'의 뜻일 수 있으나 글자 그대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-017",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "欲察神氣虛實，心術美惡，必當先視其目，故觀其外者，則知其內　。",
+   "translation": "신기의 허실과 심술(心術, 마음 씀)의 좋고 나쁨을 살피려면 반드시 먼저 그 눈을 보아야 하니, 그러므로 그 겉을 보는 자는 곧 그 속을 안다.",
+   "commentary": "눈으로 내면의 마음씨를 판단한다는 관상의 일반 원리를 적은 주석이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-018",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "賢良之士，眼神澄澈若水，豪俊英傑之流，神和惠而黑白分明。",
+   "translation": "어질고 선량한 선비는 눈의 신(眼神)이 물처럼 맑고 투명하며, 호걸·영걸의 무리는 신이 온화하고 은혜로우며 검은자와 흰자가 분명하다.",
+   "commentary": "앞 부 구절 '賢良澄澈，豪俊精英'의 주석이다. 맑음·온화함은 눈빛, 흑백 분명은 검은자·흰자의 대비에 관한 서술로 형태 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼神澄澈若水",
+     "observable_ko": "눈빛이 물처럼 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자가 분명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "흑백 대비·맑기는 색과 조명에 좌우되며 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-019",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "性端正者，平視無頗；",
+   "translation": "성품이 단정한 자는 평평하게 보아 치우침이 없고;",
+   "commentary": "시선의 방향(평시, 곁눈질 여부)을 성품과 연결한 구절이다. 시선은 움직임이라 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "平視無頗",
+     "observable_ko": "시선이 평평하고 치우치지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-020",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "情流蕩者，轉盼不寧。",
+   "translation": "정(情)이 흘러 방탕한 자는 눈을 굴려 돌아봄이 편안하지 않다.",
+   "commentary": "눈을 자주 굴리는 모습을 방탕한 정과 연결한 구절이다. 눈동자의 움직임은 정지 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "轉盼不寧",
+     "observable_ko": "눈을 자주 굴려 돌아봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-021",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「人秉性端正」 ，則平視不側　；",
+   "translation": "'사람이 타고난 성품이 단정하면' 평평하게 보아 곁눈질하지 않고;",
+   "commentary": "앞 부 구절 '性端正者，平視無頗'의 주석이다. 시선 방향은 움직임에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "平視不側",
+     "observable_ko": "곁눈질하지 않고 평평하게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-022",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "心情流蕩之徒，則目睛往來，轉盼不息。",
+   "translation": "마음과 정이 흘러 방탕한 무리는 눈동자가 오가며 눈을 굴려 돌아봄이 그치지 않는다.",
+   "commentary": "앞 부 구절 '情流蕩者，轉盼不寧'의 주석이다. 눈동자의 움직임은 사진 형태로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目睛往來，轉盼不息",
+     "observable_ko": "눈동자가 쉬지 않고 오감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-023",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "黃潤定至於黃髮，白乾終至於白丁。",
+   "translation": "(눈동자가) 누렇고 윤택하면 반드시 황발(黃髮, 노인의 누런 머리)에 이르고, 희고 마르면 끝내 백정(白丁, 벼슬 없는 평민)에 이른다.",
+   "commentary": "눈동자의 빛깔과 윤기를 수명·신분과 연결한 구절로, '黃'과 '白'을 황발·백정에 대응시킨 말놀이 구조이다. 빛깔·윤기는 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黃潤",
+     "observable_ko": "눈동자가 누렇고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "白乾",
+     "observable_ko": "눈이 희고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-024",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「瞳子黃潤」 ，可至於黃髮之壽　；",
+   "translation": "'눈동자(瞳子)가 누렇고 윤택하면' 황발의 수명에 이를 수 있고;",
+   "commentary": "앞 부 구절의 주석이다. 문헌은 눈동자의 누런 윤기를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "瞳子黃潤",
+     "observable_ko": "눈동자가 누렇고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-025",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "眼若白，乾而不秀，終作白衣之士。",
+   "translation": "눈이 만약 희고 말라 빼어나지 않으면 끝내 백의(白衣, 벼슬 없는 이)의 선비가 된다.",
+   "commentary": "앞 부 구절 '白乾終至於白丁'의 주석이다. 빛깔·윤기·빼어남은 형태 라벨이 아니다. 문헌은 이를 벼슬하지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼若白，乾而不秀",
+     "observable_ko": "눈이 희고 말라 빼어나지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-026",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《顧下》，言徐叔向知其必死；",
+   "translation": "『아래를 돌아보고(顧下)』 말이 느리니 숙향(叔向)이 그가 반드시 죽을 것을 알았고;",
+   "commentary": "시선을 아래로 두고 말이 느린 것을 보고 죽음을 예견했다는 고사를 끌어온 구절이다. 뒤 주석은 소공 11년 선자(單子)의 고사를 들지만 숙향의 이름은 주석에 나오지 않는다. 시선·말투는 사진 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "顧下",
+     "observable_ko": "시선을 아래로 둠",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "言徐",
+     "observable_ko": "말이 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말투·음성은 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-027",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "視端趨疾，魏主見乎得情。",
+   "translation": "시선이 곧고 종종걸음이 빠르니, 위(魏)의 군주에게서 (상대가) 실정을 알아챘음이 드러났다.",
+   "commentary": "뒤 주석의 지백(智伯)·치자(絺疵) 고사를 가리키는 구절로, '見乎得情'은 '실정을 간파당했음이 드러났다'로 읽었으나 끊어 읽기에 불확실성이 있다. 시선·걸음걸이는 움직임이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視端",
+     "observable_ko": "시선이 곧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "趨疾",
+     "observable_ko": "걸음이 빠름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "걸음걸이는 움직임이라 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-028",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "昭公十一年秋，單子會韓宣子于戚，視下言徐，視不登帶，言不過步，無守身之氣，死將至矣。此年冬而單子果卒　。",
+   "translation": "소공(昭公) 11년 가을, 선자(單子)가 척(戚)에서 한선자(韓宣子)를 만났는데, 시선이 아래로 향하고 말이 느리며, 시선이 허리띠 위로 오르지 않고 말이 한 걸음 밖에 들리지 않아, 몸을 지키는 기운이 없으니 죽음이 장차 이를 것이라 하였다. 이 해 겨울에 선자가 과연 죽었다.",
+   "commentary": "'顧下，言徐' 구절의 근거로 든 고사이며, 주석은 『좌전』 소공 11년 기사를 요약한 것으로 보이나 출전명은 원문에 적혀 있지 않다. 시선의 높이와 말투는 사진 형태가 아니다. 문헌은 이를 죽음의 예조로 서술했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視下",
+     "observable_ko": "시선이 아래로 향함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視不登帶",
+     "observable_ko": "시선이 허리띠 위로 오르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "言徐",
+     "observable_ko": "말이 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말투·음성은 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-029",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "智伯帥韓魏之兵而攻趙城，降。有曰：智伯之臣絺疵見桓子與康子俱無喜志而有憂色，絺疵謂智伯曰：「二子必反矣。」 智伯以告二子，二子曰：「此夫讒臣，使主疑懈于攻趙也。」 二子出，絺疵又曰：「主何以臣之言告二子？」 智伯曰：「子何以知之？」 絺疵對曰：「臣見二子，視臣端而趨疾，知臣得其情故也。」 ",
+   "translation": "지백(智伯)이 한(韓)·위(魏)의 군사를 거느리고 조(趙)의 성을 공격하니 (성이) 항복하려 했다. 이르기를, 지백의 신하 치자(絺疵)가 환자(桓子)와 강자(康子)가 모두 기쁜 뜻이 없고 근심하는 빛이 있음을 보고, 치자가 지백에게 말하기를 「두 사람은 반드시 배반할 것입니다」 하였다. 지백이 이를 두 사람에게 알리니, 두 사람이 말하기를 「이는 참소하는 신하로서, 주군으로 하여금 의심하여 조를 치는 데 게을러지게 하려는 것입니다」 하였다. 두 사람이 나가자 치자가 또 말하기를 「주군께서는 어찌 신의 말을 두 사람에게 알리셨습니까?」 하니, 지백이 「그대는 어찌 그것을 아는가?」 하였다. 치자가 대답하기를 「신이 두 사람을 보니, 신을 곧게 보고 종종걸음이 빨랐으니, 신이 그 실정을 알았음을 안 까닭입니다」 하였다.",
+   "commentary": "'視端趨疾' 구절의 근거 고사로, 한·위의 두 군주가 배반을 꾀하다 그 뜻을 간파당했음을 시선과 걸음으로 알아챘다는 이야기이다. '降' 앞뒤의 끊어 읽기는 전사본 그대로 두었고 출전은 원문에 적혀 있지 않다. 표정·기색·걸음은 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "無喜志而有憂色",
+     "observable_ko": "기쁜 기색이 없고 근심하는 빛이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視臣端而趨疾",
+     "observable_ko": "곧게 바라보고 걸음이 빠름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-030",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "神陷短壽，睛凸極刑。",
+   "translation": "신(神)이 꺼지면(陷) 수명이 짧고, 눈동자가 튀어나오면(睛凸) 극형을 받는다.",
+   "commentary": "주석에 따르면 '神陷'은 눈의 신이 꺼진 것으로 눈빛에 관한 서술이다. '睛凸'은 지침상 눈이 돌출된 형태(eye_depth:prominent)의 정확 대응 표현이다. 문헌은 이를 단명과 극형(사형)에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神陷",
+     "observable_ko": "눈의 신이 꺼짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛凸",
+     "observable_ko": "눈알이 앞으로 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-031",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "人之壽夭。皆在於神氣所主。若目神已陷。必當夭死。",
+   "translation": "사람의 장수와 요절은 모두 신기가 주관하는 바에 있다. 만약 눈의 신이 이미 꺼졌으면 반드시 요절한다.",
+   "commentary": "'神陷短壽'의 주석으로, 눈의 '신'은 눈빛·정기를 뜻하므로 형태로 관찰할 수 없다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目神已陷",
+     "observable_ko": "눈의 신이 이미 꺼짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-032",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "睛凸者。謂之「蜂目。」 其人必至極刑。",
+   "translation": "눈동자가 튀어나온 자를 '벌 눈(蜂目)'이라 하니, 그 사람은 반드시 극형에 이른다.",
+   "commentary": "'睛凸'을 벌 눈(蜂目)으로 풀이한 주석이다. 睛凸은 지침상 eye_depth:prominent의 정확 표현이며, 문헌은 이를 극형이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛凸",
+     "observable_ko": "눈알이 앞으로 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-033",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《斜盼者人遭其毒》，《癡視者自剋其形》。",
+   "translation": "『곁눈으로 흘겨보는 자는 사람들이 그 독을 만나고』, 『멍하게 보는 자는 스스로 그 몸을 해친다(剋)』.",
+   "commentary": "'人遭其毒'은 남이 그의 해독을 입는다고도, 주석처럼 본인이 독을 만난다고도 읽을 수 있다. 곁눈질과 멍한 시선은 움직임·눈빛에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "斜盼",
+     "observable_ko": "곁눈으로 흘겨봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "癡視",
+     "observable_ko": "멍하게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-034",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「斜盼之人」 ，謂眼神側視，必遭毒而身亡，或至兵死。",
+   "translation": "'곁눈으로 흘겨보는 사람'은 눈의 신이 옆으로 봄을 이르니, 반드시 독을 만나 몸이 죽거나 혹은 병기에 죽는 데 이른다.",
+   "commentary": "주석은 부 구절의 '遭其毒'을 본인이 해독을 입는 것으로 풀었다. 곁눈질은 시선의 움직임이다. 문헌은 이를 독살·병사(兵死)라는 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼神側視",
+     "observable_ko": "눈의 신이 옆으로 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-035",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "神癡不秀，轉盼無力者，雖面部青顯，自剋無祿也。",
+   "translation": "신이 멍하여 빼어나지 않고 눈을 굴림에 힘이 없는 자는, 비록 얼굴 부위가 푸르게 드러나더라도(青顯) 스스로를 해쳐 녹이 없다.",
+   "commentary": "'癡視者自剋其形'의 주석이다. '青顯'은 글자대로 '푸르게 드러남'으로 옮겼으나 문맥상 '맑게 드러남'의 뜻일 가능성이 있다(전사본 그대로 둠). 눈빛·움직임·빛깔은 모두 관찰 불가 조건이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神癡不秀",
+     "observable_ko": "눈의 신이 멍하고 빼어나지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "轉盼無力",
+     "observable_ko": "눈 굴림에 힘이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "面部青顯",
+     "observable_ko": "얼굴 부위가 푸르게 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-036",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《淫》眼神蕩，姦心內萌。",
+   "translation": "『음(淫)』한 눈은 신이 방탕하고, 간사한 마음이 안에서 싹튼다.",
+   "commentary": "음란한 눈과 간사한 마음을 눈빛의 방탕함과 연결한 구절이다. 신(神)의 흐트러짐은 형태가 아니다. 성적 행실·간사함에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼神蕩",
+     "observable_ko": "눈의 신이 방탕함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-037",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《淫亂》者，眼神流蕩而不收　。",
+   "translation": "『음란(淫亂)』한 자는 눈의 신이 흘러 방탕하여 거두어지지 않는다.",
+   "commentary": "앞 부 구절 '淫眼神蕩'의 주석이다. 눈빛의 흐트러짐은 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼神流蕩而不收",
+     "observable_ko": "눈의 신이 흘러 거두어지지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-038",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "狡佞姦罪之人。目神若塵垢之蒙深，不可以為交友。",
+   "translation": "교활하고 아첨하며 간사한 죄를 짓는 사람은 눈의 신이 먼지와 때가 깊이 덮인 것 같으니, 벗으로 사귈 수 없다.",
+   "commentary": "앞 부 구절 '姦心內萌'의 주석이다. 눈의 신이 흐린 것은 눈빛에 관한 서술로 관찰할 수 없다. 문헌은 이를 간사함과 범죄에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目神若塵垢之蒙深",
+     "observable_ko": "눈의 신이 먼지에 덮인 듯 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "criminality",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-039",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "睡眼神濁而如睡。驚眼神怯而如驚。",
+   "translation": "수안(睡眼, 조는 눈)은 신이 탁하여 조는 듯하고, 경안(驚眼, 놀란 눈)은 신이 겁먹어 놀란 듯하다.",
+   "commentary": "두 가지 눈의 유형을 정의한 구절로, 주장은 뒤 주석에 있다. 탁함·겁먹음은 눈빛·표정에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神濁而如睡",
+     "observable_ko": "신이 탁하여 조는 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "神怯而如驚",
+     "observable_ko": "신이 겁먹어 놀란 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-040",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "目神濁者，不清也。如睡者，謂神困濁無力，終當夭壽　。",
+   "translation": "눈의 신이 탁하다는 것은 맑지 않음이다. 조는 듯하다는 것은 신이 지치고 탁하여 힘이 없음을 이르니, 끝내 요절해야 한다(夭壽).",
+   "commentary": "수안(睡眼)의 주석이다. 눈빛의 맑기는 형태로 관찰할 수 없다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神困濁無力",
+     "observable_ko": "눈의 신이 지치고 탁함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-041",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「驚眼」 者，謂視物急而驚，其人當至暴死。",
+   "translation": "'놀란 눈(驚眼)'이란 사물을 봄이 급하여 놀라는 것을 이르니, 그 사람은 마땅히 횡사(暴死)에 이른다.",
+   "commentary": "경안(驚眼)의 주석이다. 보는 동작의 급함은 움직임이다. 문헌은 이를 갑작스러운 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視物急而驚",
+     "observable_ko": "사물을 급히 놀라듯 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-042",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「《病》眼神困而如病未愈」，「醉眼神昏而如醉不醒。」",
+   "translation": "'『병(病)』든 눈은 신이 지쳐 병이 아직 낫지 않은 듯하고', '취한 눈은 신이 어두워 취하여 깨지 않은 듯하다.'",
+   "commentary": "병안(病眼)·취안(醉眼)의 두 유형을 정의한 구절로, 주장은 뒤 주석에 있다. 신의 지침·어두움은 눈빛에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神困而如病未愈",
+     "observable_ko": "신이 지쳐 병든 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "神昏而如醉不醒",
+     "observable_ko": "신이 어두워 취한 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-043",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《病眼神困》，謂情倦，如久病未痊，其人終無遠壽。",
+   "translation": "『병든 눈의 신이 지침』은 정(情)이 권태로워 오래 앓아 낫지 않은 듯함을 이르니, 그 사람은 끝내 먼 수명이 없다.",
+   "commentary": "병안(病眼)의 주석이다. 눈빛의 피로함은 관찰할 수 없는 조건이다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "病眼神困",
+     "observable_ko": "눈의 신이 병든 듯 지침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-044",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "醉眼神昏者，神力倦怠，恆如帶酒，必至服毒而死。",
+   "translation": "취한 눈의 신이 어두운 자는 신의 힘이 권태롭고 늘 술기운을 띤 듯하니, 반드시 독을 먹고 죽는 데 이른다.",
+   "commentary": "취안(醉眼)의 주석이다. 눈빛의 흐림은 형태가 아니다. 문헌은 이를 독을 먹고 죽음이라는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "醉眼神昏",
+     "observable_ko": "눈의 신이 취한 듯 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-045",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《豁如》視而有威，名揚四海。",
+   "translation": "『활짝 트인 듯(豁如)』 보아 위엄이 있으면 이름이 사해에 떨친다.",
+   "commentary": "시선의 위엄을 명성과 연결한 구절이다. 위엄 있는 시선은 눈빛에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "《豁如》視而有威",
+     "observable_ko": "트인 시선에 위엄이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-046",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "逌然驚而不瞬，神耀三清。",
+   "translation": "유연(逌然)히 놀라도 눈을 깜박이지 않으면 신이 삼청(三清)에 빛난다.",
+   "commentary": "삼청(三清)은 도교의 세 하늘을 가리키는 말로, 범속을 벗어난 정신을 뜻하는 비유로 쓰였다. 놀라도 눈을 깜박이지 않음은 움직임에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "驚而不瞬",
+     "observable_ko": "놀라도 눈을 깜박이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈동자의 움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-047",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "神藏於豁視威嚴而有力，儼然人望而畏之，主聲名播揚於天下　。",
+   "translation": "신이 트인 시선(豁視)에 갈무리되어 위엄 있고 힘이 있어, 엄연하여 사람들이 바라보고 두려워하면, 명성이 천하에 퍼짐을 주관한다.",
+   "commentary": "'豁如視而有威'의 주석이다. 시선의 위엄은 눈빛에 관한 서술이다. 문헌은 이를 명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豁視威嚴而有力",
+     "observable_ko": "트인 시선이 위엄 있고 힘이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-048",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "人若偶遇不測之驚，眼神澄然不改，蓋不染塵俗之汙，出於造物之外，是謂「大賢之相。」 ",
+   "translation": "사람이 만약 우연히 헤아리지 못할 놀람을 만나도 눈의 신이 맑게 변하지 않으면, 대개 속세의 더러움에 물들지 않아 조화(造物)의 밖에서 나온 것이니, 이를 '대현(大賢)의 상'이라 한다.",
+   "commentary": "'驚而不瞬'의 주석이다. 놀람에 대한 눈빛의 반응은 관찰할 수 없는 조건이다. 문헌은 이를 큰 현인의 상으로 평가했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼神澄然不改",
+     "observable_ko": "놀라도 눈빛이 맑게 변하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-049",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《眥圓》者，其機深於城域，",
+   "translation": "『눈초리가 둥근(眥圓)』 자는 그 기틀(機, 속셈)이 성역(城域)보다 깊고,",
+   "commentary": "자(眥)는 본래 눈구석·눈초리를 가리키나 주석은 '눈'으로 풀었다. 눈초리의 둥긂인지 눈 전체의 둥긂인지 불명확해 정확 대응으로 보지 않았다. 문헌은 이를 헤아리기 어려운 속셈과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "《眥圓》",
+     "observable_ko": "눈초리(또는 눈)가 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "眥가 눈구석인지 눈 전체인지 불명확하며 지침의 정확 표현(目圓·眼圓)이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-050",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "堂露者，乃子是乎《螟蛉》。",
+   "translation": "(눈의) 당(堂)이 드러난 자는 곧 자식이 『명령(螟蛉, 양자)』이다.",
+   "commentary": "명령(螟蛉)은 나나니벌이 배추벌레 새끼를 길러 제 새끼로 삼는다는 고사에서 양자를 뜻한다. 주석은 '堂'을 안당(眼堂)으로 풀었으나 눈 주변 어느 부위인지 특정되지 않는다. 문헌은 이를 친자식 대신 양자를 기른다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "堂露",
+     "observable_ko": "안당(눈 주변 부위)이 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "under_eye:visible",
+      "eye_depth:prominent"
+     ],
+     "reason": "眼堂이 눈두덩인지 눈 아래인지, 露가 돌출인지 드러남인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-051",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "眥為眼。蓋圓成者，言行深奧，人莫用其探測，故可謂之樞機於城域　。",
+   "translation": "자(眥)는 눈이다. 대개 둥글게 이루어진 자는 말과 행동이 깊고 그윽하여 사람들이 그것을 헤아릴 수 없으니, 그러므로 성역의 추기(樞機)라 이를 수 있다.",
+   "commentary": "'眥圓'의 주석으로, 눈이 둥글게 이루어진 것을 깊은 언행과 연결했다. '圓成'은 둥근 모양뿐 아니라 '온전히 이루어짐'의 품평 뜻도 있어 정확 대응으로 보지 않았다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蓋圓成",
+     "observable_ko": "눈이 둥글게 이루어짐",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "圓成이 모양의 둥긂인지 온전함의 품평인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-052",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "眼堂破露，當養螟蛉之子。",
+   "translation": "눈의 당(眼堂)이 깨지고 드러나면 마땅히 명령의 아들(양자)을 기른다.",
+   "commentary": "'堂露者'의 주석이다. 안당(眼堂)이 어느 부위인지, 破露가 어떤 형태인지 특정되지 않는다. 문헌은 이를 양자를 기름, 곧 친자식이 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼堂破露",
+     "observable_ko": "안당이 깨지고 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "眼堂의 부위와 破露의 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-053",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "犬羊鵝鴨何足算，雞鼠猴蛇奚可憑。",
+   "translation": "개·양·거위·오리(의 눈)는 어찌 셈할 만하며, 닭·쥐·원숭이·뱀(의 눈)은 어찌 의지할 수 있으랴.",
+   "commentary": "여러 동물의 눈에 빗댄 유형을 낮게 평가한 구절이다. 동물 비유만 있어 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "犬羊鵝鴨",
+     "observable_ko": "개·양·거위·오리 같은 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "雞鼠猴蛇",
+     "observable_ko": "닭·쥐·원숭이·뱀 같은 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-054",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《犬眼荒淫，羊眼招禍》。",
+   "translation": "『개 눈은 지나치게 음란하고(荒淫), 양 눈은 화를 부른다』.",
+   "commentary": "앞 부 구절의 주석이다. 동물 비유만 있어 형태 기준이 없다. 문헌은 이를 음란과 재앙에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "犬眼",
+     "observable_ko": "개 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "羊眼",
+     "observable_ko": "양 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-055",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "鵝鴨之眼，不善終　人。",
+   "translation": "거위·오리의 눈은 제명에 죽지 못하는(不善終) 사람이다.",
+   "commentary": "거위·오리 눈에 대한 주석이다. 동물 비유만 있다. 문헌은 이를 좋지 못한 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鵝鴨之眼",
+     "observable_ko": "거위·오리 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-056",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "似雞鼠猴蛇之目，皆相之賤者。",
+   "translation": "닭·쥐·원숭이·뱀을 닮은 눈은 모두 상(相) 가운데 천한 것이다.",
+   "commentary": "닭·쥐·원숭이·뱀 눈에 대한 주석이다. 동물 비유만 있다. 문헌은 이를 천한 상으로 평가했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞鼠猴蛇之目",
+     "observable_ko": "닭·쥐·원숭이·뱀 같은 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-057",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "然而察形像應本形者為吉。",
+   "translation": "그러나 형상을 살펴 본래의 형(本形)에 응하는 것은 길하다.",
+   "commentary": "동물형 눈이라도 그 사람 본래의 형상(本形)과 맞으면 길하다는 단서 조항이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-058",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「《豕視心》圓而無定」，「《狼顧性》狠而難名。」",
+   "translation": "'『돼지처럼 보는 자(豕視)는 마음이』 둥글게 굴러 정함이 없고', '『이리처럼 돌아보는 자(狼顧)는 성품이』 사나워 이름하기 어렵다.'",
+   "commentary": "돼지의 시선과 이리의 돌아봄에 빗댄 구절이다. 豕視는 눈의 모양·눈빛 비유, 狼顧는 몸과 함께 돌아보는 동작이라 형태 라벨이 없다. 문헌은 이를 정함 없는 마음과 사나운 성품에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豕視",
+     "observable_ko": "돼지처럼 봄(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "狼顧",
+     "observable_ko": "이리처럼 돌아봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "돌아보는 동작은 움직임이라 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-059",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "豬眼朦朧，黑白不分。主心術不正，貪而多欲　。",
+   "translation": "돼지 눈은 흐릿하여 검은자와 흰자가 구분되지 않으니, 마음씀이 바르지 않고 탐욕스러워 욕심이 많음을 주관한다.",
+   "commentary": "'豕視'의 주석이다. 흐릿함과 흑백 불분명은 눈빛·색 대비에 관한 서술이다. 문헌은 이를 바르지 못한 마음과 탐욕에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豬眼朦朧，黑白不分",
+     "observable_ko": "눈이 흐릿하고 흑백이 구분되지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "흐릿함·흑백 대비는 색과 조명에 좌우되며 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-060",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「狼顧」 者，謂回顧與身皆轉。性狠常懷殺人害物之心，多為毒害之行。絕不可交往。",
+   "translation": "'이리처럼 돌아봄(狼顧)'이란 뒤를 돌아볼 때 몸이 함께 도는 것을 이른다. 성품이 사나워 늘 사람을 죽이고 사물을 해치는 마음을 품으며, 독하게 해치는 행동이 많다. 결코 사귀어서는 안 된다.",
+   "commentary": "'狼顧'의 주석으로, 돌아볼 때 몸 전체가 함께 도는 동작이다. 동작은 사진 형태로 관찰할 수 없다. 문헌은 이를 살해·해침이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "回顧與身皆轉",
+     "observable_ko": "돌아볼 때 몸이 함께 돎",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작은 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-061",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《後尾》有如刀裁，文斯博雅；",
+   "translation": "『뒤 꼬리(後尾, 눈꼬리)』가 칼로 자른 듯하면 글이 곧 넓고 우아하며;",
+   "commentary": "눈꼬리가 칼로 벤 듯 가지런하고 길게 뻗은 모양을 비유한 것으로 보이나 방향·길이가 특정되지 않는다. 문헌은 이를 문장의 박아(博雅)함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "《後尾》有如刀裁",
+     "observable_ko": "눈꼬리가 칼로 자른 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_size:large",
+      "eye_roundness:narrow"
+     ],
+     "reason": "칼 비유가 길이·가늘기·선명함 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-062",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「前眥似乎曲鉤」，智足經營。",
+   "translation": "'앞 눈구석(前眥)이 굽은 갈고리 같으면' 지혜가 경영하기에 족하다.",
+   "commentary": "전자(前眥)는 안쪽 눈구석을 가리킨다. 눈구석이 갈고리처럼 굽은 모양은 표준 라벨이 없다. 문헌은 이를 경영의 지혜와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "前眥似乎曲鉤",
+     "observable_ko": "안쪽 눈구석이 갈고리처럼 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "안쪽 눈구석 모양에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-063",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《目若刀裁》，文章自來　眼前；",
+   "translation": "『눈이 칼로 자른 듯하면』 문장이 저절로 눈앞에 오고;",
+   "commentary": "'後尾有如刀裁'의 주석이다. 칼 비유는 형태가 특정되지 않는다. 문헌은 이를 문장 재능과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "《目若刀裁》",
+     "observable_ko": "눈이 칼로 자른 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_size:large",
+      "eye_roundness:narrow"
+     ],
+     "reason": "칼 비유가 길이·가늘기·선명함 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-064",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "眥若曲鉤，必能良賈深藏，而能規運。",
+   "translation": "눈구석이 굽은 갈고리 같으면 반드시 훌륭한 장사꾼이 깊이 감추어 두듯 할 수 있고, 계획하여 운용할 수 있다.",
+   "commentary": "'前眥似乎曲鉤'의 주석이다. '良賈深藏'은 훌륭한 상인은 물건을 깊이 감춘다는 관용 표현이다. 눈구석 모양은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眥若曲鉤",
+     "observable_ko": "눈구석이 갈고리처럼 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈구석 모양에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-other-065",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "惟女賦質，與男異禎。",
+   "translation": "오직 여자가 타고난 바탕은 남자와 상서로움(禎)이 다르다.",
+   "commentary": "이하 여성의 눈을 따로 논하는 단락의 도입 구절이다. 형태 조건은 없고 대상 성별만 제시된다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "惟女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-other-066",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "男子以剛為貴，女子以柔為順。",
+   "translation": "남자는 굳셈을 귀하게 여기고, 여자는 부드러움을 순(順)함으로 삼는다.",
+   "commentary": "남녀의 관상 기준이 다르다는 일반 원리를 적은 주석이다. 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-other-067",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《圖南》曰：「陰反於陽夫必損，陽反於陰婦必亡。」 ",
+   "translation": "『도남(圖南)』에 이르기를 「음이 양으로 뒤집히면 남편이 반드시 손상되고, 양이 음으로 뒤집히면 부인이 반드시 죽는다」 하였다.",
+   "commentary": "도남(圖南)은 진단(陳摶)의 자로 알려져 있으나 원문은 이름만 적었다. 여성이 남성적(양) 상을 띠면 남편이 해를 입는다는 음양 논리로, 배우자 손상·사망에 관한 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "陰反於陽",
+     "observable_ko": "여성이 양(남성적) 상을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "음양의 성질 판단은 사진 형태 항목이 아니며 성별 추정을 전제한다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-068",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "和媚有常者貴重，圓凸不秀者輕賤。",
+   "translation": "온화하고 아리따움이 항상된 자는 귀하고 무거우며, 둥글고 튀어나와 빼어나지 않은 자는 가볍고 천하다.",
+   "commentary": "여성의 눈에 관한 구절이다. 온화함은 눈빛, '圓凸'은 눈이 둥글고 돌출된 모양으로 볼 수 있으나 '눈(目·眼)'이 명시되지 않아 정확 대응으로 보지 않았다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "和媚有常者貴重",
+     "observable_ko": "대상이 여성(앞 구절 '惟女賦質'의 문맥)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "和媚有常",
+     "observable_ko": "눈빛이 늘 온화하고 아리따움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "圓凸",
+     "observable_ko": "눈이 둥글고 튀어나옴",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_depth:prominent"
+     ],
+     "reason": "눈(目·眼)이 명시되지 않은 생략 표현으로 지침의 정확 표현이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "不秀",
+     "observable_ko": "빼어나지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "秀는 품평어로 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-069",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "男子之目，必要神旺。婦人之目，必要和惠。",
+   "translation": "남자의 눈은 반드시 신이 왕성해야 하고, 부인의 눈은 반드시 온화하고 은혜로워야 한다.",
+   "commentary": "남녀 눈의 기준을 대비한 주석이다. 신의 왕성함·온화함은 눈빛에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神旺",
+     "observable_ko": "눈의 신이 왕성함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "和惠",
+     "observable_ko": "눈빛이 온화함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-070",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "若「和惠有恆」 之婦，必當貴重　",
+   "translation": "만약 '온화하고 은혜로움이 항상된' 부인이라면 반드시 귀하고 무거워야 한다(必當貴重).",
+   "commentary": "'和媚有常者貴重'의 주석이다. 온화함은 눈빛에 관한 것이고 대상은 여성이다. 문헌은 이를 귀한 신분과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "之婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "和惠有恆",
+     "observable_ko": "눈빛이 늘 온화함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-071",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "婦人惟眼長為貴。",
+   "translation": "부인은 오직 눈이 긴 것을 귀하게 여긴다.",
+   "commentary": "'眼長'은 지침상 eye_size:large의 정확 표현이다. 다만 여성에게만 적용되는 서술이라 대상 성별 조건이 붙는다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-072",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "若圓小高凸，粗俗不秀者，主輕賤之婦。",
+   "translation": "만약 둥글고 작으며 높이 튀어나오고 거칠고 속되어 빼어나지 않은 자는 가볍고 천한 부인을 주관한다.",
+   "commentary": "'圓凸不秀者輕賤'의 주석이다. 圓·小·高凸은 눈의 둥긂·크기·돌출로 읽을 수 있으나 '눈'이 생략된 표현이라 근사로 두었다. 粗俗·不秀는 품평어이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "之婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "圓小高凸",
+     "observable_ko": "눈이 둥글고 작으며 튀어나옴",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_size:small",
+      "eye_depth:prominent"
+     ],
+     "reason": "눈(目·眼)이 명시되지 않은 생략 표현으로 지침의 정확 표현이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "粗俗不秀",
+     "observable_ko": "거칠고 속되어 빼어나지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-073",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《臉薄赤》而少節。睛瑩澈而多貞",
+   "translation": "『검(臉, 눈꺼풀)이 얇고 붉으면』 절개가 적고, 눈동자가 맑고 투명하면 정절이 많다.",
+   "commentary": "여성의 정절을 눈꺼풀과 눈빛으로 판단한 구절이다. 원문 끝에 구두점이 없는 것은 전사본 그대로이다. 눈꺼풀의 두께는 표준 라벨이 없고 붉은 빛·맑음은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "臉薄",
+     "observable_ko": "눈꺼풀이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꺼풀 두께에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "赤",
+     "observable_ko": "눈꺼풀이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛瑩澈",
+     "observable_ko": "눈동자가 맑고 투명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-074",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "臉者。為目蓋也。若目蓋薄而赤者。主有不廉之行。少有貞節之懿　。",
+   "translation": "검(臉)이란 눈의 덮개이다. 만약 눈덮개가 얇고 붉은 자는 청렴하지 못한 행실이 있음을 주관하며, 정절의 아름다움이 적다.",
+   "commentary": "'臉薄赤'의 주석으로, 臉을 눈꺼풀(目蓋)로 풀었다. 눈꺼풀 두께는 표준 라벨이 없고 붉은 빛은 색이다. 문헌은 이를 정절이 적음이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目蓋薄",
+     "observable_ko": "눈꺼풀이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꺼풀 두께에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "而赤",
+     "observable_ko": "눈꺼풀이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-075",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "睛光澄澈。湛然若水者。必有貞烈之性。",
+   "translation": "눈동자의 빛이 맑고 투명하여 물처럼 맑은 자는 반드시 곧고 매서운(貞烈) 성품이 있다.",
+   "commentary": "'睛瑩澈而多貞'의 주석이다. 눈빛의 맑음은 관찰할 수 없는 조건이다. 문헌은 이를 정절과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛光澄澈",
+     "observable_ko": "눈동자 빛이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-076",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "眼下氣青夫必死，尾後色白男必憎。",
+   "translation": "눈 아래 기색이 푸르면 남편이 반드시 죽고, 꼬리 뒤의 빛이 희면 남자가 반드시 미워한다.",
+   "commentary": "여성에 대한 기색(氣色) 판단 구절로, 푸른 기운·흰빛은 형태가 아니다. 주석은 '尾後'를 눈썹 꼬리 뒤로 풀었다. 문헌은 이를 남편의 죽음과 미움에 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下氣青",
+     "observable_ko": "눈 아래 기색이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "brow",
+     "evidence": "尾後色白",
+     "observable_ko": "꼬리 뒤 빛이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-077",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "婦女有青氣沖眼者，必喪其夫。",
+   "translation": "부녀에게 푸른 기운이 눈을 찌르는(沖) 자는 반드시 그 남편을 잃는다.",
+   "commentary": "'眼下氣青夫必死'의 주석이다. 기색은 사진 형태로 관찰할 수 없으며 대상은 여성이다. 문헌은 이를 남편을 잃음과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "青氣沖眼",
+     "observable_ko": "푸른 기운이 눈에 뻗침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-brow-078",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉尾後白色者，夫必憎嫌。",
+   "translation": "눈썹 꼬리 뒤가 흰빛인 자는 남편이 반드시 미워하고 싫어한다.",
+   "commentary": "'尾後色白男必憎'의 주석으로, 꼬리를 눈썹 꼬리로 풀었다. 빛깔은 형태가 아니다. 문헌은 이를 남편의 미움과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉尾後白色",
+     "observable_ko": "눈썹 꼬리 뒤가 흰빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-079",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "《三角多嗔》，為妨夫之霜刃；",
+   "translation": "『세모진 눈(三角)은 성냄이 많으니』 남편을 해치는(妨夫) 서릿발 칼날이 되고;",
+   "commentary": "삼각안(三角眼)은 눈 윤곽이 세모진 형태를 가리키는 관상 용어이나 표준 라벨이 없다. 문헌은 이를 성냄과 남편을 해침(妨夫)에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "삼각형 눈 윤곽에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-080",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「《四白帶殺》。作害子之青萍。」",
+   "translation": "'『사백(四白)은 살기를 띠어(帶殺)』 자식을 해치는 청평(青萍, 칼)이 된다.'",
+   "commentary": "사백(四白)은 검은자 사방으로 흰자가 드러나는 눈을 가리킨다. 지침상 四白은 sclera_show의 정확 표현이 아니다. 문헌은 이를 자식을 해침이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "四白은 위·아래 한쪽이 아닌 사방 노출이라 sclera_show의 한 클래스로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-081",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "婦人眼三角者，性狠而多怒，如殺夫之利刃　。",
+   "translation": "부인의 눈이 세모진 자는 성품이 사납고 성냄이 많으니, 남편을 죽이는 날카로운 칼날과 같다.",
+   "commentary": "'三角多嗔'의 주석이다. 대상은 여성이며 세모진 눈은 표준 라벨이 없다. 문헌은 이를 남편을 죽이는 칼에 비유했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼三角",
+     "observable_ko": "눈 윤곽이 세모짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "삼각형 눈 윤곽에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-eye-082",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "婦人眼露四白而神旺者，謂之「帶殺」 ，乃殺子之劍也。《青萍》，劍名。",
+   "translation": "부인의 눈이 사백(四白)을 드러내고 신이 왕성한 자를 '대살(帶殺)'이라 하니, 곧 자식을 죽이는 칼이다. 『청평(青萍)』은 칼 이름이다.",
+   "commentary": "'四白帶殺'의 주석이다. 대상은 여성이고 四白은 표준 클래스 하나로 정할 수 없으며 신의 왕성함은 눈빛이다. 문헌은 이를 자식을 죽임이라는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼露四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "四白은 사방 노출이라 sclera_show의 한 클래스로 정할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "神旺",
+     "observable_ko": "눈의 신이 왕성함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 신(神)·안광은 형태가 아니며 사진 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-083",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "惟耳者主聲音之聽聞，為心腎之司牧。",
+   "translation": "오직 귀는 소리를 듣는 것을 주관하며, 마음과 콩팥(心腎)을 맡아 다스리는 것(司牧)이 된다.",
+   "commentary": "귀를 논하는 단락의 도입으로, 귀를 심장·신장과 연결하는 관상 이론이다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-084",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "觀其形狀顏色，見乎休咎榮辱。",
+   "translation": "그 형상과 빛깔을 보면 길흉과 영욕이 드러난다.",
+   "commentary": "귀의 형상과 빛깔로 길흉을 본다는 일반 원리이다. 구체적 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-085",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "凡人所言善惡，皆從耳傳於心，故為心腎之司牧。",
+   "translation": "무릇 사람이 말하는 선악은 모두 귀로부터 마음에 전해지니, 그러므로 심신(心腎)의 사목이 된다.",
+   "commentary": "앞 부 구절의 주석으로 귀가 심신의 사목인 이유를 설명한다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-086",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳主心腎，又為祿星。觀其耳之形狀顏色，則人之休咎榮辱，皆可知也。",
+   "translation": "귀는 심장과 신장을 주관하고 또 녹성(祿星)이 된다. 그 귀의 형상과 빛깔을 보면 사람의 길흉과 영욕을 모두 알 수 있다.",
+   "commentary": "녹성(祿星)은 귀를 녹봉을 주관하는 별에 배당한 관상 용어이다. 일반 원리로서 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-087",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "垂珠朝海，必延算以餘財；",
+   "translation": "수주(垂珠, 귓불)가 바다(海, 입)를 향하면 반드시 수명을 늘이고 재물을 남기며;",
+   "commentary": "수주(垂珠)는 늘어진 귓불, 해(海)는 입을 가리키며 주석은 '耳垂朝口'로 풀었다. 귓불의 방향은 표준 라벨이 없다. 문헌은 이를 장수·재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "垂珠朝海",
+     "observable_ko": "귓불이 입 쪽을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-088",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "偃月貫輪，終朝王而執玉。",
+   "translation": "언월(偃月, 누운 초승달)이 윤곽(輪)을 꿰면 끝내 왕에게 조회하여 옥(홀)을 잡는다.",
+   "commentary": "귀 윤곽이 누운 초승달처럼 휘어 이어진 모양을 비유한 것으로 보이나 형태가 특정되지 않는다. 문헌은 이를 조정의 높은 신하가 됨과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "偃月貫輪",
+     "observable_ko": "귀 윤곽이 누운 초승달처럼 이어짐(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "초승달 비유가 귀의 어떤 치수를 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-089",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《耳垂朝口》耳尖貼腦垂肩，必取延年。算數，死之後必有餘財　。",
+   "translation": "『귓불이 입을 향하고』 귀 끝이 머리에 붙고 어깨까지 드리우면 반드시 수명을 늘린다. 산수(算數, 셈한 수)는, 죽은 뒤에 반드시 남은 재물이 있다.",
+   "commentary": "'垂珠朝海，必延算以餘財'의 주석이다. '算數，死之後'의 끊어 읽기는 전사본 그대로이며 '延算'의 算을 풀이한 것으로 보인다. 어깨까지 드리움은 귀 길이의 과장 표현이라 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "《耳垂朝口》",
+     "observable_ko": "귓불이 입 쪽을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳尖貼腦",
+     "observable_ko": "귀 끝이 머리에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀가 머리에 붙은 정도에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "垂肩",
+     "observable_ko": "귀가 어깨까지 드리움",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "과장된 비유적 길이로 '耳長'이라는 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-090",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳有城廓，如新月偃仰光瑩。朝接者，定朝拱天子而為執玉之臣。",
+   "translation": "귀에 성곽(城廓, 귀 윤곽)이 있어 초승달이 누워 우러른 듯 빛나고 맑으며, (서로) 향하여 이어지는 자는 반드시 천자에게 조회하여 옥을 잡는 신하가 된다.",
+   "commentary": "'偃月貫輪'의 주석이다. 성곽(城廓)은 귀의 바깥 윤곽(輪)과 안쪽 윤곽(廓)을 가리킨다. 윤곽 모양은 표준 라벨이 없고 빛남은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有城廓，如新月偃仰",
+     "observable_ko": "귀 윤곽이 초승달처럼 휨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "초승달 비유가 귀의 어떤 형태를 뜻하는지 불명확하다"
+    },
+    {
+     "region": "ear",
+     "evidence": "光瑩",
+     "observable_ko": "귀가 빛나고 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-091",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "圓而成者和惠，偏而缺者慘酷。",
+   "translation": "둥글고 이루어진 자는 온화하고 은혜로우며, 치우치고 이지러진 자는 참혹하다.",
+   "commentary": "귀의 둥글고 온전함과 치우치고 이지러짐을 성품에 연결한 구절이다. 귀의 둥긂·결손은 표준 라벨이 없다. 문헌은 후자를 참혹함이라는 낙인성 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "圓而成",
+     "observable_ko": "귀가 둥글고 온전함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "偏而缺",
+     "observable_ko": "귀가 치우치고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-092",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳。圓成者。主於情和而多惠。",
+   "translation": "귀가 둥글게 이루어진 자는 정이 온화하고 은혜가 많음을 주관한다.",
+   "commentary": "'圓而成者和惠'의 주석이다. 귀의 둥긂은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "圓成",
+     "observable_ko": "귀가 둥글게 이루어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-093",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "偏缺者。必為慘酷之徒。",
+   "translation": "치우치고 이지러진 자는 반드시 참혹한 무리가 된다.",
+   "commentary": "'偏而缺者慘酷'의 주석이다. 귀의 결손은 표준 라벨이 없다. 문헌은 이를 참혹한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "偏缺",
+     "observable_ko": "귀가 치우치고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-094",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "其薄如紙兮貧早死，其堅如石兮老不哭。",
+   "translation": "그 얇음이 종이 같으면 가난하고 일찍 죽으며, 그 단단함이 돌 같으면 늙도록 곡하지 않는다.",
+   "commentary": "귀의 두께와 단단함을 빈부·수명·평안과 연결한 구절이다. 귀 두께는 표준 라벨이 없고 단단함은 촉감이라 사진으로 알 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "其薄如紙",
+     "observable_ko": "귀가 종이처럼 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "其堅如石",
+     "observable_ko": "귀가 돌처럼 단단함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "단단함은 촉감으로 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-095",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳小薄如紙者，則貧寒而早亡　。",
+   "translation": "귀가 작고 종이처럼 얇은 자는 가난하고 추우며 일찍 죽는다.",
+   "commentary": "'其薄如紙兮貧早死'의 주석이다. 지침상 耳小는 ear_length:short의 근사 표현이고, 얇음은 표준 라벨이 없다. 문헌은 이를 가난과 요절에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "耳小는 지침상 근사 표현(길이인지 전체 크기인지 불명)이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "薄如紙",
+     "observable_ko": "귀가 종이처럼 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-096",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "古相云：「耳硬如木，至老不哭。」 謂多吉少凶也。",
+   "translation": "옛 상법(古相)에 이르기를 「귀가 나무처럼 단단하면 늙도록 곡하지 않는다」 하니, 길함이 많고 흉함이 적음을 이른다.",
+   "commentary": "'其堅如石兮老不哭'의 주석이다. 귀의 단단함은 촉감이라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳硬如木",
+     "observable_ko": "귀가 나무처럼 단단함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "단단함은 촉감으로 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-097",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "白或過面，主聲譽之飛騰，",
+   "translation": "(귀가) 희어 혹 얼굴보다 더하면 명성이 날아오름을 주관하고,",
+   "commentary": "귀가 얼굴보다 흰 것을 명성과 연결한 구절이다. 빛깔은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "白或過面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-098",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "瑩且如輪，主信行之敦篤。",
+   "translation": "맑게 빛나고 또 바퀴(輪) 같으면 신의와 행실이 도타움을 주관한다.",
+   "commentary": "귀의 광택과 바퀴 같은 윤곽을 신의와 연결한 구절이다. 광택은 관찰할 수 없고 바퀴 비유는 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "瑩",
+     "observable_ko": "귀가 맑게 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "如輪",
+     "observable_ko": "귀가 바퀴 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "바퀴 비유가 둥긂인지 윤곽의 뚜렷함인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-099",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《古相》云：「耳白過面，名揚四海　。",
+   "translation": "『고상(古相)』에 이르기를 「귀가 얼굴보다 희면 이름이 사해에 떨친다.",
+   "commentary": "'白或過面'의 주석으로 옛 상법을 인용했다. 빛깔은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白過面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-100",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳輪廓如玉之光瑩貫輪者，主忠信篤厚。」 ",
+   "translation": "귀의 윤곽(輪廓)이 옥처럼 빛나고 맑으며 윤(輪)을 꿰는 자는 충성과 신의가 도탑고 두터움을 주관한다」.",
+   "commentary": "'瑩且如輪'의 주석이다. 옥 같은 광택은 관찰할 수 없고, '貫輪'(윤곽이 이어짐)은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "如玉之光瑩",
+     "observable_ko": "귀 윤곽이 옥처럼 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "貫輪",
+     "observable_ko": "귀 윤곽이 끊김 없이 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-101",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《似豬》者不聰而貪婪，《如鼠》者好疑而積蓄。",
+   "translation": "『돼지 같은』 자는 총명하지 못하고 탐욕스러우며, 『쥐 같은』 자는 의심을 좋아하고 재물을 쌓는다.",
+   "commentary": "돼지 귀·쥐 귀의 동물 비유로, 구체적 형태는 주석에서 설명된다. 문헌은 돼지 귀를 총명하지 못함과 탐욕에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "《似豬》",
+     "observable_ko": "돼지 같은 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "《如鼠》",
+     "observable_ko": "쥐 같은 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-102",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "豬耳大，龍耳小，只要輪廓分明，大無輪廓，又無垂珠，謂之「豬耳」 ，則人多愚鈍，性多貪婪　。",
+   "translation": "돼지 귀는 크고 용 귀는 작으나, 다만 윤곽이 분명해야 하니, 크되 윤곽이 없고 또 수주(垂珠, 귓불)가 없으면 '돼지 귀'라 하며, 사람이 대개 어리석고 둔하며 성품이 대개 탐욕스럽다.",
+   "commentary": "'似豬'의 주석으로, 크기보다 윤곽의 분명함이 기준이라는 설명이다. 耳大는 지침상 근사 표현이고 윤곽·귓불 유무는 표준 라벨이 없다. 문헌은 이를 어리석음·탐욕에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "耳大는 지침상 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪廓",
+     "observable_ko": "귀 윤곽이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無垂珠",
+     "observable_ko": "귓불이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-103",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "鼠耳本小，有廓無輪，似鼠耳之人，作事多疑，而能積蓄。",
+   "translation": "쥐 귀는 본래 작고 곽(廓, 안쪽 윤곽)은 있으나 윤(輪, 바깥 윤곽)이 없으니, 쥐 귀를 닮은 사람은 일을 함에 의심이 많고 재물을 쌓을 수 있다.",
+   "commentary": "'如鼠'의 주석이다. 작음은 근사 표현이고 바깥 윤곽(輪)의 유무는 표준 라벨이 없다. 문헌은 이를 의심 많음과 축재에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "鼠耳本小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "耳小는 지침상 근사 표현이다"
+    },
+    {
+     "region": "ear",
+     "evidence": "有廓無輪",
+     "observable_ko": "안쪽 윤곽은 있고 바깥 윤곽이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-104",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "輪靨雖明，假學則貴。",
+   "translation": "윤(輪)의 보조개(靨)가 비록 밝더라도 학문을 빌리면 귀해진다.",
+   "commentary": "윤염(輪靨)은 귀 윤곽에 오목하게 팬 곳을 가리키는 것으로 보이나 정확한 뜻은 불확실하다. 표준 라벨이 없고 '밝음'은 빛깔이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "輪靨",
+     "observable_ko": "귀 윤곽에 오목한 곳이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "明",
+     "observable_ko": "밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-105",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "孔毛能長，善持不覆。",
+   "translation": "구멍의 털이 길게 자랄 수 있으면 잘 지켜 엎어지지 않는다.",
+   "commentary": "귓구멍의 털(耳毫)을 안정과 연결한 구절이다. 귀 털은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "孔毛能長",
+     "observable_ko": "귓구멍 털이 길게 자람",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 털에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-106",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《耳輪有靨》而明。當假學而後顯貴　耳。",
+   "translation": "『귀 윤곽에 보조개가 있고』 밝으면 마땅히 학문을 빌린 뒤에 현달하고 귀해질 뿐이다(耳).",
+   "commentary": "'輪靨雖明，假學則貴'의 주석으로, 끝의 '耳'는 '~일 뿐'의 어조사로 읽었다. 윤곽의 오목함은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "《耳輪有靨》",
+     "observable_ko": "귀 윤곽에 오목한 곳이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "而明",
+     "observable_ko": "밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-107",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《生毫》者。乃壽考之相。善持守而不致顛危。",
+   "translation": "『털이 나는(生毫)』 자는 곧 장수하는 상이니, 잘 지키고 보존하여 넘어지는 위태로움에 이르지 않는다.",
+   "commentary": "'孔毛能長'의 주석이다. 귀 털은 표준 라벨이 없다. 문헌은 이를 장수와 안정에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "《生毫》",
+     "observable_ko": "귀에 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 털에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-108",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《性譎詐》而難測，蓋為如猴；",
+   "translation": "『성품이 속이고 간사하여』 헤아리기 어려운 것은 대개 (귀가) 원숭이 같기 때문이고;",
+   "commentary": "원숭이 귀의 비유로, 구체적 형태는 주석에서 설명된다. 문헌은 이를 속임과 간사함이라는 낙인성 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "如猴",
+     "observable_ko": "원숭이 같은 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-109",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《糧匱乏》而靡充，率由似鹿。",
+   "translation": "『양식이 모자라』 채워지지 않는 것은 대체로 (귀가) 사슴 같음에서 말미암는다.",
+   "commentary": "사슴 귀의 비유이다. 동물 비유만 있다. 문헌은 이를 양식의 궁핍과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "似鹿",
+     "observable_ko": "사슴 같은 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-110",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "猴：耳尖而向前，耳門窄下，故人莫能測其心也。",
+   "translation": "원숭이 (귀)는 귀 끝이 뾰족하고 앞을 향하며 귀문(耳門, 귓구멍 앞)이 좁고 낮으니, 그러므로 사람들이 그 마음을 헤아릴 수 없다.",
+   "commentary": "'如猴'의 주석이다. 귀 끝의 뾰족함·앞을 향함·귀문의 좁음은 표준 라벨이 없다(귀문은 귀 전체 너비가 아님). 문헌은 이를 헤아릴 수 없는 마음과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳尖而向前",
+     "observable_ko": "귀 끝이 뾰족하고 앞을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳門窄下",
+     "observable_ko": "귀문이 좁고 낮음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀문(귓구멍 앞) 부위에 대한 표준 라벨이 없으며 귀 전체 너비와 다르다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-111",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "糧餉匱乏，尚能與朋友同用而無憾者，蓋以耳之似鹿，由鹿有「呼群」 之義故也。",
+   "translation": "양식과 녹봉이 모자라도 오히려 벗과 함께 쓰고 유감이 없는 자는, 대개 귀가 사슴을 닮았기 때문이니, 사슴에게 '무리를 부르는(呼群)' 뜻이 있는 까닭이다.",
+   "commentary": "'似鹿'의 주석으로, 사슴이 먹이를 찾으면 무리를 부른다는 관념에 기댄 해석이다. 사슴 귀의 구체적 형태는 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳之似鹿",
+     "observable_ko": "귀가 사슴을 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-112",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "薄而向前，賣盡田園。",
+   "translation": "(귀가) 얇고 앞을 향하면 논밭과 동산을 다 팔아버린다.",
+   "commentary": "귀의 두께와 방향을 재산 탕진과 연결한 구절이다. 귀 두께·방향은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "薄而向前",
+     "observable_ko": "귀가 얇고 앞을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-113",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "反而倒後，居無室屋。",
+   "translation": "(귀가) 뒤집혀 뒤로 넘어가면 거처할 집이 없다.",
+   "commentary": "귀 윤곽이 뒤집히고 뒤로 젖혀진 모양을 가난과 연결한 구절이다. 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "反而倒後",
+     "observable_ko": "귀가 뒤집혀 뒤로 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-114",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《鬼眼》云：「耳薄向前，破盡田園　。",
+   "translation": "『귀안(鬼眼)』에 이르기를 「귀가 얇고 앞을 향하면 논밭과 동산을 다 깨뜨린다.",
+   "commentary": "'薄而向前'의 주석으로 『귀안』을 인용했다. 귀 두께·방향은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳薄向前",
+     "observable_ko": "귀가 얇고 앞을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-115",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳若反輪而後倒耳珠又不朝海者，則貧無居室。」 ",
+   "translation": "귀가 만약 윤(輪)이 뒤집혀 뒤로 넘어가고 귓불(耳珠)이 또 바다(입)를 향하지 않는 자는 가난하여 거처할 집이 없다」.",
+   "commentary": "'反而倒後'의 주석이다. 윤곽의 뒤집힘과 귓불 방향은 표준 라벨이 없다. 문헌은 이를 가난과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "反輪而後倒",
+     "observable_ko": "귀 윤곽이 뒤집혀 뒤로 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳珠又不朝海",
+     "observable_ko": "귓불이 입 쪽을 향하지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 형태(윤곽·귓불·두께·방향)에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-116",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "昏暗難議乎登第，焦枯屢歎其空軸。",
+   "translation": "(귀가) 어둡고 침침하면 과거 급제(登第)를 논하기 어렵고, 타고 마르면 그 빈 두루마리(空軸)를 거듭 탄식한다.",
+   "commentary": "귀의 빛깔을 과거 급제와 학식에 연결한 구절이다. 어둡고 마른 빛은 형태가 아니다. '空軸'은 주석이 배 속이 비었음(학식 없음)으로 풀었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "昏暗",
+     "observable_ko": "귀 빛이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "焦枯",
+     "observable_ko": "귀 빛이 타고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-117",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳為祿星。其耳昏暗者，為祿星不明，則當為寒士，終無祿位　。",
+   "translation": "귀는 녹성(祿星)이다. 그 귀가 어둡고 침침한 자는 녹성이 밝지 않음이 되니, 마땅히 가난한 선비가 되어 끝내 녹봉과 지위가 없다.",
+   "commentary": "'昏暗難議乎登第'의 주석이다. 귀의 어두운 빛은 관찰할 수 없는 조건이다. 문헌은 이를 벼슬하지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "其耳昏暗",
+     "observable_ko": "귀 빛이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-118",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳主其腎，若耳色焦枯者，為腎氣不足，主家首貧窮　。",
+   "translation": "귀는 그 신장을 주관하니, 만약 귀 빛이 타고 마른 자는 신기(腎氣)가 부족함이 되어 집안의 가장(家首)이 가난하고 궁함을 주관한다.",
+   "commentary": "'焦枯'의 주석이다. 귀 빛깔은 형태가 아니다. 문헌은 이를 신기 부족이라는 건강 서술과 가난에 연결했다. '家首'는 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳色焦枯",
+     "observable_ko": "귀 빛이 타고 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-119",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "軸，卷軸也。《空軸》，言腹中空洞無物。",
+   "translation": "축(軸)은 두루마리이다. 『공축(空軸)』은 배 속이 텅 비어 아무것도 없음을 말한다.",
+   "commentary": "'空軸'의 낱말 풀이로, 배 속에 든 것(학식)이 없음을 뜻한다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-120",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "壽越眉兮貴噀血，聰重明兮富貼肉。",
+   "translation": "장수는 (귀가) 눈썹을 넘음이요 귀함은 (빛이) 피를 뿜은 듯함이며, 총명하고 신중함은 밝음이요 부유함은 살에 붙음이다.",
+   "commentary": "주석에 따르면 귀가 눈썹보다 높이 솟음, 피처럼 선명한 빛, 밝은 빛, 머리에 붙은 귀를 각각 장수·귀함·총명·부유와 연결했다. 귀 높이는 길이의 근사, 빛깔은 관찰 불가, 붙음은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "越眉",
+     "observable_ko": "귀 윗부분이 눈썹보다 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "귀의 위치·높이에 관한 서술로 '耳長'이라는 정확 표현이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "噀血",
+     "observable_ko": "귀 빛이 피를 뿜은 듯 선명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "明",
+     "observable_ko": "귀 빛이 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "貼肉",
+     "observable_ko": "귀가 머리 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀가 머리에 붙은 정도에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office",
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-121",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "壽長者，耳過於眉，位高者色鮮噀血　。",
+   "translation": "수명이 긴 자는 귀가 눈썹보다 넘어서고, 지위가 높은 자는 빛이 선명하여 피를 뿜은 듯하다.",
+   "commentary": "'壽越眉兮貴噀血'의 주석이다. 귀가 눈썹보다 높음은 귀 길이의 근사 표현이고, 빛깔은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳過於眉",
+     "observable_ko": "귀 윗부분이 눈썹보다 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "귀의 위치·높이에 관한 서술로 '耳長'이라는 정확 표현이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "色鮮噀血",
+     "observable_ko": "귀 빛이 피처럼 선명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-122",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "聰重之人，耳色明潤，殷富之人，耳必貼肉。",
+   "translation": "총명하고 신중한 사람은 귀 빛이 밝고 윤택하며, 넉넉하고 부유한 사람은 귀가 반드시 살에 붙어 있다.",
+   "commentary": "'聰重明兮富貼肉'의 주석이다. 귀 빛깔은 관찰할 수 없고, 귀가 머리에 붙음은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳色明潤",
+     "observable_ko": "귀 빛이 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·기색은 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳必貼肉",
+     "observable_ko": "귀가 머리 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀가 머리에 붙은 정도에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-123",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "輪靨生乎黑子，智足《經邦》；",
+   "translation": "윤(輪)의 보조개에 검은 점(黑子)이 나면 지혜가 『나라를 경영함(經邦)』에 족하고;",
+   "commentary": "귀 윤곽의 오목한 곳에 난 검은 점을 지략과 연결한 구절이다. 특정 위치의 점은 지침상 pigmented_marks의 근사 표현이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "輪靨生乎黑子",
+     "observable_ko": "귀 윤곽 오목한 곳에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점으로 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-124",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "《門戶》起乎匿犀，功當《剖竹》。",
+   "translation": "『문호(門戶)』에 닉서(匿犀)가 일어나면 공이 『부죽(剖竹, 대쪽을 갈라 봉작을 받음)』에 해당한다.",
+   "commentary": "문호(門戶)는 주석에 따르면 귀문(耳門) 부위이고, 닉서(匿犀)는 그곳 뼈가 감추어져 풍만한 것이다. 부죽(剖竹)은 부절을 갈라 관작에 봉함을 뜻한다. 해당 형태는 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "《門戶》起乎匿犀",
+     "observable_ko": "귀문 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀문 부위 뼈에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-125",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "其耳前輪靨生黑子者，可為興邦智略之臣。",
+   "translation": "그 귀 앞 윤(輪)의 보조개에 검은 점이 난 자는 나라를 일으킬 지략의 신하가 될 수 있다.",
+   "commentary": "'輪靨生乎黑子'의 주석이다. 특정 위치의 점은 pigmented_marks의 근사 표현이다. 문헌은 이를 지략 있는 신하와 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳前輪靨生黑子",
+     "observable_ko": "귀 앞 윤곽 오목한 곳에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점으로 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RB-ear-126",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "ear",
+   "original_text": "耳門骨藏豐滿者，謂之「匿犀」 ，當為封爵之臣。。",
+   "translation": "귀문(耳門)의 뼈가 감추어져 풍만한 자를 '닉서(匿犀)'라 하니, 마땅히 작위에 봉해지는 신하가 된다.",
+   "commentary": "'門戶起乎匿犀'의 주석이다. 끝의 이중 마침표는 전사본 그대로이다. 귀문 부위의 풍만함은 표준 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門骨藏豐滿",
+     "observable_ko": "귀문 부위가 풍만함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀문 부위 뼈·살집에 대한 표준 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  }
+ ]
+}

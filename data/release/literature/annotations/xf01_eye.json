@@ -1,0 +1,453 @@
+{
+ "page_id": "xf01",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相目篇第一"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF01-eye-001",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目秀而長，必近君王。",
+   "translation": "눈이 빼어나고 길면 반드시 군왕을 가까이한다.",
+   "commentary": "『허부상법』 상목편의 첫 구절이다. '길다(長)'는 눈의 가로 길이로 볼 수 있으나 '빼어나다(秀)'는 미적 평가어라 사진 형태 항목으로 옮길 수 없다. 문헌은 이 눈을 높은 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "而長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "目秀",
+     "observable_ko": "눈이 빼어남(미적 평가)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "秀는 형태 수치가 아닌 품평어로, 대응하는 관찰 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-002",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "龍睛鳳目，必食重祿。",
+   "translation": "용의 눈동자에 봉황의 눈이면 반드시 많은 녹봉을 먹는다.",
+   "commentary": "용·봉황에 빗댄 비유 표현으로, 구체적인 형태 조건이 원문에 적혀 있지 않다. 문헌은 이를 높은 녹봉과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "龍睛鳳目",
+     "observable_ko": "용의 눈동자·봉황의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-003",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目如臥弓，必是奸雄。",
+   "translation": "눈이 누운 활과 같으면 반드시 간웅이다.",
+   "commentary": "'누운 활(臥弓)'은 눈 윤곽이 활처럼 휜 모양을 비유한 것으로 보이나, 휘는 방향과 정도가 특정되지 않는다. 간웅(奸雄)은 권모에 능한 인물을 가리키는 낙인성 평가어다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目如臥弓",
+     "observable_ko": "눈 윤곽이 누운 활처럼 휨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "활 비유가 눈꺼풀 곡선·눈꼬리 기울기 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-004",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "鬥雞蜂目，惡死孤獨。",
+   "translation": "싸움닭의 눈과 벌의 눈이면 험하게 죽고 외롭다.",
+   "commentary": "싸움닭·벌에 빗댄 비유로 형태 조건이 특정되지 않는다. 문헌의 주장은 죽음과 고독에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鬥雞蜂目",
+     "observable_ko": "싸움닭·벌의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-005",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目光如電，貴不可言。",
+   "translation": "눈빛이 번개 같으면 귀함을 말로 다할 수 없다.",
+   "commentary": "눈빛(目光)은 시선의 기운에 관한 표현으로 사진 형태 항목이 아니다. 문헌은 이를 큰 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目光如電",
+     "observable_ko": "눈빛이 번개 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·안광은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-006",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目尾朝天，福祿綿綿。",
+   "translation": "눈꼬리가 하늘을 향하면 복과 녹이 끊임없이 이어진다.",
+   "commentary": "눈꼬리(目尾)가 위로 향한다는 형태 서술이 원문에 직접 적혀 있어, 바깥 눈꼬리가 안쪽 눈구석보다 올라간 형태로 옮길 수 있다. 문헌은 이를 복록이 이어진다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目尾朝天",
+     "observable_ko": "바깥 눈꼬리가 위로 올라감",
+     "status": "exact",
+     "label": "eye_tilt:up"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-007",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "女目四白，外夫入宅。",
+   "translation": "여자의 눈이 사백(四白)이면 바깥 남자가 집에 들어온다.",
+   "commentary": "사백(四白)은 검은자 위아래와 좌우로 흰자가 드러나는 눈을 가리키는 관상 용어로 해석된다. 여성에게만 적용되는 조건이고 성적 행실에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "sclera_show는 위 또는 아래 한쪽만 구분하며 사방 노출 클래스가 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-008",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目色通黃，慈憫忠良。",
+   "translation": "눈빛깔이 온통 누르면 자애롭고 충성스럽고 어질다.",
+   "commentary": "눈의 색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 성품 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目色通黃",
+     "observable_ko": "눈 색이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-009",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "黑白分明，必主朝京。若是女子，的主廉貞。",
+   "translation": "검은자와 흰자가 분명하면 반드시 조정(서울)에 나아감을 주관한다. 만약 여자라면 분명히 청렴하고 곧음을 주관한다.",
+   "commentary": "검은자와 흰자의 경계가 뚜렷함은 색·대비에 관한 서술이라 형태 항목으로 옮기지 않았다. 뒷구절은 여성에게만 붙는 별도 평가다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-010",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目白長細，貧寒無計。",
+   "translation": "눈이 희고 길고 가늘면 가난하고 궁하여 방도가 없다.",
+   "commentary": "'길고 가늘다(長細)'는 눈의 가로 길이와 세로 개방 정도로 옮길 수 있으나, '희다(白)'가 흰자가 많이 보임인지 색인지 불분명하다. 문헌은 이를 빈궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "細",
+     "observable_ko": "눈의 세로 개방이 좁아 가늚",
+     "status": "exact",
+     "label": "eye_roundness:narrow"
+    },
+    {
+     "region": "eye",
+     "evidence": "目白",
+     "observable_ko": "눈이 흼",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "흰자 노출인지 색인지 원문만으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-011",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目中赤砂起，法死須妨已。",
+   "translation": "눈 속에 붉은 모래 같은 것이 일어나면 형법으로 죽으니 모름지기 자신을 해친다.",
+   "commentary": "눈 속의 붉은 점(赤砂)은 색·충혈에 관한 서술로 형태가 아니다. 형벌에 의한 죽음이라는 낙인성 주장이며, '妨已'의 정확한 뜻은 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目中赤砂起",
+     "observable_ko": "눈 속에 붉은 점이 생김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·충혈은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-012",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "女人目下赤色，必憂產厄。",
+   "translation": "여인의 눈 아래가 붉은빛이면 반드시 출산의 액을 근심한다.",
+   "commentary": "여성에게만 적용되며 눈 아래의 색에 관한 서술이다. 출산과 관련된 건강 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "目下赤色",
+     "observable_ko": "눈 아래가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-013",
+   "section": "相目篇第一",
+   "region": "under_eye",
+   "original_text": "目下一字平，所作皆分明。",
+   "translation": "눈 아래가 한 일(一) 자처럼 평평하면 하는 일이 모두 분명하다.",
+   "commentary": "눈 아래 부위가 일자로 평평하다는 서술이다. 와잠이 없는 평평한 눈 아래(under_eye:flat)와 비슷하지만 같은 뜻인지 확정할 수 없어 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下一字平",
+     "observable_ko": "눈 아래가 일자로 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:flat"
+     ],
+     "reason": "'一字平'이 와잠 없음(flat)인지 눈 아래 선의 모양인지 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-014",
+   "section": "相目篇第一",
+   "region": "under_eye",
+   "original_text": "目下亂理紋，室家多子孫。",
+   "translation": "눈 아래에 어지러운 결과 주름이 있으면 집안에 자손이 많다.",
+   "commentary": "눈 아래의 잔주름에 관한 서술로, 주름은 레이블 체계에 없다. 문헌은 이를 자손이 많음과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下亂理紋",
+     "observable_ko": "눈 아래 잔주름이 어지러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "XF01-eye-015",
+   "section": "相目篇第一",
+   "region": "under_eye",
+   "original_text": "目下有臥蠶，足女還少男。",
+   "translation": "눈 아래에 와잠(臥蠶)이 있으면 딸은 넉넉하나 도리어 아들은 적다.",
+   "commentary": "와잠(臥蠶)은 눈 바로 아래 누에처럼 도톰한 부분을 가리키는 관상 용어다. 'under_eye:visible'로 정확히 옮길 수 있으나 이 레이블은 정의가 확정된 정식 항목이며, 서비스 표시는 해당 특징 모델의 런타임 검증 여부에 따른다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下有臥蠶",
+     "observable_ko": "눈 아래 도톰한 와잠이 있음",
+     "status": "exact",
+     "label": "under_eye:visible"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "XF01-eye-016",
+   "section": "相目篇第一",
+   "region": "under_eye",
+   "original_text": "目下光漫亂，奸淫須少喚。",
+   "translation": "눈 아래의 빛이 흐트러져 어지러우면 간사하고 음란하니 모름지기 적게 불러야 한다.",
+   "commentary": "눈 아래의 광택에 관한 서술로 형태가 아니다. 간사함·음란함이라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下光漫亂",
+     "observable_ko": "눈 아래 광택이 흐트러짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-017",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "右目小，女畏夫。左目小，男畏婦。隨其男女，小心不虛。",
+   "translation": "오른눈이 작으면 여자는 남편을 두려워한다. 왼눈이 작으면 남자는 아내를 두려워한다. 그 남녀에 따라 조심함이 헛되지 않다.",
+   "commentary": "좌우 눈 크기 차이를 다루지만 어느 쪽이 작은지와 성별에 따라 주장이 갈린다. eye_asymmetry는 좌우 방향을 구분하지 않으므로 정확한 대응이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "右目小",
+     "observable_ko": "한쪽(좌 또는 우) 눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우 방향과 크기(개방이 아닌 크기) 구분이 레이블과 일치하지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "隨其男女",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "XF01-eye-018",
+   "section": "相目篇第一",
+   "region": "eye",
+   "original_text": "目長一寸，五分刀筆，五分凌雲。",
+   "translation": "눈 길이가 한 치이면, 다섯 푼은 도필(刀筆)이요 다섯 푼은 능운(凌雲)이다.",
+   "commentary": "도필(刀筆)은 문서를 다루는 관리의 일, 능운(凌雲)은 높이 오름을 뜻하는 말로 쓰인다. 절대 길이(한 치)로 서술되어 있어 얼굴 폭 대비 상대값인 eye_size와 정확히 대응하지 않으며, 문장 전체의 뜻도 해석 여지가 크다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目長一寸",
+     "observable_ko": "눈 길이가 한 치",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "절대 길이 기준이라 코호트 상대 분위 레이블과 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  }
+ ]
+}

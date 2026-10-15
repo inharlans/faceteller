@@ -1,0 +1,2253 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《額部相》",
+  "《額紋部相》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642F-forehead-001",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "分一面之貴賤，辨三輔之榮辱，莫不定乎額也。故天庭、天中、司空俱列乎額，是能攝諸部位，係人之貴賤也。",
+   "translation": "한 얼굴의 귀천을 나누고 삼보(三輔)의 영욕을 가리는 것이 이마에서 정해지지 않음이 없다. 그러므로 천정(天庭)·천중(天中)·사공(司空)이 모두 이마에 늘어서 있으니, 이는 여러 부위를 거느릴 수 있어 사람의 귀천에 매여 있다.",
+   "commentary": "「액부상(額部相)」의 총론이다. 천중·천정·사공은 이마 중앙선을 위에서 아래로 나눈 관상 부위 이름이며, 삼보(三輔)가 가리키는 범위는 원문에 밝혀져 있지 않다. 형태 조건이 없는 원론이다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-002",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "「其骨欲隆然而起，聳然而闊，玉柱入頂，貴為天子。",
+   "translation": "그 뼈는 불룩하게 일어나고 우뚝 솟아 넓어야 하니, 옥주(玉柱)가 정수리로 들어가면 귀하여 천자가 된다.",
+   "commentary": "'그 뼈(其骨)'는 이마뼈를 가리킨다. 옥주(玉柱)는 이마 중앙에서 정수리로 이어지는 뼈 융기를 부르는 말로 보이나 원문에 정의는 없다. 뼈의 융기와 넓이에 관한 서술이어서 보이는 이마의 높이·너비 레이블과 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "其骨欲隆然而起",
+     "observable_ko": "이마뼈가 불룩하게 솟음",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·돌출에 관한 서술로, 보이는 이마(피부~머리털 경계)의 높이·너비와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "聳然而闊",
+     "observable_ko": "이마뼈가 솟고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "뼈가 솟아 넓다는 서술로 직접 표현(額闊·額廣)이 아니며 보이는 이마 너비와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "玉柱入頂",
+     "observable_ko": "이마 중앙 뼈가 정수리까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 중앙 뼈 융기선에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-003",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "其峻如立壁，其廣如覆肝。明而澤，方而長者，貴壽之兆也。",
+   "translation": "그 가파름은 세워 놓은 벽과 같고 그 넓음은 엎어 놓은 간(肝)과 같다. 밝고 윤택하며 모나고 긴 것은 귀하고 장수할 조짐이다.",
+   "commentary": "이마가 벽처럼 곧추서고 엎은 간처럼 넓다는 비유다. '모나고 길다(方而長)'는 이마 모양으로 읽히지만 지침의 직접 표현(額長)이 아니어서 근사로 두었다. 문헌은 이를 귀함과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "其峻如立壁",
+     "observable_ko": "이마가 벽처럼 가파르게 섬(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유로, 경사·돌출·높이 중 무엇을 뜻하는지 특정되지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "其廣如覆肝",
+     "observable_ko": "이마가 엎은 간처럼 넓음(비유)",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "비유적 넓이 서술로 직접 표현(額廣·額闊)이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "明而澤",
+     "observable_ko": "이마가 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "밝기·윤택함은 색·광택으로 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方而長",
+     "observable_ko": "이마 윤곽이 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 모남에 대한 레이블이 없다(face_shape는 얼굴 전체)"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方而長",
+     "observable_ko": "이마가 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "주어 없이 '方而長'으로 서술되어 직접 표현 額長이 아니며 세로 길이임이 명시되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-004",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "左偏者損父；右偏者損母。",
+   "translation": "왼쪽으로 치우친 자는 아버지를 해치고, 오른쪽으로 치우친 자는 어머니를 해친다.",
+   "commentary": "이마가 좌우 한쪽으로 치우친 모양을 말하며, 바로 뒤 구절은 왼쪽을 해(日), 오른쪽을 달(月)로 배당한다. 이마 좌우 비대칭에 해당하는 레이블이 없다. 문헌은 이를 부모를 해치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "左偏者",
+     "observable_ko": "이마가 왼쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 비대칭 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "右偏者",
+     "observable_ko": "이마가 오른쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-005",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "小而狹者貧夭，",
+   "translation": "작고 좁은 자는 가난하고 일찍 죽는다.",
+   "commentary": "주어 '이마'가 생략된 서술이다. 좁음(狹)은 이마 너비와 관련되지만 직접 표현 額狹·額窄이 아니고 '작다(小)'와 묶여 있어 근사로 두었다. 문헌은 이를 가난과 요절에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "小而狹",
+     "observable_ko": "이마가 작고 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "주어가 생략된 '小而狹'으로 직접 표현(額狹·額窄)이 아니며, 額小는 지침상 근사다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-006",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "缺而陷者妨害，",
+   "translation": "이지러지고 꺼진 자는 방해(妨害)한다.",
+   "commentary": "방(妨)은 관상서에서 가족·배우자에게 해가 미친다는 뜻으로 쓰이며, 여기서는 해를 입는 대상이 명시되지 않았다. 이마의 결손·함몰에 대응하는 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "缺而陷",
+     "observable_ko": "이마가 이지러지고 움푹 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 결손·함몰에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-007",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "痕瘠者迍蹇。",
+   "translation": "흉터가 있고 메마른 자는 일이 막히고 고달프다.",
+   "commentary": "흔(痕)은 흉터, 척(瘠)은 살이 메마름을 뜻하며, 둔건(迍蹇)은 처지가 막혀 곤궁함을 이르는 말이다. 둘 다 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "痕",
+     "observable_ko": "이마에 흉터가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "瘠",
+     "observable_ko": "이마 살이 메마름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 살집에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-008",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "左為日，右為月，日月之角，百」骨稜稜而起者，二千石",
+   "translation": "왼쪽은 해(日)가 되고 오른쪽은 달(月)이 되니, 일월의 뿔(日月之角)에 '百' 뼈가 모나게 솟은 자는 이천석(二千石)이다.",
+   "commentary": "일각·월각(日月角)은 이마 위쪽 좌우 부위의 이름이며 이천석은 고위 지방관의 녹봉 등급을 가리킨다. '百」骨'의 '百'은 문맥상 어색하여 전사 오류일 수 있으나 원문대로 옮겼고, 원문의 '二千石印。堂上'은 '印堂'이 갈린 것으로 보아 '印'을 다음 구절에 붙였다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨稜稜而起",
+     "observable_ko": "일각·월각 부위의 뼈가 모나게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-009",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "印。堂上至天庭，有骨隱然而見者，必達而榮。",
+   "translation": "인당(印堂, 두 눈썹 사이)에서 위로 천정(天庭)에 이르기까지 뼈가 은은히 드러나는 자는 반드시 통달하고 영화롭다.",
+   "commentary": "원문 구두점은 '印。堂'으로 끊겨 있으나 '印堂'으로 읽었다. 인당에서 천정까지 이마 중앙선을 따라 뼈가 은근히 드러나는 모양으로, 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "有骨隱然而見",
+     "observable_ko": "인당~천정 사이 이마 중앙에 뼈가 은근히 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-010",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "邊地山林，皆欲豐廣，坑陷貧賤。",
+   "translation": "변지(邊地)와 산림(山林)은 모두 풍만하고 넓어야 하니, 구덩이처럼 꺼지면 가난하고 천하다.",
+   "commentary": "변지·산림은 이마 가장자리 쪽 부위의 이름으로 쓰인다. 국소 부위의 풍만함·넓이는 보이는 이마 전체 너비와 같은 측정이 아니어서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "皆欲豐廣",
+     "observable_ko": "이마 가장자리 부위가 풍만하고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "가장자리 국소 부위의 풍만함·넓이로, 보이는 이마 전체 너비와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "坑陷",
+     "observable_ko": "이마 가장자리 부위가 움푹 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 함몰에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-011",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "額兩邊輔角骨起者，三品之貴。",
+   "translation": "이마 양쪽 가의 보각(輔角) 뼈가 솟은 자는 삼품의 귀함이 있다.",
+   "commentary": "보각(輔角)은 이마 양옆 위쪽 부위의 이름이다. 국소 뼈 융기에 대응하는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額兩邊輔角骨起",
+     "observable_ko": "이마 양옆 보각 부위의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-012",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "天中、天庭、司空、中正、印堂五位，須得端正明淨，則聰明顯達也。",
+   "translation": "천중·천정·사공·중정(中正)·인당 다섯 자리는 반드시 반듯하고 밝고 깨끗해야 하니, 그러면 총명하고 현달한다.",
+   "commentary": "이마 중앙선의 다섯 부위를 열거했다. 반듯함(端正)은 품평어이고 밝고 깨끗함(明淨)은 색·광택에 속해 형태 레이블로 옮길 수 없다. 문헌은 이를 총명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "端正",
+     "observable_ko": "다섯 부위가 반듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "반듯함은 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "明淨",
+     "observable_ko": "다섯 부위가 밝고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "밝기·깨끗함은 색·광택으로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-013",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "若狹小而亂髮低覆者，愚而貧賤也。",
+   "translation": "만약 좁고 작으면서 어지러운 머리털이 낮게 덮은 자는 어리석고 가난하고 천하다.",
+   "commentary": "이마가 좁고 작으며 흐트러진 머리털이 이마를 낮게 덮은 모습이다. 머리털에 가려 보이는 이마가 줄어드는 것은 머리 모양에 좌우되므로 이마 높이와 같다고 보지 않았다. 문헌은 이를 어리석음·빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "狹小",
+     "observable_ko": "이마가 좁고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "주어가 생략된 '狹小'로 직접 표현(額狹·額窄)이 아니며, 額小는 지침상 근사다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "亂髮低覆",
+     "observable_ko": "흐트러진 머리털이 이마를 낮게 덮음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·헤어라인 레이블이 없고, 가려진 이마를 이마 높이와 동일시할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-014",
+   "section": "《額部相》",
+   "region": "other",
+   "original_text": "頭小而窄，至老孤厄。",
+   "translation": "머리가 작고 좁으면 늙도록 외롭고 곤액을 겪는다.",
+   "commentary": "이마 대목 앞에 놓인 머리(頭) 전체에 관한 구절이다. 머리 크기에 대응하는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小而窄",
+     "observable_ko": "머리가 작고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기·너비 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-015",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "額大面方，至老吉昌。",
+   "translation": "이마가 크고 얼굴이 모나면 늙도록 길하고 번창한다.",
+   "commentary": "'얼굴이 모나다(面方)'는 지침의 직접 표현이지만, '이마가 크다(額大)'는 너비·높이 가운데 무엇인지 특정되지 않아 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額大",
+     "observable_ko": "이마가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide",
+      "forehead_height:high"
+     ],
+     "reason": "크기(大)만 말해 너비·높이 중 무엇인지 특정되지 않는다(額小가 근사로 규정된 것과 같은 경우)"
+    },
+    {
+     "region": "face",
+     "evidence": "面方",
+     "observable_ko": "얼굴 윤곽이 모남",
+     "status": "exact",
+     "label": "face_shape:angular"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-016",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "額角高聳，職位崇重。",
+   "translation": "이마 모서리(額角)가 높이 솟으면 직위가 높고 무겁다.",
+   "commentary": "액각(額角)은 이마 위쪽 좌우 모서리 부위다. 국소 융기에 대응하는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額角高聳",
+     "observable_ko": "이마 위 좌우 모서리가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-017",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "天中豐隆，仕宦有功。",
+   "translation": "천중(天中)이 풍만하고 불룩하면 벼슬살이에 공이 있다.",
+   "commentary": "천중은 이마 맨 위 중앙 부위다. 풍만하고 불룩함(豐隆)은 돌출에 관한 서술이라 보이는 이마 높이와 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中豐隆",
+     "observable_ko": "이마 맨 위 중앙이 풍만하고 불룩함",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마의 돌출(불룩함)은 보이는 이마의 높이·너비와 다른 측정이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-018",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "額闊面廣，貴居人上。",
+   "translation": "이마가 넓고 얼굴이 넓으면 귀하여 남의 위에 있다.",
+   "commentary": "'이마가 넓다(額闊)'는 지침의 직접 표현으로 이마 너비 넓음에 해당한다. '얼굴이 넓다(面廣)'는 얼굴 너비 자체의 레이블이 없어 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額闊",
+     "observable_ko": "이마가 가로로 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "face",
+     "evidence": "面廣",
+     "observable_ko": "얼굴이 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_length:short",
+      "jaw_width:wide"
+     ],
+     "reason": "얼굴 너비 자체의 레이블이 없고, 길이 대비 비율이나 턱 너비와는 다른 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-019",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "《額方》峻起，吉無不利。",
+   "translation": "이마가 모나고 가파르게 솟으면 길하여 이롭지 않음이 없다.",
+   "commentary": "'《額方》'의 겹낫표는 전사본의 표기이며 본문의 일부로 읽었다. 이마 윤곽의 모남과 돌출 모두 보이는 이마의 높이·너비 레이블과 다른 서술이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額方",
+     "observable_ko": "이마 윤곽이 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다(face_shape는 얼굴 전체)"
+    },
+    {
+     "region": "forehead",
+     "evidence": "峻起",
+     "observable_ko": "이마가 가파르게 솟음",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마의 돌출(불룩함)은 보이는 이마의 높이·너비와 다른 측정이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-020",
+   "section": "《額部相》",
+   "region": "forehead",
+   "original_text": "額瑩無瑕，一世榮華。",
+   "translation": "이마가 옥처럼 맑고 티가 없으면 일생 영화롭다.",
+   "commentary": "영(瑩)은 옥처럼 맑게 빛남, 하(瑕)는 옥의 티를 뜻한다. 티가 점·흉터·잡티 중 무엇인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額瑩",
+     "observable_ko": "이마가 옥처럼 맑게 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "無瑕",
+     "observable_ko": "이마에 티가 없음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:absent"
+     ],
+     "reason": "瑕(옥의 티)가 점·흉터·잡티 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-021",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額之有紋，貴賤可斷。",
+   "translation": "이마에 주름(紋)이 있으면 귀천을 판단할 수 있다.",
+   "commentary": "「액문부상(額紋部相)」의 총론으로 이마 주름으로 귀천을 가린다는 원칙이다. 특정 형태 조건은 없으며 주름에는 대응 레이블이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-022",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "若額方廣豐隆，而有好紋者，則爵祿崇高也。",
+   "translation": "만약 이마가 모나고 넓고 풍만하고 불룩하면서 좋은 주름이 있는 자는 작록(爵祿)이 높다.",
+   "commentary": "'額方廣豐隆'은 여러 형태어를 겹친 표현이라 '넓다(廣)'도 직접 표현 額廣과 같다고 보지 않고 근사로 두었다. '좋은 주름'은 품평어이며 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額方",
+     "observable_ko": "이마 윤곽이 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方廣",
+     "observable_ko": "이마가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "'額方廣豐隆'으로 여러 수식이 겹쳐 직접 표현 額廣과 같은 서술이라 보기 어렵다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "豐隆",
+     "observable_ko": "이마가 풍만하고 불룩함",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마의 돌출(불룩함)은 보이는 이마의 높이·너비와 다른 측정이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "有好紋",
+     "observable_ko": "이마에 좋은 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-023",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "如額尖狹缺陷，更有惡紋者，則貧賤無疑矣。",
+   "translation": "만약 이마가 뾰족하고 좁으며 이지러지고 꺼졌는데 더욱이 나쁜 주름이 있는 자는 가난하고 천함이 의심할 바 없다.",
+   "commentary": "'額尖狹'은 뾰족함과 좁음을 겹친 표현이라 직접 표현 額狹과 같다고 보지 않고 근사로 두었다. 결손·함몰과 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額尖",
+     "observable_ko": "이마가 위로 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "尖狹",
+     "observable_ko": "이마가 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "'額尖狹'으로 뾰족함과 겹쳐 서술되어 직접 표현 額狹과 같은 서술이라 보기 어렵다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "이마가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 결손·함몰 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "有惡紋",
+     "observable_ko": "이마에 나쁜 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-024",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。三紋偃上者，名曰「偃月紋」，主朝郎。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 세 줄 주름이 위로 젖혀진 것을 '언월문(偃月紋)'이라 하며 조랑(朝郎)을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 언월문은 위로 휜 세 줄 이마 주름이며 조랑은 조정의 낭관을 뜻한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三紋偃上",
+     "observable_ko": "이마에 위로 휜 세 줄 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-025",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。《三紋》偃上一紋直者，名曰「懸犀紋。」主節察武臣紋。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 세 줄 주름이 위로 젖혀지고 한 줄 주름이 곧은 것을 '현서문(懸犀紋)'이라 하며, 절찰(節察)·무신(武臣)을 주관하는 주름이다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 절찰은 절도·관찰 계열의 지방 장관을 가리키는 말로 보인다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "偃上一紋直",
+     "observable_ko": "위로 휜 세 줄 주름과 곧은 한 줄 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-026",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。「王」字紋者，主封侯。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '王' 자 모양 주름은 제후에 봉해짐을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 이마 주름이 '王' 자 모양을 이룬 것을 말한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「王」字紋",
+     "observable_ko": "이마에 '王' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-027",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。天中一紋，下至印堂，名曰「天柱紋」，主卿監。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 천중(天中)의 한 줄 주름이 아래로 인당(印堂)에 이르는 것을 '천주문(天柱紋)'이라 하며 경감(卿監)을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 이마 맨 위 중앙에서 두 눈썹 사이까지 내려오는 세로 주름을 말한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中一紋，下至印堂",
+     "observable_ko": "이마 위 중앙에서 인당까지 내려오는 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-028",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。印堂上二脈直上三寸者。名曰「鶴足紋」，主刺史(03)。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 인당 위로 두 줄기(脈)가 곧게 세 치 올라간 것을 '학족문(鶴足紋)'이라 하며 자사(刺史)를 주관한다(03).",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. '(03)'은 전사본의 주석 번호로 보인다. 맥(脈)이 주름인지 핏줄인지 원문에 밝혀져 있지 않고 '세 치'는 절대 길이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "印堂上二脈直上三寸",
+     "observable_ko": "인당 위로 곧게 올라가는 두 줄기",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "세로 주름(또는 핏줄) 레이블이 없고 '세 치'는 절대 길이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-029",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。三、「橫紋繞」者主早喪父。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 셋, '가로 주름이 두른(橫紋繞)' 자는 일찍 아버지를 여읨을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. '三、'은 번호 또는 주름 수 표기로 보이나 뜻이 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "橫紋繞",
+     "observable_ko": "이마를 두르는 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-030",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。一、紋橫而曲者，名曰《蛇行紋》，主客道路死。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 하나, 주름이 가로로 놓이고 굽은 것을 '사행문(蛇行紋)'이라 하며, 객지의 길 위에서 죽음을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. '一、'은 번호 또는 주름 수 표기로 보이나 뜻이 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "紋橫而曲",
+     "observable_ko": "가로로 굽은 이마 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-031",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。「井」字紋者，主員外郎。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '井' 자 모양 주름은 원외랑(員外郎)을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 원외랑은 관직 이름이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「井」字紋",
+     "observable_ko": "이마에 '井' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-032",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。《巛》字紋者，主憂慮刑厄。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '巛' 자 모양 주름은 근심과 형벌의 액을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 문헌은 이 주름을 형벌의 액과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《巛》字紋",
+     "observable_ko": "이마에 '巛' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-033",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。十字紋者，主富而吉昌。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '十' 자 주름은 부유하고 길하며 번창함을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "十字紋",
+     "observable_ko": "이마에 '十' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-034",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。「田」字紋者，主富貴。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '田' 자 모양 주름은 부귀를 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「田」字紋",
+     "observable_ko": "이마에 '田' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-035",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。「山」字紋者，主侍從之榮。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '山' 자 모양 주름은 시종(侍從)의 영예를 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 시종은 임금을 곁에서 모시는 관직을 말한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「山」字紋",
+     "observable_ko": "이마에 '山' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-036",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。「乙」字紋者，主京朝之職。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '乙' 자 모양 주름은 서울 조정의 관직을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「乙」字紋",
+     "observable_ko": "이마에 '乙' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-037",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "請幫助識別此字。《女》字紋者，主榮貴顯達。",
+   "translation": "〔이 글자의 식별을 도와 달라.〕 '女' 자 모양 주름은 영화롭고 귀하며 현달함을 주관한다.",
+   "commentary": "'請幫助識別此字'(이 글자의 식별을 도와 달라)는 원본의 판독되지 않은 글자(주름 도형으로 보임) 자리에 전사자가 남긴 표시로, 원문대로 두고 직역했다. 여기서 '女'는 주름 모양을 가리키는 글자이며 대상의 성별이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《女》字紋",
+     "observable_ko": "이마에 '女' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-038",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額上亂紋交差者，則貧苦多災。",
+   "translation": "이마 위에 어지러운 주름이 엇갈린 자는 가난하고 고생하며 재앙이 많다.",
+   "commentary": "이마 잔주름이 어지럽게 교차하는 모양이다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上亂紋交差",
+     "observable_ko": "이마에 어지러운 주름이 엇갈림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-039",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "女人額上有三紋橫者，妨夫害子。",
+   "translation": "여자의 이마 위에 세 줄 가로 주름이 있는 자는 남편을 해치고 자식을 해친다.",
+   "commentary": "여성에게만 적용되는 조건이다. 문헌은 이마의 세 줄 가로 주름을 남편과 자식에게 해가 미치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額上有三紋橫",
+     "observable_ko": "이마에 가로 주름 세 줄",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-040",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "詩曰：「火星宮分闊方平，潤澤無紋氣色清。犀骨三條川字相，少年及第作公卿。",
+   "translation": "시에 이르기를: 화성궁(火星宮)의 구역이 넓고 모나고 평평하며, 윤택하고 주름이 없고 기색이 맑으며, 무소뿔 뼈(犀骨) 세 가닥이 '川' 자 모양이면 젊어서 과거에 급제하여 공경(公卿)이 된다.",
+   "commentary": "화성(火星)은 오성(五星) 배당에서 이마를 가리키는 이름이다. 넓음(闊)은 이마 너비와 관련되나 '火星宮分闊'은 직접 표현 額闊이 아니어서 근사로 두었고, 윤택함·기색은 관찰 불가, 무소뿔 뼈는 이마 뼈 융기선으로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "宮分闊",
+     "observable_ko": "이마 구역이 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "'火星宮分闊'은 직접 표현(額闊·額廣)이 아닌 부위명 서술이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方平",
+     "observable_ko": "이마가 모나고 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽·평탄도 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "潤澤",
+     "observable_ko": "이마가 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "無紋",
+     "observable_ko": "이마에 주름이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "氣色清",
+     "observable_ko": "기색이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색은 색·기에 속한다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "犀骨三條川字相",
+     "observable_ko": "이마에 세 줄 뼈 융기가 '川' 자처럼 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 뼈 융기선 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-041",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "火星尖狹是庸流，紋亂凹兜主配囚。",
+   "translation": "화성(이마)이 뾰족하고 좁으면 용렬한 무리이고, 주름이 어지럽고 오목하게 패면(凹兜) 유배되고 갇힘을 주관한다.",
+   "commentary": "'凹兜'는 이마가 투구 안쪽처럼 오목한 모양을 말하는 것으로 보이나 확실하지 않다. '火星尖狹'은 직접 표현 額狹이 아니어서 근사로 두었다. 문헌은 이를 유배·수감과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "火星尖",
+     "observable_ko": "이마가 위로 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "尖狹",
+     "observable_ko": "이마가 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "'火星尖狹'은 직접 표현(額狹·額窄)이 아닌 부위명 서술이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "紋亂",
+     "observable_ko": "이마 주름이 어지러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "凹兜",
+     "observable_ko": "이마가 오목하게 패임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 함몰 레이블이 없고 '凹兜'의 뜻이 확실하지 않다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-042",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "赤脈兩條侵日月，刀兵刑法死他州。",
+   "translation": "붉은 핏줄 두 가닥이 일월(日月, 이마 위 좌우의 일각·월각)을 침범하면 칼과 병란, 형법으로 타향에서 죽는다.",
+   "commentary": "붉은 핏줄(赤脈)은 색에 관한 서술로 형태 레이블로 옮길 수 없다. 문헌은 이를 형벌과 객사로 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "赤脈兩條侵日月",
+     "observable_ko": "붉은 핏줄 두 가닥이 일각·월각에 뻗음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "핏줄의 붉은 색은 색 서술로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-043",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額高光澤貴而榮，橫貫三紋道術通。女定妨夫多不利，",
+   "translation": "이마가 높고 광택이 나면 귀하고 영화로우며, 가로로 꿰뚫는 세 줄 주름이 있으면 도술(道術)에 통한다. 여자는 반드시 남편을 해쳐 이롭지 못함이 많다.",
+   "commentary": "지침상 額高는 높이와 돌출 중 무엇인지 모호해 근사다. 마지막 구는 같은 조건이 여성에게 나타날 때의 주장으로 읽었다. 문헌은 이를 귀함·도술, 여성의 경우 남편을 해침과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額高",
+     "observable_ko": "이마가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "지침상 額高는 높이와 돌출 중 무엇인지 모호한 근사 표현이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤",
+     "observable_ko": "이마에 광택이 남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "橫貫三紋",
+     "observable_ko": "이마를 가로지르는 세 줄 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女定妨夫",
+     "observable_ko": "대상이 여성(마지막 구)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other",
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-044",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額欹偏小早歸冥。",
+   "translation": "이마가 기울고 치우치며 작으면 일찍 저승으로 돌아간다.",
+   "commentary": "이마가 기울어 한쪽으로 치우친 모양에는 대응 레이블이 없고, 작음(小)은 지침상 근사다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額欹偏",
+     "observable_ko": "이마가 기울고 한쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 비대칭 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "偏小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "크기(小)만 말해 너비·높이 중 무엇인지 특정되지 않으며, 지침상 額小는 근사로 규정된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-045",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額上微成小理紋，生來高貴異時人。男居職位為僚佐，女嫁賢才作縣君。",
+   "translation": "이마 위에 작은 결 무늬(小理紋)가 희미하게 이루어지면 나면서부터 고귀하여 당대 사람과 다르다. 남자는 직위에 있어 막료(僚佐)가 되고, 여자는 어진 인재에게 시집가 현군(縣君)이 된다.",
+   "commentary": "이마의 가는 결 주름을 말한다. 현군(縣君)은 관원의 아내에게 주던 봉호로 쓰인 말이다. 주름 레이블이 없고 남녀에 따라 주장이 갈린다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "微成小理紋",
+     "observable_ko": "이마에 가는 결 주름이 희미하게 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男居職位為僚佐，女嫁",
+     "observable_ko": "대상의 성별(남/여 구분 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-046",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "三畫儀。衣食平平終日有，只緣形相損妻兒。",
+   "translation": "세 획(三畫) …… 의(儀). 입고 먹는 것은 평범하게 늘 있으나, 다만 생김새 때문에 아내와 자식을 해친다.",
+   "commentary": "'三畫'과 '儀' 사이에 원문이 빠진 것으로 보여(전사본에서 줄이 갈림) 어떤 형태 조건인지 확인할 수 없다. 문헌은 이 상을 처자를 해치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三畫",
+     "observable_ko": "세 획(줄)의 무늬(원문 탈락)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "원문 탈락으로 부위와 형태를 확정할 수 없으며, 주름이라면 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "kinship_harm",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-047",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "眉上亂紋應惡相，奈緣頻愛放妻兒。平生衣食雖然有，只是無端少見知。",
+   "translation": "눈썹 위의 어지러운 주름은 응당 나쁜 상이니, 어찌하여 자주 아내와 자식을 내치기를 좋아하는가. 평생 입고 먹을 것은 비록 있으나, 다만 까닭 없이 알아주는 이가 적다.",
+   "commentary": "눈썹 위 이마 아랫부분의 어지러운 주름을 말한다. 주름 레이블이 없다. 문헌은 이를 처자를 내치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "眉上亂紋",
+     "observable_ko": "눈썹 위에 어지러운 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "family_children",
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-under_eye-048",
+   "section": "《額紋部相》",
+   "region": "under_eye",
+   "original_text": "目下豎紋如淚垂，平生衣食只隨時。眼前定見無兒分，宜養他人作義兒。」",
+   "translation": "눈 아래 세로 주름이 눈물이 드리운 것 같으면 평생 입고 먹는 것이 그때그때를 따를 뿐이다. 눈앞에 반드시 자식 복이 없음을 볼 것이니, 마땅히 남의 아이를 길러 양자로 삼아야 한다.",
+   "commentary": "눈 밑의 세로 주름을 눈물 자국에 빗댔다. under_eye 레이블은 와잠(臥蠶)의 유무만 다루므로 주름은 대응하지 않는다. 문헌은 이를 자식이 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下豎紋如淚垂",
+     "observable_ko": "눈 아래 눈물 자국 같은 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈 밑 주름 레이블이 없다(under_eye는 와잠 유무만 다룬다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-049",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "「三橫紋理印堂生，異相驚人眾不同，他日身榮佐明主，定知官爵至三公。",
+   "translation": "세 가닥 가로 주름결이 인당(印堂, 두 눈썹 사이)에 생기면 기이한 상이 사람을 놀라게 하여 뭇사람과 다르니, 훗날 몸이 영화로워 밝은 임금을 보좌하고 관작이 삼공(三公)에 이를 것을 반드시 안다.",
+   "commentary": "인당의 가로 주름 세 줄을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "三橫紋理印堂生",
+     "observable_ko": "인당에 가로 주름 세 줄",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-under_eye-050",
+   "section": "《額紋部相》",
+   "region": "under_eye",
+   "original_text": "目下橫紋疊兩重，此人形相主貧窮，又兼絕子多孤寡，乞養他兒到老凶。",
+   "translation": "눈 아래 가로 주름이 두 겹으로 겹치면 이 사람의 생김새는 빈궁을 주관하고, 또 자식이 끊기고 외롭고 홀로 되는 일이 많으며, 남의 아이를 빌어 길러도 늙도록 흉하다.",
+   "commentary": "눈 밑의 가로 주름이 두 겹인 모양이다. under_eye 레이블은 와잠 유무만 다루므로 주름은 대응하지 않는다. 문헌은 이를 빈궁과 자식 없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下橫紋疊兩重",
+     "observable_ko": "눈 아래 두 겹의 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈 밑 주름 레이블이 없다(under_eye는 와잠 유무만 다룬다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fertility_offspring",
+    "family_children",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-051",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額上微成大字紋，定知他日作忠臣，更能惠愛施黎庶，位祿千鍾榮六親。」",
+   "translation": "이마 위에 '大' 자 주름이 희미하게 이루어지면 훗날 충신이 될 것을 반드시 알며, 더욱이 은혜와 사랑을 백성에게 베풀어 지위와 녹봉이 천 종(千鍾)이고 육친을 영화롭게 한다.",
+   "commentary": "이마의 '大' 자 모양 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "微成大字紋",
+     "observable_ko": "이마에 '大' 자 모양 주름이 희미하게 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-052",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "相君眉上出橫紋。怎奈將來絕子孫。衣食眼前隨。「有分，老來勞苦受孤貧。",
+   "translation": "그대를 보건대 눈썹 위에 가로 주름이 나왔으니, 장차 자손이 끊김을 어찌하랴. 입고 먹는 것은 눈앞에서는 따라 분수가 있으나, 늙어서는 수고롭고 외롭고 가난함을 받는다.",
+   "commentary": "전사본에서 '衣食眼前隨。'와 '「有分'이 줄이 갈려 있으나 한 시구(衣食眼前隨有分)로 읽었다. 눈썹 위 가로 주름은 대응 레이블이 없다. 문헌은 이를 자손이 끊기는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "眉上出橫紋",
+     "observable_ko": "눈썹 위에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-053",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "一字橫紋額上生，此人高貴列公卿。兼能濟眾憐貧苦，職位高遷近帝廷。",
+   "translation": "'一' 자 가로 주름이 이마 위에 생기면 이 사람은 고귀하여 공경의 반열에 선다. 아울러 무리를 구제하고 가난하고 괴로운 이를 가엾이 여기며, 직위가 높이 올라 황제의 조정에 가까워진다.",
+   "commentary": "이마를 가로지르는 한 줄 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "一字橫紋額上生",
+     "observable_ko": "이마에 '一' 자 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-054",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "橫紋一畫在天中，高貴榮華似石崇。若是㩦書見明主，定知高位至三公。",
+   "translation": "가로 주름 한 획이 천중(天中)에 있으면 고귀하고 영화롭기가 석숭(石崇)과 같다. 만약 글을 지니고 밝은 임금을 뵈면 높은 지위가 삼공에 이를 것을 반드시 안다.",
+   "commentary": "천중(이마 맨 위 중앙)의 가로 주름 한 줄을 말하며, 석숭은 부유함의 비유로 든 인물이다. '㩦'는 원문 글자대로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "橫紋一畫在天中",
+     "observable_ko": "천중에 가로 주름 한 줄",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-055",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額方廣厚闊光輝，定見官榮位不卑。",
+   "translation": "이마가 모나고 넓고 두텁고 너르며 빛이 나면 반드시 관직이 영화롭고 지위가 낮지 않음을 본다.",
+   "commentary": "'額方廣厚闊'은 여러 형태어를 겹친 표현이라 직접 표현 額廣·額闊과 같다고 보지 않고 근사로 두었다. 두터움·빛남은 대응 레이블이 없거나 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額方",
+     "observable_ko": "이마 윤곽이 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "廣厚闊",
+     "observable_ko": "이마가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "'額方廣厚闊'으로 여러 수식이 겹쳐 직접 표현(額廣·額闊)과 같은 서술이라 보기 어렵다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "厚",
+     "observable_ko": "이마가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 살집·두께 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光輝",
+     "observable_ko": "이마가 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-056",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額下橫紋終絕代，",
+   "translation": "이마 아래에 가로 주름이 있으면 끝내 대가 끊긴다.",
+   "commentary": "이마 아랫부분의 가로 주름을 말한다. 주름 레이블이 없다. 문헌은 이를 후사가 끊기는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額下橫紋",
+     "observable_ko": "이마 아래쪽에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-057",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額微尖小沒田廬。",
+   "translation": "이마가 조금 뾰족하고 작으면 밭과 집이 없다.",
+   "commentary": "뾰족함에 대응하는 레이블이 없고, 작음(小)은 지침상 근사다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額微尖",
+     "observable_ko": "이마가 조금 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽 모양 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "尖小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "크기(小)만 말해 너비·높이 중 무엇인지 특정되지 않으며, 지침상 額小는 근사로 규정된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-058",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額小先妨父，頤尖母必亡，",
+   "translation": "이마가 작으면 먼저 아버지를 해치고, 턱(頤)이 뾰족하면 어머니가 반드시 죽는다.",
+   "commentary": "이마를 아버지, 턱을 어머니에 배당한 대구다. '頤尖'은 턱끝 뾰족함의 직접 표현이지만 '額小'는 지침상 근사다. 문헌은 이를 부모를 해치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "크기(小)만 말해 너비·높이 중 무엇인지 특정되지 않으며, 지침상 額小는 근사로 규정된다"
+    },
+    {
+     "region": "chin",
+     "evidence": "頤尖",
+     "observable_ko": "턱끝이 뾰족함",
+     "status": "exact",
+     "label": "chin_shape:pointed"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-059",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額寬終是貴，",
+   "translation": "이마가 넓으면 끝내 귀하다.",
+   "commentary": "'이마가 넓다(額寬)'는 지침의 직접 표현으로 이마 너비 넓음에 해당한다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額寬",
+     "observable_ko": "이마가 가로로 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-060",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額小沒田莊。",
+   "translation": "이마가 작으면 밭과 장원이 없다.",
+   "commentary": "'額小'는 지침상 근사 표현이다. 문헌은 이를 재산이 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "크기(小)만 말해 너비·높이 중 무엇인지 특정되지 않으며, 지침상 額小는 근사로 규정된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-061",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額似懸蔞病不生，骨方高大貴為榮。",
+   "translation": "이마가 매달린 누(懸蔞) 같으면 병이 생기지 않고, 뼈가 모나고 높고 크면 귀하여 영화롭다.",
+   "commentary": "'懸蔞'는 매달아 놓은 바구니 같은 모양을 가리키는 비유로 보이나 뜻이 분명하지 않아 글자대로 옮겼다. 뼈의 모양은 보이는 이마 레이블과 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額似懸蔞",
+     "observable_ko": "이마가 '懸蔞'와 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 뜻이 분명하지 않아 형태를 특정할 수 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨方高大",
+     "observable_ko": "이마뼈가 모나고 높고 큼",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·돌출에 관한 서술로, 보이는 이마(피부~머리털 경계)의 높이·너비와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-062",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "更見連鼻三懸理，男多妨婦女私情。",
+   "translation": "다시 코에 이어지는 세 줄의 드리운 결(懸理)이 보이면, 남자는 아내를 해침이 많고 여자는 사사로운 정을 둔다.",
+   "commentary": "이마에서 콧뿌리로 이어지는 세로 주름 세 줄을 말하는 것으로 보인다. 주름 레이블이 없고 남녀에 따라 주장이 갈린다. 문헌은 이를 아내를 해침과 여성의 사통에 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "連鼻三懸理",
+     "observable_ko": "코로 이어지는 세 줄 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男多妨婦女私情",
+     "observable_ko": "대상의 성별(남/여 구분 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-063",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "髮際豐隆骨起高，能言少語性雄豪。",
+   "translation": "발제(髮際, 머리털 경계)가 풍만하고 불룩하며 뼈가 높이 솟으면 말을 잘하되 말수가 적고 성품이 웅장하고 호방하다.",
+   "commentary": "머리털 경계 부위의 돌출과 뼈 융기를 말한다. 지침상 헤어라인·돌출·뼈에 관한 서술은 보이는 이마 레이블과 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際豐隆",
+     "observable_ko": "머리털 경계 부위가 풍만하고 불룩함",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "헤어라인 부위의 돌출로, 보이는 이마 높이·너비와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起高",
+     "observable_ko": "이마뼈가 높이 솟음",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·돌출에 관한 서술로, 보이는 이마(피부~머리털 경계)의 높이·너비와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-064",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "天井天倉隆見貴，上卿骨起佐明朝。",
+   "translation": "천정(天井)·천창(天倉)이 불룩하게 드러나면 귀하고, 상경(上卿) 뼈가 솟으면 밝은 조정을 보좌한다.",
+   "commentary": "천정·천창은 이마 윗부분과 양옆의 부위 이름이며, 상경골(上卿骨)이 가리키는 뼈는 원문에 밝혀져 있지 않다. 국소 융기에 대응하는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天井天倉隆",
+     "observable_ko": "이마 위·양옆 부위가 불룩함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "上卿骨起",
+     "observable_ko": "상경 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-065",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "印堂豎骨入於頂，拜爵加官壽命永。",
+   "translation": "인당의 곧추선 뼈가 정수리로 들어가면 작위를 받고 관직이 더해지며 수명이 길다.",
+   "commentary": "인당에서 이마 중앙을 거쳐 정수리로 이어지는 뼈 융기를 말한다. 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂豎骨入於頂",
+     "observable_ko": "인당에서 정수리로 이어지는 세로 뼈 융기",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-066",
+   "section": "《額紋部相》",
+   "region": "other",
+   "original_text": "隆高懸壁耳前生，更見頂方才亦整。",
+   "translation": "높이 솟은 현벽(懸壁)이 귀 앞에 생기고, 다시 정수리가 모난 것이 보이면 재주도 가지런하다.",
+   "commentary": "현벽(懸壁)은 귀 앞 관자놀이 쪽 부위를 가리키는 것으로 보이나 원문에 정의가 없다. 정수리의 모양과 함께 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "隆高懸壁耳前生",
+     "observable_ko": "귀 앞 현벽 부위가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 앞 부위 융기에 대한 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頂方",
+     "observable_ko": "정수리가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-067",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "日角月角高大貴，七星排額兵帥隊。",
+   "translation": "일각(日角)·월각(月角)이 높고 크면 귀하고, 일곱 별(七星)이 이마에 늘어서면 군대의 장수가 된다.",
+   "commentary": "일각·월각은 이마 위 좌우 부위다. 칠성(七星)은 이마의 일곱 점을 가리키는 것으로 보이나 원문에 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "日角月角高大",
+     "observable_ko": "이마 위 좌우 부위가 높고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "七星排額",
+     "observable_ko": "이마에 일곱 개의 '별'(점으로 보임)이 늘어섬",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "七星이 점을 뜻하는지 명시되지 않았고, 특정 위치의 점은 근사에 그친다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-068",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "印堂日角骨更高，身無災患人盡畏。",
+   "translation": "인당과 일각의 뼈가 더욱 높으면 몸에 재앙과 근심이 없고 사람들이 모두 두려워한다.",
+   "commentary": "인당과 이마 왼쪽 위 일각의 뼈 융기를 말한다. 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂日角骨更高",
+     "observable_ko": "인당·일각의 뼈가 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-069",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "中正骨起二千石，陷時」男女早孤栖，女有此相須十嫁，男須官爵退休時。",
+   "translation": "중정(中正)의 뼈가 솟으면 이천석이고, 꺼졌을 때는 남녀가 일찍 고아가 되어 외로이 살며, 여자가 이 상이 있으면 열 번 시집가야 하고 남자는 관작에서 물러나야 한다.",
+   "commentary": "중정은 이마 아랫부분 중앙의 부위 이름이다. 원문 '陷時」'의 낫표는 전사본의 표기다. 뼈의 융기·함몰에 대응하는 레이블이 없고 남녀에 따라 주장이 갈린다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "中正骨起",
+     "observable_ko": "중정 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷時",
+     "observable_ko": "중정 부위가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 국소 함몰 레이블이 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女有此相須十嫁，男",
+     "observable_ko": "대상의 성별(남/여 구분 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "kinship_harm",
+    "family_children",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-070",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "印堂潤澤骨起高，少年食祿佐明朝，",
+   "translation": "인당이 윤택하고 뼈가 높이 솟으면 젊어서 녹을 먹고 밝은 조정을 보좌한다.",
+   "commentary": "윤택함은 광택이라 관찰 불가이고, 인당 뼈 융기는 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂潤澤",
+     "observable_ko": "인당이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "骨起高",
+     "observable_ko": "인당 뼈가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 안 특정 부위의 국소 뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-071",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "仰月紋星額上貴，",
+   "translation": "앙월문(仰月紋, 위로 젖힌 달 모양 주름)과 별(星)이 이마 위에 있으면 귀하다.",
+   "commentary": "앙월문은 위로 휜 달 모양 이마 주름이다. '星'이 점을 뜻하는지 주름과 함께 쓴 말인지 확실하지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "仰月紋",
+     "observable_ko": "이마에 위로 휜 달 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "紋星",
+     "observable_ko": "이마의 '별'(점일 수 있음)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "星이 점을 뜻하는지 명시되지 않았다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-face-072",
+   "section": "《額紋部相》",
+   "region": "face",
+   "original_text": "面圓光澤富雄豪，",
+   "translation": "얼굴이 둥글고 광택이 나면 부유하고 웅장하며 호방하다.",
+   "commentary": "'얼굴이 둥글다(面圓)'는 지침의 직접 표현이지만 광택은 관찰 불가 조건이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面圓",
+     "observable_ko": "얼굴 윤곽이 둥긂",
+     "status": "exact",
+     "label": "face_shape:round"
+    },
+    {
+     "region": "face",
+     "evidence": "光澤",
+     "observable_ko": "얼굴에 광택이 남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mole-073",
+   "section": "《額紋部相》",
+   "region": "mole",
+   "original_text": "印堂有痣人多厄，食祿定須多退職，",
+   "translation": "인당에 점이 있으면 사람에게 액이 많고, 녹을 먹더라도 반드시 여러 번 관직에서 물러난다.",
+   "commentary": "인당(두 눈썹 사이)의 점을 말한다. 특정 위치의 점은 지침상 근사이며 pigmented_marks는 아직 대기 레이블이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "印堂有痣",
+     "observable_ko": "인당에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-074",
+   "section": "《額紋部相》",
+   "region": "glabella",
+   "original_text": "豎紋合娶兩姓妻，更主官事經移易。",
+   "translation": "세로 주름이 있으면 마땅히 두 성(姓)의 아내를 맞고, 또 관가의 일(官事)이 옮겨지고 바뀜을 주관한다.",
+   "commentary": "앞 구에 이어 인당의 세로 주름을 말하는 것으로 읽었다. 관사(官事)는 관청 일이나 송사를 가리킬 수 있다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "豎紋",
+     "observable_ko": "인당에 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mole-075",
+   "section": "《額紋部相》",
+   "region": "mole",
+   "original_text": "《印堂》「眉間黑子生。」 君須莫與外人爭。此者是名為。《上獄》爭時，被責必遭刑，",
+   "translation": "인당(印堂), 눈썹 사이에 검은 점(黑子)이 생기면 그대는 모름지기 바깥사람과 다투지 말라. 이것을 '상옥(上獄)'이라 이름하니, 다툴 때 꾸짖음을 받아 반드시 형벌을 만난다.",
+   "commentary": "원문의 《印堂》《上獄》 겹낫표는 전사본의 표기이며 '此者是名為。'와 '《上獄》'은 줄이 갈려 있으나 '名為上獄'으로 읽었다. 눈썹 사이의 점은 특정 위치의 점이라 근사다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉間黑子生",
+     "observable_ko": "눈썹 사이에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-076",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "黑子天中及陷紋，退官多厄豈堪論。",
+   "translation": "검은 점이 천중에 있거나 꺼진 주름이 있으면 관직에서 물러나고 액이 많음을 어찌 다 논하겠는가.",
+   "commentary": "천중(이마 맨 위 중앙)의 점과 움푹한 주름을 말한다. 위치가 특정된 점은 근사이고 주름은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子天中",
+     "observable_ko": "천중에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 근사다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷紋",
+     "observable_ko": "이마에 꺼진 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-077",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "伏犀如指通於枕，拜爵封侯四十春。",
+   "translation": "복서(伏犀)가 손가락처럼 베개뼈(枕)까지 통하면 작위를 받고 제후에 봉해져 사십 년을 누린다.",
+   "commentary": "복서는 이마 중앙에서 정수리 쪽으로 솟은 뼈 융기를 부르는 이름이다. 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀如指通於枕",
+     "observable_ko": "이마 중앙 뼈 융기가 뒤통수까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 중앙 뼈 융기선 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-078",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額上生毛女剋夫，男雖妨婦性多愚，",
+   "translation": "이마 위에 털이 나면 여자는 남편을 극(剋)하고, 남자는 비록 아내를 해치지만 성품이 어리석음이 많다.",
+   "commentary": "이마에 털이 나는 것은 대응 레이블이 없고 남녀에 따라 주장이 갈린다. 문헌은 이를 배우자를 해침과 어리석음에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上生毛",
+     "observable_ko": "이마에 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "체모 레이블이 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女剋夫，男",
+     "observable_ko": "대상의 성별(남/여 구분 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-079",
+   "section": "《額紋部相》",
+   "region": "other",
+   "original_text": "女生左右旋毛盛，倒垂髮鬢盡妨夫。",
+   "translation": "여자에게 좌우로 가마(旋毛)가 성하게 나고 머리털과 귀밑털이 거꾸로 드리우면 모두 남편을 해친다.",
+   "commentary": "여성에게만 적용되는 조건이다. 가마와 머리털 모양은 얼굴 형태 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女生",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "左右旋毛盛",
+     "observable_ko": "좌우에 가마가 성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "倒垂髮鬢",
+     "observable_ko": "머리털·귀밑털이 거꾸로 드리움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-080",
+   "section": "《額紋部相》",
+   "region": "forehead",
+   "original_text": "額上三紋橫過眉，藝文求覓世財宜，",
+   "translation": "이마 위 세 줄 주름이 가로로 눈썹을 지나면 학예와 글로 세상의 재물을 구함이 마땅하다.",
+   "commentary": "이마의 가로 주름 세 줄이 눈썹 너비보다 길게 뻗은 모양으로 읽었다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上三紋橫過眉",
+     "observable_ko": "이마의 가로 주름 세 줄이 눈썹 너비를 지남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-face-081",
+   "section": "《額紋部相》",
+   "region": "face",
+   "original_text": "面多黃色家須富，清氣官榮必自知。",
+   "translation": "얼굴에 누런 빛이 많으면 집안이 반드시 부유하고, 맑은 기운이면 관직의 영화를 반드시 스스로 안다.",
+   "commentary": "얼굴빛과 기(氣)에 관한 서술로 형태 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面多黃色",
+     "observable_ko": "얼굴에 누런 빛이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "清氣",
+     "observable_ko": "맑은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기(氣)는 관찰 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

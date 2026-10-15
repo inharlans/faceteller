@@ -1,0 +1,1183 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《面上紋理》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642F-glabella-082",
+   "section": "《面上紋理》",
+   "region": "glabella",
+   "original_text": "「井字橫紋生印堂，此人形相不尋常，他時必主朝官去，至孝忠臣佐帝王。」",
+   "translation": "'井' 자 가로 주름이 인당(印堂, 두 눈썹 사이)에 생기면 이 사람의 생김새는 범상치 않아, 훗날 반드시 조정 관리로 나아가며 지극히 효성스러운 충신으로 제왕을 보좌한다.",
+   "commentary": "「면상문리(面上紋理)」 첫 시로, 인당의 '井' 자 모양 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "井字橫紋生印堂",
+     "observable_ko": "인당에 '井' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-083",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "八字「牛角理紋生，定知高貴作公卿。更加牛角理紋見，此人不久立王庭。",
+   "translation": "'八' 자 모양 소뿔(牛角) 결 주름이 생기면 고귀하여 공경(公卿)이 될 것을 반드시 안다. 다시 소뿔 결 주름이 더 보이면 이 사람은 머지않아 왕의 조정에 선다.",
+   "commentary": "'八字「牛角理紋'의 낫표는 전사본의 표기이며, 주름이 생기는 부위는 원문에 명시되지 않았다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "牛角理紋生",
+     "observable_ko": "소뿔 모양 '八' 자 결 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-084",
+   "section": "《面上紋理》",
+   "region": "glabella",
+   "original_text": "左日右月兩眉間，定知形貴實難攀。若持文卷於明主，必得高官衣錦還。",
+   "translation": "왼쪽 해(日)와 오른쪽 달(月)이 두 눈썹 사이에 있으면 생김새가 귀하여 실로 따라잡기 어려움을 반드시 안다. 만약 글 두루마리를 지니고 밝은 임금께 나아가면 반드시 높은 관직을 얻어 비단옷 입고 돌아온다.",
+   "commentary": "무엇이 해·달 모양을 이루는지(주름·뼈·점) 원문에 명시되지 않았다. 문헌은 이를 높은 관직과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "左日右月兩眉間",
+     "observable_ko": "두 눈썹 사이 좌우의 해·달 모양",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "해·달 모양이 주름·뼈·점 중 무엇인지 명시되지 않았다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-085",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "額上縱橫印裏生，志雄心勇貴人形。知者知命立年上，統領君王百萬兵。」",
+   "translation": "이마 위에 세로·가로(주름)가 인당 안에 생기면 뜻이 웅장하고 마음이 용감한 귀인의 형상이다. 아는 자는 운명을 알아 연상(年上)에 서니, 군왕의 백만 병사를 통솔한다.",
+   "commentary": "이마와 인당에 걸친 세로·가로 교차 주름을 말하는 것으로 읽었다. '知者知命立年上'의 뜻은 분명하지 않으며 연상(年上)은 콧등 부위의 이름이다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上縱橫印裏生",
+     "observable_ko": "이마·인당에 세로·가로로 교차하는 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-086",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "「牛角小紋生入眉，此人財帛發稽遲。」「少年牢落居浮世，老後榮華誰得知。」",
+   "translation": "소뿔 모양 작은 주름이 눈썹으로 들어가면 이 사람의 재물은 늦게 일어난다. 젊어서는 쓸쓸히 덧없는 세상에 살다가 늙은 뒤의 영화를 누가 알겠는가.",
+   "commentary": "눈썹 쪽으로 뻗어 들어가는 소뿔 모양 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "牛角小紋生入眉",
+     "observable_ko": "눈썹으로 들어가는 소뿔 모양 작은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-087",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "眉上雙生鹿角紋，此人形體異常人。若向帝庭呈藝業，築壇應拜上將軍。",
+   "translation": "눈썹 위에 사슴뿔 무늬가 쌍으로 나면 이 사람의 형체는 보통 사람과 다르다. 만약 황제의 조정에 재주와 업을 바치면 단을 쌓아 상장군에 임명된다.",
+   "commentary": "눈썹 위 이마의 사슴뿔 모양 주름 한 쌍을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "眉上雙生鹿角紋",
+     "observable_ko": "눈썹 위에 사슴뿔 모양 주름 한 쌍",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-088",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "紋理交加額上生，定知為事不分明。一生貧苦非常善，偏被他人取次輕。",
+   "translation": "주름결이 엇갈려 이마 위에 생기면 일을 함에 분명하지 못함을 반드시 안다. 일생 가난하고 고생하며 늘 좋지는 못하고(非常善), 도리어 남에게 함부로 업신여김을 당한다.",
+   "commentary": "이마의 엇갈린 주름을 말한다. '非常善'은 '늘 좋지는 않다'와 '보통보다 착하다' 두 가지로 읽힐 수 있어 앞의 뜻으로 옮겼다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "紋理交加額上生",
+     "observable_ko": "이마에 엇갈린 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-089",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "紋理入口惡形容，男女生來莫願逢。細看此人終不吉，應知飢死向塵壟。",
+   "translation": "주름결이 입으로 들어가면 나쁜 생김새이니 남녀가 나면서 만나기를 원치 않는다. 자세히 보면 이 사람은 끝내 길하지 못하니, 굶어 죽어 흙 언덕으로 향할 것을 응당 안다.",
+   "commentary": "입가로 들어가는 주름을 말한다. 주름 레이블이 없다. 문헌은 이를 굶어 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "紋理入口",
+     "observable_ko": "주름이 입으로 들어감",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-090",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "時人要識惡儀形，大字真紋點額生。須得眼前逐日過，奈緣災害不曾停。",
+   "translation": "당시 사람이 나쁜 생김새를 알고자 한다면, '大' 자의 참 주름이 이마에 점찍힌 듯 생긴 것이다. 눈앞에서는 날마다 지내야 하나 어찌하여 재해가 그친 적이 없는가.",
+   "commentary": "이마의 '大' 자 모양 주름을 나쁜 상으로 들었다(앞 절의 시에서는 '大' 자 주름을 좋은 상으로 들어 서로 다르다). 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "大字真紋點額生",
+     "observable_ko": "이마에 '大' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-091",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "額上分明有覆肝。平生高貴得人欽。女為妃后居。「皇室，男得封侯有大官。",
+   "translation": "이마 위에 분명히 엎은 간(覆肝) 모양이 있으면 평생 고귀하여 사람들의 공경을 얻는다. 여자는 비·후(妃后)가 되어 황실에 거하고, 남자는 제후에 봉해지고 큰 벼슬을 얻는다.",
+   "commentary": "'覆肝'은 이마가 엎은 간처럼 둥글게 불룩한 모양을 빗댄 비유로 보인다. 전사본에서 '女為妃后居。'와 '「皇室'이 줄이 갈려 있으나 이어 읽었다. 남녀에 따라 주장이 갈린다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上分明有覆肝",
+     "observable_ko": "이마가 엎은 간 모양(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유로, 너비·높이·돌출 중 무엇을 뜻하는지 특정되지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女為妃后居。",
+     "observable_ko": "대상의 성별(남/여 구분 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-092",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "口畔微生兩縱紋，此人必賤不須親。眼前雖有安家宅，他日蕭條又受貧。」",
+   "translation": "입가에 두 줄 세로 주름이 희미하게 생기면 이 사람은 반드시 천하니 가까이할 것 없다. 눈앞에 비록 편안한 집이 있으나 훗날 쓸쓸해지고 또 가난을 받는다.",
+   "commentary": "입 옆의 세로 주름 두 줄을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口畔微生兩縱紋",
+     "observable_ko": "입가에 세로 주름 두 줄",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-093",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "又云：「額上有橫紋如川字者壽。",
+   "translation": "또 이르기를: 이마 위에 '川' 자 같은 가로 주름이 있는 자는 장수한다.",
+   "commentary": "'又云' 이하는 얼굴 각 부위 주름의 길흉을 짧게 나열한 대목이다. 이마 주름에는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上有橫紋如川字",
+     "observable_ko": "이마에 '川' 자 같은 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-094",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "兩角紋屈曲斜者主刑。",
+   "translation": "양 모서리(兩角)의 주름이 굽고 비스듬한 자는 형벌을 주관한다.",
+   "commentary": "양각(兩角)은 이마 위 좌우의 일각·월각 또는 액각을 가리키는 것으로 보인다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "兩角紋屈曲斜",
+     "observable_ko": "이마 양 모서리에 굽고 비스듬한 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-nose-095",
+   "section": "《面上紋理》",
+   "region": "nose",
+   "original_text": "鼻上橫紋主剋子。",
+   "translation": "코 위의 가로 주름은 자식을 극(剋)함을 주관한다.",
+   "commentary": "콧등의 가로 주름을 말한다. 주름 레이블이 없다. 문헌은 이를 자식을 해치는 일과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻上橫紋",
+     "observable_ko": "콧등에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-096",
+   "section": "《面上紋理》",
+   "region": "glabella",
+   "original_text": "印堂紋直者主破相，",
+   "translation": "인당의 주름이 곧은 자는 파상(破相)을 주관한다.",
+   "commentary": "파상(破相)은 얼굴에 상처를 입음 또는 상이 깨짐을 뜻하는 말로 쓰이며 여기서 어느 뜻인지 분명하지 않다. 인당 세로 주름은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂紋直",
+     "observable_ko": "인당에 곧은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-chin-097",
+   "section": "《面上紋理》",
+   "region": "chin",
+   "original_text": "腮下橫紋主惡死。",
+   "translation": "뺨 아래(腮下)의 가로 주름은 나쁜 죽음을 주관한다.",
+   "commentary": "뺨 아래 턱 언저리의 가로 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "腮下橫紋",
+     "observable_ko": "뺨 아래에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-098",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "項上有紋為項絛，主有壽，",
+   "translation": "목 위에 주름이 있으면 항조(項絛)라 하며 장수함을 주관한다.",
+   "commentary": "항조(項絛)는 목에 띠처럼 두른 주름을 부르는 이름이다. 목은 얼굴 형태 레이블의 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "項上有紋",
+     "observable_ko": "목에 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "목 주름 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-chin-099",
+   "section": "《面上紋理》",
+   "region": "chin",
+   "original_text": "頷下無亂紋者吉。",
+   "translation": "턱(頷) 아래에 어지러운 주름이 없는 자는 길하다.",
+   "commentary": "턱 아래 주름이 없는 상태를 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "頷下無亂紋",
+     "observable_ko": "턱 아래에 어지러운 주름이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-100",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "結喉有紋者主自縊。",
+   "translation": "결후(結喉, 울대뼈)에 주름이 있는 자는 스스로 목맴을 주관한다.",
+   "commentary": "목의 울대뼈 부위 주름을 말하며 얼굴 형태 레이블의 대상이 아니다. 문헌은 이를 자살과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "結喉有紋",
+     "observable_ko": "울대뼈 부위에 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "목 주름 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-face-101",
+   "section": "《面上紋理》",
+   "region": "face",
+   "original_text": "臉上有紋出者主壽。",
+   "translation": "뺨(臉) 위에 주름이 나온 자는 장수함을 주관한다.",
+   "commentary": "뺨의 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "臉上有紋出",
+     "observable_ko": "뺨에 주름이 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-nose-102",
+   "section": "《面上紋理》",
+   "region": "nose",
+   "original_text": "鼻準紋痕多者心」毒。",
+   "translation": "코끝(鼻準)에 주름 자국이 많은 자는 마음이 독하다.",
+   "commentary": "준두(準頭, 코끝)의 주름·흉 자국을 말한다. 원문 '心」毒'의 낫표는 전사본의 표기다. 문헌은 이를 독한 마음과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻準紋痕多",
+     "observable_ko": "코끝에 주름 자국이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·흉터 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-under_eye-103",
+   "section": "《面上紋理》",
+   "region": "under_eye",
+   "original_text": "眼下有紋斜下者，主刑。",
+   "translation": "눈 아래에 비스듬히 내려가는 주름이 있는 자는 형벌을 주관한다.",
+   "commentary": "눈 밑의 사선 주름을 말한다. under_eye 레이블은 와잠 유무만 다루므로 주름은 대응하지 않는다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下有紋斜下",
+     "observable_ko": "눈 아래 비스듬히 내려가는 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈 밑 주름 레이블이 없다(under_eye는 와잠 유무만 다룬다)"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-104",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "入口如繫物者，主餓死。",
+   "translation": "(주름이) 입으로 들어가 물건을 묶은 것 같은 자는 굶어 죽음을 주관한다.",
+   "commentary": "주어가 생략되었으나 문맥상 입으로 들어가는 주름을 말한다. 주름 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "入口如繫物",
+     "observable_ko": "입으로 들어가는 묶은 끈 같은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-105",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "又云：「覆月司空家富盛，",
+   "translation": "또 이르기를: 엎은 달(覆月)이 사공(司空)에 있으면 집안이 부유하고 성하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 사공은 이마 중앙 윗부분의 부위 이름이며, 엎은 달 모양 주름을 말하는 것으로 읽었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "覆月司空",
+     "observable_ko": "사공 부위에 엎은 달 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-106",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "小車紫孛少藩垣，",
+   "translation": "소거(小車)가 자패(紫孛)에 있으면 울타리(藩垣)가 적다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. '小車'와 '紫孛'는 오성육요(五星六曜)식 부위 이름 또는 주름 이름으로 보이나 원문만으로 뜻을 확정할 수 없어 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "小車紫孛",
+     "observable_ko": "'소거'·'자패'(뜻 불분명)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위·주름 이름의 뜻을 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-107",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "橫過中臺瘟火厄，",
+   "translation": "(주름이) 중대(中臺)를 가로지르면 역병과 화재의 액이 있다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 중대(中臺)가 가리키는 부위는 원문에 밝혀져 있지 않다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "橫過中臺",
+     "observable_ko": "중대 부위를 가로지르는 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-eye-108",
+   "section": "《面上紋理》",
+   "region": "eye",
+   "original_text": "斜飛入眼極刑干。",
+   "translation": "(주름이) 비스듬히 날아 눈으로 들어가면 극형을 범한다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 눈으로 비스듬히 뻗어 들어가는 주름을 말한다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "斜飛入眼",
+     "observable_ko": "눈으로 비스듬히 들어가는 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-109",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "淚痕耳珠憂水厄，",
+   "translation": "누흔(淚痕, 눈물 자국)과 이주(耳珠, 귓불)(의 주름)은 물의 액을 근심하게 한다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 눈 밑 눈물 자국 같은 주름과 귓불 주름을 말하는 것으로 읽었다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "淚痕",
+     "observable_ko": "눈 아래 눈물 자국 같은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳珠",
+     "observable_ko": "귓불의 주름(으로 보임)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-110",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "山紋額角列朝班，",
+   "translation": "'山' 자 주름이 이마 모서리에 있으면 조정의 반열에 선다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "山紋額角",
+     "observable_ko": "이마 모서리에 '山' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-chin-111",
+   "section": "《面上紋理》",
+   "region": "chin",
+   "original_text": "地閣縱橫財各散，",
+   "translation": "지각(地閣, 턱)에 (주름이) 세로·가로로 나면 재물이 각각 흩어진다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣縱橫",
+     "observable_ko": "턱에 세로·가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-nose-112",
+   "section": "《面上紋理》",
+   "region": "nose",
+   "original_text": "年上山根仔細看。山根細斷誠多難，",
+   "translation": "연상(年上)과 산근(山根, 콧뿌리)은 자세히 보아야 한다. 산근이 가늘게 끊기면 참으로 어려움이 많다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. '細斷'은 콧뿌리가 가늘게 끊긴 듯 낮은 형태일 수도, 콧뿌리를 가로지르는 가는 주름일 수도 있다. 지침상 斷은 근사다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根細斷",
+     "observable_ko": "콧뿌리가 가늘게 끊김",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "지침상 斷/折은 근사이며, 이 문맥에서는 콧뿌리를 가로지르는 주름일 수도 있다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-113",
+   "section": "《面上紋理》",
+   "region": "glabella",
+   "original_text": "印內如絲恐沒官，",
+   "translation": "인당 안에 실 같은 (주름이) 있으면 관직을 잃을까 두렵다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印內如絲",
+     "observable_ko": "인당에 실 같은 가는 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-nose-114",
+   "section": "《面上紋理》",
+   "region": "nose",
+   "original_text": "居準自然乖，筭望祖宅多破子貧寒。",
+   "translation": "준두(準)에 있으면 저절로 어그러지고, 셈하여 바라보건대 조상의 집이 많이 깨지고 자식이 가난하고 춥다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 글자 수가 앞뒤 칠언구와 맞지 않아 탈자·착간이 있는 것으로 보이며, 직역은 잠정적이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "居準",
+     "observable_ko": "(주름이) 코끝에 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-115",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "掌中橫紋心無智，",
+   "translation": "손바닥 가운데 가로 무늬가 있으면 마음에 지혜가 없다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 손금에 관한 구절이라 얼굴 형태와 관계가 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "掌中橫紋",
+     "observable_ko": "손바닥의 가로 무늬",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손금은 얼굴 사진으로 관찰하는 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-philtrum-116",
+   "section": "《面上紋理》",
+   "region": "philtrum",
+   "original_text": "亂理人中子息難。",
+   "translation": "인중(人中)에 어지러운 결이 있으면 자식 두기가 어렵다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 인중의 어지러운 주름결을 말한다. 인중 길이·뚜렷함 레이블과 다른 서술이다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "亂理人中",
+     "observable_ko": "인중에 어지러운 주름결",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 주름 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-117",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "龍角天庭須牧伯，",
+   "translation": "용각(龍角)이 천정(天庭)에 있으면 반드시 목백(牧伯)이 된다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 용각이 뼈 융기인지 주름인지 원문에 명시되지 않았고, 목백은 지방 장관을 뜻한다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "龍角天庭",
+     "observable_ko": "천정 부위의 '용각'",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 뼈·주름 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-nose-118",
+   "section": "《面上紋理》",
+   "region": "nose",
+   "original_text": "交鉤鼻上盜仍奸。",
+   "translation": "(주름이) 코 위에서 엇갈려 갈고리지면 도둑이며 또 간사하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 문헌은 이 주름을 도둑질과 간사함에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "交鉤鼻上",
+     "observable_ko": "콧등에 엇갈린 갈고리 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-face-119",
+   "section": "《面上紋理》",
+   "region": "face",
+   "original_text": "法令過頷知壽考，",
+   "translation": "법령(法令, 콧방울 옆에서 입가로 내려가는 주름)이 턱(頷)을 지나면 장수함을 안다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 법령선의 길이를 말하며 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "法令過頷",
+     "observable_ko": "법령선이 턱까지 내려감",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "법령선 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-120",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "縱橫入口死無糧，",
+   "translation": "(주름이) 세로·가로로 입에 들어가면 양식 없이 죽는다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "縱橫入口",
+     "observable_ko": "입으로 들어가는 세로·가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-tongue-121",
+   "section": "《面上紋理》",
+   "region": "tongue",
+   "original_text": "舌上縱橫身必貴，",
+   "translation": "혀 위에 (무늬가) 세로·가로로 있으면 몸이 반드시 귀하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 혀의 무늬는 정지 얼굴 사진의 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上縱橫",
+     "observable_ko": "혀 위의 세로·가로 무늬",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "혀는 얼굴 사진으로 관찰하는 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-122",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "溫紅在掌福崢嶸，",
+   "translation": "따뜻하고 붉은 빛이 손바닥에 있으면 복이 우뚝하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 손바닥의 색에 관한 구절이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "溫紅在掌",
+     "observable_ko": "손바닥이 따뜻하고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손바닥과 색은 얼굴 형태 관찰 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-123",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "三壬居額宜壽夭，",
+   "translation": "'三壬'이 이마에 있으면 장수·요절에 마땅하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. '三壬'은 '壬' 자 모양 주름 셋으로 보이나 분명하지 않고, '宜壽夭'도 장수와 요절 중 어느 쪽을 말하는지 원문만으로 정하기 어렵다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三壬居額",
+     "observable_ko": "이마의 '三壬'(주름 모양으로 보임)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'三壬'이 무엇을 가리키는지 분명하지 않다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-124",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "八字寬宏主少亨，",
+   "translation": "'八' 자 (주름이) 넓고 크면 젊어서 형통함을 주관한다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 어느 부위의 '八' 자 주름인지 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "八字寬宏",
+     "observable_ko": "넓게 벌어진 '八' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-eye-125",
+   "section": "《面上紋理》",
+   "region": "eye",
+   "original_text": "奸門亂理多淫蕩，",
+   "translation": "간문(奸門, 눈꼬리 바깥)에 어지러운 결이 있으면 음탕함이 많다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 간문은 눈꼬리 바깥 관자놀이 쪽 부위로, 문헌은 이곳의 어지러운 주름을 음탕함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "奸門亂理",
+     "observable_ko": "눈꼬리 바깥에 어지러운 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-eye-126",
+   "section": "《面上紋理》",
+   "region": "eye",
+   "original_text": "魚尾修長老不停，",
+   "translation": "어미(魚尾, 눈꼬리 주름)가 길면 늙어서도 쉬지 못한다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 어미는 눈꼬리 바깥의 주름 또는 그 부위를 가리킨다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "魚尾修長",
+     "observable_ko": "눈꼬리 주름이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-under_eye-127",
+   "section": "《面上紋理》",
+   "region": "under_eye",
+   "original_text": "井字陰陽終自縊，",
+   "translation": "'井' 자 (주름이) 음양(陰陽)에 있으면 끝내 스스로 목맨다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 음양(陰陽)은 눈 아래 부위 이름으로 쓰이기도 하나 여기서 확정하기 어렵다. 문헌은 이를 자살과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "井字陰陽",
+     "observable_ko": "음양 부위에 '井' 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-128",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "酒池縷縷喪波瀾，",
+   "translation": "주지(酒池)에 (주름이) 실처럼 줄줄이 있으면 물결에 죽는다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 주지는 입 언저리 부위의 이름으로 쓰인다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "酒池縷縷",
+     "observable_ko": "주지 부위에 실 같은 주름이 줄줄이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-glabella-129",
+   "section": "《面上紋理》",
+   "region": "glabella",
+   "original_text": "懸針入印刑妻位，",
+   "translation": "현침(懸針, 바늘을 매단 듯한 세로 주름)이 인당으로 들어가면 아내의 자리를 해친다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 현침은 인당을 꿰뚫는 한 줄 세로 주름을 부르는 이름이다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "懸針入印",
+     "observable_ko": "인당으로 내려오는 바늘 같은 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-cheekbone-130",
+   "section": "《面上紋理》",
+   "region": "cheekbone",
+   "original_text": "破匱侵顴權位難，",
+   "translation": "파궤(破匱)가 관골(顴, 광대뼈)을 침범하면 권세와 지위가 어렵다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. '破匱'가 주름 이름인지 부위 이름인지 원문만으로 정할 수 없다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "破匱侵顴",
+     "observable_ko": "'파궤'가 광대뼈에 뻗음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'破匱'의 뜻을 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-131",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "孛帶刃刀人帶殺，",
+   "translation": "패(孛)가 칼날을 띠면 사람이 살기(殺)를 띤다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 패(孛)는 월패(月孛) 등 육요(六曜) 배당 부위 이름으로 보이며, '칼날'은 그 부위의 칼 모양 주름을 말하는 것으로 읽었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "孛帶刃刀",
+     "observable_ko": "패 부위에 칼날 모양(주름으로 보임)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위와 형태가 비유적으로만 서술되었다"
+    }
+   ],
+   "claim_topics": [
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-other-132",
+   "section": "《面上紋理》",
+   "region": "other",
+   "original_text": "若臨紫氣性無寬，",
+   "translation": "만약 자기(紫氣)에 임하면 성품이 너그럽지 못하다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 자기(紫氣)는 육요 배당 부위 이름으로 보이며, 무엇이 임하는지 주어가 생략되었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "若臨紫氣",
+     "observable_ko": "자기 부위에 (주름이) 이름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 이름만 있고 주름의 모양이 명시되지 않아 형태를 특정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-133",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "祖墓墳塋遷後敗，必然四墓亂縱橫，",
+   "translation": "조상의 묘와 무덤을 옮긴 뒤에 패하는 것은, 반드시 사묘(四墓)에 (주름이) 어지럽게 세로·가로로 있다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 사묘(四墓)는 이마 가장자리 부위 이름으로 쓰이나 범위는 원문에 밝혀져 있지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "四墓亂縱橫",
+     "observable_ko": "사묘 부위에 어지러운 세로·가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-forehead-134",
+   "section": "《面上紋理》",
+   "region": "forehead",
+   "original_text": "驛馬定應遊宦子，",
+   "translation": "역마(驛馬)(에 주름이 있으면) 반드시 떠돌며 벼슬하는 사람이 된다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 역마는 이마 양옆 위쪽 부위 이름으로 쓰이며, 어떤 형태인지 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "驛馬",
+     "observable_ko": "역마 부위(형태 불명)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 이름만 있고 주름의 모양이 명시되지 않아 형태를 특정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642F-mouth-135",
+   "section": "《面上紋理》",
+   "region": "mouth",
+   "original_text": "口」如裙褶只孤單。",
+   "translation": "입이 치마 주름 같으면 다만 외롭고 홀로다.",
+   "commentary": "'又云' 이하 칠언 나열 가운데 한 구로, 얼굴 각 부위의 주름(紋理)을 다룬다. 원문 '口」如'의 낫표는 전사본의 표기다. 입 둘레에 치마 주름 같은 잔주름이 진 모양으로 읽었다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "如裙褶",
+     "observable_ko": "입 둘레에 치마 주름 같은 잔주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  }
+ ]
+}

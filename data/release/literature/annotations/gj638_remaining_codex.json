@@ -1,0 +1,5751 @@
+{
+  "page_id": "gj638",
+  "annotator": "AI model draft (Codex), single pass; no human review",
+  "annotation_status": "ai_annotated_unreviewed",
+  "sections_complete": [
+    "博物彙編 藝術典 第638卷 相術部彙考八 神相全編八",
+    "《陳希夷風鑑歌》",
+    "《太乙真人書》",
+    "《鬼眼先生相法》",
+    "《唐舉元談神妙訣》",
+    "《西嶽先生相法》"
+  ],
+  "passages": [
+    {
+      "passage_id": "CX638-other-0212",
+      "section": "博物彙編 藝術典 第638卷 相術部彙考八 神相全編八",
+      "original_text": "欽定古今圖書集成博物彙編藝術典第六百三十八卷目錄相術部彙考八神相全編八〈人倫大統賦下陳希夷風鑑歌袁柳莊識人賦太乙真人書姚括蒼玉管訣鬼眼先生相法唐舉元談神妙訣西岳先生相法〉藝術典第六百三十八卷",
+      "translation": "흠정고금도서집성 박물휘편 예술전, 제638권 목차. 상술부 휘고 8, 신상전편 8: 인륜대통부 하, 진희이 풍감가, 원유장 식인부, 태을진인서, 요괄창 옥관결, 귀안선생 상법, 당거 원담신묘결, 서악선생 상법. 예술전 제638권.",
+      "commentary": "권차와 목차를 기록한 서지 구간이다. 목차의 人倫大統賦下 표제는 본문 주석 대상에서 제외된 장의 내용과 중복되지 않는다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "CX638-other-0151",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "「人之所稟氣兼神，以火為神水作精，火本為心水為腎，精全而後神方生，神生而後氣方備，形備而後色方成。」",
+      "translation": "사람이 받은 것은 기와 신을 겸하니 불로 신을 삼고 물로 정을 삼는다. 불은 본래 심장이 되고 물은 신장이 되며, 정이 온전한 뒤에야 신이 생기고 신이 생긴 뒤에야 기가 갖추어지며 형체가 갖추어진 뒤에야 색이 이루어진다.",
+      "commentary": "정·신·기·형·색을 설명하는 문헌의 이론이며 현대 생리학적 진술이 아니다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0152",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "是知色隨神出實，此乃氣力逐聲鳴。",
+      "translation": "이로써 색은 신을 따라 나와 충실해지고 기력은 소리를 따라 울린다는 것을 안다.",
+      "commentary": "색과 소리의 관계에 대한 관상 이론이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0153",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "有形又不如有骨，有骨又不如有神，有神又不如有氣，神之得氣旺如春。",
+      "translation": "형체가 있는 것은 뼈가 있는 것만 못하고 뼈가 있는 것은 신이 있는 것만 못하며 신이 있는 것은 기가 있는 것만 못하니 신이 기를 얻으면 봄처럼 왕성하다.",
+      "commentary": "관찰 요소의 우선순위를 설명한다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0154",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "大都神氣賦於人，有若油兮又有燈。人安本自精神實，油清而後燈方明。",
+      "translation": "대체로 신기가 사람에게 부여됨은 기름도 있고 등불도 있는 것과 같다. 사람이 편안함은 본래 정과 신이 충실해서이며 기름이 맑은 뒤에야 등불이 밝다.",
+      "commentary": "등불과 기름의 비유로 정신과 기를 설명한다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0155",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "夜宿於心常寂寂，日「居於眼覺惺惺。",
+      "translation": "밤에는 마음에 머물러 늘 고요하고 낮에는 눈에 머물러 깨어 또렷하다.",
+      "commentary": "신의 거처를 시간에 따라 설명하는 문헌의 표현이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0156",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "其間或有清中濁，有時又取濁中清。更兼風韻細收藏，久坐凝然力轉強。如此之人堪立事，輕浮太急少須忙。",
+      "translation": "그 사이 혹 맑음 속에 흐림이 있고 때로 흐림 속의 맑음을 취한다. 아울러 풍운을 세밀히 거두어 감추고 오래 앉아 응연하면 힘이 더욱 강해진다. 이런 사람은 일을 세울 만하고 경박하며 너무 급하면 조금만 있어도 바빠진다.",
+      "commentary": "신기와 행동의 대조로 얼굴 형태 라벨은 적용되지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "清中濁",
+          "observable_ko": "맑음 속의 흐림",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "濁中清",
+          "observable_ko": "흐림 속의 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "風韻細收藏",
+          "observable_ko": "풍운을 세밀히 감춤",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "久坐凝然",
+          "observable_ko": "오래 응연히 앉음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "輕浮太急",
+          "observable_ko": "경박하고 너무 급함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0157",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "其次又看形與骨，骨皮與膚須軟滑。",
+      "translation": "다음으로 형체와 뼈를 보며 뼈와 가죽과 피부는 부드럽고 매끄러워야 한다.",
+      "commentary": "뼈까지 軟滑하다고 표현한 전사를 그대로 옮겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "骨皮與膚須軟滑",
+          "observable_ko": "뼈·가죽·피부가 부드럽고 매끄러움",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0158",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "要其就兮與未就，旋有旋兮終不久。忽然未好已先盈，花未開兮子已生。",
+      "translation": "이루어졌는지 아직 이루어지지 않았는지를 요점으로 삼으니, 갑자기 있다가 갑자기 돌아가면 끝내 오래가지 못한다. 문득 아직 좋지 않은데 먼저 가득하면 꽃이 피기 전에 열매가 생긴 것이다.",
+      "commentary": "성숙과 충실함을 꽃과 열매로 비유했으며 旋有旋의 뜻은 불분명하다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "旋有旋",
+          "observable_ko": "갑자기 생겼다 돌아감",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "未好已先盈",
+          "observable_ko": "좋아지기 전에 먼저 가득함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0159",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "老人不欲似年少，後生仍須帶老成。",
+      "translation": "노인은 젊은이 같아서는 안 되고 젊은이는 여전히 노련함을 띠어야 한다.",
+      "commentary": "나이에 대한 외모 품평으로 측정 형태는 제시되지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "老人",
+          "observable_ko": "노인 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "後生",
+          "observable_ko": "젊은이 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "似年少",
+          "observable_ko": "젊은이 같은 모습",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "帶老成",
+          "observable_ko": "노련함을 띤 모습",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0160",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "男兒不欲帶女相，女子不欲帶男形，陰反於陽必損壽，老懷色嫩必須傾。",
+      "translation": "남자는 여자 상을 띠어서는 안 되고 여자는 남자 형상을 띠어서는 안 된다. 음이 양으로 뒤집히면 반드시 수명을 줄이고 늙어서 안색이 여리면 반드시 기운다.",
+      "commentary": "성별·나이 고정관념에 수명 주장을 붙인 문헌이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "男兒",
+          "observable_ko": "남성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "女子",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "帶女相",
+          "observable_ko": "여자 상이라는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "帶男形",
+          "observable_ko": "남자 형상이라는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "老",
+          "observable_ko": "노년 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "色嫩",
+          "observable_ko": "안색이 여림",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0161",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "丈夫婦女兩般詳，女要柔和男要剛，婦人受陰本要靜，未言先笑即非良。",
+      "translation": "남자와 여자를 두 갈래로 자세히 보니 여자는 부드럽고 온화해야 하고 남자는 굳세야 한다. 여자는 음을 받아 본래 고요해야 하니 말하기 전에 웃으면 곧 어질지 않다.",
+      "commentary": "성별에 따른 행동 규범과 도덕적 낙인을 기록한 구절이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "丈夫婦女",
+          "observable_ko": "남녀 대상 구분",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "女要柔和男要剛",
+          "observable_ko": "여자의 온화함과 남자의 굳셈",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "未言先笑",
+          "observable_ko": "말하기 전에 웃음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "sexual_conduct"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0162",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "良人有威而無媚，娼婦有媚而無威，令人一見便生侮，所以生身落賤微。",
+      "translation": "어진 사람은 위엄이 있고 아양이 없으며 창부는 아양이 있고 위엄이 없어 사람이 한 번 보고 곧 업신여기게 하니 이 때문에 신분이 낮고 천한 데 떨어진다.",
+      "commentary": "신분과 성행동에 대한 문헌의 낙인성 품평이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "有威而無媚",
+          "observable_ko": "위엄이 있고 아양이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "有媚而無威",
+          "observable_ko": "아양이 있고 위엄이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "娼婦",
+          "observable_ko": "창부로 지칭된 여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "sexual_conduct",
+        "rank_office",
+        "character"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0163",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "木要瘦兮金要方，水肥土厚火尖長，形體相生便為吉，忽若相剋便為殃。",
+      "translation": "목은 말라야 하고 금은 네모나야 하며 수는 살지고 토는 두터우며 화는 뾰족하고 길다. 형체가 서로 낳으면 길하고 문득 서로 이기면 재앙이다.",
+      "commentary": "오행 체형 유형을 얼굴 모양 라벨로 직접 대체하지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "木要瘦兮金要方，水肥土厚火尖長",
+          "observable_ko": "오행별 마름·네모남·비만·두터움·뾰족하고 김",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0164",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "金得金剛毅深，木得木，資財足」，水得水文學貴，火得火威武大，土得土多財庫，",
+      "translation": "금이 금을 얻으면 강직함이 깊고 목이 목을 얻으면 재물이 넉넉하며 수가 수를 얻으면 문학으로 귀하고 화가 화를 얻으면 위무가 크며 토가 토를 얻으면 재물 창고가 많다.",
+      "commentary": "오행 부합론이며 구체적인 얼굴 형태 조건이 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "金得金",
+          "observable_ko": "금형과 금의 부합",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "木得木",
+          "observable_ko": "목형과 목의 부합",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "水得水",
+          "observable_ko": "수형과 수의 부합",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "火得火",
+          "observable_ko": "화형과 화의 부합",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "土得土",
+          "observable_ko": "토형과 토의 부합",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0165",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "金不金多伏吟，木不木多孤獨，水不水多官鬼，火不火多災禍，土不土多辛苦。",
+      "translation": "금이 금답지 않으면 복음(伏吟)이 많고 목이 목답지 않으면 고독이 많으며 수가 수답지 않으면 관귀가 많고 화가 화답지 않으면 재화가 많으며 토가 토답지 않으면 고생이 많다.",
+      "commentary": "복음·관귀는 본문에서 뜻을 풀지 않은 술수 용어로 남겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "金不金",
+          "observable_ko": "금형이 금답지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "木不木",
+          "observable_ko": "목형이 목답지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "水不水",
+          "observable_ko": "수형이 수답지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "火不火",
+          "observable_ko": "화형이 화답지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "土不土",
+          "observable_ko": "토형이 토답지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0166",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "「且如形體本先瘦，次後身肥最為妙。復加瘦削木乾枯，木帶金兮災轉多，",
+      "translation": "예컨대 형체가 본래 먼저 말랐다가 뒤에 몸이 살지는 것이 가장 묘하다. 다시 마르고 깎여 나무가 마른 듯하면 목이 금을 띠어 재앙이 더욱 많아진다.",
+      "commentary": "시간에 따른 체형 변화는 정지 얼굴 형태가 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "形體本先瘦，次後身肥",
+          "observable_ko": "몸이 먼저 말랐다가 뒤에 살찜",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "瘦削木乾枯",
+          "observable_ko": "몸이 마르고 깎여 나무처럼 마름",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0167",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "亦如形體始方正，次後背隆最為應，若然始方次又尖，金帶火兮災愈添，",
+      "translation": "또 형체가 처음 네모나고 바르다가 뒤에 등이 솟는 것이 가장 알맞다. 만약 처음 네모나다가 뒤에 뾰족해지면 금이 화를 띠어 재앙이 더욱 늘어난다.",
+      "commentary": "체형 변화에 오행 상극을 적용한 문헌의 설명이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "形體始方正，次後背隆",
+          "observable_ko": "몸이 처음 네모나고 바르다가 등이 솟음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "始方次又尖",
+          "observable_ko": "처음 네모나다 뒤에 뾰족해짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0168",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "初中最好末後災，腰小行」來步又開，",
+      "translation": "초년과 중년은 가장 좋고 말년에 재앙인 것은 허리가 작고 걸을 때 발걸음이 또 벌어지기 때문이다.",
+      "commentary": "허리와 걸음 조건을 모두 보존했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腰小",
+          "observable_ko": "허리가 작음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "行」來步又開",
+          "observable_ko": "걸을 때 발걸음이 벌어짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0169",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "初中蹇滯末後好，腹背俱生懸壁倒。",
+      "translation": "초년과 중년에는 막히고 말년이 좋은 것은 배와 등이 모두 매달린 벽이 거꾸러진 듯 생겼기 때문이다.",
+      "commentary": "懸壁倒의 형상은 불명확하여 문자적 비유를 유지했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腹背俱生懸壁倒",
+          "observable_ko": "배와 등이 매달린 벽이 거꾸러진 듯함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0170",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "一生只在選人中，體俗形粗背不隆，",
+      "translation": "한평생 선인(選人)의 무리에만 있는 것은 몸이 속되고 형체가 거칠며 등이 솟지 않기 때문이다.",
+      "commentary": "選人은 선발되는 사람이라는 원어를 남겼고 구체 관직은 추정하지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "體俗形粗背不隆",
+          "observable_ko": "몸이 속되고 거칠며 등이 솟지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0171",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "有賢自然能賢荷，學堂成就是非同，",
+      "translation": "어짊이 있으면 자연히 어진 짐을 질 수 있고 학당(學堂)이 이루어지면 참으로 보통과 다르다.",
+      "commentary": "賢荷와 학당의 위치가 이 구절에는 풀이되지 않았다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "學堂成就",
+          "observable_ko": "학당이 이루어짐",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0172",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "有金之人必有面，有土之人必有背，其或兩清多極貴，面似田兮身似具，",
+      "translation": "금이 있는 사람은 반드시 얼굴이 있고 토가 있는 사람은 반드시 등이 있다. 혹 둘이 맑으면 매우 귀한 경우가 많으니 얼굴은 전(田) 자 같고 몸은 구(具) 자 같다.",
+      "commentary": "문자 모양의 비유는 얼굴이 단순히 네모나다는 진술보다 복합적이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面似田",
+          "observable_ko": "얼굴이 전 자 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "身似具",
+          "observable_ko": "몸이 구 자 같음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "兩清",
+          "observable_ko": "얼굴과 등이 맑음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0173",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "有時舉眼隨身起，有時接語和身退，近觀有媚遠有威，久視愈明初見晦，眼下三分一正面，常調之中豈「曾見。",
+      "translation": "때로 눈을 들면 몸이 따라 일어나고 때로 말을 받으면 몸과 함께 물러난다. 가까이 보면 아양이 있고 멀리 보면 위엄이 있으며 오래 보면 더욱 밝고 처음에는 어둡다. 눈 아래가 정면의 삼분의 일이니 보통 모습 가운데 어찌 일찍이 보았겠는가.",
+      "commentary": "眼下三分一正面의 정확한 비율 대상은 불명확하다. 행동과 인상 변화를 형상 라벨로 바꾸지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "舉眼隨身起",
+          "observable_ko": "눈을 들 때 몸이 따라 일어남",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "接語和身退",
+          "observable_ko": "말을 받을 때 몸이 물러남",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "近觀有媚遠有威",
+          "observable_ko": "가까이서는 아양 멀리서는 위엄",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "久視愈明初見晦",
+          "observable_ko": "오래 보면 밝고 처음에는 어두움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "眼下三分一正面",
+          "observable_ko": "눈 아래와 정면의 삼분의 일 관계",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0174",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "龜息尿散屎必方，相中偏僻見非常。",
+      "translation": "거북처럼 숨 쉬고 오줌이 흩어지고 대변이 반드시 네모나면 상의 치우치고 드문 곳에서 비범함을 본다.",
+      "commentary": "얼굴 밖 생리 현상에 대한 문헌의 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "龜息尿散屎必方",
+          "observable_ko": "거북 호흡·흩어지는 소변·네모난 대변",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0175",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "遠看形醜近看好，上馬大兮下馬小。更若藏骨與藏神，八座三台官最好。",
+      "translation": "멀리 보면 형체가 추하고 가까이 보면 좋으며 말에 오르면 크고 내리면 작다. 더하여 뼈와 신이 감추어져 있으면 팔좌와 삼태의 관직이 가장 좋다.",
+      "commentary": "팔좌·삼태는 높은 관직을 가리키는 본문의 명칭이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "遠看形醜近看好",
+          "observable_ko": "거리에 따라 미추가 달라 보임",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "上馬大兮下馬小",
+          "observable_ko": "말을 타면 크고 내리면 작아 보임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "藏骨",
+          "observable_ko": "뼈가 감추어짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "藏神",
+          "observable_ko": "신이 감추어짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0176",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "須知觀骨有四般，入耳無過壽更寬。插向天倉須兩府，鬢生鹽司兼守土。",
+      "translation": "뼈를 보는 데 네 가지가 있음을 알아야 한다. 귀로 들어가면 허물이 없고 수명이 더욱 넓다. 천창(天倉, 이마 양옆 부위)으로 뻗으면 양부에 이르고 귀밑머리에 생기면 염사와 지방 수령을 겸한다.",
+      "commentary": "뼈의 뻗는 방향별 주장이며 특정 정준 광대 높이로 축약되지 않는다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "入耳",
+          "observable_ko": "뼈가 귀로 들어감",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "插向天倉",
+          "observable_ko": "뼈가 천창으로 뻗음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "鬢生",
+          "observable_ko": "귀밑머리에 뼈가 생김",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0177",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "借問相中何獲壽，認取神藏骨又明。",
+      "translation": "상에서 무엇으로 장수를 얻는지 묻는다면 신이 감추어지고 뼈가 또 밝은 것을 알아보라.",
+      "commentary": "骨明의 측정 의미가 불분명하다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "神藏",
+          "observable_ko": "신이 감추어짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "骨又明",
+          "observable_ko": "뼈가 밝음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0178",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "或然神短骨又露，四十三前大可驚。",
+      "translation": "혹 신이 짧고 뼈가 또 드러나면 마흔셋 이전에 크게 놀랄 만하다.",
+      "commentary": "연령을 특정한 수명 주장은 역사적 기록으로만 남긴다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "神短",
+          "observable_ko": "신이 짧음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "骨又露",
+          "observable_ko": "뼈가 드러남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0179",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "心灰於內神槁外，相法曾明為主人。",
+      "translation": "안에서는 마음이 재가 되고 밖에서는 신이 마르면 상법이 일찍이 주인이 됨을 밝혔다.",
+      "commentary": "為主人的 의미가 불분명하여 '주인이 됨'으로 직역했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "心灰於內",
+          "observable_ko": "속마음이 재처럼 식음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神槁外",
+          "observable_ko": "밖으로 신이 마름",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0180",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "骨氣秀清神肅靜，豈在凡間隱卻身。",
+      "translation": "골기가 빼어나고 맑으며 신이 엄숙하고 고요하면 어찌 평범한 세상에 몸을 숨기겠는가.",
+      "commentary": "골기·신의 품평은 기하 조건이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "骨氣秀清",
+          "observable_ko": "골기가 빼어나고 맑음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神肅靜",
+          "observable_ko": "신이 엄숙하고 고요함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-brow-0181",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "瞻視眉平眼又平，不然為道便為僧。",
+      "translation": "바라볼 때 눈썹이 평평하고 눈도 평평하면 도사가 아니면 곧 승려가 된다.",
+      "commentary": "관찰 행동의 문맥과 平의 다의성을 보존했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉平",
+          "observable_ko": "눈썹이 평평함",
+          "status": "approximate",
+          "reason": "平만으로 윤곽의 직선과 배치 높이를 구별하기 어렵다.",
+          "candidate_labels": [
+            "brow_shape:straight"
+          ]
+        },
+        {
+          "region": "eye",
+          "evidence": "眼又平",
+          "observable_ko": "눈이 평평함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "瞻視",
+          "observable_ko": "바라보는 상태",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0182",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "紫衣師號因何得，三主如金人中臣。",
+      "translation": "자줏빛 옷과 스승의 칭호는 무엇으로 얻는가? 삼주(三主)가 금 같으면 사람 가운데 신하이다.",
+      "commentary": "삼주와 금의 비유는 구체 부위·형태가 불명확하다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "三主如金",
+          "observable_ko": "삼주가 금 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0183",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "無祿有官神必汎，有祿有官在神清。」",
+      "translation": "녹이 없고 관직만 있으면 신이 반드시 떠 있고, 녹도 관직도 있음은 신이 맑은 데 있다.",
+      "commentary": "신의 상태를 녹·관직과 연결한 대조다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "神必汎",
+          "observable_ko": "신이 떠 있음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神清",
+          "observable_ko": "신이 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0184",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "「走獸飛禽類數般，莫將禽向獸中看。瘦長但向禽中取，肥短當於獸裏觀。」",
+      "translation": "달리는 짐승과 나는 새는 여러 종류이니 새를 짐승 속에서 보지 말라. 마르고 긴 것은 새에서 취하고 살지고 짧은 것은 짐승 속에서 관찰해야 한다.",
+      "commentary": "동물형 체형 분류의 방법을 말한다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "瘦長",
+          "observable_ko": "몸이 마르고 긺",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "肥短",
+          "observable_ko": "몸이 살지고 짧음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0185",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "似禽之人不嫌瘦，如獸若肥最為妙，禽肥必定不能飛。獸若瘦兮安快走。",
+      "translation": "새 같은 사람은 마름을 꺼리지 않고 짐승 같은 이가 살지면 가장 묘하다. 새가 살지면 반드시 날 수 없고 짐승이 마르면 어찌 빨리 달리겠는가.",
+      "commentary": "동물 비유로 체형의 적합성을 설명한다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "似禽之人不嫌瘦",
+          "observable_ko": "새 같은 체형과 마름",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "如獸若肥",
+          "observable_ko": "짐승 같은 체형과 살짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0186",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "虎看「腮兮犀看角，鳳看眼兮鶴身削。",
+      "translation": "호랑이는 뺨을 보고 무소는 뿔을 보며 봉황은 눈을 보고 학은 몸이 깎인 듯하다.",
+      "commentary": "동물형별 관찰 부위를 말할 뿐 구체적인 얼굴 조건은 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "虎看「腮",
+          "observable_ko": "호랑이형의 뺨을 봄",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "犀看角",
+          "observable_ko": "무소형의 뿔을 봄",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "鳳看眼",
+          "observable_ko": "봉황형의 눈을 봄",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "鶴身削",
+          "observable_ko": "학형의 마른 몸",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0187",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "南人似北必富貴，北似南人主崢嶸。",
+      "translation": "남쪽 사람이 북쪽 사람 같으면 반드시 부귀하고 북쪽 사람이 남쪽 사람 같으면 뛰어남을 주관한다.",
+      "commentary": "지역 외모 고정관념에 대한 문헌의 주장이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "南人",
+          "observable_ko": "남쪽 출신 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "北",
+          "observable_ko": "북쪽 출신 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "似北",
+          "observable_ko": "북쪽 사람 같다는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "似南人",
+          "observable_ko": "남쪽 사람 같다는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0188",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "吁嗟流俗不知音，也向飛走要言形。上貴之人方入相，中下之人豈可評。富人不過厚其身，貴士方當與論神。貴在於眼富在耳，富貴同看誤於人。",
+      "translation": "아, 세속은 뜻을 몰라 나는 새와 달리는 짐승에서 형상을 말하려 한다. 지극히 귀한 사람이야 상에 들어가니 중하의 사람을 어찌 평가하겠는가. 부자는 몸이 두터움에 지나지 않고 귀한 선비는 신을 논해야 한다. 귀함은 눈에 있고 부유함은 귀에 있으니 부와 귀를 같이 보면 사람을 그르친다.",
+      "commentary": "부귀를 구분하는 이론과 문헌의 신분적 관점을 기록했다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0189",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "要知南人體似北，身大而肥面多黑。欲知北體似南人，體瘦身輕氣薄清。",
+      "translation": "남쪽 사람의 몸이 북쪽과 같음을 알려면 몸이 크고 살지며 얼굴이 대개 검다. 북쪽 체형이 남쪽 사람 같음을 알려면 몸이 마르고 가벼우며 기가 엷고 맑다.",
+      "commentary": "지역 유형을 설명하는 조건을 전부 기록했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "身大而肥",
+          "observable_ko": "몸이 크고 살짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "面多黑",
+          "observable_ko": "얼굴이 대체로 검음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "體瘦身輕",
+          "observable_ko": "몸이 마르고 가벼움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "氣薄清",
+          "observable_ko": "기가 엷고 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "南人",
+          "observable_ko": "남쪽 출신 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "北體",
+          "observable_ko": "북쪽 출신 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0190",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "不貴似貴」終須貴，不貧似貧終處貧。",
+      "translation": "귀하지 않아도 귀해 보이면 끝내 귀해지고 가난하지 않아도 가난해 보이면 끝내 가난하게 산다.",
+      "commentary": "신분의 인상 자체를 조건으로 삼은 순환적 품평이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "似貴",
+          "observable_ko": "귀해 보임",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "似貧",
+          "observable_ko": "가난해 보임",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "wealth"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0191",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "貧中反貴由何得，看取驛馬先生骨。",
+      "translation": "가난한 가운데 도리어 귀해짐은 무엇으로 얻는가? 역마(驛馬)에서 먼저 뼈가 생기는 것을 보라.",
+      "commentary": "역마는 관상 부위명이나 이 구절은 위치를 설명하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "驛馬先生骨",
+          "observable_ko": "역마 부위에 먼저 뼈가 생김",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0192",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "貴中反貧有何由？胸高體薄神何昏。",
+      "translation": "귀한 가운데 도리어 가난해지는 것은 무슨 까닭인가? 가슴이 높고 몸이 얇고 신이 어둡기 때문이다.",
+      "commentary": "몸통과 신의 상태를 함께 조건으로 보존했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "胸高體薄",
+          "observable_ko": "가슴이 높고 몸이 얇음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神何昏",
+          "observable_ko": "신이 어두움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0193",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "清奇古怪秀異端，七者之中亦弔看。",
+      "translation": "맑음·기이함·예스러움·괴이함·빼어남·특이함·단정함, 일곱 가지 속에서도 살펴보아야 한다.",
+      "commentary": "일곱 품평 범주를 열거한다. 弔看은 살펴봄으로 옮겼다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0194",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "清而無神謂之寒，奇若無神焉有官。古而無神謂之俗，怪若無神仍主辱。秀而無神謂之薄，異而無神謂之弱，端而無神謂之粗，有神七者與常殊，",
+      "translation": "맑으나 신이 없으면 차다 하고 기이하나 신이 없으면 어찌 관직이 있겠는가. 예스러우나 신이 없으면 속되다 하고 괴이하나 신이 없으면 역시 모욕을 주관한다. 빼어나나 신이 없으면 엷다 하고 특이하나 신이 없으면 약하다 하며 단정하나 신이 없으면 거칠다 한다. 신이 있으면 일곱 가지가 보통과 다르다.",
+      "commentary": "신의 유무에 따른 일곱 품평 범주의 정의이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "清而無神",
+          "observable_ko": "맑으나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "奇若無神",
+          "observable_ko": "기이하나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "古而無神",
+          "observable_ko": "예스러우나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "怪若無神",
+          "observable_ko": "괴이하나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "秀而無神",
+          "observable_ko": "빼어나나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "異而無神",
+          "observable_ko": "특이하나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "端而無神",
+          "observable_ko": "단정하나 신이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "有神",
+          "observable_ko": "신이 있음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-eye-0195",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "見達之人志必「遠，視高之人志必強，",
+      "translation": "보는 것이 통달한 사람은 뜻이 반드시 멀고 높이 보는 사람은 뜻이 반드시 강하다.",
+      "commentary": "시선과 보는 능력에 관한 품평이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "見達",
+          "observable_ko": "보는 것이 통달함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "視高",
+          "observable_ko": "높이 바라봄",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-eye-0196",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "最怕下斜並赤暈，心存奸惡氣高昂，",
+      "translation": "가장 두려운 것은 아래로 비스듬히 봄과 붉은 테이니 마음에 간악함을 품고 기세가 높이 오른다.",
+      "commentary": "시선의 방향을 눈꼬리 방향으로 바꾸지 않았다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "下斜",
+          "observable_ko": "아래로 비스듬히 봄",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "赤暈",
+          "observable_ko": "눈에 붉은 테가 있음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-eye-0197",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "更問神生何帶殺，認取白睛多聚血，",
+      "translation": "또 신이 생길 때 어찌 살기를 띠는지 묻는다면 흰자위에 피가 많이 모인 것을 알아보라.",
+      "commentary": "충혈과 살기를 연결한 문헌의 주장이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "白睛多聚血",
+          "observable_ko": "흰자위에 피가 많이 모임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "violence"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0198",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "要辨刑中卻帶刑，定刑獄位有紋痕，",
+      "translation": "형벌 가운데 다시 형벌을 띰을 가리려면 형옥 자리의 주름과 흔적을 정하라.",
+      "commentary": "형옥 부위의 위치는 이 구절에 명시되지 않았다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "刑獄位有紋痕",
+          "observable_ko": "형옥 부위에 주름과 흔적이 있음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "criminality",
+        "violence"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0199",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "觀氣與色宜相合，色居皮上氣居血，來如蠶繭曳牽絲，去似馬尾毛方歇，為福定隨日影去，福必定交終日聚，",
+      "translation": "기와 색을 볼 때에는 서로 맞아야 한다. 색은 피부 위에 있고 기는 피에 있으며 올 때는 누에고치의 실을 끌어내듯 하고 갈 때는 말꼬리 털처럼 비로소 그친다. 복이 됨은 반드시 해 그림자를 따라가고 복은 반드시 교차하여 온종일 모인다.",
+      "commentary": "기색의 움직임을 설명한다. 반복되는 福과 交의 뜻을 교정하지 않았다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "來如蠶繭曳牽絲",
+          "observable_ko": "기색이 고치실을 끌듯 나타남",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "去似馬尾毛方歇",
+          "observable_ko": "기색이 말꼬리 털처럼 사라짐",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0200",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "更看青色與黃紅，又認發時於何部，若言隨部上觀之，吉凶悲喜定無疑。",
+      "translation": "다시 푸른빛과 누런빛·붉은빛을 보고, 나타날 때 어느 부위인지 알아본다. 부위에 따라 관찰한다고 하면 길흉과 슬픔·기쁨이 정해져 의심이 없다.",
+      "commentary": "색의 위치와 시간에 따른 관상 주장이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "青色與黃紅",
+          "observable_ko": "푸른빛·누런빛·붉은빛",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "發時於何部",
+          "observable_ko": "기색이 나타나는 시점과 부위",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0201",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "形滯之人行必重，神滯之人形必開，氣滯之人聲必硬，色滯之人面塵埃，",
+      "translation": "형이 막힌 사람은 걸음이 반드시 무겁고 신이 막힌 사람은 형이 반드시 열리며 기가 막힌 사람은 소리가 반드시 딱딱하고 색이 막힌 사람은 얼굴에 먼지가 낀 듯하다.",
+      "commentary": "형·신·기·색의 정체를 짝지은 설명이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "形滯",
+          "observable_ko": "형이 막힘",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "行必重",
+          "observable_ko": "걸음이 무거움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神滯",
+          "observable_ko": "신이 막힘",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "形必開",
+          "observable_ko": "형이 열림",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "氣滯",
+          "observable_ko": "기가 막힘",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "聲必硬",
+          "observable_ko": "목소리가 딱딱함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "色滯",
+          "observable_ko": "색이 막힘",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "面塵埃",
+          "observable_ko": "얼굴에 먼지 낀 듯함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-face-0202",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "得意之人有可識，辨取三光及五澤，忽然時下不知心，其部自然多黯黑，",
+      "translation": "뜻을 얻은 사람은 알아볼 만한 것이 있으니 삼광과 오택을 가린다. 문득 당시의 마음을 모를 때에는 그 부위에 자연히 어둡고 검은 것이 많다.",
+      "commentary": "삼광·오택은 본문이 세부를 풀지 않은 색택 용어이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "三光及五澤",
+          "observable_ko": "삼광과 오택이라는 빛·윤기",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "其部自然多黯黑",
+          "observable_ko": "해당 부위가 어둡고 검음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0203",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "最愛有處一如無，又忌易憂兼易樂，須知相貌出天然，我若有之非外鑠，",
+      "translation": "가장 좋아하는 것은 있어도 없는 듯한 것이고, 또 쉽게 근심하고 쉽게 즐거워함을 꺼린다. 상모는 천연에서 나옴을 알아야 하니 내게 그것이 있으면 밖에서 녹여 넣은 것이 아니다.",
+      "commentary": "상모와 감정에 관한 일반론이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "有處一如無",
+          "observable_ko": "있어도 없는 듯함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "易憂兼易樂",
+          "observable_ko": "쉽게 근심하고 쉽게 즐거워함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other",
+        "character"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-under_eye-0204",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "淚堂深陷山根折，少年悲泣何曾歇，父母妨害切須知，更如眉上認高低。",
+      "translation": "누당(淚堂, 눈 아래)이 깊이 꺼지고 산근(山根, 콧뿌리)이 꺾이면 젊어서 슬피 우는 일이 어찌 일찍이 그쳤겠는가. 부모를 해침을 반드시 알아야 하며 다시 눈썹 위에서 높낮이를 알아본다.",
+      "commentary": "누당의 함몰과 산근의 꺾임을 보존했으며 눈썹 높낮이의 어느 방향인지 발명하지 않았다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "淚堂深陷",
+          "observable_ko": "눈 아래가 깊이 꺼짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "山根折",
+          "observable_ko": "콧뿌리가 꺾임",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ]
+        },
+        {
+          "region": "brow",
+          "evidence": "眉上認高低",
+          "observable_ko": "눈썹 위 높낮이를 살핌",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "fortune_general"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-brow-0205",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "素無兄弟眉粗短，",
+      "translation": "본래 형제가 없는 것은 눈썹이 굵고 짧기 때문이다.",
+      "commentary": "눈썹 형태와 형제 유무를 연결한 문헌의 주장이다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉粗",
+          "observable_ko": "눈썹이 굵음",
+          "status": "exact",
+          "label": "brow_thickness:thick"
+        },
+        {
+          "region": "brow",
+          "evidence": "素無兄弟眉粗短",
+          "observable_ko": "눈썹이 짧음",
+          "status": "exact",
+          "label": "brow_length:short"
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-ear-0206",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "耳輪無廓主無妻。",
+      "translation": "귓바퀴에 안쪽 테가 없으면 아내가 없음을 주관한다.",
+      "commentary": "귀 연골 구조와 혼인을 연결한 구절이다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳輪無廓",
+          "observable_ko": "귀의 안쪽 테가 없음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-chin-0207",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "更有一法辨防妻，閣中枯陷少人知。",
+      "translation": "또 아내를 방해함을 가리는 한 법이 있으니 지각 가운데가 마르고 꺼지는 것을 아는 사람이 적다.",
+      "commentary": "防妻는 아내에게 불리함으로 옮겼다. 턱 중심의 함몰은 턱 전체 후퇴와 다르다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "閣中枯陷",
+          "observable_ko": "턱 가운데가 마르고 꺼짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "marriage"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-forehead-0208",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "日角龍角誰謂奇，所為不吉任何為。三尖五露不相入，所為皆吉禍因齊。",
+      "translation": "일각과 용각을 누가 기이하다고 하는가? 하는 일이 길하지 않으면 무엇을 하겠는가. 삼첨과 오로는 상에 들지 않으나 하는 일이 모두 길해도 재앙의 원인이 모인다.",
+      "commentary": "禍因齊는 앞뒤 논지와 맞지 않아도 수정하지 않고 직역했다. 삼첨·오로의 세부는 본문에 없다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "日角龍角",
+          "observable_ko": "일각과 용각이라는 뼈 부위",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "三尖五露",
+          "observable_ko": "삼첨과 오로라는 유형",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "所為不吉",
+          "observable_ko": "행위가 길하지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "所為皆吉",
+          "observable_ko": "행위가 모두 길함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "character"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0209",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "若不辨心而論相，是將人事逆天時。天時人事如相稱，相逐心生信有之。",
+      "translation": "마음을 가리지 않고 상을 논하면 사람 일을 천시에 거스르게 하는 것이다. 천시와 사람 일이 서로 맞으면 상이 마음을 따라 생긴다는 것은 참으로 있다.",
+      "commentary": "외형과 마음의 관계를 설명하는 문헌의 관점이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0210",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "大都貴賤不相識，微妙盡夫人眼力。居然由貌以觀之，恐誤世人認」凶吉。",
+      "translation": "대체로 귀천을 서로 알지 못하니 미묘함은 모두 사람의 안력에 달렸다. 버젓이 외모만으로 관찰하면 세상 사람이 흉길을 알아보는 데 잘못되게 할까 두렵다.",
+      "commentary": "외모만으로 판단하는 데 대한 문헌 자체의 유보이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-other-0211",
+      "section": "《陳希夷風鑑歌》",
+      "original_text": "雖然富貴盡有科，其所不知惟有壽。若將《風鑑》以規之，長短於中亦無究。",
+      "translation": "비록 부귀에는 모두 조목이 있으나 알지 못하는 것은 오직 수명이다. 풍감으로 이를 헤아려도 그 가운데 길고 짧음은 역시 끝까지 알 수 없다.",
+      "commentary": "수명 판단의 한계를 밝히는 맺음말이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other",
+        "death_lifespan"
+      ],
+      "attributed_to": "陳希夷"
+    },
+    {
+      "passage_id": "CX638-forehead-0001",
+      "section": "《太乙真人書》",
+      "original_text": "「侍天顏之咫尺；額廣足圓，趨帝闕之須臾。",
+      "translation": "천자의 얼굴을 지척에서 모시며, 이마가 넓고 발이 둥글면 잠깐 사이에 황제의 궁궐로 달려간다.",
+      "commentary": "첫 구절의 조건은 이 문장에 명시되지 않았다. 足은 전사대로 발로 옮겼으며 문헌은 뒤의 형태를 궁정 출입과 연결한다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額廣",
+          "observable_ko": "이마가 넓음",
+          "status": "exact",
+          "label": "forehead_width:wide"
+        },
+        {
+          "region": "other",
+          "evidence": "足圓",
+          "observable_ko": "발이 둥긂",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-brow-0002",
+      "section": "《太乙真人書》",
+      "original_text": "眉清目秀，天庭高闊，不貴還當富有餘；",
+      "translation": "눈썹이 맑고 눈이 빼어나며 천정(天庭, 이마 위쪽)이 높고 넓으면 귀하지 않더라도 부유함이 넉넉하리라.",
+      "commentary": "천정의 높이는 돌출과 세로 길이가 구분되지 않고 부위도 이마 전체로 한정되지 않는다. 문헌의 부귀 주장이다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉清",
+          "observable_ko": "눈썹이 맑음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "目秀",
+          "observable_ko": "눈이 빼어남",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "天庭高闊",
+          "observable_ko": "천정이 높고 넓음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "forehead_height:high",
+            "forehead_width:wide"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-chin-0003",
+      "section": "《太乙真人書》",
+      "original_text": "地閣尖長，多憂還是家不足。",
+      "translation": "지각(地閣, 턱)이 뾰족하고 길면 근심이 많고 또한 집안이 넉넉하지 않다.",
+      "commentary": "턱의 뾰족함과 길이를 함께 조건으로 보존했다. 턱 길이는 하정 전체 길이와 같지 않다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "地閣尖",
+          "observable_ko": "턱이 뾰족함",
+          "status": "exact",
+          "label": "chin_shape:pointed"
+        },
+        {
+          "region": "chin",
+          "evidence": "長",
+          "observable_ko": "턱이 긺",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-nose-0004",
+      "section": "《太乙真人書》",
+      "original_text": "鼻如懸膽，平生足祿足財；",
+      "translation": "코가 매달린 쓸개 같으면 평생 녹과 재물이 넉넉하다.",
+      "commentary": "현담(懸膽)은 코의 비유적 유형명이다. 구체적인 길이·폭을 정할 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻如懸膽",
+          "observable_ko": "코가 매달린 쓸개 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-ear-0005",
+      "section": "《太乙真人書》",
+      "original_text": "耳若連腮，自是有名有譽，因甚功名較晚。筋骨傷高，",
+      "translation": "귀가 뺨에 이어진 듯하면 본래 이름과 명성이 있다. 무엇 때문에 공명이 비교적 늦는가? 근육과 뼈가 지나치게 높기 때문이다.",
+      "commentary": "傷高는 지나치게 높다는 뜻으로 옮겼으나 대상 부위가 명확하지 않다. 전사의 문장 경계를 유지했다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳若連腮",
+          "observable_ko": "귀가 뺨에 이어진 듯함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "筋骨傷高",
+          "observable_ko": "근육과 뼈가 지나치게 높음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-philtrum-0006",
+      "section": "《太乙真人書》",
+      "original_text": "緣何壽命不長，人中短促。",
+      "translation": "무엇 때문에 수명이 길지 않은가? 인중(人中, 코 아래 세로 홈)이 짧고 촉박하기 때문이다.",
+      "commentary": "문헌은 인중 길이를 수명과 연결했다. 생존 인물의 수명을 판정하는 근거가 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中短促",
+          "observable_ko": "인중이 짧음",
+          "status": "exact",
+          "label": "philtrum_length:short"
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-mouth-0007",
+      "section": "《太乙真人書》",
+      "original_text": "口無稜角，終為說是說非；",
+      "translation": "입에 모와 각이 없으면 끝내 옳다 그르다 말하게 된다.",
+      "commentary": "문헌은 입 윤곽을 시비를 말하는 성향과 연결했다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口無稜角",
+          "observable_ko": "입의 모와 각이 없음",
+          "status": "approximate",
+          "reason": "입 전체의 모와 각은 입술 능선만을 뜻한다고 확정할 수 없다.",
+          "candidate_labels": [
+            "lip_bow:flat"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-mouth-0008",
+      "section": "《太乙真人書》",
+      "original_text": "脣若含丹，一世潤身潤屋。",
+      "translation": "입술이 붉은 단사를 머금은 듯하면 한평생 몸과 집을 윤택하게 한다.",
+      "commentary": "함단(含丹)은 붉은 입술을 나타내는 색택 비유다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣若含丹",
+          "observable_ko": "입술이 단사처럼 붉음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-brow-0009",
+      "section": "《太乙真人書》",
+      "original_text": "常是憂深遠慮只為眉攢，",
+      "translation": "늘 근심이 깊고 생각이 먼 것은 다만 눈썹을 모으기 때문이다.",
+      "commentary": "攢은 찌푸리거나 모으는 표정일 수 있어 고정된 눈썹 간격으로 치환하지 않았다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉攢",
+          "observable_ko": "눈썹을 모음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-eye-0010",
+      "section": "《太乙真人書》",
+      "original_text": "然而吉少凶多，皆因目陷傷殘骨肉。須知眼下淚痕，",
+      "translation": "그러나 길함이 적고 흉함이 많은 것은 모두 눈이 꺼진 탓이다. 혈육을 해치고 상하게 함은 눈 아래 눈물 자국에서 알아야 한다.",
+      "commentary": "전사에서 이어진 두 판단을 분리해 읽었다. 눈물 자국은 인중이나 눈 깊이 라벨로 대체할 수 없다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目陷",
+          "observable_ko": "눈이 꺼짐",
+          "status": "exact",
+          "label": "eye_depth:deep"
+        },
+        {
+          "region": "under_eye",
+          "evidence": "眼下淚痕",
+          "observable_ko": "눈 아래 눈물 자국",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "kinship_harm"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0011",
+      "section": "《太乙真人書》",
+      "original_text": "剋害親情，偏忌怒中喜色，",
+      "translation": "친족을 해친다는 데에는 특히 노여움 속의 기쁜 빛을 꺼린다.",
+      "commentary": "문헌은 감정 표현의 혼재를 친족 위해와 연결한다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "怒中喜色",
+          "observable_ko": "노여움 속에서 기쁜 안색을 보임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-eye-0012",
+      "section": "《太乙真人書》",
+      "original_text": "欲識其心不善；眼視偏斜，",
+      "translation": "그 마음이 선하지 않음을 알고자 하면, 눈길이 한쪽으로 비스듬하다.",
+      "commentary": "시선 방향은 눈꼬리 형태와 다르다. 문헌의 도덕적 평가를 귀속하여 기록했다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼視偏斜",
+          "observable_ko": "눈길이 비스듬함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-mouth-0013",
+      "section": "《太乙真人書》",
+      "original_text": "要知其心不長。脣掀舌薄，",
+      "translation": "그 마음이 오래가지 않음을 알고자 하면, 입술이 들리고 혀가 얇다.",
+      "commentary": "舌薄은 혀 두께이므로 입술 두께 라벨과 구별했다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣掀",
+          "observable_ko": "입술이 들림",
+          "status": "exact",
+          "label": "lip_projection:protruded"
+        },
+        {
+          "region": "tongue",
+          "evidence": "舌薄",
+          "observable_ko": "혀가 얇음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-teeth-0014",
+      "section": "《太乙真人書》",
+      "original_text": "齒方而密，聰明勤視詩書，",
+      "translation": "이가 네모나고 촘촘하면 총명하여 시서를 부지런히 읽는다.",
+      "commentary": "치아 형태에 지적 능력을 연결한 문헌의 주장이다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒方而密",
+          "observable_ko": "이가 네모나고 촘촘함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-eye-0015",
+      "section": "《太乙真人書》",
+      "original_text": "目潤而長，志氣貫通今古。",
+      "translation": "눈이 윤택하고 길면 뜻과 기개가 지금과 옛날을 꿰뚫는다.",
+      "commentary": "눈 길이와 윤택함을 별도 조건으로 보존했다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目潤",
+          "observable_ko": "눈이 윤택함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "目潤而長",
+          "observable_ko": "눈이 긺",
+          "status": "exact",
+          "label": "eye_size:large"
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "intelligence"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0016",
+      "section": "《太乙真人書》",
+      "original_text": "若知貴賤，細看分明。",
+      "translation": "귀천을 알려면 자세히 보아 분명하게 하라.",
+      "commentary": "관찰 방법을 권하는 문헌의 일반론으로 형태 조건은 없다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-mouth-0017",
+      "section": "《太乙真人書》",
+      "original_text": "嗚呼，脣若掀翻，言語虛而懷奸詐；",
+      "translation": "아, 입술이 들리고 뒤집히면 말이 허황되고 간사한 속임수를 품는다.",
+      "commentary": "문헌의 기만성 주장을 기록하며 뒤집힘을 단순 돌출로 축약하지 않았다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣若掀翻",
+          "observable_ko": "입술이 들리고 뒤집힘",
+          "status": "approximate",
+          "reason": "들림 외에 뒤집힘까지 포함한 복합 형태다.",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-eye-0018",
+      "section": "《太乙真人書》",
+      "original_text": "眼如深露，詭詐大而蘊強梁。",
+      "translation": "눈이 깊이 드러난 듯하면 속임수가 크고 사나움을 품는다.",
+      "commentary": "深露는 깊음과 드러남의 관계가 불분명한 전사 표현이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼如深露",
+          "observable_ko": "눈이 깊이 드러난 듯함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit",
+        "violence"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0019",
+      "section": "《太乙真人書》",
+      "original_text": "五嶽不正，非盡善盡美之人；",
+      "translation": "오악(五嶽, 얼굴의 다섯 산으로 비유한 부위)이 바르지 않으면 지극히 선하고 아름다운 사람이 아니다.",
+      "commentary": "오악의 바름은 개별 측정 조건으로 특정되지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "五嶽不正",
+          "observable_ko": "오악이 바르지 않음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-eye-0020",
+      "section": "《太乙真人書》",
+      "original_text": "兩眼雌雄，豈由仁由義」之子。",
+      "translation": "두 눈이 암수처럼 다르면 어찌 인과 의를 따르는 사람이겠는가.",
+      "commentary": "자웅안은 양쪽 눈의 비대칭을 가리키는 유형명이다. 도덕 판단은 문헌에 귀속된다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "兩眼雌雄",
+          "observable_ko": "양쪽 눈 크기가 비대칭임",
+          "status": "exact",
+          "label": "eye_asymmetry:asymmetric"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0021",
+      "section": "《太乙真人書》",
+      "original_text": "色如常變必蹭蹬而名更遲，",
+      "translation": "안색이 늘 변하면 반드시 좌절하고 이름을 얻기도 더욱 늦다.",
+      "commentary": "안색 변화는 정지 형태 조건이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "色如常變",
+          "observable_ko": "안색이 늘 바뀜",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "rank_office"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0022",
+      "section": "《太乙真人書》",
+      "original_text": "聲若破鑼多刑害而心不睦。",
+      "translation": "소리가 깨진 징 같으면 형벌과 해가 많고 마음이 화목하지 않다.",
+      "commentary": "목소리 비유에 형해와 불화를 연결한 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "聲若破鑼",
+          "observable_ko": "목소리가 깨진 징 같음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "violence",
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-brow-0023",
+      "section": "《太乙真人書》",
+      "original_text": "眉如一字，豈能潤屋肥家，",
+      "translation": "눈썹이 일(一) 자 같으면 어찌 집을 윤택하고 넉넉하게 하겠는가.",
+      "commentary": "문헌은 일자 눈썹을 부정적인 재산 주장과 연결했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉如一字",
+          "observable_ko": "눈썹이 일자임",
+          "status": "exact",
+          "label": "brow_shape:straight"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0024",
+      "section": "《太乙真人書》",
+      "original_text": "背若屏風終是封妻廕子。",
+      "translation": "등이 병풍 같으면 끝내 아내에게 봉작을 주고 자식에게 음덕의 관직을 남긴다.",
+      "commentary": "등의 비유는 얼굴 형태 조건이 아니다. 封妻廕子는 가족에게 미치는 관직상의 혜택을 말한다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "背若屏風",
+          "observable_ko": "등이 병풍 같음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "family_children"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0025",
+      "section": "《太乙真人書》",
+      "original_text": "腹垂腰闊，衣糧足用而倉庫充，",
+      "translation": "배가 처지고 허리가 넓으면 의복과 양식이 쓰기에 충분하고 창고가 찬다.",
+      "commentary": "몸통 형태를 재물과 연결한 문헌의 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腹垂腰闊",
+          "observable_ko": "배가 처지고 허리가 넓음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0026",
+      "section": "《太乙真人書》",
+      "original_text": "胸露臀高，家業散而壽源少。",
+      "translation": "가슴이 드러나고 엉덩이가 높으면 가업이 흩어지고 수명의 근원이 적다.",
+      "commentary": "몸통 형태와 수명·가업을 연결한 서술이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "胸露臀高",
+          "observable_ko": "가슴이 드러나고 엉덩이가 높음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "death_lifespan"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-forehead-0027",
+      "section": "《太乙真人書》",
+      "original_text": "若乃天庭中正，定知事事無憂。",
+      "translation": "만약 천정(天庭, 이마 위쪽)이 가운데 바르면 반드시 일마다 근심이 없음을 안다.",
+      "commentary": "中正의 구체적인 기하학적 기준은 제시되지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "天庭中正",
+          "observable_ko": "천정이 가운데 바름",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-brow-0028",
+      "section": "《太乙真人書》",
+      "original_text": "假若眉宇長弘，必主般般利益。",
+      "translation": "가령 미우(眉宇, 눈썹 언저리)가 길고 넓으면 반드시 여러 가지 이익을 주관한다.",
+      "commentary": "미우의 범위가 눈썹 자체와 같다고 단정하지 않았다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉宇長弘",
+          "observable_ko": "눈썹 언저리가 길고 넓음",
+          "status": "approximate",
+          "reason": "눈썹 털 자체가 아니라 눈썹 주변 부위의 복합 크기다.",
+          "candidate_labels": [
+            "brow_length:long"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0029",
+      "section": "《太乙真人書》",
+      "original_text": "身宜橫闊而正匾，不入相維體，上短下長，難為吉論。",
+      "translation": "몸은 가로로 넓고 바르게 납작해야 한다. 상에 들어맞지 않는 유체(維體)는 위가 짧고 아래가 길어 길하다고 논하기 어렵다.",
+      "commentary": "維體의 뜻은 전사만으로 불분명하여 글자대로 남겼다. 몸의 비율을 얼굴 하정 비율로 옮기지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "身宜橫闊而正匾",
+          "observable_ko": "몸이 가로로 넓고 바르게 납작함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "上短下長",
+          "observable_ko": "몸의 위가 짧고 아래가 긺",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0030",
+      "section": "《太乙真人書》",
+      "original_text": "若夫行步緩重，當為仁德。",
+      "translation": "걸음이 느리고 무거우면 마땅히 어질고 덕이 있다고 한다.",
+      "commentary": "걸음과 덕성을 연결한 문헌의 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "行步緩重",
+          "observable_ko": "걸음이 느리고 무거움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0031",
+      "section": "《太乙真人書》",
+      "original_text": "更如坐視端莊，必為福相。",
+      "translation": "또 앉아서 보는 모습이 단정하고 엄숙하면 반드시 복 있는 상이다.",
+      "commentary": "자세와 시선은 고정 형태가 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "坐視端莊",
+          "observable_ko": "앉아 보는 모습이 단정함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0032",
+      "section": "《太乙真人書》",
+      "original_text": "神要藏而威不露，貴而可知。",
+      "translation": "신(神, 정신의 드러남)은 감추고 위엄은 드러내지 않아야 하니 귀함을 알 수 있다.",
+      "commentary": "신과 위엄은 형태 라벨로 확인할 수 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "神要藏而威不露",
+          "observable_ko": "신을 감추고 위엄을 드러내지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0033",
+      "section": "《太乙真人書》",
+      "original_text": "色要正而氣要清，富而不謬。",
+      "translation": "색은 바르고 기는 맑아야 하니 부유함이 틀리지 않는다.",
+      "commentary": "색·기는 문헌의 관상 개념으로 형태와 구별된다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "色要正而氣要清",
+          "observable_ko": "색이 바르고 기가 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0034",
+      "section": "《太乙真人書》",
+      "original_text": "色要細察，方斷吉凶。形要細觀，方言貴賤。",
+      "translation": "색을 자세히 살펴야 비로소 길흉을 판단하고, 형태를 자세히 보아야 비로소 귀천을 말한다.",
+      "commentary": "관상 절차를 설명하는 일반론이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-face-0035",
+      "section": "《太乙真人書》",
+      "original_text": "或形清而後有福，或貌古而有前程。",
+      "translation": "혹은 형태가 맑아 뒤에 복이 있고, 혹은 모습이 예스러워 앞길이 있다.",
+      "commentary": "청·고라는 품평어에는 정준 측정 기준이 없다. 두 대안 모두 비매핑으로 보존했다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "形清",
+          "observable_ko": "형태가 맑음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "貌古",
+          "observable_ko": "모습이 예스러움",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0036",
+      "section": "《太乙真人書》",
+      "original_text": "古怪清奇，必當詳審。不以美善而言福，不必醜怪而言凶。",
+      "translation": "예스러움·괴이함·맑음·기이함은 반드시 자세히 살펴야 한다. 아름답고 좋다는 것으로 복을 말하지 말고, 추하고 괴이하다고 반드시 흉함을 말할 것은 아니다.",
+      "commentary": "외모의 미추만으로 길흉을 정하지 말라는 문헌 자체의 제한이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0037",
+      "section": "《太乙真人書》",
+      "original_text": "此名《太乙真人書》，喚作「仙家神品鑑。」",
+      "translation": "이를 『태을진인서』라 이름하고 ‘선가의 신묘한 품평 거울’이라 부른다.",
+      "commentary": "본문의 서명 설명이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "none"
+      ],
+      "attributed_to": "太乙真人"
+    },
+    {
+      "passage_id": "CX638-other-0085",
+      "section": "《鬼眼先生相法》",
+      "original_text": "「欲推命祿，先相形神。觀姿儀之滿澤，量面部之三停。",
+      "translation": "명과 녹을 추론하려면 먼저 형체와 신을 살핀다. 자태의 충만함과 윤택함을 보고 얼굴의 삼정(三停, 세 구획)을 헤아린다.",
+      "commentary": "관상 절차의 서론이며 특정 형태에 대한 결과 주장은 없다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0086",
+      "section": "《鬼眼先生相法》",
+      "original_text": "肥而無餘，豪貴若粟黃《繒紫》；",
+      "translation": "살져도 남음이 없으면 호걸스럽고 귀함이 누런 곡식과 자주 비단 같다.",
+      "commentary": "체형 조건이다. 粟黃繒紫는 곡식과 비단의 색 표현을 그대로 옮겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "肥而無餘",
+          "observable_ko": "살져도 남음이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0087",
+      "section": "《鬼眼先生相法》",
+      "original_text": "瘦而弗瘁，賢才定脂白瓜青。」",
+      "translation": "말라도 초췌하지 않으면 어진 재능은 반드시 흰 기름과 푸른 오이 같다.",
+      "commentary": "脂白瓜青의 비유는 뜻이 분명하지 않아 글자대로 남겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "瘦而弗瘁",
+          "observable_ko": "말라도 초췌하지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0088",
+      "section": "《鬼眼先生相法》",
+      "original_text": "眼細而深，機關莫測；",
+      "translation": "눈이 가늘고 깊으면 속셈을 헤아릴 수 없다.",
+      "commentary": "두 형태에 속셈의 불가측성을 연결한 문헌의 주장이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼細",
+          "observable_ko": "눈이 가늚",
+          "status": "exact",
+          "label": "eye_roundness:narrow"
+        },
+        {
+          "region": "eye",
+          "evidence": "眼細而深",
+          "observable_ko": "눈이 깊음",
+          "status": "exact",
+          "label": "eye_depth:deep"
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0089",
+      "section": "《鬼眼先生相法》",
+      "original_text": "體魁而黑，狡猾難明。",
+      "translation": "몸이 크고 검으면 교활함을 밝히기 어렵다.",
+      "commentary": "체형·피부색에 교활함을 연결한 낙인성 서술이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "體魁而黑",
+          "observable_ko": "몸이 크고 검음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-face-0090",
+      "section": "《鬼眼先生相法》",
+      "original_text": "赤急性傲，瑩緩心靈。",
+      "translation": "붉고 급하면 성품이 오만하고, 빛나고 느긋하면 마음이 영민하다.",
+      "commentary": "서로 다른 색·기세의 대조이며 어느 부위인지는 명시되지 않았다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "赤急",
+          "observable_ko": "붉고 급함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "瑩緩",
+          "observable_ko": "빛나고 느긋함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "intelligence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-face-0091",
+      "section": "《鬼眼先生相法》",
+      "original_text": "男女互容，以防其人情莫久；",
+      "translation": "남녀가 서로 상대의 모습을 지니면 그 사람의 정이 오래가지 않음을 경계한다.",
+      "commentary": "성별 외모 고정관념에 따른 역사적 주장으로 기록한다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "男女",
+          "observable_ko": "남녀라는 대상 구분",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "互容",
+          "observable_ko": "다른 성의 모습이라는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "marriage"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-face-0092",
+      "section": "《鬼眼先生相法》",
+      "original_text": "面色更顏，安保其心事無寧。",
+      "translation": "얼굴빛이 낯을 바꾸면 어찌 그 마음속 일의 불안함을 면한다고 보장하겠는가.",
+      "commentary": "安保와 無寧의 연결은 모호하나 안색 변화와 불안을 연결하는 문맥으로 옮겼다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面色更顏",
+          "observable_ko": "얼굴빛이 변함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0093",
+      "section": "《鬼眼先生相法》",
+      "original_text": "若辨高低，先看額相。上窄小貧，下寬滿。貴",
+      "translation": "높고 낮음을 가리려면 먼저 이마 상을 본다. 위가 좁고 작으면 가난하고, 아래가 넓고 충만하면 귀하다.",
+      "commentary": "전사의 끊어진 구두를 글자 순서대로 유지하며 상하 부위를 구별했다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "上窄小",
+          "observable_ko": "이마 위쪽이 좁고 작음",
+          "status": "approximate",
+          "reason": "이마 위쪽의 한정된 너비와 크기다.",
+          "candidate_labels": [
+            "forehead_width:narrow"
+          ]
+        },
+        {
+          "region": "forehead",
+          "evidence": "下寬滿",
+          "observable_ko": "이마 아래쪽이 넓고 충만함",
+          "status": "approximate",
+          "reason": "부분 너비와 살집의 복합 조건이다.",
+          "candidate_labels": [
+            "forehead_width:wide"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0094",
+      "section": "《鬼眼先生相法》",
+      "original_text": "上中分五位，無令瘢靨疵青。橫列多名，盡要潤光舒暢。",
+      "translation": "위와 가운데를 다섯 자리로 나누어 흉터·점·흠과 푸른빛이 없게 한다. 가로로 여러 이름을 늘어놓으며 모두 윤택하고 빛나고 펼쳐져 시원해야 한다.",
+      "commentary": "특정 부위의 여러 결격 조건을 점 유무 라벨 하나로 축약하지 않았다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "無令瘢靨疵青",
+          "observable_ko": "흉터·점·흠과 푸른빛이 없어야 함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "潤光",
+          "observable_ko": "윤택하고 빛남",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "舒暢",
+          "observable_ko": "펼쳐지고 시원함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0095",
+      "section": "《鬼眼先生相法》",
+      "original_text": "骨起衡山，官居朝望。",
+      "translation": "형산(衡山)에 뼈가 솟으면 관직이 조정의 명망 있는 자리에 이른다.",
+      "commentary": "형산은 산 이름을 빌린 부위명이며 여기서는 뼈의 돌출을 말한다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "骨起衡山",
+          "observable_ko": "형산 부위에 뼈가 솟음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0096",
+      "section": "《鬼眼先生相法》",
+      "original_text": "直懸一理，從髮距印以封侯；",
+      "translation": "한 줄이 곧게 드리워 머리털에서 인당에 이르면 후에 봉해진다.",
+      "commentary": "머리털 경계와 인당 사이의 선은 이마 높이와 다르다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "直懸一理，從髮距印",
+          "observable_ko": "모발에서 인당까지 곧게 드리운 한 줄",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0097",
+      "section": "《鬼眼先生相法》",
+      "original_text": "橫畫三紋，長身末立而父喪；",
+      "translation": "가로로 세 줄의 무늬가 그어지면 몸이 자라도 아직 서지 못하고 아버지를 잃는다.",
+      "commentary": "末立은 전사대로 뜻을 옮겼으며 주름 개수의 정준 라벨은 없다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "橫畫三紋",
+          "observable_ko": "가로 세 줄의 무늬",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0098",
+      "section": "《鬼眼先生相法》",
+      "original_text": "曲水入重，乘亂畫，貧困堪裁；",
+      "translation": "굽은 물이 겹쳐 들어가 어지럽게 그어지면 빈곤을 헤아릴 만하다.",
+      "commentary": "주름의 물길 비유로 읽되 불분명한 글자를 수정하지 않았다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "曲水入重，乘亂畫",
+          "observable_ko": "굽은 물처럼 겹쳐 어지러운 선",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-forehead-0099",
+      "section": "《鬼眼先生相法》",
+      "original_text": "「山川二並」及八字，雄豪可讓。",
+      "translation": "‘산과 내 두 가지가 나란한 것’ 및 팔(八) 자이면 웅호함을 양보할 만하다.",
+      "commentary": "이마 주름 문맥의 팔자를 눈썹 꼬리 방향으로 오인하지 않았다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "「山川二並」及八字",
+          "observable_ko": "산·내 및 팔자 모양의 무늬",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0100",
+      "section": "《鬼眼先生相法》",
+      "original_text": "其有眉定信義，自主精神；眉要烏闊而平起，目要清光而正直。",
+      "translation": "눈썹으로 신의를 정하고 스스로 정신을 주관한다. 눈썹은 검고 넓으며 평평하게 솟아야 하고, 눈은 맑게 빛나고 바르고 곧아야 한다.",
+      "commentary": "눈썹의 너비와 검은 색을 두께·밀도로 임의 대체하지 않았다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "烏",
+          "observable_ko": "눈썹이 검음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "闊",
+          "observable_ko": "눈썹이 넓음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "平起",
+          "observable_ko": "눈썹이 평평하게 솟음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "清光",
+          "observable_ko": "눈빛이 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "正直",
+          "observable_ko": "눈이 바르고 곧음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0101",
+      "section": "《鬼眼先生相法》",
+      "original_text": "缺薄行虧，",
+      "translation": "눈썹이 빠지고 얇으면 행실이 모자란다.",
+      "commentary": "앞 문장의 눈썹을 이어 읽었다. 薄은 두께와 밀도가 구별되지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "缺",
+          "observable_ko": "눈썹에 결손이 있음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "薄",
+          "observable_ko": "눈썹이 얇거나 성김",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "brow_thickness:thin",
+            "brow_density:sparse"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0102",
+      "section": "《鬼眼先生相法》",
+      "original_text": "濃長必豐資之相；",
+      "translation": "눈썹이 짙고 길면 반드시 재산이 풍부한 상이다.",
+      "commentary": "앞 문장의 눈썹에 관한 두 조건이다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "濃長必豐資之相",
+          "observable_ko": "눈썹이 짙음",
+          "status": "exact",
+          "label": "brow_density:dense"
+        },
+        {
+          "region": "brow",
+          "evidence": "濃長必豐資之相",
+          "observable_ko": "눈썹이 긺",
+          "status": "exact",
+          "label": "brow_length:long"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0103",
+      "section": "《鬼眼先生相法》",
+      "original_text": "低垂智淺，",
+      "translation": "눈썹이 낮게 드리우면 지혜가 얕다.",
+      "commentary": "지능에 대한 주장은 문헌에 귀속한다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "低垂",
+          "observable_ko": "눈썹이 낮게 드리움",
+          "status": "approximate",
+          "reason": "꼬리를 명시하지 않고 전체의 낮음과 드리움을 함께 말한다.",
+          "candidate_labels": [
+            "brow_tail:descending"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0104",
+      "section": "《鬼眼先生相法》",
+      "original_text": "細長定慳劣之徒。",
+      "translation": "눈썹이 가늘고 길면 반드시 인색하고 못난 무리이다.",
+      "commentary": "눈썹 형태에 인색함을 연결한 문헌의 주장이다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "細長定慳劣之徒",
+          "observable_ko": "눈썹이 가늚",
+          "status": "exact",
+          "label": "brow_thickness:thin"
+        },
+        {
+          "region": "brow",
+          "evidence": "細長定慳劣之徒",
+          "observable_ko": "눈썹이 긺",
+          "status": "exact",
+          "label": "brow_length:long"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0105",
+      "section": "《鬼眼先生相法》",
+      "original_text": "尾逆弒父，",
+      "translation": "눈썹 꼬리가 거슬러 나면 아버지를 죽인다.",
+      "commentary": "역생과 꼬리의 상향 각도는 다르다. 극단적인 역사적 위해 주장을 보존했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "尾逆",
+          "observable_ko": "눈썹 꼬리 털이 거슬러 남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "violence",
+        "criminality"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-brow-0106",
+      "section": "《鬼眼先生相法》",
+      "original_text": "毫長壽神；",
+      "translation": "긴 털이 길면 수명의 신이다.",
+      "commentary": "개별 장모를 눈썹 전체 길이로 매핑하지 않았다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "毫長",
+          "observable_ko": "눈썹의 특별한 긴 털",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-under_eye-0107",
+      "section": "《鬼眼先生相法》",
+      "original_text": "目下肉生，或臉無光而絕嗣。",
+      "translation": "눈 아래에 살이 생기거나 얼굴에 빛이 없으면 후사가 끊어진다.",
+      "commentary": "或로 나열된 대안이어서 둘을 단일 서비스 조건으로 추정하지 않는다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "目下肉生",
+          "observable_ko": "눈 아래 살이 생김",
+          "status": "approximate",
+          "reason": "와잠이라고 명시되지 않은 살의 생성이다.",
+          "candidate_labels": [
+            "under_eye:visible"
+          ]
+        },
+        {
+          "region": "face",
+          "evidence": "臉無光",
+          "observable_ko": "얼굴에 빛이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0108",
+      "section": "《鬼眼先生相法》",
+      "original_text": "睛上胞覆，或瘇異而奸親。",
+      "translation": "눈동자 위에 눈꺼풀이 덮이거나 부어 기이하면 친족과 간음한다.",
+      "commentary": "눈꺼풀 덮임은 단·쌍꺼풀 분류와 다르다. 성적 비난은 문헌의 주장이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "睛上胞覆",
+          "observable_ko": "눈꺼풀이 눈동자를 덮음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "瘇異",
+          "observable_ko": "부어 기이함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "sexual_conduct",
+        "health_disease"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0109",
+      "section": "《鬼眼先生相法》",
+      "original_text": "緩視性沉，赤急暴虐。",
+      "translation": "느리게 보면 성품이 침착하고, 붉고 급하면 사납고 잔학하다.",
+      "commentary": "시선 동작과 색·기세를 대조한 구절이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "緩視",
+          "observable_ko": "느리게 봄",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "赤急",
+          "observable_ko": "눈이 붉고 급함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "violence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0110",
+      "section": "《鬼眼先生相法》",
+      "original_text": "豬羊鼠鵝，貪疾夭而多妨害。",
+      "translation": "돼지·양·쥐·거위 같은 눈은 탐욕스럽고 병들고 요절하며 해침이 많다.",
+      "commentary": "눈에 관한 동물 비유로 읽되 모양을 발명하지 않았다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "豬羊鼠鵝",
+          "observable_ko": "돼지·양·쥐·거위의 눈 비유",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "health_disease",
+        "death_lifespan",
+        "kinship_harm"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0111",
+      "section": "《鬼眼先生相法》",
+      "original_text": "雞猴蜂蛄，婬昏蠱而定盜貧。",
+      "translation": "닭·원숭이·벌·땅강아지 같은 눈은 음란하고 어둡고 미혹되며 반드시 도둑질하고 가난하다.",
+      "commentary": "동물형 눈에 연결한 복합 낙인성 주장이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "雞猴蜂蛄",
+          "observable_ko": "닭·원숭이·벌·땅강아지 눈 비유",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "sexual_conduct",
+        "intelligence",
+        "criminality",
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0112",
+      "section": "《鬼眼先生相法》",
+      "original_text": "似龜口者莫言其富，同魚目者必屢遭迍。",
+      "translation": "거북 입 같은 이를 부유하다고 말하지 말며, 물고기 눈 같은 이는 반드시 자주 막힘을 당한다.",
+      "commentary": "두 비유적 유형에 대한 병렬 판단으로 모두 비매핑이다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "似龜口",
+          "observable_ko": "거북 같은 입",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "同魚目",
+          "observable_ko": "물고기 같은 눈",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-eye-0113",
+      "section": "《鬼眼先生相法》",
+      "original_text": "赤白者必遭兵死，昏黃者定落波津。",
+      "translation": "붉고 흰 이는 반드시 병기로 죽고, 흐리고 누런 이는 반드시 물결 나루에 떨어진다.",
+      "commentary": "앞의 눈 문맥으로 읽었으며 물에 떨어짐은 익사 암시로 기록했다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "赤白",
+          "observable_ko": "붉고 흰 눈빛",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "昏黃",
+          "observable_ko": "흐리고 누런 눈빛",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "violence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0114",
+      "section": "《鬼眼先生相法》",
+      "original_text": "鼻兮高山要白於面竅小而頭低。",
+      "translation": "코라는 높은 산은 얼굴보다 희고 구멍이 작고 끝이 낮아야 한다.",
+      "commentary": "高山은 코의 비유적 호칭으로 읽었다. 콧구멍 크기는 노출 여부와 다르다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "白於面",
+          "observable_ko": "코가 얼굴보다 흼",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "竅小",
+          "observable_ko": "콧구멍이 작음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "頭低",
+          "observable_ko": "코끝이 낮음",
+          "status": "exact",
+          "label": "nose_projection:low"
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0115",
+      "section": "《鬼眼先生相法》",
+      "original_text": "尖曲庸兮性劣多孤，",
+      "translation": "코가 뾰족하고 굽고 평범하면 성품이 못나고 고독이 많다.",
+      "commentary": "뾰족함 외에 굽음과 庸의 품평을 별도로 보존했다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "尖曲庸兮性劣多孤",
+          "observable_ko": "코끝이 뾰족함",
+          "status": "exact",
+          "label": "nose_tip:tapered"
+        },
+        {
+          "region": "nose",
+          "evidence": "曲",
+          "observable_ko": "코가 굽음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "庸",
+          "observable_ko": "코가 평범하다는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0116",
+      "section": "《鬼眼先生相法》",
+      "original_text": "梁峻準見明圓，智譽兮名資大炫。",
+      "translation": "콧등이 높고 준두(準頭, 코끝)가 밝고 둥글게 보이면 지혜와 명성이 있고 이름과 재산이 크게 빛난다.",
+      "commentary": "콧등 높이를 산근 높이와 같게 처리하지 않았다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "梁峻",
+          "observable_ko": "콧등이 높음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "準見明",
+          "observable_ko": "코끝이 밝게 보임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "梁峻準見明圓",
+          "observable_ko": "코끝이 둥긂",
+          "status": "exact",
+          "label": "nose_tip:rounded"
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0117",
+      "section": "《鬼眼先生相法》",
+      "original_text": "彎首妨親，分頭害脊。",
+      "translation": "코끝이 굽으면 부모를 해치고 끝이 갈라지면 등을 해친다.",
+      "commentary": "害脊은 전사대로 등을 해친다고 옮겼으며 다른 글자로 수정하지 않았다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "彎首",
+          "observable_ko": "코끝이 굽음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "分頭",
+          "observable_ko": "코끝이 갈라짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "health_disease"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mole-0118",
+      "section": "《鬼眼先生相法》",
+      "original_text": "戴靨芟藕兮賤可觀，懸膽截筒兮貴可羨。",
+      "translation": "점을 지니고 베어낸 연뿌리 같으면 천함을 볼 수 있고, 매단 쓸개와 자른 대통 같으면 귀함을 부러워할 만하다.",
+      "commentary": "코 유형의 비유이며 비교된 각 유형을 단일 기하 라벨로 확정하지 않았다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "戴靨",
+          "observable_ko": "코에 점이 있음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ]
+        },
+        {
+          "region": "nose",
+          "evidence": "芟藕",
+          "observable_ko": "베어낸 연뿌리 같은 코",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "懸膽截筒",
+          "observable_ko": "매단 쓸개·자른 대통 같은 코",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0119",
+      "section": "《鬼眼先生相法》",
+      "original_text": "柱多陷缺，女損胎而男憂獄。",
+      "translation": "콧기둥에 함몰과 결손이 많으면 여자는 태아를 잃고 남자는 감옥을 근심한다.",
+      "commentary": "성별에 따라 달리 붙인 주장을 모두 보존했다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "柱多陷缺",
+          "observable_ko": "콧기둥에 함몰과 결손이 많음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "女",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "男",
+          "observable_ko": "남성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "health_disease",
+        "criminality"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0120",
+      "section": "《鬼眼先生相法》",
+      "original_text": "梁足橫紋，婦害婿而夫危。",
+      "translation": "콧등 밑에 가로 주름이 있으면 아내는 남편을 해치고 남편은 위태롭다.",
+      "commentary": "梁足을 콧등 밑으로 직역했으며 특정 위치는 더 확정하지 않았다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "梁足橫紋",
+          "observable_ko": "콧등 밑 가로 주름",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "婦",
+          "observable_ko": "아내 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "marriage"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0121",
+      "section": "《鬼眼先生相法》",
+      "original_text": "賤狹高危，而少鴈行闊。橫大而好虎戰山根。",
+      "translation": "천하고 좁고 높아 위태로우면 형제가 적고, 넓고 가로로 크면 호랑이 싸움을 좋아한다. 산근(山根, 콧뿌리)이다.",
+      "commentary": "문장 배치가 심하게 불명확하여 山根의 소속을 확정하지 않았다. 鴈行은 형제의 비유로 옮겼다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "狹高危",
+          "observable_ko": "좁고 높고 위태로운 코 형상",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "闊。橫大",
+          "observable_ko": "넓고 가로로 큼",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "violence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-nose-0122",
+      "section": "《鬼眼先生相法》",
+      "original_text": "左右一名，盡要絕瘢。年上東西，四處無令有靨。",
+      "translation": "좌우의 한 이름은 모두 흉터가 전혀 없어야 한다. 연상(年上, 코 위의 부위) 동서 네 곳에는 점이 없게 해야 한다.",
+      "commentary": "부위별 흉터·점의 부재는 얼굴 전체 색소표지 부재와 다르다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "盡要絕瘢",
+          "observable_ko": "좌우 부위에 흉터가 없음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "mole",
+          "evidence": "年上東西，四處無令有靨",
+          "observable_ko": "연상 좌우 네 곳에 점이 없음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mole-0123",
+      "section": "《鬼眼先生相法》",
+      "original_text": "人中有靨，女性欺夫。或產子而生多媚色，或婚妻而不問良媒。",
+      "translation": "인중(人中, 코 아래 세로 홈)에 점이 있으면 여자는 남편을 속인다. 혹 자식을 낳고 아양 어린 빛이 많이 생기며, 혹 아내를 맞으면서 좋은 중매를 묻지 않는다.",
+      "commentary": "이어지는 출산·혼인 구절의 주어가 불분명하다. 형태에 성행동 평가를 연결한 기록으로 남겼다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "人中有靨",
+          "observable_ko": "인중에 점이 있음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ]
+        },
+        {
+          "region": "subject",
+          "evidence": "女性",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit",
+        "marriage",
+        "sexual_conduct"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-philtrum-0124",
+      "section": "《鬼眼先生相法》",
+      "original_text": "「長一寸兮破竹狀祿，二千石兮」烈士勳。",
+      "translation": "한 치 길이이며 쪼갠 대나무 모양이면 녹이 이천 석이고 열사의 공훈이다.",
+      "commentary": "절대 길이와 대나무 비유를 상대 인중 길이로 확정하지 않았다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "長一寸",
+          "observable_ko": "인중 길이가 한 치임",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "philtrum_length:long"
+          ]
+        },
+        {
+          "region": "philtrum",
+          "evidence": "破竹狀",
+          "observable_ko": "인중이 쪼갠 대나무 모양임",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-philtrum-0125",
+      "section": "《鬼眼先生相法》",
+      "original_text": "淺短曲而上寬，子少兮信行淡蕩，",
+      "translation": "인중이 얕고 짧고 굽으며 위가 넓으면 자식이 적고 신의와 행실이 엷고 방탕하다.",
+      "commentary": "인중의 깊이·길이·굽음·부분 너비 네 조건을 모두 남겼다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "淺短曲而上寬",
+          "observable_ko": "인중이 얕음",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "淺短曲而上寬",
+          "observable_ko": "인중이 짧음",
+          "status": "exact",
+          "label": "philtrum_length:short"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "曲",
+          "observable_ko": "인중이 굽음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "上寬",
+          "observable_ko": "인중 위가 넓음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-philtrum-0126",
+      "section": "《鬼眼先生相法》",
+      "original_text": "深長直而下廣，壽遐兮其嗣成群。",
+      "translation": "인중이 깊고 길고 곧으며 아래가 넓으면 수명이 멀고 후사가 무리를 이룬다.",
+      "commentary": "곧음과 아래 너비까지 충족해야 하는 복합 서술이다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深長直而下廣",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深長直而下廣",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "直",
+          "observable_ko": "인중이 곧음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "下廣",
+          "observable_ko": "인중 아래가 넓음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "fertility_offspring"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0127",
+      "section": "《鬼眼先生相法》",
+      "original_text": "口必方正，脣雖紋理，有紋有子，無紋無嗣。",
+      "translation": "입은 반드시 네모나고 바르며 입술에는 비록 주름결이 있으니, 주름이 있으면 자식이 있고 주름이 없으면 후사가 없다.",
+      "commentary": "서로 반대되는 주름 유무를 대조한 구절로 서비스 조건을 만들지 않는다. 雖는 전사대로 옮겼다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口必方正",
+          "observable_ko": "입이 네모나고 바름",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "有紋",
+          "observable_ko": "입술에 주름이 있음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "無紋",
+          "observable_ko": "입술에 주름이 없음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0128",
+      "section": "《鬼眼先生相法》",
+      "original_text": "劍鐔足義，如含丹而財祿彌豐，",
+      "translation": "칼의 코등이 같은 입은 의리가 충분하고, 단사를 머금은 듯하면 재물과 녹이 더욱 풍부하다.",
+      "commentary": "검담은 칼 코등이의 형상 비유이며 함단은 색 표현이다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "劍鐔",
+          "observable_ko": "입이 칼 코등이 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "如含丹",
+          "observable_ko": "입이 단사처럼 붉음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0129",
+      "section": "《鬼眼先生相法》",
+      "original_text": "鳥嘴多言，似吹火而子孫大鄙。",
+      "translation": "새 부리 같은 입은 말이 많고, 불을 부는 듯하면 자손이 크게 비루하다.",
+      "commentary": "새 부리·불불기 비유에는 단순 돌출 외의 조건이 있을 수 있다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "鳥嘴",
+          "observable_ko": "입이 새 부리 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "似吹火",
+          "observable_ko": "입이 불을 부는 듯함",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "family_children"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0130",
+      "section": "《鬼眼先生相法》",
+      "original_text": "綽薄少信而好偷盜，",
+      "translation": "입술이 넓적하고 얇으면 신의가 적고 도둑질을 좋아한다.",
+      "commentary": "綽의 형태 의미는 확정되지 않는다. 범죄 성향을 연결한 문헌의 주장을 보존했다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "綽",
+          "observable_ko": "입술이 넓적함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "綽薄少信而好偷盜",
+          "observable_ko": "입술이 얇음",
+          "status": "exact",
+          "label": "lip_thickness:thin"
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "criminality"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0131",
+      "section": "《鬼眼先生相法》",
+      "original_text": "翻嗟露齒而為役使，",
+      "translation": "입술이 뒤집히고 탄식하며 이가 드러나면 부림을 받는다.",
+      "commentary": "翻嗟는 불명확한 결합이라 전사대로 옮겼다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "翻嗟",
+          "observable_ko": "입술이 뒤집히고 탄식함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "露齒",
+          "observable_ko": "이가 드러남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mole-0132",
+      "section": "《鬼眼先生相法》",
+      "original_text": "女靨生居兩伴，左貴子而右害夫",
+      "translation": "여자의 점이 양옆에 생기면 왼쪽은 귀한 자식이고 오른쪽은 남편을 해친다.",
+      "commentary": "좌우 위치를 구별하는 조건은 일반 색소표지 라벨이 보장하지 않는다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "女",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mole",
+          "evidence": "靨生居兩伴",
+          "observable_ko": "입 양옆에 점이 생김",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ]
+        },
+        {
+          "region": "mole",
+          "evidence": "左貴子而右害夫",
+          "observable_ko": "왼쪽과 오른쪽 점 위치에 따라 다른 주장",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "kinship_harm"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0133",
+      "section": "《鬼眼先生相法》",
+      "original_text": "男紋立於上邊，深大澤而淺危賤；",
+      "translation": "남자의 주름이 위쪽에 서 있으면 깊고 큰 것은 윤택하고 얕은 것은 위태롭고 천하다.",
+      "commentary": "주름의 깊이에 따른 대조이며 위치는 앞의 입 문맥으로 읽었다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "男",
+          "observable_ko": "남성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "紋立於上邊",
+          "observable_ko": "입 위쪽에 선 주름",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "深大",
+          "observable_ko": "주름이 깊고 큼",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "淺",
+          "observable_ko": "주름이 얕음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office",
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0134",
+      "section": "《鬼眼先生相法》",
+      "original_text": "近觀青白，撮縮多般而貧賤；",
+      "translation": "가까이서 보아 푸르고 희며 오므라들고 줄어드는 여러 모습이면 가난하고 천하다.",
+      "commentary": "동작·복합 오므림을 단순 입술 후퇴 라벨로 축약하지 않았다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "青白",
+          "observable_ko": "입이 푸르고 흼",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "撮縮多般",
+          "observable_ko": "여러 모양으로 오므라들고 줄어듦",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0135",
+      "section": "《鬼眼先生相法》",
+      "original_text": "遙觀通紅，緩急無稜而詭詐。",
+      "translation": "멀리서 보아 온통 붉고 느리거나 급하며 모가 없으면 속임수가 있다.",
+      "commentary": "입술 능선만을 지칭하는지 불분명하므로 모 없음은 근사이다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "通紅",
+          "observable_ko": "입이 온통 붉음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "緩急",
+          "observable_ko": "입의 느리고 급함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "無稜",
+          "observable_ko": "입의 모가 없음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "lip_bow:flat"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0136",
+      "section": "《鬼眼先生相法》",
+      "original_text": "中央不與鼻正，定落橫亡；",
+      "translation": "가운데가 코와 바르게 맞지 않으면 반드시 뜻밖의 죽음에 빠진다.",
+      "commentary": "입·코 중심 정렬은 정준 입 너비나 입꼬리 방향과 다르다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "中央不與鼻正",
+          "observable_ko": "입 중심과 코가 맞지 않음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-philtrum-0137",
+      "section": "《鬼眼先生相法》",
+      "original_text": "人中牽帶鼻蹇，必遭兵死。",
+      "translation": "인중이 끌어당겨지고 코가 일그러지면 반드시 병기로 죽는다.",
+      "commentary": "인중과 코의 변형을 모두 보존했다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中牽帶",
+          "observable_ko": "인중이 끌어당겨짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻蹇",
+          "observable_ko": "코가 일그러짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "violence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0138",
+      "section": "《鬼眼先生相法》",
+      "original_text": "耳竅廣洪，性識高虛。",
+      "translation": "귓구멍이 넓고 크면 성품과 식견이 높고 허정하다.",
+      "commentary": "귓구멍 너비는 귀 전체 너비와 다르다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳竅廣洪",
+          "observable_ko": "귓구멍이 넓고 큼",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "intelligence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0139",
+      "section": "《鬼眼先生相法》",
+      "original_text": "醜小而不斂神道，",
+      "translation": "귀가 추하고 작으면 신도를 거두지 못한다.",
+      "commentary": "작은 귀는 길이와 너비를 구별하지 않는다. 神道는 문헌의 정신적 개념이다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "醜",
+          "observable_ko": "귀가 추하다는 품평",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "ear",
+          "evidence": "小",
+          "observable_ko": "귀가 작음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "ear_length:short",
+            "ear_width:narrow"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0140",
+      "section": "《鬼眼先生相法》",
+      "original_text": "聳長而必誦《詩書》。",
+      "translation": "귀가 솟고 길면 반드시 시서를 외운다.",
+      "commentary": "귀의 솟음과 길이는 서로 다른 조건이다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "聳",
+          "observable_ko": "귀가 솟음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "ear",
+          "evidence": "聳長而必誦《詩書》",
+          "observable_ko": "귀가 긺",
+          "status": "exact",
+          "label": "ear_length:long"
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0141",
+      "section": "《鬼眼先生相法》",
+      "original_text": "猴意難測，祿食無餘。",
+      "translation": "원숭이 같은 귀는 뜻을 헤아리기 어렵고 녹과 먹을 것이 남지 않는다.",
+      "commentary": "앞뒤의 귀 문맥에서 원숭이 비유로 읽었지만 명시적 형태는 없다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "猴",
+          "observable_ko": "원숭이 같은 귀",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0142",
+      "section": "《鬼眼先生相法》",
+      "original_text": "孔毫出兮延年，",
+      "translation": "귓구멍에서 긴 털이 나오면 수명이 늘어난다.",
+      "commentary": "귀 털과 귀 길이는 구별했다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "孔毫出",
+          "observable_ko": "귓구멍에 긴 털이 남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0143",
+      "section": "《鬼眼先生相法》",
+      "original_text": "輔骨起而遐壽。",
+      "translation": "보골(輔骨, 보조하는 뼈)이 솟으면 멀리 장수한다.",
+      "commentary": "본문은 보골의 정확한 위치를 설명하지 않는다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "輔骨起",
+          "observable_ko": "보골이 솟음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-mole-0144",
+      "section": "《鬼眼先生相法》",
+      "original_text": "輪靨生兮性必智，",
+      "translation": "귓바퀴에 점이 나면 성품이 반드시 지혜롭다.",
+      "commentary": "특정 위치의 점을 지능과 연결한 문헌의 주장이다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "輪靨生",
+          "observable_ko": "귓바퀴에 점이 남",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0145",
+      "section": "《鬼眼先生相法》",
+      "original_text": "垂珠懸而祿自如。",
+      "translation": "수주(垂珠, 귓불)가 매달리면 녹이 자유롭다.",
+      "commentary": "귓불의 처짐은 귀 전체 길이로 대체할 수 없다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "垂珠懸",
+          "observable_ko": "귓불이 매달림",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0146",
+      "section": "《鬼眼先生相法》",
+      "original_text": "三寸長而如田，字官高列土。",
+      "translation": "귀가 세 치 길고 전(田) 자 같으면 관직이 높고 영토를 나누어 받는다.",
+      "commentary": "전사의 쉼표가 田字 사이에 있으나 문자 순서를 유지했다. 절대 길이는 근사이다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "三寸長",
+          "observable_ko": "귀 길이가 세 치임",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "ear_length:long"
+          ]
+        },
+        {
+          "region": "ear",
+          "evidence": "如田，字",
+          "observable_ko": "귀가 전 자 같음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0147",
+      "section": "《鬼眼先生相法》",
+      "original_text": "兩耳大而有輪廓，異「寶盈車。",
+      "translation": "두 귀가 크고 귓바퀴와 안쪽 테가 있으면 기이한 보물이 수레에 가득하다.",
+      "commentary": "귀의 전체 크기와 테의 구조를 별도 보존했다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "兩耳大",
+          "observable_ko": "두 귀가 큼",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "ear_length:long",
+            "ear_width:wide"
+          ]
+        },
+        {
+          "region": "ear",
+          "evidence": "有輪廓",
+          "observable_ko": "귓바퀴와 안쪽 테가 있음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-ear-0148",
+      "section": "《鬼眼先生相法》",
+      "original_text": "上廣下狹，輪翻廓露。身必受苦，錢財不聚。",
+      "translation": "귀의 위가 넓고 아래가 좁으며 귓바퀴가 뒤집히고 안쪽 테가 드러나면 몸은 반드시 고생하고 재물은 모이지 않는다.",
+      "commentary": "부분별 귀 너비와 연골 구조는 전체 너비 라벨로 포괄되지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "上廣下狹",
+          "observable_ko": "귀 위가 넓고 아래가 좁음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "ear",
+          "evidence": "輪翻廓露",
+          "observable_ko": "귓바퀴가 뒤집히고 안쪽 테가 드러남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-face-0149",
+      "section": "《鬼眼先生相法》",
+      "original_text": "黃光色而有慶，清亮聲而多亨。",
+      "translation": "누렇게 빛나는 색이면 경사가 있고 맑고 밝은 소리이면 형통함이 많다.",
+      "commentary": "색과 소리에 대한 병렬 주장이다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "黃光色",
+          "observable_ko": "누렇게 빛나는 색",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "清亮聲",
+          "observable_ko": "맑고 밝은 목소리",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0150",
+      "section": "《鬼眼先生相法》",
+      "original_text": "辨困苦之將來，知災祥而已過。」余乃撮其樞要，舉其大綱。",
+      "translation": "다가올 곤고함을 분별하고 이미 지난 재앙과 상서를 안다. 나는 이에 요점을 뽑아 큰 줄기를 들었다.",
+      "commentary": "문헌의 관상법 목적과 요약 방식을 설명한 맺음말이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "鬼眼先生"
+    },
+    {
+      "passage_id": "CX638-other-0038",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "入眼先知訣，還觀起坐中。",
+      "translation": "눈에 들어오면 먼저 요결을 알고, 다시 일어나고 앉는 가운데를 관찰한다.",
+      "commentary": "관찰 절차를 소개하는 머리말이다.",
+      "region": "other",
+      "conditions": [],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0039",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "語遲當貴顯，",
+      "translation": "말이 느리면 마땅히 귀해져 드러난다.",
+      "commentary": "말의 속도는 얼굴 형태가 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "語遲",
+          "observable_ko": "말이 느림",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0040",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "步促主孤窮。",
+      "translation": "걸음이 급하면 고독하고 궁함을 주관한다.",
+      "commentary": "걸음의 속도에 관한 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "步促",
+          "observable_ko": "걸음이 급함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-eye-0041",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "犬目應須遠，雞眸莫與逢。",
+      "translation": "개 같은 눈은 마땅히 멀리해야 하고 닭 같은 눈과는 만나지 말라.",
+      "commentary": "두 동물형 비유에 사람을 피하라는 평가를 붙인 문헌이다. 명시된 기하 조건은 없다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "犬目",
+          "observable_ko": "개 같은 눈",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "雞眸",
+          "observable_ko": "닭 같은 눈",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0042",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "項偏多蹇困，",
+      "translation": "목덜미가 기울면 막힘과 곤궁이 많다.",
+      "commentary": "목덜미 자세는 얼굴 형태 라벨이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項偏",
+          "observable_ko": "목덜미가 기욺",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0043",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "頭小必飄蓬。",
+      "translation": "머리가 작으면 반드시 쑥대처럼 떠돈다.",
+      "commentary": "머리 전체 크기는 얼굴 길이나 폭과 다르다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭小",
+          "observable_ko": "머리가 작음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0044",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "骨露財無剩，",
+      "translation": "뼈가 드러나면 재물이 남지 않는다.",
+      "commentary": "부위가 없는 골격 노출을 특정 광대 라벨로 추정하지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "骨露",
+          "observable_ko": "뼈가 드러남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0045",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "腰圓命早通。",
+      "translation": "허리가 둥글면 운명이 일찍 통한다.",
+      "commentary": "허리 형태는 얼굴 밖 조건이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腰圓",
+          "observable_ko": "허리가 둥긂",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-other-0046",
+      "section": "《唐舉元談神妙訣》",
+      "original_text": "形寒身且薄，離祖各西東。",
+      "translation": "형상이 차고 몸마저 얇으면 조상을 떠나 각각 동서로 간다.",
+      "commentary": "몸의 형상과 이향을 연결한 문헌의 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "形寒身且薄",
+          "observable_ko": "형상이 차고 몸이 얇음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "fortune_general"
+      ],
+      "attributed_to": "唐舉"
+    },
+    {
+      "passage_id": "CX638-face-0047",
+      "section": "《西嶽先生相法》",
+      "original_text": "「好頭不如好面，好面不如好身。先要三停相稱，五官六府相成。",
+      "translation": "좋은 머리는 좋은 얼굴만 못하고 좋은 얼굴은 좋은 몸만 못하다. 먼저 삼정(三停, 세 구획)이 서로 알맞고 오관과 육부가 서로 이루어져야 한다.",
+      "commentary": "신체 전체의 조화를 중시한 일반론이다. 알맞음과 완성의 수치 기준은 없다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "三停相稱",
+          "observable_ko": "세 구획의 비율이 알맞음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "五官六府相成",
+          "observable_ko": "오관과 육부가 서로 이루어짐",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0048",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉秀眼長富貴，",
+      "translation": "눈썹이 빼어나고 눈이 길면 부귀하다.",
+      "commentary": "눈 길이 외에 눈썹의 품평 조건도 함께 남겼다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉秀",
+          "observable_ko": "눈썹이 빼어남",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "眼長",
+          "observable_ko": "눈이 긺",
+          "status": "exact",
+          "label": "eye_size:large"
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-face-0049",
+      "section": "《西嶽先生相法》",
+      "original_text": "色明印淨功名。",
+      "translation": "안색이 밝고 인당(印堂, 두 눈썹 사이)이 깨끗하면 공명이다.",
+      "commentary": "깨끗함의 기준은 불명확하고 밝은 색은 형태가 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "色明",
+          "observable_ko": "안색이 밝음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "glabella",
+          "evidence": "印淨",
+          "observable_ko": "인당이 깨끗함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0050",
+      "section": "《西嶽先生相法》",
+      "original_text": "口似含丹不賤，",
+      "translation": "입이 단사를 머금은 듯 붉으면 천하지 않다.",
+      "commentary": "붉은 색택에 신분을 연결한 표현이다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口似含丹",
+          "observable_ko": "입이 단사처럼 붉음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0051",
+      "section": "《西嶽先生相法》",
+      "original_text": "切防脣上縱紋，法令入口，餓死",
+      "translation": "입술 위의 세로 주름과 입으로 들어가는 법령(法令, 코 옆에서 입 쪽으로 내려오는 선)을 특히 경계하라. 굶어 죽는다.",
+      "commentary": "전사의 구두가 뒤섞여 있으나 주름 조건과 굶어 죽는다는 주장을 함께 보존했다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣上縱紋",
+          "observable_ko": "입술 위 세로 주름",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "法令入口",
+          "observable_ko": "법령선이 입으로 들어감",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0052",
+      "section": "《西嶽先生相法》",
+      "original_text": "交眉必定多迍。",
+      "translation": "눈썹이 맞닿으면 반드시 막힘이 많다.",
+      "commentary": "연결된 눈썹은 단순한 눈썹 간격 라벨과 다르다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "交眉",
+          "observable_ko": "눈썹이 이어짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-eye-0053",
+      "section": "《西嶽先生相法》",
+      "original_text": "羊眼蛇睛人必毒，",
+      "translation": "양 같은 눈과 뱀 같은 눈동자이면 사람은 반드시 악독하다.",
+      "commentary": "동물 비유를 악독함과 연결한 문헌의 주장이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "羊眼蛇睛",
+          "observable_ko": "양 눈과 뱀 눈동자 비유",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0054",
+      "section": "《西嶽先生相法》",
+      "original_text": "毫生眉耳壽源增。",
+      "translation": "긴 털이 눈썹과 귀에 나면 수명의 근원이 늘어난다.",
+      "commentary": "특별한 장모의 존재는 눈썹 전체 길이와 다르다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "毫生眉耳",
+          "observable_ko": "눈썹과 귀에 긴 털이 남",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-under_eye-0055",
+      "section": "《西嶽先生相法》",
+      "original_text": "眼下肉枯防子",
+      "translation": "눈 아래 살이 마르면 자식을 경계해야 한다.",
+      "commentary": "눈 아래 살의 마름을 와잠 유무로 단정하지 않았다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "眼下肉枯",
+          "observable_ko": "눈 아래 살이 마름",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0056",
+      "section": "《西嶽先生相法》",
+      "original_text": "頭偏腦陷傷親。",
+      "translation": "머리가 기울고 뒷머리가 꺼지면 부모를 해친다.",
+      "commentary": "두부 형태를 부모의 위해와 연결한 기록이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭偏腦陷",
+          "observable_ko": "머리가 기울고 뒷머리가 꺼짐",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-face-0057",
+      "section": "《西嶽先生相法》",
+      "original_text": "且觀和尚道土，必定貌古神清。",
+      "translation": "또 승려와 도사(道土로 전사됨)를 보면 반드시 모습이 예스럽고 신이 맑다.",
+      "commentary": "道土는 전사를 수정하지 않고 통상적인 문맥의 도사로 옮겼다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "貌古",
+          "observable_ko": "모습이 예스러움",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "神清",
+          "observable_ko": "신이 맑음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "和尚道土",
+          "observable_ko": "승려와 도사라는 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0058",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉粗眼小福薄，",
+      "translation": "눈썹이 굵고 눈이 작으면 복이 엷다.",
+      "commentary": "두 형태를 모두 충족하는 조건으로 보존했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉粗",
+          "observable_ko": "눈썹이 굵음",
+          "status": "exact",
+          "label": "brow_thickness:thick"
+        },
+        {
+          "region": "eye",
+          "evidence": "眼小",
+          "observable_ko": "눈이 작음",
+          "status": "exact",
+          "label": "eye_size:small"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0059",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉小眼大多貧。",
+      "translation": "눈썹이 작고 눈이 크면 가난함이 많다.",
+      "commentary": "눈썹의 작음은 길이·두께·면적 중 무엇인지 불명확하다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉小",
+          "observable_ko": "눈썹이 작음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "눈이 큼",
+          "status": "exact",
+          "label": "eye_size:large"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0060",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉高眼深人狠，更兼赤脈」貫睛；",
+      "translation": "눈썹이 높고 눈이 깊으면 사람이 사나우며, 여기에 붉은 핏줄이 눈동자를 꿰뚫는다.",
+      "commentary": "붉은 핏줄도 생략하지 않았다. 문헌의 사나움 주장을 기록했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉高",
+          "observable_ko": "눈썹이 높음",
+          "status": "exact",
+          "label": "brow_eye_gap:wide"
+        },
+        {
+          "region": "eye",
+          "evidence": "眼深",
+          "observable_ko": "눈이 깊음",
+          "status": "exact",
+          "label": "eye_depth:deep"
+        },
+        {
+          "region": "eye",
+          "evidence": "赤脈」貫睛",
+          "observable_ko": "붉은 핏줄이 눈동자를 가로지름",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "violence",
+        "character"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-eye-0061",
+      "section": "《西嶽先生相法》",
+      "original_text": "開眼瞳人神露，更兼夢裏多驚。",
+      "translation": "눈을 뜨면 눈동자의 신이 드러나고, 더하여 꿈속에서 놀람이 많다.",
+      "commentary": "神露는 눈의 돌출이 아니라 신의 드러남이다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "開眼瞳人神露",
+          "observable_ko": "눈을 뜰 때 눈동자의 신이 드러남",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0062",
+      "section": "《西嶽先生相法》",
+      "original_text": "下脣過上貧苦，",
+      "translation": "아랫입술이 윗입술을 넘으면 가난하고 괴롭다.",
+      "commentary": "입술의 상하 상대 위치를 두께 차이로 확정하지 않았다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "下脣過上",
+          "observable_ko": "아랫입술이 윗입술을 넘음",
+          "status": "approximate",
+          "reason": "넘는다는 위치 관계는 두 입술 두께의 비율과 다르다.",
+          "candidate_labels": [
+            "lip_balance:upper_thin"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0063",
+      "section": "《西嶽先生相法》",
+      "original_text": "上脣蓋下伶仃。",
+      "translation": "윗입술이 아랫입술을 덮으면 외롭다.",
+      "commentary": "입술이 덮이는 관계를 보존했다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "上脣蓋下",
+          "observable_ko": "윗입술이 아랫입술을 덮음",
+          "status": "approximate",
+          "reason": "덮는다는 관계는 두께 비율만으로 보장되지 않는다.",
+          "candidate_labels": [
+            "lip_balance:upper_full"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0064",
+      "section": "《西嶽先生相法》",
+      "original_text": "行看腳步陰毒；",
+      "translation": "걸을 때 발걸음을 보아 음험하고 악독함을 본다.",
+      "commentary": "어떤 발걸음인지 제시되지 않아 형태 규칙을 만들지 않았다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "行看腳步",
+          "observable_ko": "걸음걸이를 관찰함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-face-0065",
+      "section": "《西嶽先生相法》",
+      "original_text": "堂無紋理；遭刑",
+      "translation": "당(堂)에 무늬가 없으면 형벌을 당한다.",
+      "commentary": "堂의 정확한 부위와 무늬의 종류가 전사에 명시되지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "堂無紋理",
+          "observable_ko": "당 부위에 무늬가 없음",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "violence"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0066",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉卓如鎗。貧賤",
+      "translation": "눈썹이 창처럼 우뚝하면 가난하고 천하다.",
+      "commentary": "창 비유를 특정 눈썹 각도 라벨로 추정하지 않았다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉卓如鎗",
+          "observable_ko": "눈썹이 창처럼 우뚝함",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0067",
+      "section": "《西嶽先生相法》",
+      "original_text": "口大不合人貧；",
+      "translation": "입이 크고 다물어지지 않으면 사람이 가난하다.",
+      "commentary": "입 크기 외에 폐합 불가 조건이 있다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口大",
+          "observable_ko": "입이 큼",
+          "status": "exact",
+          "label": "mouth_width:wide"
+        },
+        {
+          "region": "mouth",
+          "evidence": "不合",
+          "observable_ko": "입이 다물어지지 않음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-face-0068",
+      "section": "《西嶽先生相法》",
+      "original_text": "面細身粗何用？",
+      "translation": "얼굴이 가늘고 몸이 거칠면 어디에 쓰겠는가?",
+      "commentary": "細는 얼굴의 폭이나 피부를 가리킬 수 있어 단일 라벨로 정하지 않았다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面細",
+          "observable_ko": "얼굴이 가늚",
+          "status": "ambiguous",
+          "reason": "비유·품평 또는 전사상의 의미가 불분명하여 측정 형태를 확정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "身粗",
+          "observable_ko": "몸이 거침",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0069",
+      "section": "《西嶽先生相法》",
+      "original_text": "口角下垂無祿。",
+      "translation": "입꼬리가 아래로 처지면 녹이 없다.",
+      "commentary": "명시적인 입꼬리 방향 조건이다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口角下垂",
+          "observable_ko": "입꼬리가 아래로 처짐",
+          "status": "exact",
+          "label": "mouth_corner:down"
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-nose-0070",
+      "section": "《西嶽先生相法》",
+      "original_text": "準頭黃色多欣，",
+      "translation": "준두(準頭, 코끝)가 누런빛이면 기쁨이 많다.",
+      "commentary": "코끝의 색택에 관한 문헌의 주장이다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準頭黃色",
+          "observable_ko": "코끝이 누런빛임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-nose-0071",
+      "section": "《西嶽先生相法》",
+      "original_text": "鼻酸人不入相；",
+      "translation": "코가 시큰하면 사람은 상에 들어맞지 않는다.",
+      "commentary": "酸을 다른 글자로 고치지 않고 감각 표현으로 옮겼다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻酸",
+          "observable_ko": "코가 시큰함",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0072",
+      "section": "《西嶽先生相法》",
+      "original_text": "皺眉人不聊生。",
+      "translation": "눈썹을 찌푸리면 사람이 살아갈 수 없다.",
+      "commentary": "표정 조건은 고정된 눈썹 형태가 아니다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "皺眉",
+          "observable_ko": "눈썹을 찌푸림",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mouth-0073",
+      "section": "《西嶽先生相法》",
+      "original_text": "口聚浮生汨汨。",
+      "translation": "입이 모이면 덧없는 삶이 어지럽게 흐른다.",
+      "commentary": "모인 입 모양은 단순 입 너비와 동일하지 않다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口聚",
+          "observable_ko": "입이 모임",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-ear-0074",
+      "section": "《西嶽先生相法》",
+      "original_text": "耳尖食祿多輕，",
+      "translation": "귀가 뾰족하면 먹는 녹이 대개 가볍다.",
+      "commentary": "귀 끝 윤곽의 정준 라벨이 없다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳尖",
+          "observable_ko": "귀가 뾰족함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-brow-0075",
+      "section": "《西嶽先生相法》",
+      "original_text": "眉垂多為僧道；",
+      "translation": "눈썹이 드리우면 대개 승려나 도사가 된다.",
+      "commentary": "尾垂와 달리 부위가 눈썹 전체여서 근사 처리했다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉垂",
+          "observable_ko": "눈썹이 드리움",
+          "status": "approximate",
+          "reason": "꼬리 방향이라고 명시되지 않은 눈썹 전체의 드리움이다.",
+          "candidate_labels": [
+            "brow_tail:descending"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0076",
+      "section": "《西嶽先生相法》",
+      "original_text": "穀道澀者為榮。",
+      "translation": "곡도(穀道, 항문)가 껄끄러운 이는 영화롭다.",
+      "commentary": "얼굴 밖 신체에 관한 역사적 표현이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "穀道澀",
+          "observable_ko": "항문이 껄끄러움",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0077",
+      "section": "《西嶽先生相法》",
+      "original_text": "呂后陰毛過膝，李牧神彩「射人，呂布身長七尺，叔敖陰德添齡。",
+      "translation": "여후는 음모가 무릎을 넘고, 이목은 신채가 사람을 쏘며, 여포는 몸길이가 일곱 척이고, 숙오는 음덕으로 나이를 더했다.",
+      "commentary": "문헌이 제시한 인물 일화로만 기록했다. 각각을 역사적 사실로 검증한 것은 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "呂后陰毛過膝",
+          "observable_ko": "여후의 음모가 무릎을 넘었다는 서술",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "李牧神彩「射人",
+          "observable_ko": "이목의 신채가 사람을 쏘았다는 서술",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "呂布身長七尺",
+          "observable_ko": "여포의 키가 일곱 척이었다는 서술",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "叔敖陰德",
+          "observable_ko": "숙오의 음덕",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "other"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0078",
+      "section": "《西嶽先生相法》",
+      "original_text": "世上有福有壽，腹垂胸闊臍深，次看腳跟有後，又看其後有根，如此當為壽考。",
+      "translation": "세상에서 복과 수명이 있는 이는 배가 처지고 가슴이 넓고 배꼽이 깊다. 다음으로 발뒤꿈치 뒤가 있는지 보고, 또 그 뒤에 뿌리가 있는지 보니 이러하면 마땅히 장수한다.",
+      "commentary": "발의 '뒤'와 '뿌리'는 세부 뜻이 불명확하여 문자대로 옮겼다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腹垂胸闊臍深",
+          "observable_ko": "배가 처지고 가슴이 넓고 배꼽이 깊음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "腳跟有後",
+          "observable_ko": "발뒤꿈치 뒤가 있음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "其後有根",
+          "observable_ko": "그 뒤에 뿌리가 있음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "death_lifespan"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0079",
+      "section": "《西嶽先生相法》",
+      "original_text": "龍鍾鶴髮之人陰上無毛；淫賤",
+      "translation": "늙어 쇠약하고 학처럼 흰머리인 사람이 음부에 털이 없으면 음란하고 천하다.",
+      "commentary": "노년 신체에 대한 낙인성 판단을 문헌에 귀속해 보존했다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "龍鍾鶴髮之人",
+          "observable_ko": "쇠약한 노년이며 흰머리임",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "陰上無毛",
+          "observable_ko": "음부에 털이 없음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "sexual_conduct",
+        "rank_office"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0080",
+      "section": "《西嶽先生相法》",
+      "original_text": "乳小不黑，孤貧",
+      "translation": "젖이 작고 검지 않으면 외롭고 가난하다.",
+      "commentary": "얼굴 밖 신체의 크기와 색 조건이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "乳小不黑",
+          "observable_ko": "젖이 작고 검지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-mole-0081",
+      "section": "《西嶽先生相法》",
+      "original_text": "女子面上黑子，不為妨害風塵；",
+      "translation": "여자의 얼굴에 검은 점이 있으면 방해가 되지 않더라도 풍진에 놓인다.",
+      "commentary": "不為妨害風塵의 연결이 불명확하며 風塵은 여기서 유락·유흥의 처지를 암시할 수 있다. 전사의 부정을 제거하지 않았다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "女子",
+          "observable_ko": "여성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        },
+        {
+          "region": "mole",
+          "evidence": "面上黑子",
+          "observable_ko": "얼굴에 검은 점이 있음",
+          "status": "approximate",
+          "reason": "비교·비유 또는 부위 한정 표현은 해당 정준 측정 전체와 같지 않다.",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ]
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "sexual_conduct"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-face-0082",
+      "section": "《西嶽先生相法》",
+      "original_text": "皮緊面緊肉緊，小兒必喪青春",
+      "translation": "피부가 팽팽하고 얼굴이 팽팽하고 살이 팽팽하면 어린아이는 반드시 젊은 나이에 죽는다.",
+      "commentary": "피부 긴장도는 정준 윤곽 라벨로 측정되지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "皮緊面緊肉緊",
+          "observable_ko": "피부·얼굴·살이 팽팽함",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "小兒",
+          "observable_ko": "어린아이 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0083",
+      "section": "《西嶽先生相法》",
+      "original_text": "氣促語言不接，指日必見閻君",
+      "translation": "숨이 가쁘고 말이 이어지지 않으면 머지않아 반드시 염라대왕을 본다.",
+      "commentary": "호흡·말 상태를 임박한 죽음과 연결한 문헌의 주장이다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "氣促語言不接",
+          "observable_ko": "숨이 가쁘고 말이 이어지지 않음",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "health_disease"
+      ],
+      "attributed_to": "西嶽先生"
+    },
+    {
+      "passage_id": "CX638-other-0084",
+      "section": "《西嶽先生相法》",
+      "original_text": "頭上餘皮餘骨，男兒出眾超群。",
+      "translation": "머리에 남는 피부와 남는 뼈가 있으면 남자는 무리를 뛰어넘어 출중하다.",
+      "commentary": "餘皮餘骨의 구체적 측정 기준은 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭上餘皮餘骨",
+          "observable_ko": "머리에 남는 피부와 뼈가 있음",
+          "status": "unmapped",
+          "reason": "이 형태나 부위별 조건을 측정하는 정준 라벨이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "男兒",
+          "observable_ko": "남성 대상",
+          "status": "unobservable",
+          "reason": "성별·연령·행동·색택·신기 또는 얼굴 밖 신체 조건은 정지 얼굴 형태 라벨로 확인할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "西嶽先生"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "morphology-visual-v1",
+  "annotation_source": "assistant_visual_single_rater",
+  "validation": "pilot_only_not_independent_expert_ground_truth",
+  "scope": "중립 정면 사진에 보이는 외형. 사람의 성격·지능·도덕성·건강·운명은 레이블하지 않음.",
+  "unknown": "가림이나 화질로 확인 불가. 억지로 클래스에 넣지 않고 학습에서 제외.",
+  "tasks": {
+    "eye": {"parts": ["eye_right", "eye_left"], "description": "눈 틈의 가로 대비 세로 개방 정도를 육안으로 분류. 촬영 순간의 개방 상태를 포함하므로 고유 해부형으로 단정하지 않음.", "classes": {"narrow": "가로로 길고 세로 개방이 작게 보임", "intermediate": "좁은 틈과 둥근 개방 사이", "rounded": "세로 개방이 비교적 크고 둥글게 보임"}, "literature_features": ["波長", "眼細", "眼大"], "limitations": "동물 이름의 전통 눈 유형과 동의어가 아님. 표정·깜박임·화장 영향."},
+    "brow": {"parts": ["brow_right", "brow_left"], "description": "보이는 눈썹 띠의 전체 중심선", "classes": {"straight": "대체로 곧은 중심선", "arched": "완만하게 휘어지는 중심선", "angled": "봉우리에서 방향 전환이 뚜렷한 중심선"}, "literature_features": ["彎", "直"], "limitations": "털 밀도나 전통 검미 여부를 의미하지 않음. 화장과 제모 반영."},
+    "nose": {"parts": ["nose"], "description": "정면에서 보이는 코끝 윤곽", "classes": {"rounded": "코끝에 둥근 면이 두드러짐", "tapered": "코끝이 상대적으로 좁아지는 윤곽"}, "literature_features": ["準頭圓", "準頭尖"], "limitations": "콧대 높이·돌출·곡률은 측면 없이 확정 불가. 주관적 경계와 클래스 불균형 큼."},
+    "mouth": {"parts": ["mouth"], "description": "입 너비에 비해 보이는 위아래 입술 붉은 부분의 두께", "classes": {"thin": "붉은 부분이 얇게 보임", "medium": "중간 두께", "full": "붉은 부분이 두껍게 보임"}, "literature_features": ["脣薄", "脣厚"], "limitations": "립스틱·입을 다무는 힘·표정 영향. 전통 구형을 확정하지 않음."},
+    "face": {"parts": ["face"], "description": "사진에서 보이는 얼굴 외곽의 전반적 형태", "classes": {"oval": "타원형이며 아래로 완만히 좁아짐", "round": "폭이 넓고 외곽이 둥긂", "angular": "아래턱 모서리나 직선 구간이 두드러짐", "long": "세로로 긴 윤곽이 두드러짐"}, "literature_features": ["面長", "面方", "方圓"], "limitations": "헤어라인을 재지 않음. 턱수염으로 외곽이 가리면 unknown. 클래스는 상호 배타적인 자연종이 아닌 실험용 주된 형태."}
+  }
+}

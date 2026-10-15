@@ -1,0 +1,866 @@
+{
+ "page_id": "lz70286",
+ "annotator": "AI model draft (Codex), literal Korean from primary NLC transcription; no human review",
+ "sections_complete": [],
+ "scope_note": "Selected self-contained morphology clauses; remaining raw text is separately archived. No check-witness duplicate annotations.",
+ "passages": [
+  {
+   "passage_id": "LZC70286-verse-001",
+   "section": "賦曰",
+   "original_text": "眉高耳聳到老得人欽敬",
+   "translation": "눈썹이 높고 귀가 솟으면 늙도록 사람의 존경을 받는다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "brow",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "높은 눈썹",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳聳",
+     "observable_ko": "솟은 귀",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-002",
+   "section": "賦曰",
+   "original_text": "印潤梁高一生親近高人",
+   "translation": "인당이 윤택하고 콧대가 높으면 평생 높은 사람을 가까이한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "glabella",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印潤",
+     "observable_ko": "윤택한 인당",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    },
+    {
+     "region": "nose",
+     "evidence": "梁高",
+     "observable_ko": "높은 콧대",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-003",
+   "section": "賦曰",
+   "original_text": "準大心懷德行",
+   "translation": "코끝이 크면 마음에 덕행을 품는다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準大",
+     "observable_ko": "큰 코끝",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-004",
+   "section": "賦曰",
+   "original_text": "梁低破祖離宗",
+   "translation": "콧대가 낮으면 조상의 기반을 망치고 종족을 떠난다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "梁低",
+     "observable_ko": "낮은 콧대",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-005",
+   "section": "賦曰",
+   "original_text": "眼大若無光彩爲人促天年決犯刑名",
+   "translation": "눈이 크면서 광채가 없으면 수명이 짧고 반드시 형벌을 범한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "eye",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼大",
+     "observable_ko": "큰 눈",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "無光彩",
+     "observable_ko": "광채 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-006",
+   "section": "賦曰",
+   "original_text": "耳大口如一四九歸陰",
+   "translation": "귀가 크고 입이 일(一) 자 같으면 서른여섯에 저승으로 돌아간다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "ear",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳大",
+     "observable_ko": "큰 귀",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    },
+    {
+     "region": "mouth",
+     "evidence": "口如一",
+     "observable_ko": "일 자 같은 입",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-007",
+   "section": "賦曰",
+   "original_text": "鼻大者獨嫌孔露",
+   "translation": "코가 크면 유독 콧구멍이 드러남을 꺼린다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻大",
+     "observable_ko": "큰 코",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    },
+    {
+     "region": "nose",
+     "evidence": "孔露",
+     "observable_ko": "드러난 콧구멍",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-008",
+   "section": "賦曰",
+   "original_text": "口大者最要有稜",
+   "translation": "입이 크면 무엇보다 모서리가 있어야 한다고 한다.",
+   "commentary": "有稜은 입의 가장자리나 능선이 뚜렷하다는 표현이다. 윗입술 중앙의 M자 윤곽만 분류하는 레이블로 이 조건 전체를 확인할 수 없다.",
+   "region": "mouth",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口大",
+     "observable_ko": "큰 입",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "有稜",
+     "observable_ko": "입술의 모서리",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:pronounced"
+     ],
+     "reason": "有稜은 입의 가장자리나 능선이 뚜렷하다는 표현이다. 윗입술 중앙의 M자 윤곽만 분류하는 레이블로 이 조건 전체를 확인할 수 없다."
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-009",
+   "section": "賦曰",
+   "original_text": "面陷多傷骨肉",
+   "translation": "얼굴이 꺼지면 골육을 많이 해친다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面陷",
+     "observable_ko": "꺼진 얼굴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-010",
+   "section": "賦曰",
+   "original_text": "顴高反好爲非",
+   "translation": "광대가 높으면 도리어 잘못을 행하기 좋아한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "cheekbone",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "顴高",
+     "observable_ko": "높은 광대",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-011",
+   "section": "賦曰",
+   "original_text": "鼻小面大何須求利",
+   "translation": "코가 작고 얼굴이 크면 무슨 이익을 구하겠느냐고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "작은 코",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    },
+    {
+     "region": "face",
+     "evidence": "面大",
+     "observable_ko": "큰 얼굴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-012",
+   "section": "賦曰",
+   "original_text": "眉低眼陷一世辛勤",
+   "translation": "눈썹이 낮고 눈이 꺼지면 평생 고생한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "brow",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉低",
+     "observable_ko": "낮은 눈썹",
+     "status": "exact",
+     "label": "brow_eye_gap:close"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼陷",
+     "observable_ko": "꺼진 눈",
+     "status": "exact",
+     "label": "eye_depth:deep"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-013",
+   "section": "賦曰",
+   "original_text": "兩灶空倉庫陷何年發福",
+   "translation": "양 조가 비고 창고가 꺼지면 어느 해에 복을 얻겠느냐고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "兩灶空",
+     "observable_ko": "양 콧구멍 부위의 비어 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "face",
+     "evidence": "倉庫陷",
+     "observable_ko": "창고 부위의 함몰",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-014",
+   "section": "賦曰",
+   "original_text": "鬢眉齊清生過目爲人正大秉有賢妻",
+   "translation": "살쩍과 눈썹이 고르고 맑으며 눈을 넘게 나면 사람이 바르고 크며 어진 아내가 있다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "other",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鬢眉齊清",
+     "observable_ko": "살쩍과 눈썹의 고르고 맑음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+    },
+    {
+     "region": "brow",
+     "evidence": "生過目",
+     "observable_ko": "눈보다 길게 난 눈썹",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-015",
+   "section": "賦曰",
+   "original_text": "上停長一生富足",
+   "translation": "상정이 길면 평생 부유하고 넉넉하다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "forehead",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "上停長",
+     "observable_ko": "긴 상정",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "상정 경계는 가시적 피부 이마와 다르다."
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-016",
+   "section": "賦曰",
+   "original_text": "中停長財祿豐盈",
+   "translation": "중정이 길면 재물과 녹이 풍성하다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "中停長",
+     "observable_ko": "긴 중정",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-017",
+   "section": "賦曰",
+   "original_text": "若是下停一闊爲官必至尙書",
+   "translation": "하정이 넓으면 관리로 반드시 상서에 이른다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "下停一闊",
+     "observable_ko": "넓은 하정",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "하정 길이 비율이 아니라 너비 조건이다."
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-018",
+   "section": "賦曰",
+   "original_text": "女無殺人之面有顴還作夫人",
+   "translation": "여자에게 살인의 얼굴이 없다면 광대가 있어도 부인이 된다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "여성 한정",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    },
+    {
+     "region": "face",
+     "evidence": "無殺人之面",
+     "observable_ko": "살인의 얼굴이 없다는 측정 불가능한 유형",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "有顴",
+     "observable_ko": "광대가 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-019",
+   "section": "賦曰",
+   "original_text": "鼻梁露節女刑男破一生貧",
+   "translation": "콧등의 마디가 드러나면 여자는 해치고 남자는 파산하여 평생 가난하다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁露節",
+     "observable_ko": "콧등 마디의 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "subject",
+     "evidence": "女刑男破",
+     "observable_ko": "남녀별로 다른 주장",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-020",
+   "section": "賦曰",
+   "original_text": "頭尖額削一世奔走",
+   "translation": "머리가 뾰족하고 이마가 깎이면 평생 분주히 다닌다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "other",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭尖",
+     "observable_ko": "뾰족한 머리",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "forehead",
+     "evidence": "額削",
+     "observable_ko": "깎인 이마",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-021",
+   "section": "賦曰",
+   "original_text": "唇掀齒露且貧且夭",
+   "translation": "입술이 들리고 이가 드러나면 가난하고 요절한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "mouth",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇掀",
+     "observable_ko": "들린 입술",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "teeth",
+     "evidence": "齒露",
+     "observable_ko": "드러난 이",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-022",
+   "section": "賦曰",
+   "original_text": "目斜根斷曰賤曰奸",
+   "translation": "눈이 비뚤고 산근이 끊기면 천하고 간사하다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "eye",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目斜",
+     "observable_ko": "비뚤어진 눈",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "nose",
+     "evidence": "根斷",
+     "observable_ko": "끊긴 산근",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-023",
+   "section": "賦曰",
+   "original_text": "顴骨高上下要配",
+   "translation": "광대뼈가 높으면 위아래가 맞아야 한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "cheekbone",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "顴骨高",
+     "observable_ko": "높은 광대뼈",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    },
+    {
+     "region": "face",
+     "evidence": "上下要配",
+     "observable_ko": "위아래의 조화",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-024",
+   "section": "賦曰",
+   "original_text": "準頭大井竈要齊",
+   "translation": "코끝이 크면 정조가 고르게 맞아야 한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "nose",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭大",
+     "observable_ko": "큰 코끝",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "nose",
+     "evidence": "井竈要齊",
+     "observable_ko": "고르게 맞는 정조",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-025",
+   "section": "賦曰",
+   "original_text": "成家子腮圓唇厚",
+   "translation": "집안을 이루는 자식은 뺨이 둥글고 입술이 두껍다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "腮圓",
+     "observable_ko": "둥근 뺨",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "mouth",
+     "evidence": "唇厚",
+     "observable_ko": "두꺼운 입술",
+     "status": "exact",
+     "label": "lip_thickness:full"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-026",
+   "section": "賦曰",
+   "original_text": "敗家子反耳蹙眉",
+   "translation": "집안을 망치는 자식은 귀가 뒤집히고 눈썹을 찡그린다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "ear",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "反耳",
+     "observable_ko": "뒤집힌 귀",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "brow",
+     "evidence": "蹙眉",
+     "observable_ko": "찡그린 눈썹",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-027",
+   "section": "賦曰",
+   "original_text": "嘴尖唇白三十早刑",
+   "translation": "입이 뾰족하고 입술이 희면 서른에 일찍 형벌을 당한다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "mouth",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "嘴尖",
+     "observable_ko": "뾰족한 입",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "mouth",
+     "evidence": "唇白",
+     "observable_ko": "흰 입술",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-028",
+   "section": "賦曰",
+   "original_text": "印平唇厚貌醜必產奇英",
+   "translation": "인당이 평평하고 입술이 두꺼우면 용모가 추해도 반드시 뛰어난 아이를 낳는다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "glabella",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印平",
+     "observable_ko": "평평한 인당",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    },
+    {
+     "region": "mouth",
+     "evidence": "唇厚",
+     "observable_ko": "두꺼운 입술",
+     "status": "exact",
+     "label": "lip_thickness:full"
+    },
+    {
+     "region": "face",
+     "evidence": "貌醜",
+     "observable_ko": "추한 용모라는 질적 평가",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-029",
+   "section": "附吉凶方位",
+   "original_text": "若有重紋一生利於財生水上",
+   "translation": "겹친 무늬가 있으면 평생 물 위에서 생기는 재물에 이롭다고 한다.",
+   "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+   "region": "face",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "若有重紋",
+     "observable_ko": "지고 부근 주거 부위의 겹친 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "직전 문맥은 下庫邊舟車 위를 보도록 지정한다."
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-030",
+   "section": "附吉凶方位",
+   "original_text": "承漿深紋恐投浪裏",
+   "translation": "승장(承漿, 아랫입술 아래)에 깊은 무늬가 있으면 물결 속에 던져질까 염려한다고 한다.",
+   "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+   "region": "chin",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "承漿深紋",
+     "observable_ko": "승장의 깊은 무늬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "LZC70286-verse-030-2",
+   "section": "附吉凶方位",
+   "original_text": "青筋若現一世不可入湖海淵源深處",
+   "translation": "푸른 힘줄이 나타나면 평생 호수와 바다의 깊은 곳에 들어가서는 안 된다고 한다.",
+   "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+   "region": "chin",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "青筋若現",
+     "observable_ko": "푸른 힘줄의 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

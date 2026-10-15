@@ -1,0 +1,3114 @@
+{
+  "version": "historical-interpretation-v2-draft",
+  "scope": "확보한 633·634권의 눈썹24·눈39·코24·입16 항목. 모든 관상 문헌 전체가 아님.",
+  "translation_scope": "한국어 내용 요약 및 핵심 구절 분류. 완역·교감본·독립 전문가 검수 아님.",
+  "topic_legend": {
+    "길": "문헌의 긍정적 주장",
+    "흉": "문헌의 부정적 주장",
+    "혼합": "긍정·부정 혼재",
+    "조건부": "다른 형상·시기·상황의 조건부 주장",
+    "해석보류": "본문은 관련되나 뜻 또는 평가 보류",
+    "미분류": "해당 주제가 요약에서 분류되지 않음; 원문에 없음을 보증하지 않음"
+  },
+  "authoring": "assistant_source_reading_single_rater",
+  "annotation_sha256": "07fe878cd736fb2ce5b24625396bdeb7ae4a1feb225a3c05cb6db2a713e23e66",
+  "records": [
+    {
+      "record_id": "SXQP633-brow-001",
+      "name_zh": "鬼眉",
+      "name_ko": "귀미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%AC%BC%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉粗壓眼心不善，假施仁義暗毒奸。百般生活無沾染，常思竊盜過平生。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굵은 눈썹이 눈 가까이 내려와 누르는 듯한 모습",
+      "limitation": "눈썹 두께와 눈 사이 거리의 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 굵고 눈을 누르는 눈썹에 악한 마음·위선·도둑질이라는 비난을 붙인다. 복록의 유무를 직접 말하지 않는다.",
+      "interpretation_evidence": [
+        "心不善",
+        "常思竊盜過平生"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉"
+      },
+      "review_note": "인격·범죄 낙인 표현은 개인 분석에 적용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "23bad4db22115aff90087f60b6dba4c4611c8dfb7da4c9903fef139dbb0490dd",
+      "display_text": "『신상전편』의 귀미 항목: 굵고 눈을 누르는 눈썹에 악한 마음·위선·도둑질이라는 비난을 붙인다. 복록의 유무를 직접 말하지 않는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-002",
+      "name_zh": "疏散眉",
+      "name_ko": "소산미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%96%8F%E6%95%A3%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "平生財帛多興廢，不虧我用亦無餘。外和內淡如無有，始末虛盈更不舒。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "해당 절에는 판정 가능한 구체적 형태 설명이 부족함",
+      "limitation": "이름만으로 성긴 눈썹이라 확정하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재물이 흥하고 쇠하기를 반복하며 쓸 돈은 있으나 여유가 없다고 서술한다.",
+      "interpretation_evidence": [
+        "財帛多興廢",
+        "不虧我用亦無餘"
+      ],
+      "historical_topic_assessment": {
+        "재물": "혼합"
+      },
+      "review_note": "外和內淡 등 관계 표현은 세부 번역 검토",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "insufficient_morphology",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7b851a574d914edc9fb859f7ed38f4cc8475611921e877a0e717fc7ade4613b6",
+      "display_text": "『신상전편』의 소산미 항목: 재물이 흥하고 쇠하기를 반복하며 쓸 돈은 있으나 여유가 없다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-003",
+      "name_zh": "黃薄眉",
+      "name_ko": "황박미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%BB%83%E8%96%84%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉短疏散目且長，早年財帛有虛張，部位雖好發不久，神昏氣濁喪他鄉。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "짧고 성긴 눈썹과 긴 눈을 함께 묘사",
+      "limitation": "이름의 황색·얇음을 별도 조건으로 추가하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 초년 재물의 겉보기 번성과 오래가지 않는 발달, 타향에서의 죽음을 서술한다.",
+      "interpretation_evidence": [
+        "早年財帛有虛張",
+        "部位雖好發不久",
+        "喪他鄉"
+      ],
+      "historical_topic_assessment": {
+        "재물": "혼합",
+        "수명·건강": "흉"
+      },
+      "review_note": "죽음 예언은 역사 자료로만 기록",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "0755c6f9b3ae0485b7fbe6149ddeca75b486d4e307fc56030ebe61fb71485fc3",
+      "display_text": "『신상전편』의 황박미 항목: 초년 재물의 겉보기 번성과 오래가지 않는 발달, 타향에서의 죽음을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-004",
+      "name_zh": "掃箒眉",
+      "name_ko": "소추미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%8E%83%E7%AE%92%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "「前清後疏」眉散朗，兄弟無情心妬欺。定有一二無後裔，老年財帛不如之。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "앞부분은 정돈되고 뒷부분은 성긴 눈썹",
+      "limitation": "앞뒤 밀도를 함께 관찰해야 함",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제 관계의 불화와 후손의 결핍, 노년 재물의 쇠퇴를 연결한다.",
+      "interpretation_evidence": [
+        "兄弟無情",
+        "無後裔",
+        "老年財帛不如之"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "재물": "흉"
+      },
+      "review_note": "가족 피해 예언을 사진 속 사람에게 적용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "fbfb59c009df0f9f6d55df2665e37d52a38b0471f7344626074b7d52021947e0",
+      "display_text": "『신상전편』의 소추미 항목: 형제 관계의 불화와 후손의 결핍, 노년 재물의 쇠퇴를 연결한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-005",
+      "name_zh": "尖刀眉",
+      "name_ko": "첨도미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%B0%96%E5%88%80%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《眉粗》惡煞心奸險，見人一面假和情。執拘梟雄性兇暴，典刑不免喪其身。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굵은 눈썹이라는 표현",
+      "limitation": "칼처럼 각진 모양이라는 추가 조건은 본 절에서 확인 안 됨",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 간사함·흉포함이라는 인격 비난과 형벌로 인한 죽음을 서술한다.",
+      "interpretation_evidence": [
+        "心奸險",
+        "性兇暴",
+        "典刑不免喪其身"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "형벌·재난": "흉"
+      },
+      "review_note": "칼 모양이라는 구체 조건을 제목만으로 추가하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "f53565729b2f99a34c458340da4392192d7b28b1af1b11d255b2f3caf5c8c6d3",
+      "display_text": "『신상전편』의 첨도미 항목: 간사함·흉포함이라는 인격 비난과 형벌로 인한 죽음을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-006",
+      "name_zh": "八字眉",
+      "name_ko": "팔자미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%85%AB%E5%AD%97%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "頭疏尾散壓奸門，到老數妻結不成。財帛一生足我用，子息終須倚螟蛉。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "앞쪽은 성기고 꼬리는 흩어지며 눈 바깥쪽 부위로 내려옴",
+      "limitation": "고정 각도 기준은 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재물은 평생 쓸 만큼 있으나 혼인과 자녀에는 어려움이 있다고 서술한다.",
+      "interpretation_evidence": [
+        "財帛一生足我用",
+        "到老數妻結不成",
+        "子息終須倚螟蛉"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "가족·관계": "흉"
+      },
+      "review_note": "螟蛉은 양자 비유로 읽는 초벌 해석",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "c9c306bea167dc9a2557e3617fa15741b2c7aa4bb4229c9d6471f4b5e55989eb",
+      "display_text": "『신상전편』의 팔자미 항목: 재물은 평생 쓸 만큼 있으나 혼인과 자녀에는 어려움이 있다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-007",
+      "name_zh": "羅漢眉",
+      "name_ko": "나한미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%BE%85%E6%BC%A2%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "此眉相中大不歡。妻遲子晚早艱難。晚年娶妾方一子。正妻不產主孤單。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "해당 절에는 구체적인 형태 설명이 부족함",
+      "limitation": "유형 판정 보류",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 혼인·출산이 늦고 초년에 어려움을 겪으며 고독하다고 서술한다.",
+      "interpretation_evidence": [
+        "妻遲子晚早艱難",
+        "正妻不產主孤單"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "형태 조건이 부족해 유형 판정은 보류",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "insufficient_morphology",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "a4ccf8c9cdfcce23494ff6385615af64cb561ad0bfcba3e3a1e0fc57589f84ed",
+      "display_text": "『신상전편』의 나한미 항목: 혼인·출산이 늦고 초년에 어려움을 겪으며 고독하다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-008",
+      "name_zh": "龍眉",
+      "name_ko": "용미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%BE%8D%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉秀彎彎毫且稀，鴈行六七拜丹墀。父母清壽皆齊貴，拔萃超群天下奇。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굽은 눈썹과 비교적 성긴 털",
+      "limitation": "정량 경계 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제의 관직 진출, 부모의 장수·귀함, 뛰어난 성취를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "鴈行六七拜丹墀",
+        "父母清壽皆齊貴",
+        "拔萃超群"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길",
+        "수명·건강": "길"
+      },
+      "review_note": "鴈行은 형제 비유. 인원 수를 현실 예측으로 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "cac094af3c4259b90256dcae9ce6bd147a50d0fbedbc8a31ff5db5ec4767d596",
+      "display_text": "『신상전편』의 용미 항목: 형제의 관직 진출, 부모의 장수·귀함, 뛰어난 성취를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-009",
+      "name_zh": "柳葉眉",
+      "name_ko": "유엽미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%9F%B3%E8%91%89%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉粗帶濁濁中清，骨肉情疏生子遲，友交忠信貴人盼，定須發達顯揚名。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "전사본은 굵고 탁한 가운데 맑음이 있다고 묘사",
+      "limitation": "통념의 가는 버들잎 모양과 달라 판본 대조 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 가족과는 소원하고 자녀가 늦지만 벗의 신의와 귀인의 도움, 성공·명성을 서술한다.",
+      "interpretation_evidence": [
+        "骨肉情疏生子遲",
+        "友交忠信貴人盼",
+        "發達顯揚名"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "혼합",
+        "지위·명예": "길"
+      },
+      "review_note": "본문 眉粗가 가는 버들잎 통념과 달라 판본 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "49ebfe871a6d750b9935adf66f995922f807bbb4ee020bff64011c346c0692d2",
+      "display_text": "『신상전편』의 유엽미 항목: 가족과는 소원하고 자녀가 늦지만 벗의 신의와 귀인의 도움, 성공·명성을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-010",
+      "name_zh": "劍眉",
+      "name_ko": "검미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%8A%8D%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉若山林秀且長，威權智識輔君王。縱貧不日成清貴，孫子行行後且康。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "길고 수려한 눈썹",
+      "limitation": "눈썹 각도나 직선 여부를 추가하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 권위와 지혜로 임금을 돕고 가난해도 귀해지며 후손이 평안하다고 서술한다.",
+      "interpretation_evidence": [
+        "威權智識輔君王",
+        "縱貧不日成清貴",
+        "孫子行行後且康"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "직선·각도 조건은 본문에 없음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7bb90ba5cda4ae0f7ee106959848b0779ea18be466f2ed3abf874715ab6cd369",
+      "display_text": "『신상전편』의 검미 항목: 권위와 지혜로 임금을 돕고 가난해도 귀해지며 후손이 평안하다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-011",
+      "name_zh": "獅子眉",
+      "name_ko": "사자미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%8D%85%E5%AD%90%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉毫粗濁喜高眼。此相須當發達遲。三停得配獅形像。富貴榮華老更輝。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굵은 눈썹 털을 말하며 눈과 삼정의 조합도 언급",
+      "limitation": "단독 눈썹 crop으로 전체 전통 유형 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 발달이 늦되 얼굴 전체가 사자 형상과 조화를 이루면 노년에 부귀가 빛난다고 서술한다.",
+      "interpretation_evidence": [
+        "發達遲",
+        "三停得配獅形像",
+        "富貴榮華老更輝"
+      ],
+      "historical_topic_assessment": {
+        "재물": "조건부",
+        "지위·명예": "조건부"
+      },
+      "review_note": "삼정과 전체 형상의 조건을 생략하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "b8caee39c8009436976788cb1c5841e2d09cd569de95e5f7b1c37d332f734e2b",
+      "display_text": "『신상전편』의 사자미 항목: 발달이 늦되 얼굴 전체가 사자 형상과 조화를 이루면 노년에 부귀가 빛난다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-012",
+      "name_zh": "前清後疏眉",
+      "name_ko": "전청후소미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%89%8D%E6%B8%85%E5%BE%8C%E7%96%8F%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉清尾散散中清，早歲功名財帛平，中歲末年名利遂，收成顯擢耀門庭。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "앞은 정돈되고 꼬리가 성긴 눈썹",
+      "limitation": "밀도 변화 관찰 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 초년의 공명·재물은 평범하지만 중년 이후 명예와 이익이 성취된다고 서술한다.",
+      "interpretation_evidence": [
+        "早歲功名財帛平",
+        "中歲末年名利遂"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "시기별 차이를 보존",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "fc64edb19e0adc120bd7e06bd8aea631ed7e3b37e85a41156af766d1471dc48d",
+      "display_text": "『신상전편』의 전청후소미 항목: 초년의 공명·재물은 평범하지만 중년 이후 명예와 이익이 성취된다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-013",
+      "name_zh": "輕清眉",
+      "name_ko": "경청미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%BC%95%E6%B8%85%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉秀彎長尾帶疏，飛翔騰達拜皇都。榮華兄弟情皆順，交結相知亦似初。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굽고 길며 꼬리가 성긴 눈썹",
+      "limitation": "정량 경계 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 높은 성취와 영화를 얻고 형제·친구 관계도 순조롭다고 서술한다.",
+      "interpretation_evidence": [
+        "飛翔騰達拜皇都",
+        "榮華兄弟情皆順",
+        "交結相知亦似初"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "기운·수려함은 정량 형태와 분리",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "ad8d73e4d95740b378dc2e4501d7c96406b45a9a43f53d0b71b0a46f6c7b663b",
+      "display_text": "『신상전편』의 경청미 항목: 높은 성취와 영화를 얻고 형제·친구 관계도 순조롭다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-014",
+      "name_zh": "短促秀眉",
+      "name_ko": "단촉수미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%9F%AD%E4%BF%83%E7%A7%80%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "秀短之眉壽且高，聯芳雙桂俊英豪。平生不違雞黍約，忠孝仁廉子亦高。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "짧고 정돈된 눈썹",
+      "limitation": "짧음의 기준점 불명확",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 장수와 자손의 뛰어남, 신의·충효 등의 덕목을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "壽且高",
+        "俊英豪",
+        "忠孝仁廉子亦高"
+      ],
+      "historical_topic_assessment": {
+        "수명·건강": "길",
+        "가족·관계": "길",
+        "인격·행동": "길"
+      },
+      "review_note": "덕목은 관찰된 성격 정답이 아님",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "dd2ac03c27c463286c249adcd0f2a20cbbeb397fb949ce19288bd4b5aec5ffb5",
+      "display_text": "『신상전편』의 단촉수미 항목: 장수와 자손의 뛰어남, 신의·충효 등의 덕목을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-015",
+      "name_zh": "旋螺眉",
+      "name_ko": "선라미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%97%8B%E8%9E%BA%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "旋螺之眉世間稀，威權得此正相宜，平常之人皆不利，英雄武職應天機。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "소라처럼 소용돌이치는 눈썹이라는 명칭",
+      "limitation": "털 방향을 볼 고해상도 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 평범한 사람에게는 불리하지만 권위와 무직에는 어울린다는 조건부 해석이다.",
+      "interpretation_evidence": [
+        "平常之人皆不利",
+        "英雄武職應天機"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "조건부"
+      },
+      "review_note": "직업에 따른 조건을 보존하며 채용·직업 판정에 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "12db6afed521738111dc24678d47b732ee14a14adbf5dc221ea31b01bdb46e21",
+      "display_text": "『신상전편』의 선라미 항목: 평범한 사람에게는 불리하지만 권위와 무직에는 어울린다는 조건부 해석이다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-016",
+      "name_zh": "一字眉",
+      "name_ko": "일자미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E4%B8%80%E5%AD%97%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "毫清首尾皆如蓋，富貴堪誇壽且高。少年發達登科早，夫婦齊眉到白頭。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "털이 정돈되고 처음부터 끝까지 덮개 같다는 표현",
+      "limitation": "직선 각도를 명시한 구절로 간주하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀·장수·이른 성공과 부부의 해로를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "富貴堪誇壽且高",
+        "少年發達登科早",
+        "夫婦齊眉到白頭"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길",
+        "수명·건강": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "제목만으로 눈썹 직선 여부를 확정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "f522bcf6a47e7dd017fe946081e6b25fc7918da806864eeac74456a6ae08a7de",
+      "display_text": "『신상전편』의 일자미 항목: 부귀·장수·이른 성공과 부부의 해로를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-017",
+      "name_zh": "臥蠶眉",
+      "name_ko": "와잠미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%87%A5%E8%A0%B6%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉彎帶秀心中巧，宛轉機關甚可人。早歲鰲頭宜可占，鴈行猶恐弗相親。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굽고 수려한 눈썹",
+      "limitation": "통념의 두꺼운 누에 모양과 동일시하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재주와 이른 과거 급제를 길하게 보면서 형제 간 친밀함은 부족할 수 있다고 서술한다.",
+      "interpretation_evidence": [
+        "早歲鰲頭宜可占",
+        "鴈行猶恐弗相親"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "흉"
+      },
+      "review_note": "心中巧·機關의 뉘앙스는 번역 검토",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7cef9e9ff2d842dd869c3214f80ab856ec080885759028498528092506105467",
+      "display_text": "『신상전편』의 와잠미 항목: 재주와 이른 과거 급제를 길하게 보면서 형제 간 친밀함은 부족할 수 있다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-018",
+      "name_zh": "新月眉",
+      "name_ko": "신월미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%96%B0%E6%9C%88%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眉清目秀最為良，又喜眉尾拂天倉。《棠棣怡怡》皆富貴，他年及第拜朝堂。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "눈썹이 정돈되고 꼬리가 관자 쪽까지 뻗는 표현",
+      "limitation": "초승달 각도는 명시되지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제의 화목·부귀와 과거 급제·관직 진출을 서술한다.",
+      "interpretation_evidence": [
+        "棠棣怡怡",
+        "皆富貴",
+        "及第拜朝堂"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "길",
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "초승달의 수치 각도는 본문에 없음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "db15958f028d486482ff27105122294219603098c4ccf9870aab67ca543d7397",
+      "display_text": "『신상전편』의 신월미 항목: 형제의 화목·부귀와 과거 급제·관직 진출을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-019",
+      "name_zh": "虎眉",
+      "name_ko": "호미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%99%8E%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "此眉雖粗且有威，平生膽志有施為。不富終能成大貴，遐齡鶴筭鴈行虧。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굵은 눈썹",
+      "limitation": "위엄은 관찰형 레이블에서 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 큰 지위와 장수를 길하게 서술하나 형제에 관해서는 손실을 언급한다.",
+      "interpretation_evidence": [
+        "不富終能成大貴",
+        "遐齡鶴筭鴈行虧"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "수명·건강": "길",
+        "가족·관계": "흉"
+      },
+      "review_note": "재물 부유를 반드시 보장하는 문장으로 바꾸지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "60056e48e39b484651bf3578ef3b7eefee75c74f8e280d06bb010f281d6b0635",
+      "display_text": "『신상전편』의 호미 항목: 큰 지위와 장수를 길하게 서술하나 형제에 관해서는 손실을 언급한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-020",
+      "name_zh": "小掃箒眉",
+      "name_ko": "소소추미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%B0%8F%E6%8E%83%E7%AE%92%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "若濃若大毫不粗，齊拂《天倉》尾不枯。兄弟背情分南北，骨肉刑傷不可無。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "짙거나 크지만 털은 거칠지 않고 꼬리가 마르지 않음",
+      "limitation": "털 자체와 눈썹 띠 두께 구분",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제의 정이 어긋나 흩어지고 가족에게 해가 생긴다고 서술한다.",
+      "interpretation_evidence": [
+        "兄弟背情分南北",
+        "骨肉刑傷不可無"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉"
+      },
+      "review_note": "가족 피해 예언은 문헌 기록으로 한정",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "c610cfe79c61a20c14db2414d9a4b87f602e32d6d0d9ccea66c94696733bd7a3",
+      "display_text": "『신상전편』의 소소추미 항목: 형제의 정이 어긋나 흩어지고 가족에게 해가 생긴다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-021",
+      "name_zh": "大短促眉",
+      "name_ko": "대단촉미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%A4%A7%E7%9F%AD%E4%BF%83%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "短秀毫清尾略黃，眉頭豎立最為良。貲財來往難居積，子俊妻和鴈侶強。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "짧고 털이 정돈되며 꼬리가 약간 누렇고 앞털이 섬",
+      "limitation": "색과 털 방향은 고해상도 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재물 축적은 어렵지만 자녀·배우자·형제 관계는 좋다고 서술한다.",
+      "interpretation_evidence": [
+        "貲財來往難居積",
+        "子俊妻和鴈侶強"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "가족·관계": "길"
+      },
+      "review_note": "형태의 황색과 털 방향은 별도 검수",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "bfae3ac062785f3b7902cbe6f925f3414ee4dc3b1317fb495e59605890eece39",
+      "display_text": "『신상전편』의 대단촉미 항목: 재물 축적은 어렵지만 자녀·배우자·형제 관계는 좋다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-022",
+      "name_zh": "清秀眉",
+      "name_ko": "청수미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%B8%85%E7%A7%80%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "秀彎長順過天倉，蓋目入鬢更清長。聰明早歲登科第，弟恭兄友姓名香。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "굽고 길게 이어지며 관자 쪽까지 뻗는 눈썹",
+      "limitation": "정량 경계 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 이른 과거 급제와 형제의 우애·명성을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "早歲登科第",
+        "弟恭兄友姓名香"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "지능 주장을 얼굴 기반 지능 레이블로 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "43dab4b94a83cde9676eea21b4517cec66a8e2342d7274731e7c66807e58e44f",
+      "display_text": "『신상전편』의 청수미 항목: 이른 과거 급제와 형제의 우애·명성을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-023",
+      "name_zh": "間斷眉",
+      "name_ko": "간단미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%96%93%E6%96%B7%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "若黃若淡有勾絞，兄弟無緣有必傷。財帛進退多興廢，後損爹兮先損娘。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "옅거나 누런 모습과 얽힘을 기술",
+      "limitation": "단절 길이 기준은 없으며 판본 검토 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제·부모의 상실과 재물의 흥망을 서술한다.",
+      "interpretation_evidence": [
+        "兄弟無緣有必傷",
+        "財帛進退多興廢",
+        "後損爹兮先損娘"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "재물": "혼합"
+      },
+      "review_note": "눈썹 단절 여부는 제목만으로 확정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "42ef8be5a78273a73fac68c95bf908118c82254e7fd727f1aa38bd78c885ba0c",
+      "display_text": "『신상전편』의 간단미 항목: 형제·부모의 상실과 재물의 흥망을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-brow-024",
+      "name_zh": "交加眉",
+      "name_ko": "교가미",
+      "part": "brow",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E4%BA%A4%E5%8A%A0%E7%9C%89",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "最嫌此眉主大凶，中年末景陷牢中，破家累及兄和弟，父在西兮母在東。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "해당 절에는 구체적인 형태 설명이 부족함",
+      "limitation": "교차 모양을 이름만으로 정답화하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 중년 이후 수감과 가정의 파탄·가족의 이산을 흉하게 서술한다.",
+      "interpretation_evidence": [
+        "中年末景陷牢中",
+        "破家累及兄和弟",
+        "父在西兮母在東"
+      ],
+      "historical_topic_assessment": {
+        "형벌·재난": "흉",
+        "가족·관계": "흉"
+      },
+      "review_note": "형태 조건 부족. 범죄 예측에 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "insufficient_morphology",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "90dad56bf0ebf87f013774ca5f39e6ce85f3789118d49a0d1e9552c6ca98d6da",
+      "display_text": "『신상전편』의 교가미 항목: 중년 이후 수감과 가정의 파탄·가족의 이산을 흉하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-001",
+      "name_zh": "龍眼",
+      "name_ko": "용안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%BE%8D%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "黑白分明精神彩，波長眼大氣神藏。如此富貴非小可，竟能受祿輔明皇。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "흑백이 뚜렷하고 길며 큰 눈",
+      "limitation": "정신·기운 등의 비형태 조건 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 큰 부귀와 녹봉을 받으며 임금을 보좌할 지위를 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "富貴非小可",
+        "受祿輔明皇"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "신기·정신은 사진의 객관적 형태 조건이 아님",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "4c4c582d13f792d29349a634c1909c4adb11440fe93ca23c436847dd44afe52e",
+      "display_text": "『신상전편』의 용안 항목: 큰 부귀와 녹봉을 받으며 임금을 보좌할 지위를 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-002",
+      "name_zh": "鳳眼",
+      "name_ko": "봉안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B3%B3%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鳳眼波長貴自成，影光秀氣又神清。聰明智慧功名遂，拔萃超群壓眾英。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "길게 이어지는 눈매를 묘사",
+      "limitation": "상향 눈꼬리·쌍꺼풀 조건을 추가하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 귀함과 지혜·공명의 성취, 뛰어남을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "貴自成",
+        "聰明智慧功名遂",
+        "拔萃超群"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "능력에 대한 주장": "길"
+      },
+      "review_note": "눈꼬리 상향 수치를 추가하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e2bc372a1296d4ca83c8b217a4495c4255aeb174ee228717c43893e030988e50",
+      "display_text": "『신상전편』의 봉안 항목: 귀함과 지혜·공명의 성취, 뛰어남을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-003",
+      "name_zh": "猴眼",
+      "name_ko": "후안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%8C%B4%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "黑睛昂上波紋矗。轉動機關亦有宜。此相若全真富貴。好餐果品坐頭低。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "검은 눈동자가 위를 향하고 눈 주위 선이 솟는 표현",
+      "limitation": "시선과 형태를 분리해야 함",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 해당 형상이 온전히 갖춰지면 부귀하다고 하며 음식 취향과 앉은 자세도 덧붙인다.",
+      "interpretation_evidence": [
+        "此相若全真富貴"
+      ],
+      "historical_topic_assessment": {
+        "재물": "조건부",
+        "지위·명예": "조건부"
+      },
+      "review_note": "若全 조건 보존. 취향을 사진에서 추론하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "d7125b5bc2ccbdfe0805cfc658d7db386446a9e494dcdb01f274e47f82f1c6bd",
+      "display_text": "『신상전편』의 후안 항목: 해당 형상이 온전히 갖춰지면 부귀하다고 하며 음식 취향과 앉은 자세도 덧붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-004",
+      "name_zh": "象眼",
+      "name_ko": "상안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%B1%A1%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "上下波紋秀氣多，波長眼細亦仁和。及時富貴皆為妙，遐筭清平樂且歌。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위아래 눈 주위 선과 길고 가는 눈을 묘사",
+      "limitation": "눈매와 피부 주름을 구분할 해부학적 해석 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 온화함·부귀·장수와 평온한 생활을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "波長眼細亦仁和",
+        "及時富貴",
+        "遐筭清平樂且歌"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "재물": "길",
+        "수명·건강": "길"
+      },
+      "review_note": "눈이 가늘다는 한 조건만으로 유형을 확정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "36328ad3017b81b40cdb2ecb8b3c92013c82bbeb79876b971622ff3dc71aead2",
+      "display_text": "『신상전편』의 상안 항목: 온화함·부귀·장수와 평온한 생활을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-005",
+      "name_zh": "龜眼",
+      "name_ko": "귀안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%BE%9C%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "龜眼睛圓藏秀氣，數條上有細紋波，康寧福壽豐衣足，悠遠綿綿及子孫。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "둥근 눈동자와 위쪽의 여러 가는 선",
+      "limitation": "눈동자 원형만으로 유형 구별 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 평안·복·장수와 풍족한 의식이 후손에게도 이어진다고 서술한다.",
+      "interpretation_evidence": [
+        "康寧福壽豐衣足",
+        "悠遠綿綿及子孫"
+      ],
+      "historical_topic_assessment": {
+        "복록": "길",
+        "수명·건강": "길",
+        "재물": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "눈동자의 둥긂만으로 유형 확정 불가",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "ed3e60cb919858682f9e38f9e25bbae6145091218987b2101f3cc2259f985b37",
+      "display_text": "『신상전편』의 귀안 항목: 평안·복·장수와 풍족한 의식이 후손에게도 이어진다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-006",
+      "name_zh": "鵲眼",
+      "name_ko": "작안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B5%B2%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "上有如紋秀且長，平生信實有忠良。少年發達如平淡，終末之時更吉昌。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위쪽의 선과 길고 수려한 모습",
+      "limitation": "波·紋의 범위 해석 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 신의·충량함과 초년의 평범함, 말년의 길한 발전을 서술한다.",
+      "interpretation_evidence": [
+        "信實有忠良",
+        "少年發達如平淡",
+        "終末之時更吉昌"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "생활·성취": "길"
+      },
+      "review_note": "연령별 운세를 실제 예측으로 사용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "1d62ae7eb56d93347b380de4a3c534bc5afdeb46f1bfb58c8d1661b2a9cc5840",
+      "display_text": "『신상전편』의 작안 항목: 신의·충량함과 초년의 평범함, 말년의 길한 발전을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-007",
+      "name_zh": "獅眼",
+      "name_ko": "사안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%8D%85%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼大威嚴性略狂，粗眉趁此又端莊。不貪不酷施仁政，富貴榮華福壽康。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "큰 눈과 굵은 눈썹의 조합",
+      "limitation": "눈 단독 분류의 정답으로 사용 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀·복·장수를 길하게 보면서 성정은 다소 거칠되 탐욕이나 가혹함이 없다고 묘사한다.",
+      "interpretation_evidence": [
+        "性略狂",
+        "不貪不酷施仁政",
+        "富貴榮華福壽康"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "수명·건강": "길",
+        "인격·행동": "혼합"
+      },
+      "review_note": "눈과 눈썹의 복합 형상",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7c9524e3fe485172197ed92228f869ffe4e414df7efa0c495abe3571f54ad5f2",
+      "display_text": "『신상전편』의 사안 항목: 부귀·복·장수를 길하게 보면서 성정은 다소 거칠되 탐욕이나 가혹함이 없다고 묘사한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-008",
+      "name_zh": "虎眼",
+      "name_ko": "호안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%99%8E%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼大睛黃淡金色，瞳人或短有時長，性剛沉重而無患，富貴終年子有傷。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "큰 눈과 누런빛·금빛 눈동자를 기술",
+      "limitation": "조명과 색을 분리하기 어려우며 색 레이블은 이번 범위 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀는 지속되지만 자녀에게 손상이 있다고 서술한다.",
+      "interpretation_evidence": [
+        "富貴終年子有傷"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "가족·관계": "흉"
+      },
+      "review_note": "눈동자 색과 시선에 관한 조건 분리",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e529ce886328fde07adc9963a54986237860330fcb44a49cbce62f6a8a471bd2",
+      "display_text": "『신상전편』의 호안 항목: 부귀는 지속되지만 자녀에게 손상이 있다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-009",
+      "name_zh": "牛眼",
+      "name_ko": "우안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%89%9B%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼大睛圓視見風，見之遠近不分明，興財巨萬無差跌，壽算綿長福祿終。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "큰 눈과 둥근 눈동자",
+      "limitation": "시력에 관한 문헌 주장은 레이블하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 큰 재물과 장수·복록을 길하게 서술한다. 앞 구절에는 시야가 명료하지 않다는 표현도 있다.",
+      "interpretation_evidence": [
+        "興財巨萬",
+        "壽算綿長福祿終"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "수명·건강": "길",
+        "복록": "길"
+      },
+      "review_note": "시력·안과 상태는 얼굴 사진에서 판정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "f74e5b24c3fced7360897db17fce9e634634f482cb04efe2821177fffce9cfac",
+      "display_text": "『신상전편』의 우안 항목: 큰 재물과 장수·복록을 길하게 서술한다. 앞 구절에는 시야가 명료하지 않다는 표현도 있다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-010",
+      "name_zh": "孔雀眼",
+      "name_ko": "공작안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E5%AD%94%E9%9B%80%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼有波明睛黑光。青多白少惡兇強。素廉清潔嫌乍煖。始末興隆姓氏揚。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "검은 눈동자가 두드러지고 흰 부분이 적은 모습",
+      "limitation": "색 및 눈동자 면적 판정은 별도 검수 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 흥성과 명성을 길하게 서술하면서 성정에 관한 상반된 표현도 함께 쓴다.",
+      "interpretation_evidence": [
+        "惡兇強",
+        "素廉清潔",
+        "始末興隆姓氏揚"
+      ],
+      "historical_topic_assessment": {
+        "생활·성취": "길",
+        "지위·명예": "길",
+        "인격·행동": "혼합"
+      },
+      "review_note": "嫌乍煖 구절은 뜻 검토 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2df906e143c07e8f3b82cf6720bcbb30ac368f6e005cf135ec9efaa6a4bb5d4c",
+      "display_text": "『신상전편』의 공작안 항목: 흥성과 명성을 길하게 서술하면서 성정에 관한 상반된 표현도 함께 쓴다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-011",
+      "name_zh": "鴛鴦眼",
+      "name_ko": "원앙안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B4%9B%E9%B4%A6%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼秀睛紅潤有紗，眼圓略露帶桃花。夫妻情順又且美，若還富貴恐淫些。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "둥근 눈과 약간 드러난 눈동자를 묘사",
+      "limitation": "붉음·윤기·도화 표현이 섞여 단일 형태 불명확",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부부의 화목함을 길하게 묘사하지만 부귀한 경우 성적 품행을 비난하는 조건을 덧붙인다.",
+      "interpretation_evidence": [
+        "夫妻情順又且美",
+        "若還富貴恐淫些"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "길",
+        "인격·행동": "조건부"
+      },
+      "review_note": "성적 품행·성별 편견은 개인 분석에 적용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "cda3650c53c249b13ac8464fd95534f057e4e3ff59ae4d3970ca2df0e3559764",
+      "display_text": "『신상전편』의 원앙안 항목: 부부의 화목함을 길하게 묘사하지만 부귀한 경우 성적 품행을 비난하는 조건을 덧붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-012",
+      "name_zh": "鳴鳳眼",
+      "name_ko": "명봉안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B3%B4%E9%B3%B3%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "上層波起亦分明，視耳睜睜不露神。敢取中年而遇貴，榮宗耀祖改門庭。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위쪽 눈 주위 선이 올라와 뚜렷한 모습",
+      "limitation": "쌍꺼풀이라고 단정하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 중년에 귀인을 만나 가문의 명예를 높인다고 서술한다.",
+      "interpretation_evidence": [
+        "中年而遇貴",
+        "榮宗耀祖改門庭"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "동작·시선 조건이 혼합됨",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "48de92f74ba3cca2557496fa244877c0b4cdc26c86ad334cb91ab4c050df40a7",
+      "display_text": "『신상전편』의 명봉안 항목: 중년에 귀인을 만나 가문의 명예를 높인다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-013",
+      "name_zh": "睡鳳眼",
+      "name_ko": "수봉안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%9D%A1%E9%B3%B3%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "平平瞻視不偏斜，笑帶和容秀氣華。天性容人而有量，須知富貴足堪誇。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "비스듬하지 않은 시선과 웃는 표정",
+      "limitation": "정적 눈 형태의 구체 조건 부족",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 남을 포용하는 성정과 부귀를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "天性容人而有量",
+        "富貴足堪誇"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "재물": "길"
+      },
+      "review_note": "웃는 상태와 고유 형태를 구분",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "insufficient_morphology",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "d54287e1e25386ed4920f84b86cb0d129ac18b43bfaab7ce8765d3982399ede6",
+      "display_text": "『신상전편』의 수봉안 항목: 남을 포용하는 성정과 부귀를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-014",
+      "name_zh": "瑞鳳眼",
+      "name_ko": "서봉안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%91%9E%E9%B3%B3%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "日月分明兩角齊，二波長秀笑微微。流而不動神光色，翰苑聲名達鳳池。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "두 모서리가 가지런하고 두 눈매가 길게 이어지는 표현",
+      "limitation": "미소와 시선 조건이 섞임",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 문한 관련 관직과 높은 명성을 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "翰苑聲名達鳳池"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "신광 등 추상 조건을 정답화하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "bf79a67b2224bbbdbc1e5a25c64a9aa49528a932ed1f1a5baf81df869cefc588",
+      "display_text": "『신상전편』의 서봉안 항목: 문한 관련 관직과 높은 명성을 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-015",
+      "name_zh": "鴈眼",
+      "name_ko": "안안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B4%88%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "睛如黑漆帶金黃，上下波紋二樣長。入相為官恭且蘊，連枝同氣姓名香。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "검은 눈동자에 금빛과 위아래 긴 선을 기술",
+      "limitation": "조명 의존 색 조건 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 관직 진출과 형제의 명예를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "入相為官",
+        "連枝同氣姓名香"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "눈동자 금빛은 조명 영향을 받음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e39da98fa156e2278cdb9f08d09988347611e5c4ad12414bb0ace61d45a753d3",
+      "display_text": "『신상전편』의 안안 항목: 관직 진출과 형제의 명예를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-016",
+      "name_zh": "陰陽眼",
+      "name_ko": "음양안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%99%B0%E9%99%BD%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "兩目雌雄睛大小，精神光彩視人斜，心非口是無誠實，富積奸謀詭不奢。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "양쪽 눈·눈동자의 크기가 다른 모습",
+      "limitation": "좌우를 함께 봐야 함",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 겉과 속이 다르고 성실하지 않으며 부를 간계와 연결하는 비난을 담는다.",
+      "interpretation_evidence": [
+        "心非口是無誠實",
+        "富積奸謀詭不奢"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "재물": "해석보류"
+      },
+      "review_note": "마지막 구절 문장 해석 검토. 좌우 비대칭을 인격과 연결하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7b9a29044a42bb200a28a570556f7707820049bdb03c696362ace9cd55c79f80",
+      "display_text": "『신상전편』의 음양안 항목: 겉과 속이 다르고 성실하지 않으며 부를 간계와 연결하는 비난을 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-017",
+      "name_zh": "鶴形眼",
+      "name_ko": "학형안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B6%B4%E5%BD%A2%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "上層波秀到奸門，黑白分明清秀瞳，正視無偏人可愛，高明廣大貴而榮。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위 눈매가 바깥쪽으로 길고 흑백이 뚜렷함",
+      "limitation": "학안과 별도 항목 유지",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 높고 넓은 기량과 귀함·영화를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "高明廣大貴而榮"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "鶴眼과 별도 유형 ID 유지",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "64d5be50e8e8004e4b9876c461bde3a88605b18986cb5264294807763e7841f3",
+      "display_text": "『신상전편』의 학형안 항목: 높고 넓은 기량과 귀함·영화를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-018",
+      "name_zh": "鵝眼",
+      "name_ko": "아안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B5%9D%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "數波紋秀射天倉，視物分明神更長。白少黑多心且善，綿綿福祿老安祥。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "여러 눈 주위 선과 흰 부분보다 검은 부분이 많은 모습",
+      "limitation": "피부 주름과 눈매 용어 구분 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 선한 마음과 이어지는 복록·평안한 노년을 서술한다.",
+      "interpretation_evidence": [
+        "心且善",
+        "綿綿福祿老安祥"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "복록": "길",
+        "생활·성취": "길"
+      },
+      "review_note": "동공 대 흰자 비율과 시선 영향 구분",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "803e4336c4544c66093bc3390064f587becfcaf711cd9f430e9e79eb24c4b3e4",
+      "display_text": "『신상전편』의 아안 항목: 선한 마음과 이어지는 복록·평안한 노년을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-019",
+      "name_zh": "桃花眼",
+      "name_ko": "도화안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E6%A1%83%E8%8A%B1%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "男女桃花眼不宜，逢人微笑水光迷。眼皮濕淚兼斜視，自足歡娛樂且嬉。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "미소·물기·눈물과 비스듬한 시선",
+      "limitation": "고유 형태가 아니라 표정·상태 조건 다수",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 웃음·눈물·곁눈질을 묘사하며 즐거움을 추구한다는 해석과 부정적 평가를 붙인다.",
+      "interpretation_evidence": [
+        "男女桃花眼不宜",
+        "自足歡娛樂且嬉"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "생활·성취": "해석보류"
+      },
+      "review_note": "쾌락 표현을 행복·연애운의 길상으로 바꾸지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "3ec0e8c37bcd1c589c170646709c8e3f6173b5957b93836d8f8083a223186634",
+      "display_text": "『신상전편』의 도화안 항목: 웃음·눈물·곁눈질을 묘사하며 즐거움을 추구한다는 해석과 부정적 평가를 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-020",
+      "name_zh": "醉眼",
+      "name_ko": "취안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%86%89%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "紅黃混雜卻流光，如醉如癡心昧昂。女犯貪淫男必夭，僧人道士亦淫荒。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "붉고 누런 색과 흐르는 듯한 시선을 기술",
+      "limitation": "눈만으로 취함·심리 상태를 판정하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 여성·종교인에게 성적 품행 비난을, 남성에게 요절 주장을 붙인다.",
+      "interpretation_evidence": [
+        "女犯貪淫男必夭",
+        "僧人道士亦淫荒"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "수명·건강": "흉"
+      },
+      "review_note": "성별·종교 편견 포함. 역사 자료로만 보존",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "db44a7dc5863f658acc941649d750dbe0210588d2f89aabf78976d8708a439eb",
+      "display_text": "『신상전편』의 취안 항목: 여성·종교인에게 성적 품행 비난을, 남성에게 요절 주장을 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-021",
+      "name_zh": "鶴眼",
+      "name_ko": "학안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B6%B4%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼秀精神黑白清，藏神不露顯功名。昂昂志氣衝牛斗，富貴須當達上卿。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "흑백이 뚜렷하고 수려한 눈이라는 묘사",
+      "limitation": "신광 등 추상 조건을 사진 레이블에서 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 공명·부귀와 높은 관직을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "藏神不露顯功名",
+        "富貴須當達上卿"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "재물": "길"
+      },
+      "review_note": "정신·뜻의 크기를 사진에서 평가하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "389054f45e4fefe2d681321342570c61bc1049969d6fa7e621f140ae585c5efa",
+      "display_text": "『신상전편』의 학안 항목: 공명·부귀와 높은 관직을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-022",
+      "name_zh": "羊眼",
+      "name_ko": "양안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%BE%8A%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "黑淡微黃神不清，瞳人紗樣卻昏睛，祖財縱有無緣享，晚歲中年又且貧。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "옅고 누런 눈동자와 흐린 모습",
+      "limitation": "색·건강 추정을 레이블하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 조상의 재산을 누리기 어렵고 중년·노년에 가난하다고 서술한다.",
+      "interpretation_evidence": [
+        "祖財縱有無緣享",
+        "晚歲中年又且貧"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉"
+      },
+      "review_note": "흐림을 질환 레이블로 사용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2fa4fbf4db8bac0d575268eba34b4edf84663122651d7f4c11a7c4f3867736a5",
+      "display_text": "『신상전편』의 양안 항목: 조상의 재산을 누리기 어렵고 중년·노년에 가난하다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-023",
+      "name_zh": "魚眼",
+      "name_ko": "어안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%AD%9A%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "睛露神昏若水光，定睛遠近視汪洋，如逢此眼皆亡早，百日須驚歎夭殤。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "눈동자가 드러나고 물빛 같은 모습",
+      "limitation": "노출과 물기 기준이 불명확",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 이른 죽음과 단명을 극단적으로 주장한다.",
+      "interpretation_evidence": [
+        "此眼皆亡早",
+        "百日須驚歎夭殤"
+      ],
+      "historical_topic_assessment": {
+        "수명·건강": "흉"
+      },
+      "review_note": "기간을 포함한 사망 예측을 개인에게 출력하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "a66c8647d862cedc86aa09a851bcc02fd55943dff7b646804daaf8cf2ade6fe4",
+      "display_text": "『신상전편』의 어안 항목: 이른 죽음과 단명을 극단적으로 주장한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-024",
+      "name_zh": "馬眼",
+      "name_ko": "마안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%A6%AC%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "皮寬三角睛睜露，終日無愁濕淚堂。面瘦皮綳真可歎，刑妻剋子又奔忙。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "넓은 눈꺼풀·삼각형 윤곽·드러나는 눈동자",
+      "limitation": "눈꺼풀과 안구 노출 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 배우자·자녀에게 해가 있고 바쁘게 고생한다고 서술한다.",
+      "interpretation_evidence": [
+        "刑妻剋子又奔忙"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "가족 피해와 외모의 인과로 사용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "b6958353333983250183388acdf6ff4753fbba1f5c6969a89d046b78894b9c0b",
+      "display_text": "『신상전편』의 마안 항목: 배우자·자녀에게 해가 있고 바쁘게 고생한다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-025",
+      "name_zh": "豬眼",
+      "name_ko": "저안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%B1%AC%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "白昏睛露黑尤濛，波厚皮寬性暴凶，富貴也遭刑憲罹，縱歸十惡法難容。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "두꺼운 눈꺼풀과 드러난 눈동자 등을 기술",
+      "limitation": "색·신기 묘사는 분리",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 흉포함이라는 비난과 부귀해도 형벌을 피하기 어렵다는 주장을 담는다.",
+      "interpretation_evidence": [
+        "性暴凶",
+        "富貴也遭刑憲罹"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "형벌·재난": "흉"
+      },
+      "review_note": "범죄·법적 위험 예측에 사용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "568b25af9aceedbf92a9294babd6ba2ef46fbab515eccbf670dbe93dd0ef5987",
+      "display_text": "『신상전편』의 저안 항목: 흉포함이라는 비난과 부귀해도 형벌을 피하기 어렵다는 주장을 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-026",
+      "name_zh": "蛇眼",
+      "name_ko": "사안_뱀",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%9B%87%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "堪歎人心毒似蛇，睛紅圓露帶紅紗。大奸大詐如狼虎，此目之人子打爺。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "붉고 둥글며 드러난 눈동자를 기술",
+      "limitation": "獅眼과 한국어 동음이므로 원문명과 ID 유지",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 독함·간사함과 부모에게 폭력을 행사한다는 비난을 담는다.",
+      "interpretation_evidence": [
+        "大奸大詐如狼虎",
+        "此目之人子打爺"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "가족·관계": "흉"
+      },
+      "review_note": "獅眼과 동음 주의. 폭력성 추론 금지",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "32840bcd229c52990403e83346a31e15f9cf54d5ef6d6bb07cd1cc92894bfbbc",
+      "display_text": "『신상전편』의 사안_뱀 항목: 독함·간사함과 부모에게 폭력을 행사한다는 비난을 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-027",
+      "name_zh": "鴿眼",
+      "name_ko": "합안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B4%BF%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鴿眼睛黃小垤圓，搖頭擺膝坐還偏，不拘男女多淫亂，少實多虛心湛然。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "누렇고 작고 둥근 눈동자라는 표현",
+      "limitation": "몸동작 조건도 포함되어 정면만으로 전체 유형 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 성적 품행과 진실성에 대해 부정적인 주장을 붙인다.",
+      "interpretation_evidence": [
+        "不拘男女多淫亂",
+        "少實多虛"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉"
+      },
+      "review_note": "성적 품행 추론을 개인 결과에 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7169d9480d925017abc2404fb1f2185ec76b18b5c58160c0681ae0df50c47c25",
+      "display_text": "『신상전편』의 합안 항목: 성적 품행과 진실성에 대해 부정적인 주장을 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-028",
+      "name_zh": "鸞眼",
+      "name_ko": "난안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B8%9E%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "準頭圓大眼微長，步急言辭媚且良。身貴近君終大用，何愁不似「雪衣娘。」",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "약간 긴 눈과 크고 둥근 코끝의 조합",
+      "limitation": "눈·코 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 귀한 지위에서 임금 가까이 쓰임을 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "身貴近君終大用"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "눈·코·동작 조건이 함께 있음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "8b754ffa3bb7fff338696fc5531edb393634addcecef6c1e1d520c5d23529fa2",
+      "display_text": "『신상전편』의 난안 항목: 귀한 지위에서 임금 가까이 쓰임을 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-029",
+      "name_zh": "狼目",
+      "name_ko": "낭목",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%8B%BC%E7%9B%AE",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "狼目睛黃視若顛，為人貪鄙自茫然，愴惶多錯精神亂，凶暴狂徒度百年。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "누런 눈동자와 움직이는 시선을 기술",
+      "limitation": "성향·도덕성 판단을 레이블하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 탐욕·비열함·혼란·흉포함이라는 인격 비난을 담는다.",
+      "interpretation_evidence": [
+        "為人貪鄙",
+        "凶暴狂徒度百年"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉"
+      },
+      "review_note": "백년 표현을 장수 길상으로 별도 확정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "83e3701b50f947fe4d643aa08d10d88bff49ada35b7e90f3b6a7984be5a7e5e8",
+      "display_text": "『신상전편』의 낭목 항목: 탐욕·비열함·혼란·흉포함이라는 인격 비난을 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-030",
+      "name_zh": "伏犀眼",
+      "name_ko": "복서안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E4%BC%8F%E7%8A%80%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "頭圓眼大兩眉濃，耳內毫長體厚豐，此目信聰台鼎位，定教富貴壽如松。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "큰 눈과 짙은 눈썹·둥근 머리 등",
+      "limitation": "여러 신체 부위 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 높은 관직·부귀·장수를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "台鼎位",
+        "富貴壽如松"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "재물": "길",
+        "수명·건강": "길"
+      },
+      "review_note": "눈·눈썹·머리·귀·체격의 복합 조건",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "a8b3a1791603bfa9e8cae1a900aa1f41b1764f4303d678b3892a12c7d4d7b509",
+      "display_text": "『신상전편』의 복서안 항목: 높은 관직·부귀·장수를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-031",
+      "name_zh": "鷺鷥眼",
+      "name_ko": "노사안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B7%BA%E9%B7%A5%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼黃身潔不沾塵，行搖動縮本天真。眉縮身長腳瘦細，縱然巨富也教貧。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "누런 눈과 좁아진 눈썹 등",
+      "limitation": "전신·동작 조건을 사진 눈 레이블로 축소하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 큰 부자여도 가난해질 수 있다고 서술한다.",
+      "interpretation_evidence": [
+        "縱然巨富也教貧"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉"
+      },
+      "review_note": "전신과 동작 묘사를 눈만으로 대체하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "9701b4ed5ef57aafca9a6fbaf6c2827e6c519c901ba04dcfe68bf16fb312a05c",
+      "display_text": "『신상전편』의 노사안 항목: 큰 부자여도 가난해질 수 있다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-032",
+      "name_zh": "猿眼",
+      "name_ko": "원안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%8C%BF%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "猿目微黃欠上開，仰看心巧有疑猜。名虛多子俱靈性，終作《伶人》且不才。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "약간 누런 눈과 위를 보는 시선",
+      "limitation": "위쪽 개방 표현의 해석 검토 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재주와 의심을 함께 묘사하며 자녀의 영특함, 실속 없는 명성, 광대 직업에 대한 낮은 평가를 담는다.",
+      "interpretation_evidence": [
+        "心巧有疑猜",
+        "名虛多子俱靈性",
+        "伶人"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "혼합",
+        "가족·관계": "길",
+        "지위·명예": "흉"
+      },
+      "review_note": "역사적 직업 차별 표현. 현대 직업 적성으로 해석하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7d66b2360c8dbad7b461d9e27cdab1def56dfda2cf8eefd5be66d113198d51d9",
+      "display_text": "『신상전편』의 원안 항목: 재주와 의심을 함께 묘사하며 자녀의 영특함, 실속 없는 명성, 광대 직업에 대한 낮은 평가를 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-033",
+      "name_zh": "鹿眼",
+      "name_ko": "녹안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B9%BF%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《鹿目》青黑兩波長，行步如飛性且剛。義隱山林沉映處，自然福祿異尋常。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "검고 푸른빛의 눈동자와 긴 두 눈매",
+      "limitation": "색은 이번 레이블 범위 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 보통을 넘는 복록을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "自然福祿異尋常"
+      ],
+      "historical_topic_assessment": {
+        "복록": "길"
+      },
+      "review_note": "산림·걸음·성정 표현의 세부 번역은 별도 검토",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "32674c54cf69e5ba5d172083a7f504c7f0cc90d4ee7c47e596bc34e62099b3c6",
+      "display_text": "『신상전편』의 녹안 항목: 보통을 넘는 복록을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-034",
+      "name_zh": "熊眼",
+      "name_ko": "웅안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%86%8A%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "熊目睛員又匪豬，徒然力勇逞兇愚。坐伸不久喘息急，敖氏還能滅也無？",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "둥근 눈동자를 기술",
+      "limitation": "호흡·동작과 성향 주장은 레이블 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 힘과 용맹을 부정적으로 평가하고 흉함·어리석음을 주장한다.",
+      "interpretation_evidence": [
+        "徒然力勇逞兇愚"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "생활·성취": "해석보류"
+      },
+      "review_note": "敖氏 관련 마지막 구절은 전고 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "9a0b0f1bccd8f29efe03b337ca8fb1e047633adbf7fc0908f10bd872a9ec1c7b",
+      "display_text": "『신상전편』의 웅안 항목: 힘과 용맹을 부정적으로 평가하고 흉함·어리석음을 주장한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-035",
+      "name_zh": "蝦眼",
+      "name_ko": "하안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%9D%A6%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《蝦》目操心貌卓然，英風挺挺自當前。迍《邅火》歲水得志，晚末雖榮壽不延。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "형태를 구체적으로 판정할 묘사가 부족함",
+      "limitation": "유형 판정 보류",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 특정 시기의 어려움과 만년의 영화, 길지 않은 수명을 함께 서술한다.",
+      "interpretation_evidence": [
+        "晚末雖榮壽不延"
+      ],
+      "historical_topic_assessment": {
+        "생활·성취": "혼합",
+        "수명·건강": "흉"
+      },
+      "review_note": "迍邅火歲水得志의 구두점·오행 시기 해석 보류",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "insufficient_morphology",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e656e3c5b537f431587acf0dce62c29c18f23a91b53330b432c92181d288c20c",
+      "display_text": "『신상전편』의 하안 항목: 특정 시기의 어려움과 만년의 영화, 길지 않은 수명을 함께 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-036",
+      "name_zh": "蟹眼",
+      "name_ko": "해안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%9F%B9%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "蟹目睛露又頑愚，生平賦性喜江湖。有兒不得供親養，休問斑衣有與無。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "눈동자가 드러나는 모습",
+      "limitation": "노출량 정량 기준 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 어리석음이라는 비난과 자녀가 있어도 부모 봉양을 받지 못한다는 주장을 담는다.",
+      "interpretation_evidence": [
+        "又頑愚",
+        "有兒不得供親養"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "가족·관계": "흉"
+      },
+      "review_note": "노출 눈동자와 가족 관계를 실제로 연결하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "ef34588d081bfad738bfc95f63c4700aae87417938e539a9c32808254e89d361",
+      "display_text": "『신상전편』의 해안 항목: 어리석음이라는 비난과 자녀가 있어도 부모 봉양을 받지 못한다는 주장을 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-037",
+      "name_zh": "燕眼",
+      "name_ko": "연안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E7%87%95%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口小脣紅更擺頭，眼深黑白朗明收，語多準促而有信，機巧徒勞衣食週。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "깊은 눈과 작은 입·붉은 입술의 조합",
+      "limitation": "깊이는 측면 필요; 여러 부위 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 말에 신의가 있다는 평가와 재주를 부려도 수고에 비해 생활 수준이 제한된다는 묘사를 담는다.",
+      "interpretation_evidence": [
+        "有信",
+        "機巧徒勞衣食週"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "재물": "해석보류"
+      },
+      "review_note": "衣食週의 뜻·전사 대조 필요. 빈곤으로 단정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e7cee95dec86ac342bf14f20172c72081d6d02feaf3a39556c163435d188f76a",
+      "display_text": "『신상전편』의 연안 항목: 말에 신의가 있다는 평가와 재주를 부려도 수고에 비해 생활 수준이 제한된다는 묘사를 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-038",
+      "name_zh": "鷓鴣眼",
+      "name_ko": "자고안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E9%B7%93%E9%B4%A3%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "眼赤黃兮面帶紅，搖頭征步貌非隆。小身小耳常看地，一生終不足珍豐。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "눈의 붉고 누런빛과 얼굴의 붉은빛",
+      "limitation": "색·동작·전신 조건으로 정면 형태 유형 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 평생 풍족하지 못하다는 부정적 생활 해석을 붙인다.",
+      "interpretation_evidence": [
+        "一生終不足珍豐"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉"
+      },
+      "review_note": "색·몸 크기·동작 조건은 정면 눈 레이블로 축소 불가",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "9d828e0c2428e5a46b6ef3dee89b10f008db6a38c72ed6e1c544ca308cca9c1f",
+      "display_text": "『신상전편』의 자고안 항목: 평생 풍족하지 못하다는 부정적 생활 해석을 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP633-eye-039",
+      "name_zh": "貓眼",
+      "name_ko": "묘안",
+      "part": "eye",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第633卷#%E8%B2%93%E7%9C%BC",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "「貓目睛黃面闊圓溫純，稟性好飽鮮，有才有力堪任使，常得高人世怜。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "누런 눈동자와 넓고 둥근 얼굴",
+      "limitation": "눈·얼굴 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 온순함·재능·힘과 윗사람의 아낌을 서술한다.",
+      "interpretation_evidence": [
+        "溫純",
+        "有才有力堪任使",
+        "常得高人世怜"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "능력에 대한 주장": "길",
+        "가족·관계": "길"
+      },
+      "review_note": "원문 따옴표·말미 전사 대조 필요. 가족·관계는 후원 관계를 포함",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "ebc5ed03d3cc61c6bcedac2380ef23d1bbaa613f2e9c096366b78f3c2ff83ce2",
+      "display_text": "『신상전편』의 묘안 항목: 온순함·재능·힘과 윗사람의 아낌을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-001",
+      "name_zh": "龍鼻",
+      "name_ko": "용비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%BE%8D%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "龍鼻豐隆準上齊，山根直聳若伏犀。鼻梁方正無偏曲，位至居尊九鼎時。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "풍만한 코끝과 곧고 비뚤지 않은 콧대",
+      "limitation": "높이와 콧대는 측면 확인 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 매우 높은 지위를 얻는다고 길하게 서술한다.",
+      "interpretation_evidence": [
+        "位至居尊九鼎時"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "九鼎은 높은 지위의 비유",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "c2287ed258b12248516453c141558a7947769b3d227971798c952d0d7f1e1a03",
+      "display_text": "『신상전편』의 용비 항목: 매우 높은 지위를 얻는다고 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-002",
+      "name_zh": "虎鼻",
+      "name_ko": "호비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%99%8E%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "虎鼻《員融》不露孔，蘭臺廷尉亦須無。不偏不曲山根大，富貴名褒世罕夫。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "둥글고 콧구멍이 드러나지 않으며 비뚤지 않은 코",
+      "limitation": "蘭臺廷尉亦須無 구절은 판본 대조 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀와 세상의 명예를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "富貴名褒世罕夫"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "蘭臺廷尉亦須無 형태 구절 판본 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "4f2169a671329002c60556c1d861af237155322b9148d3eb5776662acb3be184",
+      "display_text": "『신상전편』의 호비 항목: 부귀와 세상의 명예를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-003",
+      "name_zh": "胡羊鼻",
+      "name_ko": "호양비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%83%A1%E7%BE%8A%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "胡羊鼻大準頭豐，蘭臺廷尉亦相同。山根年壽無脊露。大貴當時富石崇。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "큰 코·풍만한 코끝과 콧방울, 뼈가 드러나지 않는 콧대",
+      "limitation": "측면과 정면 함께 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 크게 귀해지고 석숭에 비길 부를 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "大貴當時富石崇"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "재물": "길"
+      },
+      "review_note": "石崇은 부유함의 역사적 비유",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "0c09bbdd28c8a3d75f11d8d69345c2e76c1e511a2021fccf464485e1b067d7e1",
+      "display_text": "『신상전편』의 호양비 항목: 크게 귀해지고 석숭에 비길 부를 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-004",
+      "name_zh": "獅鼻",
+      "name_ko": "사비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8D%85%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "山根年壽略低平，準上豐大稱蘭廷。若令獅形真富貴，不然財帛有虛盈。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "콧대 윗부분은 다소 낮고 코끝·콧방울은 풍만함",
+      "limitation": "높이는 정면으로 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 전체가 사자 형상에 맞으면 부귀하지만 그렇지 않으면 재물이 실속 없을 수 있다고 서술한다.",
+      "interpretation_evidence": [
+        "若令獅形真富貴",
+        "不然財帛有虛盈"
+      ],
+      "historical_topic_assessment": {
+        "재물": "조건부",
+        "지위·명예": "조건부"
+      },
+      "review_note": "사자 형상이라는 전체 조건을 생략하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "bb8b6bb5c23764ee09e41a38662b90a77b5291a29b34ccf29f1827b72aa859f1",
+      "display_text": "『신상전편』의 사비 항목: 전체가 사자 형상에 맞으면 부귀하지만 그렇지 않으면 재물이 실속 없을 수 있다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-005",
+      "name_zh": "懸膽鼻",
+      "name_ko": "현담비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E6%87%B8%E8%86%BD%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻如懸膽準頭齊，山根不斷無偏欹。蘭臺廷尉模糊小，富貴榮華應壯期。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "매달린 쓸개 같은 코, 곧은 중심과 작은 콧방울",
+      "limitation": "비유 형태의 표준 예시 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 장년기의 부귀와 영화를 길하게 서술한다.",
+      "interpretation_evidence": [
+        "富貴榮華應壯期"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "비유 형태에 대한 표준 예시 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7913b3f7c2bf8e0a35ab777ebf9c4bd08850f1dce3d86248471968d240f17c06",
+      "display_text": "『신상전편』의 현담비 항목: 장년기의 부귀와 영화를 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-006",
+      "name_zh": "伏犀鼻",
+      "name_ko": "복서비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E4%BC%8F%E7%8A%80%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "伏犀鼻插天庭中，山根直上印堂隆。肉不多兮骨不露，神清位立至三公。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "이마 쪽으로 이어지는 높은 콧대와 드러나지 않는 뼈",
+      "limitation": "측면 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 삼공에 이를 높은 관직을 서술한다.",
+      "interpretation_evidence": [
+        "位立至三公"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "추상적인 神清을 자동 형태 조건으로 삼지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "ae4579a975f3d87804459939dab7e245d9684bac71852fcd82d9efa448dbdf3f",
+      "display_text": "『신상전편』의 복서비 항목: 삼공에 이를 높은 관직을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-007",
+      "name_zh": "牛鼻",
+      "name_ko": "우비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%89%9B%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "牛鼻豐齊根且大，《蘭臺廷》尉又分明。年壽不高且不軟，富積金資家道成。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "풍만한 코와 큰 코뿌리·뚜렷한 콧방울",
+      "limitation": "코뿌리 높이는 정면 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재물이 쌓이고 가세가 이루어진다고 서술한다.",
+      "interpretation_evidence": [
+        "富積金資家道成"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길"
+      },
+      "review_note": "年壽는 이 구절에서 코 부위 용어와 구분 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "909162eb60aca4b46525771aef7f3af61ef6094c5cc68d1b5c948831f47282c0",
+      "display_text": "『신상전편』의 우비 항목: 재물이 쌓이고 가세가 이루어진다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-008",
+      "name_zh": "截筒鼻",
+      "name_ko": "절통비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E6%88%AA%E7%AD%92%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "功名富貴截筒佳，準頭齊直不偏斜，山根略軟年壽滿，中年富貴大成家。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "코끝이 가지런하고 곧으며 중심이 비뚤지 않음",
+      "limitation": "통을 자른 듯한 비유의 정량 정의 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 중년의 부귀와 가문의 번성을 서술한다.",
+      "interpretation_evidence": [
+        "中年富貴大成家"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "통 모양의 판별 규칙은 추가 검증 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2ca1f23b74d73ed4c46caac2950b7a206461d5b256e231d56ef5caaf0cd7eca8",
+      "display_text": "『신상전편』의 절통비 항목: 중년의 부귀와 가문의 번성을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-009",
+      "name_zh": "蒜鼻",
+      "name_ko": "산비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%92%9C%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《山根》年壽俱平小，蘭臺廷尉準頭豐。弟兄情欠心無毒，晚景中年家必隆。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "코뿌리와 콧대는 작고 낮으며 코끝·콧방울은 풍만함",
+      "limitation": "복코와 자동 동의어 처리하지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제간 정은 부족하나 악의는 없고 중년·노년에 집안이 번성한다고 서술한다.",
+      "interpretation_evidence": [
+        "弟兄情欠心無毒",
+        "晚景中年家必隆"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "인격·행동": "길",
+        "재물": "길"
+      },
+      "review_note": "복코의 자동 동의어로 사용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7f0681e007e16f363a9189e4440b921a011c88c06aa5acf2d0702fd521232082",
+      "display_text": "『신상전편』의 산비 항목: 형제간 정은 부족하나 악의는 없고 중년·노년에 집안이 번성한다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-010",
+      "name_zh": "盛囊鼻",
+      "name_ko": "성낭비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%9B%9B%E5%9B%8A%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻如盛囊蘭廷小，兩邊尉竈亦員齊。始末貲財俱大盛，功名必定掛朱衣。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "주머니 같은 코와 작은 콧방울·둥근 양쪽 가장자리",
+      "limitation": "비유 표준 예시 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재물이 크게 늘고 공명·관직을 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "始末貲財俱大盛",
+        "功名必定掛朱衣"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "朱衣를 현대 직업 종류로 바꾸지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "e11e8439b91696d8ca0a3e5a40512d18afc61f76601191f5692813d2d00f6108",
+      "display_text": "『신상전편』의 성낭비 항목: 재물이 크게 늘고 공명·관직을 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-011",
+      "name_zh": "猴鼻",
+      "name_ko": "후비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8C%B4%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "山根年壽平且大，蘭臺廷尉要分明。準頭豐紅不露孔，雖然富貴恐奸情。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "낮고 큰 코뿌리·뚜렷한 콧방울·콧구멍을 가리는 풍만한 코끝",
+      "limitation": "높이 및 색 조건 분리",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀를 언급하면서 간사한 정을 경계하는 평가를 덧붙인다.",
+      "interpretation_evidence": [
+        "雖然富貴恐奸情"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길",
+        "인격·행동": "흉"
+      },
+      "review_note": "奸情의 성적 의미 여부는 초벌 번역에서 단정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "69060174b5f5da1d7f2d22a08b50163a45e02371910243b4f884d37da6462b45",
+      "display_text": "『신상전편』의 후비 항목: 부귀를 언급하면서 간사한 정을 경계하는 평가를 덧붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-012",
+      "name_zh": "鷹嘴鼻",
+      "name_ko": "응취비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%B7%B9%E5%98%B4%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻梁露脊準頭尖，又如鷹嘴鎖脣邊。《蘭臺》廷尉俱短縮，啄人心髓惡奸殘。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "뼈가 드러나는 콧대와 아래 입술 쪽으로 굽은 뾰족한 코끝",
+      "limitation": "측면 필수",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 간사하고 잔인하다는 인격 비난을 강한 비유로 붙인다.",
+      "interpretation_evidence": [
+        "啄人心髓惡奸殘"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉"
+      },
+      "review_note": "인격 판단에 적용하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "9f880f3ff64945957c25a896195a089ca8ac3055bad35b3f825d37425e3302ce",
+      "display_text": "『신상전편』의 응취비 항목: 간사하고 잔인하다는 인격 비난을 강한 비유로 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-013",
+      "name_zh": "狗鼻",
+      "name_ko": "구비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8B%97%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "狗鼻年壽起骨峰。準頭蘭尉孔邊空。此鼻之人主有義。惟嫌竊取濟時窮。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "콧대에 솟은 뼈와 코끝·콧방울 주변 노출 표현",
+      "limitation": "측면 및 용어 검토 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 의리가 있다는 평가와 궁핍할 때 훔친다는 비난을 함께 담는다.",
+      "interpretation_evidence": [
+        "主有義",
+        "竊取濟時窮"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "혼합",
+        "재물": "흉"
+      },
+      "review_note": "절도 주장을 실제 범죄 가능성으로 연결하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "853cd896460a139ca6072ef06b3f846f982ecbec727e1551f20ba9d3992827c4",
+      "display_text": "『신상전편』의 구비 항목: 의리가 있다는 평가와 궁핍할 때 훔친다는 비난을 함께 담는다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-014",
+      "name_zh": "鯽魚鼻",
+      "name_ko": "즉어비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%AF%BD%E9%AD%9A%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "壽年高起如魚背，山根細小準頭垂。骨肉無親睛露白，一生衣食主伶仃。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "물고기 등처럼 솟은 콧대·작은 코뿌리·처진 코끝",
+      "limitation": "측면 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 가족과 친밀하지 못하고 생활이 외롭고 어려운 모습을 서술한다.",
+      "interpretation_evidence": [
+        "骨肉無親",
+        "一生衣食主伶仃"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "코와 흰자 노출의 복합 구절",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "73eca06614287af80fccd3e9e6a8484b16d6256717005f400c47ec6594abf192",
+      "display_text": "『신상전편』의 즉어비 항목: 가족과 친밀하지 못하고 생활이 외롭고 어려운 모습을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-015",
+      "name_zh": "三彎三曲鼻",
+      "name_ko": "삼만삼곡비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E4%B8%89%E5%BD%8E%E4%B8%89%E6%9B%B2%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻有三彎為反吟，鼻有三曲為伏吟。反吟相見是絕滅，伏吟相見淚淋淋。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "세 번 굽거나 꺾인 코",
+      "limitation": "굽음 방향·계수 방식 정의 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 세 굽음과 세 곡절에 서로 다른 전통 명칭을 붙이며 절멸·슬픔이라는 흉한 해석을 한다.",
+      "interpretation_evidence": [
+        "反吟相見是絕滅",
+        "伏吟相見淚淋淋"
+      ],
+      "historical_topic_assessment": {
+        "형벌·재난": "흉"
+      },
+      "review_note": "反吟·伏吟과 굽음 방향의 정확한 대응은 검토 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "4566ef2accecadbdd91e5f3a20396b45d56a16a2983a48cf041a6870c31bb0ff",
+      "display_text": "『신상전편』의 삼만삼곡비 항목: 세 굽음과 세 곡절에 서로 다른 전통 명칭을 붙이며 절멸·슬픔이라는 흉한 해석을 한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-016",
+      "name_zh": "劍鋒鼻",
+      "name_ko": "검봉비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%8A%8D%E9%8B%92%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻梁露脊如刀背，準頭無肉竈門關。兄弟無緣子剋盡。勞勞碌碌主孤單。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "칼등처럼 뼈가 드러나는 콧대와 살이 적은 코끝",
+      "limitation": "측면 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 형제·자녀와의 인연 부족, 고생과 고독을 서술한다.",
+      "interpretation_evidence": [
+        "兄弟無緣子剋盡",
+        "勞勞碌碌主孤單"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "가족 피해를 개인 운명으로 출력하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "20d843bf02d26ada5aa937ee2c20637a31ca44b5d3eac87a881261162c4ae01e",
+      "display_text": "『신상전편』의 검봉비 항목: 형제·자녀와의 인연 부족, 고생과 고독을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-017",
+      "name_zh": "偏凹鼻",
+      "name_ko": "편요비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%81%8F%E5%87%B9%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "年壽低壓山根小，鼻面相生差不多。準頭臺尉些須見，不夭不貧疾見磨。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "낮은 콧대와 작은 코뿌리, 덜 두드러진 코끝·콧방울",
+      "limitation": "정면만으로 깊이 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 요절·가난·질병을 부정적으로 연결한다.",
+      "interpretation_evidence": [
+        "不夭不貧疾見磨"
+      ],
+      "historical_topic_assessment": {
+        "수명·건강": "흉",
+        "재물": "흉"
+      },
+      "review_note": "부정문 연쇄의 세부 논리는 판본·구두점 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "d4089d419ada2f281043bbe96ef281aba128c45f2253860f59b3ce027b46fe36",
+      "display_text": "『신상전편』의 편요비 항목: 요절·가난·질병을 부정적으로 연결한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-018",
+      "name_zh": "孤峰鼻",
+      "name_ko": "고봉비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%AD%A4%E5%B3%B0%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻大無肉竈門開。兩顴低小鼻崔嵬。此鼻縱大無財積。若為僧道免哀哉。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "높고 큰 코와 낮고 작은 광대의 대비",
+      "limitation": "코와 얼굴 복합 조건; 측면 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 코가 커도 재물이 쌓이지 않으며 승려·도사가 되는 경우를 예외로 든다.",
+      "interpretation_evidence": [
+        "此鼻縱大無財積",
+        "若為僧道免哀哉"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "생활·성취": "조건부"
+      },
+      "review_note": "코 크기 하나를 재물 길상으로 매핑하면 안 되는 반례",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "b7b515629a4fcd4c42c99f84460e2b18c40f25e22c8a668f3fae8766fcba1cdf",
+      "display_text": "『신상전편』의 고봉비 항목: 코가 커도 재물이 쌓이지 않으며 승려·도사가 되는 경우를 예외로 든다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-019",
+      "name_zh": "露脊鼻",
+      "name_ko": "노척비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%9C%B2%E8%84%8A%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《鼻瘦露脊》山根小，形容粗俗骨神昏。土無萬物皆零落，縱然平穩也孤貧。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "가늘고 뼈가 드러나는 콧대와 작은 코뿌리",
+      "limitation": "조명에 따른 음영과 구분 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 평온해 보여도 고독하고 가난하다고 서술한다.",
+      "interpretation_evidence": [
+        "縱然平穩也孤貧"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "재물": "흉"
+      },
+      "review_note": "외모 비하 표현은 개인 평가에 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "b435c836abf862003d7c79c398c8741f8d6054a83d7ee0feadb25acf2cd69ff0",
+      "display_text": "『신상전편』의 노척비 항목: 평온해 보여도 고독하고 가난하다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-020",
+      "name_zh": "露竈鼻",
+      "name_ko": "노조비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%9C%B2%E7%AB%88%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "孔大鼻高竅又長，須知家下少衣糧。艱辛受苦多勞碌，末喪他鄉實可傷。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "크고 긴 콧구멍과 높은 코",
+      "limitation": "머리 기울기의 영향 큼",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 생활의 궁핍과 고생, 타향에서의 죽음을 흉하게 서술한다.",
+      "interpretation_evidence": [
+        "家下少衣糧",
+        "艱辛受苦多勞碌",
+        "末喪他鄉"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "생활·성취": "흉",
+        "수명·건강": "흉"
+      },
+      "review_note": "콧구멍 노출은 고개 각도와 분리",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "b9974675c7bb946aaaf840ec572659307fb20f1f2ddc488b93eab684560a57c1",
+      "display_text": "『신상전편』의 노조비 항목: 생활의 궁핍과 고생, 타향에서의 죽음을 흉하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-021",
+      "name_zh": "獐鼻",
+      "name_ko": "장비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8D%90%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻小準尖庭竈露。金甲二櫃肉綳纏。徒勞遺蔭難居守。四復三番迍且邅。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "작은 코와 뾰족한 코끝, 드러난 콧구멍",
+      "limitation": "정면 시점 통일 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 물려받은 기반을 지키기 어렵고 반복해 곤란을 겪는다고 서술한다.",
+      "interpretation_evidence": [
+        "徒勞遺蔭難居守",
+        "四復三番迍且邅"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "작은 코와 뾰족한 코끝 이외의 조건도 존재",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2be7b4085300056d2daeed9dbb25c47f1132b28ef1637a45188409f462ed3e35",
+      "display_text": "『신상전편』의 장비 항목: 물려받은 기반을 지키기 어렵고 반복해 곤란을 겪는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-022",
+      "name_zh": "猩鼻",
+      "name_ko": "성비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8C%A9%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《猩猩之相》鼻梁高，眉眼相挨粗髮毛，面闊脣掀身廣厚，寬懷德重貴英豪。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "높은 콧대·가까운 눈썹과 눈·넓은 얼굴 등의 조합",
+      "limitation": "전신 포함 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 넓은 도량과 덕을 칭찬하며 귀한 인물이 된다고 서술한다.",
+      "interpretation_evidence": [
+        "寬懷德重貴英豪"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "눈썹·눈·입술·체격까지 포함하는 복합 조건",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "daf0f95d3c4c6217b8ae2986ec19ff73f908effc80500121cad07b6ec6c6c0e6",
+      "display_text": "『신상전편』의 성비 항목: 넓은 도량과 덕을 칭찬하며 귀한 인물이 된다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-023",
+      "name_zh": "鹿鼻",
+      "name_ko": "녹비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%B9%BF%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鹿鼻豐齊準更圓，情寬步急義仁全。驚疑坐起渾無定，福祿增添得自然。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "풍만하고 가지런하며 둥근 코끝",
+      "limitation": "코끝 둥긂만으로 전체 유형 확정 불가",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 너그러움·의리를 칭찬하고 복록이 늘어난다고 서술하면서 놀람·의심과 불안정한 동작도 묘사한다.",
+      "interpretation_evidence": [
+        "情寬步急義仁全",
+        "驚疑坐起渾無定",
+        "福祿增添得自然"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "혼합",
+        "복록": "길"
+      },
+      "review_note": "둥근 코끝만으로 전체 유형과 해석을 확정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "a8702042dad6511cd9ed8bb1bea0c5d9411013852997494d52665de98bfe4986",
+      "display_text": "『신상전편』의 녹비 항목: 너그러움·의리를 칭찬하고 복록이 늘어난다고 서술하면서 놀람·의심과 불안정한 동작도 묘사한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-nose-024",
+      "name_zh": "猿鼻",
+      "name_ko": "원비",
+      "part": "nose",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8C%BF%E9%BC%BB",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鼻竅小而口頗尖，猖狂輕躁不尊嚴，性靈嗔怒多憂慮，花果常時手好拈。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "작은 콧구멍과 뾰족한 입",
+      "limitation": "코·입 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 경솔함·분노·걱정이라는 성정 평가와 과일 취향을 덧붙인다.",
+      "interpretation_evidence": [
+        "猖狂輕躁不尊嚴",
+        "性靈嗔怒多憂慮"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉"
+      },
+      "review_note": "마음 상태나 취향을 사진 레이블로 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "26ca58bd257bf7d34038f991370fc1673fb0461e0532f0616b643898257e3309",
+      "display_text": "『신상전편』의 원비 항목: 경솔함·분노·걱정이라는 성정 평가와 과일 취향을 덧붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-001",
+      "name_zh": "四字口",
+      "name_ko": "사자구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%9B%9B%E5%AD%97%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口角光明脣兩齊，兩頭略仰不垂低。聰明更有多才學，富貴應須著紫衣。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "입술이 가지런하고 양쪽 입꼬리가 약간 올라감",
+      "limitation": "미소와 구분 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 재능·학문과 부귀·관직을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "聰明更有多才學",
+        "富貴應須著紫衣"
+      ],
+      "historical_topic_assessment": {
+        "능력에 대한 주장": "길",
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "입꼬리 상향과 일시적 미소 구분",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2f54cb5383441b022f8141a921ef06e35d245ec4f9cd22edce03281b6e090a36",
+      "display_text": "『신상전편』의 사자구 항목: 재능·학문과 부귀·관직을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-002",
+      "name_zh": "方口",
+      "name_ko": "방구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E6%96%B9%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "「方口齊脣不露牙」，脣紅光潤似硃砂，笑而不露齒且白，定知富貴享榮華。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "입술이 가지런하고 이를 드러내지 않는 네모난 입",
+      "limitation": "색과 웃음 조건 별도",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 부귀와 영화를 누린다고 서술한다.",
+      "interpretation_evidence": [
+        "富貴享榮華"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "미소·치아·입술색 조건을 분리",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "6b4165a3f54a1e1997c74e9305e873ba0a6b059dbc780aa4d7de406c946806dc",
+      "display_text": "『신상전편』의 방구 항목: 부귀와 영화를 누린다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-003",
+      "name_zh": "仰月口",
+      "name_ko": "앙월구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E4%BB%B0%E6%9C%88%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口如仰月上朝彎，齒白脣紅似抹丹。滿腹文章聲價美，竟能富貴列朝班。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위를 향해 굽은 달 같은 입",
+      "limitation": "미소와 고유 입꼬리 구분 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 문장 실력·좋은 명성과 부귀·관직을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "滿腹文章聲價美",
+        "富貴列朝班"
+      ],
+      "historical_topic_assessment": {
+        "능력에 대한 주장": "길",
+        "지위·명예": "길",
+        "재물": "길"
+      },
+      "review_note": "입술 곡률에 수치 경계는 제시되지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "cbb016767402a7b33bb1220ae9e1726ad3407a2c0c80a5c00922fa28a0434a00",
+      "display_text": "『신상전편』의 앙월구 항목: 문장 실력·좋은 명성과 부귀·관직을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-004",
+      "name_zh": "彎弓口",
+      "name_ko": "만궁구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%BD%8E%E5%BC%93%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口似彎弓乍上弦，兩脣豐厚若丹鮮。神清氣爽終為用，富貴終年福自然。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "활처럼 휘고 두 입술이 풍만함",
+      "limitation": "입꼬리와 두께의 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 쓰임을 얻으며 평생 부귀와 복이 따른다고 서술한다.",
+      "interpretation_evidence": [
+        "終為用",
+        "富貴終年福自然"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길",
+        "재물": "길",
+        "복록": "길"
+      },
+      "review_note": "두꺼운 입술만으로 만궁구 확정 불가",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "7aed498a698788a4fb3601608d6536f42aa1685a2d45b3765c99c734aa1dbe44",
+      "display_text": "『신상전편』의 만궁구 항목: 쓰임을 얻으며 평생 부귀와 복이 따른다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-005",
+      "name_zh": "牛口",
+      "name_ko": "우구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%89%9B%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "牛口雙脣厚且豐，平生衣祿更昌隆。濁中帶清心靈巧，富貴康寧福若松。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위아래 입술이 두껍고 풍만함",
+      "limitation": "두께 기준 미제시",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 의식의 풍족함과 부귀·평안·복을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "平生衣祿更昌隆",
+        "富貴康寧福若松"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "길",
+        "복록": "길"
+      },
+      "review_note": "건강 진단이나 재산 예측으로 출력하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "2c2f27346b7cd24d1bcfbeaa16118a948c6a3ce2519baa5d8e84b42df9bcd1cf",
+      "display_text": "『신상전편』의 우구 항목: 의식의 풍족함과 부귀·평안·복을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-006",
+      "name_zh": "龍口",
+      "name_ko": "용구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%BE%8D%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "龍口兩脣豐且齊，光明口角更清奇。聚呼喝散權通變，玉帶圍腰世罕稀。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "위아래 입술이 풍만하고 가지런함",
+      "limitation": "입꼬리 등 복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 권한을 행사하며 높은 지위를 얻는다고 서술한다.",
+      "interpretation_evidence": [
+        "權通變",
+        "玉帶圍腰世罕稀"
+      ],
+      "historical_topic_assessment": {
+        "지위·명예": "길"
+      },
+      "review_note": "소리·호령의 묘사는 정지 사진에서 판정 불가",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "eae3c6f4c07239a1acc24bf4f83b130961a4fa0d2945444156564995c85df4cf",
+      "display_text": "『신상전편』의 용구 항목: 권한을 행사하며 높은 지위를 얻는다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-007",
+      "name_zh": "虎口",
+      "name_ko": "호구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%99%8E%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《虎口》闊大有收拾，須知此口必容拳。若然不貴且大富，積玉堆金樂自然。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "매우 넓고 큰 입",
+      "limitation": "주먹이 들어간다는 표현을 실제 측정 요구로 삼지 않음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 귀한 지위가 아니더라도 큰 부를 얻고 풍족하게 지낸다고 서술한다.",
+      "interpretation_evidence": [
+        "若然不貴且大富",
+        "積玉堆金樂自然"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "지위·명예": "조건부"
+      },
+      "review_note": "주먹이 들어간다는 과장을 촬영 요구로 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "45bcf2a30cafc3a2590d77b43b7488f90091ad78c241091ff23d4149a68d5291",
+      "display_text": "『신상전편』의 호구 항목: 귀한 지위가 아니더라도 큰 부를 얻고 풍족하게 지낸다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-008",
+      "name_zh": "羊口",
+      "name_ko": "양구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%BE%8A%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "羊口無鬚長且尖，兩脣又薄得人嫌。口尖食物如狗樣，賤且貧而兇又邅。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "길고 뾰족한 입과 얇은 입술",
+      "limitation": "입 돌출은 측면 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 빈곤·낮은 지위와 흉하고 어려운 생활을 연결한다.",
+      "interpretation_evidence": [
+        "賤且貧而兇又邅"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "지위·명예": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "모욕적 동물 비유는 개인 설명에 쓰지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "59631765751f3656ce37899a64dc1540d994abe182e24544b2429f16dd4c963b",
+      "display_text": "『신상전편』의 양구 항목: 빈곤·낮은 지위와 흉하고 어려운 생활을 연결한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-009",
+      "name_zh": "豬口",
+      "name_ko": "저구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%B1%AC%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "豬口上脣長粗闊，下脣尖小角涎流。誘人訕謗心奸險，落在途中半路休。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "넓고 긴 윗입술과 작고 뾰족한 아랫입술",
+      "limitation": "침·색 등 상태 조건 제외",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 속임·비방·간사함이라는 비난과 도중의 몰락을 암시하는 표현을 붙인다.",
+      "interpretation_evidence": [
+        "誘人訕謗心奸險",
+        "落在途中半路休"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "흉",
+        "생활·성취": "해석보류"
+      },
+      "review_note": "마지막 구절을 특정 사망 방식으로 단정하지 않음",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "5cfedcc371e5f3a197807482d7113e2e74ed7800d5cec7ff2c6e9b3ced4f9e82",
+      "display_text": "『신상전편』의 저구 항목: 속임·비방·간사함이라는 비난과 도중의 몰락을 암시하는 표현을 붙인다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-010",
+      "name_zh": "吹火口",
+      "name_ko": "취화구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E5%90%B9%E7%81%AB%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口中吹火開不收，嘴尖衣食苦強求。生成此口多貧夭，廕下須教破且休。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "오므리거나 벌어진 입이 닫히지 않고 뾰족한 모습",
+      "limitation": "일시적 표정일 수 있음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 의식 마련의 어려움과 빈곤·단명, 물려줄 기반의 쇠퇴를 서술한다.",
+      "interpretation_evidence": [
+        "衣食苦強求",
+        "多貧夭",
+        "廕下須教破且休"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "수명·건강": "흉",
+        "가족·관계": "흉"
+      },
+      "review_note": "벌어진 입은 일시적 상태인지 확인 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "879eeeca32b28fc59cfabbb38f9daa7ce9a8ef7a55c6065301391adced83a70a",
+      "display_text": "『신상전편』의 취화구 항목: 의식 마련의 어려움과 빈곤·단명, 물려줄 기반의 쇠퇴를 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-011",
+      "name_zh": "皺紋口",
+      "name_ko": "추문구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%9A%BA%E7%B4%8B%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "脣上皺紋似哭顏，縱然有壽主孤單。早年安樂末年敗，若有一子屬幽關。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "입술의 주름과 우는 듯한 윤곽",
+      "limitation": "고해상도와 무표정 확인 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 장수하더라도 외롭고 초년의 안락함이 말년에 쇠하며 자녀의 상실을 암시한다고 서술한다.",
+      "interpretation_evidence": [
+        "縱然有壽主孤單",
+        "早年安樂末年敗",
+        "若有一子屬幽關"
+      ],
+      "historical_topic_assessment": {
+        "가족·관계": "흉",
+        "생활·성취": "혼합"
+      },
+      "review_note": "幽關은 죽음을 암시하는 초벌 번역",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "15fed7732fc6c57650e35d9252e01d2eea0e08df7a3f0a9d557475e577cfc605",
+      "display_text": "『신상전편』의 추문구 항목: 장수하더라도 외롭고 초년의 안락함이 말년에 쇠하며 자녀의 상실을 암시한다고 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-012",
+      "name_zh": "櫻桃口",
+      "name_ko": "앵도구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E6%AB%BB%E6%A1%83%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "《櫻桃》口大脣胭脂，齒似榴牙密且宜。笑如含蓮情和暢，聰明拔萃紫袍衣。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "전사본은 큰 입과 붉은 입술·촘촘한 이를 묘사",
+      "limitation": "작은 입이라는 통념과 달라 판본 대조 전 유형 판정 보류",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 온화함·뛰어남과 높은 관직을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "笑如含蓮情和暢",
+        "聰明拔萃紫袍衣"
+      ],
+      "historical_topic_assessment": {
+        "인격·행동": "길",
+        "능력에 대한 주장": "길",
+        "지위·명예": "길"
+      },
+      "review_note": "본문 口大와 작은 입 통념이 충돌. 판본 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "19dccea4b03c27c3a3000783caeeba3cedb2c35387311440b6a58c81ee498782",
+      "display_text": "『신상전편』의 앵도구 항목: 온화함·뛰어남과 높은 관직을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-013",
+      "name_zh": "猴口",
+      "name_ko": "후구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E7%8C%B4%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "猴口兩脣喜又長，人中破竹更為良。平生衣祿皆榮足，鶴算龜齡福壽康。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "긴 입술과 인중에 관한 묘사",
+      "limitation": "喜 글자 및 破竹 표현의 판본·번역 검토 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 의식의 풍족함·장수·복을 길하게 서술한다.",
+      "interpretation_evidence": [
+        "平生衣祿皆榮足",
+        "鶴算龜齡福壽康"
+      ],
+      "historical_topic_assessment": {
+        "재물": "길",
+        "수명·건강": "길",
+        "복록": "길"
+      },
+      "review_note": "형태 구절 喜와 破竹의 번역은 보류",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "747a28733e4f510aa7ce587f8a03410a58e64b62f74aace78dce61e05da70f6f",
+      "display_text": "『신상전편』의 후구 항목: 의식의 풍족함·장수·복을 길하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-014",
+      "name_zh": "鯰魚口",
+      "name_ko": "점어구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%AF%B0%E9%AD%9A%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鯰魚口闊角低尖，梟薄雙脣又欠圓。如此之人主貧賤，須臾一命喪黃泉。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "넓은 입·낮고 뾰족한 입꼬리·얇은 입술",
+      "limitation": "복합 조건",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 가난·낮은 지위와 이른 죽음을 흉하게 서술한다.",
+      "interpretation_evidence": [
+        "主貧賤",
+        "須臾一命喪黃泉"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "지위·명예": "흉",
+        "수명·건강": "흉"
+      },
+      "review_note": "사망 예언은 문헌 기록에 한정",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "72a855af54f7b20bbd8ba62921724b7426d6578c5d3557fe5884d9822fe516b1",
+      "display_text": "『신상전편』의 점어구 항목: 가난·낮은 지위와 이른 죽음을 흉하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-015",
+      "name_zh": "鯽魚口",
+      "name_ko": "즉어구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E9%AF%BD%E9%AD%9A%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "鯽魚口小主貧窮，一生衣食不豐隆，更兼氣濁神枯澀，破敗漂蓬運不通。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "작은 입",
+      "limitation": "얼굴 대비 상대 크기 기준 없음",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 평생 의식이 풍족하지 않고 실패·유랑·막힌 운을 서술한다.",
+      "interpretation_evidence": [
+        "一生衣食不豐隆",
+        "破敗漂蓬運不通"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "작은 입의 얼굴 대비 기준은 별도 정의 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "eecd493852a7aafd55c2b6fd29347154f204f02d4f4f72148ee496348e41bf34",
+      "display_text": "『신상전편』의 즉어구 항목: 평생 의식이 풍족하지 않고 실패·유랑·막힌 운을 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    },
+    {
+      "record_id": "SXQP634-mouth-016",
+      "name_zh": "覆船口",
+      "name_ko": "복선구",
+      "part": "mouth",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第634卷#%E8%A6%86%E8%88%B9%E5%8F%A3",
+      "source_version": "2026-09-21 retrieved snapshot, SHA256 in data/sources/manifest.json",
+      "original_section": "口角渾如覆破船，兩脣牛肉色煙聯。人逢此口多為丐，一生貧苦不須言。",
+      "reuse_notice": "원저작 공공영역; Wikisource 편집·구두점 CC BY-SA 4.0, 원문·출처 보존. 한국어 형태 설명은 이 프로젝트의 초벌 설명.",
+      "morphology_ko": "뒤집힌 배 같은 입꼬리",
+      "limitation": "兩脣牛肉 등 전사 구절의 판본 검토 필요",
+      "interpretation_status": "draft_not_expert_verified",
+      "interpretation_ko": "이 문헌은 구걸과 평생의 빈곤·고생을 흉하게 서술한다.",
+      "interpretation_evidence": [
+        "人逢此口多為丐",
+        "一生貧苦不須言"
+      ],
+      "historical_topic_assessment": {
+        "재물": "흉",
+        "생활·성취": "흉"
+      },
+      "review_note": "兩脣牛肉 등 형태 구절의 전사 대조 필요",
+      "independent_review": false,
+      "application_scope": "historical_text_reference_only",
+      "personal_prediction_allowed": false,
+      "complete_type_criteria_status": "requires_photo_validation",
+      "photo_label_link_status": "not_established",
+      "source_text_sha256": "4246daacda136ee68438d8f3ae1ba47fba942a9362549acad0d3b4b95f80f9e8",
+      "display_text": "『신상전편』의 복선구 항목: 구걸과 평생의 빈곤·고생을 흉하게 서술한다. 이는 역사 문헌의 주장에 대한 요약입니다."
+    }
+  ]
+}

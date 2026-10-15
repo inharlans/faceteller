@@ -1,0 +1,1233 @@
+{
+ "page_id": "gj632",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "四曰鼻為審辨官"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ632B-nose-059",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《山根》更折，田園不守，妻子先亡。",
+   "translation": "산근(山根, 콧뿌리)이 다시 꺾이면 논밭과 동산을 지키지 못하고 아내와 자식이 먼저 죽는다.",
+   "commentary": "여덟 번째 구결이다. 콧뿌리가 꺾임(折)은 낮음과 가까우나 가로 주름·끊김을 포함하는 표현이라 근사로 두었다. 문헌은 이를 재산 상실과 처자의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根》更折",
+     "observable_ko": "콧뿌리가 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "kinship_harm",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-060",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "低者塌也，折者橫紋斷流也，似此者則主破祖離巢，妨害妻子也，終為平生之患。",
+   "translation": "낮다는 것은 꺼짐이요, 꺾였다는 것은 가로 주름이 흐름을 끊은 것이니, 이와 같은 자는 조상의 업을 깨뜨리고 보금자리를 떠나며 아내와 자식을 해침을 주관하여 마침내 평생의 근심이 된다.",
+   "commentary": "구결의 콧뿌리 꺾임을 풀이한 부분이다. 이 구절에는 '山根'이 직접 적혀 있지 않아 낮음(塌)은 근사로 두었고, 가로 주름은 주름 항목이 없어 대응하지 않는다. '妨害妻子'는 처자를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "低者塌也",
+     "observable_ko": "(콧뿌리가) 낮게 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "이 구절에 부위(山根)가 명시되지 않았다"
+    },
+    {
+     "region": "nose",
+     "evidence": "折者橫紋斷流",
+     "observable_ko": "콧뿌리에 가로 주름이 있어 끊김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "wealth",
+    "family_children",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-061",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "三十七至四十歲，運行到此，男女並同，蓋緣為生日不順也。",
+   "translation": "서른일곱에서 마흔 살에 운이 이곳에 이르면 남녀가 모두 같으니, 대개 태어난 날이 순하지 않기 때문이다.",
+   "commentary": "운한 시기를 적은 부분으로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-062",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "若更眉壓眼，神氣薄，梁柱偏輕則中年大病刑獄，重則喪軀矣。",
+   "translation": "만약 다시 눈썹이 눈을 누르고 신기(神氣)가 엷으며 콧대 기둥이 치우치고 가벼우면 중년에 큰 병이나 형벌·옥사가 있고, 무거우면 몸을 잃는다.",
+   "commentary": "'眉壓眼'은 눈썹이 눈에 가깝게 내려앉은 형태로 brow_eye_gap:close에 대응한다. 신기는 관찰 불가이고 콧대의 치우침·가벼움은 콧등 형태라 대응하지 않는다. 문헌은 이를 큰 병·형벌·죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉壓眼",
+     "observable_ko": "눈썹과 눈 사이가 가까움",
+     "status": "exact",
+     "label": "brow_eye_gap:close"
+    },
+    {
+     "region": "face",
+     "evidence": "神氣薄",
+     "observable_ko": "신기(기운)가 엷음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신·기운은 형태가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "梁柱偏輕",
+     "observable_ko": "콧대가 치우치고 가벼움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-063",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "或得形正神強，色明聲喨，其實減半。",
+   "translation": "혹 형체가 바르고 신이 강하며 색이 밝고 목소리가 맑으면 그 실제(흉함)가 반으로 준다.",
+   "commentary": "형체의 바름은 특정되지 않고 신·색·목소리는 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "形正",
+     "observable_ko": "형체가 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'바름(正)'이 어떤 측정 항목인지 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "神強，色明聲喨",
+     "observable_ko": "신이 강하고 색이 밝으며 목소리가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신·색·목소리는 정지 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-064",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《五總龜》曰：「月孛宮中折又尖，家財早破事相煎，妻兒晚見尤難保，況是迍邅屬少年。」",
+   "translation": "『오총귀』에 이르기를 「월패궁(月孛宮, 콧뿌리) 가운데가 꺾이고 또 뾰족하면 집안 재물이 일찍 깨지고 일이 서로 들볶으며, 아내와 자식을 늦게 보아 더욱 지키기 어렵고, 하물며 어려서 고난을 겪는다」라고 하였다.",
+   "commentary": "월패궁은 이 항목에서 산근의 다른 이름이라 하였다. 꺾임은 낮음과 근사하고 '뾰족함(尖)'은 콧뿌리의 폭이 좁음을 뜻하는 듯하나 대응 항목이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "月孛宮中折",
+     "observable_ko": "콧뿌리가 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "又尖",
+     "observable_ko": "콧뿌리가 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "콧뿌리의 '뾰족함'이 어떤 측정인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children",
+    "marriage",
+    "kinship_harm",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-065",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《萬金相》云：「山根斷折三十九，四十九三年命祿中。」",
+   "translation": "『만금상』에 이르기를 「산근이 끊기고 꺾이면 서른아홉, 마흔아홉 세 해가 명록(命祿) 가운데에 있다」라고 하였다.",
+   "commentary": "숫자 구절의 뜻이 분명하지 않아 직역했다. '命祿'은 수명과 녹을 함께 가리킬 수 있다. 끊김·꺾임은 높낮이와 같은 측정이 아니라 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根斷折",
+     "observable_ko": "콧뿌리가 끊기고 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-066",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "又曰：「月孛名山根，又名疾厄宮，又名妻子宮，又名月孛宮，又名嶺斷宮，司囚宮在山根上一分，名玉嶺根斷自身傷。」",
+   "translation": "또 말하기를 「월패는 산근을 이름하니, 또 질액궁(疾厄宮)이라 하고, 또 처자궁(妻子宮)이라 하며, 또 월패궁이라 하고, 또 영단궁(嶺斷宮)이라 한다. 사수궁(司囚宮)은 산근 위 한 푼에 있으니 옥령(玉嶺)이라 이름하며, 뿌리가 끊기면 자신이 상한다」라고 하였다.",
+   "commentary": "콧뿌리의 여러 이름을 열거한 부분이다. 마지막 구절은 구두가 분명하지 않아 '名玉嶺，根斷自身傷'으로 읽었다. 끊김은 높낮이와 같은 측정이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "根斷",
+     "observable_ko": "콧뿌리가 끊김",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-067",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "又曰：「嶺斷宮司不自由，嶺根折斷自身休，山根嶺斷三十九，嶺根道斷自身休。」",
+   "translation": "또 말하기를 「영단궁의 일은 자유롭지 못하고, 영근(嶺根)이 꺾이고 끊기면 자신이 그친다. 산근 영단은 서른아홉이요, 영근의 길이 끊기면 자신이 그친다」라고 하였다.",
+   "commentary": "영근은 산근의 다른 이름으로 쓰였다. '自身休(자신이 그침)'는 죽음을 뜻할 수 있고 '不自由'는 앞의 사수궁과 연관해 구금으로 읽힐 여지가 있다. 끊김·꺾임은 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "嶺根折斷",
+     "observable_ko": "콧뿌리가 꺾이고 끊김",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-068",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "又曰：「山懸橋道耗財主嶺，山根金道三位折」 也，",
+   "translation": "또 말하기를 「산이 매달리고 다리 길이 재물을 소모함은 영(嶺)을 주관하니, 산근·금도(金道) 세 자리가 꺾인 것이다」 하니,",
+   "commentary": "글자 배열이 어긋나 보이며 뜻이 매우 불분명해 글자대로 직역했다. 콧뿌리 부근 세 자리가 꺾였다는 서술은 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根金道三位折",
+     "observable_ko": "콧뿌리 부근 세 자리가 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'斷·折(꺾임)'은 가로 주름·끊김을 포함해 높낮이와 같은 측정이 아니다; 문장 자체의 뜻이 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-069",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "「嶺根平，梁財聚」 ，三位高也，",
+   "translation": "「영근이 평평하면 들보(콧대)에 재물이 모인다」 하니, 세 자리가 높음이다.",
+   "commentary": "'嶺根平'은 사전상 '山根平(낮음)'과 같은 꼴이지만 바로 뒤에서 '세 자리가 높다'고 풀이해 반대 방향으로 읽힌다. 그래서 정확 대응 없이 모호로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "嶺根平",
+     "observable_ko": "콧뿌리가 평평함(본문 풀이는 '높음')",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_bridge:low"
+     ],
+     "reason": "'平'을 본문이 '三位高'로 풀이해 높음·낮음 중 어느 쪽인지 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-070",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "此三位，嶺根道于一面之中，諸部之內，最關禍福，學者可用意觀之。",
+   "translation": "이 세 자리는 영근의 길이 한 얼굴 가운데, 여러 부위 안에서 화와 복에 가장 관계되니, 배우는 자는 뜻을 써서 살펴야 한다.",
+   "commentary": "콧뿌리 부위의 중요성을 강조한 일반 서술로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-071",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "形如鷹嘴樣狡狠，",
+   "translation": "모양이 매부리 같으면 교활하고 모질다.",
+   "commentary": "아홉 번째 구결이다. 매부리코는 동물 비유로, 정의는 다음 주석에 나온다. 문헌은 이를 교활함·모짊과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "形如鷹嘴",
+     "observable_ko": "매부리 같은 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-072",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "鷹嘴樣者，嶺根道三位，細細低下，年壽孤聳，準頭尖垂向下者是也。可旁觀得見主最毒。",
+   "translation": "매부리 모양이란 영근 길 세 자리가 가늘고 가늘며 낮고, 연수(年壽, 콧등)가 홀로 솟고, 준두(準頭, 코끝)가 뾰족하게 아래로 드리운 것이 이것이다. 옆에서 보면 볼 수 있으며 가장 독함을 주관한다.",
+   "commentary": "매부리코의 정의다. 코끝이 뾰족함(準頭尖)은 nose_tip:tapered에 대응하지만, 콧뿌리가 낮음은 '嶺根'이라는 별칭으로 적혀 근사로 두었고, 콧등 솟음과 코끝 처짐은 대응 항목이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "嶺根道三位，細細低下",
+     "observable_ko": "콧뿌리 부근이 가늘고 낮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'嶺根'은 정확 표현 목록(山根)에 없는 별칭이고 '細(가늚)'가 함께 있다"
+    },
+    {
+     "region": "nose",
+     "evidence": "年壽孤聳",
+     "observable_ko": "콧등이 홀로 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭尖",
+     "observable_ko": "코끝이 뾰족함",
+     "status": "exact",
+     "label": "nose_tip:tapered"
+    },
+    {
+     "region": "nose",
+     "evidence": "垂向下",
+     "observable_ko": "코끝이 아래로 처짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코끝 처짐(각도) 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-073",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《廣鑒集》云：「鼻如鷹嘴，啄人心髓。」",
+   "translation": "『광감집』에 이르기를 「코가 매부리 같으면 남의 심장과 골수를 쪼아 먹는다」라고 하였다.",
+   "commentary": "매부리 비유로 형태가 특정되지 않는다. 남을 해친다는 낙인성 비유다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如鷹嘴",
+     "observable_ko": "매부리 같은 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-074",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "貧女曰：「旁觀曲凸如鷹嘴，心裡奸謀暗殺人。」",
+   "translation": "빈녀가 말하기를 「옆에서 보아 굽고 볼록하여 매부리 같으면 마음속에 간사한 꾀로 몰래 사람을 죽인다」라고 하였다.",
+   "commentary": "'貧女'는 원문에 적힌 화자 이름 그대로 두었다. 옆에서 본 콧등이 굽고 볼록함은 콧등 형태라 대응하지 않는다. 살인이라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "旁觀曲凸",
+     "observable_ko": "옆에서 본 콧등이 굽고 볼록함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "如鷹嘴",
+     "observable_ko": "매부리 같은 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-075",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "許負曰：「生怕如鷹嘴，一生奸詐不堪言。」",
+   "translation": "허부가 말하기를 「몹시 두려운 것은 매부리 같음이니, 일생 간사하고 속임이 말할 수 없다」라고 하였다.",
+   "commentary": "매부리 비유로 형태가 특정되지 않는다. 간사함·속임에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "如鷹嘴",
+     "observable_ko": "매부리 같은 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-076",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《月波洞中經》云：相中大忌鷹嘴露竅，似此者主為人最毒，常懷嫉賢妬能，外貌偽和假寬內實毒害。",
+   "translation": "『월파동중경』에 이르기를, 상법에서 매부리에 콧구멍이 드러남을 크게 꺼리니, 이와 같은 자는 사람됨이 가장 독하여 늘 어진 이를 미워하고 능한 이를 시기하며, 겉모습은 거짓으로 온화하고 거짓으로 너그러우나 속은 실로 독하게 해침을 주관한다.",
+   "commentary": "'露竅'는 콧구멍이 드러남으로 nostril_show:visible에 대응하나, 매부리 비유가 함께 있어 전체 조건은 특정되지 않는다. 독함·위선에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鷹嘴",
+     "observable_ko": "매부리 같은 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "露竅",
+     "observable_ko": "콧구멍이 정면에서 보임",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-077",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "然居富貴知書不免貪婪奸狡，何況小人乎。",
+   "translation": "그러니 부귀에 거하고 글을 알아도 탐욕스럽고 간교함을 면하지 못하니, 하물며 소인이겠는가.",
+   "commentary": "앞 인용을 맺는 부분으로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-078",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "又主好成要敗，四十五歲主人破財。",
+   "translation": "또 이루기를 좋아하나 패하게 됨을 주관하니, 마흔다섯 살에 재물을 깨뜨림을 주관한다.",
+   "commentary": "매부리코에 대한 부연으로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-079",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《萬金相》云：鼻為巢窩，人之家宅也。",
+   "translation": "『만금상』에 이르기를, 코는 소와(巢窩, 보금자리)이니 사람의 집이다.",
+   "commentary": "코를 보금자리·집에 빗댄 일반 원리로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-080",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "欲其梁柱端直，年壽豐隆，廣大肉厚，接迎東西二嶽。準員庫起者，主家宅廣，人口多。",
+   "translation": "그 콧대 기둥이 단정하고 곧으며, 연수(年壽, 콧등)가 풍성하고 솟으며, 넓고 크고 살이 두텁고, 동서 두 악(嶽, 좌우 광대뼈)을 맞이하기를 바란다. 준(準)이 둥글고 고(庫, 콧방울)가 일어난 자는 집이 넓고 식구가 많음을 주관한다.",
+   "commentary": "콧대·콧등 형태는 대응하지 않고, '廣大'는 너비와 크기를 함께 말해 근사로 두었다. '準員'은 '準圓'과 뜻이 가까워 보이나 원문 글자가 '員'이고 '頭'가 없어 근사로 두었으며, '庫起'도 정확 표현이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "梁柱端直",
+     "observable_ko": "콧대가 단정하고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "年壽豐隆",
+     "observable_ko": "콧등이 풍성하고 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "廣大肉厚",
+     "observable_ko": "코가 넓고 크며 살이 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "廣과 大(크기)·肉厚를 함께 말해 너비만의 서술이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "接迎東西二嶽",
+     "observable_ko": "코가 좌우 광대뼈와 어울림",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "코와 광대뼈의 관계가 어떤 측정인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準員",
+     "observable_ko": "코끝이 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "원문 글자가 '圓'이 아닌 '員'이며 정확 표현 목록에 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "庫起",
+     "observable_ko": "콧방울이 일어남",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "'庫'는 정확 표현 목록(蘭臺廷尉·竈)에 없는 별칭이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-081",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "三十六歲入運，至五十九歲，此十年大進人口并宅舍。",
+   "translation": "서른여섯 살에 운에 들어 쉰아홉 살에 이르기까지 이 십 년에 식구와 집이 크게 늘어난다.",
+   "commentary": "운한 시기를 적은 부분이다. 원문의 나이 범위와 '십 년'이 맞지 않으나 그대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-082",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《大統賦》云：「梁廣者窩巢穩。」",
+   "translation": "『대통부』에 이르기를 「콧대가 넓은 자는 보금자리가 안온하다」라고 하였다.",
+   "commentary": "콧대(梁)의 넓음은 코 너비와 가까우나 정확 표현(鼻闊·鼻廣·鼻寬)이 아니고 콧대 부위를 가리켜 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "梁廣",
+     "observable_ko": "콧대가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "콧대(梁)의 폭은 콧방울 기준 코 너비와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-083",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《光明》主財祿殊常。",
+   "translation": "빛나고 밝으면 재물과 녹이 보통과 다름을 주관한다.",
+   "commentary": "열 번째 구결이다. 코의 광택·밝음은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "光明",
+     "observable_ko": "코가 빛나고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-084",
+   "section": "四曰鼻為審辨官",
+   "region": "face",
+   "original_text": "《太清神鑒》云：「面部有五嶽之位：額為南嶽，衡山屬離火；頦為北嶽，恆山屬坎水；左顴為東嶽，泰山屬震木；右顴為西嶽，華山屬兌金；鼻為中嶽，嵩山屬中央土。",
+   "translation": "『태청신감』에 이르기를 「얼굴에는 오악(五嶽)의 자리가 있으니, 이마는 남악으로 형산이며 이화(離火)에 속하고, 턱은 북악으로 항산이며 감수(坎水)에 속하며, 왼 광대뼈는 동악으로 태산이며 진목(震木)에 속하고, 오른 광대뼈는 서악으로 화산이며 태금(兌金)에 속하며, 코는 중악으로 숭산이며 중앙 토(土)에 속한다.",
+   "commentary": "얼굴 다섯 부위를 오악·오행·팔괘에 배당한 일반 원리로 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-085",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "金木水火，土各有時。火主夏，水主冬，木主春，金主秋。惟土每季旺十八日，乃為萬物生成之地。",
+   "translation": "금·목·수·화와 토는 각각 때가 있다. 화는 여름을, 수는 겨울을, 목은 봄을, 금은 가을을 주관한다. 오직 토는 계절마다 열여드레씩 왕성하니, 곧 만물이 생성되는 땅이 된다.",
+   "commentary": "오행과 계절의 배당을 설명한 일반 원리로 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-086",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "所以鼻貴乎高隆光明。色黃者，得其土之本色也。若有骨法者」 ，主有貴祿，在庶人得財入宅。",
+   "translation": "그러므로 코는 높고 솟으며 빛나고 밝음을 귀히 여긴다. 색이 누런 것은 그 토의 본색을 얻은 것이다. 만약 골법이 있는 자라면」 귀한 녹이 있음을 주관하고, 서인(庶人)에게서는 재물을 얻어 집에 들인다.",
+   "commentary": "코의 높이는 콧뿌리·코끝 구분이 없어 근사로 두었고, 광택·색은 관찰 불가, 골법은 특정되지 않는다. 인용 부호 위치는 원문대로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "高隆",
+     "observable_ko": "코가 높고 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_projection:high",
+      "nose_bridge:high"
+     ],
+     "reason": "鼻高류 표현은 콧뿌리·코끝 중 어디의 높이인지 밝히지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "光明",
+     "observable_ko": "코가 빛나고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "色黃",
+     "observable_ko": "코 색이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "骨法",
+     "observable_ko": "골격의 격(골법) 유무",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "골법이 어떤 골격 형태인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-087",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《大統賦》云：「梁貴乎豐隆，貫額高也；色貴乎光瑩，溢目明也。」",
+   "translation": "『대통부』에 이르기를 「콧대는 풍성하고 솟음을 귀히 여기니 이마를 꿰뚫어 높음이요, 색은 빛나고 맑음을 귀히 여기니 눈에 넘치도록 밝음이다」라고 하였다.",
+   "commentary": "콧대가 이마까지 이어져 높다는 것은 콧뿌리 높음과 가까우나 '山根'이 명시되지 않아 근사로 두었다. 콧대 풍륭은 콧등 형태, 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "梁貴乎豐隆",
+     "observable_ko": "콧대가 풍성하고 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "貫額高",
+     "observable_ko": "콧대가 이마까지 이어져 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "'山根'이 명시되지 않고 콧대 전체의 서술이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "色貴乎光瑩",
+     "observable_ko": "코 색이 빛나고 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-088",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "許負曰：「準明印正，諸事亨通。」",
+   "translation": "허부가 말하기를 「준(準, 코끝)이 밝고 인(印, 인당)이 바르면 모든 일이 형통한다」라고 하였다.",
+   "commentary": "코끝의 밝음은 색·광택이라 관찰 불가이고, 인당이 바름은 어떤 측정인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準明",
+     "observable_ko": "코끝이 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "印正",
+     "observable_ko": "인당이 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'바름(正)'이 어떤 측정 항목인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-089",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "鬼谷先生曰：欲觀在任吉凶者，看年壽二位，一分黃明，一年無事；二分黃明，二載平安；三分黃明，三周吉利。",
+   "translation": "귀곡 선생이 말하기를, 벼슬에 있는 자의 길흉을 보려면 연수 두 자리를 보니, 한 푼이 누렇고 밝으면 한 해가 무사하고, 두 푼이 누렇고 밝으면 두 해가 평안하며, 세 푼이 누렇고 밝으면 세 해가 길하고 이롭다.",
+   "commentary": "콧등 부위의 기색(색)으로 재임 중 길흉을 보는 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "黃明",
+     "observable_ko": "콧등이 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-090",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "若見非來之色，或青、或赤、或黑，並主當年不利　。",
+   "translation": "만약 와서는 안 될 색이 보여 혹 푸르거나 붉거나 검으면 모두 그해가 이롭지 않음을 주관한다.",
+   "commentary": "콧등 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "或青、或赤、或黑",
+     "observable_ko": "콧등이 푸르거나 붉거나 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-091",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《五總龜》曰：「年壽四時黃，財帛」 喜非常。",
+   "translation": "『오총귀』에 이르기를 「연수가 사철 누르면 재물이」 기쁨이 보통이 아니다.",
+   "commentary": "콧등의 색에 관한 서술로 형태 항목이 아니다. 인용 부호 위치는 원문대로 두었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年壽四時黃",
+     "observable_ko": "콧등이 사철 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-092",
+   "section": "四曰鼻為審辨官",
+   "region": "face",
+   "original_text": "《廣鑒集》云：「心善三陽光，點點左眼胞也。脾安鼻準見黃明，耳輪焦黑腎臟喪，年壽黃明福德生右目，上下忽然準頭明更淨，等閑有土是亨通。」",
+   "translation": "『광감집』에 이르기를 「마음이 선하면 삼양(三陽)이 빛나니 점점이 왼 눈두덩이다. 비장이 편안하면 코끝에 누렇고 밝음이 보이고, 귓바퀴가 그을린 듯 검으면 신장이 상하며, 연수가 누렇고 밝으면 복덕이 생긴다. 오른눈 위아래와 홀연 준두가 밝고 더욱 깨끗하면, 예사로이 토(土)가 있으니 이것이 형통함이다」라고 하였다.",
+   "commentary": "오장과 얼굴 부위의 색을 연결한 서술로, 구두와 글자 배열이 어긋나 보여 뜻이 불분명한 부분은 글자대로 옮겼다. 모두 색·광택 서술이라 형태 항목이 없으며, 장기의 병에 관한 주장을 포함한다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三陽光",
+     "observable_ko": "눈두덩(삼양)이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻準見黃明",
+     "observable_ko": "코끝이 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳輪焦黑",
+     "observable_ko": "귓바퀴가 그을린 듯 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "年壽黃明",
+     "observable_ko": "콧등이 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭明更淨",
+     "observable_ko": "코끝이 밝고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-093",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "土者，黃明也。",
+   "translation": "토란 누렇고 밝음이다.",
+   "commentary": "앞 인용의 '土'를 풀이한 부분으로 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-094",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "曰印堂至準庫中間四季常得黃明，寒暑不侵，喜怒不變，乃為平生之福也。",
+   "translation": "이르기를, 인당에서 준두·콧방울까지 그 사이가 사철 늘 누렇고 밝음을 얻어 추위와 더위가 침범하지 못하고 기쁨과 노여움에도 변하지 않으면 곧 평생의 복이 된다.",
+   "commentary": "코 부위 기색의 항상성에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "四季常得黃明",
+     "observable_ko": "인당~코끝이 사철 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-095",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "準頭黑，《蘭臺》黯慘，旬日必身亡。",
+   "translation": "준두(準頭, 코끝)가 검고 난대(蘭臺, 콧방울)가 어둡고 참담하면 열흘 안에 반드시 몸이 죽는다.",
+   "commentary": "열한 번째 구결이다. 코끝과 콧방울의 색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 열흘 안의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭黑",
+     "observable_ko": "코끝이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "蘭臺》黯慘",
+     "observable_ko": "콧방울이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-096",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "準頭者，是土之主蘭臺左鼻胞名蘭臺，又右為廷尉。",
+   "translation": "준두란 토의 주인이다. 난대는 왼 콧방울을 난대라 이름하고, 또 오른쪽은 정위(廷尉)가 된다.",
+   "commentary": "준두와 난대·정위(좌우 콧방울)의 부위 이름을 정의한 부분이다. 구두가 빠져 있어 '是土之主。蘭臺，左鼻胞名蘭臺'로 읽었다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-097",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "海底眼曰：「夫鼻者，運五臟之精，華肺之苗，肺虛則通而色瑩光明，無病多吉，肺災則塞而色慘黑暗，大患至而多凶。",
+   "translation": "해저안(海底眼)에 이르기를 「무릇 코는 오장의 정기를 운반하고 폐의 싹을 빛내니, 폐가 비면(맑으면) 통하여 색이 맑고 빛나고 밝아 병이 없고 길함이 많으며, 폐에 탈이 나면 막혀 색이 참담하고 검고 어두워 큰 우환이 이르러 흉함이 많다.",
+   "commentary": "'海底眼'은 원문에 적힌 출처 이름 그대로 두었다. 코의 색과 막힘을 폐의 상태와 연결한 서술로 형태 항목이 아니며, 질병에 관한 주장이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "色瑩光明",
+     "observable_ko": "코 색이 맑고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "色慘黑暗",
+     "observable_ko": "코 색이 검고 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-098",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "若見準頭蘭臺，色慘黑暗者，大病速至，不出十日之內喪矣。病人最怕此色。」",
+   "translation": "만약 준두와 난대가 보이되 색이 참담하고 검고 어두운 자는 큰 병이 빨리 이르러 열흘 안을 넘기지 못하고 죽는다. 병든 사람은 이 색을 가장 두려워한다」라고 하였다.",
+   "commentary": "코끝·콧방울의 색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 큰 병과 열흘 안의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "色慘黑暗",
+     "observable_ko": "코끝·콧방울 색이 검고 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-099",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "《論》曰：「運限者，鼻管十年，自印堂三十六至右庫四十五。",
+   "translation": "『논』에 이르기를 「운한은 코가 십 년을 관장하니, 인당 서른여섯부터 우고(右庫) 마흔다섯까지이다.",
+   "commentary": "코 부위에 나이 운을 배정한 운한설로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-100",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "鼻有二節，",
+   "translation": "코에 두 마디가 있으면,",
+   "commentary": "앞뒤 문장과의 관계가 분명하지 않은 짧은 구절이다. 콧등이 두 마디로 굽은 형태로 읽힐 수 있으나 콧등 형태는 대응하지 않는다. 이 구절 자체에는 주장이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻有二節",
+     "observable_ko": "코(콧등)에 마디가 둘 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(年壽·鼻梁) 형태 항목은 v3 레이블 체계에서 보류되어 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-101",
+   "section": "四曰鼻為審辨官",
+   "region": "mole",
+   "original_text": "黑子」 在山根者，主妨妻害子。",
+   "translation": "검은 사마귀가」 산근(山根, 콧뿌리)에 있는 자는 아내를 해치고 자식을 해침을 주관한다.",
+   "commentary": "특정 위치의 점이라 pigmented_marks:present의 근사 대응이다. 처자를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黑子」 在山根",
+     "observable_ko": "콧뿌리에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블과 기준이 다르다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-102",
+   "section": "四曰鼻為審辨官",
+   "region": "mole",
+   "original_text": "鼻側大凶，不利年上者，兄弟難為印堂。",
+   "translation": "코 옆은 크게 흉하고, 연상에 있어 이롭지 않은 자는 형제가 어렵다. 인당…",
+   "commentary": "구두가 어긋나 보여 '鼻側，大凶。不利年上者，兄弟難為。印堂…'로 끊어 읽었으며, 앞 문장에 이어 점(黑子)의 위치를 열거한 것으로 보았으나 확실하지 않다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻側",
+     "observable_ko": "코 옆에 (점이) 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "점이라는 대상이 생략되어 있고 특정 위치 서술이다"
+    },
+    {
+     "region": "mole",
+     "evidence": "年上",
+     "observable_ko": "콧등 위쪽에 (점이) 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "점이라는 대상이 생략되어 있고 특정 위치 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-103",
+   "section": "四曰鼻為審辨官",
+   "region": "mole",
+   "original_text": "當中圓黑者貴吉夫氣色印堂，山根光明者吉，黯慘者滯年壽。",
+   "translation": "(인당) 한가운데 둥글고 검은 것이 있는 자는 귀하고 길하다. 무릇 기색은, 인당·산근이 빛나고 밝은 자는 길하고 어둡고 참담한 자는 막힌다. 연수는…",
+   "commentary": "구두가 어긋나 보여 '印堂當中圓黑者貴吉。夫氣色，印堂山根光明者吉，黯慘者滯。年壽…'로 읽었다. 인당 한가운데의 둥근 검은 점은 특정 위치의 점이라 근사 대응이고, 기색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "當中圓黑",
+     "observable_ko": "인당 한가운데 둥글고 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 얼굴 전체 점 유무 레이블과 기준이 다르다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根光明",
+     "observable_ko": "콧뿌리가 빛나고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "黯慘",
+     "observable_ko": "어둡고 참담함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-104",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "黃明者吉，黑病赤官災，青破耗，白哭泣。",
+   "translation": "누렇고 밝은 자는 길하고, 검으면 병, 붉으면 관재, 푸르면 깨지고 소모함, 희면 곡하고 욺이다.",
+   "commentary": "앞에 이어 연수(콧등) 기색의 색깔별 판단으로 읽힌다. 색 서술이라 형태 항목이 없다. 흰색의 '곡읍'은 상을 당함을 뜻할 수 있다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "黃明",
+     "observable_ko": "콧등이 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "黑病赤官災，青破耗，白",
+     "observable_ko": "콧등이 검거나 붉거나 푸르거나 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "criminality",
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ632B-nose-105",
+   "section": "四曰鼻為審辨官",
+   "region": "nose",
+   "original_text": "準頭黃明者，喜慶立至，黑大病赤紅者破耗，白者破毒。",
+   "translation": "준두(準頭, 코끝)가 누렇고 밝은 자는 기쁜 경사가 곧 이르고, 검으면 큰 병이며, 붉은 자는 깨지고 소모하며, 흰 자는 깨지고 해롭다.",
+   "commentary": "코끝 기색의 색깔별 판단으로 형태 항목이 아니다. '破毒'의 정확한 뜻은 분명하지 않아 직역했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭黃明",
+     "observable_ko": "코끝이 누렇고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "黑大病赤紅者破耗，白者",
+     "observable_ko": "코끝이 검거나 붉거나 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "wealth",
+    "fortune_general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1408 @@
+{
+ "page_id": "gj635",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相五長",
+  "相五短",
+  "相五露",
+  "相五小",
+  "相六大",
+  "相六小極",
+  "相八大",
+  "相八小"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ635-face-001",
+   "section": "相五長",
+   "region": "face",
+   "original_text": "一頭長，二面長，三身長，四手長，五足長，五者俱長，而骨貌豐隆，清秀滋潤者，善也。",
+   "translation": "첫째 머리가 길고, 둘째 얼굴이 길고, 셋째 몸이 길고, 넷째 손이 길고, 다섯째 발이 길다. 다섯이 모두 길면서 뼈와 용모가 풍만하고 높으며 맑고 빼어나고 윤택한 자는 좋다.",
+   "commentary": "오장(五長)은 머리·얼굴·몸·손·발이 모두 긴 체형을 말한다. 얼굴이 길다는 항목은 얼굴 세로/가로 비로 옮길 수 있으나, 나머지는 얼굴 밖 신체와 품평어라 서비스 조건으로 쓸 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "二面長",
+     "observable_ko": "얼굴이 긺",
+     "status": "exact",
+     "label": "face_length:long"
+    },
+    {
+     "region": "other",
+     "evidence": "一頭長",
+     "observable_ko": "머리가 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "三身長",
+     "observable_ko": "몸이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "四手長",
+     "observable_ko": "손이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "五足長",
+     "observable_ko": "발이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨貌豐隆",
+     "observable_ko": "뼈와 용모가 풍만함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격·윤택 등 품평어는 형태 측정 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-002",
+   "section": "相五長",
+   "region": "other",
+   "original_text": "如骨枯槁，筋脈迸露，雖是五長，反為賤惡之輩也。",
+   "translation": "만약 뼈가 메마르고 힘줄과 핏줄이 튀어 드러나면, 비록 오장이라도 도리어 천하고 악한 무리가 된다.",
+   "commentary": "앞 구절의 오장에 대한 단서 조항이다. 문헌은 메마른 골격과 드러난 힘줄을 천하고 악한 무리라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨枯槁",
+     "observable_ko": "뼈가 메마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격·윤택 등 품평어는 형태 측정 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "筋脈迸露",
+     "observable_ko": "힘줄·핏줄이 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-003",
+   "section": "相五長",
+   "region": "other",
+   "original_text": "或有足長手短者，主貧賤。足短手長者，主富貴。",
+   "translation": "혹 발이 길고 손이 짧은 자는 빈천을 주관한다. 발이 짧고 손이 긴 자는 부귀를 주관한다.",
+   "commentary": "손발 길이의 대비에 관한 서술로 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足長手短",
+     "observable_ko": "발이 길고 손이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足短手長",
+     "observable_ko": "발이 짧고 손이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-004",
+   "section": "相五長",
+   "region": "other",
+   "original_text": "《詩》曰：「五長之人骨貌粗，只憂筋脈出皮膚，又嫌枯槁無滋潤，衣食看來不似初。」",
+   "translation": "『시』에 이르기를: '오장의 사람이 뼈와 용모가 거칠면, 다만 힘줄과 핏줄이 살갗 밖으로 나옴을 근심하고, 또 메말라 윤택함이 없음을 꺼리니, 입고 먹는 것이 보아하니 처음 같지 않다.'",
+   "commentary": "오장 체형에 붙은 시구로, 거친 골격과 메마른 피부를 생활 형편의 쇠퇴와 연결했다. 얼굴 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨貌粗",
+     "observable_ko": "뼈와 용모가 거칠음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격·윤택 등 품평어는 형태 측정 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "無滋潤",
+     "observable_ko": "윤택함이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤기·피부 상태는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-005",
+   "section": "相五長",
+   "region": "other",
+   "original_text": "又曰：「腳長手短人多賤，賣盡田園走四方，手足俱長榮盛相，莫教腳側手空長。」",
+   "translation": "또 이르기를: '다리가 길고 손이 짧은 사람은 대개 천하여, 논밭을 다 팔고 사방을 떠돈다. 손발이 모두 길면 영화롭고 성한 상이니, 다리가 기울고 손만 헛되이 길게 하지 말라.'",
+   "commentary": "손발 비례에 관한 시구로 얼굴 형태가 아니다. '腳側'의 정확한 뜻은 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腳長手短",
+     "observable_ko": "다리가 길고 손이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "手足俱長",
+     "observable_ko": "손발이 모두 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-face-006",
+   "section": "相五長",
+   "region": "face",
+   "original_text": "《訣》曰：「大凡五體要均長，合形入相富文章，下停長者人多賤，只恐終身絕鴈行。」",
+   "translation": "『결』에 이르기를: '무릇 다섯 몸(五體)은 고르게 길어야 하니, 형상에 맞아 상에 들면 부유하고 문장을 이룬다. 하정(下停, 얼굴 아래 부분)이 긴 자는 대개 천하니, 다만 평생 기러기 행렬이 끊길까 두렵다.'",
+   "commentary": "하정(下停)은 코밑에서 턱끝까지의 얼굴 아래 구역이다. '기러기 행렬(鴈行)'은 형제를 비유하는 말로 쓰인다. 하정이 길다는 서술은 하정/중정 비로 옮길 수 있으나 다섯 몸이 고르게 길어야 한다는 조건은 사진으로 판정할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "下停長",
+     "observable_ko": "얼굴 아래 부분(하정)이 긺",
+     "status": "exact",
+     "label": "lower_face_ratio:long"
+    },
+    {
+     "region": "other",
+     "evidence": "五體要均長",
+     "observable_ko": "다섯 몸이 고르게 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ635-face-007",
+   "section": "相五短",
+   "region": "face",
+   "original_text": "五短之形：一頭短，二面短、三身短、四手短，五足短。",
+   "translation": "오단(五短)의 형상: 첫째 머리가 짧고, 둘째 얼굴이 짧고, 셋째 몸이 짧고, 넷째 손이 짧고, 다섯째 발이 짧다.",
+   "commentary": "오단은 머리·얼굴·몸·손·발이 모두 짧은 체형을 정의한 구절이다. 이 구절 자체에는 주장이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "二面短",
+     "observable_ko": "얼굴이 짧음",
+     "status": "exact",
+     "label": "face_length:short"
+    },
+    {
+     "region": "other",
+     "evidence": "一頭短",
+     "observable_ko": "머리가 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "三身短",
+     "observable_ko": "몸이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "四手短",
+     "observable_ko": "손이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "五足短",
+     "observable_ko": "발이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ635-glabella-008",
+   "section": "相五短",
+   "region": "glabella",
+   "original_text": "五者俱短，而骨肉細滑，印堂明闊，五嶽朝揖者，乃為公卿之相也。",
+   "translation": "다섯이 모두 짧으면서 뼈와 살이 가늘고 매끄러우며, 인당(印堂, 두 눈썹 사이)이 밝고 넓으며, 오악(五嶽)이 서로 향해 읍하는 자는 곧 공경(公卿)의 상이다.",
+   "commentary": "오악(五嶽)은 이마·코·턱·좌우 광대를 산에 빗댄 관상 용어다. 인당이 넓다는 서술은 미간 너비로 옮길 수 있으나, 오단 체형·피부 결·오악의 조화는 사진 레이블로 판정할 수 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "闊",
+     "observable_ko": "두 눈썹 사이가 넓음",
+     "status": "exact",
+     "label": "brow_gap:wide"
+    },
+    {
+     "region": "glabella",
+     "evidence": "明",
+     "observable_ko": "인당이 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "밝기·광택은 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨肉細滑",
+     "observable_ko": "뼈와 살이 가늘고 매끄러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격·윤택 등 품평어는 형태 측정 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽朝揖",
+     "observable_ko": "다섯 높은 부위가 서로 조화로움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "오악의 '향해 읍함'은 비유적 조화 개념으로 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "五者俱短",
+     "observable_ko": "다섯이 모두 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-009",
+   "section": "相五短",
+   "region": "other",
+   "original_text": "雖是五短，而骨肉粗惡，五嶽傾陷，則為下賤之人。",
+   "translation": "비록 오단이라도 뼈와 살이 거칠고 나쁘며 오악이 기울고 꺼지면 아래로 천한 사람이 된다.",
+   "commentary": "오단 체형에 대한 단서 조항이다. 오악이 기울고 꺼졌다는 서술은 여러 부위의 종합 평가라 하나의 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨肉粗惡",
+     "observable_ko": "뼈와 살이 거칠고 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골격·윤택 등 품평어는 형태 측정 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽傾陷",
+     "observable_ko": "다섯 높은 부위가 기울고 꺼짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마·코·턱·광대를 묶은 종합 평가라 특정 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-010",
+   "section": "相五短",
+   "region": "other",
+   "original_text": "或上長下短，則多富貴。上短下長，主居貧下也。",
+   "translation": "혹 위가 길고 아래가 짧으면 대개 부귀하다. 위가 짧고 아래가 길면 가난하고 낮은 데 거함을 주관한다.",
+   "commentary": "오단 문맥에서 '위·아래'는 상체와 하체의 비례로 읽히나, 얼굴의 위아래 구역을 뜻하는지 원문만으로 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上長下短",
+     "observable_ko": "위가 길고 아래가 짧음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "신체 상하 비례인지 얼굴 구역 비례인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-face-011",
+   "section": "相五短",
+   "region": "face",
+   "original_text": "《詩》曰：「五短之人形要小，更須骨細印堂豐，笏門五嶽相朝拱，食祿封侯有始終，眉圓眼大額如熊，腳短身長上下同，五短氣全為証候，居然官祿至三公。」",
+   "translation": "『시』에 이르기를: '오단의 사람은 형상이 작아야 하고, 다시 뼈가 가늘고 인당이 풍만해야 한다. 홀문(笏門)과 오악이 서로 향해 받들면, 녹을 먹고 제후에 봉해짐에 처음과 끝이 있다. 눈썹이 둥글고 눈이 크고 이마가 곰 같으며, 다리가 짧고 몸이 길어 위아래가 같으면, 오단에 기운이 온전함이 그 증후이니, 거연히 관록이 삼공에 이른다.'",
+   "commentary": "홀문(笏門)이 가리키는 부위는 원문만으로 특정하기 어렵다. 눈이 크다는 서술은 눈 크기로 옮길 수 있으나, 둥근 눈썹·곰 같은 이마·체형·기운 등 다른 조건이 함께 요구되어 서비스 조건으로 쓸 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉圓",
+     "observable_ko": "눈썹이 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "'둥글다'가 곡선 눈썹(arched)과 같은 기준인지 확정할 수 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "印堂豐",
+     "observable_ko": "인당이 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "풍만함(높이·살집)은 미간 너비와 다른 기준이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額如熊",
+     "observable_ko": "이마가 곰 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "笏門",
+     "observable_ko": "홀문 부위",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "가리키는 부위가 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "腳短身長",
+     "observable_ko": "다리가 짧고 몸이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣全",
+     "observable_ko": "기운이 온전함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운은 관찰 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-012",
+   "section": "相五露",
+   "region": "eye",
+   "original_text": "「眼突鼻仰，耳反，脣掀、結喉」是也。",
+   "translation": "'눈이 튀어나오고 코가 들리고, 귀가 뒤집히고, 입술이 들리고, 목울대가 맺힌 것'이 이것이다.",
+   "commentary": "오로(五露)의 정의다. 눈 돌출과 입술 들림은 형태 레이블로 옮길 수 있으나, 들린 코(鼻仰)는 콧구멍 노출과 코끝 방향 중 어느 쪽인지 확정되지 않고 귀·목울대는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼突",
+     "observable_ko": "눈이 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻仰",
+     "observable_ko": "코가 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "들린 코가 콧구멍 노출만을 뜻하는지 확정할 수 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳反",
+     "observable_ko": "귀가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 방향 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 들려 나옴",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "other",
+     "evidence": "結喉",
+     "observable_ko": "목울대가 도드라짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목은 얼굴 형태 범위 밖이다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-013",
+   "section": "相五露",
+   "region": "eye",
+   "original_text": "「眼突促壽，耳反無知識，鼻仰主路死，脣掀惡死，結喉必貧薄。」",
+   "translation": "'눈이 튀어나오면 수명을 재촉하고, 귀가 뒤집히면 지식이 없고, 코가 들리면 길에서 죽음을 주관하고, 입술이 들리면 험하게 죽고, 목울대가 맺히면 반드시 가난하고 박하다.'",
+   "commentary": "오로의 각 항목에 수명·죽음·지식에 관한 낙인성 주장을 붙인 구절이다. 문헌의 주장일 뿐이며 서비스 연결에서 제외된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼突",
+     "observable_ko": "눈이 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳反",
+     "observable_ko": "귀가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 방향 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻仰",
+     "observable_ko": "코가 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "들린 코가 콧구멍 노출만을 뜻하는지 확정할 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣掀",
+     "observable_ko": "입술이 들려 나옴",
+     "status": "exact",
+     "label": "lip_projection:protruded"
+    },
+    {
+     "region": "other",
+     "evidence": "結喉",
+     "observable_ko": "목울대가 도드라짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목은 얼굴 형태 범위 밖이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-014",
+   "section": "相五露",
+   "region": "other",
+   "original_text": "《訣》曰：「一露二露，有衫無褲。露不至五，貧夭孤苦。五露俱全，福祿綿綿。」",
+   "translation": "『결』에 이르기를: '한 가지 드러나고 두 가지 드러나면 적삼은 있어도 바지는 없다. 드러남이 다섯에 이르지 않으면 가난하고 일찍 죽고 외롭고 괴롭다. 다섯 드러남이 모두 갖추어지면 복록이 끊임없이 이어진다.'",
+   "commentary": "드러난 부위의 개수에 따라 길흉이 뒤집힌다는 주장이다. 개수만 말하고 부위를 특정하지 않아 형태 조건으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一露二露",
+     "observable_ko": "드러난 부위 개수",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-015",
+   "section": "相五露",
+   "region": "other",
+   "original_text": "《詩》曰：「五露俱全福自來，二露三露反為災，胸門臀高為外露，平生此相有何財。若遇三尖五露人，但言此相便埃塵，有時驛馬臨邊地，也作加官食祿人。」",
+   "translation": "『시』에 이르기를: '다섯 드러남이 모두 갖추어지면 복이 저절로 오고, 두 가지·세 가지 드러남은 도리어 재앙이 된다. 가슴과 엉덩이가 높은 것을 바깥 드러남이라 하니, 평생 이 상이면 무슨 재물이 있겠는가. 만약 삼첨(三尖)·오로(五露)의 사람을 만나면 다만 이 상은 티끌과 먼지라 말하라. 때로 역마(驛馬)가 변방 땅에 이르면 또한 벼슬이 더해져 녹을 먹는 사람이 된다.'",
+   "commentary": "삼첨(三尖)·역마(驛馬)는 관상서의 다른 격국·부위 명칭이다. 가슴·엉덩이 등 신체 서술이 중심이라 얼굴 형태 조건이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "胸門臀高",
+     "observable_ko": "가슴과 엉덩이가 높음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "三尖五露",
+     "observable_ko": "삼첨·오로의 상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "다른 격국 명칭으로 부위 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-016",
+   "section": "相五小",
+   "region": "eye",
+   "original_text": "五小之形：一頭小，二眼小，三腹小，四耳小，五口小。",
+   "translation": "오소(五小)의 형상: 첫째 머리가 작고, 둘째 눈이 작고, 셋째 배가 작고, 넷째 귀가 작고, 다섯째 입이 작다.",
+   "commentary": "오소의 정의다. 작은 눈·작은 입은 형태 레이블로 옮길 수 있으나, 머리·배는 레이블이 없고 귀 크기는 길이·너비 중 무엇인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "二眼小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "mouth",
+     "evidence": "五口小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "ear",
+     "evidence": "四耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "작음이 길이인지 너비인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "一頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "三腹小",
+     "observable_ko": "배가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-017",
+   "section": "相五小",
+   "region": "other",
+   "original_text": "五小者，若端正無缺陷而俱小者，乃合貴之相也。",
+   "translation": "오소는 만약 단정하고 결함이 없이 모두 작으면 곧 귀함에 맞는 상이다.",
+   "commentary": "오소가 모두 갖추어지고 단정할 때의 평가다. '단정·무결함'은 품평어라 형태 조건으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "端正無缺陷",
+     "observable_ko": "단정하고 결함이 없음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-018",
+   "section": "相五小",
+   "region": "other",
+   "original_text": "其或三四小而一二大者，則不應而貧賤也。",
+   "translation": "혹 서넛은 작고 하나둘이 크면, 응하지 않아 빈천하다.",
+   "commentary": "오소 가운데 일부만 작은 경우의 평가로, 어느 부위인지 특정하지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三四小而一二大",
+     "observable_ko": "일부만 작음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-019",
+   "section": "相五小",
+   "region": "eye",
+   "original_text": "若夫頭小而有角，眼小而清秀，腹小而圓垂，耳小而輪廓成，口小而脣齒正，則反為貴人矣。",
+   "translation": "만약 머리가 작으나 모서리(角)가 있고, 눈이 작으나 맑고 빼어나며, 배가 작으나 둥글게 처지고, 귀가 작으나 바퀴와 테두리가 이루어지고, 입이 작으나 입술과 이가 바르면, 도리어 귀인이 된다.",
+   "commentary": "작은 부위마다 보완 조건을 붙인 구절이다. 작은 눈·작은 입은 레이블로 옮길 수 있으나 '맑고 빼어남'·'입술과 이가 바름' 같은 품평과 머리·배·귀 조건이 함께 요구된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "清秀",
+     "observable_ko": "눈이 맑고 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣齒正",
+     "observable_ko": "입술과 이가 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "바름의 기준이 없고 이는 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳小而輪廓成",
+     "observable_ko": "귀가 작고 윤곽이 갖추어짐",
+     "status": "unmapped",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "귀 윤곽 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭小而有角",
+     "observable_ko": "머리가 작고 모서리가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腹小而圓垂",
+     "observable_ko": "배가 작고 둥글게 처짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ635-face-020",
+   "section": "相六大",
+   "region": "face",
+   "original_text": "「頭面耳鼻口腹」六者，反常而不得其正也。",
+   "translation": "'머리·얼굴·귀·코·입·배' 여섯이 보통과 달라 그 바름을 얻지 못한 것이다.",
+   "commentary": "육대(六大)의 정의 구절이다. 표제상 여섯 부위가 큰 것을 말하나 이 구절에는 크기 서술이 직접 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "頭面耳鼻口腹",
+     "observable_ko": "여섯 부위가 큼(표제에 근거)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "구절 본문에 형태 서술이 없고 표제에만 '大'가 있다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-021",
+   "section": "相六大",
+   "region": "eye",
+   "original_text": "《訣》曰：「頭雖大，額無角，目雖大，閃電爍，鼻雖大，梁柱弱；口雖大，語略綽；耳雖大，無輪廓；腹雖大，近上著，皆貧賤之相也。",
+   "translation": "『결』에 이르기를: '머리가 비록 크나 이마에 각(角)이 없고, 눈이 비록 크나 번개처럼 번쩍이고, 코가 비록 크나 콧대 기둥이 약하고, 입이 비록 크나 말이 대략 느슨하고, 귀가 비록 크나 바퀴와 테두리가 없고, 배가 비록 크나 위쪽에 붙어 있으면, 모두 빈천한 상이다.",
+   "commentary": "큰 부위마다 결함 조건을 붙인 빈천 판정이다. 문헌은 이 결을 『허부편』에서 인용했다고 주기한다. 큰 눈·큰 입은 레이블로 옮길 수 있으나 눈빛·말투·콧대·귀 윤곽·이마 각 같은 조건이 함께 요구된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目雖大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "閃電爍",
+     "observable_ko": "눈빛이 번쩍임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛은 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻雖大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide",
+      "nose_length:long"
+     ],
+     "reason": "크기가 길이·폭·돌출 중 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "梁柱弱",
+     "observable_ko": "콧대 기둥이 약함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(nose_dorsum) 형태는 v3에서 보류되었다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口雖大",
+     "observable_ko": "입이 큼",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "語略綽",
+     "observable_ko": "말이 느슨함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "말투는 관찰 항목이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪廓",
+     "observable_ko": "귀 윤곽이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額無角",
+     "observable_ko": "이마에 각이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 모서리 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭雖大",
+     "observable_ko": "머리가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腹雖大",
+     "observable_ko": "배가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-eye-022",
+   "section": "相六大",
+   "region": "eye",
+   "original_text": "蓋頭雖大，角要聳，目雖大，不正流光，耳大輪廓要正，鼻大梁柱要高，口大聲要清，肚腹大勢要下垂，如此則是富貴之相也。」〈引《許負篇》。〉",
+   "translation": "대개 머리가 비록 크면 각이 솟아야 하고, 눈이 비록 크면 바르지 않게 빛이 흐르지 않아야 하며, 귀가 크면 바퀴와 테두리가 발라야 하고, 코가 크면 콧대 기둥이 높아야 하며, 입이 크면 소리가 맑아야 하고, 배가 크면 형세가 아래로 처져야 하니, 이와 같으면 부귀한 상이다.' 〈『허부편』에서 인용함.〉",
+   "commentary": "앞 구절과 짝을 이루는 부귀 조건이다. '目雖大，不正流光'은 '눈빛이 바르지 않게 흐르지 않아야 한다'로 옮겼으나 문장 구조상 해석 여지가 있다. 큰 눈·큰 입 외에 소리·눈빛·콧대 높이 등 다른 조건이 함께 요구된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目雖大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "不正流光",
+     "observable_ko": "눈빛이 바르지 않게 흐름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛은 형태 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口大",
+     "observable_ko": "입이 큼",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "聲要清",
+     "observable_ko": "소리가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "소리는 관찰 항목이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻大梁柱要高",
+     "observable_ko": "코가 크고 콧대가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧대(梁柱)가 콧뿌리인지 콧등 전체인지 특정되지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳大輪廓要正",
+     "observable_ko": "귀가 크고 윤곽이 바름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 윤곽 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭雖大，角要聳",
+     "observable_ko": "머리가 크고 모서리가 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "肚腹大勢要下垂",
+     "observable_ko": "배가 크고 아래로 처짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-other-023",
+   "section": "相六大",
+   "region": "other",
+   "original_text": "《詩》曰：「六大相停相貌高，平生富貴作英豪，若教偏側為貧賤，不缺衣糧有苦勞。」",
+   "translation": "『시』에 이르기를: '여섯이 크고 서로 고르면 상모가 높으니, 평생 부귀하여 영웅호걸이 된다. 만약 치우치고 기울게 되면 빈천하나, 입고 먹을 것은 모자라지 않되 고생이 있다.'",
+   "commentary": "육대가 고르게 갖추어졌는지에 따른 평가다. '고름(相停)'·'치우침(偏側)'은 종합 평가라 형태 조건으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "六大相停",
+     "observable_ko": "여섯 부위가 크고 고름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위의 종합 균형 평가로 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-024",
+   "section": "相六小極",
+   "region": "eye",
+   "original_text": "頭小、額小、目小、鼻小、口小，耳小是也。",
+   "translation": "머리가 작고, 이마가 작고, 눈이 작고, 코가 작고, 입이 작고, 귀가 작은 것이 이것이다.",
+   "commentary": "육소극(六小極)의 정의다. 작은 눈·작은 입은 레이블로 옮길 수 있으나 머리·이마·코·귀의 '작음'은 대응 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow",
+      "nose_length:short"
+     ],
+     "reason": "작음이 길이·폭·돌출 중 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "작음이 너비인지 높이인지 특정되지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "작음이 길이인지 너비인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ635-other-025",
+   "section": "相六小極",
+   "region": "other",
+   "original_text": "《訣》曰：「頭小為一極，夫妻不得力。",
+   "translation": "『결』에 이르기를: '머리가 작은 것이 첫째 극(極)이니, 부부가 힘을 얻지 못한다.",
+   "commentary": "육소극 결의 첫 항목으로, 문헌은 이 결을 『허부편』에서 인용했다고 주기한다. 머리 크기는 얼굴 형태 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-forehead-026",
+   "section": "相六小極",
+   "region": "forehead",
+   "original_text": "額小為二極，父母少恩恤。",
+   "translation": "이마가 작은 것이 둘째 극이니, 부모의 은혜와 돌봄이 적다.",
+   "commentary": "이마의 '작음'은 너비·높이 중 무엇인지 특정되지 않아 근사 대응으로만 기록했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "작음이 너비인지 높이인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-eye-027",
+   "section": "相六小極",
+   "region": "eye",
+   "original_text": "目小為三極，平生少知識。",
+   "translation": "눈이 작은 것이 셋째 극이니, 평생 지식이 적다.",
+   "commentary": "작은 눈은 눈 크기 레이블로 정확히 옮길 수 있으나, 문헌이 붙인 주장은 지적 능력에 관한 낙인성 서술이라 서비스 연결에서 제외된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-nose-028",
+   "section": "相六小極",
+   "region": "nose",
+   "original_text": "鼻小為四極，農作無休息。",
+   "translation": "코가 작은 것이 넷째 극이니, 농사일에 쉴 틈이 없다.",
+   "commentary": "코의 '작음'은 길이·폭·돌출 중 무엇인지 특정되지 않는다. 문헌은 이를 고된 생업과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow",
+      "nose_length:short"
+     ],
+     "reason": "작음이 길이·폭·돌출 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-mouth-029",
+   "section": "相六小極",
+   "region": "mouth",
+   "original_text": "口小為五極，身無剩衣食。",
+   "translation": "입이 작은 것이 다섯째 극이니, 몸에 남는 옷과 먹을 것이 없다.",
+   "commentary": "작은 입은 입 너비 레이블로 옮길 수 있다. 문헌은 이를 의식(衣食)이 넉넉하지 않음과 연결했으며, 같은 권의 상오소(相五小)는 단정한 작은 입을 귀상으로 보기도 해 문헌 내에서도 평가가 갈린다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-ear-030",
+   "section": "相六小極",
+   "region": "ear",
+   "original_text": "耳小為六極，壽命促，朝夕有一。如此皆非富貴之相也。」〈引《許負篇》。〉",
+   "translation": "귀가 작은 것이 여섯째 극이니, 수명이 짧아 아침저녁에 하나가 있다. 이와 같으면 모두 부귀한 상이 아니다.' 〈『허부편』에서 인용함.〉",
+   "commentary": "'朝夕有一'의 정확한 뜻은 분명하지 않다. 수명에 관한 주장이 포함되어 서비스 연결에서 제외된다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short"
+     ],
+     "reason": "작음이 길이인지 너비인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ],
+   "attributed_to": "許負"
+  },
+  {
+   "passage_id": "SQ635-other-031",
+   "section": "相六小極",
+   "region": "other",
+   "original_text": "《詩》曰：「六極元來相最佳，先賢斷法更無差。勿令不足須全備，衣食平生壽逾遐。」",
+   "translation": "『시』에 이르기를: '육극(六極)은 원래 상이 가장 좋으니, 선현의 판단법에 다시 어긋남이 없다. 부족하게 하지 말고 모두 갖추어야 하니, 입고 먹음이 평생이요 수명이 멀리 넘는다.'",
+   "commentary": "앞의 결이 육소극을 부귀하지 않은 상으로 본 것과 달리, 이 시는 여섯이 모두 갖추어지면 좋다고 하여 문헌 안에서 평가가 엇갈린다. 형태 서술은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-032",
+   "section": "相八大",
+   "region": "eye",
+   "original_text": "「八大」者，「眼雖大昏且濁，鼻雖大梁柱弱，口雖大垂兩角，耳雖大門孔薄，額雖大骨無著，聲雖大破且悲，面雖大塵且翳，身雖大舉止危。」以上八大，苟有如此，缺一不應，則反主貧賤也。",
+   "translation": "'팔대(八大)'란 '눈이 비록 크나 어둡고 흐리며, 코가 비록 크나 콧대 기둥이 약하며, 입이 비록 크나 양 입꼬리가 처지며, 귀가 비록 크나 귓문(門孔)이 얇으며, 이마가 비록 크나 뼈가 붙은 데가 없으며, 소리가 비록 크나 깨지고 슬프며, 얼굴이 비록 크나 먼지 낀 듯 가려지고, 몸이 비록 크나 행동거지가 위태로운 것'이다. 이상 팔대는 진실로 이와 같은 것이 있어 하나라도 응하지 않으면 도리어 빈천을 주관한다.",
+   "commentary": "여덟 부위가 크되 결함을 지닌 경우를 빈천으로 본 구절이다. '缺一不應'의 정확한 뜻은 해석 여지가 있다. 큰 눈·큰 입·처진 입꼬리는 레이블로 옮길 수 있으나 눈빛·소리·안색·행동 등 다른 조건이 함께 요구된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼雖大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "昏且濁",
+     "observable_ko": "눈이 어둡고 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·탁함은 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻雖大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide",
+      "nose_length:long"
+     ],
+     "reason": "크기가 길이·폭·돌출 중 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "梁柱弱",
+     "observable_ko": "콧대 기둥이 약함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(nose_dorsum) 형태는 v3에서 보류되었다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口雖大",
+     "observable_ko": "입이 큼",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    },
+    {
+     "region": "mouth",
+     "evidence": "垂兩角",
+     "observable_ko": "양 입꼬리가 처짐",
+     "status": "exact",
+     "label": "mouth_corner:down"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳雖大門孔薄",
+     "observable_ko": "귀가 크고 귓문이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 세부 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額雖大",
+     "observable_ko": "이마가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "큼이 너비인지 높이인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲雖大",
+     "observable_ko": "소리가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "소리는 관찰 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "塵且翳",
+     "observable_ko": "얼굴이 먼지 낀 듯 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "안색은 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身雖大",
+     "observable_ko": "몸이 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ635-eye-033",
+   "section": "相八小",
+   "region": "eye",
+   "original_text": "「八小」者，眼雖小秀且長，鼻雖小梁且柱，口雖小稜且方，耳雖小堅且圓，額雖小平且正，聲雖小宮且商，面雖小清且朝，身雖小停且齊。以上八小，苟有如此端美相並，反為富貴之人也。",
+   "translation": "'팔소(八小)'란 눈이 비록 작으나 빼어나고 길며, 코가 비록 작으나 콧대가 있고 기둥이 서며, 입이 비록 작으나 모서리가 있고 반듯하며, 귀가 비록 작으나 단단하고 둥글며, 이마가 비록 작으나 평평하고 바르며, 소리가 비록 작으나 궁음·상음이며, 얼굴이 비록 작으나 맑고 (위로) 향하며, 몸이 비록 작으나 고르고 가지런한 것이다. 이상 팔소는 진실로 이와 같이 단정하고 아름다움을 함께 갖추면 도리어 부귀한 사람이 된다.",
+   "commentary": "여덟 부위가 작되 보완 조건을 갖추면 부귀하다는 구절이다. '눈이 작으나 길다'는 조건은 눈 크기 레이블 하나로 표현되지 않으며, 소리·몸가짐 등 사진으로 볼 수 없는 조건이 함께 요구된다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼雖小秀且長",
+     "observable_ko": "눈이 작으나 길고 빼어남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:small",
+      "eye_size:large"
+     ],
+     "reason": "작음과 긺이 함께 요구되어 eye_size 한 클래스로 표현되지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口雖小",
+     "observable_ko": "입이 작음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "mouth",
+     "evidence": "稜且方",
+     "observable_ko": "입술에 모서리가 있고 반듯함",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:pronounced"
+     ],
+     "reason": "모서리(稜)가 윗입술 활 모양 윤곽과 같은 기준인지 확정할 수 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻雖小梁且柱",
+     "observable_ko": "코가 작으나 콧대가 섬",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧대가 콧뿌리인지 콧등인지 특정되지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳雖小堅且圓",
+     "observable_ko": "귀가 작고 단단하고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 세부 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額雖小平且正",
+     "observable_ko": "이마가 작고 평평하고 바름",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "작음이 너비인지 높이인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲雖小宮且商",
+     "observable_ko": "소리가 작으나 궁·상음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "소리는 관찰 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "面雖小清且朝",
+     "observable_ko": "얼굴이 작고 맑으며 향함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "얼굴 크기·맑음의 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身雖小停且齊",
+     "observable_ko": "몸이 작고 고름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리·몸·손발 등 얼굴 밖 신체 비례는 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

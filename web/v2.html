@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>관상 분석 v2 · K-FACE</title>
+<style>
+:root{--ink:#152636;--muted:#647483;--line:#dce2e7;--paper:#f5f6f8;--blue:#275af1;--nav:#142737;--good:#1d7a4a;--good-bg:#e7f5ec;--bad:#b3372b;--bad-bg:#fbecea;--mix:#9a6a10;--mix-bg:#fbf4e4}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.6 'Malgun Gothic',system-ui,sans-serif}
+button,input,select{font:inherit}button{border:1px solid var(--line);border-radius:8px;padding:8px 14px;background:white;color:var(--ink);cursor:pointer}button.primary{background:var(--blue);border-color:var(--blue);color:white}button:disabled{opacity:.45;cursor:wait}
+a{color:var(--blue);text-decoration:none}
+.app{display:grid;grid-template-columns:220px minmax(0,1fr);min-height:100vh}
+aside{background:var(--nav);color:#f1f5fa;padding:28px 20px;position:sticky;top:0;height:100vh}
+.brand{font-size:23px;font-weight:750;letter-spacing:-1px}.brand small{display:block;color:#adc0cf;font-size:11px;letter-spacing:2px;font-weight:400;margin-top:6px}
+.nav{display:grid;gap:6px;margin-top:40px}.nav a{color:#bdccd7;padding:11px 12px;border-radius:6px}.nav a.active,.nav a:hover{background:#2a4053;color:white}
+main{padding:30px 40px;max-width:1500px;width:100%;margin:auto}
+h1{font-size:28px;letter-spacing:-1.1px;margin:6px 0 8px}h2{font-size:20px;letter-spacing:-.6px;margin:34px 0 12px}h3{font-size:16px;margin:0 0 8px}
+.eyebrow{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);font-weight:bold}.muted{color:var(--muted)}.small{font-size:13px}
+.card{background:white;border:1px solid var(--line);border-radius:12px;padding:18px}
+.note{border-left:3px solid #c29235;background:#fbf7ef;padding:12px 16px;font-size:13px;margin:14px 0}
+.warn{border-left:3px solid var(--bad);background:var(--bad-bg);padding:12px 16px;font-size:14px;margin:14px 0}
+.uploads{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px}
+.drop{border:1.5px dashed #b9c3cc;border-radius:12px;background:white;padding:14px;text-align:center;cursor:pointer;min-height:230px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.drop img{max-width:100%;max-height:190px;border-radius:8px}.drop.required{border-color:var(--blue)}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.parts{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.feat{display:grid;grid-template-columns:128px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid #eef1f4;font-size:14px}.feat:last-child{border-bottom:0}
+.chip{display:inline-block;padding:2px 9px;border-radius:12px;font-size:12px;background:#eef2ff;color:#2b47b8;margin-right:4px}
+.chip.soft{background:#f0f2f4;color:var(--muted)}.chip.good{background:var(--good-bg);color:var(--good)}.chip.bad{background:var(--bad-bg);color:var(--bad)}.chip.mix{background:var(--mix-bg);color:var(--mix)}
+.bar{position:relative;height:8px;background:linear-gradient(90deg,#dfe6ee 0 25%,#eef2f6 25% 75%,#dfe6ee 75%);border-radius:5px;margin-top:6px}
+.bar i{position:absolute;top:-3px;width:3px;height:14px;background:var(--ink);border-radius:2px}
+.types{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:14px}
+.type{border-left:4px solid var(--line)}.type.길{border-left-color:var(--good)}.type.흉{border-left-color:var(--bad)}.type.길흉혼재{border-left-color:var(--mix)}
+.type h3{font-size:18px}.type .zh{font-family:serif;color:var(--muted);margin-left:6px;font-weight:400}
+.domains{display:grid;gap:4px;margin:10px 0;font-size:13px}.domains div{display:grid;grid-template-columns:92px 1fr;gap:6px}
+details{margin-top:8px;font-size:13px}details summary{cursor:pointer;color:var(--blue)}blockquote{margin:8px 0;padding:8px 12px;background:#f4f6f9;font-family:serif;line-height:1.8}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.filters select,.filters input{border:1px solid var(--line);border-radius:7px;padding:7px;background:white}
+.table{width:100%;border-collapse:collapse;font-size:13px;background:white}.table td,.table th{text-align:left;padding:8px;border-bottom:1px solid #e9edf1}.table th{color:var(--muted);font-weight:500;font-size:12px}.table td.num{text-align:right;font-variant-numeric:tabular-nums}
+.hidden{display:none}
+#perf{overflow-x:auto}.types>*{min-width:0}
+@media(max-width:900px){.app{grid-template-columns:minmax(0,1fr)}.parts{grid-template-columns:minmax(0,1fr)}.feat{grid-template-columns:104px minmax(0,1fr)}aside{position:static;height:auto}.uploads{grid-template-columns:1fr}.types{grid-template-columns:1fr}main{padding:18px 16px}}
+</style></head>
+<body><div class="app">
+<aside><div class="brand">형태 연구실<small>K-FACE · 관상 분석 v2</small></div>
+<nav class="nav"><a href="#analyze" class="active">01　사진으로 보기</a><a href="#types">02　관상 유형 사전</a><a href="#performance">03　모델 성능·신뢰도</a><a href="/v2/review">04　블라인드 검수</a><a href="/">← 기존 작업대 (v1)</a></nav></aside>
+<main>
+<section id="analyze">
+<div class="eyebrow">사진 분석</div><h1>얼굴 형태와 옛 관상서의 풀이</h1>
+<p class="muted">정면 무표정 사진 한 장이면 됩니다. 좌·우로 약 40도 돌린 사진을 함께 올리면 코 높이(코끝 돌출·코뿌리)를 여러 각도로 측정합니다. 사진은 저장하지 않습니다.</p>
+<div class="uploads">
+<label class="drop required"><input type="file" id="front" accept="image/*" hidden><b>정면 사진 (필수)</b><span class="small muted">무표정 · 입 다물기 · 앞머리가 눈썹을 가리지 않게</span><img id="front-preview" class="hidden" alt=""></label>
+<label class="drop"><input type="file" id="left" accept="image/*" hidden><b>왼쪽 사선 (선택)</b><span class="small muted">얼굴을 오른쪽 어깨 방향으로 약 40도</span><img id="left-preview" class="hidden" alt=""></label>
+<label class="drop"><input type="file" id="right" accept="image/*" hidden><b>오른쪽 사선 (선택)</b><span class="small muted">얼굴을 왼쪽 어깨 방향으로 약 40도</span><img id="right-preview" class="hidden" alt=""></label>
+</div>
+<div class="row" style="margin-top:14px"><button class="primary" id="run" disabled>분석하기</button><span id="state" class="small muted"></span></div>
+<div id="result"></div>
+</section>
+<section id="types"><h2>관상 유형 사전 (103)</h2>
+<p class="muted small">『고금도서집성』 예술전 633·634권의 눈썹·눈·코·입 유형. 풀이는 옛 문헌의 내용을 현대어로 옮긴 것입니다.</p>
+<div class="filters"><select id="f-part"><option value="">전체 부위</option><option value="brow">눈썹</option><option value="eye">눈</option><option value="nose">코</option><option value="mouth">입</option></select>
+<select id="f-overall"><option value="">전체 평가</option><option>길</option><option>흉</option><option>길흉혼재</option></select>
+<select id="f-cov"><option value="">사진 판정 범위 전체</option><option value="full">사진으로 모든 조건 판정</option><option value="partial">일부 조건만 판정</option><option value="none">사진으로 판정 불가</option></select>
+<input id="f-q" placeholder="이름·풀이 검색"></div>
+<div class="types" id="type-list"></div></section>
+<section id="performance"><h2>모델 성능·신뢰도</h2><div id="perf" class="muted">불러오는 중…</div></section>
+<div class="note" id="disclaimer"></div>
+</main></div>
+<script>
+const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const PART_KO={brow:'눈썹',eye:'눈',nose:'코',mouth:'입',face:'얼굴'};const ORDER=['brow','eye','nose','mouth','face'];
+const OVERALL_CLS={'길':'good','흉':'bad','길흉혼재':'mix'};let STATUS=null,TYPES=null;const files={};
+function preview(id){$(id).onchange=e=>{const f=e.target.files[0];files[id]=f;const img=$(id+'-preview');if(f){img.src=URL.createObjectURL(f);img.classList.remove('hidden')}$('run').disabled=!files.front}}
+['front','left','right'].forEach(preview);
+function featName(k){return STATUS?.schema?.features?.[k]?.ko||k}
+function valueKo(k,v){const f=STATUS?.schema?.features?.[k];if(!f)return v;const i=f.classes.indexOf(v);return i>=0?f.classes_ko[i]:v}
+function typeCard(t,match){const cls=t.overall||'';const full=t.domains_full||t.domains;const dom=Object.entries(t.domains_service||t.domains||{}).map(([k,v])=>`<div><span class="chip ${OVERALL_CLS[v.평가]||'soft'}">${esc(k)}</span><span>${esc(v.풀이)}</span></div>`).join('');
+ let cond='';if(match){cond=`<p class="small"><b>사진에서 확인된 조건</b> · ${t.met.map(c=>`${esc(featName(c.feature))}=${c.values.map(v=>esc(valueKo(c.feature,v))).join('/')} <span class="muted">(${esc(c.evidence)})</span>`).join(', ')}</p>`+
+ (t.unconfirmed.length?`<p class="small muted">경계값 근처라 확정하지 못한 조건 · ${t.unconfirmed.map(c=>esc(featName(c.feature))).join(', ')}</p>`:'')+
+ (t.unobservable.length?`<p class="small muted">사진으로 판정하지 않은 문헌 조건 · ${t.unobservable.map(c=>esc(c.description)).join(' / ')}</p>`:'')}
+ else if(t.rule){cond=`<p class="small muted">판정 조건 · ${t.rule.conditions.length?t.rule.conditions.map(c=>`${esc(featName(c.feature))}=${c.values.map(v=>esc(valueKo(c.feature,v))).join('/')}`).join(', '):'사진으로 판정 가능한 형태 조건 없음'}${t.rule.unobservable_conditions.length?` · 판정 불가 조건 ${t.rule.unobservable_conditions.length}개`:''}</p>`}
+ return `<div class="card type ${esc(cls)}"><div class="row" style="justify-content:space-between"><h3>${esc(t.name_ko)}<span class="zh">${esc(t.name_zh)}</span></h3><span>${match?`<span class="chip ${t.match==='close'?'':'soft'}">${t.match==='close'?'가까운 유형':'부분 유사'}</span>`:''}<span class="chip ${OVERALL_CLS[t.overall]||'soft'}">${esc(t.overall)}</span></span></div>
+ <div class="small muted">${esc(PART_KO[t.part])} · ${esc(t.hanja_meaning)}</div><p><b>${esc(t.one_line)}</b></p><p>${esc(t.service_text)}</p><div class="domains">${dom}</div>${cond}
+ <details><summary>원문 · 번역 · 자세한 풀이</summary><blockquote>${esc(t.original)}</blockquote>${Object.entries(full||{}).map(([k,v])=>`<p class="small"><b>${esc(k)}(문헌 표현)</b> ${esc(v.풀이)}</p>`).join('')}<p><b>번역</b> ${esc(t.translation_ko)}</p><p><b>쉬운 풀이</b> ${esc(t.easy_explanation)}</p><p class="muted"><b>주의</b> ${esc(t.caution)}</p>${t.source_url?`<a href="${esc(t.source_url)}" target="_blank" rel="noopener">원문 출처</a>`:''}</details></div>`}
+function featureRow(f){const pct=f.cohort_percentile;const bar=pct!=null?`<div class="bar" title="한국인 참여자 분포에서 약 ${pct}번째 백분위"><i style="left:calc(${pct}% - 1px)"></i></div>`:'';
+ const st=f.status==='confident'?'':f.status==='borderline'?'<span class="chip soft">경계 근처</span>':f.status==='withheld'?'<span class="chip bad">촬영 조건으로 보류</span>':'';
+ const extra=f.source==='visual'?`<span class="small muted">확률 ${Math.round(f.probability*100)}%</span>`:`<span class="small muted">${pct!=null?`참여자 분포 백분위 ${pct}`:''}${f.method==='multiview_photos'?' · 여러 각도 사진으로 측정':''}</span>`;
+ const rel=(f.reliability?`<span class="chip ${f.reliability==='D'?'bad':'soft'}" title="시험 참여자 정확도 ${f.test_accuracy??'—'}">신뢰도 ${f.reliability}</span>`:'')+(f.used_for_types===false?'<span class="chip soft" title="정확도가 낮아 관상 유형 판정에는 쓰지 않습니다">유형 판정 미사용</span>':'')+(f.method==='landmark_single_photo'?'<span class="chip soft" title="이 항목은 CNN보다 랜드마크 직접 측정이 정확해 측정값을 씁니다">직접 측정</span>':'');
+ return `<div class="feat"><div class="muted small">${esc(f.ko)}</div><div><span class="chip">${esc(f.label_ko)}</span>${st}${rel} ${extra}${bar}${f.note?`<div class="small muted">${esc(f.note)}</div>`:''}</div></div>`}
+function render(r){if(r.status!=='ok'){$('result').innerHTML=`<div class="warn">얼굴을 찾지 못했습니다 (${esc(r.reason)}). 얼굴 하나가 크게 나온 정면 사진을 사용하세요.</div>`;return}
+ let h='';if(r.quality_flags.length)h+=`<div class="warn"><b>촬영 조건 확인</b><br>${r.quality_flags.map(esc).join('<br>')}</div>`;
+ if(r.depth.note)h+=`<div class="note">${esc(r.depth.note)}</div>`;
+ if(r.type_groups&&r.type_groups.length){const byId=Object.fromEntries(r.types.map(t=>[t.record_id,t]));
+  h+='<h2>한눈에 보기</h2><div class="card">'+ORDER.filter(p=>p!=='face').map(p=>{const g=r.type_groups.find(x=>x.part===p);if(!g)return `<div class="feat"><div class="muted small">${PART_KO[p]}</div><div class="muted small">사진으로 확인된 조건과 맞는 문헌 유형 없음</div></div>`;
+   const ts=g.record_ids.map(id=>byId[id]);const lead=ts[0];
+   return `<div class="feat"><div class="muted small">${PART_KO[p]}</div><div><b>${ts.map(t=>esc(t.name_ko)).join(' · ')}</b> ${ts.map(t=>`<span class="chip ${OVERALL_CLS[t.overall]||'soft'}">${esc(t.overall)}</span>`).join('')}<div class="small">${ts.length===1?esc(lead.one_line):`같은 조건을 공유하는 ${ts.length}개 유형 — 아래에서 각각의 풀이를 확인하세요.`}</div></div></div>`}).join('')+'</div>'}
+ h+='<h2>부위별 형태</h2><p class="small muted">막대의 음영은 한국인 참여자 하위 25% · 중간 50% · 상위 25% 구간입니다. 형태 설명일 뿐 좋고 나쁨이 아닙니다. 신뢰도는 시험 참여자 정확도 기준 A(85% 이상)·B(70% 이상)·C·D(찍기 수준)입니다.</p><div class="parts">';
+ for(const p of ORDER){const fs=r.features.filter(f=>f.part===p);if(!fs.length)continue;h+=`<div class="card"><h3>${PART_KO[p]}</h3>${fs.map(featureRow).join('')}</div>`}
+ h+='</div><h2>옛 관상서에서 가까운 유형</h2>';
+ if(r.types_withheld_reason)h+=`<div class="note">${esc(r.types_withheld_reason)}</div>`;
+ else if(!r.types.length)h+='<p class="muted">사진에서 확인된 형태 조건을 모두 만족하는 문헌 유형이 없습니다.</p>';
+ else{const byId=Object.fromEntries(r.types.map(t=>[t.record_id,t]));
+  h+='<p class="small muted">사진으로 확인한 형태 조건이 같은 문헌 유형은 한 묶음으로 보여줍니다. 문헌의 다른 조건(눈빛·색·털의 성김 등)은 사진으로 판정하지 않으므로 묶음 안의 어느 하나로 단정하지 않습니다.</p>';
+  for(const p of ORDER){const gs=r.type_groups.filter(g=>g.part===p);if(!gs.length)continue;h+=`<h3 style="margin-top:18px">${PART_KO[p]}</h3><div class="types">`;
+   gs.forEach((g,i)=>{const ts=g.record_ids.map(id=>byId[id]);const ev=g.evidence.map(e=>`${esc(featName(e.feature))}: ${e.values.map(v=>esc(valueKo(e.feature,v))).join('/')}`).join(' · ');
+    const hide=i>=3?' hidden more-'+p:'';
+    if(ts.length===1)h+=`<div class="${hide}">${typeCard(ts[0],true)}</div>`;
+    else h+=`<div class="card${hide}"><div class="row" style="justify-content:space-between"><h3>${ts.map(t=>esc(t.name_ko)).join(' · ')}</h3><span class="chip ${g.match==='close'?'':'soft'}">${g.match==='close'?'같은 조건의 유형 '+ts.length+'개':'부분 유사 '+ts.length+'개'}</span></div>
+     <p class="small"><b>사진에서 확인된 조건</b> · ${ev}</p>${ts.map(t=>`<details><summary><span class="chip ${OVERALL_CLS[t.overall]||'soft'}">${esc(t.overall)}</span> <b>${esc(t.name_ko)}</b> <span class="muted">${esc(t.name_zh)}</span> — ${esc(t.one_line)}</summary>${typeCard(t,true)}</details>`).join('')}</div>`});
+   if(gs.length>3)h+=`<button onclick="document.querySelectorAll('.more-${p}').forEach(e=>e.classList.remove('hidden'));this.remove()">${PART_KO[p]} 유형 ${gs.length-3}묶음 더 보기</button>`;h+='</div>'}}
+ h+=`<p class="small muted">${esc(r.model_status)}</p>`;$('result').innerHTML=h}
+$('run').onclick=async()=>{const b=$('run');b.disabled=true;$('state').textContent='분석 중…';const fd=new FormData();fd.append('front',files.front);if(files.left)fd.append('left',files.left);if(files.right)fd.append('right',files.right);
+ try{const res=await fetch('/api/v2/analyze',{method:'POST',body:fd,headers:{'X-Face-Workbench':'1'}});const j=await res.json();if(!res.ok)throw new Error(j.detail||res.status);render(j);$('state').textContent=''}catch(e){$('state').textContent='오류: '+e.message}finally{b.disabled=false}};
+function renderTypes(){const part=$('f-part').value,ov=$('f-overall').value,cov=$('f-cov').value,q=$('f-q').value.trim();
+ const list=TYPES.records.filter(t=>(!part||t.part===part)&&(!ov||t.overall===ov)&&(!cov||t.rule?.rule_coverage===cov)&&(!q||JSON.stringify([t.name_ko,t.name_zh,t.one_line,t.service_text]).includes(q)));
+ $('type-list').innerHTML=list.map(t=>typeCard(t,false)).join('')||'<p class="muted">조건에 맞는 유형이 없습니다.</p>'}
+['f-part','f-overall','f-cov','f-q'].forEach(id=>$(id).oninput=renderTypes);
+function perfTable(ev){if(!ev)return '<p class="muted">평가 결과가 아직 없습니다.</p>';let h='<table class="table"><tr><th>부위</th><th>특징</th><th>표준 조건 CNN 상관 r</th><th>CNN 정확도</th><th>같은 사진 랜드마크 측정 정확도</th><th>측광·측면광 CNN 정확도</th><th>평가 인원</th></tr>';
+ for(const [part,pr] of Object.entries(ev.parts)){for(const [k,g] of Object.entries(pr.features)){const s=g['standard(front,ref_bright)']||{};const side=g['light:side_light']||{};
+ h+=`<tr><td>${PART_KO[part]}</td><td>${esc(featName(k))}</td><td class="num">${s.cnn_pearson_r??'—'}</td><td class="num">${s.cnn_accuracy??s.accuracy??'—'}${s.majority_baseline_accuracy!=null?` <span class="muted">(최빈 ${s.majority_baseline_accuracy})</span>`:''}</td><td class="num">${s.landmark_accuracy??'—'}</td><td class="num">${side.cnn_accuracy??side.accuracy??'—'}</td><td class="num">${pr.test_participants}</td></tr>`}}
+ return h+'</table>'}
+async function init(){STATUS=await (await fetch('/api/v2/status')).json();TYPES=await (await fetch('/api/v2/types')).json();renderTypes();$('disclaimer').textContent=TYPES.tone_policy.display_disclaimer;
+ const c=STATUS.cohort;let h='';if(c)h+=`<p>기준 집단: K-FACE 참여자 ${c.participants}명 (학습 ${c.split.train} · 검증 ${c.split.val} · 시험 ${c.split.test}, 참여자 단위 분리)</p>`;
+ h+='<h3>시험 참여자 성능</h3>'+perfTable(STATUS.evaluation);
+ if(c){h+='<h3 style="margin-top:20px">측정 재현성 (같은 사람 · 다른 조명 촬영 간 ICC)</h3><table class="table"><tr><th>특징</th><th>ICC(1,1)</th><th>하위/상위 25% 경계</th></tr>'+Object.entries(c.features).map(([k,f])=>`<tr><td>${esc(featName(k))}</td><td class="num">${f.icc_1_1_train??'—'}</td><td class="num">${f.cuts.map(x=>x.toFixed(3)).join(' / ')}</td></tr>`).join('')+'</table>'}
+ if(STATUS.rater_agreement){const dec={keep:'사용',keep_low_agreement:'사용(일치도 보통)',withhold:'제외'};h+='<h3 style="margin-top:20px">육안 항목 판정자 3명 일치도 (Fleiss κ)</h3><p class="small muted">AI 판정자 3명이 다른 조명·순서로 독립 판정했습니다. 정답은 다수결 합의이며, 인간 전문가 검수는 아닙니다.</p><table class="table"><tr><th>항목</th><th>Fleiss κ</th><th>판정자 쌍별 κ</th><th>처리</th></tr>'+Object.entries(STATUS.rater_agreement).map(([k,v])=>`<tr><td>${esc(v.ko)}</td><td class="num">${v.fleiss_kappa}</td><td class="num">${Object.values(v.pairwise_cohen_kappa).join(' / ')}</td><td>${dec[v.decision]||v.decision}</td></tr>`).join('')+'</table>'}
+ if(STATUS.fewview_depth){h+='<h3 style="margin-top:20px">사선 사진으로 코 높이 측정 (12시점 기준 대비)</h3><table class="table"><tr><th>촬영 조합</th><th>코끝 돌출 r</th><th>코뿌리 높이 r</th><th>등급 일치(코끝/코뿌리)</th></tr>'+Object.entries(STATUS.fewview_depth).map(([k,v])=>`<tr><td>${esc(k)}</td><td class="num">${v.nose_projection.pearson_r}</td><td class="num">${v.nose_bridge.pearson_r}</td><td class="num">${v.nose_projection.class_agreement_calibrated} / ${v.nose_bridge.class_agreement_calibrated}</td></tr>`).join('')+'</table>'}
+ $('perf').innerHTML=h}
+init();
+</script></body></html>

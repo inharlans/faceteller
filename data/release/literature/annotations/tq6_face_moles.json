@@ -1,0 +1,1579 @@
+{
+ "page_id": "tq6",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "TQ6-mole-001",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "生髮中者主富壽近上者尤猛貴",
+   "translation": "(검은 점이) 머리카락 속에 난 것은 부유함과 장수를 주관하고, 위로 가까운 것은 더욱 크게 귀하다.",
+   "commentary": "머리카락 속의 점을 말한 것으로, 사진에서는 가려져 보이지 않는다. 문헌의 판단은 이 위치의 검은 점(黑痣)에 관한 것이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "生髮中",
+     "observable_ko": "머리카락 속에 검은 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리카락·귓속·입속처럼 사진에 드러나지 않는 위치의 점은 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-002",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "額上有七星黑者主大貴",
+   "translation": "(검은 점이) 이마 위에 칠성(七星) 모양의 검은 점이 있는 자는 크게 귀함을 주관한다.",
+   "commentary": "칠성(七星)은 북두칠성처럼 늘어선 일곱 개의 점으로 해석된다. 점의 개수와 배열은 위치 레이블이 없는 서술이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "額上有七星黑",
+     "observable_ko": "이마 위에 일곱 개의 검은 점(칠성 모양)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-003",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "天中主妨父",
+   "translation": "(검은 점이) 천중(天中, 이마 맨 위 중앙)은 아버지를 해침(妨)을 주관한다.",
+   "commentary": "천중(天中)은 이마 맨 위 중앙 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天中",
+     "observable_ko": "천중(이마 맨 위 중앙)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-004",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "天庭主妨母",
+   "translation": "(검은 점이) 천정(天庭, 이마 윗부분 중앙)은 어머니를 해침을 주관한다.",
+   "commentary": "천정(天庭)은 천중 바로 아래 이마 중앙 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天庭",
+     "observable_ko": "천정(천중 아래 이마 윗부분 중앙)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-005",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "司空妨父母",
+   "translation": "(검은 점이) 사공(司空, 이마 중앙)은 부모를 해친다.",
+   "commentary": "사공(司空)은 천정 아래 이마 중앙 부위 이름이다. 이 구절만 '主'자가 없다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "司空",
+     "observable_ko": "사공(이마 중앙)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-006",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "印堂心主貴",
+   "translation": "(검은 점이) 인당(印堂, 두 눈썹 사이)의 한가운데는 귀함을 주관한다.",
+   "commentary": "인당(印堂)은 두 눈썹 사이 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "印堂心",
+     "observable_ko": "인당(두 눈썹 사이) 한가운데에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-007",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "兩耳輪上主富",
+   "translation": "(검은 점이) 두 귓바퀴 위는 부유함을 주관한다.",
+   "commentary": "귓바퀴(耳輪) 위의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "兩耳輪上",
+     "observable_ko": "양쪽 귓바퀴 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-008",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "耳内主壽",
+   "translation": "(검은 점이) 귓속은 장수를 주관한다.",
+   "commentary": "귓속의 점으로, 정면 사진에서는 보이지 않는다. 문헌의 판단은 이 위치의 검은 점(黑痣)에 관한 것이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳内",
+     "observable_ko": "귓속에 검은 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리카락·귓속·입속처럼 사진에 드러나지 않는 위치의 점은 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-009",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "頤上主財",
+   "translation": "(검은 점이) 턱(頤) 위는 재물을 주관한다.",
+   "commentary": "이(頤)는 턱 또는 뺨 아래 턱 부위를 가리킨다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "頤上",
+     "observable_ko": "턱(頤) 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-010",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "眼胲上主作賊",
+   "translation": "(검은 점이) 눈 해(眼胲) 위는 도둑이 됨을 주관한다.",
+   "commentary": "'眼胲'가 눈의 어느 부위를 가리키는지 확정되지 않아 글자대로 옮겼다. 문헌은 이 점을 도둑질과 연결하는 낙인성 서술을 적었다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眼胲上",
+     "observable_ko": "눈 '胲' 위(위치 불명확)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-011",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "山根上主尅害",
+   "translation": "(검은 점이) 산근(山根, 콧뿌리) 위는 극해(剋害)를 주관한다.",
+   "commentary": "산근(山根)은 두 눈 사이 콧뿌리 부위 이름이다. 극해(剋害)는 가족 등을 해친다는 관상 용어로 해석된다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山根上",
+     "observable_ko": "산근(콧뿌리) 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-012",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "山根下主兵死",
+   "translation": "(검은 점이) 산근 아래는 병기에 죽음(兵死)을 주관한다.",
+   "commentary": "산근 아래, 곧 콧마루 윗부분의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山根下",
+     "observable_ko": "산근(콧뿌리) 아래에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-013",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "鼻側主病苦死",
+   "translation": "(검은 점이) 코 옆은 병으로 괴롭게 죽음을 주관한다.",
+   "commentary": "코 옆면의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻側",
+     "observable_ko": "코 옆에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-014",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "目上窮困多",
+   "translation": "(검은 점이) 눈 위는 궁핍과 곤란이 많다.",
+   "commentary": "눈 위(눈꺼풀 또는 눈과 눈썹 사이)의 점으로 해석된다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "目上",
+     "observable_ko": "눈 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-015",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "眉中主富貴",
+   "translation": "(검은 점이) 눈썹 속은 부귀를 주관한다.",
+   "commentary": "눈썹 안에 숨은 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉中",
+     "observable_ko": "눈썹 속에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-016",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "唇上主吉利",
+   "translation": "(검은 점이) 입술 위는 길하고 이로움을 주관한다.",
+   "commentary": "입술 위의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "唇上",
+     "observable_ko": "입술 위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-017",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "鼻頭主妨害刀厄",
+   "translation": "(검은 점이) 코끝은 해침과 칼의 재앙(刀厄)을 주관한다.",
+   "commentary": "코끝(準頭)의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻頭",
+     "observable_ko": "코끝에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-018",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "鼻梁主蹇滯",
+   "translation": "(검은 점이) 콧마루는 막히고 정체됨(蹇滯)을 주관한다.",
+   "commentary": "콧마루의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻梁",
+     "observable_ko": "콧마루에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-019",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "人中主求婦易",
+   "translation": "(검은 점이) 인중(人中, 코 밑 홈)은 아내 구하기가 쉬움을 주관한다.",
+   "commentary": "인중의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中",
+     "observable_ko": "인중에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-020",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "口側聚財難",
+   "translation": "(검은 점이) 입 옆은 재물 모으기가 어렵다.",
+   "commentary": "입 옆의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口側",
+     "observable_ko": "입 옆에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-021",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "口中主酒食",
+   "translation": "(검은 점이) 입속은 술과 음식을 주관한다.",
+   "commentary": "입속의 점으로, 사진에서는 보이지 않는다. 문헌의 판단은 이 위치의 검은 점(黑痣)에 관한 것이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口中",
+     "observable_ko": "입속에 검은 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리카락·귓속·입속처럼 사진에 드러나지 않는 위치의 점은 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-022",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "舌上主虚言",
+   "translation": "(검은 점이) 혀 위는 헛된 말(虛言)을 주관한다.",
+   "commentary": "혀 위의 점으로, 얼굴 사진에서는 보이지 않는다. 문헌은 이를 거짓말과 연결했다. 문헌의 판단은 이 위치의 검은 점(黑痣)에 관한 것이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "舌上",
+     "observable_ko": "혀 위에 검은 점이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리카락·귓속·입속처럼 사진에 드러나지 않는 위치의 점은 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-023",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "唇下主破財",
+   "translation": "(검은 점이) 입술 아래는 재물을 깨뜨림을 주관한다.",
+   "commentary": "입술 아래의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "唇下",
+     "observable_ko": "입술 아래에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-024",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "口角主失職",
+   "translation": "(검은 점이) 입꼬리는 직을 잃음을 주관한다.",
+   "commentary": "입꼬리의 점을 말한다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "口角",
+     "observable_ko": "입꼬리에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-025",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "承漿主醉死",
+   "translation": "(검은 점이) 승장(承漿, 아랫입술 아래 오목한 곳)은 취하여 죽음을 주관한다.",
+   "commentary": "승장(承漿)은 아랫입술 아래 오목한 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "承漿",
+     "observable_ko": "승장(아랫입술 아래 오목한 곳)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-026",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "左廂主横死",
+   "translation": "(검은 점이) 좌상(左廂)은 횡사를 주관한다.",
+   "commentary": "좌상(左廂)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 원문은 왼쪽만 들어 측(側) 특정적이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "左廂",
+     "observable_ko": "좌상(左廂)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-027",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "高廣二親妨尅",
+   "translation": "(검은 점이) 고광(高廣)은 두 어버이를 해치고 극한다.",
+   "commentary": "고광(高廣)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "高廣",
+     "observable_ko": "고광(高廣)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-028",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "陽尺主客死",
+   "translation": "(검은 점이) 양척(陽尺)은 객사를 주관한다.",
+   "commentary": "양척(陽尺)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "陽尺",
+     "observable_ko": "양척(陽尺)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-029",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "輔角主兵死",
+   "translation": "(검은 점이) 보각(輔角)은 병기에 죽음을 주관한다.",
+   "commentary": "보각(輔角)은 이마 양쪽 모서리 부근의 부위 이름으로 쓰이나 정확한 위치는 원문만으로 확정되지 않는다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "輔角",
+     "observable_ko": "보각(輔角, 이마 양쪽 모서리)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-030",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "邉地主外死",
+   "translation": "(검은 점이) 변지(邊地)는 밖에서 죽음을 주관한다.",
+   "commentary": "변지(邊地)는 이마 가장자리 부위 이름으로 쓰인다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "邉地",
+     "observable_ko": "변지(邊地, 이마 가장자리)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-031",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "轉角主貧下",
+   "translation": "(검은 점이) 전각(轉角)은 가난하고 낮음을 주관한다.",
+   "commentary": "전각(轉角)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "轉角",
+     "observable_ko": "전각(轉角)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-032",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "山林主蟲傷",
+   "translation": "(검은 점이) 산림(山林)은 벌레(짐승)에게 상함을 주관한다.",
+   "commentary": "산림(山林)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 '蟲'은 넓게 짐승을 포함할 수 있다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "山林",
+     "observable_ko": "산림(山林)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-033",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "虎角主軍門",
+   "translation": "(검은 점이) 호각(虎角)은 군문(軍門)을 주관한다.",
+   "commentary": "호각(虎角)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 '主軍門'이 군직을 뜻하는지, 군문(軍門)이 다음 부위 이름의 일부인지 무구두 원문에서 확정되지 않는다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "虎角",
+     "observable_ko": "호각(虎角)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-034",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "刼門主弓箭死",
+   "translation": "(검은 점이) 겁문(劫門)은 활과 화살에 죽음을 주관한다.",
+   "commentary": "겁문(劫門)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "刼門",
+     "observable_ko": "겁문(劫門)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-035",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "青路主客道死",
+   "translation": "(검은 점이) 청로(靑路)는 객지 길에서 죽음을 주관한다.",
+   "commentary": "청로(靑路)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "青路",
+     "observable_ko": "청로(靑路)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-036",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "太陽主大婦吉",
+   "translation": "(검은 점이) 태양(太陽)은 큰 아내(大婦)가 길함을 주관한다.",
+   "commentary": "태양(太陽)은 눈 부근의 부위 이름으로 쓰이나 정확한 위치는 원문만으로 확정되지 않는다. 대부(大婦)는 정실 아내로 해석된다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "太陽",
+     "observable_ko": "태양(太陽)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-037",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "魚尾主井亡",
+   "translation": "(검은 점이) 어미(魚尾, 눈꼬리 바깥)는 우물에서 죽음을 주관한다.",
+   "commentary": "어미(魚尾)는 눈꼬리 바깥 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "魚尾",
+     "observable_ko": "어미(魚尾, 눈꼬리 바깥)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-038",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "姦門主刀殺",
+   "translation": "(검은 점이) 간문(姦門, 눈꼬리 뒤)은 칼에 죽임을 당함을 주관한다.",
+   "commentary": "간문(奸門)은 눈꼬리 뒤쪽 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "姦門",
+     "observable_ko": "간문(奸門, 눈꼬리 뒤)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-039",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "天井主水阨",
+   "translation": "(검은 점이) 천정(天井)은 물의 재앙을 주관한다.",
+   "commentary": "천정(天井)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天井",
+     "observable_ko": "천정(天井)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-040",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "𤣥中主清慎",
+   "translation": "(검은 점이) 현중(玄中)은 맑고 삼감을 주관한다.",
+   "commentary": "현중(𤣥中, 玄中)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "𤣥中",
+     "observable_ko": "현중(玄中)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-041",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "夫坐主䘮妻",
+   "translation": "(검은 점이) 부좌(夫坐)는 아내를 잃음을 주관한다.",
+   "commentary": "부좌(夫坐)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "夫坐",
+     "observable_ko": "부좌(夫坐)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-042",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "長男主尅長子",
+   "translation": "(검은 점이) 장남(長男) 부위는 맏아들을 극함을 주관한다.",
+   "commentary": "장남·중남·차남은 자녀를 보는 부위 이름으로 쓰이나 정확한 위치는 원문만으로 확정되지 않는다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "長男",
+     "observable_ko": "장남(長男) 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-043",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "中男主尅中兒",
+   "translation": "(검은 점이) 중남(中男) 부위는 가운데 아이를 극함을 주관한다.",
+   "commentary": "중남(中男)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "中男",
+     "observable_ko": "중남(中男) 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-044",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "次男主尅次兒",
+   "translation": "(검은 점이) 차남(次男) 부위는 다음 아이를 극함을 주관한다.",
+   "commentary": "차남(次男)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "次男",
+     "observable_ko": "차남(次男) 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-045",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "金匱主破散",
+   "translation": "(검은 점이) 금궤(金匱)는 깨지고 흩어짐을 주관한다.",
+   "commentary": "금궤(金匱)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "金匱",
+     "observable_ko": "금궤(金匱)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-046",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "書上主無職",
+   "translation": "(검은 점이) 서상(書上)은 직이 없음을 주관한다.",
+   "commentary": "서상(書上)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "書上",
+     "observable_ko": "서상(書上)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-047",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "學堂主無學",
+   "translation": "(검은 점이) 학당(學堂)은 배움이 없음을 주관한다.",
+   "commentary": "학당(學堂)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 문헌은 이를 배움 없음과 연결했다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "學堂",
+     "observable_ko": "학당(學堂)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-048",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "命門主火厄",
+   "translation": "(검은 점이) 명문(命門, 귀 앞)은 불의 재앙을 주관한다.",
+   "commentary": "명문(命門)은 귀 앞쪽 부위 이름으로 해석된다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "命門",
+     "observable_ko": "명문(命門, 귀 앞)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-049",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "僕使主為賤",
+   "translation": "(검은 점이) 복사(僕使)는 천하게 됨을 주관한다.",
+   "commentary": "복사(僕使)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "僕使",
+     "observable_ko": "복사(僕使)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-050",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "嬰門主饑寒",
+   "translation": "(검은 점이) 영문(嬰門)은 굶주림과 추위를 주관한다.",
+   "commentary": "영문(嬰門)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "嬰門",
+     "observable_ko": "영문(嬰門)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-051",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "小吏主貧薄",
+   "translation": "(검은 점이) 소리(小吏)는 가난하고 박함을 주관한다.",
+   "commentary": "소리(小吏)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "小吏",
+     "observable_ko": "소리(小吏)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-052",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "中堂主尅妻",
+   "translation": "(검은 점이) 중당(中堂)은 아내를 극함을 주관한다.",
+   "commentary": "중당(中堂)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "中堂",
+     "observable_ko": "중당(中堂)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-053",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "外宅主無屋",
+   "translation": "(검은 점이) 외택(外宅)은 집이 없음을 주관한다.",
+   "commentary": "외택(外宅)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "外宅",
+     "observable_ko": "외택(外宅)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-054",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "奴婢主妨奴",
+   "translation": "(검은 점이) 노비(奴婢) 부위는 노비를 해침을 주관한다.",
+   "commentary": "노비(奴婢)는 아랫사람을 보는 부위 이름으로 쓰이나 정확한 위치는 원문만으로 확정되지 않는다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "奴婢",
+     "observable_ko": "노비(奴婢) 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-055",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "坑塹主落崖",
+   "translation": "(검은 점이) 갱참(坑塹)은 벼랑에서 떨어짐을 주관한다.",
+   "commentary": "갱참(坑塹)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "坑塹",
+     "observable_ko": "갱참(坑塹)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-056",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "陂池主溺水",
+   "translation": "(검은 점이) 피지(陂池)는 물에 빠짐을 주관한다.",
+   "commentary": "피지(陂池)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "陂池",
+     "observable_ko": "피지(陂池)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-057",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "匱上主客亡",
+   "translation": "(검은 점이) 궤상(匱上)은 객지에서 죽음을 주관한다.",
+   "commentary": "궤상(匱上)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "匱上",
+     "observable_ko": "궤상(匱上)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-058",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "三陽主縊死",
+   "translation": "(검은 점이) 삼양(三陽)은 목매어 죽음을 주관한다.",
+   "commentary": "삼양(三陽)은 눈 아래 부근의 부위 이름으로 쓰이나 정확한 위치는 원문만으로 확정되지 않는다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "三陽",
+     "observable_ko": "삼양(三陽)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-059",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "盗部主奸竊",
+   "translation": "(검은 점이) 도부(盜部)는 간사한 도둑질을 주관한다.",
+   "commentary": "도부(盜部)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 문헌은 이를 도둑질과 연결하는 낙인성 서술을 적었다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "盗部",
+     "observable_ko": "도부(盜部)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-060",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "兩厨主乏食",
+   "translation": "(검은 점이) 양주(兩廚)는 먹을 것이 모자람을 주관한다.",
+   "commentary": "양주(兩厨)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "兩厨",
+     "observable_ko": "양주(兩廚)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-061",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "祖宅主移屋",
+   "translation": "(검은 점이) 조택(祖宅)은 집을 옮김을 주관한다.",
+   "commentary": "조택(祖宅)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "祖宅",
+     "observable_ko": "조택(祖宅)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-062",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "大海主水厄",
+   "translation": "(검은 점이) 대해(大海)는 물의 재앙을 주관한다.",
+   "commentary": "대해(大海)는 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "大海",
+     "observable_ko": "대해(大海)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-063",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "年上主貧困",
+   "translation": "(검은 점이) 연상(年上, 콧마루 중간)은 가난과 곤란을 주관한다.",
+   "commentary": "연상(年上)은 산근 아래 콧마루 중간 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "年上",
+     "observable_ko": "연상(年上, 콧마루 중간)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-064",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "地閣主少田宅",
+   "translation": "(검은 점이) 지각(地閣, 턱)은 밭과 집이 적음을 주관한다.",
+   "commentary": "지각(地閣)은 턱 부위 이름이다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "地閣",
+     "observable_ko": "지각(地閣, 턱)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점이고, pigmented_marks 지표는 노출된 얼굴 윗부분 피부만 다루므로 근사 대응에 그친다(아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ6-mole-065",
+   "section": "太清神鑑 卷六",
+   "section_title": "頭靣黑痣",
+   "region": "mole",
+   "original_text": "牢獄主刑厄之災也",
+   "translation": "(검은 점이) 뇌옥(牢獄)은 형벌의 재앙을 주관한다.",
+   "commentary": "뇌옥(牢獄)은 부위 이름으로, 정확한 위치는 원문만으로 확정되지 않는다 이 구절로 머리·얼굴 점 목록이 끝난다. 특정 위치의 검은 점(黑痣)에 대한 판단으로, 위치별 점 레이블이 없어 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "牢獄",
+     "observable_ko": "뇌옥(牢獄)에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다(pigmented_marks는 아직 대기 레이블이다)"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  }
+ ]
+}

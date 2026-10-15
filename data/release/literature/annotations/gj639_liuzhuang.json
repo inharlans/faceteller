@@ -1,0 +1,368 @@
+{
+ "page_id": "gj639",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《袁柳莊雜論上篇》",
+  "《中篇》",
+  "《下篇》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ639-other-001",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "「人貴之相有三，曰聲，曰神，曰氣。」",
+   "translation": "「사람이 귀한 상에는 세 가지가 있으니, 소리(聲)요, 신(神)이요, 기(氣)라 한다.」",
+   "commentary": "잡론 상편의 첫 명제로, 귀상의 기준을 소리·신·기 세 가지로 들었다. 셋 모두 정지 사진의 얼굴 형태가 아니며 이 구절은 원칙 진술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-002",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "蓋聲清則神清，神清則氣清，驗此三者，形骨次之。",
+   "translation": "대개 소리가 맑으면 신이 맑고, 신이 맑으면 기가 맑으니, 이 세 가지를 징험하고 형골(形骨)은 그다음으로 한다.",
+   "commentary": "소리·신·기를 형체와 골격보다 앞세운다는 판단 순서를 말한 구절이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-003",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "是以古者方伎之妙，有聞人之謦欬而知其必貴者，得之於神也；有察人之喜怒操守而知其必貴者，得之於氣也。",
+   "translation": "이런 까닭에 옛 방기(方伎)의 묘함에, 사람의 기침 소리를 듣고 그가 반드시 귀할 것을 안 자가 있었으니 신에서 얻은 것이요, 사람의 기쁨과 노여움, 지조를 살펴 그가 반드시 귀할 것을 안 자가 있었으니 기에서 얻은 것이다.",
+   "commentary": "방기(方伎)는 의술·점술·관상 등 기술을 아울러 이르는 말이다. 소리와 행동으로 귀함을 알았다는 예시로, 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-004",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "聲欲響闊而長，神欲精粹而藏，氣欲舒緩而淨，反此者弗貴也。",
+   "translation": "소리는 울림이 넓고 길기를 바라고, 신은 정밀하고 순수하며 갈무리되기를 바라며, 기는 느긋하고 깨끗하기를 바라니, 이와 반대인 자는 귀하지 않다.",
+   "commentary": "소리·신·기의 바람직한 상태를 말하고 그 반대를 귀하지 않다고 했다. 모두 정지 사진에서 관찰할 수 없는 조건이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "聲欲響闊而長",
+     "observable_ko": "소리의 울림이 넓고 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神欲精粹而藏",
+     "observable_ko": "신이 정밀·순수하고 갈무리됨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)은 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣欲舒緩而淨",
+     "observable_ko": "기가 느긋하고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기(氣)는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-005",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "有聲而神氣怯，聲緩則其貴遲；有神而氣怯，聲破則其貴不遠。",
+   "translation": "소리는 있으나 신과 기가 겁약하고 소리가 느리면 그 귀함이 더디고, 신은 있으나 기가 겁약하고 소리가 깨지면 그 귀함이 멀지 않다.",
+   "commentary": "'其貴不遠'은 직역하면 '귀함이 멀지 않다'이나, 문맥상 귀함이 오래가지 못한다는 뜻으로도 읽힐 수 있어 확정하지 않았다. 모든 조건이 소리·신·기에 관한 것이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有聲而神氣怯，聲緩",
+     "observable_ko": "신·기가 겁약하고 소리가 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리·신기는 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有神而氣怯，聲破",
+     "observable_ko": "기가 겁약하고 소리가 깨짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리·기는 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-006",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "富貴而神濁聲慢，未可以言貴也。",
+   "translation": "부귀하더라도 신이 탁하고 소리가 느리면 귀하다고 말할 수 없다.",
+   "commentary": "신의 탁함과 소리의 느림을 조건으로 한 판단으로, 형태 조건이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "神濁聲慢",
+     "observable_ko": "신이 탁하고 소리가 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신·목소리는 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-007",
+   "section": "《袁柳莊雜論上篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "此三者，幽而難明，元而難測，惟意所解，言莫能窮也。",
+   "translation": "이 세 가지는 그윽하여 밝히기 어렵고 현묘하여 헤아리기 어려우니, 오직 뜻으로 풀 바이고 말로는 다할 수 없다.",
+   "commentary": "'元'은 문맥상 '玄(현묘함)'의 뜻으로 읽었다. 판단의 어려움을 말하는 맺음말로 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-008",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "形成而不可變，體具而不可缺。",
+   "translation": "형체는 이루어지면 바꿀 수 없고, 몸은 갖추어지면 이지러질 수 없다.",
+   "commentary": "잡론 중편의 서두로 형체론의 원칙을 말한다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-009",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "大凡形體，惟在完滿隆厚、清潤崇重、平正華秀者，不貴則富也。",
+   "translation": "무릇 형체는 오직 온전하고 가득하며 높고 두텁고, 맑고 윤택하며 높고 무겁고, 평평하고 바르며 화려하고 빼어난 자라야 귀하지 않으면 부유하다.",
+   "commentary": "몸 전체의 형체를 품평어로 묘사한 구절로, 특정 얼굴 부위나 측정 방향이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "完滿隆厚、清潤崇重、平正華秀",
+     "observable_ko": "형체가 온전·풍만·두텁고 맑고 윤택하며 바르고 빼어남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "몸 전체에 대한 품평어로 부위와 측정 방향이 없고 윤택함은 관찰 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-010",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "惜夫怪而粗、古而露、清而寒、秀而薄者，皆非美相。",
+   "translation": "애석하게도 괴이하고 거칠며, 예스럽고 드러나며, 맑으나 차고, 빼어나나 얇은 자는 모두 아름다운 상이 아니다.",
+   "commentary": "앞 구절과 대비되는 형체의 결점을 품평어로 나열했다. 부위와 측정 방향이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "怪而粗、古而露、清而寒、秀而薄",
+     "observable_ko": "형체가 괴이·거칠고 드러나며 차고 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "몸 전체에 대한 품평어로 부위와 측정 방향이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-011",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "古人論部位法，以額準地閣，左右顴為五岳，以眼耳口鼻為四瀆，以上下左右分為九州十二辰。",
+   "translation": "옛사람이 부위법을 논하기를, 이마·준두(準頭, 코끝)·지각(地閣, 턱)과 좌우 관골(顴骨, 광대뼈)을 오악(五岳)으로 삼고, 눈·귀·입·코를 사독(四瀆)으로 삼으며, 위아래와 좌우를 나누어 구주(九州)·십이진(十二辰)으로 삼았다.",
+   "commentary": "얼굴 부위를 산·강·땅에 빗댄 오악·사독·구주의 정의를 옮긴 구절이다. 부위 명칭 설명이며 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-012",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "由此觀之，則一形之徵，其所該也，烏可淺淺而論之哉！",
+   "translation": "이로 보건대 한 형체의 징험은 그 갖춘 바가 넓으니, 어찌 얕게 논할 수 있겠는가!",
+   "commentary": "부위가 많으므로 깊이 살펴야 한다는 방법론적 강조다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-013",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "故上有天子，下逮「庶人」，其五臟六腑九竅之形皆同，然其所為形則異也。",
+   "translation": "그러므로 위로 천자로부터 아래로 「서인(庶人)」에 이르기까지 오장육부와 아홉 구멍의 형태는 모두 같으나, 그 형체가 되는 바는 다르다.",
+   "commentary": "신분과 관계없이 신체 구조는 같으나 형체의 양상은 다르다는 원칙이다. 「」는 사본의 표기이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-014",
+   "section": "《中篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "若辨折之，須於三停五行中求其要妙，次求氣色，左顧右盼，尋根揣本，則貴賤貧富，吉凶壽夭，灼然可見。",
+   "translation": "만약 이를 분별하여 가리려면 반드시 삼정(三停)과 오행 가운데에서 그 요체와 묘리를 구하고, 다음으로 기색(氣色)을 구하며, 왼쪽을 돌아보고 오른쪽을 살펴 뿌리를 찾고 근본을 헤아리면, 귀천과 빈부, 길흉과 수요(壽夭)가 환히 드러난다.",
+   "commentary": "판단 절차를 말한 방법론으로 형태 조건은 없다. 문헌은 이 절차로 수명의 길고 짧음까지 알 수 있다고 적었다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-015",
+   "section": "《下篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "「形體，相之根本也；氣色，相之枝葉也。根本固則枝葉繁，根本枯則枝葉謝。」",
+   "translation": "「형체는 상의 뿌리요, 기색은 상의 가지와 잎이다. 뿌리가 굳으면 가지와 잎이 무성하고, 뿌리가 마르면 가지와 잎이 시든다.」",
+   "commentary": "잡론 하편의 첫 명제로 형체와 기색의 관계를 나무에 비유했다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-016",
+   "section": "《下篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "夫論相，所以先究形骨而後觀其氣色，此皆氣色也。",
+   "translation": "무릇 상을 논함에 먼저 형골을 궁구하고 뒤에 그 기색을 보는 까닭이니, 이는 모두 기색이다.",
+   "commentary": "판단 순서를 말한 구절이다. 끝의 '此皆氣色也'는 이하가 기색에 관한 논의라는 뜻으로 읽었으나 문맥상 다소 어색하여 글자 그대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-017",
+   "section": "《下篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "夫氣舒則色暢，氣恬則色潤，氣潤則光澤華美見于色，此皆氣色之善也。",
+   "translation": "무릇 기가 펴지면 색이 화창하고, 기가 편안하면 색이 윤택하며, 기가 윤택하면 광택과 화려한 아름다움이 색에 드러나니, 이는 모두 기색의 좋은 것이다.",
+   "commentary": "기와 안색의 관계를 말한 구절로, 색과 광택은 조명·피부 상태에 좌우되어 형태 레이블이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "光澤華美見于色",
+     "observable_ko": "안색에 광택과 화려함이 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "안색·광택은 조명·카메라에 좌우되며 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-018",
+   "section": "《下篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "氣偏則色焦，氣滯則色枯，氣蔽則憔悴黯黑見于色，此皆氣色之凶也。",
+   "translation": "기가 치우치면 색이 타고, 기가 막히면 색이 마르며, 기가 가려지면 초췌하고 어두운 검은빛이 색에 드러나니, 이는 모두 기색의 흉한 것이다.",
+   "commentary": "앞 구절과 대비되는 흉한 기색을 말한다. 안색은 형태 레이블이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "憔悴黯黑見于色",
+     "observable_ko": "안색이 초췌하고 어둡고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "안색은 조명·카메라에 좌우되며 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639-other-019",
+   "section": "《下篇》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "若夫形如槁木，心若死灰，淡然不與世俱，此又聖人之相，不可以氣色論也。",
+   "translation": "만약 형체가 마른 나무 같고 마음이 꺼진 재 같아 담담하여 세상과 함께하지 않는다면, 이는 또한 성인의 상이니 기색으로 논할 수 없다.",
+   "commentary": "'형체는 마른 나무 같고 마음은 꺼진 재 같다'는 『장자』의 표현과 유사한 구절로, 세속을 초월한 상태를 가리킨다. 형체 비유와 마음 상태는 측정 가능한 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形如槁木",
+     "observable_ko": "형체가 마른 나무 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현으로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "心若死灰，淡然不與世俱",
+     "observable_ko": "마음이 꺼진 재 같고 세상과 어울리지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "마음 상태·처세는 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2334 @@
+{
+ "page_id": "gj646",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "目"
+ ],
+ "passages": [
+  {
+   "passage_id": "ZD646A-eye-001",
+   "section": "目",
+   "region": "eye",
+   "original_text": "木主春，春主肝，肝主目，目主仁，長生之行也。",
+   "translation": "목(木)은 봄을 주관하고, 봄은 간(肝)을 주관하며, 간은 눈을 주관하고, 눈은 인(仁)을 주관하니, 장생(長生)의 행(行)이다.",
+   "commentary": "『조담경(照膽經)』 목(目) 조의 서두로, 오행(木)·계절·장부·오상(仁)을 눈에 배당하는 일반 이론이다. 형태 서술이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-002",
+   "section": "目",
+   "region": "eye",
+   "original_text": "額之上，目為主，眉為客。",
+   "translation": "이마 위(얼굴 윗부분)에서는 눈이 주인이 되고 눈썹이 손님이 된다.",
+   "commentary": "눈과 눈썹의 주객 관계를 말하는 일반 원칙으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-003",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目力多，相可學。",
+   "translation": "눈의 힘(目力)이 많으면 관상을 배울 만하다.",
+   "commentary": "목력(目力)은 시력 또는 눈의 기세를 뜻하는 것으로 보이며 사진 형태 항목이 아니다. 문헌은 이를 관상술 학습 능력과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目力多",
+     "observable_ko": "눈의 힘이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시력·눈의 기세는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-004",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼無角，作事錯。",
+   "translation": "눈에 모서리(角)가 없으면 일을 함에 그르친다.",
+   "commentary": "'눈에 각이 없다(無角)'는 눈구석·눈꼬리의 윤곽이 뚜렷하지 않음을 가리키는 듯하나 정확한 형태가 특정되지 않는다. 문헌은 이를 일 처리의 과오와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼無角",
+     "observable_ko": "눈에 모서리가 없음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈구석·눈꼬리 윤곽 중 무엇을 말하는지 불명확하고 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-005",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目下赤，休鬥敵。",
+   "translation": "눈 아래가 붉으면 적과 싸우지 말라.",
+   "commentary": "눈 아래의 붉은 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 다툼을 삼가라는 경고와 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下赤",
+     "observable_ko": "눈 아래가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-006",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目定而光，志氣高強。",
+   "translation": "눈이 안정되고 빛나면 뜻과 기개가 높고 강하다.",
+   "commentary": "눈의 안정(定)과 빛(光)은 시선·안광에 관한 서술로 사진 형태 항목이 아니다. 문헌은 이를 기개와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目定而光",
+     "observable_ko": "눈이 안정되고 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-007",
+   "section": "目",
+   "region": "eye",
+   "original_text": "黑眼端定，七十終命。",
+   "translation": "검은 눈동자가 단정하고 안정되면 일흔에 명을 마친다.",
+   "commentary": "검은자(黑眼)의 단정·안정은 시선 상태에 관한 표현이라 형태 항목으로 옮기지 않았다. 문헌은 이를 수명(70세)과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑眼端定",
+     "observable_ko": "검은 눈동자가 단정하고 안정됨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-008",
+   "section": "目",
+   "region": "eye",
+   "original_text": "牛頭虎視，富貴無比。",
+   "translation": "소의 머리에 범의 시선이면 부귀가 비할 데 없다.",
+   "commentary": "소·범에 빗댄 비유로, 머리 모양과 시선이 구체적 형태로 특정되지 않는다. 문헌은 이를 큰 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "牛頭",
+     "observable_ko": "소의 머리(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "虎視",
+     "observable_ko": "범처럼 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-009",
+   "section": "目",
+   "region": "eye",
+   "original_text": "蜂目豺聲，能武事人。",
+   "translation": "벌의 눈에 승냥이 목소리면 무(武)로써 남을 섬길 수 있다.",
+   "commentary": "봉목시성(蜂目豺聲)은 『좌전』 이래 흉한 인상을 말하는 전통적 비유인데, 이 문헌은 무예로 남을 섬기는 능력과 연결했다. 벌 눈은 동물 비유이고 목소리는 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蜂目",
+     "observable_ko": "벌의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "豺聲",
+     "observable_ko": "승냥이 같은 목소리",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-010",
+   "section": "目",
+   "region": "eye",
+   "original_text": "點睛近下，多隱山野。",
+   "translation": "눈동자(點睛)가 아래쪽에 가까우면 대개 산야에 숨어 산다.",
+   "commentary": "눈동자가 아래로 치우치면 위쪽 흰자가 드러나는 형태로 볼 여지가 있으나, 원문은 흰자 노출을 직접 말하지 않는다. 문헌은 이를 은거와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "點睛近下",
+     "observable_ko": "눈동자가 아래쪽에 치우침",
+     "status": "approximate",
+     "candidate_labels": [
+      "sclera_show:upper"
+     ],
+     "reason": "눈동자 위치만 말하고 위쪽 흰자 노출을 직접 서술하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-011",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目下黑枯，絕子妨夫。",
+   "translation": "눈 아래가 검고 메마르면 자식이 끊기고 남편을 해친다(妨夫).",
+   "commentary": "눈 아래의 검고 마른 기색에 관한 서술로 형태 항목이 아니다. '방부(妨夫)'는 남편에게 해가 된다는 낙인성 서술로, 여성을 전제한 구절로 보인다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下黑枯",
+     "observable_ko": "눈 아래가 검고 메마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-012",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目紋入耳，老有官制。",
+   "translation": "눈의 주름(目紋)이 귀로 들어가면 늙어서 관직의 제도(官制)가 있다.",
+   "commentary": "눈꼬리 주름이 귀 쪽으로 뻗은 형태를 말하나 주름은 v3 레이블이 없다. '老有官制'는 늙어 관직을 얻는다는 뜻으로 읽었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目紋入耳",
+     "observable_ko": "눈꼬리 주름이 귀까지 뻗음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-013",
+   "section": "目",
+   "region": "eye",
+   "original_text": "坐而斜視，所思不正。",
+   "translation": "앉아서 비스듬히 보면 생각하는 바가 바르지 않다.",
+   "commentary": "사시(斜視)는 시선의 방향과 행동에 관한 서술로 정지 사진의 형태 항목이 아니다. 문헌은 이를 바르지 않은 생각과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "坐而斜視",
+     "observable_ko": "앉아서 비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-014",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目無光彩，望塵而拜。",
+   "translation": "눈에 광채가 없으면 먼지(행차의 먼지)를 바라보고 절한다.",
+   "commentary": "'망진이배(望塵而拜)'는 권세가의 행차 먼지만 보고도 절한다는 고사성어로 아첨을 뜻한다. 눈의 광채는 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目無光彩",
+     "observable_ko": "눈에 광채가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-015",
+   "section": "目",
+   "region": "eye",
+   "original_text": "點睛近上，習下劣相。",
+   "translation": "눈동자가 위쪽에 가까우면 하열(下劣)한 상을 익힌다.",
+   "commentary": "눈동자가 위로 치우치면 아래쪽 흰자가 드러나는 형태로 볼 여지가 있으나 원문은 흰자를 직접 말하지 않는다. '習下劣相'은 비천한 상이라는 뜻으로 읽었다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "點睛近上",
+     "observable_ko": "눈동자가 위쪽에 치우침",
+     "status": "approximate",
+     "candidate_labels": [
+      "sclera_show:lower"
+     ],
+     "reason": "눈동자 위치만 말하고 아래쪽 흰자 노출을 직접 서술하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-016",
+   "section": "目",
+   "region": "eye",
+   "original_text": "赤紋貫睛，死不全身。",
+   "translation": "붉은 줄이 눈동자를 꿰뚫으면 죽을 때 몸을 온전히 하지 못한다.",
+   "commentary": "붉은 핏줄(赤紋)은 색·충혈에 관한 서술로 형태 항목이 아니다. 문헌은 이를 몸이 상하는 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "赤紋貫睛",
+     "observable_ko": "붉은 줄이 눈동자를 지남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-017",
+   "section": "目",
+   "region": "eye",
+   "original_text": "睛朝鼻管，謹謹和緩。",
+   "translation": "눈동자가 콧대(鼻管)를 향하면 삼가고 삼가며 온화하고 느긋하다.",
+   "commentary": "눈동자가 코 쪽으로 몰린 상태(내사시 또는 시선 방향)를 말하는 것으로 보이며 형태 레이블이 없다. 문헌은 이를 온화한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛朝鼻管",
+     "observable_ko": "눈동자가 코 쪽을 향함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈동자 위치·시선 방향은 정지 사진 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-018",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目視人頭，殺害相謀。",
+   "translation": "눈이 남의 머리를 보면 죽이고 해치기를 꾀한다.",
+   "commentary": "시선의 방향에 관한 서술로 형태 항목이 아니다. 문헌은 이를 살해 모의라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目視人頭",
+     "observable_ko": "남의 머리 쪽을 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "malice_deceit",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-019",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目不相似，異母兄弟。",
+   "translation": "두 눈이 서로 닮지 않으면 어머니가 다른 형제가 있다.",
+   "commentary": "두 눈이 같지 않다는 서술은 좌우 비대칭으로 볼 수 있으나, 크기·모양 중 무엇이 다른지 특정되지 않는다. 문헌은 이를 이복형제와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目不相似",
+     "observable_ko": "두 눈이 서로 다름",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "다름의 차원(크기·모양)이 특정되지 않아 兩目大小不一과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-020",
+   "section": "目",
+   "region": "eye",
+   "original_text": "豬目常瞪，刑福相仍。",
+   "translation": "돼지 눈으로 늘 부릅뜨면 형벌과 복이 서로 잇따른다.",
+   "commentary": "돼지 눈은 동물 비유이고 '늘 부릅뜸(常瞪)'은 표정·동작이라 형태 항목이 아니다. 문헌은 형벌을 받는 운과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豬目",
+     "observable_ko": "돼지 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "常瞪",
+     "observable_ko": "늘 부릅뜸",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-021",
+   "section": "目",
+   "region": "eye",
+   "original_text": "羊目直視，妨妻害子。",
+   "translation": "양의 눈으로 곧바로 쳐다보면 아내를 방해(妨)하고 자식을 해친다.",
+   "commentary": "양 눈은 동물 비유이고 직시(直視)는 시선이라 형태 항목으로 옮길 수 없다. 문헌은 이를 처자에게 해가 된다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "羊目",
+     "observable_ko": "양의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "直視",
+     "observable_ko": "곧바로 쳐다봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-022",
+   "section": "目",
+   "region": "eye",
+   "original_text": "鷹視狼顧，心懷嫉妬。",
+   "translation": "매처럼 보고 이리처럼 돌아보면 마음에 질투를 품는다.",
+   "commentary": "응시낭고(鷹視狼顧)는 시선과 고개 돌림을 동물에 빗댄 표현으로 형태가 아니다. 문헌은 이를 질투심과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鷹視狼顧",
+     "observable_ko": "매처럼 보고 이리처럼 돌아봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-023",
+   "section": "目",
+   "region": "eye",
+   "original_text": "羊目四白，外夫入宅。",
+   "translation": "양의 눈에 사백(四白)이면 바깥 남자가 집에 들어온다.",
+   "commentary": "사백(四白)은 검은자 사방으로 흰자가 드러나는 눈을 가리키는 관상 용어로 해석된다. 문헌은 이를 외도라는 성적 낙인과 연결했으며, 여성을 전제한 구절로 보인다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "羊目",
+     "observable_ko": "양의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "sclera_show는 위 또는 아래 한쪽만 구분하며 사방 노출 클래스가 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-024",
+   "section": "目",
+   "region": "eye",
+   "original_text": "猴目多窮，",
+   "translation": "원숭이 눈이면 대개 궁하다.",
+   "commentary": "원숭이 눈은 동물 비유로 형태가 특정되지 않는다(이 절 뒤에서 '흰자가 많고 검은자가 적다'고 풀이한다). 문헌은 이를 궁핍과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "猴目",
+     "observable_ko": "원숭이 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-025",
+   "section": "目",
+   "region": "eye",
+   "original_text": "魚目多凶。",
+   "translation": "물고기 눈이면 대개 흉하다.",
+   "commentary": "물고기 눈은 동물 비유로 형태 기준이 없다. 문헌은 이를 흉함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "魚目",
+     "observable_ko": "물고기 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-026",
+   "section": "目",
+   "region": "eye",
+   "original_text": "豬眼羊眼，睛黃者賤。",
+   "translation": "돼지 눈·양의 눈으로 눈동자가 누런 자는 천하다.",
+   "commentary": "동물 비유와 눈동자 색에 관한 서술로 형태 레이블이 없다. 문헌은 이를 신분의 천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豬眼羊眼",
+     "observable_ko": "돼지 눈·양 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-027",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目拗瞰屈強。",
+   "translation": "눈이 비틀려(拗) 내려다보면 굽히지 않고 고집이 세다.",
+   "commentary": "'目拗瞰'의 정확한 뜻이 불분명하여 '눈을 비틀어 내려다봄'으로 가장 직역적으로 옮겼다. 시선·자세에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目拗瞰",
+     "observable_ko": "눈을 비틀어 내려다봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선 동작으로 보이며 뜻도 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-028",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目頭為淚堂。",
+   "translation": "눈머리(目頭, 안쪽 눈구석)는 누당(淚堂)이 된다.",
+   "commentary": "부위 명칭을 정의하는 구절로 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-029",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目下一字平，所作皆分明。",
+   "translation": "눈 아래가 일(一) 자처럼 평평하면 하는 일이 모두 분명하다.",
+   "commentary": "눈 아래가 평평하다는 서술은 와잠(臥蠶)이 도드라지지 않은 형태로 볼 여지가 있으나, 지침상 '目下平'은 근사 대응이다. 문헌은 이를 일 처리의 분명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下一字平",
+     "observable_ko": "눈 아래가 일자로 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:flat"
+     ],
+     "reason": "目下平은 근사 표현이며 臥蠶 유무를 직접 말하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-030",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目下臥蠶紋，當生貴子孫。",
+   "translation": "눈 아래에 와잠(臥蠶, 눈 밑 도톰한 살) 무늬가 있으면 마땅히 귀한 자손을 낳는다.",
+   "commentary": "와잠(臥蠶)은 아래 눈꺼풀 바로 밑의 도톰한 살을 가리키는 관상 용어다. 여기서는 '紋(무늬·주름)'이 붙어 도톰한 살인지 주름선인지 분명하지 않아 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下臥蠶紋",
+     "observable_ko": "눈 아래 와잠 무늬",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "紋이 붙어 도톰한 살(臥蠶)인지 주름선인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-eye-031",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼眶黃氣發，修道終須達。",
+   "translation": "눈자위에 누런 기운이 피어나면 도를 닦아 끝내 반드시 통달한다.",
+   "commentary": "눈자위(眼眶)의 누런 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 수도의 성취와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼眶黃氣發",
+     "observable_ko": "눈자위에 누런 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-032",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目光兼媚好，積德多陰報。",
+   "translation": "눈빛이 아울러 곱고 좋으면 덕을 쌓아 음덕의 보답이 많다.",
+   "commentary": "눈빛과 고움(媚好)은 시선·인상 평가어라 형태 항목이 아니다. 문헌은 이를 음덕의 보답과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目光兼媚好",
+     "observable_ko": "눈빛이 곱고 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-033",
+   "section": "目",
+   "region": "eye",
+   "original_text": "青色在中央，七日有災殃。",
+   "translation": "푸른 빛이 (눈) 한가운데 있으면 이레 안에 재앙이 있다.",
+   "commentary": "목(目) 조 안의 기색 판단으로, 위치(中央)는 눈 한가운데로 읽었다. 색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "青色在中央",
+     "observable_ko": "한가운데 푸른 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-034",
+   "section": "目",
+   "region": "eye",
+   "original_text": "日中赤砂起，法死須防己。",
+   "translation": "일(日) 가운데에 붉은 모래 같은 점이 일어나면 법에 의한 죽음을 스스로 막아야 한다.",
+   "commentary": "원문 '日中'은 눈(왼눈을 日로 봄) 가운데를 가리키는 것으로 보이나 글자를 고치지 않고 그대로 옮겼다. 붉은 점은 색에 관한 서술이며, 문헌은 이를 형사적 죽음(法死)과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "日中赤砂起",
+     "observable_ko": "눈 가운데 붉은 모래 같은 점",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-035",
+   "section": "目",
+   "region": "eye",
+   "original_text": "露目不露光，為官亦無妨。",
+   "translation": "눈이 드러나도(露目) 빛이 드러나지 않으면 벼슬을 해도 무방하다.",
+   "commentary": "노목(露目)은 눈알이 튀어나와 보이는 형태로 해석되나 지침상 '露' 단독은 근사 대응이다. 안광의 노출 여부는 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "露目",
+     "observable_ko": "눈이 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露 단독은 돌출인지 흰자 노출인지 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "不露光",
+     "observable_ko": "눈빛이 드러나지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-036",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩目不分明，不過三十八。",
+   "translation": "두 눈이 분명하지 않으면 서른여덟을 넘기지 못한다.",
+   "commentary": "'분명하지 않음'은 흑백의 경계나 눈빛의 맑기를 말하는 것으로 보이며 형태 항목이 아니다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩目不分明",
+     "observable_ko": "두 눈이 분명하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "흑백 대비·맑기는 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-037",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目反及顴高，一生不稱意。",
+   "translation": "눈이 뒤집히고(目反) 관골(顴骨, 광대뼈)이 높으면 일생 뜻대로 되지 않는다.",
+   "commentary": "'目反'은 눈이 뒤집히거나 흰자가 드러남을 뜻하는 듯하나 불명확하다. 관골이 높음(顴高)은 지침의 정확 표현이지만 다른 조건이 대응되지 않아 함께 성립하지 않는다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目反",
+     "observable_ko": "눈이 뒤집힘",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:upper",
+      "sclera_show:lower"
+     ],
+     "reason": "흰자 노출·눈꼬리 방향 등 여러 해석이 가능하다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "顴高",
+     "observable_ko": "광대뼈가 높이 솟음",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-038",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼尾兩邊垂，一生多別離。",
+   "translation": "눈꼬리가 양쪽 모두 처지면 일생 이별이 많다.",
+   "commentary": "눈꼬리(眼尾)가 아래로 처진다는 형태가 원문에 직접 적혀 있어 바깥 눈꼬리가 안쪽 눈구석보다 내려간 형태로 옮길 수 있다. 문헌은 이를 잦은 이별과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼尾兩邊垂",
+     "observable_ko": "양쪽 바깥 눈꼬리가 아래로 처짐",
+     "status": "exact",
+     "label": "eye_tilt:down"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-039",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼中忽白黃，作客路中亡。",
+   "translation": "눈 속이 갑자기 희고 누러지면 객지에 나가 길에서 죽는다.",
+   "commentary": "눈 색의 변화에 관한 서술로 형태 항목이 아니다. 문헌은 이를 객사와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼中忽白黃",
+     "observable_ko": "눈 속이 갑자기 희고 누러짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-040",
+   "section": "目",
+   "region": "eye",
+   "original_text": "黑暈及兩眼，三日中散財。",
+   "translation": "검은 무리(黑暈)가 두 눈에 미치면 사흘 안에 재물을 흩는다.",
+   "commentary": "검은 무리는 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 재물 손실과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑暈及兩眼",
+     "observable_ko": "두 눈에 검은 무리",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-041",
+   "section": "目",
+   "region": "eye",
+   "original_text": "黑霧長居三陽上，家中必主自縊人。",
+   "translation": "검은 안개 같은 기색이 삼양(三陽) 위에 오래 머물면 집안에 반드시 스스로 목매는 사람이 있다.",
+   "commentary": "삼양(三陽)은 이 절 뒤에서 왼쪽 눈 부위로 정의된다. 기색 서술로 형태 항목이 아니며, 문헌은 이를 집안의 자살이라는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑霧長居三陽上",
+     "observable_ko": "삼양 위에 검은 기색이 오래 머묾",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-042",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩睛凸出兼無貌，平生無路不稱意。",
+   "translation": "두 눈동자가 튀어나오고 아울러 모양새(貌)가 없으면 평생 길이 없어 뜻대로 되지 않는다.",
+   "commentary": "'睛凸'은 지침에서 눈 돌출의 정확 표현이다. 다만 '無貌(모양새가 없음)'는 품평어로 대응되지 않아 함께 성립하지 않는다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩睛凸出",
+     "observable_ko": "두 눈알이 튀어나옴",
+     "status": "exact",
+     "label": "eye_depth:prominent"
+    },
+    {
+     "region": "face",
+     "evidence": "無貌",
+     "observable_ko": "모양새가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "용모 품평어로 측정 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-043",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眉目俱長，睛如點漆，富貴不日。",
+   "translation": "눈썹과 눈이 모두 길고 눈동자가 옻을 찍은 듯하면 머지않아 부귀해진다.",
+   "commentary": "눈썹이 길다(眉長)와 눈이 길다(目長)는 지침의 정확 표현에 해당한다. '옻을 찍은 듯한 눈동자'는 눈동자의 검은 빛에 관한 색 서술이라 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉目俱長",
+     "observable_ko": "눈썹이 긺",
+     "status": "exact",
+     "label": "brow_length:long"
+    },
+    {
+     "region": "eye",
+     "evidence": "眉目俱長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛如點漆",
+     "observable_ko": "눈동자가 옻처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-044",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目下無肉，一子相逐，亦主陰毒。",
+   "translation": "눈 아래에 살이 없으면 자식 하나가 서로 따르고(一子相逐), 또한 음험하고 독함을 주관한다.",
+   "commentary": "눈 아래 살이 없음은 와잠이 납작한 형태로 볼 여지가 있으나 근사 대응이다. '一子相逐'은 자식이 하나뿐이라는 뜻으로 읽힌다. 문헌은 음독(陰毒)이라는 낙인성 평가를 덧붙였다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下無肉",
+     "observable_ko": "눈 아래에 살이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:flat"
+     ],
+     "reason": "살의 양을 말할 뿐 臥蠶 유무를 직접 말하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-045",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目要神光，顴勢相朝，黑多者貴，",
+   "translation": "눈은 신광(神光)이 있어야 하고 관골의 기세가 서로 마주해야 하며, 검은자가 많은 자는 귀하다.",
+   "commentary": "신광은 눈빛, '관골의 기세가 마주함'은 광대뼈의 방향성에 관한 비유적 표현이며, 검은자의 비율은 대응 레이블이 없다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目要神光",
+     "observable_ko": "눈에 신광이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "顴勢相朝",
+     "observable_ko": "광대뼈의 기세가 마주함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "기세·방향의 비유로 높이 등 형태가 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑多",
+     "observable_ko": "검은자가 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "홍채 노출 비율은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-046",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眉目皆露，黑睛又深，必陷極法。",
+   "translation": "눈썹과 눈이 모두 드러나고 검은 눈동자가 또한 깊으면 반드시 극형(極法)에 빠진다.",
+   "commentary": "눈이 드러남(露)은 돌출에 근사하나 '黑睛又深'과 함께 쓰여 정확한 형태가 모호하다. 눈썹이 드러남은 대응 레이블이 없다. 문헌은 이를 극형이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眉目皆露",
+     "observable_ko": "눈이 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "露 단독은 돌출인지 흰자 노출인지 불명확하다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉目皆露",
+     "observable_ko": "눈썹이 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹의 '드러남'은 대응 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑睛又深",
+     "observable_ko": "검은 눈동자가 깊음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_depth:deep"
+     ],
+     "reason": "눈동자 색의 짙음인지 눈의 깊이인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-047",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目下肉圓方，亦可入廟堂，更主子孫昌。",
+   "translation": "눈 아래 살이 둥글고 반듯하면 또한 묘당(廟堂, 조정)에 들어갈 수 있고, 더욱이 자손이 번창함을 주관한다.",
+   "commentary": "눈 아래 살이 도톰함은 와잠이 보이는 형태로 볼 여지가 있으나 '둥글고 반듯함'은 정확 표현이 아니다. 문헌은 이를 조정 출사와 자손 번창에 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "目下肉圓方",
+     "observable_ko": "눈 아래 살이 둥글고 반듯함",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "臥蠶을 직접 말하지 않고 살의 모양만 서술한다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "rank_office"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-eye-048",
+   "section": "目",
+   "region": "eye",
+   "original_text": "視遠者多智，",
+   "translation": "멀리 보는 자는 지혜가 많고,",
+   "commentary": "시선의 방향에 관한 서술로 형태 항목이 아니다. 문헌은 이를 지혜와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視遠",
+     "observable_ko": "멀리 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-049",
+   "section": "目",
+   "region": "eye",
+   "original_text": "視下者多毒，",
+   "translation": "아래를 보는 자는 독함이 많으며,",
+   "commentary": "시선의 방향에 관한 서술로 형태 항목이 아니다. 문헌은 이를 악독함이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視下",
+     "observable_ko": "아래를 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-050",
+   "section": "目",
+   "region": "eye",
+   "original_text": "視平者多德。",
+   "translation": "평평하게 보는 자는 덕이 많다.",
+   "commentary": "시선의 방향에 관한 서술로 형태 항목이 아니다. 문헌은 이를 덕성과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視平",
+     "observable_ko": "평평하게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-051",
+   "section": "目",
+   "region": "eye",
+   "original_text": "若瞻視無力，不可與共事。",
+   "translation": "만약 바라보는 것이 힘이 없으면 함께 일할 수 없다.",
+   "commentary": "시선의 힘에 관한 서술로 형태 항목이 아니다. 문헌은 이를 동업 불가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "瞻視無力",
+     "observable_ko": "바라봄에 힘이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-052",
+   "section": "目",
+   "region": "eye",
+   "original_text": "洪目龍顙，絲綸定掌。",
+   "translation": "큰 눈(洪目)에 용의 이마(龍顙)면 사륜(絲綸, 조칙)을 반드시 맡는다.",
+   "commentary": "'洪'은 크다는 뜻이어서 큰 눈에 근사하나 지침의 정확 표현(目大)은 아니며, 용의 이마는 동물 비유다. 사륜(絲綸)은 임금의 조칙을 뜻하며 문헌은 이를 고위 관직과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "洪目",
+     "observable_ko": "큰 눈",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "洪은 크기를 뜻하나 지침의 정확 표현이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "龍顙",
+     "observable_ko": "용의 이마(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-053",
+   "section": "目",
+   "region": "eye",
+   "original_text": "黑氣入兩「目，六十日亡。只入右目，百二十日亡。",
+   "translation": "검은 기운이 두 눈에 들어가면 60일에 죽는다. 오른쪽 눈에만 들어가면 120일에 죽는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. 원문 '兩「目'의 괄호는 전사본의 표기를 그대로 둔 것이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑氣入兩「目",
+     "observable_ko": "두 눈에 검은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "只入右目",
+     "observable_ko": "오른쪽 눈에만 검은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-054",
+   "section": "目",
+   "region": "eye",
+   "original_text": "左目小妨妻，右目小妨夫。",
+   "translation": "왼쪽 눈이 작으면 아내를 해치고(妨妻), 오른쪽 눈이 작으면 남편을 해친다(妨夫).",
+   "commentary": "한쪽 눈이 작다는 서술은 좌우 비대칭에 근사하나, 지침상 좌우를 특정한 표현은 근사 대응이다. 문헌은 이를 배우자에게 해가 된다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "左目小",
+     "observable_ko": "왼쪽 눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우를 특정한 표현은 근사 대응이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "右目小",
+     "observable_ko": "오른쪽 눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우를 특정한 표현은 근사 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-055",
+   "section": "目",
+   "region": "eye",
+   "original_text": "左目小先損父。右目小先損母。",
+   "translation": "왼쪽 눈이 작으면 먼저 아버지를 잃고, 오른쪽 눈이 작으면 먼저 어머니를 잃는다.",
+   "commentary": "좌우를 특정한 눈 크기 차이는 비대칭에 근사할 뿐 정확 대응이 아니다. 문헌은 이를 부모를 먼저 여읜다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "左目小",
+     "observable_ko": "왼쪽 눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우를 특정한 표현은 근사 대응이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "右目小",
+     "observable_ko": "오른쪽 눈이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "좌우를 특정한 표현은 근사 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-056",
+   "section": "目",
+   "region": "eye",
+   "original_text": "虎目鳶肩與牛腹，貪利無饜足。",
+   "translation": "범의 눈, 솔개의 어깨와 소의 배이면 이익을 탐하여 만족함이 없다.",
+   "commentary": "범·솔개·소에 빗댄 비유로 눈의 형태가 특정되지 않으며, 어깨와 배는 얼굴 형태 항목 밖이다. 문헌은 이를 탐욕과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "虎目",
+     "observable_ko": "범의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "鳶肩與牛腹",
+     "observable_ko": "솔개 어깨·소의 배",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 밖 신체 부위로 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-057",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩目白色通井灶，百日內暴亡。",
+   "translation": "두 눈의 흰 빛이 정조(井灶, 콧구멍 부위)에 통하면 100일 안에 갑자기 죽는다.",
+   "commentary": "정조(井灶)는 콧구멍 부위를 가리키는 관상 용어로 해석된다. 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩目白色通井灶",
+     "observable_ko": "두 눈의 흰 기색이 콧구멍 부위로 이어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-058",
+   "section": "目",
+   "region": "eye",
+   "original_text": "視專者，多陰狠，視反者多陰賊。",
+   "translation": "보는 것이 한곳에 쏠린 자는 음험하고 사나움이 많고, 보는 것이 뒤집힌 자는 음험하게 해침(陰賊)이 많다.",
+   "commentary": "시선의 방식에 관한 서술로 형태 항목이 아니다. 문헌은 이를 음험·잔혹이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "視專",
+     "observable_ko": "시선이 한곳에 쏠림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視反",
+     "observable_ko": "시선이 뒤집힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-059",
+   "section": "目",
+   "region": "eye",
+   "original_text": "睛屢轉者，多奸計。",
+   "translation": "눈동자가 자주 구르는 자는 간계가 많다.",
+   "commentary": "눈동자의 움직임에 관한 서술로 정지 사진의 형태 항목이 아니다. 문헌은 이를 간계와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛屢轉",
+     "observable_ko": "눈동자가 자주 움직임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-060",
+   "section": "目",
+   "region": "eye",
+   "original_text": "左目屬日，父象也。右目屬月，母象也。",
+   "translation": "왼쪽 눈은 해에 속하니 아버지의 상이다. 오른쪽 눈은 달에 속하니 어머니의 상이다.",
+   "commentary": "좌우 눈을 해·달과 부모에 배당하는 일반 이론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-061",
+   "section": "目",
+   "region": "eye",
+   "original_text": "重瞳卿相位。",
+   "translation": "겹눈동자(重瞳)면 경상(卿相)의 지위에 오른다.",
+   "commentary": "중동(重瞳)은 한 눈에 눈동자가 둘이라는 전설적 표현으로 대응 레이블이 없다. 문헌은 이를 재상의 지위와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "重瞳",
+     "observable_ko": "겹눈동자",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈동자 수에 관한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-062",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目大多貪愛，",
+   "translation": "눈이 크면 탐애(貪愛)가 많다.",
+   "commentary": "눈이 크다(目大)는 지침의 정확 표현이다. 문헌은 이를 탐하고 애착함이 많다는 성품 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-063",
+   "section": "目",
+   "region": "eye",
+   "original_text": "近覰無遠知識。",
+   "translation": "가까이 엿보면 먼 지식이 없다.",
+   "commentary": "근처(近覰)는 가까이 들여다보는 시선 습관으로 형태 항목이 아니다. 문헌은 이를 식견의 부족과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "近覰",
+     "observable_ko": "가까이 엿봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-064",
+   "section": "目",
+   "region": "eye",
+   "original_text": "雞目蛇目，好」作竊賊。",
+   "translation": "닭의 눈·뱀의 눈이면 도둑질하기를 좋아한다.",
+   "commentary": "닭·뱀에 빗댄 비유로 형태가 특정되지 않는다. 원문 '好」'의 괄호는 전사본 표기 그대로이며, 문헌은 이를 절도라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞目蛇目",
+     "observable_ko": "닭 눈·뱀 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-065",
+   "section": "目",
+   "region": "eye",
+   "original_text": "龍目黑睛大，鳳目長入髮；猴目白多黑少。",
+   "translation": "용의 눈은 검은 눈동자가 크고, 봉황의 눈은 길어 머리털에 들어가며, 원숭이 눈은 흰자가 많고 검은자가 적다.",
+   "commentary": "동물 이름 눈의 형태를 정의하는 구절로 별도의 주장이 없다. '눈이 길어 머리털까지 들어간다'는 과장된 비유이고, 검은자·흰자 비율은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑睛大",
+     "observable_ko": "검은 눈동자가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "홍채 크기는 대응 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "鳳目長入髮",
+     "observable_ko": "눈이 길어 머리털까지 이름",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "머리털까지 이른다는 과장 비유라 측정 기준이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "白多黑少",
+     "observable_ko": "흰자가 많고 검은자가 적음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흰자·검은자 비율은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-066",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目圓而金，色全似者貴。",
+   "translation": "눈이 둥글고 금빛이며 빛깔이 온전히 (그와) 같은 자는 귀하다.",
+   "commentary": "눈이 둥글다(目圓)는 지침의 정확 표현이나, 금빛(金)은 색에 관한 서술이라 함께 성립하지 않는다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目圓",
+     "observable_ko": "눈의 세로 개방이 커 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "而金，色全似",
+     "observable_ko": "눈이 금빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-067",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目多青色，真貴人。",
+   "translation": "눈에 푸른 빛이 많으면 참으로 귀인이다.",
+   "commentary": "눈의 색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 귀인과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目多青色",
+     "observable_ko": "눈에 푸른 빛이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-068",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目為神，遊息之宮。",
+   "translation": "눈은 신(神)이 노닐고 쉬는 궁(宮)이다.",
+   "commentary": "눈을 정신이 머무는 곳으로 보는 일반 이론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-069",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目小終無祿。",
+   "translation": "눈이 작으면 끝내 녹(祿)이 없다.",
+   "commentary": "눈이 작다(目小)는 지침의 정확 표현이다. 문헌은 이를 녹봉이 없다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-070",
+   "section": "目",
+   "region": "eye",
+   "original_text": "睛懸主獄亡。",
+   "translation": "눈동자가 매달려 있으면(睛懸) 옥에서 죽음을 주관한다.",
+   "commentary": "'睛懸'은 눈동자가 위로 들려 아래 흰자가 드러남을 뜻하는 것으로 보이나 확실하지 않다. 문헌은 이를 옥사라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛懸",
+     "observable_ko": "눈동자가 매달림",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower"
+     ],
+     "reason": "눈동자 위치를 말하는 듯하나 방향·형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-071",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目有三角，心性凶惡。",
+   "translation": "눈에 세모(三角)가 있으면 심성이 흉악하다.",
+   "commentary": "삼각안(三角眼)은 윗눈꺼풀이 꺾여 세모꼴로 보이는 눈을 가리키는 관상 용어로 해석되나 대응 레이블이 없다. 문헌은 이를 흉악함이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目有三角",
+     "observable_ko": "눈이 세모꼴임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꺼풀 윤곽의 꺾임에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-072",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "目左右為臥蠶部，若肥起及光彩者，主大富。",
+   "translation": "눈의 좌우(아래)는 와잠부(臥蠶部)인데, 만약 살지게 일어나고 광채가 있는 자는 큰 부를 주관한다.",
+   "commentary": "와잠부가 살지게 솟음은 와잠이 보이는 형태에 근사하나 '有臥蠶'과 같은 정확 표현이 아니며, 광채는 형태 항목이 아니다. 문헌은 이를 큰 부와 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "臥蠶部，若肥起",
+     "observable_ko": "와잠 부위가 살지게 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "부위 명칭과 살의 솟음을 말할 뿐 臥蠶 유무를 직접 말하지 않는다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "光彩",
+     "observable_ko": "광채가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-073",
+   "section": "目",
+   "region": "under_eye",
+   "original_text": "女人目下青黃平安，赤黑產厄。",
+   "translation": "여인의 눈 아래가 푸르고 누러면 평안하고, 붉고 검으면 출산의 액이 있다.",
+   "commentary": "여성에게만 적용되는 기색 판단으로 형태 항목이 아니다. 문헌은 이를 출산의 위험과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "目下青黃",
+     "observable_ko": "눈 아래가 푸르고 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "赤黑",
+     "observable_ko": "눈 아래가 붉고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-074",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目上下堂青黑，忌妻的親陰。人亡。",
+   "translation": "눈 위아래 당(堂)이 푸르고 검으면 아내의 친족(?)을 꺼리고, 사람이 죽는다.",
+   "commentary": "원문 '忌妻的親陰。人亡'은 구두와 뜻이 분명하지 않아 가장 직역적으로 옮겼다. 기색에 관한 서술로 형태 항목이 아니며, 문헌은 이를 친족의 죽음과 연결한 것으로 보인다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目上下堂青黑",
+     "observable_ko": "눈 위아래 부위가 푸르고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-075",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩目無神光不病，似病者謂之神，去六十日裡亡。",
+   "translation": "두 눈에 신광이 없는데 병들지 않았으나 병든 것 같은 자를 신(神)이라 이르니, 60일 안에 죽는다.",
+   "commentary": "원문의 구두가 분명하지 않아 직역했다('謂之神'은 '신이 떠났다'는 뜻일 수 있다). 눈빛·병색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "兩目無神光",
+     "observable_ko": "두 눈에 신광이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "似病",
+     "observable_ko": "병든 것 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "병색은 형태가 아니며 건강 추정은 서비스 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-076",
+   "section": "目",
+   "region": "eye",
+   "original_text": "左目為三陽，右目為三陰，三陰三陽，俱在眉上、眉下，眉頭太陽，次中陽，次少陽，乃財祿之庫。如見赤色，慎火防瘟。",
+   "translation": "왼쪽 눈은 삼양(三陽)이고 오른쪽 눈은 삼음(三陰)이니, 삼음·삼양은 모두 눈썹 위와 눈썹 아래에 있다. 눈썹머리가 태양(太陽), 다음이 중양(中陽), 다음이 소양(少陽)이며, 곧 재록(財祿)의 창고다. 만약 붉은 빛이 보이면 불을 삼가고 역병을 막으라.",
+   "commentary": "삼양·삼음 부위를 정의하고 그 부위의 붉은 기색을 판단하는 구절이다. 부위 정의와 기색은 형태 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "如見赤色",
+     "observable_ko": "삼양·삼음 부위에 붉은 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-077",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目有些小病，必定主心毒，病輕毒輕，病重毒重。",
+   "translation": "눈에 조금이라도 병이 있으면 반드시 마음이 독함을 주관하니, 병이 가벼우면 독이 가볍고 병이 무거우면 독이 무겁다.",
+   "commentary": "눈의 질병을 성품과 직결하는 낙인성 서술이다. 질병은 형태 레이블이 아니며 건강 추정은 서비스 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目有些小病",
+     "observable_ko": "눈에 병이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "질병은 형태 레이블이 아니며 건강 추정은 서비스 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-078",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩頭為牢獄部，若見赤氣，形如鷹嘴，主徒形。",
+   "translation": "두 (눈)머리는 뇌옥부(牢獄部)인데, 만약 붉은 기운이 보이고 그 모양이 매의 부리 같으면 도형(徒形)을 주관한다.",
+   "commentary": "'徒形'은 도형(徒刑, 노역형)을 가리키는 것으로 보이나 글자는 원문대로 두었다. 기색과 그 모양에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "若見赤氣，形如鷹嘴",
+     "observable_ko": "매 부리 모양의 붉은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-079",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目忽腫赤，或誤損者，不出十日有喜，男左女右方吉。",
+   "translation": "눈이 갑자기 붓고 붉어지거나 잘못 다친 자는 열흘이 넘지 않아 기쁨이 있으니, 남자는 왼쪽, 여자는 오른쪽이라야 길하다.",
+   "commentary": "눈의 부기·충혈·외상에 관한 서술로 형태 항목이 아니다. 길흉 판단이 성별에 따라 좌우가 바뀐다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目忽腫赤，或誤損",
+     "observable_ko": "눈이 붓고 붉거나 다침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "일시적 부기·외상은 형태 레이블이 아니다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男左女右",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-080",
+   "section": "目",
+   "region": "eye",
+   "original_text": "左目頭下青，一月內哭父兄弟。長男從左目頭下第一是父，次兄弟，次是男。右目頭下青，哭母，次姨妹，次女，依前斷之。",
+   "translation": "왼쪽 눈머리 아래가 푸르면 한 달 안에 아버지·형제를 곡한다. 길이(長)로 남자(쪽)는 왼쪽 눈머리 아래 첫째가 아버지, 다음이 형제, 다음이 아들이다. 오른쪽 눈머리 아래가 푸르면 어머니를 곡하고, 다음은 이모·누이, 다음은 딸이니, 앞의 예에 따라 판단한다.",
+   "commentary": "눈머리 아래 푸른 기색의 위치로 상을 당할 친족을 가린다는 서술이다. '長男從…'의 구두가 분명하지 않아 직역했다. 기색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "左目頭下青",
+     "observable_ko": "왼쪽 눈머리 아래가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "右目頭下青",
+     "observable_ko": "오른쪽 눈머리 아래가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-081",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼似含笑，心裡不良。",
+   "translation": "눈이 웃음을 머금은 듯하면 속마음이 좋지 않다.",
+   "commentary": "웃음 띤 눈은 표정에 관한 서술로 형태 항목이 아니다. 문헌은 이를 불량한 속마음이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼似含笑",
+     "observable_ko": "눈이 웃음을 머금은 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "표정은 정지 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-082",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩目頭直下，如見白氣與紅相合直下者，主哭泣，亦主宅內不寧，宜禱祠。",
+   "translation": "두 눈머리 바로 아래에 흰 기운과 붉은 기운이 서로 합하여 곧게 내려가는 것이 보이면 곡읍(哭泣)을 주관하고 또한 집안이 편치 않음을 주관하니, 기도하고 제사함이 마땅하다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. 곡읍은 상을 당함을 가리키는 것으로 해석된다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "如見白氣與紅相合直下",
+     "observable_ko": "눈머리 아래로 흰 기운과 붉은 기운이 내려감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-083",
+   "section": "目",
+   "region": "eye",
+   "original_text": "若丹砂灌于兩目白下者，宅內必久有陰私奸盜事。",
+   "translation": "만약 단사(丹砂) 같은 붉은 빛이 두 눈 흰자 아래에 부어진 듯하면 집안에 반드시 오래도록 은밀한 간음과 도둑질의 일이 있다.",
+   "commentary": "붉은 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 집안의 간음·도둑질이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "丹砂灌于兩目白下",
+     "observable_ko": "두 눈 흰자 아래에 붉은 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-084",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目大眉小，中年厄，",
+   "translation": "눈이 크고 눈썹이 작으면 중년에 액이 있다.",
+   "commentary": "눈이 크다(目大)는 정확 표현이나, 눈썹이 작다(眉小)는 굵기·길이 중 무엇인지 특정되지 않아 근사 대응이다. 문헌은 이를 중년의 액과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉小",
+     "observable_ko": "눈썹이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_thickness:thin",
+      "brow_length:short"
+     ],
+     "reason": "小가 굵기·길이 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-085",
+   "section": "目",
+   "region": "eye",
+   "original_text": "紫黃氣從印堂直下侵兩目頭，主孕子孫之喜。",
+   "translation": "자주색·누런 기운이 인당(印堂, 두 눈썹 사이)에서 곧게 내려와 두 눈머리를 침범하면 자손을 잉태하는 기쁨을 주관한다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 잉태의 기쁨과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "紫黃氣從印堂直下侵兩目頭",
+     "observable_ko": "인당에서 눈머리로 자황색 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-eye-086",
+   "section": "目",
+   "region": "eye",
+   "original_text": "先看三陽上青氣，是男，後看三陰上紅氣，是女。",
+   "translation": "먼저 삼양 위의 푸른 기운을 보아 (있으면) 아들이고, 뒤에 삼음 위의 붉은 기운을 보아 (있으면) 딸이다.",
+   "commentary": "앞 구절의 잉태 판단에 이어 태아의 성별을 기색으로 가린다는 서술이다. 기색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三陽上青氣",
+     "observable_ko": "삼양 위 푸른 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "三陰上紅氣",
+     "observable_ko": "삼음 위 붉은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-087",
+   "section": "目",
+   "region": "eye",
+   "original_text": "若見黑白灌之，主子母離隔。",
+   "translation": "만약 검고 흰 기운이 거기에 부어진 듯 보이면 자식과 어미가 떨어져 막힘을 주관한다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. '子母離隔'은 모자가 헤어짐(유산·사별 등)을 뜻하는 것으로 보이나 구체적 의미는 원문에 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黑白灌之",
+     "observable_ko": "검고 흰 기운이 부어진 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-088",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼睛朝眼尾，多輕忽。",
+   "translation": "눈동자가 눈꼬리 쪽을 향하면 경솔하고 소홀함이 많다.",
+   "commentary": "눈동자가 눈꼬리 쪽으로 쏠린 곁눈질 상태로 보이며 시선 방향은 형태 항목이 아니다. 문헌은 이를 경솔함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼睛朝眼尾",
+     "observable_ko": "눈동자가 눈꼬리 쪽을 향함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛·움직임은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-089",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目尾後有穴，如粟大，謂之聰眼。",
+   "translation": "눈꼬리 뒤에 좁쌀만 한 구멍(오목한 곳)이 있으면 이를 총안(聰眼)이라 이른다.",
+   "commentary": "눈꼬리 뒤의 작은 오목함은 대응 레이블이 없다. 총안(聰眼)이라는 이름은 총명과 연결된 명칭이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目尾後有穴，如粟大",
+     "observable_ko": "눈꼬리 뒤에 좁쌀만 한 오목함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부의 작은 함몰은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-090",
+   "section": "目",
+   "region": "eye",
+   "original_text": "眼生濛溟，名曰「天羅」入目。淺主破家，深主失祿，庶人亡。",
+   "translation": "눈에 뿌연 막(濛溟)이 생기면 이를 '천라(天羅)'가 눈에 들었다고 한다. 얕으면 집안을 깨뜨림을 주관하고, 깊으면 녹을 잃음을 주관하며, 서인(庶人)은 죽는다.",
+   "commentary": "눈의 혼탁(안질)에 관한 서술로 형태 레이블이 아니며 건강 추정은 서비스 대상이 아니다. 문헌은 그 정도에 따라 파가·실록·죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼生濛溟",
+     "observable_ko": "눈에 뿌연 막이 생김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "안질·혼탁은 형태 레이블이 아니며 건강 추정은 서비스 대상이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-091",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目有浮氣，欺心而多貪，及終必敗。",
+   "translation": "눈에 들뜬 기운(浮氣)이 있으면 마음을 속이고 탐욕이 많아 끝내는 반드시 패한다.",
+   "commentary": "부기(浮氣)는 눈의 기운·부기에 관한 서술로 형태 항목이 아니다. 문헌은 이를 기만과 탐욕이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目有浮氣",
+     "observable_ko": "눈에 들뜬 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운·부기는 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-092",
+   "section": "目",
+   "region": "eye",
+   "original_text": "諸位明白，終身無過。",
+   "translation": "여러 부위가 밝고 깨끗하면 종신토록 허물이 없다.",
+   "commentary": "부위들의 밝음에 관한 기색 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "諸位明白",
+     "observable_ko": "여러 부위가 밝고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-093",
+   "section": "目",
+   "region": "eye",
+   "original_text": "男女單目者，謂之「桃花殺」，常愛色慾。",
+   "translation": "남녀 중 홑눈(單目)인 자는 이를 '도화살(桃花殺)'이라 이르니, 늘 색욕을 좋아한다.",
+   "commentary": "'單目'은 외꺼풀, 한쪽 눈, 혹은 다른 뜻일 수 있어 해석이 모호하다. 지침은 눈꺼풀을 명시한 표현만 정확 대응으로 인정하므로 모호로 두었다. 문헌은 이를 색욕이라는 성적 낙인과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "單目",
+     "observable_ko": "홑눈",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eyelid:single"
+     ],
+     "reason": "외꺼풀인지 한쪽 눈인지 불명확하며 눈꺼풀을 명시하지 않았다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-094",
+   "section": "目",
+   "region": "eye",
+   "original_text": "目赤好殺。",
+   "translation": "눈이 붉으면 죽이기를 좋아한다.",
+   "commentary": "눈의 붉은 색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 살생이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目赤",
+     "observable_ko": "눈이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-095",
+   "section": "目",
+   "region": "eye",
+   "original_text": "兩目尾為奸門，要光淨，如破陷，多奸盜牢獄事。",
+   "translation": "두 눈꼬리 (뒤)는 간문(奸門)이니 빛나고 깨끗해야 하며, 만약 깨지고 꺼져 있으면 간음·도둑질·옥사의 일이 많다.",
+   "commentary": "간문(奸門)은 눈꼬리 바깥 관자놀이 쪽 부위를 가리키는 관상 용어다. 광택은 형태가 아니고, 부위의 꺼짐·흠은 대응 레이블이 없다. 문헌은 이를 간음·절도·옥사라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "要光淨",
+     "observable_ko": "간문이 빛나고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "破陷",
+     "observable_ko": "간문 부위가 깨지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈꼬리 바깥(간문) 부위의 꺼짐·흠은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-eye-096",
+   "section": "目",
+   "region": "eye",
+   "original_text": "以子午卯酉歲占之，亦名「妻位。」",
+   "translation": "자·오·묘·유년으로 이를 점치며, 또한 '처위(妻位)'라고도 이름한다.",
+   "commentary": "간문 부위의 점법과 별칭을 설명하는 구절로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  }
+ ]
+}

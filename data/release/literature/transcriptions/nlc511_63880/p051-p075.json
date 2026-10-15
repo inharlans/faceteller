@@ -1,0 +1,1177 @@
+{
+ "source_id": "nlc511_63880",
+ "page_range": [
+  51,
+  75
+ ],
+ "transcriber": "AI visual transcription (Claude) from 200-dpi renders; not OCR; not human-proofread",
+ "pages": [
+  {
+   "pdf_page": 51,
+   "page_type": "text",
+   "printed_page": "三五",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "忌亂忌焦犯此乃下賤之輩大概君子無焦鬚小人無大舌鬚深過命門主人賢德惟好色而已鬚重髮輕當入翰林鬚輕髮重一世辛勤又云鬚清眉秀必有胸襟鬚少眉豐何曾始終凡鬚重有鬚好不然主娼優隸卒高公然其論而讚曰舌尖白小是非徒鬚髮焦枯學問無若要有官並有職除非舌紫鬚如絲○所小便如珠官拜三齊之位凡小便如濺珠者貴而有胸襟大概君子之小便必細必遲小人之小便必大必散也"
+    },
+    {
+     "type": "heading",
+     "text": "高學士榮蹇賦"
+    },
+    {
+     "type": "text",
+     "text": "○賦曰人同天地相合五行要分南北東西要定形神格局欲知貴賤先觀眉目次觀唇要定榮枯先察形神後察色神發於形色壯於肉可知富壽無疑血浮於先色滯於面是以夭貧可必氣來粗大何須苦去求名聲音急短不必窗前努力骨粗指短終是愚頑骨少肉浮須知壽天眼若含星自有成名之日眉稀眼暗迍邅困苦之人入泮登科四學三陽明潤書難文滯台庭邊地昏沉四竅生毫必然高壽三尖神露必夭且貧名利無成獨恨天庭一削暮年出仕蓋因地閣豐隆"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "高學士榮蹇賦",
+     "reading": "蹇",
+     "alternatives": []
+    },
+    {
+     "context": "須知壽天眼若含星",
+     "reading": "天",
+     "alternatives": [
+      "夭"
+     ]
+    },
+    {
+     "context": "獨恨天庭一削暮年",
+     "reading": "削",
+     "alternatives": [
+      "側"
+     ]
+    },
+    {
+     "context": "除非舌紫鬚如絲○所小便如珠",
+     "reading": "所",
+     "alternatives": []
+    }
+   ],
+   "note": "Section title 高學士榮蹇賦 is run in at the head of its paragraph (not set apart). 削 in 一削: printed glyph is 亻 plus 削 (no exact code point used). 天 in 壽天 printed with a flat top stroke, unlike 夭 elsewhere on the page."
+  },
+  {
+   "pdf_page": 52,
+   "page_type": "text",
+   "printed_page": "三六",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "一命宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰命宮兩眉之間山根之上光明如鏡學問皆通山根平滿必主福壽土星高聳必主財源眼若分明定保雙全富貴額如川字命逢驛馬大顯官星陷沉必主孤寒眉接交加成下賤紋亂離鄉又尅妻故額窄眉枯乃一世窮苦之相"
+    },
+    {
+     "type": "text",
+     "text": "詩曰眉眼中間是命宮光瑩潤澤學須湧若還紋亂多遷滯破盡家財辱祖宗"
+    },
+    {
+     "type": "heading",
+     "text": "二財帛宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰鼻乃財帛位居土宿截筒懸膽千倉萬箱聳直豐隆一生富貴中正不偏須知福祿滔滔鶯小尖峯到老貧寒下賤莫教孔仰主無隔宿之糧廚灶若空必定家無所積〈凡鼻內生一二根毛名爲金兔不好多生者妙〉"
+    },
+    {
+     "type": "text",
+     "text": "詩曰鼻乃財帛高且隆兩邊井灶莫教空仰露永無財與粟地閣相朝穀祿豐"
+    },
+    {
+     "type": "heading",
+     "text": "三兄弟宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰兄弟位居兩眉屬羅計眉長過目兄弟三四無刑眉秀而清兄弟還須有貴形如新月和睦永遠超羣若是短粗手足難同定別兩樣眉毛必須異姓交"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "若還紋亂多遷滯",
+     "reading": "遷",
+     "alternatives": [
+      "迍"
+     ]
+    },
+    {
+     "context": "福祿滔滔鶯小尖峯",
+     "reading": "鶯",
+     "alternatives": []
+    }
+   ],
+   "note": "Palace headings (一命宮, 二財帛宮, 三兄弟宮) are run in at the head of their paragraphs, raised one character. 詩 and 曰 are printed on separate columns at top with the verse lines indented beside them; verses are joined without separators."
+  },
+  {
+   "pdf_page": 53,
+   "page_type": "text",
+   "printed_page": "三七",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "連黃濁身喪他鄉頭高尾低兄弟不如"
+    },
+    {
+     "type": "text",
+     "text": "詩曰眉爲兄弟軟清屏兄弟生成四五强兩角不齊須異母交連黃濁喪他鄉"
+    },
+    {
+     "type": "heading",
+     "text": "四田宅宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰眼爲田宅最忌赤脈貫睛初年破盡家園明陽失陷到老無糧停業眼如點漆終身產業榮華鳳目高眉置稅三州五縣黃暗神露財散家傾"
+    },
+    {
+     "type": "text",
+     "text": "詩曰眼如田宅主其宮睛秀分明一樣同若是陰陽枯再露父母家財總是空"
+    },
+    {
+     "type": "heading",
+     "text": "五男女宮"
+    },
+    {
+     "type": "text",
+     "text": "解曰男位左女位右俱在眼下名洞堂又名臥蠶三陽平滿男女福祿榮華隱隱臥蠶子息終須有貴淚堂深陷男女無緣黑痣斜紋不得男送女老嘴如吹火女人獨守蘭房人中平滿子息難言"
+    },
+    {
+     "type": "text",
+     "text": "詩曰男女三陽起臥蠶瑩然光彩好兒郎若是紋理來侵位宿孽平生不可當"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "俱在眼下名洞堂又名臥蠶",
+     "reading": "洞",
+     "alternatives": [
+      "淚"
+     ]
+    },
+    {
+     "context": "初年破盡家園明陽失陷",
+     "reading": "明",
+     "alternatives": []
+    }
+   ],
+   "note": "After 五男女宮 a blank space stands where the other palaces have ○; no ○ printed."
+  },
+  {
+   "pdf_page": 54,
+   "page_type": "text",
+   "printed_page": "三八",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "六奴僕宮"
+    },
+    {
+     "type": "text",
+     "text": "解曰奴僕乃金縷地閣是也重接水星頦圓豐滿侍立成羣輔弼相共一呼百諾口如四字主呼聚喝散之權倉庫偏斜施恩反成恨怨奴僕宮深用人無力"
+    },
+    {
+     "type": "text",
+     "text": "詩曰奴僕還須地閣豐水星兩角不相同若還三處都無應傾陷紋痕奴僕空"
+    },
+    {
+     "type": "heading",
+     "text": "七妻妾宮"
+    },
+    {
+     "type": "text",
+     "text": "解曰妻妾位居魚尾號曰奸門光潤無紋必保妻全四德豐隆平滿娶妻財帛盈箱顴骨侵天因妻得祿奸門深陷常作新郎魚尾多紋妻防惡死奸門深黲長要生離暗滯斜紋子多庶出"
+    },
+    {
+     "type": "text",
+     "text": "詩曰奸門光潤保妻宮財帛盈箱見始終若是奸門生黲黯斜紋暗滯子偏生"
+    },
+    {
+     "type": "heading",
+     "text": "八疾厄宮"
+    },
+    {
+     "type": "text",
+     "text": "解曰疾厄宮者年壽山根之位山根光潤無病昏暗主災疾連綿"
+    },
+    {
+     "type": "text",
+     "text": "詩曰山根疾厄起平平一世無災禍不生若值紋痕並枯骨平生辛苦却難成"
+    }
+   ],
+   "uncertain": [],
+   "note": "Palace headings run in at the head of their paragraphs, separated from 解曰 by a blank space (no ○)."
+  },
+  {
+   "pdf_page": 55,
+   "page_type": "text",
+   "printed_page": "三九",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "九遷移宮"
+    },
+    {
+     "type": "text",
+     "text": "解曰位居眉尾號曰天倉隆滿豐盈華彩無憂此位潤平到老得人欽羨騰騰驛馬須知遊宦四方額角低陷到老住場難覓眉毛一缺此人破祖離宗天地偏陷到老九變生相如此移門改基"
+    },
+    {
+     "type": "text",
+     "text": "詩曰遷移宮分在天倉深陷生平少住場魚尾末年來相應定是遊宦不尋常"
+    },
+    {
+     "type": "heading",
+     "text": "十官祿宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰位居中正上合離宮伏犀貫頂一生不到訟庭驛馬朝歸終身官司不擾光瑩明淨顯達超羣額角堂堂犯着官司貴解紋痕陷破管教常招橫事眼如赤鯉決犯刑名"
+    },
+    {
+     "type": "text",
+     "text": "詩曰官祿榮宮仔細觀山根倉庫要相當忽然明淨無痕點定是爲官貴久長"
+    },
+    {
+     "type": "heading",
+     "text": "十一福德宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰位居天倉接連邊地平生福祿滔滔天地相朝德行須全五福頦圓額窄應知苦在初年頭大額尖困苦還來晚景眉高耳聳還可榮身眉壓耳枯休"
+    }
+   ],
+   "uncertain": [],
+   "note": ""
+  },
+  {
+   "pdf_page": 56,
+   "page_type": "text",
+   "printed_page": "四〇",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "言福德"
+    },
+    {
+     "type": "text",
+     "text": "詩曰福德天倉地閣圓五星光照福綿綿若還缺陷并尖破衣食平生更不全"
+    },
+    {
+     "type": "heading",
+     "text": "十二相貌宮"
+    },
+    {
+     "type": "text",
+     "text": "○解曰相貌者乃總論也先觀五嶽次察三停若五嶽朝歸三停平等行坐威嚴爲人尊重此人富貴多榮如五嶽歪斜三停不正一世貧苦額主初限鼻主中限水星地閣主末限有一不好斷爲凶惡"
+    },
+    {
+     "type": "text",
+     "text": "詩曰相貌須教上下停三停平等更相生若是一處無勻配不是滔滔享福人"
+    },
+    {
+     "type": "text",
+     "text": "以上十二宮雖是如此然未有富貴貧賤之分福祿壽夭之說孤刑獨害之相另開於後"
+    },
+    {
+     "type": "text",
+     "text": "凡男人有十八上貴十八中貴十八下貴七十二賤三十二刑五十一孤年有壽有夭子有遲有早有滯有通有得有失有病有難有困有榮此數端各有一說見"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "若還缺陷并尖破",
+     "reading": "并",
+     "alternatives": [
+      "幷"
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "pdf_page": 57,
+   "page_type": "text",
+   "printed_page": "四一",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "得甚明後列數論可知其詳更有五行生尅之理必宜貫通方可斷人吉凶言人貴賤若離五行之理則屬亂道世之術士不察是以誤人"
+    },
+    {
+     "type": "heading",
+     "text": "十八上貴"
+    },
+    {
+     "type": "text",
+     "text": "掛印封侯○解曰頭圓一尺面如滿月背厚腰圓封侯萬里行坐威强鐵面銀牙虎頭背闊封侯之相聲如巨雷肉堅骨壯銀圓虎鬚侯爵之貴面白亮如銀睛黃彩如金封侯之品長眉鳳目龍準大顙出將入相三十六齒口能容主宰相之職頭顙長五寸朝上者爲龍閣主宰相〈嚴閣老合此相〉腰圓生七黑子俱有毫主玉帶〈見背厚腰圓解內〉一身肉如玉光如琉璃紅如火噴主國郎宰輔步闊三尺身大頭圓爲龍步虎頭王侯上身如軸四肢如綿一品公侯龍睛牛齒官至尚書馬面鳳睛官居一品五嶽朝上當朝一品五官俱正位列王侯玉露得全國師之職五反俱全極貴之相眼有夜光一品之職〈以上十八上貴內有一件破相亦不得貴〉"
+    },
+    {
+     "type": "heading",
+     "text": "十八中貴"
+    },
+    {
+     "type": "text",
+     "text": "清高要職○解曰神清氣足可許腰金目形貫神可入翰林頭圓足厚身正格正二三品職音清語實舌紫唇硃食祿百石身香肉滑皮潤血明清高之職睛大"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "龍準大顙出將入相",
+     "reading": "顙",
+     "alternatives": [
+      "類"
+     ]
+    },
+    {
+     "context": "頭顙長五寸朝上者",
+     "reading": "顙",
+     "alternatives": [
+      "類",
+      "頦"
+     ]
+    },
+    {
+     "context": "〈見背厚腰圓解內〉",
+     "reading": "見背厚腰圓解內",
+     "alternatives": [
+      "腰圓解見背厚內"
+     ]
+    },
+    {
+     "context": "紅如火噴主國郎宰輔",
+     "reading": "郎",
+     "alternatives": []
+    }
+   ],
+   "note": "Small double-column note after 主玉帶 has 見背厚 in the right sub-column and 腰圓解 in the left, with 內 at the head of the next column; transcribed in right-to-left order, though the sense reads 腰圓解見背厚內. 十八上貴 / 十八中貴 are raised at the head of their columns and run straight into the first item title."
+  },
+  {
+   "pdf_page": 58,
+   "page_type": "text",
+   "printed_page": "四二",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有神口大有稜鼻大有樑南面之職背高肚大聲响眉高主琴堂之職三停得正六府得均位到腰金耳白過面當爲侍臣神足於形入得翰林額高三寸可有威權一雙秀目兩弓眉爲官清貴印堂開一寸輔骨起門稜爲科爲道眉直睛圓準正口方乃是諫官忠臣印開口大眉横父有前程額有川紋耳珠朝海白手中年大顯臍深一寸腰大四圍可保三邊掛印臂長三尺可保位至邊將〈以上十八中貴不宜破損如有一件不潤亦不好也〉"
+    },
+    {
+     "type": "heading",
+     "text": "十八下貴"
+    },
+    {
+     "type": "text",
+     "text": "維職榮身○解曰眉大顴高納粟供承之職耳厚唇厚承差知印之官頭圓不過九品腰圓不過提牌眉闊印寬可爲都史唇紅齒厚當有前程一身濁肉堅如鐵急去求武骨肉得配可許異路功名眼大睛黃眉散不過典史頭圓口闊梁低首領之人頭圓平大眉壓眼僧綱道紀手粗足厚腰圓硬傳報軍情體正身長腰厚當爲巡檢色暗生明倉官稅課之人陂池鵝鴨連金縷可爲河泊一面如濛驛馬遞運三陽一潤佐貳衙門何故官爲獄雙目若生塵〈以上十八下貴皆因富而生貴者雖破損不忌〉"
+    },
+    {
+     "type": "heading",
+     "text": "女人有七十二賤"
+    },
+    {
+     "type": "text",
+     "text": "若犯一件必有私淫"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "可爲河泊一面如濛驛馬遞運",
+     "reading": "一",
+     "alternatives": []
+    },
+    {
+     "context": "主琴堂之職",
+     "reading": "琴",
+     "alternatives": []
+    }
+   ],
+   "note": "Two small dark printed marks stand in the margin beside 雙 (何故官爲獄雙目若生塵); not transcribed."
+  },
+  {
+   "pdf_page": 59,
+   "page_type": "text",
+   "printed_page": "四三",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "兩眼浮光桃花之面皮白如粉血不華色肉軟如綿皮滑如油"
+    },
+    {
+     "type": "text",
+     "text": "面多斑點眼角低垂未語先笑搖手擺頭面帶兩削面全兩陷"
+    },
+    {
+     "type": "text",
+     "text": "面肉堆浮眼露白光口唇自動口角生紋鵞行鴨步側目垂頭"
+    },
+    {
+     "type": "text",
+     "text": "斜視偸觀自言自語腹矯胸高腰細肩寒臍凸近下乳頭白下"
+    },
+    {
+     "type": "text",
+     "text": "皮綢如紗面大鼻小額尖脚搖齒白如玉唇白不厚唇青如靛"
+    },
+    {
+     "type": "text",
+     "text": "一步三搖一言三斷笑若馬嘶語言泛雜頭大無髮鶴腿蠻腰"
+    },
+    {
+     "type": "text",
+     "text": "行如雀步談笑頻阻矯臂無腮見人掩面身如風柳陰戶無毛"
+    },
+    {
+     "type": "text",
+     "text": "獐頭鼠耳縮頭伸舌托腮咬指陰毛如草長面圓睛別齒弄衣"
+    },
+    {
+     "type": "text",
+     "text": "歎氣伸腰陰戶生光頭下過步回頭頻顧坐不安穩腿上生毛"
+    },
+    {
+     "type": "text",
+     "text": "舌尖唇掀舉止癡迷站立偏斜額廣鬢深鼠齒鬼牙性情多變"
+    },
+    {
+     "type": "text",
+     "text": "如馬換蹄長身短項鼻仰朝天眼閉眉蹙蛇行鼠餐項細眉寒"
+    },
+    {
+     "type": "text",
+     "text": "指短腰偏飲食無盡無事自驚頭偏額窄背陷腹小睡夢長啼"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "腹矯胸高",
+     "reading": "矯",
+     "alternatives": [
+      "蹻",
+      "撟"
+     ]
+    },
+    {
+     "context": "行如雀步談笑頻阻矯臂無腮",
+     "reading": "矯",
+     "alternatives": [
+      "蹻",
+      "撟"
+     ]
+    },
+    {
+     "context": "面帶兩削",
+     "reading": "削",
+     "alternatives": []
+    },
+    {
+     "context": "皮綢如紗",
+     "reading": "綢",
+     "alternatives": [
+      "縐"
+     ]
+    }
+   ],
+   "note": "Whole page is a grid of 72 four-character items (the 七十二賤 announced at the end of p.58), six items per column in twelve columns; each column transcribed as one block, items read top to bottom."
+  },
+  {
+   "pdf_page": 60,
+   "page_type": "text",
+   "printed_page": "四四",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "女人有三十六刑傷"
+    },
+    {
+     "type": "text",
+     "text": "黃髮拳髮睛赤睛黃獨顴生面額有旋螺額高面陷額有紋痕"
+    },
+    {
+     "type": "text",
+     "text": "印有懸針少年落髮骨硬皮急面長口大面瘦生筋面生三角"
+    },
+    {
+     "type": "text",
+     "text": "耳反無輪面尖腰窄面滯如泥山根低陷地閣偏斜項露骨節"
+    },
+    {
+     "type": "text",
+     "text": "聲大如雷性急如火神濁氣粗天大地小白氣如粉年壽起節"
+    },
+    {
+     "type": "text",
+     "text": "肉冷如水粗骨大手肩背偏斜眼大睛圓喉結齒大髮硬骨硬"
+    },
+    {
+     "type": "text",
+     "text": "夜睡多呼嘴如吹火鼻內生毛骨起腮高命門骨高如雲母面（色如粉也）"
+    },
+    {
+     "type": "heading",
+     "text": "女人有二十四孤"
+    },
+    {
+     "type": "text",
+     "text": "犯者夫星子息難言乃貧苦之格"
+    },
+    {
+     "type": "text",
+     "text": "無眉不立〈不立者不生子也〉聲破不立三十前發雙目深陷鼻陷深低"
+    },
+    {
+     "type": "text",
+     "text": "雷公吹火臍小淺凸股肱無包髮不滿尺腰圓三圍乳頭不起"
+    },
+    {
+     "type": "text",
+     "text": "肉浮血滯肉重如泥一面滯色皮薄骨細肉多骨少三陽如墨"
+    }
+   ],
+   "uncertain": [],
+   "note": "Lists of four-character items set six to a column; each column is one block. The parenthesised （色如粉也） is printed full-size at the top of its own column after 如雲母面."
+  },
+  {
+   "pdf_page": 61,
+   "page_type": "text",
+   "printed_page": "四五",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "無腹無臀面尖耳小有顴無腮地大天小也類男人唇白舌青〈如犯此色者必有疾〉"
+    },
+    {
+     "type": "text",
+     "text": "陰陽混雜〈眼乃子宮不可黑白不明〉"
+    },
+    {
+     "type": "heading",
+     "text": "女人有七賢"
+    },
+    {
+     "type": "text",
+     "text": "主夫明子秀"
+    },
+    {
+     "type": "text",
+     "text": "行步周正面圓體厚五官俱正三停俱配容貌嚴整不泛言語坐眠俱正"
+    },
+    {
+     "type": "heading",
+     "text": "女人有四德"
+    },
+    {
+     "type": "text",
+     "text": "必生貴子"
+    },
+    {
+     "type": "text",
+     "text": "平素不與人爭競苦難中無怨言節飲食聞事不驚喜能尊敬"
+    },
+    {
+     "type": "heading",
+     "text": "女人有壽有夭自然不同"
+    },
+    {
+     "type": "text",
+     "text": "解曰男以神爲主女以血爲主凡男人神衰則病多神旺則病少凡女相皮薄皮急尖削血衰氣短神粗豈能長壽凡女人神足血足皮厚皮寬肉實骨正自然福壽之婦"
+    },
+    {
+     "type": "text",
+     "text": "詩曰血衰皮急命難全皮薄枯乾壽不堅若是皮寬並血旺須信松筠福壽添"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "地大天小也類男人",
+     "reading": "也",
+     "alternatives": []
+    },
+    {
+     "context": "皮急尖削血衰",
+     "reading": "削",
+     "alternatives": []
+    }
+   ],
+   "note": "削 here (and on pp.51, 59) is printed with an extra 亻 at left (亻+削 form)."
+  },
+  {
+   "pdf_page": 62,
+   "page_type": "text",
+   "printed_page": "四六",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "男有五十一孤"
+    },
+    {
+     "type": "text",
+     "text": "犯一件者難言子息"
+    },
+    {
+     "type": "text",
+     "text": "水形有髮木形無髮眼陷成坑臥蠶低暗判官形羅漢形"
+    },
+    {
+     "type": "text",
+     "text": "回回鼻獅子鼻蠹肉生獨顴生面獨鼻孤峯眉疎鬢疎"
+    },
+    {
+     "type": "text",
+     "text": "華蓋額華蓋眉頭大面尖頭尖額削睛黃髮赤面大鼻小"
+    },
+    {
+     "type": "text",
+     "text": "乳頭白小乳頭不起額上三紋鼻上生紋口角紋多面色如粉"
+    },
+    {
+     "type": "text",
+     "text": "陽上無毛陽毛逆生陽囊無紋光華白粉肉重如泥肉浮又軟"
+    },
+    {
+     "type": "text",
+     "text": "肉滑如綿肉多骨弱血不華色面似橘皮人中淺短一身無毫"
+    },
+    {
+     "type": "text",
+     "text": "骨冷精寒全身肉冷皮血枯焦內官聲音內官形像蛇皮蛇眼"
+    },
+    {
+     "type": "text",
+     "text": "雷公嘴馬面龍睛鼠目雉睛猢猻腮鷹腮蛇形"
+    },
+    {
+     "type": "text",
+     "text": "骨圓〈手骨〉三關無脈臂脈不起"
+    },
+    {
+     "type": "heading",
+     "text": "男有十尅之格"
+    },
+    {
+     "type": "text",
+     "text": "〈犯一件者一子也不能送終乃老困之相〉"
+    },
+    {
+     "type": "text",
+     "text": "鬚分燕尾鬚直無索子鬚臥蠶低暗乳頭朝下牛肉朝下"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "獅子鼻蠹肉生",
+     "reading": "蠹",
+     "alternatives": [
+      "蠱"
+     ]
+    },
+    {
+     "context": "回回鼻",
+     "reading": "回回",
+     "alternatives": [
+      "囘囘"
+     ]
+    },
+    {
+     "context": "鬚直無索",
+     "reading": "索",
+     "alternatives": []
+    }
+   ],
+   "note": "Items set six to a column in a grid; each column is one block. The note after 男有十尅之格 is in small double-column type."
+  },
+  {
+   "pdf_page": 63,
+   "page_type": "text",
+   "printed_page": "四七",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "眉毫矯上鬚多無髮一面縐紋眼下生毫"
+    },
+    {
+     "type": "heading",
+     "text": "十二件刑妻之格"
+    },
+    {
+     "type": "text",
+     "text": "天倉生此爲開庫紋尅五妻鬚多鼻小鬚長無索顴骨高"
+    },
+    {
+     "type": "text",
+     "text": "天倉陷山根斷魚尾低羅漢判官三尖六削奸門深"
+    },
+    {
+     "type": "text",
+     "text": "魚尾紋深魚尾一紋一妻"
+    },
+    {
+     "type": "heading",
+     "text": "蹇通得失天運週流"
+    },
+    {
+     "type": "text",
+     "text": "○解曰六府三停三停不配五行不得惟依一局失垣星辰失者陷位雖有志亦不顯達乃一生蹇滯之相也通者可原可取因部位不勻氣色不配連年困苦忽得一位要取氣色一開天子有青雲之志庶民有德澤綿綿得者因上邊部位不好下邊却好一行到好處自然得矣失者乃氣色好部位不好書云氣色定行年休咎骨格定一世榮枯凡氣色豈能久乎此色一去一失凡部不好色好亦防有失"
+    },
+    {
+     "type": "heading",
+     "text": "病難困榮一身常有"
+    },
+    {
+     "type": "text",
+     "text": "○解曰凡病者不過災疾也要在病厄宮看此宮青暗不過小疾"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "眉毫矯上",
+     "reading": "矯",
+     "alternatives": [
+      "蹻",
+      "撟"
+     ]
+    },
+    {
+     "context": "一面縐紋",
+     "reading": "縐",
+     "alternatives": [
+      "綢"
+     ]
+    },
+    {
+     "context": "鬚長無索",
+     "reading": "索",
+     "alternatives": []
+    }
+   ],
+   "note": "First column ends the 男有十尅之格 list from p.46. Items of 十二件刑妻之格 set in a grid; each column is one block. Section titles 蹇通得失天運週流 and 病難困榮一身常有 run in at the head of their paragraphs."
+  },
+  {
+   "pdf_page": 64,
+   "page_type": "text",
+   "printed_page": "四八",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "此宮黑赤不過有災非主死凡口準命耳此四處犯相尅之氣色卽死無疑尅乃五行相尅之理不可不看詳細一面加蒙必遭大難命宮昏暗必遭大難天庭色滯必遭大難邊地生暗必遭大難"
+    },
+    {
+     "type": "heading",
+     "text": "古聖人遭難者皆有一色"
+    },
+    {
+     "type": "text",
+     "text": "○解曰邊地起赤雲唐太宗有金鶯百日縲絏印堂生黯黲關雲長有失馬之驚準頭一赤孟嘗君夜渡關津奸門忽暗劉玄德有長坂之危雙顴如火楊六郎失職困汝州赤透三關楊文廣困柳州三載印堂黯顴骨青伍子胥賣劍走范陽耳朦額暗韓文公風雪貶潮陽赤起太陽陳巡檢梅嶺尋申陽〈失妻之說〉年壽暗如泥齊孝仁遭失子以上數端不過氣色不好故有此難色氣一開自保安榮此乃相貌原好因色不如故暫守困色若鮮明氣若和潤可保萬里高飛俱無阻滯此書相週體諸事俱完尚有行坐臥食語笑乃係身外六法另詳於左"
+    },
+    {
+     "type": "heading",
+     "text": "論行富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰凡行欲正直昂然不可偏斜曲屈步欲闊頭欲直腰欲硬胸欲"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "唐太宗有金鶯百日縲絏",
+     "reading": "鶯",
+     "alternatives": []
+    },
+    {
+     "context": "此書相週體諸事俱完",
+     "reading": "體",
+     "alternatives": []
+    },
+    {
+     "context": "犯相尅之氣色卽死無疑",
+     "reading": "卽",
+     "alternatives": [
+      "即"
+     ]
+    }
+   ],
+   "note": "體 in 相週體 is printed with a 忄-like left component (variant form). The illustrative examples (唐太宗…齊孝仁) are separated by blank spaces in the print."
+  },
+  {
+   "pdf_page": 65,
+   "page_type": "text",
+   "printed_page": "四九",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "昂凡偏體搖頭蛇行雀竄腰折項歪俱不好之格"
+    },
+    {
+     "type": "text",
+     "text": "詩曰行如流水步行來體直頭昂身項停若是搖頭過步者田園敗盡老來貧"
+    },
+    {
+     "type": "heading",
+     "text": "論坐富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰凡坐欲端正嚴肅男女一同不欲體搖身動足亂頭歪凡此皆不足之相也坐若邱山者主大貴坐欲肩圓項正體平起坐舒緩乃貴人之相"
+    },
+    {
+     "type": "text",
+     "text": "詩曰坐若邱山穩且平爲人忠孝立功勛若是體搖併足動愚頑下賤不須論"
+    },
+    {
+     "type": "heading",
+     "text": "論臥富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰臥乃寐之安不可不穩凡臥如龍之盤犬之曲乃貴人之相凡睡將手抱頭者善明詞訟長脚長手爲停屍睡大不好也睡中夢多自言自語者乃狂詐之徒書云只因夢裏多狂語每向人前誑語多凡睡將背朝天者主餓死睡中搖足者乃上等人之相睡啓口者主夭不閉眼者惡死又云睡夢狂言奸詐人開眼張口必遭刑穩曲呼來還言吼管教白手起千金凡呼欲同聲高方妙大概眠欲曲"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "身動足亂頭歪凡此皆不足之相",
+     "reading": "足亂頭歪",
+     "alternatives": []
+    },
+    {
+     "context": "起坐舒緩乃貴人之相",
+     "reading": "乃貴",
+     "alternatives": []
+    },
+    {
+     "context": "犬之曲乃貴人之相凡睡",
+     "reading": "貴",
+     "alternatives": [
+      "賤"
+     ]
+    },
+    {
+     "context": "睡中夢多自言自語者乃",
+     "reading": "自言自語",
+     "alternatives": []
+    }
+   ],
+   "note": "Lower halves of several middle columns are faintly printed/inked; readings there are less secure."
+  },
+  {
+   "pdf_page": 66,
+   "page_type": "text",
+   "printed_page": "五〇",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "行宜直方爲妙格"
+    },
+    {
+     "type": "heading",
+     "text": "論食富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰食乃一生之主豈無相法凡食欲開大合小速進者爲妙猴餐鼠餐不足道也食多哽咽必主流徙嗒嘴如猪者難免凶死項伸如馬者一世辛勤"
+    },
+    {
+     "type": "text",
+     "text": "詩曰虎食龍餐是貴人若還哽咽主災星猴食鼠餐並馬食一生破敗不能成"
+    },
+    {
+     "type": "heading",
+     "text": "論語富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰凡語言與聲音不同聲音出於丹田語言出於唇吻故不同大凡人之語唇舌勻停和緩不露齒爲妙如急焦亂泛者乃下賤之相一世無成也"
+    },
+    {
+     "type": "text",
+     "text": "詩曰語要勻停氣要和貴人語少小人多若是泛言唇亂動不離貧賤病多磨"
+    },
+    {
+     "type": "heading",
+     "text": "論笑富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "○解曰凡笑乃喜之發不欲如常冷笑者多謀足智藏情者一世貧奸笑欲開口大响不欲閉口無音者如馬嘶皆不爲美"
+    },
+    {
+     "type": "text",
+     "text": "詩曰開口長聲笑者賢聲音喉內定多奸"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "嗒嘴如猪者難免凶死",
+     "reading": "嗒",
+     "alternatives": []
+    }
+   ],
+   "note": ""
+  },
+  {
+   "pdf_page": 67,
+   "page_type": "text",
+   "printed_page": "五一",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "曰若是馬嘶猿猴叫又貧又苦又無錢"
+    },
+    {
+     "type": "heading",
+     "text": "論形說"
+    },
+    {
+     "type": "text",
+     "text": "解曰金木水火土一身之體不出五行之外夫金形人何取凡金形面方耳正眉目清秀唇齒得配手小腰圓白色方是金形若聲高高如金聲主大貴若雜格主小貴不宜滯帶赤如一帶赤色如土埋金主困苦赤在準頭三陽主有災難輕則破敗重則主死金形不宜帶火書云部位要週全三停又帶方金形入了格富貴把名揚○凡木形宜疊直脩長睛清口闊神足不宜偏削歪斜枯陷聲破如腰圓體正方可棟樑偏薄虧削小人之相浮筋露骨何須苦問功名些須帶火乃作木火通明若是土赤金紅不宜取用有宜帶些金還是求名之客木削金重一生成敗之人書云稜稜形瘦格凜凜更脩長秀氣生眉眼方言作棟樑○凡水形要骨正肉實色白帶潤體發面凹紋看如伏面觀如仰腹大臀大方是水形不宜氣粗色黑皮白如粉面兼肉浮凡水形人骨少肉多浮者主夭無鬚皮滑者無子肉冷者亦無子書云眼大並眉粗城廓要團圓此相名眞水平生福自然○凡火形人上尖下闊形動躁鬚"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "凡木形宜疊直脩長",
+     "reading": "疊",
+     "alternatives": [
+      "聳"
+     ]
+    }
+   ],
+   "note": "First column is the 曰 half of the 詩曰 verse begun on p.50 (詩 開口長聲笑者賢…)."
+  },
+  {
+   "pdf_page": 68,
+   "page_type": "text",
+   "printed_page": "五二",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "少面紅鼻矯不帶滯色宜明潤而紅又宜髮少不宜腹大不宜口大凡火形貴不過武職富不過百金非大富大貴之相也凡火形又宜頭高方有子不然子亦難招書云欲識火形貌三停又帶尖身體全無淨腮邊更少髯○凡土形肥大敦厚面重實背高皮黑聲大如雷項短頭圓乃眞土也書云端厚仍深重安詳若泰山心謀難測度信義重人間"
+    },
+    {
+     "type": "heading",
+     "text": "總論歌"
+    },
+    {
+     "type": "text",
+     "text": "○歌曰木瘦金方水主肥土形敦厚背如龜上尖下闊明如火五樣人形仔細推木色青兮火色紅土黃水黑是眞容只有金形宜帶白五般顏色不相同○夫人受精於水稟氣於火故坎離爲交媾方得成身先精合而後神生先神生而後形全自知全於內外不出乎五行生尅之中富貴貧賤盡在衰强旺弱之配故取爲金木水火之說還有飛禽走獸之形金不嫌方木不嫌瘦火不嫌尖土不嫌重水不嫌黑似金得金才智深似木得木資才足似水得水文學高似火得火見機深似土得土財祿足如得其生扶爲妙得其剝削爲忌也"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "少面紅鼻矯不帶滯色",
+     "reading": "矯",
+     "alternatives": [
+      "蹻",
+      "撟"
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "pdf_page": 69,
+   "page_type": "text",
+   "printed_page": "五三",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "五行賦"
+    },
+    {
+     "type": "text",
+     "text": "○賦曰大哉五行生物之理萬象宗焉故木須微火高明秋闈獨步澄清金木春榜魁名火尅金豈能得用金尅木不得成名木少金多還須進氣木多金少一世身榮金人火局必成器用水人土局愚頑之人木弱金多只好三旬之壽金堅秀實方爲柱國之人土制水庄田之客水生木出仕求名梁棟材還須水潤國家珍金木榮明金得木方爲有用木逢金一世辛勤形體理還從生尅面上理要看相生必須詳衰旺勝弱五行配方許得眞木形人還須本色犯生色還須得利犯尅色夭折須明五行理化生千萬一概論大悞終身"
+    },
+    {
+     "type": "heading",
+     "text": "永樂百問"
+    },
+    {
+     "type": "text",
+     "text": "朕居王位出於何相而得爲萬民之主○對曰主乃龍生鳳長身長六尺面大腰圓能步開三尺少年所困因未出鬚之故今已鬚長一尺八寸以合龍相當年之壽"
+    },
+    {
+     "type": "text",
+     "text": "凡庶民生下小孩其父見子得爵者何說莫非是小兒之福乎○對曰凡小兒生下瑞香滿室必主大貴書云生下身香定主父爵身後榮昔劉阿斗宋太祖生下俱異香"
+    }
+   ],
+   "uncertain": [],
+   "note": "In 火尅金豈能得用 the character 金 is printed in smaller type."
+  },
+  {
+   "pdf_page": 70,
+   "page_type": "text",
+   "printed_page": "五四",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "百日"
+    },
+    {
+     "type": "text",
+     "text": "朕昨見一尚書天停低何故又得爲官○對曰天停雖低日月角開輔弼骨朝頭平面圓此乃五行相配故不忌低是以得爲尚書"
+    },
+    {
+     "type": "text",
+     "text": "朕宮中無方面之妃朕之面方欲得一方面爲配再無何說○對曰婦人貴在眉目肩背子在肚腹乳臍凡面方者爲虎面必犯殺星豈能入宮爲貴人凡女形如鳳者方爲大貴鳳形面圓長上下配眉已高目細秀項圓長肩背平此乃眞貴縱不入宮亦不失爲夫人"
+    },
+    {
+     "type": "text",
+     "text": "朕向日寵王公女相他必爲后母朕今不喜他何能得爲后母○對曰非國母福薄但聖上子星未現故此不寵被生成國后命壽延長若要出得太子必定是他永樂未信後三年復寵果生太子"
+    },
+    {
+     "type": "text",
+     "text": "選妃用綿衣厚穿令女走出汗來此是何說○對曰非令女出汗乃知其體香若何凡女人體香方得大吉"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "上下配眉已高目細秀",
+     "reading": "已",
+     "alternatives": [
+      "巳"
+     ]
+    }
+   ],
+   "note": ""
+  },
+  {
+   "pdf_page": 71,
+   "page_type": "text",
+   "printed_page": "五五",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "爲官者乃貴人常有遭刀劍刑者爲何○對曰皆因項上有紅絲耳輔多赤色犯此者難逃刀斧亡身"
+    },
+    {
+     "type": "text",
+     "text": "日月交鋒反得善終爲何○對曰凡武將在邊地眼眉上生殺氣正高現於兩顴所以當得爭戰眼不露光項無紅絲非猪食鼠飡乃善人之相能戰之人也"
+    },
+    {
+     "type": "text",
+     "text": "吳尚書之母極陋生二子如梓童是出何相○對曰面雖陋眼若星唇若硃子乃臍腹所載何在面目必是臍厚腹厚腰正體直人若見之俱有懼色凡婦人威嚴者多生貴子非面之福乃五臟六腑寬宏秀麗也後永樂封爲錦陽夫人又云眼秀唇紅當得二國之封詩云面陋唇硃眼若星威嚴沉重世人驚雖然未得爲君后二國褒封拜聖明"
+    },
+    {
+     "type": "text",
+     "text": "宮中之女多不出子何也○對曰古人言美女無肩將軍無項肩太垂而身太弱腰太細而體太輕犯此四者極多乃非厚福之相何得有子"
+    },
+    {
+     "type": "text",
+     "text": "朝中大臣不能飲食既爲官何又祿少○對曰官高雖是印堂寬富貴還須手過膝官"
+    }
+   ],
+   "uncertain": [],
+   "note": ""
+  },
+  {
+   "pdf_page": 72,
+   "page_type": "text",
+   "printed_page": "五六",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "高因印開眉秀耳正目清因此大貴食祿在口若唇薄口蹙食自少也"
+    },
+    {
+     "type": "text",
+     "text": "眉長壽不長何說○對曰書云眉毫不如鼻毫鼻毫不如耳毫耳毫不如枕骨高故此眉長難以保壽凡壽在頭皮項皮血色爲主"
+    },
+    {
+     "type": "text",
+     "text": "耳反爲官大何說○對曰相有可忌有不可忌之說豈可一例而推書云睛雖黃有神光梁雖折準頭豐身雖瘦不露骨此俱不作破敗還作貴相推之"
+    },
+    {
+     "type": "text",
+     "text": "舜目重瞳項羽亦重瞳何說○對曰舜目細而長乃鳳目也項目圓而露眼邊起皮紋如雞眼乃凶相也"
+    },
+    {
+     "type": "text",
+     "text": "甘羅十二太公八十一遲一早何說○對曰此兩位前賢雙耳俱有珠齊口角爲明珠出海甘羅紅如火十二到此卽遇太公白如雪故主老來方遇"
+    },
+    {
+     "type": "text",
+     "text": "凡人一生無疾病何說○對曰人生在世相合乾坤驛馬高明邊地靜印堂平正六陽光疾厄再加無暗滯一生福壽永綿長"
+    },
+    {
+     "type": "text",
+     "text": "凡人一生多疾病何說○對曰山根常暗準顴青兩目生塵目又昏邊地如泥髮如草"
+    }
+   ],
+   "uncertain": [],
+   "note": ""
+  },
+  {
+   "pdf_page": 73,
+   "page_type": "text",
+   "printed_page": "五七",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "一生何日得安寧"
+    },
+    {
+     "type": "text",
+     "text": "朕自爲君以來不脫憂心何說○對曰山根倉庫長青青準赤腮黃氣不勻從此爲君也愁悶庶人得此百無成必待此色一開聖心自安矣"
+    },
+    {
+     "type": "text",
+     "text": "朕爲君以來幸國已平民已富士已裕何說○對曰血足神舒眼愈光印堂平潤是榮昌爲士爲官多獲福庶人得此亦安康"
+    },
+    {
+     "type": "text",
+     "text": "女人多貴中生賤賤中生貴何說人言女人無相又何說○對曰凡女相與男相同女豈無相頭尖髮少必是賤人之女面圓目正可配良人之妻血足氣和可生好子土正顴平可推家業體正而正目秀唇紅再得肩圓可許大貴凡富室之女頭平額闊目若流星唇薄身輕貌美倉削齒白肉光乃賤婦也"
+    },
+    {
+     "type": "text",
+     "text": "五露五反何說○對曰凡一露二露家無隔宿三露四露命常短促五露俱全大貴之格眼露睛不露光鼻露竅不偏梁唇露齒不露掀耳露廓不欠珠此乃金木水火土五露俱犯露梁露光露掀欠珠此還是十分下賤之相五反非善相也乃凶惡之徒"
+    }
+   ],
+   "uncertain": [],
+   "note": ""
+  },
+  {
+   "pdf_page": 74,
+   "page_type": "text",
+   "printed_page": "五八",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "書云五反之中奧妙多術人何以得知之若還一件俱無反方許朝中掛紫衣"
+    },
+    {
+     "type": "text",
+     "text": "五小五極何以辨明○對曰凡五小者一小頭二小身三小手四小足五小面此乃五件一身還要五官六府爲主此乃身體五小非五官五小也若五官俱小爲五極乃小賤之相也凡五小聲大五官三停六府爲配方妙如有一件不配卽不如也五極乃額耳眼鼻口是也卽五星金木水火土書曰五小身頭共四肢莫言耳鼻口如眉若是五官俱得小一生下賤是癡愚"
+    },
+    {
+     "type": "text",
+     "text": "分南北何以爲說○對曰此論南北二京十三省之說〈古書無此乃先生心法也〉分十二宮言之南方屬火故相天停宜火旺方爲有用北方屬水相地閣宜水旺爲妙浙人屬金故金宜清方許榮身閩人相唇口齒閩地近海乃唇齒之關太原乃陝西西方也爲中國屬土河南相穩重淮南相厚實淮北相軒昂江南相輕清江北不嫌重濁徽州乃山嶽峻地故獨相眉江西越尾相氣色不以骨格爲念但各處相若得局方妙不合難許榮身"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "分南北何以爲說",
+     "reading": "分",
+     "alternatives": []
+    },
+    {
+     "context": "南方屬火故相天停",
+     "reading": "南",
+     "alternatives": []
+    },
+    {
+     "context": "江西越尾相氣色",
+     "reading": "越",
+     "alternatives": []
+    }
+   ],
+   "note": "Ink smudges/blots at the head of the columns beginning 書云, 分南北 and 南方屬火 partly obscure the first characters."
+  },
+  {
+   "pdf_page": 75,
+   "page_type": "other",
+   "printed_page": null,
+   "blocks": [],
+   "uncertain": [],
+   "note": "Page otherwise blank except for a circular seal-style printed emblem in the centre (stylised characters, apparently the publisher's 文明 device); not transcribed as text. End of 永樂百問 / main text at p.58 (pdf p.74)."
+  }
+ ]
+}

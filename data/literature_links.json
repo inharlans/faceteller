@@ -1,0 +1,10 @@
+[
+  {"task":"eye","label":"narrow","source_name":"象眼","evidence":"波長眼細","relation":"부분 형태 표현 참고","note":"가늘고 긴 눈이라는 표현만 참고합니다. 상안 전체 유형을 판정하지 않습니다."},
+  {"task":"brow","label":"arched","source_name":"龍眉","evidence":"眉秀彎彎","relation":"부분 형태 표현 참고","note":"굽은 눈썹이라는 표현을 연결합니다. 성김 등 다른 조건은 별도입니다."},
+  {"task":"brow","label":"arched","source_name":"輕清眉","evidence":"眉秀彎長尾帶疏","relation":"부분 형태 표현 참고","note":"굽음 외에 길이·꼬리 밀도 조건도 있으므로 동일 유형이 아닙니다."},
+  {"task":"nose","label":"rounded","source_name":"鹿鼻","evidence":"準更圓","relation":"부분 형태 표현 참고","note":"코끝이 둥글다는 외형 구절만 연결합니다. 녹비의 전체 조건을 충족한다는 뜻이 아닙니다."},
+  {"task":"nose","label":"tapered","source_name":"獐鼻","evidence":"鼻小準尖","relation":"부분 형태 표현 참고","note":"좁아지는 정면 윤곽과 뾰족함은 동일하지 않습니다. 측면과 코 전체 크기를 추가 확인해야 합니다."},
+  {"task":"mouth","label":"full","source_name":"牛口","evidence":"雙脣厚且豐","relation":"부분 형태 표현 참고","note":"위아래 입술의 두께라는 관찰 항목을 공유합니다. 운세 풀이와 연결하지 않습니다."},
+  {"task":"mouth","label":"full","source_name":"彎弓口","evidence":"兩脣豐厚","relation":"부분 형태 표현 참고","note":"두께 외에 활 같은 윤곽 조건도 있어 전체 유형은 확정하지 않습니다."},
+  {"task":"mouth","label":"thin","source_name":"羊口","evidence":"兩脣又薄","relation":"부분 형태 표현 참고","note":"입술 두께만 공유합니다. 입 모양의 다른 조건과 전통 주장은 분리합니다."}
+]

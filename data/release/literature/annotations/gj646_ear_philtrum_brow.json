@@ -1,0 +1,2718 @@
+{
+ "page_id": "gj646",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "耳",
+  "人中",
+  "眉"
+ ],
+ "passages": [
+  {
+   "passage_id": "ZD646B-ear-001",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "水主冬，冬主腎，腎主耳，耳主智，萬物伏匿之日也。",
+   "translation": "수(水)는 겨울을 주관하고, 겨울은 신(腎, 콩팥)을 주관하며, 신은 귀를 주관하고, 귀는 지혜(智)를 주관하니, 만물이 엎드려 숨는 날이다.",
+   "commentary": "오행(五行)의 수(水)를 겨울·신장·귀·지혜에 차례로 배당한 총론이다. 얼굴 형태 서술이 없어 조건을 두지 않았다. 문헌은 귀를 지혜와 연결했다.",
+   "conditions": [],
+   "claim_topics": [
+    "intelligence",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-002",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "頭為主，左為城，右為闕。",
+   "translation": "머리가 주가 되고, 왼쪽은 성(城)이 되며, 오른쪽은 궐(闕)이 된다.",
+   "commentary": "좌우를 성(城)·궐(闕)이라는 부위 이름에 배당한 서술로 보이나, '頭'가 머리 전체인지 귀의 윗부분인지 원문만으로 확정하기 어렵다. 형태 조건과 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-003",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳生毫，壽數高；",
+   "translation": "귀에 긴 털(毫)이 나면 수명의 수가 높다.",
+   "commentary": "귀털에 관한 서술로, 털은 레이블 체계에 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳生毫",
+     "observable_ko": "귀에 긴 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀털 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-004",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳露輪，無科名；",
+   "translation": "귀가 바퀴(輪)를 드러내면 과거 급제의 이름이 없다.",
+   "commentary": "귀바퀴(耳輪)가 앞에서 드러나 보이는 형태로 읽힌다. 귀 윤곽 레이블이 없어 대응하지 않는다. 과명(科名)은 과거 급제를 뜻한다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳露輪",
+     "observable_ko": "귀바퀴가 드러나 보임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-005",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳穴塞，智見沒；",
+   "translation": "귓구멍이 막히면 지혜와 식견이 없다(가라앉는다).",
+   "commentary": "귓구멍의 상태는 정면 얼굴 사진의 형태 항목으로 관찰되지 않는다. 지능에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳穴塞",
+     "observable_ko": "귓구멍이 막힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "귓구멍 내부는 얼굴 사진 형태 항목으로 관찰·측정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-006",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳尖，多辛苦；右耳小是也。",
+   "translation": "귀가 뾰족하면 고생이 많으니, 오른쪽 귀가 작은 것이 이것이다.",
+   "commentary": "귀가 뾰족함과 오른쪽 귀가 작음을 같은 상으로 묶은 구절로 읽었으나 '右耳小是也'의 연결은 해석 여지가 있다. 귀 끝 모양 레이블은 없고, 한쪽 귀의 크기는 길이·너비가 구분되지 않아 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳尖",
+     "observable_ko": "귀(끝)가 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 끝 모양 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "右耳小",
+     "observable_ko": "오른쪽 귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short",
+      "ear_width:narrow"
+     ],
+     "reason": "한쪽 귀만 말하고 '小'가 길이인지 너비인지 구분되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-007",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "男耳如刀環，名勒燕山；",
+   "translation": "남자의 귀가 칼고리(刀環) 같으면 이름을 연산(燕山)에 새긴다.",
+   "commentary": "'이름을 연산에 새긴다'는 변방에서 공을 세워 돌에 이름을 남긴다는 뜻의 표현으로 읽힌다. 칼고리 비유는 귀의 둥근 윤곽을 뜻하는 듯하나 형태가 특정되지 않으며, 남성에게만 적용된다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳如刀環",
+     "observable_ko": "귀가 칼고리 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-008",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳如田字，名標青史。",
+   "translation": "귀가 밭 전(田) 자 같으면 이름이 청사(靑史, 역사책)에 드러난다.",
+   "commentary": "귀의 윤곽이 네모지고 안쪽이 구획된 모양을 글자에 빗댄 것으로 보이나 구체적 형태가 특정되지 않는다. 문헌은 이를 이름을 남김과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳如田字",
+     "observable_ko": "귀가 田 자 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-009",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳輪貼肉，滿堂金玉；",
+   "translation": "귀바퀴가 살에 붙어 있으면 집 안에 금과 옥이 가득하다.",
+   "commentary": "귀바퀴가 머리 쪽 살에 바짝 붙은 형태로 읽을 수 있으나 귀의 돌출 정도 레이블이 없다. 문헌은 이를 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳輪貼肉",
+     "observable_ko": "귀바퀴가 머리 쪽 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-010",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳邊無媚，心拙性鄙；",
+   "translation": "귀 가장자리에 고운 맛(媚)이 없으면 마음이 졸렬하고 성품이 비루하다.",
+   "commentary": "'媚'는 형태가 아닌 미적 평가어라 관찰 항목으로 옮길 수 없다. 문헌은 이를 성품과 지적 능력에 관한 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳邊無媚",
+     "observable_ko": "귀 가장자리가 곱지 않음(미적 평가)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 대응하는 형태 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-011",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳無輪廓，久虛囊橐。",
+   "translation": "귀에 윤곽(輪廓)이 없으면 오래도록 주머니와 전대가 비어 있다.",
+   "commentary": "귀바퀴와 그 안쪽 테두리가 뚜렷하지 않은 귀를 말한다. 귀 윤곽 레이블이 없다. 문헌은 이를 가난과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳無輪廓",
+     "observable_ko": "귀바퀴·테두리가 뚜렷하지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-012",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "頭大耳小，多弱多拗。",
+   "translation": "머리가 크고 귀가 작으면 약함이 많고 고집스러움이 많다.",
+   "commentary": "머리 크기와 귀 크기의 대비를 말한다. 머리 크기 레이블은 없고 '耳小'는 길이·너비를 구분하지 않아 근사 대응이며, '弱'이 몸의 허약인지 성품인지 불분명하다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭大",
+     "observable_ko": "머리가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short",
+      "ear_width:narrow"
+     ],
+     "reason": "耳大/耳小은 길이·너비를 구분하지 않아 근사 대응이다(대기 레이블)"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-013",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "命門有痣，長壽多智。",
+   "translation": "명문(命門, 귀 앞 부위)에 점이 있으면 오래 살고 지혜가 많다.",
+   "commentary": "명문(命門)은 귀 앞쪽 부위를 가리키는 이름으로 해석된다. 특정 위치의 점이라 근사 대응이며, 문헌은 이를 장수·지혜와 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "命門有痣",
+     "observable_ko": "명문(귀 앞)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-014",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "元珠有痣，主子孝義。",
+   "translation": "원주(元珠)에 점이 있으면 자식이 효성스럽고 의로움을 주관한다.",
+   "commentary": "원주(元珠)는 귀의 한 부위 이름으로 보이나 정확한 위치는 원문만으로 확정하기 어렵다. 특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "元珠有痣",
+     "observable_ko": "원주(귀의 한 부위)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-015",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "青色出耳，不久官事。",
+   "translation": "푸른빛이 귀에서 나오면 머지않아 관청의 일이 있다.",
+   "commentary": "기색에 관한 서술로 형태가 아니다. '官事'는 관청과 얽힌 일, 곧 송사로 읽었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "青色出耳",
+     "observable_ko": "귀에서 푸른빛이 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-016",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "天輪有痣，歡樂百歲。",
+   "translation": "천륜(天輪, 귀 윗바퀴)에 점이 있으면 백 년을 즐겁게 산다.",
+   "commentary": "천륜(天輪)은 귀바퀴 윗부분을 가리키는 부위 이름으로 해석된다. 특정 위치의 점이라 근사 대응이며, 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天輪有痣",
+     "observable_ko": "귀 윗바퀴에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-017",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "天城有痣，一品之位。",
+   "translation": "천성(天城)에 점이 있으면 일품(一品)의 지위에 오른다.",
+   "commentary": "천성(天城)은 귀 윗부분의 부위 이름으로 보이나 위치를 확정하기 어렵다. 특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "天城有痣",
+     "observable_ko": "천성(귀 윗부분)에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-018",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳穴深且圓，心虛而識元。",
+   "translation": "귓구멍이 깊고 또 둥글면 마음이 비고 식견이 그윽하다(元).",
+   "commentary": "'元'은 근원·깊음의 뜻으로 직역했으나 해석 여지가 있다. 귓구멍의 깊이·모양은 정면 사진 형태 항목으로 관찰되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳穴深且圓",
+     "observable_ko": "귓구멍이 깊고 둥긂",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "귓구멍 내부는 얼굴 사진 형태 항목으로 관찰·측정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-019",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "耳根雙黑子，定去他鄉死。",
+   "translation": "귀뿌리에 검은 점이 둘 있으면 반드시 타향에 가서 죽는다.",
+   "commentary": "귀뿌리(耳根)의 점에 관한 서술로, 특정 위치의 점이라 근사 대응이다. 문헌은 이를 타향에서의 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳根雙黑子",
+     "observable_ko": "귀뿌리에 검은 점 두 개",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-020",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳青黑而皮又粗，為客異鄉居。",
+   "translation": "귀가 푸르검고 살갗이 또 거칠면 나그네가 되어 타향에 산다.",
+   "commentary": "귀의 색과 피부 결에 관한 서술로 형태 레이블이 없다. 문헌은 이를 타향살이와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳青黑",
+     "observable_ko": "귀가 푸르검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "皮又粗",
+     "observable_ko": "귀 피부가 거침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 결은 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-021",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳薄賣田無祖業，晚年縱得自營生肥人。",
+   "translation": "귀가 얇으면 밭을 팔고 조상의 가업이 없으며, 만년에 설령 스스로 생계를 꾸리게 되더라도 살진 사람(肥人)이다.",
+   "commentary": "귀의 두께에 관한 서술로 귀 두께 레이블이 없다. 끝의 '肥人'은 앞뒤 연결이 분명하지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳薄",
+     "observable_ko": "귀가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-022",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳下內白生，防，病多災危。",
+   "translation": "귀 아래 안쪽에 흰빛이 생기면 대비하라, 병이 많고 재앙과 위험이 있다.",
+   "commentary": "기색에 관한 서술로 형태가 아니다. 문헌은 이를 질병·재앙과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳下內白生",
+     "observable_ko": "귀 아래 안쪽에 흰빛이 생김",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-023",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "青黑氣在兩耳下，宿冤索命冤難釋。",
+   "translation": "푸르검은 기운이 두 귀 아래에 있으면 묵은 원한이 목숨을 요구하니 원한을 풀기 어렵다.",
+   "commentary": "기색에 관한 서술로 형태가 아니다. 문헌은 이를 목숨을 잃는 위협과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "青黑氣在兩耳下",
+     "observable_ko": "두 귀 아래에 푸르검은 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-024",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳白過面，聲聞天下，亦主五十七年遂意。",
+   "translation": "귀가 얼굴보다 희면 명성이 천하에 들리고, 또한 57년 동안 뜻을 이룸을 주관한다.",
+   "commentary": "귀와 얼굴의 색 대비에 관한 서술로 형태가 아니다. 문헌은 이를 명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白過面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-025",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "善相耳，先相色，後相形。",
+   "translation": "귀를 잘 보려면 먼저 색을 보고 뒤에 형태를 본다.",
+   "commentary": "귀를 살피는 순서에 관한 방법론으로, 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-026",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳高于目合，受他祿後為人師。",
+   "translation": "귀가 눈보다 높으면 마땅히 남의 녹을 받고, 뒤에 남의 스승이 된다.",
+   "commentary": "스냅샷의 구두점은 '合' 뒤에 쉼표가 있으나 『허부상법』 상이편의 '耳高於目，合受他祿'과 같은 구절로 보아 '合'을 뒤에 붙여 옮겼다. 귀의 상하 위치 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高于目",
+     "observable_ko": "귀 윗끝이 눈보다 높이 위치함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-027",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳高眉一寸，永無病，貧困",
+   "translation": "귀가 눈썹보다 한 치 높으면 영원히 병과 빈곤이 없다.",
+   "commentary": "스냅샷 구두점은 '貧困'과 뒤의 '耳須朝'를 한 문장으로 묶었으나 『허부상법』 상이편의 '高於眉一寸，永不踐貧困'과 대조해 '貧困'에서 끊었다. 귀의 위치를 절대 길이(한 치)로 말하며 해당 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高眉一寸",
+     "observable_ko": "귀가 눈썹보다 한 치 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치 레이블이 없고 절대 길이 기준이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-028",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳須朝。大海輪竅要分明，垂肩方是貴。",
+   "translation": "귀는 모름지기 대해(大海)를 향해야 하고, 바퀴와 구멍은 분명해야 하며, 어깨까지 드리워야 비로소 귀하다.",
+   "commentary": "스냅샷은 '朝' 뒤에 마침표를 두었으나 '耳須朝大海'로 이어 읽었으며, 대해(大海)가 가리키는 부위는 원문만으로 확정하기 어렵다. '垂肩'은 귀가 어깨에 닿을 만큼 길다는 과장 표현이라 귀 길이의 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳須朝",
+     "observable_ko": "귀가 특정 방향을 향함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "향하는 대상과 형태가 불명확하다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪竅要分明",
+     "observable_ko": "귀바퀴와 귓구멍이 분명함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "垂肩",
+     "observable_ko": "귀가 어깨까지 드리움",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "과장된 비유적 길이로 '耳長'이라는 직접 서술이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-029",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳孔小，骨節曲，沒意智，",
+   "translation": "귓구멍이 작고 뼈마디가 굽으면 뜻과 지혜가 없다.",
+   "commentary": "'骨節曲'이 귀의 연골인지 몸의 뼈마디인지 원문만으로 확정하기 어렵다. 지능에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳孔小",
+     "observable_ko": "귓구멍이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓구멍 크기 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨節曲",
+     "observable_ko": "뼈마디가 굽음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "가리키는 부위가 불명확하고 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-030",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "命門黑子，男聰明，女夫缺。",
+   "translation": "명문(命門)에 검은 점이 있으면 남자는 총명하고 여자는 남편이 이지러진다(남편을 잃는다).",
+   "commentary": "명문(命門)은 귀 앞쪽 부위로 해석되며, 특정 위치의 점이라 근사 대응이다. 성별에 따라 주장이 갈리며, 여성에 대해서는 남편을 잃는다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "命門黑子",
+     "observable_ko": "명문(귀 앞)에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男聰明，女夫缺",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "marriage",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-031",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "女人左耳厚，先生男；右耳厚，先生女。",
+   "translation": "여인의 왼쪽 귀가 두터우면 먼저 아들을 낳고, 오른쪽 귀가 두터우면 먼저 딸을 낳는다.",
+   "commentary": "여성에게만 적용되며 좌우 귀의 두께에 관한 서술이다. 귀 두께와 좌우 구분 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "左耳厚",
+     "observable_ko": "왼쪽 귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께·좌우 구분 레이블이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "右耳厚",
+     "observable_ko": "오른쪽 귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께·좌우 구분 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-ear-032",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "女人青黑從口入耳，懷孕男女子。",
+   "translation": "여인에게 푸르검은 빛이 입에서 귀로 들어가면 아들·딸 자식을 잉태한다.",
+   "commentary": "여성에게만 적용되는 기색 서술로 형태가 아니다. '懷孕男女子'의 뜻은 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "青黑從口入耳",
+     "observable_ko": "푸르검은 빛이 입에서 귀로 들어감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-033",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳上尖者，一生無積財，",
+   "translation": "귀 위가 뾰족한 사람은 일생 쌓인 재물이 없고,",
+   "commentary": "귀 윗부분이 뾰족한 형태를 말하며 귀 끝 모양 레이블이 없다. 문헌은 이를 재물 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳上尖",
+     "observable_ko": "귀 윗부분이 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 끝 모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-034",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "中反者，作事無記，",
+   "translation": "(귀) 가운데가 뒤집힌 사람은 일을 함에 기억함이 없으며,",
+   "commentary": "'反'은 귀바퀴가 뒤집혀 바깥으로 젖혀진 형태로 해석되며 레이블이 없다. '作事無記'의 뜻은 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "中反",
+     "observable_ko": "귀 가운데 부분이 뒤집혀 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-035",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "下反者，無藏庫。",
+   "translation": "아래가 뒤집힌 사람은 곳간에 쌓아 둠이 없다.",
+   "commentary": "귀 아랫부분(귓불 쪽)이 뒤집힌 형태로 읽히며 레이블이 없다. 문헌은 이를 재물 없음과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "下反",
+     "observable_ko": "귀 아랫부분이 뒤집혀 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-036",
+   "section": "耳",
+   "region": "mole",
+   "original_text": "耳輪與堂生黑子，必遭陰人害。若得眼尾相應者，無害。",
+   "translation": "귀바퀴와 당(堂)에 검은 점이 생기면 반드시 음인(陰人)의 해를 만난다. 만약 눈꼬리가 서로 응함을 얻은 사람이면 해가 없다.",
+   "commentary": "'堂'이 가리키는 부위와 '眼尾相應'의 구체적 뜻은 원문만으로 확정하기 어렵다. 음인(陰人)은 여성 또는 드러나지 않은 사람을 뜻하는 말로 쓰인다. 특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳輪與堂生黑子",
+     "observable_ko": "귀바퀴와 당(堂)에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼尾相應",
+     "observable_ko": "눈꼬리가 서로 응함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어떤 형태를 '相應'이라 하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-037",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳大小不等，主異父母，左異父，右異母，",
+   "translation": "귀의 크기가 같지 않으면 아버지나 어머니가 다름을 주관하니, 왼쪽은 아버지가 다르고 오른쪽은 어머니가 다르다.",
+   "commentary": "좌우 귀의 크기 차이를 말한다. 귀 비대칭 레이블이 없다(eye_asymmetry는 눈 전용). 문헌은 이를 부모가 다름과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳大小不等",
+     "observable_ko": "좌우 귀 크기가 다름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 좌우 비대칭 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-038",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "鼠耳全似，殺之不死，亦主偷物",
+   "translation": "쥐의 귀와 온전히 닮으면 죽여도 죽지 않으며, 또한 물건을 훔침을 주관한다.",
+   "commentary": "쥐 귀에 빗댄 비유로 형태가 특정되지 않는다. '殺之不死'의 뜻은 글자대로 옮겼으며, 절도라는 낙인성 주장을 담는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "鼠耳全似",
+     "observable_ko": "쥐 귀를 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-039",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳反人無識，",
+   "translation": "귀가 뒤집힌 사람은 식견이 없다.",
+   "commentary": "귀바퀴가 뒤집혀 젖혀진 형태로 읽히며 레이블이 없다. 지적 능력에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳反",
+     "observable_ko": "귀가 뒤집혀 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 해당 형태(윤곽·위치·두께 등)에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-040",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳不明，不過三十，",
+   "translation": "귀가 밝지 않으면 서른을 넘기지 못한다.",
+   "commentary": "'不明'은 귀의 빛깔·광택이 맑지 않음으로 읽었으며 형태가 아니다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳不明",
+     "observable_ko": "귀의 빛이 밝지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-041",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳門外有三立理紋者，學道成立。",
+   "translation": "귀문(耳門) 바깥에 세로 결무늬 셋이 있는 사람은 도를 배워 이룬다.",
+   "commentary": "귀 앞 부위의 세로 주름에 관한 서술로 주름은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門外有三立理紋",
+     "observable_ko": "귀문 바깥에 세로 주름 셋",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-042",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "在神光後，有青色入左右耳，乃陰陽相通，不久父母災。",
+   "translation": "신광(神光) 뒤에 푸른빛이 좌우 귀로 들어감이 있으면 이는 음양이 서로 통한 것이니, 머지않아 부모에게 재앙이 있다.",
+   "commentary": "신광(神光)이 가리키는 부위는 원문만으로 확정하기 어렵다. 기색 서술로 형태가 아니며, 문헌은 이를 부모의 재앙과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "有青色入左右耳",
+     "observable_ko": "푸른빛이 좌우 귀로 들어감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-043",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "青黑色從左耳直連福堂上橫過，乃元索之氣，七日內自縊死。",
+   "translation": "푸르검은 빛이 왼쪽 귀에서 곧장 복당(福堂)으로 이어져 위로 가로지르면 이는 원색(元索)의 기운이니, 7일 안에 스스로 목매어 죽는다.",
+   "commentary": "기색 서술로 형태가 아니다. '元索之氣'의 정확한 뜻은 해석 여지가 있다. 스스로 목숨을 끊는다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "青黑色從左耳直連福堂上橫過",
+     "observable_ko": "푸르검은 빛이 왼쪽 귀에서 복당으로 이어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-044",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "黑氣從耳來，至地閣日下亡。",
+   "translation": "검은 기운이 귀에서 와서 지각(地閣, 턱)에 이르면 곧 죽는다.",
+   "commentary": "기색 서술로 형태가 아니다. '日下'는 머지않은 때를 뜻하는 것으로 읽었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "黑氣從耳來，至地閣",
+     "observable_ko": "검은 기운이 귀에서 턱으로 이어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-045",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "從耳到食倉上來，年卯巳月亡。",
+   "translation": "(검은 기운이) 귀에서 식창(食倉) 위로 오면 묘(卯)년 사(巳)월에 죽는다.",
+   "commentary": "앞 구절의 검은 기운을 이어받는 것으로 읽었다. '年卯巳月'의 구두와 뜻은 해석 여지가 있다. 기색 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "從耳到食倉上來",
+     "observable_ko": "기운이 귀에서 식창 위로 옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-046",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "青色從耳出，到年上壽上，名曰「垂闊。」若子有災，父父有災，子子有災，母母有災，子兄有災，弟弟有災，兄姊有災，妹妹有災，姊夫有災，妻妻有災，夫詳細驗之，",
+   "translation": "푸른빛이 귀에서 나와 연상(年上)·수상(壽上)에 이르면 이름하여 '수활(垂闊)'이라 한다. 만약 아들에게 있으면 아버지에게 재앙이 있고, 아버지에게 있으면 아들에게, 아들에게 있으면 어머니에게, 어머니에게 있으면 아들에게, 형에게 있으면 아우에게, 아우에게 있으면 형에게, 언니에게 있으면 누이동생에게, 누이동생에게 있으면 언니에게, 남편에게 있으면 아내에게, 아내에게 있으면 남편에게 재앙이 있으니, 자세히 징험하라.",
+   "commentary": "스냅샷의 쉼표는 '若子有災，父父有災…'로 찍혀 있으나 '子有，災父；父有，災子…'처럼 한 글자씩 밀어 읽어야 뜻이 통하여 그렇게 옮겼다. 연상·수상(年上·壽上)은 콧대 중간 부위 이름이며, 기색 서술로 형태가 아니다. 문헌은 이 기색을 가족에게 미치는 재앙과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "青色從耳出，到年上壽上",
+     "observable_ko": "푸른빛이 귀에서 콧대 중간으로 이어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-047",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "兩耳忽出赤氣，十日內墜馬卒。",
+   "translation": "두 귀에 갑자기 붉은 기운이 나오면 10일 안에 말에서 떨어져 죽는다.",
+   "commentary": "기색 서술로 형태가 아니다. 문헌은 이를 사고에 의한 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳忽出赤氣",
+     "observable_ko": "두 귀에 붉은 기운이 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-048",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳大末無知，似禽者不相。",
+   "translation": "귀가 크나 끝(末)에 앎이 없으며, 날짐승을 닮은 자는 상(相)이 되지 않는다.",
+   "commentary": "'末無知'와 '不相'의 뜻이 분명하지 않아 글자대로 옮겼다('不相'은 재상이 되지 못함으로도 읽힌다). '耳大'는 길이·너비를 구분하지 않아 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long",
+      "ear_width:wide"
+     ],
+     "reason": "耳大은 길이·너비를 구분하지 않아 근사 대응이다(대기 레이블)"
+    },
+    {
+     "region": "face",
+     "evidence": "似禽",
+     "observable_ko": "날짐승을 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-049",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "耳鼻如鸞鳳者，雖耳鼻不佳，人中短促，自不妨貴與壽。",
+   "translation": "귀와 코가 난새·봉황(鸞鳳) 같은 사람은, 비록 귀와 코가 좋지 않고 인중이 짧고 촉박하더라도 저절로 귀함과 수명에 방해되지 않는다.",
+   "commentary": "새 비유는 형태가 특정되지 않는다. '인중이 짧다(人中短促)'는 philtrum_length:short로 정확히 옮길 수 있으나, 문헌은 이를 비유적 귀·코 형상의 예외 조건으로 들고 귀함·수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳鼻如鸞鳳",
+     "observable_ko": "귀와 코가 난새·봉황 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳鼻不佳",
+     "observable_ko": "귀와 코가 좋지 않음(평가)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어로 형태 기준이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "人中短促",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-ear-050",
+   "section": "耳",
+   "region": "ear",
+   "original_text": "以理推之，「禹耳三漏，文王四乳」，然則世人亦有四乳者，駑馬一毛似驥也。",
+   "translation": "이치로 미루어 보면 '우(禹)는 귀에 구멍이 셋이고 문왕(文王)은 젖이 넷'이라 하는데, 그렇다면 세상 사람 중에도 젖이 넷인 자가 있으니, 둔한 말의 털 하나가 천리마를 닮은 격이다.",
+   "commentary": "전설적 성인의 특이한 형상을 인용하면서, 한 가지 특징이 같다고 같은 상이 되지는 않는다는 논변으로 읽힌다. 귀 구멍 수와 유두 수는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "禹耳三漏",
+     "observable_ko": "귀에 구멍이 셋",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 구멍 수 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "文王四乳",
+     "observable_ko": "젖이 넷",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진으로 관찰되지 않는 신체 부위다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-001",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "土主季夏，夏主脾，脾主脣，脣主信，萬物結實之月也。人中之主：",
+   "translation": "토(土)는 늦여름을 주관하고, 여름은 비(脾, 지라)를 주관하며, 비는 입술을 주관하고, 입술은 믿음(信)을 주관하니, 만물이 열매 맺는 달이다. 인중이 주관하는 바는 (다음과 같다):",
+   "commentary": "오행의 토(土)를 늦여름·비장·입술·신의에 배당한 총론이며, 끝의 '人中之主'는 뒤따르는 인중(人中, 코 밑에서 윗입술까지의 홈) 조목의 머리말이다. 형태 서술이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-002",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中赤，多讒鬥；",
+   "translation": "인중이 붉으면 참소(讒)와 다툼이 많다.",
+   "commentary": "인중의 색에 관한 서술로 형태가 아니다. 문헌은 이를 남을 헐뜯음과 다툼에 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中赤",
+     "observable_ko": "인중이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-003",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中曲，愛淫慾；",
+   "translation": "인중이 굽으면 음욕을 좋아한다.",
+   "commentary": "인중의 휨에 관한 서술로 인중 모양·치우침 레이블이 없다. 성적 행실에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中曲",
+     "observable_ko": "인중이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 휨·치우침 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-004",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中淺，多破財；",
+   "translation": "인중이 얕으면 재물을 깨뜨림이 많다.",
+   "commentary": "인중이 얕음은 philtrum_definition:faint로 정확히 옮길 수 있으나 이 레이블은 정의가 확정된 정식 항목이며, 서비스 표시는 해당 특징 모델의 런타임 검증 여부에 따른다. 문헌은 이를 재물 손실과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中淺",
+     "observable_ko": "인중 홈이 얕음",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-005",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中廣平，養子不成；",
+   "translation": "인중이 넓고 평평하면 자식을 길러도 이루지 못한다.",
+   "commentary": "'平'은 인중 홈이 평평하여 뚜렷하지 않음(philtrum_definition:faint)으로 옮길 수 있으나 '廣'(너비)은 레이블이 없다. 문헌은 이를 자식을 잃음과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中廣",
+     "observable_ko": "인중이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중 홈이 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘에 맞게 '대기 레이블' 서술을 정정"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-006",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中橫紋，若朋非朋；",
+   "translation": "인중에 가로 주름이 있으면 벗인 듯하나 벗이 아니다.",
+   "commentary": "인중의 가로 주름에 관한 서술로 주름은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中橫紋",
+     "observable_ko": "인중에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-007",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中交紋，溺水招魂；",
+   "translation": "인중에 엇갈린 주름이 있으면 물에 빠져 혼을 부르게 된다.",
+   "commentary": "초혼(招魂)은 죽은 이의 혼을 부르는 의례로, 익사를 뜻하는 주장이다. 주름은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中交紋",
+     "observable_ko": "인중에 엇갈린 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-008",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中白色，七日哭聲；",
+   "translation": "인중이 흰빛이면 7일 안에 곡하는 소리가 있다.",
+   "commentary": "인중의 색에 관한 서술로 형태가 아니다. 곡소리는 상(喪)을 뜻하는 것으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中白色",
+     "observable_ko": "인중이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-009",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中短小，子孫失夭；",
+   "translation": "인중이 짧고 작으면 자손을 잃고 일찍 죽는다.",
+   "commentary": "'짧다(短)'는 philtrum_length:short로 정확히 옮길 수 있으나, '小'가 너비인지 전체 크기인지 불분명하다. 문헌은 이를 자손의 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中短",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "小",
+     "observable_ko": "인중이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "'小'가 너비인지 크기인지 불분명하고 인중 너비 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-010",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中高厚，受命不久；",
+   "translation": "인중이 높고 두터우면 받은 목숨이 오래가지 않는다.",
+   "commentary": "인중의 융기·두께를 말하며 레이블이 없다. 『허부상법』 상인중편은 같은 '人中高厚'를 장수와 연결해, 두 문헌의 주장이 반대다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中高厚",
+     "observable_ko": "인중이 높고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 융기·두께 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-011",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中平長，有壽無郎；",
+   "translation": "인중이 평평하고 길면 수명은 있으나 아들이 없다.",
+   "commentary": "'길다(長)'는 philtrum_length:long, '평평하다(平)'는 philtrum_definition:faint로 옮길 수 있다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중 홈이 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "長",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정 / AI cross-file review (not human): 확정된 release 어휘에 맞게 '대기 레이블' 서술을 정정"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-012",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中分明，正直如神；",
+   "translation": "인중이 분명하면 바르고 곧음이 신과 같다.",
+   "commentary": "'分明'은 인중 홈의 뚜렷함으로 읽을 수 있으나 가이드의 정확 표현(人中深)이 아니어서 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中分明",
+     "observable_ko": "인중이 뚜렷함",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "philtrum_definition의 정확 표현(人中深)이 아니어서 근사 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-013",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中立理，妨子無義；",
+   "translation": "인중에 세로 결이 있으면 자식을 해치고 의리가 없다.",
+   "commentary": "인중의 세로 결(주름)에 관한 서술로 레이블이 없다. 자식을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中立理",
+     "observable_ko": "인중에 세로 결",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring",
+    "kinship_harm"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-014",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中青白，氣必定見乖離；",
+   "translation": "인중이 푸르고 희면 기운이 반드시 어긋나 떨어짐(乖離)을 보인다.",
+   "commentary": "인중의 색·기운에 관한 서술로 형태가 아니다. '乖離'가 누구와의 떨어짐인지는 원문에 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中青白",
+     "observable_ko": "인중이 푸르고 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-015",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中不分明，無子是非人。",
+   "translation": "인중이 분명하지 않으면 자식이 없고 시비(是非)를 일으키는 사람이다.",
+   "commentary": "'不分明'은 인중 홈이 흐림으로 읽을 수 있으나 정확 표현(人中淺·人中平·人中漫)이 아니어서 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中不分明",
+     "observable_ko": "인중이 뚜렷하지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "philtrum_definition의 정확 표현(人中淺·平·漫)이 아니어서 근사 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-016",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中黑入口，百日內受餒。",
+   "translation": "인중의 검은빛이 입으로 들어가면 100일 안에 굶주림을 받는다.",
+   "commentary": "기색 서술로 형태가 아니다. 문헌은 이를 굶주림과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中黑入口",
+     "observable_ko": "인중의 검은빛이 입으로 들어감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-017",
+   "section": "人中",
+   "region": "mole",
+   "original_text": "人中雙黑子，婦人必雙生。",
+   "translation": "인중에 검은 점이 둘이면 부인은 반드시 쌍둥이를 낳는다.",
+   "commentary": "여성에게만 적용되는 서술이다. 특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中雙黑子",
+     "observable_ko": "인중에 검은 점 두 개",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "婦人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-018",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中青，十日內喜至。",
+   "translation": "인중이 푸르면 10일 안에 기쁨이 이른다.",
+   "commentary": "인중의 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中青",
+     "observable_ko": "인중이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-019",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中紫，七日內得財。",
+   "translation": "인중이 자줏빛이면 7일 안에 재물을 얻는다.",
+   "commentary": "인중의 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中紫",
+     "observable_ko": "인중이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-020",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中黃，百二十日內生貴子。",
+   "translation": "인중이 누르면 120일 안에 귀한 아들을 낳는다.",
+   "commentary": "인중의 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中黃",
+     "observable_ko": "인중이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-021",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中上狹下闊巧計人。",
+   "translation": "인중이 위는 좁고 아래는 넓으면 교묘한 꾀를 쓰는 사람이다.",
+   "commentary": "인중의 위아래 너비 차이를 말하며 해당 레이블이 없다. 문헌은 이를 꾀를 부리는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中上狹下闊",
+     "observable_ko": "인중 위가 좁고 아래가 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비·모양 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-022",
+   "section": "人中",
+   "region": "mole",
+   "original_text": "人中黑子，主養他子，亦主善終。",
+   "translation": "인중에 검은 점이 있으면 남의 자식을 기름을 주관하고, 또한 좋게 생을 마침을 주관한다.",
+   "commentary": "특정 위치의 점이라 근사 대응이다. 문헌은 이를 양자와 생의 마무리에 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中黑子",
+     "observable_ko": "인중에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-philtrum-023",
+   "section": "人中",
+   "region": "philtrum",
+   "original_text": "人中雖深闊，中間卻高，子晚方成。",
+   "translation": "인중이 비록 깊고 넓더라도 가운데가 도리어 높으면 자식이 늦게야 이루어진다.",
+   "commentary": "'깊다(深)'는 philtrum_definition:clear로 옮길 수 있으나, 너비(闊)와 가운데 융기(中間卻高)는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "深",
+     "observable_ko": "인중 홈이 깊음",
+     "status": "exact",
+     "label": "philtrum_definition:clear"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "闊",
+     "observable_ko": "인중이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "中間卻高",
+     "observable_ko": "인중 가운데가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 융기 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "ZD646B-philtrum-024",
+   "section": "人中",
+   "region": "mole",
+   "original_text": "人中有痣，娶妻容易。",
+   "translation": "인중에 점이 있으면 아내를 얻기가 쉽다.",
+   "commentary": "특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中有痣",
+     "observable_ko": "인중에 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-001",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "「堯眉八彩，舜目重瞳」，非以其似八字也。",
+   "translation": "'요(堯)의 눈썹은 여덟 빛깔이고 순(舜)의 눈은 눈동자가 겹이다'라 함은 그것이 팔(八) 자를 닮았기 때문이 아니다.",
+   "commentary": "전설적 성왕의 형상을 인용하여 '八彩'를 팔자 눈썹으로 읽지 말라는 서술로 보인다. 빛깔(八彩)과 겹눈동자(重瞳)는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "堯眉八彩",
+     "observable_ko": "눈썹이 여덟 빛깔",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "舜目重瞳",
+     "observable_ko": "눈동자가 겹",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "겹눈동자 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-002",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉毛平，尊貴人。",
+   "translation": "눈썹 털이 평평하면 존귀한 사람이다.",
+   "commentary": "'平' 단독은 가이드의 정확 표현(一字·眉直·平直)이 아니고, 높낮이가 고른 것인지 모양이 곧은 것인지 불분명하여 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛平",
+     "observable_ko": "눈썹이 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:straight"
+     ],
+     "reason": "'平' 단독은 정확 표현(一字·眉直·平直)이 아니며 뜻이 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-003",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉過目，智過人。",
+   "translation": "눈썹이 눈을 지나면 지혜가 남을 넘어선다.",
+   "commentary": "눈썹이 눈 길이를 넘어 이어짐(過目)은 brow_length:long으로 정확히 옮길 수 있다. 문헌은 이를 지적 능력과 연결했으며, 이는 민감한 주장이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉過目",
+     "observable_ko": "눈썹이 눈보다 길게 이어짐",
+     "status": "exact",
+     "label": "brow_length:long"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-004",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉露骨，多夭卒。",
+   "translation": "눈썹에 뼈가 드러나면 일찍 죽는 일이 많다.",
+   "commentary": "눈썹뼈가 도드라진 형태로 읽히며 눈썹뼈 돌출 레이블이 없다. 문헌은 이를 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉露骨",
+     "observable_ko": "눈썹뼈가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-005",
+   "section": "眉",
+   "region": "glabella",
+   "original_text": "眉間黃，喜事長。",
+   "translation": "눈썹 사이가 누르면 기쁜 일이 오래간다.",
+   "commentary": "미간의 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉間黃",
+     "observable_ko": "눈썹 사이가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-006",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉細彎彎，學識多般。",
+   "translation": "눈썹이 가늘고 휘어 굽으면 학식이 여러 방면이다.",
+   "commentary": "'眉細'는 brow_thickness:thin, '彎彎'은 brow_shape:arched로 정확히 옮길 수 있다. 문헌은 이를 학식과 연결했으며, 지적 능력에 관한 민감한 주장이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉細",
+     "observable_ko": "눈썹이 가늚",
+     "status": "exact",
+     "label": "brow_thickness:thin"
+    },
+    {
+     "region": "brow",
+     "evidence": "彎彎",
+     "observable_ko": "눈썹이 활처럼 휨",
+     "status": "exact",
+     "label": "brow_shape:arched"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-007",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉直頭昂，意氣雄強。",
+   "translation": "눈썹이 곧고 머리가 들리면 의기가 웅장하고 강하다.",
+   "commentary": "'眉直'은 brow_shape:straight로 정확히 옮길 수 있으나, '頭昂'이 눈썹 머리가 들린 것인지 머리를 든 자세인지 불분명하다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉直",
+     "observable_ko": "눈썹이 곧음",
+     "status": "exact",
+     "label": "brow_shape:straight"
+    },
+    {
+     "region": "brow",
+     "evidence": "頭昂",
+     "observable_ko": "(눈썹) 머리가 들림",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'頭'가 눈썹 머리인지 머리 자세인지 불명확하고 눈썹 머리 높이 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-008",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉有陣雲，武藝成名。",
+   "translation": "눈썹에 진운(陣雲, 진을 친 구름)이 있으면 무예로 이름을 이룬다.",
+   "commentary": "구름 비유로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉有陣雲",
+     "observable_ko": "눈썹이 진 친 구름 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-009",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉疏而散，暫富終貧。",
+   "translation": "눈썹이 성기고 흩어지면 잠시 부유하나 끝내 가난하다.",
+   "commentary": "'疏'와 '散'은 모두 눈썹 털이 성긴 형태로 brow_density:sparse에 정확히 대응한다. 문헌은 이를 끝내 가난함과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉疏而散",
+     "observable_ko": "눈썹 털이 성기고 흩어짐",
+     "status": "exact",
+     "label": "brow_density:sparse"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-010",
+   "section": "眉",
+   "region": "forehead",
+   "original_text": "眉上立理，女妨夫婿。",
+   "translation": "눈썹 위에 세로 결이 있으면 여자는 남편을 해친다.",
+   "commentary": "여성에게만 적용되며 눈썹 위의 세로 주름에 관한 서술로 레이블이 없다. 남편을 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "眉上立理",
+     "observable_ko": "눈썹 위 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-011",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉過鬢生，常懷不足。",
+   "translation": "눈썹이 귀밑털(鬢)이 난 곳을 지나면 늘 부족함을 품는다.",
+   "commentary": "눈썹이 관자놀이 머리털까지 이른다는 과장 표현으로, 정확 표현(眉長·過目·過眼)과 기준이 달라 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉過鬢生",
+     "observable_ko": "눈썹이 귀밑털 쪽까지 이어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "관자놀이까지 이른다는 과장 표현으로 눈 길이 대비 기준과 다르다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-012",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉濃髮厚，心賊損壽。",
+   "translation": "눈썹이 짙고 머리털이 두터우면 마음이 도둑 같고 수명을 덜어낸다.",
+   "commentary": "'眉濃'은 brow_density:dense로 정확히 옮길 수 있으나 머리털은 레이블이 없다. 문헌은 이를 해로운 마음과 수명 감소에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉濃",
+     "observable_ko": "눈썹이 짙음",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "other",
+     "evidence": "髮厚",
+     "observable_ko": "머리털이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-013",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉過眼角，兄弟五六。",
+   "translation": "눈썹이 눈꼬리를 지나면 형제가 대여섯이다.",
+   "commentary": "눈썹이 눈꼬리를 넘어 이어짐(過眼)은 brow_length:long으로 정확히 옮길 수 있다. 문헌은 이를 형제 수와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉過眼角",
+     "observable_ko": "눈썹이 눈꼬리보다 길게 이어짐",
+     "status": "exact",
+     "label": "brow_length:long"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-014",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉如掃箒。兄弟八九，",
+   "translation": "눈썹이 빗자루 같으면 형제가 여덟아홉이다.",
+   "commentary": "스냅샷은 '掃箒' 뒤에 마침표를 두었으나 뒤 구절과 이어 읽었다. 빗자루 비유는 숱이 많거나 끝이 흩어진 모양으로 읽힐 수 있어 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如掃箒",
+     "observable_ko": "눈썹이 빗자루 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:dense",
+      "brow_tail_clarity:fading"
+     ],
+     "reason": "숱이 많음인지 끝이 흩어짐인지 비유만으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-015",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉毛婆娑，兒少女多。",
+   "translation": "눈썹 털이 너울너울 흐트러지면 아들은 적고 딸은 많다.",
+   "commentary": "'婆娑'는 너울거리며 흐트러진 모양을 뜻하는 말로, 구체적 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛婆娑",
+     "observable_ko": "눈썹 털이 너울거림",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "묘사어만 있고 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-016",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉短于目，多主孤獨，縱有兄弟，非是同。腹",
+   "translation": "눈썹이 눈보다 짧으면 대개 외로움을 주관하니, 설령 형제가 있더라도 같은 배(同腹)에서 난 형제가 아니다.",
+   "commentary": "스냅샷은 '腹' 앞에 마침표를 찍었으나 '非是同腹'으로 이어 읽어 '腹'까지 이 단락에 넣었다. 눈썹이 눈보다 짧음은 brow_length:short로 정확히 옮길 수 있다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉短于目",
+     "observable_ko": "눈썹이 눈보다 짧음",
+     "status": "exact",
+     "label": "brow_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm"
+   ],
+   "review_note": "AI cross-file review (not human): '非是同腹'은 형제의 출생에 관한 낙인성 가족 주장이라 kinship_harm으로 태깅"
+  },
+  {
+   "passage_id": "ZD646B-brow-017",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉分八字，眉裡三紋，女終再嫁，男主再婚。",
+   "translation": "눈썹이 팔(八) 자로 갈라지고 눈썹 속에 주름 셋이 있으면, 여자는 끝내 다시 시집가고 남자는 다시 혼인함을 주관한다.",
+   "commentary": "'八字'는 눈썹 꼬리가 아래로 처진 brow_tail:descending으로 옮길 수 있으나, 눈썹 속 주름은 레이블이 없고 성별에 따라 주장이 갈린다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "八字",
+     "observable_ko": "눈썹 꼬리가 팔자로 처짐",
+     "status": "exact",
+     "label": "brow_tail:descending"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉裡三紋",
+     "observable_ko": "눈썹 속 주름 셋",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女終再嫁，男主再婚",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-018",
+   "section": "眉",
+   "region": "mole",
+   "original_text": "眉中黑子，必有術藝，男主妨妻，女必妨夫。",
+   "translation": "눈썹 가운데에 검은 점이 있으면 반드시 기술과 재주가 있고, 남자는 아내를 해치며 여자는 반드시 남편을 해친다.",
+   "commentary": "특정 위치의 점이라 근사 대응이다. 배우자를 해친다는 낙인성 주장이 성별에 따라 붙는다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "眉中黑子",
+     "observable_ko": "눈썹 가운데에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男主妨妻，女必妨夫",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "other",
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-019",
+   "section": "眉",
+   "region": "glabella",
+   "original_text": "眉心赤氣滿三陽，七日妻滿床。",
+   "translation": "미심(眉心, 두 눈썹 사이)의 붉은 기운이 삼양(三陽)에 가득하면 7일에 아내가 침상에 가득하다.",
+   "commentary": "삼양(三陽)은 부위 이름으로 보이나 위치를 확정하기 어렵고, '妻滿床'의 뜻도 분명하지 않아 글자대로 옮겼다. 기색 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉心赤氣滿三陽",
+     "observable_ko": "미심의 붉은 기운이 삼양에 가득함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-020",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉毛左右旋豪子正當權重，",
+   "translation": "눈썹 털이 좌우로 소용돌이치면 호걸스러운 아들(豪子)이 바로 무거운 권세를 맡는다.",
+   "commentary": "구두가 없어 '眉毛左右旋'과 '豪子正當權重'으로 끊어 읽었으나 해석 여지가 크다. 눈썹 털의 결 방향은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛左右旋",
+     "observable_ko": "눈썹 털이 좌우로 소용돌이침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-021",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉主勇健，眉如弓者善。",
+   "translation": "눈썹은 용맹과 굳셈을 주관하니, 눈썹이 활 같은 사람은 좋다.",
+   "commentary": "'如弓'은 정확 표현(如彎弓·如新月)과 가깝지만 활 비유만으로 휜 정도가 확정되지 않아 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如弓",
+     "observable_ko": "눈썹이 활 같음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "정확 표현(如彎弓 등)이 아닌 활 비유로 휜 정도가 확정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-022",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉連休望祿，又好偷錢穀。",
+   "translation": "눈썹이 이어졌으면 녹봉을 바라지 말라, 또 돈과 곡식을 훔치기를 좋아한다.",
+   "commentary": "두 눈썹이 이어진 일자 눈썹(眉連)은 가이드상 레이블이 없는 형태다. 절도라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉連",
+     "observable_ko": "두 눈썹이 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이어진 눈썹(眉交/連)은 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-023",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "不得強攢眉，多招橫禍隨。",
+   "translation": "억지로 눈썹을 찌푸려서는 안 되니, 뜻밖의 재앙을 많이 불러 따르게 한다.",
+   "commentary": "눈썹을 찌푸리는 동작에 관한 서술로 정지 사진 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "強攢眉",
+     "observable_ko": "눈썹을 찌푸림(동작)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "표정·동작은 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-024",
+   "section": "眉",
+   "attributed_to": "郭林宗",
+   "region": "glabella",
+   "original_text": "郭林宗曰：「久攢則紋深深者，謂之破家」煞。",
+   "translation": "곽림종(郭林宗)이 말하였다. '오래 찌푸리면 주름이 깊어지니, 깊은 것을 집안을 깨뜨림이라 한다' 살(煞)이다.",
+   "commentary": "따옴표 밖의 '煞'은 '破家煞'이라는 흉살 이름의 일부로 보인다. 미간 주름은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "紋深深",
+     "observable_ko": "찌푸림으로 생긴 깊은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-025",
+   "section": "眉",
+   "region": "glabella",
+   "original_text": "眉中直上有紋，耽酒賭錢人。",
+   "translation": "눈썹 가운데에 곧게 위로 뻗은 주름이 있으면 술에 빠지고 돈 내기를 하는 사람이다.",
+   "commentary": "세로 주름에 관한 서술로 레이블이 없다. 문헌은 이를 음주·도박과 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉中直上有紋",
+     "observable_ko": "눈썹 가운데 위로 뻗은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-026",
+   "section": "眉",
+   "region": "glabella",
+   "original_text": "眉心有紋如水字，雖貴終獄死",
+   "translation": "미심에 물 수(水) 자 같은 주름이 있으면 비록 귀하더라도 끝내 옥에서 죽는다",
+   "commentary": "미간 주름에 관한 서술로 레이블이 없다. 옥사(獄死)라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉心有紋如水字",
+     "observable_ko": "미심에 水 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-027",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "倒生。眉多是非。",
+   "translation": "거꾸로 난 눈썹은 시비가 많다.",
+   "commentary": "스냅샷은 '倒生' 뒤에 마침표를 두었으나 '倒生眉(거꾸로 난 눈썹)'로 이어 읽었다. 앞 구절 끝에 붙여 읽을 가능성도 있다. 눈썹 털 방향 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "倒生",
+     "observable_ko": "눈썹 털이 거꾸로 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-028",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉毛逆起怨雙親。",
+   "translation": "눈썹 털이 거슬러 일어나면 부모를 원망한다.",
+   "commentary": "눈썹 털의 결 방향에 관한 서술로 레이블이 없다. 문헌은 이를 부모와의 불화와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛逆起",
+     "observable_ko": "눈썹 털이 거슬러 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 결·방향 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-029",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉缺無信。",
+   "translation": "눈썹이 이지러지면 믿음이 없다.",
+   "commentary": "눈썹 일부가 끊긴 형태로 읽히며 레이블이 없다. 신의가 없다는 낙인성 평가다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉缺",
+     "observable_ko": "눈썹이 끊기거나 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 결손 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-030",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉如畫者，一生得陰人財。",
+   "translation": "눈썹이 그린 듯한 사람은 일생 음인(陰人)의 재물을 얻는다.",
+   "commentary": "'그린 듯하다'는 미적 묘사로 구체적 형태가 특정되지 않는다. 음인(陰人)은 여성 또는 드러나지 않은 사람을 뜻하는 말로 쓰인다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉如畫",
+     "observable_ko": "눈썹이 그린 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "미적 묘사로 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-031",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉上有骨陡高者，謂之久綰骨，常上包含之志重。",
+   "translation": "눈썹 위에 뼈가 가파르게 높은 사람은 이를 구관골(久綰骨)이라 하니, 늘 위로 포용하는 뜻이 무겁다.",
+   "commentary": "'常上包含之志重'의 뜻은 분명하지 않아 글자대로 옮겼다. 눈썹뼈 돌출 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉上有骨陡高",
+     "observable_ko": "눈썹 위 뼈가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-032",
+   "section": "眉",
+   "region": "forehead",
+   "original_text": "眉上為官祿。其上要橫而闊，潤而光，一生無官殃。",
+   "translation": "눈썹 위는 관록(官祿)이 된다. 그 위는 가로로 넓고 윤택하고 빛나야 하니, (그러면) 일생 관청의 재앙이 없다.",
+   "commentary": "눈썹 위 부위를 관록에 배당한 서술이다. 넓다는 서술은 이마 너비와 가깝지만 같은 기준인지 불분명하고, 윤택함·빛은 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "橫而闊",
+     "observable_ko": "눈썹 위 부위가 가로로 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "눈썹 위 부위의 넓음이 이마 전체 너비와 같은 기준인지 불분명하다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "潤而光",
+     "observable_ko": "눈썹 위 부위가 윤택하고 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "광택은 조명에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-033",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉重初年厄。",
+   "translation": "눈썹이 무거우면 초년에 액이 있다.",
+   "commentary": "'重'은 숱이 짙음인지 굵음인지 불분명하여 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉重",
+     "observable_ko": "눈썹이 무거움",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:dense",
+      "brow_thickness:thick"
+     ],
+     "reason": "짙음과 굵음 중 무엇인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-034",
+   "section": "眉",
+   "region": "glabella",
+   "original_text": "眉心十月丹砂，如雲霧起者，乃牢獄發。",
+   "translation": "미심에 시월(十月)에 단사(丹砂) 같은 빛이 구름·안개처럼 일어나면 감옥의 일이 일어난다.",
+   "commentary": "'十月'은 시기를 뜻하는 것으로 읽었으나 해석 여지가 있다. 기색 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉心十月丹砂，如雲霧起",
+     "observable_ko": "미심에 붉은빛이 구름처럼 일어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-035",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉頭兩邊為交友驛馬。青主失脫，白不宜出；入主半路回程。",
+   "translation": "눈썹머리 양쪽은 교우(交友)·역마(驛馬)가 된다. 푸르면 잃어버림을 주관하고, 희면 나가는 것이 마땅치 않으며, 들어오면 길 중간에 돌아옴을 주관한다.",
+   "commentary": "눈썹머리 양쪽을 교우·역마 부위에 배당하고 그 기색을 풀이한 서술로 형태가 아니다. '入'이 무엇이 들어옴인지는 원문에 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "青主失脫，白不宜出",
+     "observable_ko": "눈썹머리 양쪽의 푸른빛·흰빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-036",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "左邊眉尾淡，妨三妻，右邊眉尾淡，妨四妻。",
+   "translation": "왼쪽 눈썹 꼬리가 옅으면 세 아내를 해치고, 오른쪽 눈썹 꼬리가 옅으면 네 아내를 해친다.",
+   "commentary": "한쪽 눈썹 꼬리만을 말하고 '淡'은 꼬리 쪽 정확 표현(尾散·尾疏·後疏)이 아니어서 근사 대응이다. 배우자를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "左邊眉尾淡",
+     "observable_ko": "왼쪽 눈썹 꼬리가 옅음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail_clarity:fading"
+     ],
+     "reason": "한쪽만 말하고 '淡'은 꼬리 쪽 정확 표현이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "右邊眉尾淡",
+     "observable_ko": "오른쪽 눈썹 꼬리가 옅음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail_clarity:fading"
+     ],
+     "reason": "한쪽만 말하고 '淡'은 꼬리 쪽 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-037",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "兩眉尾都淡，果有患。",
+   "translation": "두 눈썹 꼬리가 모두 옅으면 과연 우환이 있다.",
+   "commentary": "'淡'은 꼬리 쪽 정확 표현(尾散·尾疏·後疏)이 아니고 색이 옅음인지 털이 성김인지 불분명하여 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "兩眉尾都淡",
+     "observable_ko": "두 눈썹 꼬리가 옅음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail_clarity:fading"
+     ],
+     "reason": "'淡'은 꼬리 쪽 정확 표현이 아니고 색인지 숱인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-038",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉為山，鬢為林。",
+   "translation": "눈썹은 산이 되고 귀밑털은 숲이 된다.",
+   "commentary": "눈썹과 귀밑털을 산과 숲에 빗댄 총론으로 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646B-brow-039",
+   "section": "眉",
+   "region": "brow",
+   "original_text": "眉粗闊而厚，重者多滯，有髭鬚相應者亦可也。",
+   "translation": "눈썹이 굵고 넓으며 두텁고 무거운 사람은 막힘이 많으나, 콧수염·턱수염이 서로 응하는 사람은 또한 괜찮다.",
+   "commentary": "'眉粗'는 brow_thickness:thick으로 정확히 옮길 수 있으나 넓고 두터움·무거움은 굵기와 숱 중 무엇인지 불분명하고, 수염은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉粗",
+     "observable_ko": "눈썹이 굵음",
+     "status": "exact",
+     "label": "brow_thickness:thick"
+    },
+    {
+     "region": "brow",
+     "evidence": "闊而厚，重",
+     "observable_ko": "눈썹이 넓고 두텁고 무거움",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:dense"
+     ],
+     "reason": "굵기와 숱 중 무엇을 말하는지 불분명하다"
+    },
+    {
+     "region": "other",
+     "evidence": "有髭鬚相應",
+     "observable_ko": "수염이 눈썹과 응함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "수염 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

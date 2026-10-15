@@ -1,0 +1,2649 @@
+{
+ "page_id": "gj638",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "SQ638RB-other-001",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "貧夭絕嗣者。偏側欹斜。富貴有後者。闊厚平正。",
+   "translation": "가난하고 요절하며 대가 끊기는 자는 [등이] 한쪽으로 치우치고 기울며 비뚤다. 부귀하고 후손이 있는 자는 [등이] 넓고 두텁고 평평하고 바르다.",
+   "commentary": "앞 구절에 이어 등(背)의 형상을 논하는 부(賦) 본문으로, 대상이 등이라는 것은 이어지는 주석에서 확인된다. 문헌은 기운 등을 빈곤·요절·무후(無後)와, 넓고 두터운 등을 부귀·후손과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "偏側欹斜",
+     "observable_ko": "등이 한쪽으로 치우치고 기욺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "등의 형태는 얼굴 밖 신체 부위로 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "闊厚平正",
+     "observable_ko": "등이 넓고 두텁고 평평하고 바름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "등의 형태는 얼굴 밖 신체 부위로 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fertility_offspring",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-002",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "貧窮壽夭無後者，蓋為背之偏側欹斜不正　。富貴有後者，則背闊澤潤堅厚而平。",
+   "translation": "빈궁하고 수명이 짧으며 후손이 없는 자는 대개 등이 한쪽으로 치우치고 기울며 비뚤어 바르지 않기 때문이다. 부귀하고 후손이 있는 자는 등이 넓고 윤택하며 단단하고 두텁고 평평하다.",
+   "commentary": "앞 부 구절의 주석으로, 생략된 주어가 등(背)임을 밝혔다. 윤택함(澤潤)은 빛깔·윤기에 관한 표현이라 형태 조건이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "背之偏側欹斜不正",
+     "observable_ko": "등이 기울고 비뚤어 바르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "등의 형태는 얼굴 밖 신체 부위로 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "背闊",
+     "observable_ko": "등이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "등의 형태는 얼굴 밖 신체 부위로 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "堅厚而平",
+     "observable_ko": "등이 단단하고 두텁고 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "등의 형태는 얼굴 밖 신체 부위로 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "澤潤",
+     "observable_ko": "등의 피부가 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fertility_offspring",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-003",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「勢若踞山之蹲虎，利賓於王。」形如出海之伏龜，考終厥命。",
+   "translation": "형세가 산에 걸터앉아 웅크린 범과 같으면 왕에게 빈객이 됨이 이롭다. 형상이 바다에서 나온 엎드린 거북과 같으면 그 명(命)을 끝까지 마친다.",
+   "commentary": "등의 형세를 범·거북에 빗댄 비유 구절이다. '이빈어왕(利賓於王)'은 『주역』 관괘(觀卦)의 효사 표현을 빌린 것으로 보이며, '고종궐명(考終厥命)'은 천수를 다한다는 뜻이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "勢若踞山之蹲虎",
+     "observable_ko": "등의 형세가 산에 웅크린 범 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없으며 얼굴 부위도 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "形如出海之伏龜",
+     "observable_ko": "등의 형상이 엎드린 거북 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없으며 얼굴 부위도 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-004",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "背勢似山中坐虎，有威力者，當利賓於王，足為王佐。背如出海之龜，則考終壽命。",
+   "translation": "등의 형세가 산중에 앉은 범과 같아 위력이 있는 자는 마땅히 왕에게 빈객이 됨이 이로우니, 왕을 보좌할 만하다. 등이 바다에서 나온 거북과 같으면 수명을 끝까지 마친다.",
+   "commentary": "앞 부 구절의 주석으로, 비유의 대상이 등(背)임을 밝혔다. 문헌은 범 같은 등을 왕의 보좌와, 거북 같은 등을 천수와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "背勢似山中坐虎",
+     "observable_ko": "등의 형세가 앉은 범 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없으며 얼굴 부위도 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "有威力",
+     "observable_ko": "위력이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "위력은 인상·기세에 관한 평가로 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "背如出海之龜",
+     "observable_ko": "등이 바다에서 나온 거북 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없으며 얼굴 부위도 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-005",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "龍骨欲長，其充實，虎骨欲短，其堅硬。",
+   "translation": "용골(龍骨)은 길고 그것이 꽉 차기를 바라고, 호골(虎骨)은 짧고 그것이 단단하기를 바란다.",
+   "commentary": "용골·호골은 팔의 위아래 마디를 가리키는 상법 용어로, 이어지는 주석이 각각 팔(臂)과 위팔(膊)로 풀이했다. 바람직한 형태만 제시했을 뿐 구체적 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "龍骨欲長",
+     "observable_ko": "용골(팔)이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "팔·어깨의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "虎骨欲短",
+     "observable_ko": "호골(위팔)이 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "팔·어깨의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-006",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "龍骨者臂。虎骨者膊。上為君下為臣。上壯下細者龍吞虎。下壯上細者虎吞龍也。",
+   "translation": "용골은 팔이다. 호골은 위팔이다. 위는 임금이 되고 아래는 신하가 된다. 위가 굵고 아래가 가는 것은 용이 범을 삼키는 것[龍吞虎]이다. 아래가 굵고 위가 가는 것은 범이 용을 삼키는 것[虎吞龍]이다.",
+   "commentary": "용골·호골의 신체 부위와 상하 굵기 비례에 붙인 이름을 설명한 주석이다. 臂와 膊의 정확한 구간 구분은 원문만으로 확정하기 어렵다. 길흉 주장은 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上壯下細",
+     "observable_ko": "팔의 위쪽이 굵고 아래쪽이 가늚",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "팔·어깨의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "下壯上細",
+     "observable_ko": "팔의 아래쪽이 굵고 위쪽이 가늚",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "팔·어깨의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-007",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《鳶肩》者騰上必速，恐不多時；《犀膊》者為儒早亨，優於從政。",
+   "translation": "솔개 어깨[鳶肩]인 자는 위로 오름이 반드시 빠르나 오래가지 못할까 두렵고, 무소 위팔[犀膊]인 자는 선비가 되어 일찍 형통하며 정사에 종사함에 뛰어나다.",
+   "commentary": "연견(鳶肩)은 솔개처럼 어깨가 솟은 모양, 서박(犀膊)은 무소처럼 두툼한 위팔을 빗댄 비유로 보인다. 문헌은 연견을 빠르나 짧은 출세와, 서박을 이른 관직 성취와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《鳶肩》",
+     "observable_ko": "솔개 같은 어깨(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 기준이 없으며 얼굴 부위도 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "《犀膊》",
+     "observable_ko": "무소 같은 위팔(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 기준이 없으며 얼굴 부위도 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-008",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「鳶鳥之肩」 者，騰上迅速，早而困乏，故《馬周》鳶肩火色，任之要職。壯歲辭閒，急流勇退，",
+   "translation": "'솔개의 어깨'인 자는 위로 오름이 빠르나 일찍 곤핍해진다. 그러므로 마주(馬周)는 솔개 어깨에 불빛 낯빛[火色]이었으나 요직을 맡았다. 장년에 한가로이 물러나니, 급류 속에서 용감히 물러난 것이다.",
+   "commentary": "마주(馬周)는 문헌이 연견의 사례로 든 인물이다. '장세사한(壯歲辭閒)'은 장년에 물러남으로 직역했으나 정확한 뜻은 불확실하다. 화색(火色)은 낯빛이므로 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鳶肩",
+     "observable_ko": "솔개 같은 어깨(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 기준이 없으며 얼굴 부위도 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "火色",
+     "observable_ko": "불처럼 붉은 낯빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-009",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "為人犀膊，豐而圓厚，則為文明之士，幼達長於大政。",
+   "translation": "사람됨이 무소 위팔[犀膊]이어서 풍만하고 둥글고 두터우면 문명한 선비가 되어, 어려서 현달하고 큰 정사에 뛰어나다.",
+   "commentary": "서박(犀膊)을 '풍만하고 둥글고 두터운' 위팔로 풀이한 주석이다. 문헌은 이를 학식 있는 선비와 이른 출세에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "犀膊，豐而圓厚",
+     "observable_ko": "위팔이 풍만하고 둥글고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "팔·어깨의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-010",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "指節欲其纎直，腕節欲其圓勁。",
+   "translation": "손가락 마디는 가늘고 곧기를 바라고, 손목 마디는 둥글고 굳세기를 바란다.",
+   "commentary": "손가락과 손목의 바람직한 형태를 제시한 구절이다. 구체적 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "指節欲其纎直",
+     "observable_ko": "손가락 마디가 가늘고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腕節欲其圓勁",
+     "observable_ko": "손목 마디가 둥글고 굳셈",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-011",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "手指欲纎而長，腕節欲圓而勁。",
+   "translation": "손가락은 가늘고 길기를 바라고, 손목 마디는 둥글고 굳세기를 바란다.",
+   "commentary": "앞 구절의 주석으로, 손가락에 대해 '곧음(直)' 대신 '긺(長)'을 들었다. 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手指欲纎而長",
+     "observable_ko": "손가락이 가늘고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腕節欲圓而勁",
+     "observable_ko": "손목 마디가 둥글고 굳셈",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-012",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "厚而密者，謀必有得；薄而疏者，心多不稱。",
+   "translation": "두텁고 촘촘한 자는 꾀함에 반드시 얻음이 있고, 얇고 성긴 자는 마음[먹은 일]이 맞지 않는 경우가 많다.",
+   "commentary": "손바닥과 손가락 마디를 두고 한 말로, 주석이 손바닥의 두께와 손가락 마디의 성김으로 풀이했다. 문헌은 두텁고 촘촘한 손을 계획의 성취와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "厚而密",
+     "observable_ko": "손바닥이 두텁고 손가락 마디가 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "薄而疏",
+     "observable_ko": "손바닥이 얇고 손가락 마디가 성김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-013",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "掌中豐厚而柔。指節瑩光而密者。則足智多謀。如其掌薄骨硬。指節疏露者。平生智多不遂。",
+   "translation": "손바닥 가운데가 풍만하고 두텁고 부드러우며 손가락 마디가 맑게 빛나고 촘촘한 자는 지혜가 넉넉하고 꾀가 많다. 만약 그 손바닥이 얇고 뼈가 딱딱하며 손가락 마디가 성기고 드러난 자는 평생 지혜는 많으나 이루지 못한다.",
+   "commentary": "앞 구절의 주석이다. 맑은 빛(瑩光)은 윤기 표현이라 관찰 형태가 아니다. 문헌은 손 형태를 지모(智謀)와 그 성취 여부에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "掌中豐厚而柔",
+     "observable_ko": "손바닥 가운데가 풍만하고 두텁고 부드러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "瑩光",
+     "observable_ko": "손가락 마디가 맑게 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "而密",
+     "observable_ko": "손가락 마디가 촘촘함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "掌薄骨硬",
+     "observable_ko": "손바닥이 얇고 뼈가 딱딱함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "指節疏露",
+     "observable_ko": "손가락 마디가 성기고 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-014",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "勢若排竿當可羨，色如噀血貴可競。",
+   "translation": "형세가 늘어선 장대와 같으면 마땅히 부러워할 만하고, 빛깔이 뿜은 피와 같으면 귀함이 [남과] 다툴 만하다.",
+   "commentary": "주석에 따르면 '늘어선 장대'는 손가락 마디가 죽순처럼 가지런한 모양, '뿜은 피 같은 빛깔'은 붉은 손바닥이다. 빛깔은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "勢若排竿",
+     "observable_ko": "손가락이 늘어선 장대 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현이고 손 부위라 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色如噀血",
+     "observable_ko": "손바닥 빛깔이 뿜은 피처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-015",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "指節若排筍者，身必貴顯。其掌如噀血者，家必殷富。",
+   "translation": "손가락 마디가 늘어선 죽순 같은 자는 몸이 반드시 귀하고 현달한다. 그 손바닥이 뿜은 피 같은 자는 집이 반드시 넉넉하고 부유하다.",
+   "commentary": "앞 구절의 주석으로, 부 본문의 '竿(장대)'를 '筍(죽순)'으로 풀었다. 문헌은 가지런한 손가락 마디를 귀현과, 붉은 손바닥을 부와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "指節若排筍",
+     "observable_ko": "손가락 마디가 늘어선 죽순 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현이고 손 부위라 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "其掌如噀血",
+     "observable_ko": "손바닥이 뿜은 피처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-016",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "身卑才薄涉中滿而起傾；祿厚官榮有駟馬之《形勝》。",
+   "translation": "몸이 비천하고 재주가 얇은 것은 가운데가 참[中滿]에 걸쳐 일어나 기울어짐[起傾]이요, 녹이 두텁고 벼슬이 영화로운 것은 사마(駟馬)의 형승(形勝)이 있음이다.",
+   "commentary": "손바닥 형상을 논한 구절로, '涉中滿而起傾'은 뜻이 분명치 않아 글자대로 옮겼으며 주석은 손바닥 가운데가 얇고 둘레에 뼈가 솟은 것을 '기경(起傾)'이라 했다. 사마(駟馬)의 형승은 손바닥의 길한 무늬 형상을 가리키는 것으로 보이나 원문만으로 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "起傾",
+     "observable_ko": "손바닥 둘레가 솟고 가운데가 기울어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "駟馬之《形勝》",
+     "observable_ko": "손바닥의 사마 형상(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 손 부위다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-017",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "若掌中心薄。周圍起骨。謂之「起傾。」 如是之人。主卑賤寡學　。",
+   "translation": "만약 손바닥 가운데가 얇고 둘레에 뼈가 솟았으면 이를 '기경(起傾)'이라 한다. 이와 같은 사람은 비천하고 배움이 적음을 주관한다.",
+   "commentary": "부 본문 '起傾'의 주석이다. 문헌은 이 손바닥을 비천함과 배움이 적음에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "掌中心薄。周圍起骨",
+     "observable_ko": "손바닥 가운데가 얇고 둘레에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-018",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "官祿榮高。謂掌中有印旗之形。",
+   "translation": "관록이 영화롭고 높음은 손바닥 가운데에 인장과 깃발의 형상이 있음을 말한다.",
+   "commentary": "부 본문 '駟馬之形勝'에 대한 주석으로 보이며, 손바닥 무늬를 인장·깃발에 빗댔다. 문헌은 이를 높은 관록과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "掌中有印旗之形",
+     "observable_ko": "손바닥에 인장·깃발 형상의 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 손 부위다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-019",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "橫紋下愚，縱理慧性。",
+   "translation": "가로 무늬는 아주 어리석고, 세로 결은 지혜로운 성품이다.",
+   "commentary": "손바닥 무늬의 방향을 지능과 연결한 구절로, 주석이 손바닥 무늬임을 밝혔다. '하우(下愚)'는 가장 어리석은 사람을 뜻하는 낙인성 표현이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "橫紋",
+     "observable_ko": "손바닥에 가로 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "縱理",
+     "observable_ko": "손바닥에 세로 결이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-020",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "凡人掌中若有橫紋而短者，乃為下愚。如有紋縱者，至聰明而多智慧。",
+   "translation": "무릇 사람의 손바닥 가운데에 가로 무늬가 있고 짧은 자는 곧 아주 어리석다. 만약 무늬가 세로인 자는 지극히 총명하고 지혜가 많다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 손바닥 무늬 방향을 어리석음·총명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "掌中若有橫紋而短",
+     "observable_ko": "손바닥에 짧은 가로 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "紋縱",
+     "observable_ko": "손바닥 무늬가 세로임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-021",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "骨露筋浮者，主身賤。皮堅肉枯者，愁囊罄。",
+   "translation": "뼈가 드러나고 힘줄이 떠오른 자는 몸이 천함을 주관한다. 가죽이 딱딱하고 살이 마른 자는 주머니가 빔을 근심한다.",
+   "commentary": "주석에 따르면 손에 관한 구절이다. 문헌은 뼈·힘줄이 드러난 손을 천함과, 딱딱하고 마른 손을 궁핍과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨露筋浮",
+     "observable_ko": "손의 뼈가 드러나고 힘줄이 떠오름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "皮堅肉枯",
+     "observable_ko": "손의 가죽이 딱딱하고 살이 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부의 촉감·질감은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-022",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "手若露骨浮筋。主身貧下賤。若皮堅硬。肉乾澀者。當愁囊篋空乏。",
+   "translation": "손이 만약 뼈가 드러나고 힘줄이 떠오르면 몸이 가난하고 비천함을 주관한다. 만약 가죽이 딱딱하고 살이 마르고 껄끄러운 자는 마땅히 주머니와 상자가 비어 모자람을 근심한다.",
+   "commentary": "앞 구절의 주석으로 대상이 손(手)임을 밝혔다. 문헌은 이를 빈천과 궁핍에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手若露骨浮筋",
+     "observable_ko": "손의 뼈가 드러나고 힘줄이 떠오름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "皮堅硬。肉乾澀",
+     "observable_ko": "손의 가죽이 딱딱하고 살이 마르고 껄끄러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부의 촉감·질감은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-023",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《家殷》而黑子斯明，用足而橫紋乃亙。",
+   "translation": "집이 넉넉함은 검은 점[黑子]이 뚜렷하기 때문이고, 씀이 넉넉함은 가로 무늬가 [가로질러] 뻗었기 때문이다.",
+   "commentary": "주석에 따르면 손 안의 검은 점과 손바닥을 가로지르는 무늬를 말한다. 손의 점은 얼굴 점(pigmented_marks)이 아니므로 얼굴 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "黑子斯明",
+     "observable_ko": "손에 검은 점이 뚜렷함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손의 점은 얼굴 밖 신체 부위로 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "橫紋乃亙",
+     "observable_ko": "손바닥에 가로 무늬가 길게 뻗음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-024",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "手中黑子主家豪富。如有橫紋通直者，為握刀之紋，則主財豐富足。",
+   "translation": "손 안의 검은 점은 집이 호부(豪富)함을 주관한다. 만약 가로 무늬가 곧게 꿰뚫은 자는 칼을 쥔 무늬[握刀之紋]가 되니 재물이 풍성하고 넉넉함을 주관한다.",
+   "commentary": "앞 구절의 주석이다. 악도지문(握刀之紋)은 손바닥을 가로지르는 무늬에 붙인 이름이다. 문헌은 이를 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手中黑子",
+     "observable_ko": "손 안에 검은 점이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손의 점은 얼굴 밖 신체 부위로 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "橫紋通直",
+     "observable_ko": "손바닥 가로 무늬가 곧게 꿰뚫음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "손·손가락·손바닥의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-025",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《富貴之相》，若苔之滑而綿之軟；壽安之人，如筍之直而玉之瑩。",
+   "translation": "부귀한 상은 이끼처럼 매끄럽고 솜처럼 부드럽다. 장수하고 편안한 사람은 죽순처럼 곧고 옥처럼 맑다.",
+   "commentary": "주석에 따르면 손의 감촉과 모양을 말한다. 매끄러움·부드러움은 촉감이고 옥 같은 맑음은 빛깔이라 사진 형태로 볼 수 없다. 문헌은 이를 부귀와 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "若苔之滑而綿之軟",
+     "observable_ko": "손이 이끼처럼 매끄럽고 솜처럼 부드러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부의 촉감·질감은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "如筍之直",
+     "observable_ko": "손이 죽순처럼 곧음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현이고 손 부위라 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "玉之瑩",
+     "observable_ko": "손이 옥처럼 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-026",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "富貴賢明之士，手滑軟而若苔若綿　；康寧遐齡之人，手直如筍而白如玉。",
+   "translation": "부귀하고 어질고 밝은 선비는 손이 매끄럽고 부드러워 이끼 같고 솜 같다. 건강하고 편안하며 오래 사는 사람은 손이 죽순처럼 곧고 옥처럼 희다.",
+   "commentary": "앞 구절의 주석으로 대상이 손(手)임을 밝혔다. 문헌은 손의 감촉을 부귀·현명과, 곧고 흰 손을 건강·장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "手滑軟而若苔若綿",
+     "observable_ko": "손이 매끄럽고 부드러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부의 촉감·질감은 정지 사진의 형태 항목으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "手直如筍",
+     "observable_ko": "손이 죽순처럼 곧음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현이고 손 부위라 얼굴 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "白如玉",
+     "observable_ko": "손이 옥처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "intelligence",
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-027",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "心宰視聽，內主魂魄，帥六腑之氣，統五臟之神。",
+   "translation": "마음은 보고 듣는 것을 주재하고, 안으로 혼백을 주관하며, 육부(六腑)의 기를 거느리고 오장(五臟)의 신을 통솔한다.",
+   "commentary": "마음(心)의 역할을 장부 이론으로 설명한 총론이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-028",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "心乃神之主也。掌其視聽，運行百脈之神，制五臟六腑之神。故《內經》曰：「心為君主之官，神明生焉。」",
+   "translation": "마음은 곧 신(神)의 주인이다. 그 보고 들음을 관장하고, 온갖 맥의 신을 운행하며, 오장육부의 신을 제어한다. 그러므로 『내경(內經)』에 이르기를 '마음은 군주의 관(官)이니 신명이 여기서 생긴다'고 했다.",
+   "commentary": "앞 구절의 주석으로 의서 『내경』의 말을 인용했다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-029",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "「顏色始變」，是非已分。",
+   "translation": "얼굴빛이 비로소 변하면 옳고 그름이 이미 나뉜다.",
+   "commentary": "얼굴빛(顏色)의 변화로 마음속 시비를 안다는 구절이다. 얼굴빛은 형태가 아니라 관찰 형태 항목으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色始變",
+     "observable_ko": "얼굴빛이 변함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-030",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "凡人顏色喜怒方有所變，則一心之明鑒而能預知之。",
+   "translation": "무릇 사람의 얼굴빛이 기쁨과 노여움으로 바야흐로 변하는 바가 있으면, 한 마음의 밝은 거울로 미리 알 수 있다.",
+   "commentary": "앞 구절의 주석이다. 감정에 따른 얼굴빛 변화는 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色喜怒方有所變",
+     "observable_ko": "감정에 따라 얼굴빛이 변함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-031",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《惡則禍結》，善則福臻。",
+   "translation": "악하면 화가 맺히고, 선하면 복이 이른다.",
+   "commentary": "행실의 선악을 화복과 연결한 도덕적 총론이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-032",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "人之所行善惡，咸發之於心。若其行惡則禍結，若其行善則福應。",
+   "translation": "사람이 행하는 선악은 모두 마음에서 나온다. 만약 그 행함이 악하면 화가 맺히고, 만약 그 행함이 선하면 복이 응한다.",
+   "commentary": "앞 구절의 주석이다. 형태 조건은 없고 행실과 화복의 관계를 말했다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-033",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "胸凸者。燥而多劣。毛長者。剛而好嗔。",
+   "translation": "가슴이 볼록한 자는 조급하고 못난 점이 많다. 털이 긴 자는 억세고 성내기를 좋아한다.",
+   "commentary": "가슴(胸)의 형태와 가슴털을 성품에 연결한 구절이다. 얼굴 밖 부위라 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "胸凸",
+     "observable_ko": "가슴이 볼록 튀어나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "毛長",
+     "observable_ko": "가슴털이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 털은 얼굴 밖 신체 특징으로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-034",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "胸膺骨高起者。主性急燥而多劣。若其生毛者。每多輕怒。此皆不仁寡合之相也。",
+   "translation": "가슴뼈가 높이 솟은 자는 성품이 급하고 조급하며 못난 점이 많음을 주관한다. 만약 그곳에 털이 난 자는 매번 가벼이 성내는 일이 많다. 이는 모두 어질지 못하고 [남과] 어울림이 적은 상이다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 솟은 가슴뼈와 가슴털을 급한 성품·불인(不仁)과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "胸膺骨高起",
+     "observable_ko": "가슴뼈가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "生毛",
+     "observable_ko": "가슴에 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸의 털은 얼굴 밖 신체 특징으로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-035",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《坑陷淺窄，愚暗而多居下賤。寬平》博厚賢明而早廁縉紳。",
+   "translation": "[가슴이] 구덩이처럼 꺼지고 얕고 좁으면 어리석고 어두워 대개 비천한 데 머문다. 너그럽고 평평하며 넓고 두터우면 어질고 밝아 일찍 벼슬아치[縉紳]의 반열에 낀다.",
+   "commentary": "주석에 따르면 가슴의 형태를 말한다. 진신(縉紳)은 관복의 띠를 두른 벼슬아치를 뜻한다. 문헌은 꺼진 가슴을 어리석음·비천과, 넓은 가슴을 현명·이른 출사와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "坑陷淺窄",
+     "observable_ko": "가슴이 꺼지고 얕고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "寬平》博厚",
+     "observable_ko": "가슴이 너그럽고 평평하며 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-036",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "胸貴平闊。若坑陷淺窄者，多為愚下之流　。若其寬平博厚者，則幼年而居官，明賢而享祿。",
+   "translation": "가슴은 평평하고 넓음을 귀히 여긴다. 만약 구덩이처럼 꺼지고 얕고 좁은 자는 대개 어리석고 낮은 무리가 된다. 만약 너그럽고 평평하며 넓고 두터운 자는 어린 나이에 관직에 있고, 밝고 어질어 녹을 누린다.",
+   "commentary": "앞 구절의 주석으로 대상이 가슴(胸)임을 밝혔다. 문헌은 가슴 형태를 지능과 관직에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "胸貴平闊",
+     "observable_ko": "가슴이 평평하고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "坑陷淺窄",
+     "observable_ko": "가슴이 꺼지고 얕고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "寬平博厚",
+     "observable_ko": "가슴이 너그럽고 평평하며 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가슴의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-037",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "腹為水穀之海，臍為筋脈之源。包萬物而獨化，總六腑以中輪。",
+   "translation": "배는 물과 곡식의 바다이고, 배꼽은 힘줄과 맥의 근원이다. 만물을 감싸 홀로 변화시키고, 육부를 총괄하여 가운데 바퀴가 된다.",
+   "commentary": "배(腹)와 배꼽(臍)의 생리적 의미를 말한 총론이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-038",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "腹為水穀之海，臍者總六腑以居中，以為筋脈之源。由是腹肚大而圓，臍必廣而深。",
+   "translation": "배는 물과 곡식의 바다이고, 배꼽은 육부를 총괄하여 가운데에 있으니 힘줄과 맥의 근원이 된다. 이로써 배가 크고 둥글면 배꼽은 반드시 넓고 깊다.",
+   "commentary": "앞 구절의 주석이다. 배와 배꼽 형태의 상관을 말했을 뿐 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹肚大而圓",
+     "observable_ko": "배가 크고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "臍必廣而深",
+     "observable_ko": "배꼽이 넓고 깊음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-039",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《相》曰：「腹大垂囊，食祿無疆。」",
+   "translation": "『상(相)』에 이르기를 '배가 커서 주머니처럼 늘어지면 먹는 녹이 끝이 없다'고 했다.",
+   "commentary": "주석이 인용한 상서(相書)의 말이다. 문헌은 늘어진 큰 배를 끝없는 녹봉과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹大垂囊",
+     "observable_ko": "배가 크고 주머니처럼 늘어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-040",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《圓厚》富安，儉薄食乏，深寬富貴，淺窄孤貧。",
+   "translation": "둥글고 두터우면 부유하고 편안하며, 작고 얇으면 먹을 것이 모자라고, 깊고 넓으면 부귀하며, 얕고 좁으면 외롭고 가난하다.",
+   "commentary": "주석에 따르면 배의 형태를 말한다. 문헌은 배의 크기·두께를 빈부와 고독에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《圓厚》",
+     "observable_ko": "배가 둥글고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "儉薄",
+     "observable_ko": "배가 작고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "深寬",
+     "observable_ko": "배(배꼽)가 깊고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "淺窄",
+     "observable_ko": "배(배꼽)가 얕고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-041",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "腹若圓大而厚者，主家富安閑。如其腹薄而儉小者，必至乏食。腹寬厚者，主能容物富貴。淺薄窄狹者，褊急孤寒。",
+   "translation": "배가 둥글고 크고 두터운 자는 집이 부유하고 편안하며 한가함을 주관한다. 만약 그 배가 얇고 작은 자는 반드시 먹을 것이 모자라는 데 이른다. 배가 넓고 두터운 자는 [남을] 너그러이 받아들이고 부귀함을 주관한다. 얕고 얇고 좁은 자는 속이 좁고 급하며 외롭고 가난하다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 배의 형태를 빈부·도량·고독과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹若圓大而厚",
+     "observable_ko": "배가 둥글고 크고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腹薄而儉小",
+     "observable_ko": "배가 얇고 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腹寬厚",
+     "observable_ko": "배가 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "淺薄窄狹",
+     "observable_ko": "배가 얕고 얇고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "character",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-042",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "勢若垂囊，風雷四方之震，深能容李芝蘭千里之聞。",
+   "translation": "형세가 늘어진 주머니 같으면 바람과 우레가 사방에 진동하듯 하고, 깊어서 오얏을 담을 수 있으면 지초·난초[의 향기]가 천 리에 들리듯 한다.",
+   "commentary": "주석에 따르면 늘어진 배와 오얏이 들어갈 만큼 깊은 배꼽을 말하며, 이를 명성이 널리 퍼짐에 비유했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "勢若垂囊",
+     "observable_ko": "배가 주머니처럼 늘어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "深能容李",
+     "observable_ko": "배꼽이 오얏을 담을 만큼 깊음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-043",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「腹垂若囊。」 主聲名冠世。如風雷震於四方。臍深廣。能容夫李者。主美譽播於邦畿之外。若蘭之馨香聞於四遠。言其美德之盛也。",
+   "translation": "'배가 주머니처럼 늘어진' 것은 명성이 세상에 으뜸감을 주관하니, 바람과 우레가 사방에 진동하는 것과 같다. 배꼽이 깊고 넓어 오얏을 담을 수 있는 자는 아름다운 명예가 나라 밖까지 퍼짐을 주관하니, 난초의 향기가 사방 멀리 들리는 것과 같다. 그 아름다운 덕이 성함을 말한 것이다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 늘어진 배와 깊은 배꼽을 명성과 덕에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹垂若囊",
+     "observable_ko": "배가 주머니처럼 늘어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "臍深廣。能容夫李",
+     "observable_ko": "배꼽이 깊고 넓어 오얏을 담을 만함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "배·배꼽의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-044",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "足者，枝之謂；身者，榦之云。枝以蔽其榦，足以運其身。",
+   "translation": "발은 가지를 이르고, 몸은 줄기를 이른다. 가지로 그 줄기를 가리고, 발로 그 몸을 움직인다.",
+   "commentary": "발과 몸을 나무의 가지와 줄기에 빗댄 총론이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-045",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "足為枝也，身乃榦也。枝當蔭其榦，足可運之身。",
+   "translation": "발은 가지이고, 몸은 곧 줄기이다. 가지는 마땅히 그 줄기를 그늘지게 하고, 발은 몸을 움직일 수 있다.",
+   "commentary": "앞 구절의 주석이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-046",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "豐厚方正者多閒暇，薄澀橫窄者必苦辛。",
+   "translation": "풍만하고 두텁고 반듯한 자는 한가함이 많고, 얇고 껄끄러우며 가로로 좁은 자는 반드시 괴롭고 고생스럽다.",
+   "commentary": "주석에 따르면 발의 형태를 말한다. 문헌은 발의 두께·모양을 한가함과 고생에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐厚方正",
+     "observable_ko": "발이 풍만하고 두텁고 반듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "薄澀橫窄",
+     "observable_ko": "발이 얇고 껄끄럽고 가로로 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-047",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "足若豐厚方正者，平生閒樂，其祿自至。若人足之薄窄枯澀，必當辛苦終身。",
+   "translation": "발이 풍만하고 두텁고 반듯한 자는 평생 한가하고 즐거우며 그 녹이 저절로 이른다. 만약 사람의 발이 얇고 좁고 마르고 껄끄러우면 반드시 평생 고생한다.",
+   "commentary": "앞 구절의 주석으로 대상이 발(足)임을 밝혔다. 문헌은 발의 형태를 녹과 평생의 고락에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足若豐厚方正",
+     "observable_ko": "발이 풍만하고 두텁고 반듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足之薄窄枯澀",
+     "observable_ko": "발이 얇고 좁고 마르고 껄끄러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-048",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "無紋身賤，有毛家溫。",
+   "translation": "무늬가 없으면 몸이 천하고, 털이 있으면 집이 따뜻하다.",
+   "commentary": "주석에 따르면 발바닥의 무늬와 발등의 털을 말한다. '집이 따뜻하다'는 살림이 넉넉함을 뜻한다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "無紋",
+     "observable_ko": "발바닥에 무늬가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有毛",
+     "observable_ko": "발등에 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-049",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "足底無紋者，「身必貧賤。若其足面有毛者，家必殷實。」",
+   "translation": "발바닥에 무늬가 없는 자는 몸이 반드시 가난하고 천하다. 만약 그 발등에 털이 있는 자는 집이 반드시 넉넉하고 실하다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 발바닥 무늬의 유무와 발등의 털을 빈부에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足底無紋",
+     "observable_ko": "발바닥에 무늬가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足面有毛",
+     "observable_ko": "발등에 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "발의 형태는 얼굴 밖 신체 부위로 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-050",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "家富累千金，蓋有弓刀之理；官高封一品，由成魚鳥之紋。",
+   "translation": "집이 부유하여 천금을 쌓음은 대개 활과 칼의 결이 있기 때문이고, 벼슬이 높아 1품에 봉해짐은 물고기와 새의 무늬를 이루었기 때문이다.",
+   "commentary": "주석에 따르면 발바닥의 무늬를 말한다. 문헌은 활·칼 모양 무늬를 큰 부와, 물고기·새 모양 무늬를 최고 관품과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "弓刀之理",
+     "observable_ko": "발바닥에 활·칼 모양 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 발 부위다"
+    },
+    {
+     "region": "other",
+     "evidence": "魚鳥之紋",
+     "observable_ko": "발바닥에 물고기·새 모양 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 발 부위다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-051",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《家積千金》之富者，足底有弓刀之紋理，官至一品。\n之極者，足底有魚鳥之成紋。",
+   "translation": "집에 천금을 쌓은 부자는 발바닥에 활과 칼의 무늬결이 있고, 벼슬이 1품에 이른다. 극에 이른 자는 발바닥에 물고기와 새의 무늬가 이루어져 있다.",
+   "commentary": "앞 구절의 주석이다. 원문은 '官至一品。'과 '之極者' 사이가 줄바꿈으로 끊겨 있어 '官至一品之極者(벼슬이 1품의 극에 이른 자)'로 이어 읽어야 문맥이 통할 가능성이 있으나, 쓰인 대로 직역했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足底有弓刀之紋理",
+     "observable_ko": "발바닥에 활·칼 모양 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 발 부위다"
+    },
+    {
+     "region": "other",
+     "evidence": "足底有魚鳥之成紋",
+     "observable_ko": "발바닥에 물고기·새 모양 무늬가 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유적 무늬 이름으로 형태가 특정되지 않으며 발 부위다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-052",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "短小精悍者，形不足而神有餘；長大孱弱者，形有餘而神不足。",
+   "translation": "몸이 짧고 작으나 정기 있고 날랜 자는 형(形)은 부족하나 신(神)은 남음이 있고, 몸이 길고 크나 잔약한 자는 형은 남음이 있으나 신은 부족하다.",
+   "commentary": "형(形)과 신(神)의 넉넉함을 대비한 구절이다. 몸의 크기는 얼굴 레이블이 아니고, 정한(精悍)·잔약(孱弱)과 신의 많고 적음은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "短小",
+     "observable_ko": "몸이 짧고 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "精悍",
+     "observable_ko": "정기 있고 날램",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "長大",
+     "observable_ko": "몸이 길고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "孱弱",
+     "observable_ko": "잔약함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-053",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "人身短小精悍者，蓋其形雖不足，神乃有餘。若身長大孱弱者，是形有餘而神不足也。",
+   "translation": "사람의 몸이 짧고 작으나 정기 있고 날랜 자는 대개 그 형은 비록 부족하나 신은 곧 남음이 있다. 만약 몸이 길고 크나 잔약한 자는 이는 형은 남음이 있으나 신은 부족한 것이다.",
+   "commentary": "앞 구절의 주석으로 본문을 되풀이했다. 몸 크기와 신의 대비는 사진 형태 레이블로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "人身短小",
+     "observable_ko": "몸이 짧고 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "精悍",
+     "observable_ko": "정기 있고 날램",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身長大",
+     "observable_ko": "몸이 길고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "孱弱",
+     "observable_ko": "잔약함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-054",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「伊《形神》而俱妙」，非賢聖其孰能。",
+   "translation": "저 형(形)과 신(神)이 함께 오묘함은 현인·성인이 아니면 그 누가 할 수 있겠는가.",
+   "commentary": "형과 신이 모두 뛰어난 경지를 현성(賢聖)에 연결한 구절이다. 형신의 오묘함은 측정 가능한 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《形神》而俱妙",
+     "observable_ko": "형과 신이 함께 오묘함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-055",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「形者發乎外，神者藏於內。」 其形神俱妙者，非賢聖孰能得之。",
+   "translation": "'형은 밖으로 드러나고, 신은 안에 감추어진다.' 그 형과 신이 함께 오묘한 자는 현인·성인이 아니면 누가 얻을 수 있겠는가.",
+   "commentary": "앞 구절의 주석이다. 형신론의 일반 원리를 말한 것으로 관찰 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形神俱妙",
+     "observable_ko": "형과 신이 함께 오묘함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-056",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《藏於內》者，如淵珠之粹；《發乎外》者，若焰光之燭。",
+   "translation": "안에 감추어진 것은 못 속 구슬의 순수함과 같고, 밖으로 드러난 것은 불꽃 빛의 촛불과 같다.",
+   "commentary": "신(神)이 안에 감추어진 상태와 밖으로 드러난 상태를 구슬과 촛불에 비유했다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-057",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「神藏於內」 者，如「淵水驪珠」 之精粹；神發乎外者，若「清夜焰燭之美光。」",
+   "translation": "'신이 안에 감추어진' 것은 깊은 물속 검은 용의 구슬[驪珠]의 정수와 같고, 신이 밖으로 드러난 것은 '맑은 밤 불꽃 촛불의 아름다운 빛'과 같다.",
+   "commentary": "앞 구절의 주석이다. 여주(驪珠)는 검은 용의 턱 밑에 있다는 구슬이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-eye-058",
+   "section": "《人倫大統賦下》",
+   "region": "eye",
+   "original_text": "「善惡在人之憎愛，清濁」由目之照矚。",
+   "translation": "선악은 남이 미워하고 사랑함에 있고, 맑고 흐림은 눈이 비추어 봄에 말미암는다.",
+   "commentary": "마음의 선악과 맑고 흐림이 눈빛·시선에 드러난다는 구절이다. 시선은 정지 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目之照矚",
+     "observable_ko": "눈이 비추어 봄(시선·눈빛)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 형태가 아니며 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-eye-059",
+   "section": "《人倫大統賦下》",
+   "region": "eye",
+   "original_text": "凡人心之美惡皆著於目。「美則人愛，惡則人憎」 ，分明清濁，瞻視是也。",
+   "translation": "무릇 사람 마음의 아름다움과 추함은 모두 눈에 드러난다. '아름다우면 남이 사랑하고 추하면 남이 미워하니', 맑고 흐림을 분명히 하는 것은 바라봄이 그것이다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 마음의 선악이 눈의 바라봄에 드러난다고 적었으며, 이는 형태가 아닌 시선에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "瞻視",
+     "observable_ko": "바라보는 시선",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·눈빛은 형태가 아니며 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-060",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "質以氣而宏充，氣以神而化育。",
+   "translation": "바탕[質]은 기(氣)로써 크게 채워지고, 기는 신(神)으로써 화육된다.",
+   "commentary": "질(質)·기(氣)·신(神)의 관계를 말한 총론이다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-061",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "質者，形也。人之以氣而養形，故以神而生氣。",
+   "translation": "질(質)은 형(形)이다. 사람은 기로써 형을 기르므로, 신으로써 기를 낳는다.",
+   "commentary": "앞 구절의 주석으로 질을 형으로 풀었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-062",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "質寬則氣宏而大，神安則氣靜而覆。",
+   "translation": "바탕이 너그러우면 기가 넓고 크며, 신이 편안하면 기가 고요하고 덮인다.",
+   "commentary": "주석에 따르면 질(質)은 형체이므로 몸의 너그러움(크기)을 말한다. 몸의 크기는 얼굴 레이블이 아니고 신·기는 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "質寬",
+     "observable_ko": "형체가 너그럽고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神安",
+     "observable_ko": "신이 편안함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-063",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "人形體寬大，則心氣宏，若其神之所安，則氣順而能靜。",
+   "translation": "사람의 형체가 너그럽고 크면 마음의 기가 넓고, 만약 그 신이 편안한 바이면 기가 순하여 고요할 수 있다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 몸의 크기와 신의 편안함을 심기(心氣)의 넓음·고요함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形體寬大",
+     "observable_ko": "형체가 너그럽고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神之所安",
+     "observable_ko": "신이 편안함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-064",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "如是「寵辱不足驚，喜怒不足觸。」",
+   "translation": "이와 같으면 '총애와 굴욕이 놀라게 하기에 부족하고, 기쁨과 노여움이 건드리기에 부족하다.'",
+   "commentary": "앞 구절의 기질을 갖춘 사람의 마음가짐을 말한 구절이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-065",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "人之所養，氣定而後形固，形固而後神全，神全而後心正。誠能有之，則寵辱不驚，喜怒不觸。",
+   "translation": "사람이 기르는 바는 기가 안정된 뒤에 형이 굳고, 형이 굳은 뒤에 신이 온전하며, 신이 온전한 뒤에 마음이 바르다. 진실로 이를 지닐 수 있으면 총애와 굴욕에 놀라지 않고 기쁨과 노여움에 건드려지지 않는다.",
+   "commentary": "앞 구절의 주석으로 기·형·신·심의 수양 순서를 말했다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-066",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "有氣無肉者，譬若寒松；有肉無氣者，猶如蠹木。",
+   "translation": "기는 있고 살이 없는 자는 비유하면 추운 날의 소나무와 같고, 살은 있고 기가 없는 자는 좀먹은 나무와 같다.",
+   "commentary": "살집과 기의 유무를 소나무와 좀먹은 나무에 빗댔다. 주석은 이를 장수와 빠른 쇠망으로 풀었다. 살집은 몸 전체의 체격이라 얼굴 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有氣",
+     "observable_ko": "기가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "無肉",
+     "observable_ko": "살이 없음(마름)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有肉",
+     "observable_ko": "살이 있음(살찜)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "無氣",
+     "observable_ko": "기가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-067",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "人之形體臞瘦而有神氣者，譬若寒松之堅，可享其壽；如其形體肥，而無神氣者，猶似蟲之蠹木，故枯朽而速敗也。",
+   "translation": "사람의 형체가 여위고 말랐으나 신기(神氣)가 있는 자는 비유하면 추운 날 소나무의 굳셈과 같아 그 수명을 누릴 수 있다. 만약 그 형체가 살찌고 신기가 없는 자는 벌레가 좀먹은 나무와 같아서 마르고 썩어 빨리 무너진다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 마른 체형에 신기가 있으면 장수, 살찐 체형에 신기가 없으면 빠른 쇠망과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形體臞瘦",
+     "observable_ko": "형체가 여위고 마름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有神氣",
+     "observable_ko": "신기가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "形體肥",
+     "observable_ko": "형체가 살찜",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "無神氣",
+     "observable_ko": "신기가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-ear-068",
+   "section": "《人倫大統賦下》",
+   "region": "ear",
+   "original_text": "《李嶠》耳息而享百齡，孟軻內養而輕萬斛。",
+   "translation": "이교(李嶠)는 귀로 숨 쉬어 백 년의 수명을 누렸고, 맹가(孟軻)는 안으로 [기를] 길러 만 섬[의 녹]을 가벼이 여겼다.",
+   "commentary": "이교와 맹가(맹자)는 문헌이 사례로 든 인물이다. 귀로 숨 쉰다는 '이식(耳息)'은 호흡에 관한 서술로 귀의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳息",
+     "observable_ko": "귀로 숨을 쉼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡은 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-ear-069",
+   "section": "《人倫大統賦下》",
+   "region": "ear",
+   "original_text": "龜息者，氣自耳出，故享其壽。李嶠「耳中出息，享遐齡之壽　。」",
+   "translation": "거북 숨[龜息]이란 기가 귀로부터 나오는 것이니, 그러므로 그 수명을 누린다. 이교는 '귀 속에서 숨이 나와 먼 나이의 수명을 누렸다.'",
+   "commentary": "앞 구절 '耳息'의 주석으로, 귀로 숨이 나오는 것을 거북 숨이라 했다. 호흡에 관한 서술이라 귀 형태 레이블과 관계없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "氣自耳出",
+     "observable_ko": "기가 귀로 나옴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡·기는 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-070",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《孟子》：「善養浩然之氣，雖齊宣王授以萬鍾之祿，不顧也。」",
+   "translation": "『맹자』에 '호연지기를 잘 기르니, 비록 제 선왕이 만 종(鍾)의 녹을 주어도 돌아보지 않았다'고 했다.",
+   "commentary": "앞 구절 '孟軻內養而輕萬斛'의 주석으로 『맹자』를 인용한 형태로 적었으나, 인용문의 문구가 『맹자』 원문과 같은지는 이 스냅숏만으로 확인할 수 없다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-071",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "和柔剛正之謂「君子」，狹隘急暴之謂「士卒。」",
+   "translation": "온화하고 부드러우며 굳세고 바른 것을 '군자'라 하고, 좁고 급하며 사나운 것을 '사졸(士卒)'이라 한다.",
+   "commentary": "주석에 따르면 기(氣)의 성질을 말한다. 기질은 관찰 형태가 아니며, 사졸은 낮은 신분의 병졸을 가리킨다.",
+   "conditions": [],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-072",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "氣和寬剛正為君子，氣狹隘急暴為士卒。",
+   "translation": "기가 온화하고 너그러우며 굳세고 바르면 군자가 되고, 기가 좁고 급하며 사나우면 사졸이 된다.",
+   "commentary": "앞 구절의 주석으로 대상이 기(氣)임을 밝혔다. 기는 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "氣和寬剛正",
+     "observable_ko": "기가 온화하고 너그럽고 바름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣狹隘急暴",
+     "observable_ko": "기가 좁고 급하고 사나움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-073",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "如龜之息兮，保其遠大；如馬之馭兮，重其馳逐。",
+   "translation": "거북의 숨과 같으면 그 멀고 큼을 보전하고, 말을 모는 것과 같으면 그 달리고 쫓음이 무겁다.",
+   "commentary": "호흡의 모양을 거북 숨과 말 모는 숨에 빗댄 구절이다. 호흡은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "如龜之息",
+     "observable_ko": "거북처럼 숨 쉼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡은 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "如馬之馭",
+     "observable_ko": "말을 모는 듯 숨 쉼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡은 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-074",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "龜息之細，渺然不聞。蓋能如龜息者，可保長年之氣。若如馬之馭駕者，生平有馳逐之勞，重者辛苦。",
+   "translation": "거북 숨의 가늘기는 아득하여 들리지 않는다. 대개 거북 숨과 같을 수 있는 자는 오랜 나이의 기를 보전할 수 있다. 만약 말을 몰아 수레를 끄는 것과 같은 자는 평생 달리고 쫓는 수고가 있으니, 무거운 자는 고생스럽다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 가는 숨을 장수와, 거친 숨을 평생의 수고와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "龜息之細，渺然不聞",
+     "observable_ko": "숨이 가늘어 들리지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡은 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "如馬之馭駕",
+     "observable_ko": "말을 모는 듯 숨 쉼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "호흡은 형태가 아니며 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-075",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《百般》。",
+   "translation": "온갖 [것]이다.",
+   "commentary": "두 글자만 독립된 줄로 남은 단편으로, 앞뒤 어느 구절에 속하는지와 정확한 뜻을 원문만으로 확정할 수 없다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-076",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《身大》音小禍所隱，身小音大福所伏。",
+   "translation": "몸이 크고 소리가 작으면 화가 숨어 있는 바이고, 몸이 작고 소리가 크면 복이 엎드려 있는 바이다.",
+   "commentary": "몸의 크기와 목소리 크기의 상응을 화복에 연결한 구절이다. 몸 크기는 얼굴 레이블이 아니고 목소리는 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身大",
+     "observable_ko": "몸이 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "音小",
+     "observable_ko": "목소리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身小",
+     "observable_ko": "몸이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "音大",
+     "observable_ko": "목소리가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-077",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "「身大音小」 者，形聲不相應，故隱其禍而待其發；身小音大，神氣有餘，故藏其福而待其時。",
+   "translation": "'몸이 크고 소리가 작은' 자는 형과 소리가 서로 응하지 않으므로 그 화를 숨겨 두고 그것이 일어나기를 기다린다. 몸이 작고 소리가 크면 신기가 남음이 있으므로 그 복을 감추어 두고 그 때를 기다린다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 형과 소리의 불상응을 숨은 화와, 신기의 넉넉함을 숨은 복과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身大",
+     "observable_ko": "몸이 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "音小",
+     "observable_ko": "목소리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身小",
+     "observable_ko": "몸이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "몸 전체의 크기·체격은 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "音大",
+     "observable_ko": "목소리가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-078",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "夫「聲音之所發，自元宮而乃臻」，與心氣以相續。",
+   "translation": "무릇 '소리가 나오는 바는 원궁(元宮)으로부터 이르며', 마음의 기와 서로 이어진다.",
+   "commentary": "주석은 원궁(元宮)을 단전(丹田)으로 풀었다. 발성의 근원을 말한 총론으로 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-079",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "聲音之發起於丹田，與心氣相續而出也。",
+   "translation": "소리의 발함은 단전(丹田)에서 일어나 마음의 기와 서로 이어져 나온다.",
+   "commentary": "앞 구절의 주석이다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-080",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "琅然其若擊石，曠然其若呼谷。斯乃內蘊道德，終應戩穀。",
+   "translation": "낭랑하기가 돌을 치는 듯하고, 탁 트이기가 골짜기에 외치는 듯하다. 이는 곧 안으로 도덕을 쌓은 것이니 끝내 복록[戩穀]에 응한다.",
+   "commentary": "좋은 목소리를 돌 치는 소리와 골짜기 메아리에 비유했다. 전곡(戩穀)은 복과 녹을 뜻한다. 목소리는 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "琅然其若擊石，曠然其若呼谷",
+     "observable_ko": "목소리가 낭랑하고 탁 트임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-081",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "聲清則琅然若擊磬之音，聲濁則曠然如呼幽谷之奧。此謂「內懷道德」 之人，終當享其厚祿。",
+   "translation": "소리가 맑으면 낭랑하여 경쇠[磬]를 치는 소리 같고, 소리가 탁하면 탁 트여 그윽한 골짜기 깊은 곳에 외치는 것 같다. 이를 '안으로 도덕을 품은' 사람이라 하니 끝내 마땅히 그 두터운 녹을 누린다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 이런 목소리를 도덕과 두터운 녹봉에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "聲清",
+     "observable_ko": "목소리가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲濁",
+     "observable_ko": "목소리가 탁함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-082",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "謂之「羅網」者，乾溼不齊；謂之「雌雄」者，大小相續。或先急而後緩，或先緩而後速，是為粗俗之卑冗焉，遂《風雲》之志欲。",
+   "translation": "'그물[羅網]'이라 하는 것은 마르고 젖음이 고르지 않고, '암수[雌雄]'라 하는 것은 크고 작음이 서로 이어진다. 혹은 먼저 급하고 뒤에 느리며, 혹은 먼저 느리고 뒤에 빠르니, 이는 거칠고 속된 비천하고 쓸모없는 자가 되는 것이며, 풍운(風雲)의 뜻과 바람을 이룬다.",
+   "commentary": "나쁜 목소리의 유형을 든 구절이다. 마지막 '遂《風雲》之志欲'은 문맥상 '풍운의 뜻을 이루지 못한다'로 읽혀야 자연스러우나 원문에 부정어가 없어 글자대로 옮겼으며 독해가 불확실하다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "乾溼不齊",
+     "observable_ko": "목소리의 마르고 젖음이 고르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "大小相續",
+     "observable_ko": "목소리의 크고 작음이 섞여 이어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "或先急而後緩，或先緩而後速",
+     "observable_ko": "말소리의 빠르기가 고르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-083",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "聲音有乾潤出而不等。若聲大聲小，相續亂出，或先急而後緩，或先緩而後急，皆為粗俗卑下之徒。",
+   "translation": "소리에 마르고 윤택함이 있어 나옴이 고르지 않다. 만약 소리가 크고 작게 이어져 어지러이 나오거나, 혹은 먼저 급하고 뒤에 느리거나, 혹은 먼저 느리고 뒤에 급하면 모두 거칠고 속되며 비천한 무리가 된다.",
+   "commentary": "앞 구절의 주석이다. 문헌은 고르지 않은 목소리를 거칠고 비천한 무리와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "乾潤出而不等",
+     "observable_ko": "목소리의 마르고 윤택함이 고르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲大聲小，相續亂出",
+     "observable_ko": "목소리 크기가 어지러이 바뀜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "或先急而後緩，或先緩而後急",
+     "observable_ko": "말소리의 빠르기가 고르지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-084",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "辨四時之氣，如春蠶吐絲之微微；察五方之色，如浮雲覆日之旭旭。",
+   "translation": "사계절의 기를 분별함은 봄누에가 실을 토하듯 미미하고, 오방의 빛깔을 살핌은 뜬구름이 해를 덮었다가 [드러나듯] 환하다.",
+   "commentary": "얼굴의 기색(氣色)을 살피는 법을 말한 구절이다. 기와 빛깔은 형태가 아니라 관찰 형태 항목으로 옮길 수 없다. '旭旭'의 정확한 뜻은 불확실하다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "四時之氣",
+     "observable_ko": "사계절에 따른 얼굴의 기",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "五方之色",
+     "observable_ko": "오방의 얼굴빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-085",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "辨青白紅黑，豐四時之正氣也。在於皮上者，謂之色，皮裏者謂之氣。",
+   "translation": "푸르고 희고 붉고 검음을 분별함은 사계절의 바른 기를 넉넉히 하는 것이다. 가죽 위에 있는 것을 색(色)이라 하고, 가죽 속에 있는 것을 기(氣)라 한다.",
+   "commentary": "앞 구절의 주석으로 색과 기를 피부 위·아래로 구분해 정의했다. '豐四時之正氣'의 '豐'은 뜻이 분명치 않아 글자대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-086",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "氣者，如粟、如豆、如絲、如髮，藏於紋理之中，隱於毛髮之內，細者若春蠶之絲。欲察五方，正如浮雲覆日之微。",
+   "translation": "기는 조와 같고 콩과 같고 실과 같고 터럭과 같아서, 무늬결 가운데 감추어지고 털 속에 숨으며, 가는 것은 봄누에의 실과 같다. 오방을 살피려 하면 바로 뜬구름이 해를 덮은 듯 미미하다.",
+   "commentary": "기(氣)의 나타나는 모양을 설명한 주석이다. 기색은 형태가 아니며 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "如粟、如豆、如絲、如髮",
+     "observable_ko": "기가 조·콩·실·터럭 모양으로 나타남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-chin-087",
+   "section": "《人倫大統賦下》",
+   "region": "chin",
+   "original_text": "地閣明而饒田宅，天嶽暗而罹桎梏。",
+   "translation": "지각(地閣, 턱)이 밝으면 논밭과 집이 넉넉하고, 천악(天嶽)이 어두우면 차꼬와 수갑[桎梏]에 걸린다.",
+   "commentary": "지각은 턱, 천악은 얼굴 윗부분(이마 쪽)을 가리키는 부위 이름으로 보인다. 밝고 어두움은 빛깔에 관한 표현이라 형태 레이블로 옮길 수 없다. 문헌은 어두운 천악을 형벌·옥사와 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣明",
+     "observable_ko": "턱 부위가 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "天嶽暗",
+     "observable_ko": "천악 부위가 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-chin-088",
+   "section": "《人倫大統賦下》",
+   "region": "chin",
+   "original_text": "地閣光明者，田宅多廣。天嶽昏暗者，刑獄多憂。",
+   "translation": "지각이 빛나고 밝은 자는 논밭과 집이 많고 넓다. 천악이 흐리고 어두운 자는 형벌과 옥사의 근심이 많다.",
+   "commentary": "앞 구절의 주석이다. 밝기·어둡기는 빛깔이므로 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣光明",
+     "observable_ko": "턱 부위가 빛나고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "天嶽昏暗",
+     "observable_ko": "천악 부위가 흐리고 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-089",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "粟黃繒紫多豪貴，脂白菰青合賢淑。",
+   "translation": "조처럼 누르고 비단처럼 자줏빛이면 대개 호걸스럽고 귀하며, 기름처럼 희고 줄풀처럼 푸르면 어질고 맑음에 합한다.",
+   "commentary": "얼굴빛을 조·비단·기름·줄풀에 빗댄 구절이다. 빛깔은 형태가 아니라 관찰 형태 항목으로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "粟黃繒紫",
+     "observable_ko": "얼굴빛이 조처럼 누르고 자줏빛임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "脂白菰青",
+     "observable_ko": "얼굴빛이 기름처럼 희고 줄풀처럼 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-090",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "「粟黃」 者，如粟粒之點，嬌黃也。「繒紫」 者，如紫線之亂盤也。是為青龍之氣。若面部四時常見者，乃豪貴之人。",
+   "translation": "'속황(粟黃)'이란 조 낱알 같은 점으로 고운 누런빛이다. '증자(繒紫)'란 자줏빛 실이 어지러이 서린 것 같은 것이다. 이것이 청룡(青龍)의 기이다. 만약 얼굴에 사계절 늘 보이는 자는 곧 호걸스럽고 귀한 사람이다.",
+   "commentary": "앞 구절 '粟黃繒紫'의 주석이다. 기색은 형태가 아니며 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "如粟粒之點，嬌黃",
+     "observable_ko": "얼굴에 조 낱알 같은 누런 점빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "如紫線之亂盤",
+     "observable_ko": "얼굴에 자줏빛 실이 서린 듯한 기색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-091",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "人之面色，「其白若脂，其青若菰」 者，廊廟之器。",
+   "translation": "사람의 얼굴빛이 '그 흼은 기름 같고 그 푸름은 줄풀 같은' 자는 조정[廊廟]의 그릇이다.",
+   "commentary": "앞 구절 '脂白菰青'의 주석이다. 낭묘지기(廊廟之器)는 조정의 중신이 될 인재를 뜻한다. 얼굴빛은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "其白若脂，其青若菰",
+     "observable_ko": "얼굴빛이 기름처럼 희고 줄풀처럼 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-092",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "若相者，精究其術，而妙悟於神，安逃禍福。",
+   "translation": "만약 관상하는 자가 그 술법을 정밀히 궁구하여 신묘함을 오묘하게 깨달으면, [사람의] 화복이 어찌 달아나겠는가.",
+   "commentary": "부(賦)의 맺음말로 상술을 깊이 연구하라는 권고다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-093",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "若學相者，能細究此書，而得其神妙，則禍福無逃也。",
+   "translation": "만약 관상을 배우는 자가 이 책을 세밀히 궁구하여 그 신묘함을 얻을 수 있으면 화복이 달아날 수 없다.",
+   "commentary": "앞 구절의 주석이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-094",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "歌曰：「嗟嗟世俗不知因，妄將容貌取其形，若得正形為大貴，依稀相似出群倫。",
+   "translation": "노래에 이르기를, '아아, 세속은 까닭을 알지 못하고 망령되이 용모로 그 형을 취한다. 만약 바른 형을 얻으면 크게 귀하고, 어렴풋이 비슷하기만 해도 무리에서 뛰어나다.",
+   "commentary": "주석 끝에 붙은 노래(歌)의 첫 부분이다. '바른 형(正形)'은 구체적 형태가 특정되지 않는 평가어다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "正形",
+     "observable_ko": "바른 형상",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "구체적 측정 기준이 없는 평가어로 여러 형태로 읽힐 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-095",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "形滯之人行必失，神滯之人心不開。氣滯之人言必嬾，色滯之人面塵埃。",
+   "translation": "형이 막힌 사람은 행함에 반드시 잃고, 신이 막힌 사람은 마음이 열리지 않는다. 기가 막힌 사람은 말이 반드시 게으르고, 색이 막힌 사람은 얼굴이 먼지 낀 듯하다.",
+   "commentary": "형·신·기·색의 '막힘(滯)'을 각각 행실·마음·말·얼굴빛에 연결한 노래 구절이다. '형이 막힘'이 어떤 형태인지는 특정되지 않으며, 신·기·색은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形滯",
+     "observable_ko": "형이 막힘",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어떤 형태를 뜻하는지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "神滯",
+     "observable_ko": "신이 막힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "氣滯",
+     "observable_ko": "기가 막힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面塵埃",
+     "observable_ko": "얼굴빛이 먼지 낀 듯 흐림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "빛깔·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-096",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "形神氣色都無滯，舉事心謀百事諧。",
+   "translation": "형·신·기·색이 모두 막힘이 없으면 일을 일으키고 마음으로 꾀함에 온갖 일이 조화롭다.",
+   "commentary": "노래의 이어지는 구절이다. 형·신·기·색의 막힘 없음은 측정 가능한 형태 조건이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形神氣色都無滯",
+     "observable_ko": "형·신·기·색이 막힘이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-face-097",
+   "section": "《人倫大統賦下》",
+   "region": "face",
+   "original_text": "色在皮而氣在血脈聚作成多喜悅，散則成憂靜則安，部位吉凶皆有訣　。」",
+   "translation": "색은 가죽에 있고 기는 혈맥에 있으니, 모여 이루어지면 기쁨이 많고, 흩어지면 근심이 되고 고요하면 편안하니, 부위의 길흉에는 모두 비결이 있다.'",
+   "commentary": "노래의 끝부분으로 기색의 모이고 흩어짐을 길흉에 연결했다. 원문 구두가 분명치 않아 글자 순서대로 끊어 읽었다. 기색은 관찰 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "色在皮而氣在血脈",
+     "observable_ko": "피부의 색과 혈맥의 기",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신(神)·기(氣)는 형태가 아닌 기운에 관한 개념으로 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-098",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "又曰：「欲窮禍福貴賤除，觀諸家相文，聽聲觀形察色」 ，有肉神、音神、眼神，總欲觀之，則自然明矣　。",
+   "translation": "또 이르기를 '화복과 귀천을 궁구하려면 [다른 것은] 제쳐 두고 여러 상가(相家)의 글을 보고, 소리를 듣고 형을 보며 색을 살피라'고 했으니, 살의 신, 소리의 신, 눈의 신이 있어 모두 아울러 보고자 하면 저절로 밝아진다.",
+   "commentary": "관상의 방법을 정리한 맺음 구절이다. '貴賤除'의 '除'는 구두와 뜻이 불확실하여 '제쳐 둔다'로 옮겼다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-099",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "又曰：「迷而不反，禍從惑起，災自奢生。」",
+   "translation": "또 이르기를 '미혹되어 돌아오지 않으면 화는 미혹에서 일어나고 재앙은 사치에서 생긴다'고 했다.",
+   "commentary": "행실을 경계하는 인용구다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638RB-other-100",
+   "section": "《人倫大統賦下》",
+   "region": "other",
+   "original_text": "《老子》曰：「天之道，利而不害。聖人之道，為而不爭。」 此之謂也。",
+   "translation": "『노자』에 이르기를 '하늘의 도는 이롭게 하되 해치지 않는다. 성인의 도는 행하되 다투지 않는다'고 했으니, 이를 일컬은 것이다.",
+   "commentary": "『노자』를 인용하여 편을 맺은 구절이다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  }
+ ]
+}

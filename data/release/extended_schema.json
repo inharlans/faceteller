@@ -1,0 +1,216 @@
+{
+  "version": "bisenet-visible-geometry-v1",
+  "preprocess_version": "eye-centre-isotropic-v2",
+  "ear_transform_version": "visible-ear-isotropic-v1",
+  "network_input_sizes": {
+    "forehead": [
+      192,
+      288
+    ],
+    "ear": [
+      256,
+      192
+    ],
+    "mole": [
+      416,
+      352
+    ]
+  },
+  "features": {
+    "forehead_height": {
+      "ko": "보이는 이마 높이",
+      "part": "forehead",
+      "source": "visual",
+      "classes": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "classes_ko": [
+        "낮음",
+        "보통",
+        "높음"
+      ],
+      "metric": "visible skin/hair transition to inner-brow baseline / eye-centre distance",
+      "provenance": {
+        "kind": "weak_automated",
+        "model_sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+        "human_reviewed": false,
+        "model": "yakhyo BiSeNet ResNet18/CelebAMask-HQ"
+      },
+      "unknown": null,
+      "confidence_available": false,
+      "label_status": "weak_geometry_label",
+      "thresholds": {
+        "fit_split": "train",
+        "train_id_sha256": "789ca950a7245cb7397e536f37f479f2c441c200b8249435af908be14d49c906",
+        "eligible_train_n": 176,
+        "quantiles": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "status": "fitted",
+        "lower": 0.7301262989550763,
+        "upper": 0.8188032272442037
+      }
+    },
+    "forehead_width": {
+      "ko": "보이는 이마 폭",
+      "part": "forehead",
+      "source": "visual",
+      "classes": [
+        "narrow",
+        "medium",
+        "wide"
+      ],
+      "classes_ko": [
+        "좁음",
+        "보통",
+        "넓음"
+      ],
+      "metric": "connected skin width halfway between hair boundary and inner-brow baseline / eye-centre distance",
+      "provenance": {
+        "kind": "weak_automated",
+        "model_sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+        "human_reviewed": false,
+        "model": "yakhyo BiSeNet ResNet18/CelebAMask-HQ"
+      },
+      "unknown": null,
+      "confidence_available": false,
+      "label_status": "weak_geometry_label",
+      "thresholds": {
+        "fit_split": "train",
+        "train_id_sha256": "789ca950a7245cb7397e536f37f479f2c441c200b8249435af908be14d49c906",
+        "eligible_train_n": 178,
+        "quantiles": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "status": "fitted",
+        "lower": 1.625,
+        "upper": 1.7734375
+      }
+    },
+    "ear_length": {
+      "ko": "보이는 귀 상대 길이",
+      "part": "ear",
+      "source": "visual",
+      "classes": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "classes_ko": [
+        "짧음",
+        "보통",
+        "김"
+      ],
+      "metric": "roll-aligned ear mask height / (projected eye-centre distance / cos(yaw)); bilateral median",
+      "provenance": {
+        "kind": "weak_automated",
+        "model_sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+        "human_reviewed": false,
+        "model": "yakhyo BiSeNet ResNet18/CelebAMask-HQ"
+      },
+      "unknown": null,
+      "confidence_available": false,
+      "label_status": "weak_geometry_label",
+      "thresholds": {
+        "fit_split": "train",
+        "train_id_sha256": "789ca950a7245cb7397e536f37f479f2c441c200b8249435af908be14d49c906",
+        "eligible_train_n": 261,
+        "quantiles": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "status": "fitted",
+        "lower": 0.913838200787741,
+        "upper": 0.9828027880941048
+      }
+    },
+    "ear_width": {
+      "ko": "보이는 귀 폭/길이",
+      "part": "ear",
+      "source": "visual",
+      "classes": [
+        "narrow",
+        "medium",
+        "wide"
+      ],
+      "classes_ko": [
+        "좁음",
+        "보통",
+        "넓음"
+      ],
+      "metric": "roll-aligned ear mask width / height; bilateral median",
+      "provenance": {
+        "kind": "weak_automated",
+        "model_sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+        "human_reviewed": false,
+        "model": "yakhyo BiSeNet ResNet18/CelebAMask-HQ"
+      },
+      "unknown": null,
+      "confidence_available": false,
+      "label_status": "weak_geometry_label",
+      "thresholds": {
+        "fit_split": "train",
+        "train_id_sha256": "789ca950a7245cb7397e536f37f479f2c441c200b8249435af908be14d49c906",
+        "eligible_train_n": 260,
+        "quantiles": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "status": "fitted",
+        "lower": 0.6298849807162362,
+        "upper": 0.6939833144611274
+      }
+    },
+    "pigmented_marks": {
+      "ko": "보이는 색소 표식 유무(비의학적)",
+      "part": "mole",
+      "source": "visual",
+      "classes": [
+        "absent",
+        "present"
+      ],
+      "classes_ko": [
+        "없음",
+        "있음"
+      ],
+      "metric": "small dark visible marks in exposed upper-face skin inside the face oval, above subnasale; eyes/brows/nose/lips/hair and lower beard-prone face excluded; not whole-face absence, not clinical mole diagnosis",
+      "provenance": {
+        "kind": "weak_automated",
+        "model_sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+        "human_reviewed": false,
+        "model": "yakhyo BiSeNet ResNet18/CelebAMask-HQ"
+      },
+      "unknown": null,
+      "confidence_available": false,
+      "label_status": "weak_algorithm_label",
+      "thresholds": {
+        "status": "fixed_algorithm",
+        "reason": null,
+        "fit_split": null,
+        "version": "visible-upper-skin-dark-marks-v1",
+        "minimum_repeats": 2,
+        "absence_requires_clear_repeats": 3,
+        "scope": "small dark visible marks in exposed upper-face skin inside the face oval, above subnasale; eyes/brows/nose/lips/hair and lower beard-prone face excluded; not whole-face absence, not clinical mole diagnosis",
+        "population_threshold_fitting": false
+      }
+    }
+  },
+  "model_provenance": {
+    "repository": "https://github.com/yakhyo/face-parsing",
+    "asset_url": "https://github.com/yakhyo/face-parsing/releases/download/weights/resnet18.onnx",
+    "sha256": "0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f",
+    "code_license": "MIT",
+    "weights_specific_license": "No separate explicit model-weight license found in repository LICENSE, README, or weights release notes; do not infer unrestricted commercial weight rights from code MIT.",
+    "training_dataset": "CelebAMask-HQ",
+    "dataset_terms": "non-commercial research only; primary dataset README saved",
+    "authorized_use": "local educational/research CPU inference; no image upload",
+    "provider": "CPUExecutionProvider",
+    "input": "512 RGB ImageNet normalization",
+    "classes": "19; skin1,left_ear7,right_ear8,hair17,hat18"
+  },
+  "scope": "weak automated visible morphology; no medical, personality, intelligence or fate inference"
+}

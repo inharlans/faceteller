@@ -1,0 +1,2248 @@
+{
+ "page_id": "gj642",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《相骨節》",
+  "《相面部骨格》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ642M-face-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "《訣》曰：「骨節要豐隆，",
+   "translation": "『결(訣)』에 이르기를: 「골절(骨節, 뼈마디)은 풍성하고 융성해야 하니,",
+   "commentary": "골상(骨相) 가결의 첫머리로, 얼굴·머리의 뼈가 두드러지고 풍성해야 한다는 총론이다. 특정 부위나 측정 가능한 형태를 지정하지 않는 원칙 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "骨節要豐隆",
+     "observable_ko": "얼굴·머리 뼈마디가 풍성하고 융성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "부위를 특정하지 않은 골격 일반론으로 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "天中向上攻，橫生主封爵，",
+   "translation": "천중(天中, 이마 맨 위 가운데)에서 위로 치받고, 가로로 나면 봉작(封爵)을 주관한다.",
+   "commentary": "천중(天中)은 이마 위쪽 정중앙 부위 이름이다. 뼈가 위로 뻗거나 가로로 솟는 형상은 골격 돌출에 관한 것으로 이마 높이·너비 레이블과 같은 척도가 아니다. 문헌은 이를 봉작과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中向上攻",
+     "observable_ko": "천중 부위 뼈가 위로 뻗어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "橫生",
+     "observable_ko": "뼈가 가로로 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-002",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "雞子定孤窮，",
+   "translation": "달걀(雞子) 같으면 고독하고 궁함이 정해진다.",
+   "commentary": "앞 구절의 뼈가 달걀처럼 둥글게 솟은 모양을 가리키는 것으로 읽히나 원문만으로 부위와 형태가 분명하지 않다. 문헌은 이를 고독·빈궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "雞子",
+     "observable_ko": "뼈가 달걀 모양으로 솟음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "달걀 비유가 가리키는 부위·형태가 특정되지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-003",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "龍角如雙柱，陞朝有始終，",
+   "translation": "용각(龍角)이 두 기둥 같으면 조정에 올라 시작과 끝이 있다.",
+   "commentary": "용각(龍角)은 이마 위쪽 좌우의 뼈 부위 이름으로 쓰인다. 두 기둥처럼 솟은 뼈는 골격 형상이라 대응 레이블이 없다. 문헌은 이를 벼슬길이 끝까지 이어짐과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "龍角如雙柱",
+     "observable_ko": "이마 좌우 용각 부위 뼈가 두 기둥처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-glabella-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "glabella",
+   "original_text": "印堂三寸起，伯牧位相同。」",
+   "translation": "인당(印堂, 두 눈썹 사이)이 세 치 솟으면 백목(伯牧, 지방 장관)의 지위와 같다.」",
+   "commentary": "인당 부위 뼈가 솟는다는 서술로, '세 치(三寸)'는 절대 길이 표현이다. 미간 너비(brow_gap)와는 다른 돌출에 관한 것이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂三寸起",
+     "observable_ko": "인당 부위가 세 치가량 솟음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "미간 돌출은 미간 너비(brow_gap)와 다른 척도이며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-nose-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "nose",
+   "original_text": "鼻與山根直，求婚帝室同，",
+   "translation": "코와 산근(山根, 콧뿌리)이 곧으면 혼인을 구함이 제실(帝室)과 같다.",
+   "commentary": "코와 콧뿌리가 곧게 이어진 형상은 콧등 직선성에 관한 것으로, 콧뿌리 높이(nose_bridge)와 같은 척도가 아니다. 문헌은 이를 황실과 같은 혼인과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻與山根直",
+     "observable_ko": "코와 콧뿌리가 곧게 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧등 직선성(鼻梁 형태)에 대한 정준 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-cheekbone-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "cheekbone",
+   "original_text": "兩顴欹更露，權勢盡成空，",
+   "translation": "두 관골(顴骨, 광대뼈)이 기울고 또 드러나면 권세가 모두 헛것이 된다.",
+   "commentary": "'露'는 광대뼈가 드러남(顴露)으로 읽혀 cheekbone:prominent에 해당하나, '기울다(欹)'는 좌우 비대칭·기울기에 관한 별도 조건으로 대응 레이블이 없다. 문헌은 이를 권세의 상실과 연결했다.",
+   "conditions": [
+    {
+     "region": "cheekbone",
+     "evidence": "顴欹更露",
+     "observable_ko": "광대뼈가 드러나 두드러짐",
+     "status": "exact",
+     "label": "cheekbone:prominent"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "欹",
+     "observable_ko": "광대뼈가 기울어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "광대뼈의 기울기·비대칭은 정준 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-002",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "懸壁須豐起，欹斜禍必逢，",
+   "translation": "현벽(懸壁)은 반드시 풍성하게 솟아야 하니, 기울고 비뚤면 화를 반드시 만난다.",
+   "commentary": "현벽(懸壁)은 뺨 옆쪽 부위 이름으로 해석된다. 풍성함은 볼 살집과 관련될 수 있으나 '솟음'은 뼈에 관한 것이라 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "懸壁須豐起",
+     "observable_ko": "현벽 부위가 풍성하게 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "뼈의 솟음과 살집이 섞인 표현으로 볼 살집 레이블과 같은 척도가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "欹斜",
+     "observable_ko": "현벽 부위가 기울고 비뚤어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "부위의 기울기·비대칭은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "other",
+   "original_text": "巨龜連腦戶，宰輔位尊崇。",
+   "translation": "거귀(巨龜)가 뇌호(腦戶)에 이어지면 재보(宰輔, 재상)의 지위로 높고 존귀하다.",
+   "commentary": "거귀(巨龜)는 거북에 빗댄 뼈 이름으로 보이나 정확한 위치가 원문에 없고, 뇌호(腦戶)는 뒷머리 부위를 가리키는 말로 읽힌다. 정면 얼굴 사진으로 볼 수 없는 형상이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "巨龜連腦戶",
+     "observable_ko": "거귀 뼈가 뒷머리(뇌호)까지 이어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유의 뼈 이름으로 위치가 불분명하고 뒷머리는 정면 사진에 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-003",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "「精舍林中廣，仙風道骨藏。」",
+   "translation": "「정사(精舍)와 임중(林中)이 넓으면 선풍도골(仙風道骨)이 감추어져 있다.」",
+   "commentary": "정사(精舍)·임중(林中)은 얼굴 부위 도식의 이름으로, 대략 눈 주변 높이의 부위를 가리키는 것으로 보이나 원문만으로 정확한 위치를 정하기 어렵다. 부위 너비에 대한 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "精舍林中廣",
+     "observable_ko": "정사·임중 부위가 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "부위 명칭의 위치가 불분명하고 해당 너비 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-004",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "伏犀三路起，僧道骨為良。",
+   "translation": "복서(伏犀)가 세 갈래로 솟으면 승려·도사의 뼈로서 좋다.",
+   "commentary": "복서골(伏犀骨)은 인당에서 정수리 쪽으로 이어지는 이마 가운데의 솟은 뼈를 가리키는 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀三路起",
+     "observable_ko": "이마 가운데 복서골이 세 갈래로 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-005",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "驛馬連邊地，兵權守一方。",
+   "translation": "역마(驛馬)가 변지(邊地)에 이어지면 병권으로 한 지방을 지킨다.",
+   "commentary": "역마(驛馬)·변지(邊地)는 이마 바깥쪽 가장자리 부근의 부위 이름으로 쓰인다. 두 부위의 뼈가 이어진 형상은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "驛馬連邊地",
+     "observable_ko": "역마 부위 뼈가 변지까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-002",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "other",
+   "original_text": "《金神》分五指，極品在嵒廊。",
+   "translation": "금신(金神)이 다섯 손가락으로 나뉘면 극품(極品)으로 암랑(嵒廊, 조정)에 있다.",
+   "commentary": "'金神'이 뼈 이름인지 다른 것인지, '다섯 손가락으로 나뉨'이 무엇을 뜻하는지 원문만으로 분명하지 않아 글자대로 옮겼다. 문헌은 이를 최고 품계와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《金神》分五指",
+     "observable_ko": "금신이 다섯 손가락처럼 나뉨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "가리키는 부위와 형태가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-006",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "武庫宜為將，傾危必主亡，",
+   "translation": "무고(武庫)는 장수가 되기에 마땅하고, 기울고 위태로우면 반드시 죽음을 주관한다.",
+   "commentary": "무고(武庫)는 이마 위쪽 가장자리의 부위 이름으로 쓰인다. 뼈가 기울고 위태로운 형상은 대응 레이블이 없다. 문헌은 이를 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "武庫",
+     "observable_ko": "무고 부위 뼈(솟음)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "傾危",
+     "observable_ko": "무고 부위 뼈가 기울고 위태로움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-003",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "other",
+   "original_text": "玉梁具耳鼻，清顯富文章，",
+   "translation": "옥량(玉梁)이 귀와 코에 갖추어지면 맑고 드러나며 문장이 풍부하다.",
+   "commentary": "옥량(玉梁)이 어떤 뼈를 가리키는지 원문에 정의가 없어, '귀와 코에 갖추어짐'의 형태를 특정할 수 없다. 문헌은 이를 문장 재능·현달과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "玉梁具耳鼻",
+     "observable_ko": "옥량이 귀와 코에 갖추어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "옥량의 위치·형태가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-004",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "other",
+   "original_text": "大海尖如指，支干慎折傷，",
+   "translation": "대해(大海)가 손가락처럼 뾰족하면 지간(支干)이 꺾이고 다침을 삼가야 한다.",
+   "commentary": "대해(大海)는 부위 도식에서 입 등을 가리키기도 하나 이 구절에서는 무엇인지 분명하지 않고, '支干'의 뜻도 불확실하여 글자대로 옮겼다. 문헌은 이를 꺾이고 다침과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "大海尖如指",
+     "observable_ko": "대해 부위가 손가락처럼 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "대해가 가리키는 부위가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-004",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "奸門欲平闊，尖陷定婬娼。",
+   "translation": "간문(奸門, 눈꼬리 바깥 부위)은 평평하고 넓어야 하니, 뾰족하고 꺼지면 음란한 창기로 정해진다.",
+   "commentary": "간문(奸門)은 눈꼬리 바깥 관자놀이 쪽 부위 이름이다. 이 부위의 평평함·꺼짐은 대응 레이블이 없다. 문헌은 꺼진 간문을 성적 행실에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "奸門欲平闊",
+     "observable_ko": "눈꼬리 바깥(간문) 부위가 평평하고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "간문 부위의 너비·평평함 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "尖陷",
+     "observable_ko": "간문 부위가 뾰족하고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "간문 부위의 꺼짐 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-005",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "other",
+   "original_text": "玉樓如伏臂，名重三台位。",
+   "translation": "옥루(玉樓)가 엎드린 팔 같으면 이름이 무거워 삼태(三台, 삼공)의 지위에 오른다.",
+   "commentary": "옥루(玉樓)는 뼈 이름으로 보이나 위치가 원문에 없고, '엎드린 팔'은 비유라 형태를 특정할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "玉樓如伏臂",
+     "observable_ko": "옥루 뼈가 엎드린 팔 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "위치가 불분명한 비유 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-007",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "牛角連虎眉，直起宜侍衛。",
+   "translation": "우각(牛角)이 호미(虎眉)에 이어져 곧게 솟으면 시위(侍衛)에 마땅하다.",
+   "commentary": "우각(牛角)·호미(虎眉)는 부위 도식의 뼈 이름으로, 호미는 눈썹 부근으로 짐작되나 원문에 위치가 정의되지 않는다. 이어져 곧게 솟은 뼈는 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "牛角連虎眉，直起",
+     "observable_ko": "우각에서 호미까지 뼈가 이어져 곧게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-008",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "forehead",
+   "original_text": "日角父康寧，月缺母難備。",
+   "translation": "일각(日角)이면 아버지가 건강하고 평안하며, 월(月, 월각)이 이지러지면 어머니를 갖추기 어렵다.",
+   "commentary": "일각(日角)·월각(月角)은 이마 위쪽 좌우의 부위로, 전통적으로 아버지·어머니에 배당되었다. 뼈의 솟음·이지러짐은 대응 레이블이 없다. 문헌은 이를 부모의 안위와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "日角",
+     "observable_ko": "이마 왼쪽 위 일각 부위가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "月缺",
+     "observable_ko": "이마 오른쪽 위 월각 부위가 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "kinship_harm",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-chin-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "chin",
+   "original_text": "項後見兩頤，兄弟多不義。",
+   "translation": "목 뒤에서 두 턱(頤)이 보이면 형제가 의롭지 못함이 많다.",
+   "commentary": "뒤에서 보아도 양쪽 턱이 보일 만큼 턱이 옆으로 벌어진 형상으로 읽히며, 턱 너비(jaw_width:wide)에 근사하나 시점이 뒤쪽이라 같은 척도는 아니다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "項後見兩頤",
+     "observable_ko": "뒤에서도 양쪽 턱이 보임",
+     "status": "approximate",
+     "candidate_labels": [
+      "jaw_width:wide"
+     ],
+     "reason": "뒤쪽 시점의 표현으로 정면 턱 너비 측정과 다르다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-001",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "ear",
+   "original_text": "欲知壽綿遠，耳後聳餘地。",
+   "translation": "수명이 길게 이어짐을 알고자 하면 귀 뒤에 남은 땅(餘地)이 솟아 있다.",
+   "commentary": "귀 뒤의 뼈(흔히 수골로 불림)가 솟은 형상을 말한 것으로 보이나, 귀 뒤는 정면 사진에서 보이지 않고 대응 레이블이 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳後聳餘地",
+     "observable_ko": "귀 뒤 부위가 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "귀 뒤 뼈는 정면 얼굴 사진에서 보이지 않으며 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-chin-002",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "chin",
+   "original_text": "頦額方且平，揖讓最為貴。",
+   "translation": "턱(頦)과 이마가 모나고 또 평평하면 읍양(揖讓, 예로써 사양함)함이 가장 귀하다.",
+   "commentary": "'頦…方'은 턱이 모남(頦方)으로 chin_shape:square에 해당한다. 이마가 모나고 평평함은 대응 레이블이 없어 이 구절은 전체로 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "頦額方",
+     "observable_ko": "턱이 모남",
+     "status": "exact",
+     "label": "chin_shape:square"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額方且平",
+     "observable_ko": "이마가 모나고 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 모남·평평함 레이블이 없다(가시 이마 높이·너비와 다른 척도)"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-005",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "更忌虎吞龍，粗露切須忌。",
+   "translation": "또 범이 용을 삼킴(虎吞龍)을 꺼리며, 거칠고 드러남은 절대로 꺼려야 한다.",
+   "commentary": "'호탄룡(虎吞龍)'은 좌우 부위(용·호로 배당된 부위)의 불균형을 가리키는 비유로 보이나 원문만으로 특정할 수 없다. 뼈가 거칠게 드러남도 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "虎吞龍",
+     "observable_ko": "범이 용을 삼킴(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 가리키는 부위·형태가 불분명하다"
+    },
+    {
+     "region": "face",
+     "evidence": "粗露",
+     "observable_ko": "뼈가 거칠게 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-006",
+   "page_id": "gj642",
+   "section": "《相骨節》",
+   "region": "face",
+   "original_text": "既聳堅且明，巍巍堂廟器。",
+   "translation": "이미 솟고 단단하며 또 밝으면 우뚝한 묘당(廟堂)의 그릇이다.",
+   "commentary": "뼈가 솟고 단단하며 밝다는 총평이다. 솟음은 골격 형상이라 대응 레이블이 없고, 단단함은 촉감, 밝음은 광택·기색에 관한 말이라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "既聳",
+     "observable_ko": "뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "堅且明",
+     "observable_ko": "뼈가 단단하고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "단단함은 촉감, 밝음은 광택·기색으로 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-009",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "天中骨起，主富貴，陷缺無田地。",
+   "translation": "천중(天中, 이마 맨 위 가운데) 뼈가 솟으면 부귀를 주관하고, 꺼지고 이지러지면 논밭이 없다.",
+   "commentary": "천중 부위 뼈의 솟음·꺼짐은 이마 돌출에 관한 것으로, 가시 이마 높이·너비 레이블과 다른 척도라 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中骨起",
+     "observable_ko": "천중 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "천중 부위가 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-006",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "天門骨合，得四方朋友，及弟兄姊妹之力。",
+   "translation": "천문(天門) 뼈가 합하면 사방 벗들과 형제자매의 힘을 얻는다.",
+   "commentary": "천문(天門)은 부위 이름이나 이 문장만으로 위치가 분명하지 않고, '합한다(合)'의 형태도 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "天門骨合",
+     "observable_ko": "천문 부위 뼈가 합함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 위치와 '合'의 형태가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-010",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "百合骨起，邊地之將，高聳主大貴。",
+   "translation": "백합(百合) 뼈가 솟으면 변경의 장수이고, 높이 솟으면 크게 귀함을 주관한다.",
+   "commentary": "백합(百合)은 부위 도식의 뼈 이름으로 보이며 위치는 원문에 없다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "百合骨起",
+     "observable_ko": "백합 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "高聳",
+     "observable_ko": "백합 뼈가 높이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-007",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "命門骨長壽，陷低并色惡，不然",
+   "translation": "명문(命門, 귀 앞 부위) 뼈는 장수하고, 꺼지고 낮으며 아울러 색이 나쁘면 그렇지 않다.",
+   "commentary": "명문(命門)은 귀 앞쪽 부위 이름으로 해석된다. '不然' 뒤에 공백이 있어 문장이 끊긴 것으로 보이며, 글자대로 옮겼다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "命門骨",
+     "observable_ko": "명문 부위 뼈(솟음)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "陷低",
+     "observable_ko": "명문 부위가 꺼지고 낮음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "色惡",
+     "observable_ko": "명문 부위 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-007",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "子位豐滿，主多子孫。",
+   "translation": "자위(子位, 자식 자리)가 풍만하면 자손이 많음을 주관한다.",
+   "commentary": "자위(子位)는 자녀에 배당된 부위로 보이나 이 문장에서 위치가 정의되지 않는다. 문헌은 이를 자손의 수와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "子位豐滿",
+     "observable_ko": "자위 부위가 풍만함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "자위의 위치가 원문에서 특정되지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-008",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "甲匱骨起，女主后妃，男為金吾將軍領兵。",
+   "translation": "갑궤(甲匱) 뼈가 솟으면 여자는 후비(后妃)를 주관하고, 남자는 금오장군(金吾將軍)이 되어 병사를 거느린다.",
+   "commentary": "갑궤(甲匱)는 뼈 이름이나 위치가 원문에 없다. 성별에 따라 주장이 갈리는 구절이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "甲匱骨起",
+     "observable_ko": "갑궤 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "위치가 불분명한 골격 돌출로 대응 레이블이 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-011",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "邊上骨起，及肉紅潤者，主富貴。",
+   "translation": "변상(邊上) 뼈가 솟고 살이 붉고 윤택한 자는 부귀를 주관한다.",
+   "commentary": "변상(邊上)은 이마 가장자리 부근 부위로 읽힌다. 뼈 돌출은 대응 레이블이 없고 살빛의 붉고 윤택함은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "邊上骨起",
+     "observable_ko": "변상 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "肉紅潤",
+     "observable_ko": "살이 붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-008",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "法令骨起，為大理，主事少卿等官，色惡主多厄。",
+   "translation": "법령(法令, 코 옆에서 입가로 내려가는 선) 뼈가 솟으면 대리(大理)가 되어 주사·소경 등의 관직이고, 색이 나쁘면 재액이 많음을 주관한다.",
+   "commentary": "법령(法令)은 콧방울 옆에서 입가로 내려가는 선 부위다. 그 부위 뼈의 솟음은 대응 레이블이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "法令骨起",
+     "observable_ko": "법령 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "色惡",
+     "observable_ko": "법령 부위 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-nose-002",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "nose",
+   "original_text": "井竈骨起，宜田宅。",
+   "translation": "정조(井竈, 콧구멍 부위) 뼈가 솟으면 전택(田宅)에 마땅하다.",
+   "commentary": "정조(井竈)는 콧구멍·콧방울 부근 부위 이름으로 쓰인다. 이 부위 뼈의 솟음은 콧방울 살집(alar_fullness)과 같은 척도가 아니어서 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "井竈骨起",
+     "observable_ko": "콧구멍(정조) 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-012",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "輔角骨起，能文「案合為大尹。",
+   "translation": "보각(輔角) 뼈가 솟으면 글에 능하고, 안(案)에 합당하여 대윤(大尹)이 된다.",
+   "commentary": "보각(輔角)은 이마 위쪽 모서리 부위다. 문장 중간에 따옴표(「)가 끼어 있고 '案合'의 뜻이 분명하지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "輔角骨起",
+     "observable_ko": "이마 모서리(보각) 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-chin-003",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "chin",
+   "original_text": "地閣骨滿主屋宅，",
+   "translation": "지각(地閣, 턱) 뼈가 가득하면 가옥을 주관하고,",
+   "commentary": "턱뼈가 가득하다(滿)는 표현은 턱의 풍만함으로, 둥근 턱 모양(chin_shape:rounded)과 같은 척도가 아니어서 근사 대응에 그친다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "地閣骨滿",
+     "observable_ko": "턱뼈가 가득함",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:rounded"
+     ],
+     "reason": "滿은 풍만함으로 턱 윤곽 모양과 같은 척도가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-mouth-001",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "mouth",
+   "original_text": "地倉骨起富貴。",
+   "translation": "지창(地倉, 입꼬리 옆) 뼈가 솟으면 부귀하다.",
+   "commentary": "지창(地倉)은 입꼬리 옆 부위 이름이다. 그 부위 뼈의 솟음은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "地倉骨起",
+     "observable_ko": "입꼬리 옆(지창) 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-ear-002",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "ear",
+   "original_text": "虎耳骨起大貴",
+   "translation": "호이(虎耳) 뼈가 솟으면 크게 귀하다.",
+   "commentary": "호이(虎耳)는 귀 부근을 가리키는 뼈 이름으로 보이나 원문만으로 위치가 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "虎耳骨起",
+     "observable_ko": "호이 뼈가 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 이름의 부위로 위치가 불분명하며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-chin-004",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "chin",
+   "original_text": "承漿豐滿，朝天者主富足酒食。",
+   "translation": "승장(承漿, 아랫입술 아래 오목한 곳)이 풍만하고 하늘을 향한 자는 술과 음식이 넉넉함을 주관한다.",
+   "commentary": "승장(承漿)은 아랫입술 아래 오목한 부위다. 풍만함은 대응 레이블이 없고, '하늘을 향함'은 턱 앞 돌출로 읽힐 수 있으나 확실하지 않다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "承漿豐滿",
+     "observable_ko": "아랫입술 아래(승장)가 풍만함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "승장 부위 살집 레이블이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "朝天",
+     "observable_ko": "승장 부위가 위(앞)를 향함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "chin_projection:prominent"
+     ],
+     "reason": "향하는 방향이 턱 돌출인지 입술 모양인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-009",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "懸壁骨起，及肉滿宜奴僕，陷者無。",
+   "translation": "현벽(懸壁) 뼈가 솟고 살이 가득하면 노복을 두기에 마땅하고, 꺼진 자는 없다.",
+   "commentary": "현벽(懸壁)은 뺨 옆쪽 부위 이름으로 해석된다. 살이 가득함은 볼 살집에 근사하나 부위가 한정되어 있고, 뼈의 솟음은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "懸壁骨起",
+     "observable_ko": "현벽 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "肉滿",
+     "observable_ko": "현벽 부위 살이 가득함",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "부위가 한정된 살집 표현으로 볼 전체 살집과 같은 척도가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "陷者",
+     "observable_ko": "현벽 부위가 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "부위가 한정된 꺼짐 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-010",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "燕頷骨起，大富貴。",
+   "translation": "연함(燕頷, 제비 턱) 뼈가 솟으면 크게 부귀하다.",
+   "commentary": "연함(燕頷)은 제비 턱에 빗댄 표현으로, 턱·아래뺨이 넓게 벌어진 모양으로 해석되기도 하나 원문만으로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "燕頷骨起",
+     "observable_ko": "제비 턱 같은 뼈가 솟음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "jaw_width:wide"
+     ],
+     "reason": "동물 비유로 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-013",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "武庫骨起，為上將。",
+   "translation": "무고(武庫) 뼈가 솟으면 상장(上將)이 된다.",
+   "commentary": "무고(武庫)는 이마 위쪽 가장자리 부위 이름이다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "武庫骨起",
+     "observable_ko": "무고 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-014",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "房心骨起國師，",
+   "translation": "방심(房心) 뼈가 솟으면 국사(國師)이고,",
+   "commentary": "방심(房心)은 이마의 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "房心骨起",
+     "observable_ko": "방심 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-015",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "四殺骨起節度使。",
+   "translation": "사살(四殺) 뼈가 솟으면 절도사(節度使)이다.",
+   "commentary": "사살(四殺)은 이마의 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "四殺骨起",
+     "observable_ko": "사살 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-016",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "尺陽骨起為御史，",
+   "translation": "척양(尺陽) 뼈가 솟으면 어사(御史)가 되고,",
+   "commentary": "척양(尺陽)은 이마 위쪽 줄의 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "尺陽骨起",
+     "observable_ko": "척양 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-017",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "輔骨起，為侍郎給事中中書舍人，如黃色一品之貴。",
+   "translation": "보골(輔骨)이 솟으면 시랑·급사중·중서사인이 되고, 만약 누런 색이면 일품의 귀함이다.",
+   "commentary": "보골(輔骨)은 이마의 보조 뼈 부위 이름으로 쓰인다. 뼈 돌출은 대응 레이블이 없고 누런 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "輔骨起",
+     "observable_ko": "보골이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黃色",
+     "observable_ko": "해당 부위가 누런 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-018",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "邊地骨起，為諫議大夫監察」御史。",
+   "translation": "변지(邊地) 뼈가 솟으면 간의대부·감찰어사가 된다.",
+   "commentary": "변지(邊地)는 이마 바깥 가장자리 부위다. 골격 돌출이라 대응 레이블이 없다. 원문 중간의 닫는 따옴표(」)는 그대로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "邊地骨起",
+     "observable_ko": "이마 가장자리(변지) 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-019",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "「天庭骨起，紅潤者，丞相之位。",
+   "translation": "「천정(天庭, 이마 위쪽 가운데) 뼈가 솟고 붉고 윤택한 자는 승상의 지위이다.",
+   "commentary": "천정(天庭)은 천중 바로 아래 이마 가운데 부위다. 뼈 돌출은 대응 레이블이 없고 붉고 윤택함은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天庭骨起",
+     "observable_ko": "천정 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "紅潤",
+     "observable_ko": "붉고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-020",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "日月角起，主大貴。",
+   "translation": "일각·월각(日月角)이 솟으면 크게 귀함을 주관한다.",
+   "commentary": "일각·월각은 이마 위쪽 좌우 부위다. 이마 돌출은 가시 이마 높이·너비와 다른 척도라 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "日月角起",
+     "observable_ko": "이마 위쪽 좌우(일각·월각)가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-021",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "額角骨起，司徒太保之位。",
+   "translation": "액각(額角, 이마 모서리) 뼈가 솟으면 사도·태보의 지위이다.",
+   "commentary": "이마 모서리 뼈의 솟음은 이마 너비와 다른 돌출에 관한 것이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額角骨起",
+     "observable_ko": "이마 모서리 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-022",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "父墓骨起，大貴廕襲子孫。",
+   "translation": "부묘(父墓) 뼈가 솟으면 크게 귀하여 자손에게 음습(廕襲, 음덕으로 벼슬을 이음)한다.",
+   "commentary": "부묘(父墓)는 이마 부위 도식의 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다. 문헌은 이를 자손 대대의 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "父墓骨起",
+     "observable_ko": "부묘 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-023",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "戰堂骨起，為驃騎將軍節度副使、行軍司馬之位。",
+   "translation": "전당(戰堂) 뼈가 솟으면 표기장군·절도부사·행군사마의 지위가 된다.",
+   "commentary": "전당(戰堂)은 이마 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "戰堂骨起",
+     "observable_ko": "전당 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-024",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "郊外骨起，三品卿大貴。",
+   "translation": "교외(郊外) 뼈가 솟으면 삼품 경(卿)으로 크게 귀하다.",
+   "commentary": "교외(郊外)는 이마 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "郊外骨起",
+     "observable_ko": "교외 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-025",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "司空骨起，刺史員外郎、省舍人之位。",
+   "translation": "사공(司空, 이마 가운데) 뼈가 솟으면 자사·원외랑·성사인의 지위이다.",
+   "commentary": "사공(司空)은 천정 아래 이마 가운데 부위다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "司空骨起",
+     "observable_ko": "사공 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-026",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "道中骨起，遠州刺史。",
+   "translation": "도중(道中) 뼈가 솟으면 먼 고을의 자사이다.",
+   "commentary": "도중(道中)은 이마 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "道中骨起",
+     "observable_ko": "도중 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-027",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "交額骨起，官小有壽。",
+   "translation": "교액(交額) 뼈가 솟으면 벼슬은 작으나 수명이 있다.",
+   "commentary": "교액(交額)은 이마 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "交額骨起",
+     "observable_ko": "교액 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-001",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "brow",
+   "original_text": "重眉起，主小貴有節，行人性不常。",
+   "translation": "중미(重眉)가 솟으면 작게 귀하고 절개가 있음을 주관하나, 행하는 사람의 성품은 일정하지 않다.",
+   "commentary": "중미(重眉)는 눈썹 위 부위 이름으로 보인다. '有節，行人性不常'은 끊어 읽기가 분명하지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "重眉起",
+     "observable_ko": "중미 부위가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 위 뼈 돌출은 눈썹 형태 레이블과 다른 척도이며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-028",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "懸角骨」起，或肉黃者，七十日內主三公卿相，天下統帥。",
+   "translation": "현각(懸角) 뼈가 솟거나 살이 누런 자는 칠십 일 안에 삼공·경상, 천하의 통수(統帥)를 주관한다.",
+   "commentary": "현각(懸角)은 이마 부위 이름으로 보인다. 원문 중간의 따옴표(」)는 그대로 두었다. 뼈 돌출은 대응 레이블이 없고 살빛은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "懸角骨」起",
+     "observable_ko": "현각 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "肉黃",
+     "observable_ko": "살이 누런 색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-029",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "中正骨起，司馬令長。",
+   "translation": "중정(中正, 이마 아래쪽 가운데) 뼈가 솟으면 사마·현령이다.",
+   "commentary": "중정(中正)은 사공 아래, 인당 위의 이마 가운데 부위다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "中正骨起",
+     "observable_ko": "중정 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-030",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "山林骨起，州牧之位。",
+   "translation": "산림(山林) 뼈가 솟으면 주목(州牧)의 지위이다.",
+   "commentary": "산림(山林)은 이마 바깥쪽 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "山林骨起",
+     "observable_ko": "산림 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-002",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "brow",
+   "original_text": "虎眉骨起，為將軍。",
+   "translation": "호미(虎眉) 뼈가 솟으면 장군이 된다.",
+   "commentary": "호미(虎眉)는 눈썹 부근의 뼈 부위 이름으로 쓰인다. 눈썹뼈 돌출은 눈썹 형태 레이블과 다른 척도라 대응되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "虎眉骨起",
+     "observable_ko": "호미 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-031",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "龍角骨起，主封侯尚書僕射。",
+   "translation": "용각(龍角) 뼈가 솟으면 봉후·상서·복야를 주관한다.",
+   "commentary": "용각(龍角)은 이마 위쪽 좌우 뼈 부위 이름이다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "龍角骨起",
+     "observable_ko": "용각 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-032",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "輔犀骨起，封侯伯，一品之貴。",
+   "translation": "보서(輔犀) 뼈가 솟으면 후·백에 봉해지고 일품의 귀함이다.",
+   "commentary": "보서(輔犀)는 이마 뼈 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "輔犀骨起",
+     "observable_ko": "보서 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-033",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "華蓋骨起，富壽人也。",
+   "translation": "화개(華蓋) 뼈가 솟으면 부유하고 장수하는 사람이다.",
+   "commentary": "화개(華蓋)는 부위 도식의 뼈 이름이나 이 문장에서 위치가 정의되지 않는다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "華蓋骨起",
+     "observable_ko": "화개 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-034",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "福堂骨起，主三品。",
+   "translation": "복당(福堂) 뼈가 솟으면 삼품을 주관한다.",
+   "commentary": "복당(福堂)은 눈썹 위 바깥쪽 부위 이름으로 쓰인다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "福堂骨起",
+     "observable_ko": "복당 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-brow-003",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "brow",
+   "original_text": "兩眉關門骨起，合得國師庫藏錢物。肉陷合主市死。此部近兩獄也。",
+   "translation": "두 눈썹의 관문(關門) 뼈가 솟으면 국사와 창고의 돈과 물건을 얻음이 합당하다. 살이 꺼지면 저잣거리에서 죽음(市死)을 주관함이 합당하다. 이 부위는 양옥(兩獄)에 가깝다.",
+   "commentary": "두 눈썹 사이 관문 부위의 뼈 돌출은 미간 너비와 다른 척도라 대응되지 않는다. '시사(市死)'는 저잣거리에서의 처형을 뜻하는 말로 쓰이며, 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "兩眉關門骨起",
+     "observable_ko": "두 눈썹 관문 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "肉陷",
+     "observable_ko": "그 부위 살이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "부위 한정의 꺼짐으로 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-glabella-002",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "glabella",
+   "original_text": "印堂骨起，合主大印綬，一品太保、司徒之位。",
+   "translation": "인당(印堂, 두 눈썹 사이) 뼈가 솟으면 큰 인수(印綬)를 주관함이 합당하니 일품 태보·사도의 지위이다.",
+   "commentary": "인당 부위 뼈의 솟음은 미간 너비(brow_gap)와 다른 돌출 척도라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂骨起",
+     "observable_ko": "인당 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "미간 돌출은 미간 너비와 다른 척도이며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-under_eye-001",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "under_eye",
+   "original_text": "三陽明淨，主貴。",
+   "translation": "삼양(三陽)이 밝고 깨끗하면 귀함을 주관한다.",
+   "commentary": "삼양(三陽)은 눈 아래 부위 이름으로 쓰인다. 밝고 깨끗함은 피부 기색에 관한 말이라 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "三陽明淨",
+     "observable_ko": "삼양 부위가 밝고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-035",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "司空骨起至式枕者，三品下四品，",
+   "translation": "사공(司空) 뼈가 솟아 식침(式枕)에 이르는 자는 삼품 아래 사품이고,",
+   "commentary": "이마 가운데 사공에서 머리 뒤까지 이어지는 뼈를 말한다. '式枕'은 아래 문장들의 '玉枕'과 대응되는 자리이나 원문 글자대로 옮겼다. 정면 사진으로 볼 수 없는 형상이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "司空骨起至式枕",
+     "observable_ko": "사공에서 뒷머리까지 뼈가 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-036",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "中正骨起至玉枕者，二品下三品。",
+   "translation": "중정(中正) 뼈가 솟아 옥침(玉枕, 뒤통수 뼈)에 이르는 자는 이품 아래 삼품이다.",
+   "commentary": "이마 아래쪽 가운데 중정에서 뒤통수까지 이어지는 뼈를 말한다. 정면 사진으로 볼 수 없는 형상이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "中正骨起至玉枕",
+     "observable_ko": "중정에서 뒤통수까지 뼈가 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-nose-003",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "nose",
+   "original_text": "山根骨起如釵，股上有稜，似刀背至枕者，或如月樣，明潤異者，為大將軍之位。",
+   "translation": "산근(山根, 콧뿌리) 뼈가 비녀처럼 솟고 다리 위에 모서리가 있어 칼등 같이 뒤통수에 이르는 자, 혹은 달 모양 같고 밝고 윤택함이 남다른 자는 대장군의 지위가 된다.",
+   "commentary": "'山根骨起'는 콧뿌리 높이(山根起)를 연상시키나, 여기서는 콧뿌리에서 머리 위를 지나 뒤통수까지 이어지는 능선 뼈를 말하므로 근사 대응에 그친다. 밝고 윤택함은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根骨起如釵",
+     "observable_ko": "콧뿌리 뼈가 비녀처럼 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "콧뿌리에서 뒤통수까지 이어지는 능선 뼈 서술로 콧뿌리 높이 측정과 같은 척도가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "股上有稜，似刀背至枕",
+     "observable_ko": "모서리 있는 뼈가 칼등처럼 뒤통수까지 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤의 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "如月樣",
+     "observable_ko": "뼈가 달 모양 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현으로 형태가 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "明潤異者",
+     "observable_ko": "밝고 윤택함이 남다름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-037",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "天庭骨起至枕者，四品下五品，",
+   "translation": "천정(天庭) 뼈가 솟아 뒤통수에 이르는 자는 사품 아래 오품이고,",
+   "commentary": "천정에서 뒤통수까지 이어지는 뼈를 말한다. 정면 사진으로 볼 수 없는 형상이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天庭骨起至枕",
+     "observable_ko": "천정에서 뒤통수까지 뼈가 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-038",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "天中骨起至枕五品下六品，",
+   "translation": "천중(天中) 뼈가 솟아 뒤통수에 이르면 오품 아래 육품이고,",
+   "commentary": "천중에서 뒤통수까지 이어지는 뼈를 말한다. 정면 사진으로 볼 수 없는 형상이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中骨起至枕",
+     "observable_ko": "천중에서 뒤통수까지 뼈가 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-039",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "伏犀骨起至枕，六品下七品，",
+   "translation": "복서(伏犀) 뼈가 솟아 뒤통수에 이르면 육품 아래 칠품이고,",
+   "commentary": "이마 가운데 복서골이 뒤통수까지 이어지는 형상이다. 정면 사진으로 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀骨起至枕",
+     "observable_ko": "복서골이 뒤통수까지 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-009",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "坤山骨起至枕，七品下八品，",
+   "translation": "곤산(坤山) 뼈가 솟아 뒤통수에 이르면 칠품 아래 팔품이고,",
+   "commentary": "곤산(坤山)은 뼈 이름이나 위치가 원문에 없다. 뒤통수까지 이어지는 뼈는 정면 사진으로 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "坤山骨起至枕",
+     "observable_ko": "곤산 뼈가 뒤통수까지 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "위치가 불분명하고 머리 뒤 골격은 정면 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-010",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "鳳池骨起至枕，八品下九品，",
+   "translation": "봉지(鳳池) 뼈가 솟아 뒤통수에 이르면 팔품 아래 구품이고,",
+   "commentary": "봉지(鳳池)는 뼈 이름이나 위치가 원문에 없다. 뒤통수까지 이어지는 뼈는 정면 사진으로 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鳳池骨起至枕",
+     "observable_ko": "봉지 뼈가 뒤통수까지 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "위치가 불분명하고 머리 뒤 골격은 정면 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-040",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "華蓋骨起至枕，九品下，雜流小貴。",
+   "translation": "화개(華蓋) 뼈가 솟아 뒤통수에 이르면 구품 아래로 잡류(雜流)의 작은 귀함이다.",
+   "commentary": "화개 뼈가 뒤통수까지 이어지는 형상으로, 정면 사진으로 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "華蓋骨起至枕",
+     "observable_ko": "화개 뼈가 뒤통수까지 이어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 위·뒤로 이어지는 골격은 정면 사진에서 보이지 않고 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-011",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "此等之骨，皆似稜利，以手捫之，覺隱隱然似刀背祿主富貴。",
+   "translation": "이러한 뼈들은 모두 모서리가 날카로운 듯하여, 손으로 만져 보면 은은하게 칼등 같음이 느껴지니 녹(祿)으로 부귀를 주관한다.",
+   "commentary": "앞에 나열한 뼈들을 손으로 만져 확인하는 방법을 설명한 총론이다. 촉진(觸診)에 의한 판단이라 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "以手捫之，覺隱隱然似刀背",
+     "observable_ko": "손으로 만지면 칼등 같은 뼈가 느껴짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "손으로 만져 확인하는 촉감 서술로 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-012",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "玉枕骨起方三寸，有像似十九般骨節，如刀背者為上，若雞子橫縱，似仰月、覆月、背月、玉環等樣，主壽異常。女人有者吉。",
+   "translation": "옥침(玉枕, 뒤통수) 뼈가 솟아 사방 세 치이고, 열아홉 가지 뼈마디를 닮은 모양이 있으니, 칼등 같은 것이 으뜸이고, 달걀을 가로세로로 놓은 듯하거나 우러른 달·엎은 달·등진 달·옥고리 등의 모양 같으면 수명이 남다름을 주관한다. 여인에게 있으면 길하다.",
+   "commentary": "옥침(玉枕)은 뒤통수 뼈다. 뒤통수는 정면 얼굴 사진에서 보이지 않으며 모양 비유도 특정되지 않는다. 마지막 구절은 여성에게 붙는 평가다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "玉枕骨起方三寸",
+     "observable_ko": "뒤통수(옥침) 뼈가 사방 세 치로 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수는 정면 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "似仰月、覆月、背月、玉環等樣",
+     "observable_ko": "뒤통수 뼈가 달·옥고리 등의 모양",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "뒤통수는 정면 얼굴 사진에서 보이지 않으며 비유 형태다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-011",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "骨氣似有似無，見如諸部如釵股之樣，起主大貴。",
+   "translation": "골기(骨氣)가 있는 듯 없는 듯하여, 여러 부위에 비녀 다리 같은 모양이 보이며 솟으면 크게 귀함을 주관한다.",
+   "commentary": "골기(骨氣)는 뼈의 기운을 말하는 개념어로 관찰 불가하며, 비녀 다리 같은 뼈 모양은 부위가 특정되지 않아 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "骨氣似有似無",
+     "observable_ko": "골기가 있는 듯 없는 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "골기(뼈의 기운)는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "如釵股之樣，起",
+     "observable_ko": "여러 부위에 비녀 다리 같은 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-041",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "伏犀骨如小指半大，有稜如線，位極上品。",
+   "translation": "복서골(伏犀骨)이 새끼손가락 반만 하고 모서리가 실처럼 있으면 지위가 지극히 상품(上品)이다.",
+   "commentary": "복서골은 이마 가운데에서 정수리로 이어지는 솟은 뼈를 말한다. 크기를 손가락에 빗댄 골격 서술로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀骨如小指半大，有稜如線",
+     "observable_ko": "이마 가운데 복서골이 가늘게 모서리 지어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-042",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "骨如指者，為名僧，",
+   "translation": "뼈가 손가락 같은 자는 이름난 승려가 되고,",
+   "commentary": "앞 문장에 이어 복서골의 굵기를 손가락에 빗댄 서술이다. 골격 서술이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨如指",
+     "observable_ko": "복서골이 손가락 굵기만 함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-043",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "骨有稜如角大指者，上將軍。",
+   "translation": "뼈에 모서리가 있어 뿔이나 엄지손가락 같은 자는 상장군이다.",
+   "commentary": "복서골의 굵기와 모서리를 뿔·엄지에 빗댄 서술이다. '如角大指'는 '뿔 같고 엄지만 한'으로도 읽힐 수 있다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨有稜如角大指",
+     "observable_ko": "복서골이 모서리 지어 뿔·엄지손가락처럼 굵음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-other-013",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "other",
+   "original_text": "此名「伏犀骨」，玉枕頭各有取焉。",
+   "translation": "이를 「복서골(伏犀骨)」이라 이름하니, 옥침(玉枕)과 머리에 각각 취할 바가 있다.",
+   "commentary": "앞의 뼈 서술을 묶어 이름을 밝힌 설명문으로, 별도의 형태 조건이나 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-044",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "天中骨起如著大有稜，合主國師，近聖人，貴至三品。",
+   "translation": "천중(天中) 뼈가 젓가락(著) 크기만큼 솟아 모서리가 있으면 국사를 주관함이 합당하고 성인(임금)을 가까이하며 귀함이 삼품에 이른다.",
+   "commentary": "'著'는 젓가락(箸)으로 읽었으나 확실하지 않다. 천중 부위 뼈 돌출은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中骨起如著大有稜",
+     "observable_ko": "천중 뼈가 젓가락만 하게 모서리 지어 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-045",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "左廂骨起，祿二千石，骨肉相稱，至白衣拜相，",
+   "translation": "좌상(左廂) 뼈가 솟으면 녹이 이천 석이고, 뼈와 살이 서로 걸맞으면 백의(白衣, 벼슬 없는 이)로부터 재상에 임명되기에 이른다.",
+   "commentary": "좌상(左廂)은 이마 위쪽 줄의 부위 이름이다. 뼈 돌출과 뼈·살의 균형은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "左廂骨起",
+     "observable_ko": "좌상 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "骨肉相稱",
+     "observable_ko": "뼈와 살이 서로 걸맞음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "뼈·살 균형의 측정 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-forehead-046",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "forehead",
+   "original_text": "高廣驛馬骨起，封侯大貴。",
+   "translation": "고광(高廣)·역마(驛馬) 뼈가 솟으면 후에 봉해져 크게 귀하다.",
+   "commentary": "고광(高廣)·역마(驛馬)는 이마 위쪽 바깥 부위 이름이다. 골격 돌출이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "高廣驛馬骨起",
+     "observable_ko": "고광·역마 부위 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ642M-face-012",
+   "page_id": "gj642",
+   "section": "《相面部骨格》",
+   "region": "face",
+   "original_text": "面部隱然骨起，不出十年為方面，肉色俱好，五年之內陞遷也。",
+   "translation": "얼굴 부위에 은연히 뼈가 솟으면 십 년이 안 되어 방면(方面, 지방 장관)이 되고, 살과 색이 모두 좋으면 오 년 안에 승진한다.",
+   "commentary": "얼굴 전반에 은근히 솟은 뼈는 부위가 특정되지 않아 대응 레이블이 없고, 살빛은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面部隱然骨起",
+     "observable_ko": "얼굴에 은연히 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "피부 아래 골격의 돌출·형상으로, 대응하는 정준 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "肉色俱好",
+     "observable_ko": "살과 색이 모두 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색·윤기는 조명·카메라에 좌우되며 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  }
+ ]
+}

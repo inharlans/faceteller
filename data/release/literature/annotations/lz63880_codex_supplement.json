@@ -1,0 +1,547 @@
+{
+  "page_id": "lz63880",
+  "annotator": "AI model draft (Codex), literal Korean from primary NLC transcription; no human review",
+  "sections_complete": [],
+  "scope_note": "Selected self-contained morphology clauses; remaining raw text is separately archived. No check-witness duplicate annotations.",
+  "passages": [
+    {
+      "passage_id": "LZC63880-supplement-001",
+      "section": "八疾厄宮",
+      "original_text": "山根疾厄起平平一世無災禍不生",
+      "translation": "산근의 질액 부위가 평평하게 솟으면 평생 재앙이 없고 화가 생기지 않는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "山根疾厄起平平",
+          "observable_ko": "산근 질액 부위의 평평한 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "起와 平을 함께 요구하여 낮음 하나로 치환하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-002",
+      "section": "八疾厄宮",
+      "original_text": "若值紋痕並枯骨平生辛苦却難成",
+      "translation": "무늬와 자국 및 마른 뼈를 만나면 평생 고생하고 이루기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "紋痕並枯骨",
+          "observable_ko": "산근 부위의 무늬·자국·마른 뼈",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-003",
+      "section": "十官祿宮",
+      "original_text": "伏犀貫頂一生不到訟庭",
+      "translation": "복서가 정수리를 꿰면 평생 송사 법정에 가지 않는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "伏犀貫頂",
+          "observable_ko": "복서골이 정수리까지 이어짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-004",
+      "section": "十官祿宮",
+      "original_text": "額角堂堂犯着官司貴解",
+      "translation": "이마 모서리가 당당하면 관송을 만나도 귀인이 풀어 준다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額角堂堂",
+          "observable_ko": "이마 모서리의 당당한 모양",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-005",
+      "section": "十官祿宮",
+      "original_text": "紋痕陷破管教常招橫事",
+      "translation": "무늬와 자국, 함몰과 파임이 있으면 반드시 늘 뜻밖의 일을 부른다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "紋痕陷破",
+          "observable_ko": "관록궁 부위의 무늬·자국·함몰·파임",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-006",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "男兒頭髮齊眉好養多福利",
+      "translation": "남자아이의 머리카락이 눈썹과 나란하면 기르기 쉽고 복과 이익이 많다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "男兒",
+          "observable_ko": "남자아이 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "頭髮齊眉",
+          "observable_ko": "머리카락이 눈썹 높이에 이름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "health_disease"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-007",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "鼻高唇紅厚好養",
+      "translation": "코가 높고 입술이 붉고 두꺼우면 기르기 쉽다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻高",
+          "observable_ko": "높은 코",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_projection:high"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "唇紅",
+          "observable_ko": "붉은 입술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "厚",
+          "observable_ko": "두꺼운 입술",
+          "status": "exact",
+          "label": "lip_thickness:full"
+        },
+        {
+          "region": "subject",
+          "evidence": "好養",
+          "observable_ko": "신생아 양육을 논하는 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-008",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "面大無鼻樑一歲關",
+      "translation": "얼굴이 크고 콧대가 없으면 한 살이 고비라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面大",
+          "observable_ko": "큰 얼굴",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "無鼻樑",
+          "observable_ko": "콧대 없음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "一歲",
+          "observable_ko": "한 살 영아 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-009",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "鼻樑不起一歲至死",
+      "translation": "콧대가 솟지 않으면 한 살에 죽음에 이른다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻樑不起",
+          "observable_ko": "솟지 않은 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "一歲",
+          "observable_ko": "한 살 영아 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-010",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "唇薄如紙一歲必死",
+      "translation": "입술이 종이처럼 얇으면 한 살에 반드시 죽는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "唇薄如紙",
+          "observable_ko": "종이 같은 극단적 얇음",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_thickness:thin"
+          ],
+          "reason": "상대적인 얇음에 더해 비유적 정도 조건이 있다."
+        },
+        {
+          "region": "subject",
+          "evidence": "一歲",
+          "observable_ko": "한 살 영아 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-011",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "耳後無根不滿三春",
+      "translation": "귀 뒤에 뿌리가 없으면 세 봄을 채우지 못한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳後無根",
+          "observable_ko": "귀 뒤의 뿌리 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "三春",
+          "observable_ko": "영아 수명 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-012",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "三日若唇紅又厚必貴耳硬必貴",
+      "translation": "태어난 지 사흘에 입술이 붉고 두꺼우면 반드시 귀하고 귀가 단단하면 반드시 귀하다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "三日",
+          "observable_ko": "생후 사흘 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "唇紅",
+          "observable_ko": "붉은 입술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "厚",
+          "observable_ko": "두꺼운 입술",
+          "status": "exact",
+          "label": "lip_thickness:full"
+        },
+        {
+          "region": "ear",
+          "evidence": "耳硬",
+          "observable_ko": "귀의 단단한 촉감",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-013",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "睛黃愚頑鼻小大敗頭偏尖不成器耳低反必窮途",
+      "translation": "눈동자가 누러면 어리석고 코가 작으면 크게 실패하며 머리가 치우치고 뾰족하면 인물이 되지 못하고 귀가 낮고 뒤집히면 반드시 궁한 길이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "睛黃",
+          "observable_ko": "누런 눈동자",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻小",
+          "observable_ko": "작은 코",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "other",
+          "evidence": "頭偏尖",
+          "observable_ko": "치우치고 뾰족한 머리",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "ear",
+          "evidence": "耳低反",
+          "observable_ko": "낮고 뒤집힌 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "睛",
+          "observable_ko": "아동 상을 설명하는 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-014",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "耳反額方四度成雙",
+      "translation": "귀가 뒤집히고 이마가 네모나면 네 차례 짝을 이룬다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳反",
+          "observable_ko": "뒤집힌 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "額方",
+          "observable_ko": "네모난 이마",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "耳",
+          "observable_ko": "소녀를 논하는 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-015",
+      "section": "明尙寶司卿袁忠徹秘傳",
+      "original_text": "大概欲細眉長目準圓額平爲妙",
+      "translation": "대체로 가는 눈썹, 긴 눈, 둥근 코끝, 평평한 이마를 좋은 것으로 바란다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "細眉",
+          "observable_ko": "가는 눈썹",
+          "status": "exact",
+          "label": "brow_thickness:thin"
+        },
+        {
+          "region": "eye",
+          "evidence": "長目",
+          "observable_ko": "긴 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "nose",
+          "evidence": "準圓",
+          "observable_ko": "둥근 코끝",
+          "status": "exact",
+          "label": "nose_tip:rounded"
+        },
+        {
+          "region": "forehead",
+          "evidence": "額平",
+          "observable_ko": "평평한 이마",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "細眉",
+          "observable_ko": "소녀를 논하는 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-supplement-016",
+      "section": "蹇通得失天運週流",
+      "original_text": "六府三停三停不配五行不得惟依一局失垣星辰失者陷位雖有志亦不顯達乃一生蹇滯之相也",
+      "translation": "육부와 삼정에서 삼정이 맞지 않고 오행을 얻지 못하며 한 격이 담을 잃고 별이 제자리를 잃어 꺼지면 뜻이 있어도 현달하지 못하니 평생 막히는 상이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "三停不配",
+          "observable_ko": "삼정 비례의 불일치",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "五行不得",
+          "observable_ko": "오행을 얻지 못한 격",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "face",
+          "evidence": "一局失垣星辰失者陷位",
+          "observable_ko": "격과 별의 위치 상실·함몰 비유",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ]
+    }
+  ]
+}

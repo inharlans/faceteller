@@ -1,0 +1,394 @@
+{
+ "pages": {
+  "gj632": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第632卷",
+   "revid": 1942595,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC632%E5%8D%B7&oldid=1942595",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "f654357f8e316eda7a2ce8dbf949b37842a7999aa814870228a4d948fa878182",
+   "snapshot_file": "gj632.html",
+   "snapshot_sha256": "fabae57091518d135bf84b829ba24dbc72ebe26e6895a60ef9757a86a4d2850c"
+  },
+  "gj633": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第633卷",
+   "revid": 1942596,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC633%E5%8D%B7&oldid=1942596",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "4a7d9f1a14dbc07abf28c3966bd6a473f16140404b49bf584ba6f18488a7dd70",
+   "snapshot_file": "gj633.html",
+   "snapshot_sha256": "405b6d3ce039dc6e07bb74fb2f7768c9fee328d630cf9e8180727438ae8ddf5a"
+  },
+  "gj634": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第634卷",
+   "revid": 1942597,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC634%E5%8D%B7&oldid=1942597",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "356fceb1af7242468266d35fc02a8f69fcd78bc3ce0ed02b4607e30c52da3672",
+   "snapshot_file": "gj634.html",
+   "snapshot_sha256": "6becbec4c6288ff13efd6bd22e55d57d55b7223bd11bb68c41c54ee9b8c554d3"
+  },
+  "gj635": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第635卷",
+   "revid": 1942598,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC635%E5%8D%B7&oldid=1942598",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "52657e23d2f01dba4dee14587778299794eac63a2891b19da3a87d477c58d6f1",
+   "snapshot_file": "gj635.html",
+   "snapshot_sha256": "75de355b6309ecc6954d1a8206aa447ad325923634d80821f85db59b763fdef1"
+  },
+  "gj636": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第636卷",
+   "revid": 1942599,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC636%E5%8D%B7&oldid=1942599",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "3af6b5c5b1f20aa00c51996e233c9207acb793074c18cc51c8576115ab64e42e",
+   "snapshot_file": "gj636.html",
+   "snapshot_sha256": "c7b71edb1252a480b952c1cb373fe50e8ecc55e25f0e91dc3b52f3f378a19883"
+  },
+  "gj637": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第637卷",
+   "revid": 1942600,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC637%E5%8D%B7&oldid=1942600",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "296e8bce94043ed0adb4545e48e5065a30a83a077793a036ce0e052582017a8a",
+   "snapshot_file": "gj637.html",
+   "snapshot_sha256": "344c8b0083d87eee50a2120d0f05f1b4fb4f15397f0bec59eca4aec883cc00a9"
+  },
+  "gj638": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第638卷",
+   "revid": 1942601,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC638%E5%8D%B7&oldid=1942601",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "251ffbabf42766e731f06e42397332bdf63e822f3dac3060bc11c075ef809266",
+   "snapshot_file": "gj638.html",
+   "snapshot_sha256": "7473467155888a8e6bfa472823c1646fbac0367fe2a9559992394804c758d553"
+  },
+  "gj639": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第639卷",
+   "revid": 1942602,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC639%E5%8D%B7&oldid=1942602",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "e960ee088a3620fe5afb398cd087c302bb9a877147ab5a1ff5857ee9c5306a4e",
+   "snapshot_file": "gj639.html",
+   "snapshot_sha256": "1781a2337fc00c6392b949e8afaf8a9a90a7aa1ad203d3e07f1ab91212e19d8e"
+  },
+  "gj641": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第641卷",
+   "revid": 1942604,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC641%E5%8D%B7&oldid=1942604",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "37ab04942d02b608d8f792a5d39a5e7abcfbc0f256ab3ac113d1f2d3ddc7cae3",
+   "snapshot_file": "gj641.html",
+   "snapshot_sha256": "2e9eb3bb1ae147a5c14ddf7cff9b789fc11ba063503cabbe302b9435cf153ea7"
+  },
+  "gj642": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第642卷",
+   "revid": 1942605,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC642%E5%8D%B7&oldid=1942605",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "94ac75509c20fd67168b43ac51ca26a2a71d6e630d49fdb8367403b0108b6942",
+   "snapshot_file": "gj642.html",
+   "snapshot_sha256": "e4d81782741e5fa3da1c252bd7c3affbf0f86930f17d9f422d71c4f8b9b2728f"
+  },
+  "gj645": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第645卷",
+   "revid": 1942608,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC645%E5%8D%B7&oldid=1942608",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "80f276093863aeb215a89e01e25c133039e94df69977bc5730992fa0ecde20e7",
+   "snapshot_file": "gj645.html",
+   "snapshot_sha256": "124cae6287426e964a358d6b9cd25a1794bf9a60d89d11343eb57b8e9dcd6823"
+  },
+  "gj646": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第646卷",
+   "revid": 1942609,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC646%E5%8D%B7&oldid=1942609",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "9c170f084a45068f98db95cc479a1330eab5c7048ab1de3380215d7b13fac7bf",
+   "snapshot_file": "gj646.html",
+   "snapshot_sha256": "712e987c9c7ab16d2923348794b973aebfb3c016732d8be048794a30aaf14f68"
+  },
+  "xf01": {
+   "title": "許負相法/相目篇第一",
+   "revid": 409853,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E7%9B%AE%E7%AF%87%E7%AC%AC%E4%B8%80&oldid=409853",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "c6bec03e429ac0a4e252a413cdf059fc392d4eb5d63adc5121115e9011c69542",
+   "snapshot_file": "xf01.html",
+   "snapshot_sha256": "4c0913e06da93f3a871a5eef5932360230a068b126f9f9a2165f4a51bf26d4ee"
+  },
+  "xf02": {
+   "title": "許負相法/相鼻篇第二",
+   "revid": 409854,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E9%BC%BB%E7%AF%87%E7%AC%AC%E4%BA%8C&oldid=409854",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "f6504df9389e9ab949a2cad302127fc20fcaf80e051a77cbc3d2db6de7d54dd4",
+   "snapshot_file": "xf02.html",
+   "snapshot_sha256": "fc06013fb7acdb96d7ed9cf92bc9e416d6e14af9faf09175e970c3b9176f801a"
+  },
+  "xf03": {
+   "title": "許負相法/相人中篇第三",
+   "revid": 2300273,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E4%BA%BA%E4%B8%AD%E7%AF%87%E7%AC%AC%E4%B8%89&oldid=2300273",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "db13599fb47d3e4d3fc0a1fb4beb1572e0e1aa21c8a01ea8f99c249e39f451cc",
+   "snapshot_file": "xf03.html",
+   "snapshot_sha256": "d13bab57b0c8496e56626ebae3095aa8c9cef04dc100f97b697fed738bb0c354"
+  },
+  "xf04": {
+   "title": "許負相法/相耳篇第四",
+   "revid": 2300276,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%80%B3%E7%AF%87%E7%AC%AC%E5%9B%9B&oldid=2300276",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "064fd3c5d3089537b341e46128d5506dfdbd4f1555a218315ebaeb9824680810",
+   "snapshot_file": "xf04.html",
+   "snapshot_sha256": "219418d39f7dadf7e935a2044575560418c912e063105c6666500913c5ac3d90"
+  },
+  "xf05": {
+   "title": "許負相法/相唇篇第五",
+   "revid": 2300277,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E5%94%87%E7%AF%87%E7%AC%AC%E4%BA%94&oldid=2300277",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "45ae01ac2d24547e86aad8b8a1abb7938951ee32aa6ea7c52404b34da0d997e2",
+   "snapshot_file": "xf05.html",
+   "snapshot_sha256": "6de92d68964b43c66c98ca9aa12cdf2b6224970ca25aa6a0241771995ccdee29"
+  },
+  "xf06": {
+   "title": "許負相法/相口篇第六",
+   "revid": 2300278,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E5%8F%A3%E7%AF%87%E7%AC%AC%E5%85%AD&oldid=2300278",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "23e5e572f6943a60b356fdbdf2a9c33f491386344a382fd15d1adb32f5054aa6",
+   "snapshot_file": "xf06.html",
+   "snapshot_sha256": "708cb0efa862b3d7023beffcf4cb4d5b60374b55dae5ffe423eff7c3f22df91d"
+  },
+  "xf07": {
+   "title": "許負相法/相齒篇第七",
+   "revid": 2300280,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E9%BD%92%E7%AF%87%E7%AC%AC%E4%B8%83&oldid=2300280",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "6faa9793fc1ef24a29fba9449e5fe0615aaec536ec209ff8daa72285382716f1",
+   "snapshot_file": "xf07.html",
+   "snapshot_sha256": "8c591e4f470fa3c25fea13e7a3686a47e190c4a6001c8cd43614d534c97d9550"
+  },
+  "xf08": {
+   "title": "許負相法/相舌篇第八",
+   "revid": 2300281,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%88%8C%E7%AF%87%E7%AC%AC%E5%85%AB&oldid=2300281",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "826aff969f49d27b54e3eefc66571a2ecceaaada2f31a0107cce844b59585d25",
+   "snapshot_file": "xf08.html",
+   "snapshot_sha256": "e8575da4932525beac67e08d9ee1f7d89bebfe238a63c9e54966a96a1945b390"
+  },
+  "tq1": {
+   "title": "太清神鑑 (四庫全書本)/卷1",
+   "revid": 631254,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B71&oldid=631254",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "68c224b9de5d28b09eb759eac8474d93220fc8510a747dca52808b7918fc33c9",
+   "snapshot_file": "tq1.html",
+   "snapshot_sha256": "24a803152636aa6f2b49ac907f79643621fcd3be28b4cd72128e6a4a3f865265"
+  },
+  "tq2": {
+   "title": "太清神鑑 (四庫全書本)/卷2",
+   "revid": 631256,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B72&oldid=631256",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "cbe237743f5ebe81de5ad976c2118b3e9e9313769199073f1092734a4cf357c8",
+   "snapshot_file": "tq2.html",
+   "snapshot_sha256": "767539d46baf9cba40fc25133cc35314f41d2b8b8990576ba4f0f0c3242117c6"
+  },
+  "tq3": {
+   "title": "太清神鑑 (四庫全書本)/卷3",
+   "revid": 777012,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B73&oldid=777012",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "01bc7704dd422451bd02d9e8b06bed821c2ab6d0e592d2a355ffe9ccf954a1c7",
+   "snapshot_file": "tq3.html",
+   "snapshot_sha256": "f6c2d22f5bdbb5e9408102f8a28bebd153687d41b2aef0eea516563468ff086a"
+  },
+  "tq4": {
+   "title": "太清神鑑 (四庫全書本)/卷4",
+   "revid": 631270,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B74&oldid=631270",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "7df4aadd2d9a85eb68ed299e10bf905e3c9d8079f4f480fb0ccfe9827969fb62",
+   "snapshot_file": "tq4.html",
+   "snapshot_sha256": "0e10ba2d4e68df5fa0dd8ffdd6e377d10d41587f0b13fc253f6cb5514e30ca76"
+  },
+  "tq5": {
+   "title": "太清神鑑 (四庫全書本)/卷5",
+   "revid": 631276,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B75&oldid=631276",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "a1a6037c7fc9eccb29285d32d761ed26a0100773d4be0142283f492496f29232",
+   "snapshot_file": "tq5.html",
+   "snapshot_sha256": "938c49cc7a7e1f95e0515805096fa5e7ea071cfb2d603f359ff1c3bb3b5e9230"
+  },
+  "tq6": {
+   "title": "太清神鑑 (四庫全書本)/卷6",
+   "revid": 631282,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E5%A4%AA%E6%B8%85%E7%A5%9E%E9%91%91_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B76&oldid=631282",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "f5a6cf1d1a6d5f956cefe833462ee2e10e2e023282073c4cbe68ce2aa5ebebe0",
+   "snapshot_file": "tq6.html",
+   "snapshot_sha256": "1e8444d4eebde4702c8c01c2f954b00e9d77068f1fe3b1d5518baff9864d8e52"
+  },
+  "gj631": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第631卷",
+   "revid": 1942594,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC631%E5%8D%B7&oldid=1942594",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "143e04f57d59691a1f8136838f199a30a1bb642d53e9571e846d4cbd94363c65",
+   "snapshot_file": "gj631.html",
+   "snapshot_sha256": "ffb8493d7d4d034c637fe104d546bc13d649ccd2eee51108fd913bbbd853d681"
+  },
+  "gj640": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第640卷",
+   "revid": 1942603,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC640%E5%8D%B7&oldid=1942603",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "b6e4ad5b93db0b5bfcf03781e6a7380907266fcdd9ca5587363c36a4b24e59d2",
+   "snapshot_file": "gj640.html",
+   "snapshot_sha256": "8e59f0c9d0f19ee5df2c404389f7cfa5d527520ed0f25067c724ce26893061b1"
+  },
+  "gj643": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第643卷",
+   "revid": 1942606,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC643%E5%8D%B7&oldid=1942606",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "2ea7ee04e654800dc3694b2125328c3fe785565dd5b5595b249a1a211bbe20f3",
+   "snapshot_file": "gj643.html",
+   "snapshot_sha256": "a0193093a5cab8dd776b6b50281d50f900d1e697d62503b035d472dc9ec4f196"
+  },
+  "gj644": {
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第644卷",
+   "revid": 1942607,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC644%E5%8D%B7&oldid=1942607",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "9991e19b29e5f764f1e32dd4c35436c9f1f04ec3ff72e88a36d41431858d481d",
+   "snapshot_file": "gj644.html",
+   "snapshot_sha256": "caa16dd7d025f1e6b4c09e7d98dd9547cdbe9175d16ce7f2d9d43b8b5091ddd9"
+  },
+  "xf00": {
+   "title": "許負相法/序",
+   "revid": 2300391,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E5%BA%8F&oldid=2300391",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "fe834dac392ccb2c94b866ea35bc77fb9ce442d74a8bab35fb6d6a5ccd17195e",
+   "snapshot_file": "xf00.html",
+   "snapshot_sha256": "82f664f4a37c1c3c943527ae45e9ab3dea34ae520207c0c15953104268fb2d0d"
+  },
+  "xf09": {
+   "title": "許負相法/相胸篇第九",
+   "revid": 2300282,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%83%B8%E7%AF%87%E7%AC%AC%E4%B9%9D&oldid=2300282",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "ed9a8ccc3d8862b210f922b4565f4a4c34dbf9b6a254f0e77dff8f918485628f",
+   "snapshot_file": "xf09.html",
+   "snapshot_sha256": "d7a75ac2b142c38df3af90fb5c84381a5a6a011ca87b058ce997ff43cd24b5fd"
+  },
+  "xf10": {
+   "title": "許負相法/相腹篇第十",
+   "revid": 409862,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%85%B9%E7%AF%87%E7%AC%AC%E5%8D%81&oldid=409862",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "3c720fc9113ff2549352ac2ede09054636b1446d062df51749f01e582a1c80e5",
+   "snapshot_file": "xf10.html",
+   "snapshot_sha256": "8d97ab0d889def46ed021db2f8665d49bd623d1fc90a63fe9b0900eb5599628d"
+  },
+  "xf11": {
+   "title": "許負相法/相手篇第十一",
+   "revid": 2300283,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E6%89%8B%E7%AF%87%E7%AC%AC%E5%8D%81%E4%B8%80&oldid=2300283",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "75f628c79881f7344ad5f21a1eccb94f3dcb8f5379fc4a5b9ff6390863d515bd",
+   "snapshot_file": "xf11.html",
+   "snapshot_sha256": "70035f8da0de155dcbf3f3176043bf770cfe742054b65030c62578a970230c85"
+  },
+  "xf12": {
+   "title": "許負相法/相腳篇第十二",
+   "revid": 2300284,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%85%B3%E7%AF%87%E7%AC%AC%E5%8D%81%E4%BA%8C&oldid=2300284",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "5b4c236d12a1083a5364c179eccf6726682df14a0b44804e0e772642ca72541f",
+   "snapshot_file": "xf12.html",
+   "snapshot_sha256": "b3dbe873a8155a3ee3aeeee42ea0fdd434cf80643990d1e62e98c106e8e79406"
+  },
+  "xf13": {
+   "title": "許負相法/相陰篇第十三",
+   "revid": 409865,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E9%99%B0%E7%AF%87%E7%AC%AC%E5%8D%81%E4%B8%89&oldid=409865",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "16d1d3a98342fab24120670ca5ad5d503e5d09d4f8845fe1a197f35ad6c30f02",
+   "snapshot_file": "xf13.html",
+   "snapshot_sha256": "6dcfcdededb5cdf0caea495144aeb9987df25bdd3c4583fbdd3be665ef44449b"
+  },
+  "xf14": {
+   "title": "許負相法/相尿屎篇第十四",
+   "revid": 409866,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E5%B0%BF%E5%B1%8E%E7%AF%87%E7%AC%AC%E5%8D%81%E5%9B%9B&oldid=409866",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "2e860d900e388cede371a4eb0326b8f402784a72ca8f158fad2f677df3b7abec",
+   "snapshot_file": "xf14.html",
+   "snapshot_sha256": "4575d498c8c887f8a64962e32f8f03261683b0da66605cbfbe69fd5534b11b87"
+  },
+  "xf15": {
+   "title": "許負相法/相行篇第十五",
+   "revid": 409867,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E7%9B%B8%E8%A1%8C%E7%AF%87%E7%AC%AC%E5%8D%81%E4%BA%94&oldid=409867",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "c46c91c73f703d841004fd30a07f8dc0e50586a30439837bbdbd6591b1aca378",
+   "snapshot_file": "xf15.html",
+   "snapshot_sha256": "6f80104420013058a6d980dffd2d8ae50ec418649702aa46f394253a49edf259"
+  },
+  "xf16": {
+   "title": "許負相法/聽聲篇第十六",
+   "revid": 2300288,
+   "url": "https://zh.wikisource.org/w/index.php?title=%E8%A8%B1%E8%B2%A0%E7%9B%B8%E6%B3%95/%E8%81%BD%E8%81%B2%E7%AF%87%E7%AC%AC%E5%8D%81%E5%85%AD&oldid=2300288",
+   "http_status": 200,
+   "retrieved_at": "2026-10-14",
+   "response_sha256": "b04f7365dd8dce66b79759b172a19286904974409801c5f1099679b8c5171f1f",
+   "snapshot_file": "xf16.html",
+   "snapshot_sha256": "99e9b406d996c3a42159e4b7dac6aac348db9772f1abbc198817f270601799ed"
+  }
+ }
+}

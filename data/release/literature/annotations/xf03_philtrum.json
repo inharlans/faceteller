@@ -1,0 +1,210 @@
+{
+ "page_id": "xf03",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相人中篇第三"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF03-philtrum-001",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中平長，至老吉昌。兼有年壽，更益兒郎。",
+   "translation": "인중(人中, 코 밑에서 윗입술까지의 홈)이 평평하고 길면 늙을 때까지 길하고 번창한다. 아울러 수명이 있고 아들에게 더욱 이롭다.",
+   "commentary": "'길다(長)'는 philtrum_length:long, '평평하다(平)'는 philtrum_definition:faint로 옮길 수 있다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중 홈이 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "長",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring",
+    "fortune_general"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정 / AI cross-file review (not human): 확정된 release 어휘에 맞게 '대기 레이블' 서술을 정정"
+  },
+  {
+   "passage_id": "XF03-philtrum-002",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中短促，子孫不足。",
+   "translation": "인중이 짧고 촉박하면 자손이 부족하다.",
+   "commentary": "인중이 짧음은 philtrum_length:short로 정확히 옮길 수 있다. 문헌은 이를 자손이 적음과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中短促",
+     "observable_ko": "인중이 짧음",
+     "status": "exact",
+     "label": "philtrum_length:short"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "XF03-philtrum-003",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中高厚，壽年長久。",
+   "translation": "인중이 높고 두터우면 수명이 길고 오래다.",
+   "commentary": "인중의 융기·두께를 말하며 레이블이 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中高厚",
+     "observable_ko": "인중이 높고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 융기·두께 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "XF03-philtrum-004",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中廣平，養子不成。雖即生產，長聞哭聲。",
+   "translation": "인중이 넓고 평평하면 자식을 길러도 이루지 못한다. 비록 곧 낳더라도 오래도록 곡소리를 듣는다.",
+   "commentary": "'平'은 philtrum_definition:faint로 옮길 수 있으나 '廣'(너비)은 레이블이 없다. 문헌은 이를 자식을 잃음과 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中廣",
+     "observable_ko": "인중이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비 레이블이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "平",
+     "observable_ko": "인중 홈이 평평함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "XF03-philtrum-005",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中廣厚，奸淫未足。",
+   "translation": "인중이 넓고 두터우면 간음함이 만족함이 없다.",
+   "commentary": "인중의 너비·두께를 말하며 레이블이 없다. 성적 행실에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中廣厚",
+     "observable_ko": "인중이 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비·두께 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "XF03-philtrum-006",
+   "section": "相人中篇第三",
+   "region": "mole",
+   "original_text": "人中兩黑，的生可儗。",
+   "translation": "인중에 검은 것이 둘이면 틀림없이 견줄 만한 것을 낳는다.",
+   "commentary": "'兩黑'은 검은 점 두 개로 읽었고, '的生可儗'는 뜻이 분명하지 않아 글자대로 옮겼다(쌍둥이를 낳는다는 뜻으로 읽힐 여지가 있다). 특정 위치의 점이라 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "人中兩黑",
+     "observable_ko": "인중에 검은 점 두 개",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "XF03-philtrum-007",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中深長，子孫滿堂。",
+   "translation": "인중이 깊고 길면 자손이 집에 가득하다.",
+   "commentary": "'깊다(深)'는 philtrum_definition:clear, '길다(長)'는 philtrum_length:long으로 옮길 수 있다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中深",
+     "observable_ko": "인중 홈이 깊음",
+     "status": "exact",
+     "label": "philtrum_definition:clear"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "長",
+     "observable_ko": "인중이 긺",
+     "status": "exact",
+     "label": "philtrum_length:long"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정 / AI cross-file review (not human): 확정된 release 어휘에 맞게 '대기 레이블' 서술을 정정"
+  },
+  {
+   "passage_id": "XF03-philtrum-008",
+   "section": "相人中篇第三",
+   "region": "philtrum",
+   "original_text": "人中漫漫，無子可憐。",
+   "translation": "인중이 펀펀하여 흐릿하면 자식이 없어 가련하다.",
+   "commentary": "'漫'은 인중 홈이 흐려 펀펀함을 뜻해 philtrum_definition:faint로 옮길 수 있으나 서비스 표시는 해당 특징 모델의 런타임 검증 여부에 따른다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "人中漫漫",
+     "observable_ko": "인중 홈이 흐릿함",
+     "status": "exact",
+     "label": "philtrum_definition:faint"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅 / AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  }
+ ]
+}

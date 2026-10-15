@@ -1,0 +1,369 @@
+{
+  "version": "morphology-kface-v2",
+  "cohort": "K-FACE High_Resolution 400명 (한국인). 경계값은 학습 분할 참여자의 사람별 대표값 P25/P75 (하위 25%·중간 50%·상위 25%)",
+  "annotation_sources": {
+    "landmark": "MediaPipe 랜드마크 비율. 정면(C7)·무표정·밝은 정면광 8회 촬영 중앙값",
+    "image": "정렬 영상의 밝기 윤곽에서 계산 (랜드마크 띠 두께 아님)",
+    "multiview": "12개 시점 랜드마크의 직교 투영 인수분해로 복원한 상대 깊이. 조명 세션 5회 중앙값",
+    "visual": "AI 단일 육안 검수 (제공기관 AI 열람 승인 하에 사용자 진술). 인간 독립 검수 아님"
+  },
+  "scope": "사진에 보이는 외형만 다룬다. 성격·지능·건강·운명은 레이블하지 않는다. 문헌 풀이는 별도 데이터(interpretation_service_v1)에서 옛 관상서의 해석으로 제공한다.",
+  "borderline": "사람의 반복 촬영 평균의 95% 구간이 경계값에 걸치면 borderline(보류). 학습 손실과 분류 평가에서 제외하고 회귀 목표로만 사용",
+  "features": {
+    "eye_size": {
+      "part": "eye",
+      "source": "landmark",
+      "metric": "eye_size",
+      "per_side": true,
+      "classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "ko": "눈 크기(얼굴 폭 대비 눈 가로 길이)",
+      "classes_ko": [
+        "작은 편",
+        "보통",
+        "큰 편"
+      ]
+    },
+    "eye_roundness": {
+      "part": "eye",
+      "source": "landmark",
+      "metric": "eye_roundness",
+      "per_side": true,
+      "classes": [
+        "narrow",
+        "intermediate",
+        "rounded"
+      ],
+      "ko": "눈 세로 개방(가로 대비)",
+      "classes_ko": [
+        "가늘고 긴 편",
+        "보통",
+        "둥근 편"
+      ]
+    },
+    "eye_tilt": {
+      "part": "eye",
+      "source": "landmark",
+      "metric": "eye_tilt",
+      "per_side": true,
+      "classes": [
+        "down",
+        "level",
+        "up"
+      ],
+      "ko": "눈꼬리 기울기(안쪽 눈구석 대비 바깥 눈꼬리 높이)",
+      "classes_ko": [
+        "처진 편",
+        "수평에 가까움",
+        "올라간 편"
+      ]
+    },
+    "eye_asymmetry": {
+      "part": "eye",
+      "source": "landmark",
+      "metric": "eye_asymmetry",
+      "per_side": false,
+      "classes": [
+        "symmetric",
+        "asymmetric"
+      ],
+      "quantiles": [
+        0.8
+      ],
+      "ko": "좌우 눈 개방 차이",
+      "classes_ko": [
+        "대칭에 가까움",
+        "좌우 차이 큼(상위 20%)"
+      ]
+    },
+    "brow_shape": {
+      "part": "brow",
+      "source": "visual",
+      "classes": [
+        "straight",
+        "arched",
+        "angled"
+      ],
+      "ko": "눈썹 중심선 모양",
+      "classes_ko": [
+        "일자형",
+        "완만한 곡선",
+        "꺾인 형"
+      ]
+    },
+    "brow_thickness": {
+      "part": "brow",
+      "source": "visual",
+      "classes": [
+        "thin",
+        "medium",
+        "thick"
+      ],
+      "ko": "눈썹 털 영역 굵기(육안)",
+      "classes_ko": [
+        "가는 편",
+        "보통",
+        "굵은 편"
+      ],
+      "note": "영상 밝기 기반 추정은 ICC 0.67이고 가늚/보통을 구분하지 못해(육안 대비) 보조 지표로만 기록"
+    },
+    "brow_length": {
+      "part": "brow",
+      "source": "landmark",
+      "metric": "brow_length",
+      "per_side": true,
+      "classes": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "ko": "눈썹 길이(눈 가로 대비)",
+      "classes_ko": [
+        "짧은 편",
+        "보통",
+        "긴 편"
+      ]
+    },
+    "brow_eye_gap": {
+      "part": "brow",
+      "source": "landmark",
+      "metric": "brow_eye_gap",
+      "per_side": true,
+      "classes": [
+        "close",
+        "medium",
+        "wide"
+      ],
+      "ko": "눈썹과 눈 사이 간격(눈 가로 대비)",
+      "classes_ko": [
+        "가까운 편",
+        "보통",
+        "넓은 편"
+      ]
+    },
+    "brow_tail": {
+      "part": "brow",
+      "source": "landmark",
+      "metric": "brow_tail",
+      "per_side": true,
+      "classes": [
+        "descending",
+        "level",
+        "ascending"
+      ],
+      "ko": "눈썹 꼬리 방향",
+      "classes_ko": [
+        "꼬리가 내려감",
+        "완만",
+        "꼬리가 올라감"
+      ]
+    },
+    "nose_width": {
+      "part": "nose",
+      "source": "landmark",
+      "metric": "nose_width",
+      "per_side": false,
+      "classes": [
+        "narrow",
+        "medium",
+        "wide"
+      ],
+      "ko": "콧방울 폭(얼굴 폭 대비)",
+      "classes_ko": [
+        "좁은 편",
+        "보통",
+        "넓은 편"
+      ]
+    },
+    "nose_length": {
+      "part": "nose",
+      "source": "landmark",
+      "metric": "nose_length",
+      "per_side": false,
+      "classes": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "ko": "코 길이(코뿌리~코밑, 얼굴 높이 대비)",
+      "classes_ko": [
+        "짧은 편",
+        "보통",
+        "긴 편"
+      ]
+    },
+    "nose_projection": {
+      "part": "nose",
+      "source": "multiview",
+      "metric": "nose_projection",
+      "per_side": false,
+      "classes": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "ko": "코끝 돌출(콧방울 기준 깊이)",
+      "classes_ko": [
+        "낮은 편",
+        "보통",
+        "높은 편"
+      ]
+    },
+    "nose_bridge": {
+      "part": "nose",
+      "source": "multiview",
+      "metric": "nose_bridge",
+      "per_side": false,
+      "classes": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "ko": "코뿌리(콧대 시작) 높이(안쪽 눈구석 기준 깊이)",
+      "classes_ko": [
+        "낮은 편",
+        "보통",
+        "높은 편"
+      ]
+    },
+    "mouth_width": {
+      "part": "mouth",
+      "source": "landmark",
+      "metric": "mouth_width",
+      "per_side": false,
+      "classes": [
+        "narrow",
+        "medium",
+        "wide"
+      ],
+      "ko": "입 너비(얼굴 폭 대비)",
+      "classes_ko": [
+        "작은 편",
+        "보통",
+        "큰 편"
+      ]
+    },
+    "lip_thickness": {
+      "part": "mouth",
+      "source": "landmark",
+      "metric": "lip_thickness",
+      "per_side": false,
+      "classes": [
+        "thin",
+        "medium",
+        "full"
+      ],
+      "ko": "입술 붉은 부분 두께(입 너비 대비)",
+      "classes_ko": [
+        "얇은 편",
+        "보통",
+        "도톰한 편"
+      ]
+    },
+    "lip_balance": {
+      "part": "mouth",
+      "source": "landmark",
+      "metric": "lip_balance",
+      "per_side": false,
+      "classes": [
+        "upper_thin",
+        "balanced",
+        "upper_full"
+      ],
+      "ko": "윗입술/아랫입술 두께 비",
+      "classes_ko": [
+        "윗입술이 얇은 편",
+        "균형",
+        "윗입술이 두꺼운 편"
+      ]
+    },
+    "mouth_corner": {
+      "part": "mouth",
+      "source": "landmark",
+      "metric": "mouth_corner",
+      "per_side": false,
+      "classes": [
+        "down",
+        "level",
+        "up"
+      ],
+      "ko": "입꼬리 높이(입술 중앙 대비)",
+      "classes_ko": [
+        "처진 편",
+        "수평",
+        "올라간 편"
+      ]
+    },
+    "face_shape": {
+      "part": "face",
+      "source": "visual",
+      "classes": [
+        "oval",
+        "round",
+        "angular",
+        "long"
+      ],
+      "ko": "얼굴 윤곽 형태",
+      "classes_ko": [
+        "달걀형",
+        "둥근형",
+        "각진형",
+        "긴형"
+      ]
+    },
+    "face_length": {
+      "part": "face",
+      "source": "landmark",
+      "metric": "face_length",
+      "per_side": false,
+      "classes": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "ko": "얼굴 세로/가로 비(헤어라인 제외 보이는 범위)",
+      "classes_ko": [
+        "짧은 편",
+        "보통",
+        "긴 편"
+      ]
+    },
+    "jaw_width": {
+      "part": "face",
+      "source": "landmark",
+      "metric": "jaw_width",
+      "per_side": false,
+      "classes": [
+        "narrow",
+        "medium",
+        "wide"
+      ],
+      "ko": "아래턱 폭(얼굴 폭 대비)",
+      "classes_ko": [
+        "좁은 편",
+        "보통",
+        "넓은 편"
+      ]
+    }
+  },
+  "limitations": [
+    "경계값은 이 코호트의 상대 위치(하위·중간·상위 1/3)이며 해부학 표준이나 관상 표준이 아니다.",
+    "K-FACE 촬영 참여자의 연령·성별 구성이 한국인 전체를 대표한다는 근거는 확인하지 않았다.",
+    "깊이는 직교 투영 근사와 MediaPipe 랜드마크 위치에 의존하는 상대값이다. mm 단위가 아니다.",
+    "눈 개방·입꼬리·눈썹 위치는 촬영 순간의 표정 근육 상태를 포함한다."
+  ],
+  "withheld_features": {
+    "nose_tip": {
+      "ko": "정면 코끝 윤곽(둥근/뾰족)",
+      "reason": "정면 균일조명과 40도 사선 검수 시트 모두 코끝 윤곽 대비가 약해 단일 AI 검수자의 판정 근거가 부족. 코는 다중 시점 코끝 돌출·코뿌리 높이·콧방울 폭으로 설명한다. 문헌 규칙의 nose_tip 조건은 사진 판정 불가로 처리"
+    }
+  },
+  "reliability_notes": {
+    "eye_asymmetry": "조명 반복 ICC 0.53. 서비스에서는 확신 구간에서만 언급",
+    "lip_balance": "ICC 0.71. 확신 구간에서만 언급",
+    "brow_shape": "시험 정확도 0.64(최빈값 기준 0.66과 비슷). 확률 0.7 이상에서 0.73. AI 단일 검수자 레이블의 잡음이 상한일 수 있음"
+  }
+}

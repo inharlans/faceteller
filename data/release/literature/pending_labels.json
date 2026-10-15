@@ -1,0 +1,45 @@
+{
+  "status": "ready_automatic_labels",
+  "source": "coordinator dispatch task_37da6c976c5d (2026-10-14): forehead_height/forehead_width/ear_length/ear_width are confirmed physical target definitions in data/release/extended_schema.json and are now canonical; pigmented_marks is still undergoing local annotation. under_eye and philtrum_definition are canonical through data/release/training_registry.json.",
+  "rules": [
+    "A condition may use status exact with a pending label; the passage stays service_eligible=false with reason LABEL_PENDING_REGISTRY and the label is kept in pending_labels, not required_labels.",
+    "pigmented_marks means visible pigmented marks in exposed upper-face skin only (extended_schema metric), with no medical mole identity; location-specific mole statements are approximate."
+  ],
+  "features": {},
+  "status_note": "Automatic weak-label support verified; historical source note is superseded for pigmented_marks. Upper-face visible dark marks only; absence does not mean whole-face absence. No medical identity, human review or model accuracy approval. Annotation rules are unchanged.",
+  "ready_proof": {
+    "extended_ready_sha256": "ccf0552ffbf2cd5576489105186ac9e107f45a158d9993a561aeae64840230ae",
+    "registry_sha256": "b9c4f0b97c54685716b4951ee2d9ecb6a1ddb47074821bb6650e3b697d974d7b",
+    "overlay_sha256": "8190dc0610de17b7527f5d95861679be466a469d9cff5ce3551f41105add9237",
+    "validation": {
+      "train_per_class_minimum": 2,
+      "selection_known_minimum": 2,
+      "calibration_known_minimum": 2,
+      "test_used_for_readiness": false,
+      "independent_accuracy_verified": false,
+      "class_support": {
+        "train": {
+          "present": 50,
+          "absent": 4,
+          "unknown": 216
+        },
+        "selection": {
+          "present": 6,
+          "absent": 1,
+          "unknown": 27
+        },
+        "calibration": {
+          "present": 6,
+          "absent": 0,
+          "unknown": 28
+        },
+        "test": {
+          "present": 13,
+          "absent": 3,
+          "unknown": 46
+        }
+      },
+      "meaning": "nonempty weak-target training support only; per-class limitations reported separately"
+    }
+  }
+}

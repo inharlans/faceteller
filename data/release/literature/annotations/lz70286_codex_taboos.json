@@ -1,0 +1,1967 @@
+{
+  "page_id": "lz70286",
+  "annotator": "AI model draft (Codex), literal Korean; no human review",
+  "sections_complete": [
+    "男人所忌四十一種犯者貧窮之相"
+  ],
+  "scope_note": "Complete male taboo list and first 24 female taboo items. Physical brow-tail direction stays exact regardless of cohort frequency; subject constraints remain.",
+  "passages": [
+    {
+      "passage_id": "LZC70286-taboo-001",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "頭忌偏削",
+      "translation": "머리는 치우치고 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭忌偏削",
+          "observable_ko": "머리는 치우치고 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "頭忌偏削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-002",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "髮忌粗重",
+      "translation": "머리카락은 거칠고 무거움을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "髮忌粗重",
+          "observable_ko": "머리카락은 거칠고 무거움을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "髮忌粗重",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-003",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "眉忌尾垂",
+      "translation": "눈썹은 꼬리가 처짐을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉忌尾垂",
+          "observable_ko": "눈썹은 꼬리가 처짐을 꺼린다",
+          "status": "exact",
+          "label": "brow_tail:descending"
+        },
+        {
+          "region": "subject",
+          "evidence": "眉忌尾垂",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-004",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "耳忌開花",
+      "translation": "귀는 꽃처럼 벌어짐을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳忌開花",
+          "observable_ko": "귀는 꽃처럼 벌어짐을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "耳忌開花",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-005",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "睛忌露光",
+      "translation": "눈동자는 빛이 드러남을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "睛忌露光",
+          "observable_ko": "눈동자는 빛이 드러남을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "睛忌露光",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-006",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "梁忌陷削",
+      "translation": "콧대는 꺼지고 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "梁忌陷削",
+          "observable_ko": "콧대는 꺼지고 깎임을 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "梁忌陷削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-007",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "年壽忌節",
+      "translation": "년수인 콧등은 마디를 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "年壽忌節",
+          "observable_ko": "년수인 콧등은 마디를 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "年壽忌節",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-008",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "準忌尖峰",
+      "translation": "준두인 코끝은 뾰족한 봉우리를 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準忌尖峰",
+          "observable_ko": "준두인 코끝은 뾰족한 봉우리를 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_tip:tapered"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "準忌尖峰",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-009",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "地閣忌尖",
+      "translation": "지각인 턱은 뾰족함을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "地閣忌尖",
+          "observable_ko": "지각인 턱은 뾰족함을 꺼린다",
+          "status": "exact",
+          "label": "chin_shape:pointed"
+        },
+        {
+          "region": "subject",
+          "evidence": "地閣忌尖",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-010",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "井灶忌仰",
+      "translation": "정조인 콧구멍 부위는 들림을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "井灶忌仰",
+          "observable_ko": "정조인 콧구멍 부위는 들림을 꺼린다",
+          "status": "exact",
+          "label": "nostril_show:visible"
+        },
+        {
+          "region": "subject",
+          "evidence": "井灶忌仰",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-011",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "台尉忌削",
+      "translation": "난대와 정위인 콧방울은 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "台尉忌削",
+          "observable_ko": "난대와 정위인 콧방울은 깎임을 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "alar_fullness:flat"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "台尉忌削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-012",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "〈人中〉邊忌紋",
+      "translation": "인중의 가장자리는 무늬를 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "〈人中〉邊忌紋",
+          "observable_ko": "인중의 가장자리는 무늬를 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "〈人中〉邊忌紋",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-013",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "口忌如吹",
+      "translation": "입은 부는 듯한 모양을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口忌如吹",
+          "observable_ko": "입은 부는 듯한 모양을 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "口忌如吹",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-014",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "下庫忌削",
+      "translation": "하고는 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "下庫忌削",
+          "observable_ko": "하고는 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "下庫忌削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-015",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "項忌露骨",
+      "translation": "목은 뼈가 드러남을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項忌露骨",
+          "observable_ko": "목은 뼈가 드러남을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "項忌露骨",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-016",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "邊地〈忌生寒毛〉",
+      "translation": "변지는 솜털이 남을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "邊地〈忌生寒毛〉",
+          "observable_ko": "변지는 솜털이 남을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "邊地〈忌生寒毛〉",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-017",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "胸忌高露",
+      "translation": "가슴은 높이 드러남을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "胸忌高露",
+          "observable_ko": "가슴은 높이 드러남을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "胸忌高露",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-018",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "背忌陷坎",
+      "translation": "등은 구덩이처럼 꺼짐을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "背忌陷坎",
+          "observable_ko": "등은 구덩이처럼 꺼짐을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "背忌陷坎",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-019",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "乳忌白小",
+      "translation": "젖은 희고 작음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "乳忌白小",
+          "observable_ko": "젖은 희고 작음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "乳忌白小",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-020",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "腹忌上大",
+      "translation": "배는 위가 큼을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腹忌上大",
+          "observable_ko": "배는 위가 큼을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "腹忌上大",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-021",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "臍忌近下",
+      "translation": "배꼽은 아래에 가까움을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "臍忌近下",
+          "observable_ko": "배꼽은 아래에 가까움을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "臍忌近下",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-022",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "膝忌偏斜",
+      "translation": "무릎은 치우침을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "膝忌偏斜",
+          "observable_ko": "무릎은 치우침을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "膝忌偏斜",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-023",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "膝忌露筋",
+      "translation": "무릎은 힘줄이 드러남을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "膝忌露筋",
+          "observable_ko": "무릎은 힘줄이 드러남을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "膝忌露筋",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-024",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "足忌陷削",
+      "translation": "발은 꺼지고 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "足忌陷削",
+          "observable_ko": "발은 꺼지고 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "足忌陷削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-025",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "指忌粗硬",
+      "translation": "손가락은 거칠고 단단함을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "指忌粗硬",
+          "observable_ko": "손가락은 거칠고 단단함을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "指忌粗硬",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-026",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "跟忌削下",
+      "translation": "발꿈치는 아래가 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "跟忌削下",
+          "observable_ko": "발꿈치는 아래가 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "跟忌削下",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-027",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "聲忌低小",
+      "translation": "소리는 낮고 작음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "聲忌低小",
+          "observable_ko": "소리는 낮고 작음을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "聲忌低小",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-028",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "臀尖忌小",
+      "translation": "엉덩이가 뾰족한 것은 작음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "臀尖忌小",
+          "observable_ko": "엉덩이가 뾰족한 것은 작음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "臀尖忌小",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-029",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "手忌掌削",
+      "translation": "손은 손바닥이 깎임을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "手忌掌削",
+          "observable_ko": "손은 손바닥이 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "手忌掌削",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-030",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "指忌短長",
+      "translation": "손가락은 짧고 긺을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "指忌短長",
+          "observable_ko": "손가락은 짧고 긺을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "指忌短長",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-031",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "齒忌〈薄小稀疎〉",
+      "translation": "이는 얇고 작고 성김을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒忌〈薄小稀疎〉",
+          "observable_ko": "이는 얇고 작고 성김을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "齒忌〈薄小稀疎〉",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-032",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "步忌蛇行",
+      "translation": "걸음은 뱀처럼 감을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "步忌蛇行",
+          "observable_ko": "걸음은 뱀처럼 감을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "步忌蛇行",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-033",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "聲忌低泪",
+      "translation": "소리는 낮고 눈물 같음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "聲忌低泪",
+          "observable_ko": "소리는 낮고 눈물 같음을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "聲忌低泪",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-034",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "神忌短少",
+      "translation": "정신은 짧고 적음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "神忌短少",
+          "observable_ko": "정신은 짧고 적음을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "神忌短少",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-035",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "色忌如油",
+      "translation": "빛은 기름 같음을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "色忌如油",
+          "observable_ko": "빛은 기름 같음을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "色忌如油",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-036",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "氣忌粗濁",
+      "translation": "기운은 거칠고 탁함을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "氣忌粗濁",
+          "observable_ko": "기운은 거칠고 탁함을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "氣忌粗濁",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-037",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "肉忌虛浮",
+      "translation": "살은 허하고 뜸을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "肉忌虛浮",
+          "observable_ko": "살은 허하고 뜸을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "肉忌虛浮",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-038",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "骨忌粗硬",
+      "translation": "뼈는 거칠고 단단함을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "骨忌粗硬",
+          "observable_ko": "뼈는 거칠고 단단함을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "骨忌粗硬",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-039",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "血忌帶暗",
+      "translation": "혈색은 어두움을 띰을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "血忌帶暗",
+          "observable_ko": "혈색은 어두움을 띰을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "血忌帶暗",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-040",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "髮忌開花",
+      "translation": "머리카락은 꽃처럼 벌어짐을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "髮忌開花",
+          "observable_ko": "머리카락은 꽃처럼 벌어짐을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "髮忌開花",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-041",
+      "section": "男人所忌四十一種犯者貧窮之相",
+      "original_text": "臍忌朝下",
+      "translation": "배꼽은 아래를 향함을 꺼린다.",
+      "commentary": "절 제목은 남성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "臍忌朝下",
+          "observable_ko": "배꼽은 아래를 향함을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "臍忌朝下",
+          "observable_ko": "남성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-042",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "頭忌尖削",
+      "translation": "머리는 뾰족하고 깎임을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭忌尖削",
+          "observable_ko": "머리는 뾰족하고 깎임을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "頭忌尖削",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-043",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "髮忌黃濁",
+      "translation": "머리카락은 누렇고 탁함을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "髮忌黃濁",
+          "observable_ko": "머리카락은 누렇고 탁함을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "髮忌黃濁",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-044",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "耳忌反復",
+      "translation": "귀는 뒤집힘을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳忌反復",
+          "observable_ko": "귀는 뒤집힘을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "耳忌反復",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-045",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "眉忌尾垂",
+      "translation": "눈썹은 꼬리가 처짐을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉忌尾垂",
+          "observable_ko": "눈썹은 꼬리가 처짐을 꺼린다",
+          "status": "exact",
+          "label": "brow_tail:descending"
+        },
+        {
+          "region": "subject",
+          "evidence": "眉忌尾垂",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-046",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "目忌黃光",
+      "translation": "눈은 누런 빛을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目忌黃光",
+          "observable_ko": "눈은 누런 빛을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "目忌黃光",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-047",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "鼻忌尖陷",
+      "translation": "코는 뾰족하고 꺼짐을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻忌尖陷",
+          "observable_ko": "코는 뾰족하고 꺼짐을 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_tip:tapered"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "鼻忌尖陷",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-048",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "嘴忌尖凸",
+      "translation": "입은 뾰족하고 돌출됨을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "嘴忌尖凸",
+          "observable_ko": "입은 뾰족하고 돌출됨을 꺼린다",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "嘴忌尖凸",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-049",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "齒忌白小",
+      "translation": "이는 희고 작음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒忌白小",
+          "observable_ko": "이는 희고 작음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "齒忌白小",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-050",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "顴忌高聳",
+      "translation": "광대는 높이 솟음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "顴忌高聳",
+          "observable_ko": "광대는 높이 솟음을 꺼린다",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "subject",
+          "evidence": "顴忌高聳",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-051",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "口忌尖偏",
+      "translation": "입은 뾰족하고 치우침을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口忌尖偏",
+          "observable_ko": "입은 뾰족하고 치우침을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "口忌尖偏",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-052",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "項忌粗短",
+      "translation": "목은 굵고 짧음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項忌粗短",
+          "observable_ko": "목은 굵고 짧음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "項忌粗短",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-053",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "〈髮忌〉過命門",
+      "translation": "머리카락은 명문을 넘음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "〈髮忌〉過命門",
+          "observable_ko": "머리카락은 명문을 넘음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "〈髮忌〉過命門",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-054",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "背大忌陷",
+      "translation": "등이 큰 것은 꺼짐을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "背大忌陷",
+          "observable_ko": "등이 큰 것은 꺼짐을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "背大忌陷",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-055",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "胸大忌高",
+      "translation": "가슴이 큰 것은 높음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "胸大忌高",
+          "observable_ko": "가슴이 큰 것은 높음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "胸大忌高",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-056",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "乳忌白小",
+      "translation": "젖은 희고 작음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "乳忌白小",
+          "observable_ko": "젖은 희고 작음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "乳忌白小",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-057",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "臍忌淺低",
+      "translation": "배꼽은 얕고 낮음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "臍忌淺低",
+          "observable_ko": "배꼽은 얕고 낮음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "臍忌淺低",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-058",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "腰忌偏斜",
+      "translation": "허리는 치우침을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腰忌偏斜",
+          "observable_ko": "허리는 치우침을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "腰忌偏斜",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-059",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "腿忌多觔",
+      "translation": "다리는 힘줄이 많음을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "腿忌多觔",
+          "observable_ko": "다리는 힘줄이 많음을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "腿忌多觔",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-060",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "肉忌虛浮",
+      "translation": "살은 허하고 뜸을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "肉忌虛浮",
+          "observable_ko": "살은 허하고 뜸을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "肉忌虛浮",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-061",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "血忌赤暗",
+      "translation": "혈색은 붉고 어두움을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "血忌赤暗",
+          "observable_ko": "혈색은 붉고 어두움을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "血忌赤暗",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-062",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "骨忌粗硏",
+      "translation": "뼈는 거칠고 갈림을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "骨忌粗硏",
+          "observable_ko": "뼈는 거칠고 갈림을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "骨忌粗硏",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-063",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "聲忌宏大",
+      "translation": "소리는 크고 우렁참을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "聲忌宏大",
+          "observable_ko": "소리는 크고 우렁참을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "聲忌宏大",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-064",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "面忌如仰",
+      "translation": "얼굴은 젖혀 든 듯함을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面忌如仰",
+          "observable_ko": "얼굴은 젖혀 든 듯함을 꺼린다",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "面忌如仰",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-taboo-065",
+      "section": "女人所忌二十四種犯者貧賤之相",
+      "original_text": "色忌光浮",
+      "translation": "빛은 광채가 뜸을 꺼린다.",
+      "commentary": "절 제목은 여성의 가난하거나 천한 상으로 꺼리는 항목을 열거한다. 각 금기 항목을 별도로 보존한 AI 미검수 직역으로 실제 사람에 대한 판단이 아니다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "色忌光浮",
+          "observable_ko": "빛은 광채가 뜸을 꺼린다",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 위치·세부 형태·색·행동은 후보 단일 측정과 같지 않거나 현재 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "色忌光浮",
+          "observable_ko": "여성 한정이라는 절 제목 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "성별 한정은 절 제목에서 주어진 대상 조건이며 외형 라벨로 판정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ]
+    }
+  ]
+}

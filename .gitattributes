@@ -1,0 +1,3 @@
+# Preserve exact source/corpus bytes: provenance manifests contain SHA-256 hashes.
+# In particular, Git for Windows must not rewrite vendored code on checkout.
+* -text

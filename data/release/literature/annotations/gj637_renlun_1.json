@@ -1,0 +1,2914 @@
+{
+ "page_id": "gj637",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "SQ637RA-other-001",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「貴賤」定於骨法，憂喜見於形容。",
+   "translation": "귀천은 골법(骨法)에서 정해지고, 근심과 기쁨은 형용(形容, 얼굴 모습)에 드러난다.",
+   "commentary": "부(賦)의 첫 구로, 귀천은 골격의 법도(골법)로, 근심·기쁨은 얼굴빛과 모습으로 본다는 총론이다. 구체적 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-002",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "凡人賢愚，貴賤，修短、吉凶，成敗利鈍，皆定於《骨法》也。",
+   "translation": "무릇 사람의 어짊과 어리석음, 귀함과 천함, 수명의 길고 짧음, 길함과 흉함, 성공과 실패, 이로움과 둔함은 모두 골법(骨法)에서 정해진다.",
+   "commentary": "앞 구절에 대한 주석의 첫 문장이다. 수단(修短)은 수명의 장단을 가리킨다. 문헌은 지혜·귀천·수명·길흉을 모두 골격으로 정해진다고 적었다.",
+   "conditions": [],
+   "claim_topics": [
+    "intelligence",
+    "rank_office",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-003",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "骨為君，肉為臣，骨肉欲其相輔為貴，若露，骨肉薄者，主於下賤　。",
+   "translation": "뼈는 임금이 되고 살은 신하가 되니, 뼈와 살은 서로 돕는 것이 귀하다. 만약 (뼈가) 드러나고 뼈와 살이 얇은 자는 하천함을 주관한다.",
+   "commentary": "뼈와 살의 균형을 군신 관계에 빗댄 주석이다. 뼈가 드러남·살이 얇음은 온몸의 체격에 관한 서술이라 얼굴 형태 레이블로 옮기지 않았다. 문헌은 이를 하천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "若露，骨肉薄",
+     "observable_ko": "뼈가 드러나고 뼈와 살이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "전신의 골육 상태에 관한 서술로 대응하는 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-004",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "憂喜乃未來之事，人莫能知，憂喜未分，則氣色朝夕發於面部。青憂疑，赤口舌，白哭泣，黑死墓，黃喜慶。",
+   "translation": "근심과 기쁨은 아직 오지 않은 일이라 사람이 알 수 없으나, 근심과 기쁨이 나뉘지 않았을 때 기색(氣色)이 아침저녁으로 얼굴에 드러난다. 푸르면 근심과 의심, 붉으면 구설, 희면 곡읍(울음), 검으면 죽음과 무덤, 누르면 기쁜 경사이다.",
+   "commentary": "얼굴 기색의 다섯 빛깔을 일의 길흉에 배당한 주석이다. 모두 색에 관한 서술이라 형태로 관찰할 수 없다. 문헌은 검은 기색을 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "青憂疑，赤口舌，白哭泣，黑死墓，黃喜慶",
+     "observable_ko": "얼굴 기색이 푸름·붉음·흼·검음·누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-005",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《悔吝》生於動作之始，成敗在乎決斷之中。",
+   "translation": "회린(悔吝, 뉘우침과 부끄러움)은 움직임의 시작에서 생기고, 성패는 결단 속에 있다.",
+   "commentary": "『역』의 '회린' 개념을 빌린 구절로, 행동과 결단에 관한 서술이며 얼굴 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-006",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "悔吝者，吉凶未見人情，雖知喜利而避害，莫知緣害而見利。《易》曰：「吉凶悔吝，生乎動也　。」",
+   "translation": "회린이란 길흉이 아직 드러나지 않은 사람의 사정이니, 이로움을 좋아하고 해로움을 피할 줄은 알아도 해로움으로 말미암아 이로움을 보게 됨은 알지 못한다. 『역』에 이르기를 '길흉회린은 움직임에서 생긴다'고 하였다.",
+   "commentary": "앞 구절의 '회린'을 『역』의 문구를 인용해 풀이한 주석이다. 첫 문장의 끊어 읽기는 다소 불확실하여 글자대로 옮겼다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-007",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "成敗者，得失之本也。人之所謀，當剛斷而不可狐疑，故舉動所謀，能決則必成，少疑則事亂。",
+   "translation": "성패란 얻고 잃음의 근본이다. 사람이 도모하는 바는 마땅히 굳세게 결단해야 하고 여우처럼 의심해서는 안 되니, 그러므로 거동하여 도모하는 바를 결단할 수 있으면 반드시 이루고, 조금이라도 의심하면 일이 어지러워진다.",
+   "commentary": "결단과 성패의 관계를 풀이한 주석으로 행실에 관한 서술이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-008",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《氣清體羸》，雖才高而不久；神強骨壯保遐筭以無窮。",
+   "translation": "기(氣)가 맑고 몸이 파리하면 비록 재주가 높아도 오래가지 못하고, 신(神)이 강하고 뼈가 건장하면 먼 수명을 끝없이 보전한다.",
+   "commentary": "하산(遐筭)은 먼 수명을 뜻한다. 기·신은 관찰할 수 없는 기운이고, 몸의 파리함·뼈의 건장함은 얼굴 사진의 형태 항목이 아니다. 문헌은 이를 수명의 장단과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "氣清",
+     "observable_ko": "기운이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·기운은 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "體羸",
+     "observable_ko": "몸이 파리함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神強",
+     "observable_ko": "정신 기운이 강함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·시선·정신 기운은 정지 사진 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨壯",
+     "observable_ko": "뼈대가 건장함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-009",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "氣清體羸者，謂之「形神不足」 ，常以不病似病，雖有文學高才，終無遠壽　。",
+   "translation": "기가 맑고 몸이 파리한 자를 '형신부족(形神不足, 형체와 정신이 부족함)'이라 하니, 늘 병이 없어도 병든 듯하며, 비록 문학과 높은 재주가 있어도 끝내 먼 수명이 없다.",
+   "commentary": "앞 구절의 '기청체리'를 풀이한 주석이다. 문헌은 이 체질을 병약함·단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "氣清體羸",
+     "observable_ko": "기운이 맑고 몸이 파리함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-010",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "人之壽夭，皆在神氣骨法所主。若神強骨壯，必享遠年之壽。",
+   "translation": "사람의 장수와 요절은 모두 신기(神氣)와 골법이 주관하는 바에 있다. 만약 신이 강하고 뼈가 건장하면 반드시 먼 해의 수명을 누린다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. 신기와 체격은 사진 형태로 관찰할 수 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "神強骨壯",
+     "observable_ko": "정신 기운이 강하고 뼈대가 건장함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-face-011",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "face",
+   "original_text": "顏如冠玉，聲若撞鐘。",
+   "translation": "얼굴은 관옥(冠玉, 관에 다는 옥) 같고, 목소리는 종을 치는 것 같다.",
+   "commentary": "얼굴빛의 윤택함과 목소리의 울림을 비유한 구절로, 둘 다 형태가 아닌 색·소리에 관한 서술이다. 이 구절 자체에는 주장이 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏如冠玉",
+     "observable_ko": "얼굴빛이 옥처럼 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲若撞鐘",
+     "observable_ko": "목소리가 종소리 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-face-012",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "face",
+   "original_text": "「冠玉」 者，美玉也。人顏色要瑩然溫潤，若美玉無瑕，乃貴",
+   "translation": "'관옥'이란 아름다운 옥이다. 사람의 안색은 맑게 빛나고 따뜻하고 윤택해야 하니, 흠 없는 아름다운 옥 같으면 곧 귀하다.",
+   "commentary": "앞 구절의 '관옥'을 풀이한 주석이다. 안색의 윤택함은 색·광택이라 관찰 항목이 아니다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色要瑩然溫潤",
+     "observable_ko": "안색이 맑고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-013",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "鐘聲良久不絕，人聲發於丹田，貴乎深遠，若淺短蹇澀，破散夭賤之相也。",
+   "translation": "종소리는 오래도록 끊이지 않으니, 사람의 소리는 단전(丹田)에서 나와 깊고 멀리 가는 것을 귀히 여긴다. 만약 얕고 짧고 더듬거리고 껄끄러우면 파산하고 요절하며 천한 상이다.",
+   "commentary": "앞 구절의 '종소리'를 풀이한 주석으로 목소리에 관한 서술이다. 문헌은 얕고 짧은 소리를 파산·요절·천함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "淺短蹇澀",
+     "observable_ko": "목소리가 얕고 짧고 더듬거림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-014",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "四瀆最宜深且闊，《五嶽》必須穹與隆。",
+   "translation": "사독(四瀆)은 깊고 넓은 것이 가장 마땅하고, 오악(五嶽)은 반드시 둥글게 솟고 높아야 한다.",
+   "commentary": "사독·오악은 얼굴의 여러 부위를 강과 산에 배당한 관상 용어인데, 이 원문은 어느 부위인지 밝히지 않는다. 여러 부위를 한데 묶은 비유라 단일 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "四瀆最宜深且闊",
+     "observable_ko": "사독(여러 구멍 부위)이 깊고 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사독이 가리키는 부위가 원문에 없고 여러 부위에 걸친 비유다"
+    },
+    {
+     "region": "other",
+     "evidence": "《五嶽》必須穹與隆",
+     "observable_ko": "오악(돌출 부위들)이 둥글게 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "오악의 구성 부위가 원문에 없고 여러 부위를 묶은 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-015",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "四瀆最宜深闊，崖岸有川流之形，不為漫散破缺，五嶽要有峻極之勢。",
+   "translation": "사독은 깊고 넓은 것이 가장 마땅하여, 언덕과 기슭에 냇물이 흐르는 형상이 있고 흩어지거나 깨지고 이지러지지 않아야 하며, 오악은 높고 지극한 기세가 있어야 한다.",
+   "commentary": "앞 구절을 강과 산의 형세로 다시 풀이한 주석이다. 부위가 특정되지 않은 비유라 형태 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "崖岸有川流之形，不為漫散破缺",
+     "observable_ko": "사독 부위가 냇물 같은 윤곽을 가지고 깨지지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위가 특정되지 않은 지형 비유다"
+    },
+    {
+     "region": "other",
+     "evidence": "五嶽要有峻極之勢",
+     "observable_ko": "오악 부위가 높이 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "오악의 구성 부위가 원문에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-016",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《五官》欲其明而正，六府欲其實而充。",
+   "translation": "오관(五官)은 밝고 바르고자 하고, 육부(六府)는 실하고 충만하고자 한다.",
+   "commentary": "오관·육부는 얼굴의 주요 부위 묶음을 가리키는 용어로, 바로 뒤 주석이 그 구성을 밝힌다. 밝음은 관찰할 수 없고, 바름·충만은 여러 부위에 걸친 평가라 단일 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《五官》欲其明而正",
+     "observable_ko": "오관이 밝고 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위에 걸친 품평이며 밝음은 관찰 불가다"
+    },
+    {
+     "region": "other",
+     "evidence": "六府欲其實而充",
+     "observable_ko": "육부가 실하고 충만함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 뼈 부위에 걸친 충실함 평가로 단일 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-017",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「五官者，一口，二鼻，三耳，四目，五人中。」 欲其明而端正，不宜孤露偏邪　。",
+   "translation": "'오관이란 첫째 입, 둘째 코, 셋째 귀, 넷째 눈, 다섯째 인중이다.' 밝고 단정하고자 하며, 홀로 드러나거나 치우치고 비뚤어져서는 안 된다.",
+   "commentary": "이 주석은 오관을 입·코·귀·눈·인중으로 열거한다(원문 그대로). 단정함·치우침은 여러 부위에 걸친 평가라 단일 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "欲其明而端正，不宜孤露偏邪",
+     "observable_ko": "오관이 단정하고 치우치지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "다섯 부위 전체에 대한 품평으로 측정 기준이 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-cheekbone-018",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "cheekbone",
+   "original_text": "六府者，兩輔骨、兩顴骨、兩頤骨。欲其充實相輔，不欲支離孤露。",
+   "translation": "육부란 두 보골(輔骨), 두 관골(顴骨, 광대뼈), 두 이골(頤骨, 턱뺨뼈)이다. 충실하여 서로 돕고자 하고, 따로 흩어져 홀로 드러나기를 원치 않는다.",
+   "commentary": "육부를 좌우 보골·관골·이골의 여섯 뼈로 풀이한 주석이다. 충실함은 볼·광대 부위의 살집과 관련될 수 있으나 여섯 부위를 묶은 평가라 근사로만 표시했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "欲其充實相輔，不欲支離孤露",
+     "observable_ko": "보골·관골·이골이 충실하고 따로 드러나지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "여러 뼈 부위를 묶은 충실함 평가로 볼 살집과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-019",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《一官成》十年貴顯，一府就十載富豐。",
+   "translation": "한 관(官)이 이루어지면 10년 동안 귀하게 드러나고, 한 부(府)가 성취되면 10년 동안 부유하고 풍족하다.",
+   "commentary": "오관·육부 중 한 부위만 잘 갖추어져도 10년의 복이 있다는 구절이다. '이루어짐(成·就)'은 형태 기준이 특정되지 않은 평가어다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "《一官成》",
+     "observable_ko": "오관 중 하나가 잘 갖추어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위의 어떤 형태인지 특정되지 않는 평가어다"
+    },
+    {
+     "region": "other",
+     "evidence": "一府就",
+     "observable_ko": "육부 중 하나가 잘 갖추어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 부위의 어떤 형태인지 특정되지 않는 평가어다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-020",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "此五官中，但一官成就，則享祿十年　。此六府中，若一府就，則十載豐足。",
+   "translation": "이 오관 가운데 다만 한 관이라도 성취되면 10년 동안 녹을 누린다. 이 육부 가운데 만약 한 부가 성취되면 10년 동안 풍족하다.",
+   "commentary": "앞 구절을 되풀이해 풀이한 주석이다. 성취의 형태 기준은 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一官成就",
+     "observable_ko": "오관 중 하나가 잘 갖추어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "형태 기준이 특정되지 않는 평가어다"
+    },
+    {
+     "region": "other",
+     "evidence": "一府就",
+     "observable_ko": "육부 중 하나가 잘 갖추어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "형태 기준이 특정되지 않는 평가어다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-021",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "《房元齡》龍目鳳睛，三台位列；班仲昇燕頷虎額，萬里侯封。",
+   "translation": "방원령(房元齡)은 용의 눈과 봉황의 눈동자로 삼태(三台)의 지위에 올랐고, 반중승(班仲昇)은 제비 턱과 범의 이마로 만 리 밖의 제후에 봉해졌다.",
+   "commentary": "역사 인물의 상을 예로 든 구절로, 인물 이름은 원문 표기 그대로 옮겼다. 용·봉·제비·범은 동물 비유일 뿐 측정 가능한 형태가 적혀 있지 않다. 삼태는 최고위 재상 지위를 가리킨다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "龍目鳳睛",
+     "observable_ko": "용의 눈·봉황의 눈동자(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 서술이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "燕頷",
+     "observable_ko": "제비 같은 턱(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 서술이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "虎額",
+     "observable_ko": "범 같은 이마(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-eye-022",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "唐房元齡「龍目鳳睛，則三台顯貴　。」",
+   "translation": "당의 방원령은 '용의 눈과 봉황의 눈동자이니 곧 삼태로 현귀하였다.'",
+   "commentary": "앞 구절의 첫 인물에 대한 주석으로, 인물을 당대 사람으로 적었다. 동물 비유만 있어 형태 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "龍目鳳睛",
+     "observable_ko": "용의 눈·봉황의 눈동자(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-chin-023",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "chin",
+   "original_text": "漢班超燕頷虎頸，封定遠侯，鎮撫萬里之外。",
+   "translation": "한의 반초(班超)는 제비 턱에 범의 목으로 정원후(定遠侯)에 봉해져 만 리 밖을 진무하였다.",
+   "commentary": "주석은 앞 구절의 반중승을 한의 반초로 풀이하며, 본문의 '범의 이마(虎額)' 대신 '범의 목(虎頸)'이라 적어 본문과 차이가 있다(원문 그대로). 동물 비유라 형태 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "燕頷",
+     "observable_ko": "제비 같은 턱(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 서술이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "虎頸",
+     "observable_ko": "범 같은 목(비유)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목은 얼굴 형태 항목이 아니며 동물 비유다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-eye-024",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "英眸兮掣電，豪氣兮吐虹。",
+   "translation": "빼어난 눈동자는 번개가 번쩍이는 듯하고, 호방한 기운은 무지개를 토하는 듯하다.",
+   "commentary": "눈빛과 기개를 번개·무지개에 빗댄 구절이다. 눈빛과 기운은 사진 형태로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "英眸兮掣電",
+     "observable_ko": "눈빛이 번개처럼 번쩍임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·시선·정신 기운은 정지 사진 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "豪氣兮吐虹",
+     "observable_ko": "호방한 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·기운은 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-eye-025",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "「英眸」 者，瞻視儼然，目若掣電，眼如鷹視，轉瞬之餘，謂神彩射外也　。",
+   "translation": "'영모(英眸)'란 바라봄이 엄연하고, 눈이 번개가 번쩍이는 듯하며, 눈이 매가 노려보는 듯하여, 눈을 돌리는 사이에 신채(神彩)가 밖으로 쏘아 나옴을 이른다.",
+   "commentary": "앞 구절의 '영모'를 시선과 신채로 풀이한 주석이다. 모두 눈빛·시선에 관한 서술이라 형태 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "瞻視儼然，目若掣電，眼如鷹視",
+     "observable_ko": "시선이 엄연하고 매처럼 쏘아봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·시선·정신 기운은 정지 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-026",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「豪傑」 者，言詞磊落，志氣崢嶸，若吐虹霓。",
+   "translation": "'호걸'이란 말씨가 시원스럽고 뜻과 기개가 우뚝하여 무지개를 토하는 듯하다.",
+   "commentary": "앞 구절의 '호기'를 언행과 기개로 풀이한 주석이며 얼굴 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-027",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "若賦性兇惡禍必及，如修德惕厲祿永終。",
+   "translation": "만약 타고난 성품이 흉악하면 화가 반드시 미치고, 덕을 닦고 삼가며 힘쓰면 녹을 길이 끝까지 누린다.",
+   "commentary": "성품과 수양에 관한 구절로 얼굴 형태 조건이 없다. 문헌은 흉악한 성품을 화와, 수덕을 녹위와 연결했다.",
+   "conditions": [],
+   "claim_topics": [
+    "character",
+    "violence",
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-028",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "凡人賦性兇惡，禍必及身，終當暴死　。",
+   "translation": "무릇 사람이 타고난 성품이 흉악하면 화가 반드시 몸에 미치고 끝내 마땅히 비명에 죽는다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 형태 조건은 없고, 문헌은 흉악한 성품을 횡사와 연결했다.",
+   "conditions": [],
+   "claim_topics": [
+    "character",
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-029",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "若人常能修身慎行，則祿位永保其終。",
+   "translation": "만약 사람이 늘 몸을 닦고 행실을 삼갈 수 있으면 녹과 지위를 끝까지 길이 보전한다.",
+   "commentary": "앞 구절 후반부에 대한 주석으로 행실에 관한 서술이며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-030",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "上長下短兮，萬里之雲霄騰翼；下長上短兮，一生之蹤跡飄蓬。",
+   "translation": "위가 길고 아래가 짧으면 만 리 구름 하늘에 날개를 펴 오르고, 아래가 길고 위가 짧으면 일생의 발자취가 날리는 쑥대 같다.",
+   "commentary": "뒤의 주석은 위·아래를 허리(상체)와 다리로 풀이한다. 몸통과 다리의 비율은 얼굴 사진에 나타나지 않으므로 관찰 불가로 표시했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上長下短",
+     "observable_ko": "상체가 길고 하체가 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "下長上短",
+     "observable_ko": "하체가 길고 상체가 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-031",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「人身腰長腳短，如鵙鵰飛翔霄漢，摩空萬里」 之資也　。",
+   "translation": "'사람 몸이 허리가 길고 다리가 짧으면 때까치와 수리가 하늘 높이 날아 만 리 허공을 스치는 듯하다'는 바탕이다.",
+   "commentary": "앞 구절의 '상장하단'을 허리와 다리의 비율로 풀이한 주석이다. 신체 비율은 얼굴 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腰長腳短",
+     "observable_ko": "허리가 길고 다리가 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-032",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "人若腳長腰短，則一生蹤跡，飄零流落，老於他鄉。",
+   "translation": "사람이 만약 다리가 길고 허리가 짧으면 일생의 발자취가 떠돌고 영락하여 타향에서 늙는다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. 신체 비율은 얼굴 사진으로 관찰할 수 없다. 문헌은 이를 떠도는 삶과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腳長腰短",
+     "observable_ko": "다리가 길고 허리가 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-033",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "惟人稟陰陽之和，肖天地之狀。",
+   "translation": "오직 사람은 음양의 조화를 받아 천지의 모양을 닮았다.",
+   "commentary": "사람의 몸을 천지에 대응시키는 총론 구절로 형태 조건과 주장이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-034",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "人稟陰陽正氣而生，誠與天地參矣。",
+   "translation": "사람은 음양의 바른 기운을 받아 태어나니, 진실로 천지와 나란히 셋이 된다.",
+   "commentary": "앞 구절에 대한 주석으로 천·지·인 삼재 사상을 말한다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-035",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "足方兮象地於下，頭圓兮似天為上。",
+   "translation": "발이 모난 것은 아래에서 땅을 본뜬 것이고, 머리가 둥근 것은 위가 되어 하늘을 닮은 것이다.",
+   "commentary": "머리와 발을 하늘과 땅에 대응시킨 구절이다. 발은 얼굴 사진에 나오지 않고, 머리의 둥긂은 얼굴 윤곽과 같은 측정이 아니어서 근사로만 표시했다. 이 구절 자체에는 주장이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足方",
+     "observable_ko": "발이 모남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "頭圓",
+     "observable_ko": "머리가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:round"
+     ],
+     "reason": "머리 전체의 모양으로 얼굴 윤곽 형태와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-036",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「足欲軟而厚者」 ，乃富貴之相　。",
+   "translation": "'발은 부드럽고 두텁고자 하니' 곧 부귀의 상이다.",
+   "commentary": "앞 구절의 '발'에 대한 주석이다. 발은 얼굴 사진으로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "足欲軟而厚",
+     "observable_ko": "발이 부드럽고 두터움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-037",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "「天尊地卑乾坤定。」 矣。故「足方象地，頭圓象天」 ，頭圓足方者富貴，頭小足薄者貧賤。",
+   "translation": "'하늘은 높고 땅은 낮아 건곤이 정해졌다.' 그러므로 '발이 모난 것은 땅을 본뜨고 머리가 둥근 것은 하늘을 본뜬다' 하니, 머리가 둥글고 발이 모난 자는 부귀하고, 머리가 작고 발이 얇은 자는 가난하고 천하다.",
+   "commentary": "『역』 계사의 문구를 끌어온 주석으로, 따옴표 뒤의 '矣' 위치는 전사본 그대로이다. 머리의 둥긂·작음은 얼굴 형태 레이블과 같은 측정이 아니고, 발은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "頭圓",
+     "observable_ko": "머리가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:round"
+     ],
+     "reason": "머리 전체의 모양으로 얼굴 윤곽 형태와 같은 측정이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭小",
+     "observable_ko": "머리가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足方",
+     "observable_ko": "발이 모남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足薄",
+     "observable_ko": "발이 얇음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-eye-038",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "音聲比雷霆之遠震，眼目如日月之相望。",
+   "translation": "음성은 우레가 멀리 울리는 것에 견주고, 눈은 해와 달이 서로 바라보는 것과 같다.",
+   "commentary": "목소리와 두 눈을 천체에 빗댄 구절이다. 목소리는 관찰할 수 없고, 두 눈의 '서로 바라봄'은 형태 기준이 특정되지 않는 비유다. 이 구절 자체에는 주장이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "音聲比雷霆之遠震",
+     "observable_ko": "목소리가 우레처럼 멀리 울림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 정지 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼目如日月之相望",
+     "observable_ko": "두 눈이 해와 달처럼 마주함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "크기·대칭·간격 중 무엇을 뜻하는지 특정되지 않는 비유다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-eye-039",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "eye",
+   "original_text": "音聲者，人之號令可以及人，故曰「如雷霆之震。天之日月能照萬物，人之眼目能知萬情，故眼目猶天之日月」 也。",
+   "translation": "음성이란 사람의 호령이 남에게 미칠 수 있는 것이므로 '우레의 울림과 같다'고 하였다. 하늘의 해와 달은 만물을 비출 수 있고, 사람의 눈은 만 가지 정을 알 수 있으므로 '눈은 하늘의 해와 달과 같다'고 하였다.",
+   "commentary": "앞 구절의 비유를 풀이한 주석으로, 따옴표의 범위는 전사본 그대로이다. 형태 조건이나 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-nose-040",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "nose",
+   "original_text": "《鼻額》若山嶽之聳，血脈如江河之漾。",
+   "translation": "코와 이마는 산악이 솟은 듯하고, 혈맥은 강하(江河)가 출렁이는 듯하다.",
+   "commentary": "코와 이마의 솟음을 산에 빗댄 구절이다. 코의 솟음은 콧뿌리·코끝 중 어디인지, 이마의 솟음은 높이·돌출 중 무엇인지 특정되지 않아 근사로만 표시했다. 혈맥은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻",
+     "observable_ko": "코가 산처럼 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高 계열 서술로 콧뿌리·코끝 중 어느 쪽인지 밝히지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額》若山嶽之聳",
+     "observable_ko": "이마가 산처럼 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "額聳은 보이는 이마의 높이가 아니라 돌출일 수 있다"
+    },
+    {
+     "region": "other",
+     "evidence": "血脈如江河之漾",
+     "observable_ko": "혈맥이 출렁임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "혈맥은 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-nose-041",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "nose",
+   "original_text": "鼻額必如山嶽之聳直高隆。可為入格之相。",
+   "translation": "코와 이마는 반드시 산악처럼 솟고 곧고 높고 융성해야 하니, 격에 드는 상이 될 수 있다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 코·이마의 높이 서술은 측정 기준이 특정되지 않아 근사로 표시했다. 입격(入格)은 좋은 격식에 든다는 뜻이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻額必如山嶽之聳直高隆",
+     "observable_ko": "코가 곧고 높이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高 계열 서술로 콧뿌리·코끝 중 어느 쪽인지 밝히지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "鼻額必如山嶽之聳直高隆",
+     "observable_ko": "이마가 높이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "이마의 돌출과 보이는 이마 높이를 구분하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-042",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "人周身血脈。晝夜循環無窮。故如江河之漾。",
+   "translation": "사람 온몸의 혈맥은 밤낮으로 끝없이 순환하므로 강하가 출렁이는 것과 같다.",
+   "commentary": "앞 구절 후반부에 대한 주석으로 혈맥 순환에 관한 서술이며 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-043",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "毛髮兮草木之秀，骨節兮金石之壯。",
+   "translation": "모발은 초목처럼 빼어나고, 뼈마디는 금석처럼 굳세다.",
+   "commentary": "모발과 뼈마디를 초목·금석에 빗댄 구절이다. 모발의 '빼어남'은 품평어이고 머리털은 정식 레이블이 없으며, 뼈마디는 얼굴 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "毛髮兮草木之秀",
+     "observable_ko": "모발이 초목처럼 빼어남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털에 대한 정식 레이블이 없고 秀는 품평어다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨節兮金石之壯",
+     "observable_ko": "뼈마디가 금석처럼 굳셈",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-044",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "毛髮若山川草木發生《圖南》曰：「陽氣舒而山川秀。日月出而天地明也　。」",
+   "translation": "모발은 산천에 초목이 돋아나는 것과 같다. 도남(圖南)이 이르기를 '양기가 펴지면 산천이 빼어나고, 해와 달이 나오면 천지가 밝다'고 하였다.",
+   "commentary": "앞 구절 '모발'에 대한 주석으로, 도남(圖南)의 말을 인용한다(인용 출처는 원문 표기 그대로). 머리털은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "毛髮若山川草木發生",
+     "observable_ko": "모발이 초목처럼 무성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-other-045",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "other",
+   "original_text": "骨節宜若金石之堅固。",
+   "translation": "뼈마디는 마땅히 금석처럼 단단해야 한다.",
+   "commentary": "앞 구절 '골절'에 대한 주석이다. 뼈마디는 얼굴 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨節宜若金石之堅固",
+     "observable_ko": "뼈마디가 단단함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나오지 않는 신체 부위·체격이라 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-046",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「欲察人倫」，先從額上。",
+   "translation": "'사람의 인륜(상)을 살피고자 하면' 먼저 이마에서부터 한다.",
+   "commentary": "이마부터 살핀다는 관찰 순서에 관한 구절로, 이하 이마에 관한 서술이 이어진다. 형태 조건과 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-047",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "人稟三才，額為天，頦為地，鼻為人。天圓則可貴，當先視其額，額主君位，故為天也。",
+   "translation": "사람은 삼재(三才)를 받았으니, 이마는 하늘, 턱은 땅, 코는 사람이 된다. 하늘이 둥글면 귀할 수 있으니 마땅히 먼저 그 이마를 보아야 하고, 이마는 임금의 자리를 주관하므로 하늘이 된다.",
+   "commentary": "얼굴을 천·지·인 삼재에 배당한 주석이다. '하늘(이마)이 둥글다'는 이마 윤곽의 둥긂으로 읽을 수 있으나 측정 기준이 없다. 문헌은 이를 귀함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天圓",
+     "observable_ko": "이마(하늘)가 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 둥긂에 대한 정식 레이블이 없고 비유적 대응이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-048",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "偏狹兮賤夭足惡，聳闊兮富貴可尚。",
+   "translation": "(이마가) 치우치고 좁으면 천하고 요절하며 족히 악하고, 솟고 넓으면 부귀하여 숭상할 만하다.",
+   "commentary": "앞 구절에 이어 이마를 말하나 이 구에는 '額' 자가 없고, 주석은 이를 이마뼈(額骨)로 풀이하므로 너비 서술을 근사로만 표시했다. '족악(足惡)'은 '족히 악하다'로 직역했으나 읽기가 불확실하다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "偏",
+     "observable_ko": "이마가 한쪽으로 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 비대칭에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "狹",
+     "observable_ko": "이마가 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "주어 額이 구에 없고 주석이 이마뼈(額骨)로 풀이한다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "聳",
+     "observable_ko": "이마가 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "솟음은 보이는 이마 높이가 아닌 돌출일 수 있다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "闊",
+     "observable_ko": "이마가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide"
+     ],
+     "reason": "주어 額이 구에 없고 주석이 이마뼈로 풀이한다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "wealth",
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-049",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額骨偏斜窄狹侵天部當夭壽貧賤亦為足惡之人　。",
+   "translation": "이마뼈가 치우치고 비뚤며 좁아 천부(天部)를 침범하면 마땅히 요절하고 가난하고 천하며, 또한 족히 악한 사람이 된다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 이마뼈(額骨)에 관한 서술이라 보이는 이마 너비 레이블과는 근사로만 대응시켰다. '侵天部'의 정확한 뜻은 원문만으로 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額骨偏斜",
+     "observable_ko": "이마뼈가 치우치고 비뚦",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 비대칭에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "窄狹",
+     "observable_ko": "이마뼈가 좁음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow"
+     ],
+     "reason": "이마뼈(額骨)에 관한 서술로 보이는 이마 너비와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "rank_office",
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-050",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額若高聳廣闊。則富貴俱全。",
+   "translation": "이마가 만약 높이 솟고 넓으면 부와 귀를 모두 갖춘다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. '이마가 넓다(額…廣闊)'는 보이는 이마의 너비 서술로 옮길 수 있으나, '높이 솟음'은 높이와 돌출을 구분하지 않아 근사로 표시했다. 문헌은 이를 부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "廣闊",
+     "observable_ko": "이마의 가로 너비가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "高聳",
+     "observable_ko": "이마가 높이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "額高·額聳은 높이와 돌출을 구분하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-051",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "若見伏犀之骨起，定作元臣。如有握刀之橫紋，決為「上將。」",
+   "translation": "만약 복서(伏犀)의 뼈가 일어남이 보이면 반드시 원신(元臣, 으뜸 신하)이 되고, 칼을 쥔 듯한 가로 주름이 있으면 결단코 '상장(上將)'이 된다.",
+   "commentary": "복서골은 이마 가운데로 솟은 뼈를 가리키는 관상 용어로, 뒤의 주석이 위치를 설명한다. 이마뼈 융기와 이마 주름은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀之骨起",
+     "observable_ko": "복서골(이마 중앙 뼈)이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "握刀之橫紋",
+     "observable_ko": "칼을 쥔 듯한 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-052",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "伏犀骨起印堂，至天中，隱隱骨起，直入髮際，光澤無破，必任公侯之位　。",
+   "translation": "복서골이 인당(印堂, 두 눈썹 사이)에서 일어나 천중(天中, 이마 위 가운데)에 이르고, 은은히 뼈가 솟아 곧장 머리털 경계로 들어가며, 광택이 있고 깨짐이 없으면 반드시 공후의 지위를 맡는다.",
+   "commentary": "복서골의 위치를 인당에서 천중을 거쳐 발제까지로 설명한 주석이다. 뼈의 융기는 정식 레이블이 없고 광택은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "伏犀骨起印堂，至天中，隱隱骨起，直入髮際",
+     "observable_ko": "인당에서 발제까지 이마 중앙 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤無破",
+     "observable_ko": "광택이 있고 깨짐이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-053",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額道紋者，在左邊也，至右邊地橫直之紋，如刀痕之狀，別無紋理，衝破定為軍帥大將。",
+   "translation": "이마의 도문(道紋)이란 왼쪽에 있어 오른쪽 변지(邊地)에 이르는 가로로 곧은 주름으로, 칼자국 같은 모양이며 다른 무늬가 없고 (이것이) 뚫고 깨뜨리면 반드시 군대의 장수·대장이 된다.",
+   "commentary": "앞 구절 '握刀之橫紋'에 대한 주석으로 보이나, '額道紋'·'右邊地'의 끊어 읽기가 불확실하여 글자대로 옮겼다. 이마 주름은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "橫直之紋，如刀痕之狀",
+     "observable_ko": "이마를 가로지르는 칼자국 같은 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-054",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "右偏母妨，左偏父喪。",
+   "translation": "오른쪽이 치우치면 어머니를 해치고, 왼쪽이 치우치면 아버지를 잃는다.",
+   "commentary": "뒤의 주석은 이를 이마의 일각(日角)·월각(月角)에 관한 것으로 풀이한다. 이마 좌우의 치우침은 정식 레이블이 없다. 문헌은 이를 부모를 해치거나 잃는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "右偏",
+     "observable_ko": "이마 오른쪽이 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 좌우 비대칭에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "左偏",
+     "observable_ko": "이마 왼쪽이 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 좌우 비대칭에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-055",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「日月角為父母宮」 ，左為日角，右為月角，左為父位，右為母位。右偏主妨母，左偏主妨父。",
+   "translation": "'일월각(日月角)은 부모궁이 되니' 왼쪽은 일각, 오른쪽은 월각이고, 왼쪽은 아버지 자리, 오른쪽은 어머니 자리이다. 오른쪽이 치우치면 어머니를 해침을 주관하고, 왼쪽이 치우치면 아버지를 해침을 주관한다.",
+   "commentary": "일각·월각은 이마 위쪽 좌우 부위를 가리키는 관상 용어로, 주석은 이를 부모궁에 배당했다. 좌우 치우침은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "右偏",
+     "observable_ko": "이마 오른쪽(월각)이 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 좌우 비대칭에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "左偏",
+     "observable_ko": "이마 왼쪽(일각)이 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 좌우 비대칭에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-056",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "山林豐廣多逸豫，邊地缺陷足悽愴。",
+   "translation": "산림(山林)이 풍만하고 넓으면 편안하고 즐거움이 많고, 변지(邊地)가 이지러지고 꺼지면 족히 처량하다.",
+   "commentary": "산림·변지는 이마 위쪽 가장자리의 세부 부위를 가리키는 관상 용어로, 뒤의 주석이 위치를 설명한다. 이러한 세부 부위의 풍만·결함은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "山林豐廣",
+     "observable_ko": "산림 부위(이마 위 가장자리)가 풍만하고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 세부 부위에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "邊地缺陷",
+     "observable_ko": "변지 부위가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 세부 부위에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-057",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "《山林》在天倉上，若此部豐廣，主平生多悅逸寬。邊地在驛馬上，邊地驛馬為遷移宮，若有缺陷則破散，成敗可知。",
+   "translation": "산림은 천창(天倉) 위에 있으니 이 부위가 풍만하고 넓으면 평생 기쁘고 편안하고 너그러움이 많음을 주관한다. 변지는 역마(驛馬) 위에 있고, 변지와 역마는 천이궁(遷移宮)이 되니, 이지러지고 꺼짐이 있으면 깨지고 흩어지니 성패를 알 수 있다.",
+   "commentary": "산림·변지의 위치를 천창·역마와 관련지어 설명한 주석이다. 세부 부위의 풍만·결함은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "此部豐廣",
+     "observable_ko": "산림 부위가 풍만하고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 세부 부위에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "若有缺陷",
+     "observable_ko": "변지·역마 부위가 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 가장자리 세부 부위에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-058",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "《覆如肝》而立如壁，壽福實繁；聳若角而圓若環，食祿無量。",
+   "translation": "(이마가) 엎어 놓은 간 같고 세워 놓은 벽 같으면 수명과 복이 실로 많고, 뿔처럼 솟고 고리처럼 둥글면 먹는 녹이 한량없다.",
+   "commentary": "이마의 모양을 간·벽·뿔·고리에 빗댄 구절이다. 비유가 이마의 윤곽·기울기·돌출 중 무엇을 뜻하는지 특정되지 않아 레이블로 옮기지 않았다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《覆如肝》",
+     "observable_ko": "이마가 엎은 간 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유로 측정 기준이 특정되지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "立如壁",
+     "observable_ko": "이마가 세운 벽 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마의 기울기·평탄함 중 무엇인지 특정되지 않는 비유다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "聳若角",
+     "observable_ko": "이마가 뿔처럼 솟음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "돌출·뼈 융기 비유로 정식 레이블과 대응하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "圓若環",
+     "observable_ko": "이마가 고리처럼 둥긂(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 둥긂에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-059",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額若覆肝而平，或如立壁而直，則壽考福厚，實多也。",
+   "translation": "이마가 만약 엎은 간 같으면서 평평하거나, 혹은 세운 벽 같으면서 곧으면 장수하고 복이 두터우니 실로 많다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 이마의 평평함·곧음은 이마 경사·돌출에 관한 서술로 볼 수 있으나 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "覆肝而平",
+     "observable_ko": "이마가 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 경사·평탄함에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "立壁而直",
+     "observable_ko": "이마가 벽처럼 곧게 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 경사·평탄함에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-060",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額高圓而日月骨起，主高貴長命　。",
+   "translation": "이마가 높고 둥글며 일월골(日月骨)이 일어나면 높이 귀하고 오래 삶을 주관한다.",
+   "commentary": "이마의 높이·둥긂과 일각·월각 뼈의 융기를 말한 주석이다. '額高'는 높이와 돌출을 구분하지 않아 근사로, 뼈 융기는 미대응으로 표시했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額高",
+     "observable_ko": "이마가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "額高는 보이는 이마 높이와 돌출을 구분하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "圓",
+     "observable_ko": "이마가 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 둥긂에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "日月骨起",
+     "observable_ko": "일각·월각 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-061",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "凡人之額，其聳若角，其圓若環，主食天祿，以終天壽。",
+   "translation": "무릇 사람의 이마가 뿔처럼 솟고 고리처럼 둥글면 하늘의 녹을 먹고 하늘이 준 수명을 마침을 주관한다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. 뿔·고리 비유는 형태 기준이 특정되지 않는다. 문헌은 이를 녹과 천수와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "其聳若角",
+     "observable_ko": "이마가 뿔처럼 솟음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "돌출·뼈 융기 비유로 정식 레이블과 대응하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "其圓若環",
+     "observable_ko": "이마가 고리처럼 둥긂(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 둥긂에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-062",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「塵蒙」而身無所資，玉潤而名高先唱。",
+   "translation": "'먼지가 덮인 듯하면' 몸에 의지할 재물이 없고, 옥처럼 윤택하면 이름이 높아 먼저 불린다.",
+   "commentary": "뒤의 주석은 이를 이마의 윤택함으로 풀이한다. 빛깔·윤택은 형태로 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「塵蒙」",
+     "observable_ko": "이마가 먼지 덮인 듯 칙칙함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "玉潤",
+     "observable_ko": "이마가 옥처럼 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-063",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額若無潤澤之色。如塵埃蒙覆。則無甔石之儲。",
+   "translation": "이마에 만약 윤택한 빛이 없어 먼지가 덮인 것 같으면 한 섬의 저축도 없다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 담석(甔石)은 적은 양의 곡식을 가리킨다. 윤택은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "無潤澤之色。如塵埃蒙覆",
+     "observable_ko": "이마에 윤기가 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-064",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額如美玉之溫潤。主聲聞清高。而先顯早第。",
+   "translation": "이마가 아름다운 옥처럼 따뜻하고 윤택하면 명성이 맑고 높으며 먼저 드러나 일찍 급제함을 주관한다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. 윤택은 관찰할 수 없다. 문헌은 이를 이른 급제와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "美玉之溫潤",
+     "observable_ko": "이마가 옥처럼 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-065",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "《豐》隆明者，生必早達。卑薄暗者，死無所葬。",
+   "translation": "(이마가) 풍만하고 높고 밝은 자는 살아서 반드시 일찍 영달하고, 낮고 얇고 어두운 자는 죽어서 묻힐 곳이 없다.",
+   "commentary": "앞 구절에 이어 이마를 말하나 이 구에는 '額' 자가 없다. 풍륭·비박은 높이·돌출·살집이 섞인 서술이라 근사로, 밝음·어두움은 관찰 불가로 표시했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《豐》隆",
+     "observable_ko": "이마가 풍만하고 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "풍만·융기는 보이는 이마 높이와 같은 측정이 아니며 주어가 구에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "明",
+     "observable_ko": "이마가 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "卑薄",
+     "observable_ko": "이마가 낮고 얇음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "낮음은 높이·돌출을 구분하지 않으며 주어가 구에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "暗",
+     "observable_ko": "이마가 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-066",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額「豐隆」 光澤，色明而無破，則早歲登科　。",
+   "translation": "이마가 '풍만하고 높으며' 광택이 있고, 빛이 밝고 깨짐이 없으면 이른 나이에 과거에 오른다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 풍륭은 높이와 돌출을 구분하지 않아 근사로, 광택·빛깔은 관찰 불가로 표시했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「豐隆」",
+     "observable_ko": "이마가 풍만하고 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:high"
+     ],
+     "reason": "풍만·융기는 보이는 이마 높이와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤，色明而無破",
+     "observable_ko": "이마에 광택이 있고 빛이 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-067",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "額小窄狹，其色昏暗，或諸部又無所輔，則死無衣衾棺槨。",
+   "translation": "이마가 작고 좁으며 그 빛이 어둡거나, 혹은 여러 부위가 또 돕는 바가 없으면 죽어서 수의와 이불과 관곽이 없다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. '이마가 좁다(額…窄狹)'는 보이는 이마의 너비 서술로 옮길 수 있고, '이마가 작다(額小)'는 지침상 근사이다. 문헌은 이를 장례도 치르지 못할 빈궁과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "窄狹",
+     "observable_ko": "이마의 가로 너비가 좁음",
+     "status": "exact",
+     "label": "forehead_width:narrow"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額小",
+     "observable_ko": "이마가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:narrow",
+      "forehead_height:low"
+     ],
+     "reason": "額小는 너비·높이를 구분하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "其色昏暗",
+     "observable_ko": "이마 빛이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-068",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "《福堂》之上氣黯慘，幼歲多迍；驛馬之前色黃光，壯年受貺。",
+   "translation": "복당(福堂) 위의 기색이 어둡고 참담하면 어린 나이에 막힘이 많고, 역마(驛馬) 앞의 빛이 누렇게 빛나면 장년에 하사를 받는다.",
+   "commentary": "복당·역마는 얼굴 세부 부위를 가리키는 관상 용어로, 뒤의 주석이 위치를 설명한다. 모두 기색에 관한 서술이라 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《福堂》之上氣黯慘",
+     "observable_ko": "복당 위 기색이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·기운은 사진 형태로 관찰할 수 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "驛馬之前色黃光",
+     "observable_ko": "역마 앞의 빛이 누렇게 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-069",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "《福堂部》在眉上。氣若黯慘不明如塵垢者。主幼年迍滯　。",
+   "translation": "복당부는 눈썹 위에 있다. 기색이 만약 어둡고 참담하여 밝지 않아 먼지와 때 같으면 어린 시절 막히고 정체됨을 주관한다.",
+   "commentary": "복당부의 위치를 눈썹 위로 설명한 주석이다. 기색은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "氣若黯慘不明如塵垢",
+     "observable_ko": "눈썹 위 기색이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색·기운은 사진 형태로 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-070",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "驛馬在邊地下。眉毛後有紅黃色者。壯歲受君賜。",
+   "translation": "역마는 변지 아래에 있다. 눈썹 뒤에 붉고 누런 빛이 있는 자는 장년에 임금의 하사를 받는다.",
+   "commentary": "역마의 위치를 변지 아래, 눈썹 뒤쪽으로 설명한 주석이다. 빛깔은 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛後有紅黃色",
+     "observable_ko": "눈썹 뒤에 붉고 누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-071",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "色貴悅懌，紋宜舒暢。貧薄孤獨，曲水漫浪。",
+   "translation": "빛은 기쁘고 화평한 것을 귀히 여기고, 주름은 펴지고 시원스러워야 한다. 가난하고 박하며 외로운 것은 곡수(曲水)가 어지럽게 퍼진 것이다.",
+   "commentary": "뒤의 주석은 곡수를 이마의 어지러운 주름으로 풀이한다. 빛깔은 관찰할 수 없고, 주름은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "色貴悅懌",
+     "observable_ko": "얼굴빛이 화평함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "紋宜舒暢",
+     "observable_ko": "주름이 펴지고 시원스러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "曲水漫浪",
+     "observable_ko": "굽은 주름이 어지럽게 퍼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-072",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "顏色貴乎悅懌，不宜氣雜。若有紋理可尚者，宜乎舒展敷暢　，",
+   "translation": "안색은 기쁘고 화평한 것을 귀히 여기고 기색이 섞여서는 안 된다. 만약 숭상할 만한 무늬가 있다면 펴지고 넓게 시원스러워야 하며,",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 빛깔·기색은 관찰할 수 없고, 주름은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "顏色貴乎悅懌，不宜氣雜",
+     "observable_ko": "안색이 화평하고 섞이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 조명과 촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "紋理可尚者，宜乎舒展敷暢",
+     "observable_ko": "주름이 펴져 시원스러움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-073",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "亂紋薄額，縱橫相交，謂之「曲水」 ，漫浪橫紋，為人平昔多憂，主貧薄孤獨。",
+   "translation": "어지러운 주름이 얇은 이마에 가로세로로 서로 엇갈린 것을 '곡수'라 하니, 어지럽게 퍼진 가로 주름이면 사람됨이 평소 근심이 많고 가난하고 박하며 외로움을 주관한다.",
+   "commentary": "앞 구절 후반부의 '곡수'를 풀이한 주석이다. 이마 주름은 정식 레이블이 없고, '얇은 이마(薄額)'의 측정 기준도 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "亂紋",
+     "observable_ko": "이마에 어지러운 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "薄額",
+     "observable_ko": "이마가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마의 두께·살집에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "漫浪橫紋",
+     "observable_ko": "어지럽게 퍼진 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·무늬는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-074",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「居侯伯」者，《偃月》之勢；「處師傅」者，懸犀之象。",
+   "translation": "'후백(侯伯)에 거하는' 자는 언월(偃月)의 형세이고, '사부(師傅)에 처하는' 자는 현서(懸犀)의 형상이다.",
+   "commentary": "뒤의 주석은 언월을 이마의 쌍봉, 현서를 복당 위의 뼈로 풀이한다. 이마뼈 형상은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "《偃月》之勢",
+     "observable_ko": "이마가 누운 달 같은 형세",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "懸犀之象",
+     "observable_ko": "현서골이 솟은 형상",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-075",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "謂「額有雙峰，上如偃月。王公侯伯子　師傅者，三公位也。」 額有懸犀，其懸犀骨在福堂上，高隆若角，直接山林。",
+   "translation": "'이마에 두 봉우리가 있어 위가 누운 달 같다. 왕·공·후·백·자이고, 사부란 삼공의 지위이다'라고 이른다. 이마에 현서가 있으니, 그 현서골은 복당 위에 있어 뿔처럼 높이 솟아 곧장 산림에 닿는다.",
+   "commentary": "앞 구절의 언월·현서를 풀이한 주석이다. 전사본의 따옴표와 '王公侯伯子　師傅者' 부분은 끊어 읽기가 어색하여 글자대로 옮겼다. 이마뼈 융기는 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額有雙峰，上如偃月",
+     "observable_ko": "이마에 두 봉우리가 있어 누운 달 같음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "高隆若角，直接山林",
+     "observable_ko": "현서골이 뿔처럼 솟아 산림에 닿음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-076",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「鼎足三峙」，列三公以何疑？「牛角八方」，廁八位而《無妄》。",
+   "translation": "'솥발처럼 셋이 우뚝하면' 삼공에 오름을 어찌 의심하겠는가? '소뿔이 팔방이면' 팔위(八位)에 끼어 망령됨이 없다.",
+   "commentary": "뒤의 주석은 이를 이마의 여러 뼈가 함께 솟은 것으로 풀이한다. 이마뼈 형상은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "「鼎足三峙」",
+     "observable_ko": "이마의 세 뼈가 솥발처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "「牛角八方」",
+     "observable_ko": "이마의 여덟 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-077",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "「鼎峙三足」 者，額有伏犀、日月角俱起。若鼎之三足，定列三公",
+   "translation": "'정치삼족(鼎峙三足)'이란 이마에 복서와 일월각이 함께 일어난 것이다. 솥의 세 발 같으니 반드시 삼공에 오른다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 복서골·일월각의 융기는 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額有伏犀、日月角俱起",
+     "observable_ko": "복서골과 일각·월각이 함께 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-forehead-078",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "forehead",
+   "original_text": "牛角八方者，蓋額有八角，乃伏犀、日月骨、邊地骨、福堂骨、龍角骨、虎角骨、牛角骨、印堂骨，有此八骨者，必登廊廟，通達八方。",
+   "translation": "우각팔방(牛角八方)이란 대개 이마에 여덟 뿔이 있는 것이니, 곧 복서·일월골·변지골·복당골·용각골·호각골·우각골·인당골이다. 이 여덟 뼈가 있는 자는 반드시 조정에 오르고 팔방에 통달한다.",
+   "commentary": "앞 구절 후반부에 대한 주석으로 이마의 여덟 뼈 이름을 열거한다. 이마뼈 융기는 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額有八角",
+     "observable_ko": "이마에 여덟 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마뼈의 융기·골상은 보이는 이마 영역 측정 항목과 다르며 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-079",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "觀夫眉宇寬廣，心田坦平。",
+   "translation": "무릇 보건대 미우(眉宇, 눈썹 언저리)가 너그럽고 넓으면 마음 밭이 평탄하다.",
+   "commentary": "여기서부터 눈썹에 관한 서술이 시작된다. 미우가 넓다는 것은 두 눈썹 사이가 넓음으로 읽을 수 있으나 지침의 정확 표현(印堂廣·兩眉相遠 등)이 아니어서 근사로 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉宇寬廣",
+     "observable_ko": "눈썹 언저리가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "眉宇는 눈썹 사이만이 아니라 눈썹 일대를 뜻할 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-080",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉為紫氣，吉星也。若眉宇寬長平闊者，則心坦然無私。",
+   "translation": "눈썹은 자기(紫氣)가 되니 길한 별이다. 만약 미우가 너그럽고 길며 평평하고 넓은 자는 마음이 탄연하여 사사로움이 없다.",
+   "commentary": "눈썹을 별자리 이름인 자기(紫氣)에 배당한 주석이다. '넓고 길고 평평함'은 눈썹 사이 간격·길이·모양이 섞인 서술이라 근사로만 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉宇寬長平闊",
+     "observable_ko": "눈썹 언저리가 넓고 길고 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide",
+      "brow_length:long",
+      "brow_shape:straight"
+     ],
+     "reason": "어느 측정(간격·길이·모양)을 가리키는지 하나로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-081",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "狠愎者低凹其骨，狂狷者陡高其稜。",
+   "translation": "사납고 고집 센 자는 그 (눈썹)뼈가 낮고 오목하며, 미치고 고집스러운 자는 그 모서리가 가파르게 높다.",
+   "commentary": "뒤의 주석은 이를 눈썹뼈(眉骨)와 눈썹의 높이로 풀이한다. 눈썹뼈의 높낮이는 정식 레이블이 없고, '모서리가 높음'은 눈썹 위치로 읽을 여지가 있어 근사로 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "低凹其骨",
+     "observable_ko": "눈썹뼈가 낮고 오목함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "陡高其稜",
+     "observable_ko": "눈썹 모서리가 가파르게 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide"
+     ],
+     "reason": "눈썹뼈 돌출인지 눈썹 위치인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-082",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "性狠之人，則眉骨低凹。",
+   "translation": "성품이 사나운 사람은 눈썹뼈가 낮고 오목하다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 눈썹뼈의 높낮이는 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉骨低凹",
+     "observable_ko": "눈썹뼈가 낮고 오목함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹뼈 돌출에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-083",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "若眉陡高者，狂狷之人，故知進而不知退，知存而不知亡，恆有包藏之志。",
+   "translation": "만약 눈썹이 가파르게 높은 자는 미치고 고집스러운 사람이니, 그러므로 나아갈 줄만 알고 물러날 줄 모르며, 보존할 줄만 알고 망할 줄 모르며, 늘 속에 감춘 뜻이 있다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. '눈썹이 가파르게 높다'는 눈썹이 눈에서 멀리 높이 놓인 것으로 읽을 수 있으나 눈썹뼈 돌출일 수도 있어 근사로 표시했다. '포장지지(包藏之志)'는 속셈을 감춘 뜻이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉陡高",
+     "observable_ko": "눈썹이 가파르게 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide"
+     ],
+     "reason": "눈썹 위치인지 눈썹뼈 돌출인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-084",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "麤厚魯愚，秀濃慧明。",
+   "translation": "(눈썹이) 거칠고 두터우면 노둔하고 어리석으며, 빼어나고 짙으면 지혜롭고 밝다.",
+   "commentary": "이 구에는 '眉' 자가 없지만 앞뒤 문맥상 눈썹을 말한다. 주어가 구 안에 없어 굵기·밀도 서술을 근사로만 표시했고, '빼어남(秀)'은 품평어다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "麤厚",
+     "observable_ko": "눈썹이 거칠고 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_thickness:thick"
+     ],
+     "reason": "주어 眉가 구에 없어 눈썹 굵기로 확정할 수 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "秀",
+     "observable_ko": "눈썹이 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "秀는 품평어로 대응하는 관찰 항목이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "濃",
+     "observable_ko": "눈썹이 짙음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_density:dense"
+     ],
+     "reason": "주어 眉가 구에 없어 눈썹 밀도로 확정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-085",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉之粗濃濁厚者，其性愚鈍多滯。",
+   "translation": "눈썹이 굵고 짙으며 탁하고 두터운 자는 그 성품이 어리석고 둔하며 막힘이 많다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. '눈썹이 굵다(眉…粗)'와 '짙다(濃)'는 각각 눈썹 굵기·밀도 서술로 옮길 수 있고, '탁함(濁)'은 관찰할 수 없다. 문헌은 이를 우둔함과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "粗",
+     "observable_ko": "눈썹 털 띠가 굵음",
+     "status": "exact",
+     "label": "brow_thickness:thick"
+    },
+    {
+     "region": "brow",
+     "evidence": "濃",
+     "observable_ko": "눈썹 털이 짙고 빽빽함",
+     "status": "exact",
+     "label": "brow_density:dense"
+    },
+    {
+     "region": "brow",
+     "evidence": "濁",
+     "observable_ko": "눈썹이 탁함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "탁함은 색·인상 평가로 형태 항목이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "厚",
+     "observable_ko": "눈썹이 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_thickness:thick"
+     ],
+     "reason": "厚는 굵기와 밀도 중 어느 쪽인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-086",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "疏眉秀有彩者。主聰慧才智過人。",
+   "translation": "성긴 눈썹이 빼어나고 광채가 있는 자는 총명하고 지혜로우며 재주와 지혜가 남보다 뛰어남을 주관한다.",
+   "commentary": "앞 구절 후반부에 대한 주석인데, 본문은 '짙음(濃)'을 말하고 주석은 '성긴 눈썹(疏眉)'이라 하여 서로 어긋난다(원문 그대로). '성긴 눈썹'은 눈썹 밀도 서술로 옮길 수 있고, 빼어남·광채는 관찰할 수 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "疏眉",
+     "observable_ko": "눈썹 털이 성김",
+     "status": "exact",
+     "label": "brow_density:sparse"
+    },
+    {
+     "region": "brow",
+     "evidence": "秀有彩",
+     "observable_ko": "눈썹이 빼어나고 광채가 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "품평어·광채로 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-087",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "短不及目者，貧賤。",
+   "translation": "(눈썹이) 짧아 눈에 미치지 못하는 자는 가난하고 천하다.",
+   "commentary": "눈썹 길이가 눈의 가로 길이에 못 미친다는 서술이다. 다른 부위와의 관계로 말한 길이라 상대 분위 클래스와 같지 않아 근사로 표시했고, 같은 대구의 뒷구는 반대 방향이므로 별도 구절로 나누었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "短不及目",
+     "observable_ko": "눈썹이 눈 길이보다 짧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:short"
+     ],
+     "reason": "눈썹 길이를 눈과의 관계로 말한 표현이라 코호트 상대 분위 클래스로 보장되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-088",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "長能過眼者，寵榮。",
+   "translation": "(눈썹이) 길어 눈을 지나는 자는 총애받고 영화롭다.",
+   "commentary": "눈썹 길이가 눈을 지난다는 서술이다. 주어 '眉'가 구에 없고 눈과의 관계로 말한 길이라 근사로 표시했다. 문헌은 이를 영화와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "長能過眼",
+     "observable_ko": "눈썹이 눈 길이보다 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "주어가 구에 없고 눈썹 길이를 눈과의 관계로 말한 표현이라 코호트 상대 분위 클래스로 보장되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-089",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "「眉短於目者。主身質下賤　。」",
+   "translation": "'눈썹이 눈보다 짧은 자는 몸의 바탕이 하천함을 주관한다.'",
+   "commentary": "앞 구절 전반부에 대한 주석이다. '눈보다 짧다(短於目)'는 눈과의 관계로 말한 길이라 근사로 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉短於目",
+     "observable_ko": "눈썹이 눈 길이보다 짧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:short"
+     ],
+     "reason": "눈썹 길이를 눈과의 관계로 말한 표현이라 코호트 상대 분위 클래스로 보장되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-090",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "「眉長過目者。則《身榮貴顯》。」",
+   "translation": "'눈썹이 길어 눈을 지나는 자는 몸이 영화롭고 귀하게 드러난다.'",
+   "commentary": "앞 구절 후반부에 대한 주석이다. '눈썹이 길다(眉長)'는 눈썹 길이 서술로 옮길 수 있으나, '눈을 지남(過目)'은 눈과의 관계라 별도의 근사 조건으로 나누었다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉長",
+     "observable_ko": "눈썹이 긺",
+     "status": "exact",
+     "label": "brow_length:long"
+    },
+    {
+     "region": "brow",
+     "evidence": "過目",
+     "observable_ko": "눈썹이 눈 바깥까지 지남",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "눈썹 길이를 눈과의 관계로 말한 표현이라 코호트 상대 분위 클래스로 보장되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-091",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉散者，資財難聚；《頭交》者，身命早傾。",
+   "translation": "눈썹이 흩어진 자는 재물을 모으기 어렵고, (눈썹) 머리가 맞닿은 자는 목숨이 일찍 기운다.",
+   "commentary": "'눈썹이 흩어짐(眉散)'은 지침상 눈썹 밀도가 성긴 것에 해당한다. '머리가 맞닿음(頭交)'은 두 눈썹이 이어진 일자눈썹으로 정식 레이블이 없다. 문헌은 이를 재물 손실과 단명에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉散",
+     "observable_ko": "눈썹 털이 흩어져 성김",
+     "status": "exact",
+     "label": "brow_density:sparse"
+    },
+    {
+     "region": "brow",
+     "evidence": "《頭交》",
+     "observable_ko": "두 눈썹 머리가 맞닿음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_gap:narrow"
+     ],
+     "reason": "두 눈썹이 이어진 형태(眉交)는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-092",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉尾毫毛脫落而疏稀，主財物破散。初運二十六至二十九，財散",
+   "translation": "눈썹 꼬리의 털이 빠져 성기고 드물면 재물이 깨지고 흩어짐을 주관한다. 초운 26세에서 29세에 재물이 흩어진다.",
+   "commentary": "앞 구절 '眉散'에 대한 주석으로, 눈썹 꼬리가 성겨지는 형태로 풀이했다. 이는 지침의 '尾疏' 계열 표현으로 눈썹 꼬리가 흐려짐에 해당한다. 나이 배당은 원문 그대로이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉尾毫毛脫落而疏稀",
+     "observable_ko": "눈썹 꼬리 털이 성겨 흐려짐",
+     "status": "exact",
+     "label": "brow_tail_clarity:fading"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-glabella-093",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "glabella",
+   "original_text": "印堂，乃命宮也。若眉頭相交，如蜻蜓之形，毛侵印堂者，短壽之相。",
+   "translation": "인당(印堂, 두 눈썹 사이)은 곧 명궁(命宮)이다. 만약 눈썹 머리가 서로 맞닿아 잠자리의 모양 같고 털이 인당을 침범하는 자는 수명이 짧은 상이다.",
+   "commentary": "앞 구절 '頭交'에 대한 주석이다. 눈썹이 인당까지 이어진 형태는 지침상 일자눈썹(眉交)으로 정식 레이블이 없다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉頭相交，如蜻蜓之形，毛侵印堂",
+     "observable_ko": "두 눈썹 머리가 이어져 인당을 덮음",
+     "status": "unmapped",
+     "candidate_labels": [
+      "brow_gap:narrow"
+     ],
+     "reason": "두 눈썹이 이어진 형태(眉交)는 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-094",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "中心直斷惠性少，兩頭高仰壯氣橫。",
+   "translation": "(눈썹) 가운데가 곧게 끊기면 은혜로운 성품이 적고, 양 끝이 높이 들리면 씩씩한 기운이 넘친다.",
+   "commentary": "눈썹 가운데의 끊김은 정식 레이블이 없다. '양 끝이 높이 들림'은 눈썹 꼬리가 올라감과 관련되나 머리와 꼬리 모두를 말하므로 근사로 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "中心直斷",
+     "observable_ko": "눈썹 가운데가 끊김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 끊김에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "兩頭高仰",
+     "observable_ko": "눈썹 양 끝이 높이 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail:ascending"
+     ],
+     "reason": "꼬리만이 아니라 양 끝을 말하며 尾上 등 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-095",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉中間直斷或紋破者。其性寡有仁慈　。",
+   "translation": "눈썹 중간이 곧게 끊기거나 주름으로 깨진 자는 그 성품에 어짊과 자비가 적다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 눈썹 끊김·주름은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉中間直斷或紋破",
+     "observable_ko": "눈썹 중간이 끊기거나 주름으로 깨짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 끊김·주름에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-096",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉尾謂「凌雲。」 主人之氣志。眉若兩頭高起。則有丈夫之氣。",
+   "translation": "눈썹 꼬리를 '능운(凌雲)'이라 하니 사람의 기개와 뜻을 주관한다. 눈썹이 만약 양 끝이 높이 일어나면 장부의 기상이 있다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. '양 끝이 높이 일어남'은 눈썹 꼬리가 올라감과 관련되나 정확 표현이 아니어서 근사로 표시했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉若兩頭高起",
+     "observable_ko": "눈썹 양 끝이 높이 일어남",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail:ascending"
+     ],
+     "reason": "꼬리만이 아니라 양 끝을 말하며 尾上 등 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-097",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "《毛直》性狠，毛逆禍生。",
+   "translation": "(눈썹) 털이 곧게 서면 성품이 사납고, 털이 거꾸로 나면 화가 생긴다.",
+   "commentary": "눈썹 털이 나는 방향에 관한 구절이다. 털 방향은 정식 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "《毛直》",
+     "observable_ko": "눈썹 털이 곧게 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 방향에 대한 정식 레이블이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "毛逆",
+     "observable_ko": "눈썹 털이 거꾸로 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 방향에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-098",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉毛直生者，為人性狠，亦主橫夭　。",
+   "translation": "눈썹 털이 곧게 나는 자는 사람됨이 성품이 사납고 또한 횡사·요절을 주관한다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. 털 방향은 정식 레이블이 없다. 문헌은 이를 사나운 성품과 횡요(橫夭)에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛直生",
+     "observable_ko": "눈썹 털이 곧게 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 방향에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-099",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉毛逆生者。其人恆有災害，亦當剋祖主凶惡。",
+   "translation": "눈썹 털이 거꾸로 나는 자는 그 사람에게 늘 재해가 있고, 또한 마땅히 조상을 극(剋)하며 흉악함을 주관한다.",
+   "commentary": "앞 구절 후반부에 대한 주석으로, 전사본에서는 이 문장 가운데에 줄바꿈이 있다. 털 방향은 정식 레이블이 없다. 문헌은 이를 재해·조상을 해침·흉악함과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛逆生",
+     "observable_ko": "눈썹 털이 거꾸로 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 털의 방향에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "kinship_harm",
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-100",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "覆目軟柔而少斷，偃月高揭而好爭。",
+   "translation": "(눈썹이) 눈을 덮고 부드러우면 결단이 적고, 누운 달 같고 높이 들리면 다투기를 좋아한다.",
+   "commentary": "'눈을 덮음(覆目)'은 눈썹이 눈에 가까이 내려앉음과, '누운 달(偃月)'은 활처럼 휜 눈썹과, '높이 들림'은 눈썹이 눈에서 멂과 관련되나 모두 지침의 정확 표현이 아니어서 근사로 표시했다. 부드러움은 털의 질감이라 관찰하기 어렵다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "覆目",
+     "observable_ko": "눈썹이 눈을 덮듯 낮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "눈과의 관계 표현이며 눈썹 길이로도 읽힐 수 있다"
+    },
+    {
+     "region": "brow",
+     "evidence": "軟柔",
+     "observable_ko": "눈썹 털이 부드러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "털의 질감은 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "偃月",
+     "observable_ko": "눈썹이 누운 달 모양",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "如新月 등 정확 표현이 아닌 달 비유다"
+    },
+    {
+     "region": "brow",
+     "evidence": "高揭",
+     "observable_ko": "눈썹이 높이 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide"
+     ],
+     "reason": "眉高 정확 표현이 아니며 꼬리 들림으로도 읽힐 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-101",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "《眉》八字，軟柔壓眼，終無正性，故為無斷之人　。",
+   "translation": "눈썹이 팔(八)자 모양이고 부드러우며 눈을 누르면 끝내 바른 성품이 없으므로 결단이 없는 사람이 된다.",
+   "commentary": "앞 구절 전반부에 대한 주석이다. '八字'는 눈썹 꼬리가 처진 형태, '壓眼'은 눈썹이 눈을 누르듯 붙은 형태를 말하나, 처진 꼬리 클래스는 학습 집단 대부분이 해당해 두드러진 특징을 표현하지 못하고 壓眼은 눈과의 관계 표현이라 둘 다 근사로 표시했다. 문헌은 이를 결단력 없는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "八字",
+     "observable_ko": "눈썹 꼬리가 아래로 처짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail:descending"
+     ],
+     "reason": "brow_tail:descending은 학습 집단 거의 전부가 해당하여 두드러진 八字 눈썹을 표현하지 못한다"
+    },
+    {
+     "region": "brow",
+     "evidence": "壓眼",
+     "observable_ko": "눈썹이 눈에 가까이 붙음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "눈과의 관계를 말한 표현이라 상대 분위 클래스로 보장되지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "軟柔",
+     "observable_ko": "눈썹 털이 부드러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "털의 질감은 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-102",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "眉若偃月高揭者，則必好鬥而多爭。",
+   "translation": "눈썹이 만약 누운 달 같고 높이 들린 자는 반드시 싸우기를 좋아하고 다툼이 많다.",
+   "commentary": "앞 구절 후반부에 대한 주석이다. 누운 달·높이 들림은 정확 표현이 아니어서 근사로 표시했다. 문헌은 이를 호전성과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "偃月",
+     "observable_ko": "눈썹이 누운 달 모양",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "如新月 등 정확 표현이 아닌 달 비유다"
+    },
+    {
+     "region": "brow",
+     "evidence": "高揭",
+     "observable_ko": "눈썹이 높이 들림",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_eye_gap:wide"
+     ],
+     "reason": "眉高 정확 표현이 아니며 꼬리 들림으로도 읽힐 수 있다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-103",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "《扣促無開，傷蜉蝣》之短晷；毛長及寸，享龜鶴之遐齡。",
+   "translation": "(눈썹이) 오그라들고 좁아 열림이 없으면 하루살이의 짧은 해를 슬퍼하고, 털이 한 치에 이르도록 길면 거북과 학의 먼 수명을 누린다.",
+   "commentary": "'扣促無開'는 눈썹(머리)이 바짝 조여 펴지지 않은 모양으로 보이나 측정 기준이 불분명하다. 한 치에 이르는 긴 눈썹 털은 정식 레이블이 없다. 문헌은 이를 단명·장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "扣促無開",
+     "observable_ko": "눈썹이 오그라들어 펴지지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_gap:narrow",
+      "brow_length:short"
+     ],
+     "reason": "눈썹 사이 간격·길이 중 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "毛長及寸",
+     "observable_ko": "눈썹 털이 한 치에 이르도록 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "개별 눈썹 털의 길이에 대한 정식 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ637RA-brow-104",
+   "section": "《張行簡人倫大統賦上》",
+   "attributed_to": "張行簡",
+   "region": "brow",
+   "original_text": "《蜉蝣》喜陰而惡陽，人若眉頭促鎖短也。",
+   "translation": "하루살이는 그늘을 좋아하고 볕을 싫어하니, 사람이 만약 눈썹 머리가 조여 잠기고 짧은 것이다.",
+   "commentary": "앞 구절 '蜉蝣'에 대한 주석의 첫 부분으로, 하루살이에 빗대 눈썹 머리가 조이고 짧은 상을 단명과 연결하는 맥락이다. 조임·짧음이 눈썹 사이 간격인지 눈썹 길이인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉頭促鎖短",
+     "observable_ko": "눈썹 머리가 조여 짧음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_gap:narrow",
+      "brow_length:short"
+     ],
+     "reason": "눈썹 사이 간격·길이 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  }
+ ]
+}

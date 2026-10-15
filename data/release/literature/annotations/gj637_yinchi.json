@@ -1,0 +1,1482 @@
+{
+ "page_id": "gj637",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《銀匙歌》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ637Y-other-001",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "股肱無毛最是凶，兩頭如杖一般同。雖有祖田并父廕，終須破敗受貧窮。",
+   "translation": "넓적다리와 팔뚝에 털이 없으면 가장 흉하고, 두 끝이 지팡이 같은 것도 한가지로 같다. 비록 조상의 밭과 아버지의 음덕(蔭德)이 있더라도 끝내 반드시 깨어지고 망하여 가난과 곤궁을 받는다.",
+   "commentary": "고굉(股肱)은 넓적다리와 팔뚝으로, 얼굴이 아닌 몸의 털에 관한 서술이다. '두 끝이 지팡이 같다(兩頭如杖)'는 무엇의 두 끝인지 원문에 밝혀져 있지 않아 비유로 남겨 두었다. 문헌은 이를 가산의 몰락과 빈궁에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "股肱無毛",
+     "observable_ko": "넓적다리·팔뚝에 털이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸의 털은 얼굴 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "兩頭如杖",
+     "observable_ko": "두 끝이 지팡이 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "가리키는 신체 부위와 형태가 특정되지 않은 비유다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-002",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "頭痕瘢剝最為刑，羅網之中有一名。若不剋妻并害子，更憂家道主伶仃。",
+   "translation": "머리에 흉터와 벗겨진 자국이 있으면 가장 형벌(刑)이 되니, 그물(羅網) 속에 이름 하나가 있다. 만약 아내를 극(剋)하고 아울러 자식을 해치지 않는다면, 다시 집안 형편이 외롭고 영락함을 주관할까 근심한다.",
+   "commentary": "나망(羅網)은 법망·재앙의 그물을 뜻하는 표현으로 읽힌다. 머리의 흉터는 피부 흔적이며 v3 형태 항목에 대응하지 않는다. 문헌은 이를 형벌, 아내·자식에 대한 극해(剋害), 가문의 영락과 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭痕瘢剝",
+     "observable_ko": "머리에 흉터·벗겨진 자국이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·피부 흔적에 대응하는 표준 항목이 없고 머리는 대부분 머리카락에 가려진다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "kinship_harm",
+    "marriage",
+    "family_children",
+    "fertility_offspring",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-face-003",
+   "section": "《銀匙歌》",
+   "region": "face",
+   "original_text": "相中最忌郎君面，男子郎君命不長。女子郎君好媱慾，僧道孤獨卻無妨。",
+   "translation": "상(相) 가운데 가장 꺼리는 것은 낭군의 얼굴이니, 남자가 낭군의 얼굴이면 목숨이 길지 않다. 여자가 낭군의 얼굴이면 음욕을 좋아하고, 승려·도사는 외롭고 홀로이더라도 도리어 무방하다.",
+   "commentary": "낭군면(郎君面)은 곱상한 젊은 남자 같은 얼굴을 가리키는 말로 보이나 구체적 형태 기준이 원문에 없다. 문헌은 남자에게는 단명, 여자에게는 음욕을 연결한 낙인성 서술을 적었다. 원문의 '媱'자는 전사본 표기 그대로 두었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "郎君面",
+     "observable_ko": "곱상한 젊은 남자 같은 얼굴(품평)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "인상 품평어로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男子",
+     "observable_ko": "남성 대상",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "대상의 성별은 얼굴 형태 항목이 아니다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "여성 대상",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "대상의 성별은 얼굴 형태 항목이 아니다"
+    },
+    {
+     "region": "subject",
+     "evidence": "僧道",
+     "observable_ko": "승려·도사 신분",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신분·직업은 얼굴 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "sexual_conduct",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-004",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "眉毛間斷至額邊，嘗為官非賣卻田。剋破妻子三兩個，方教禍患不相纏。",
+   "translation": "눈썹 털이 중간에 끊어지고 이마 가장자리까지 이르면, 늘 관재(官非)가 되어 밭을 팔아 버린다. 아내와 자식 두세 명을 극하여 깨뜨려야 비로소 화환이 얽히지 않게 된다.",
+   "commentary": "눈썹이 중간에 끊긴 형태(間斷)는 표준 항목에 없고, 이마 가장자리까지 이른다는 것은 눈썹 길이와 관련되나 '눈을 지난다(過目)'는 기준과 같은 측정이 아니다. 문헌은 이를 송사·재산 손실과 처자 극해에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉毛間斷",
+     "observable_ko": "눈썹 중간이 끊김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹 단절에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "至額邊",
+     "observable_ko": "눈썹이 이마 가장자리까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "이마 가장자리라는 위치 기준으로, 눈 길이 대비 눈썹 길이와 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "wealth",
+    "kinship_harm",
+    "marriage",
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-005",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "好色之人眼帶花，莫教眼緊視人斜。",
+   "translation": "색을 좋아하는 사람은 눈에 꽃을 띠니, 눈이 조이고 사람을 비스듬히 보게 하지 말라.",
+   "commentary": "'눈에 꽃을 띤다(眼帶花)'는 눈빛·윤기의 인상을 말하는 표현으로 보인다. 비스듬히 보는 것은 시선 동작이다. 문헌은 이를 호색과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼帶花",
+     "observable_ko": "눈에 꽃을 띤 듯한 눈빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈빛·윤기는 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼緊",
+     "observable_ko": "눈이 조여 있음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:narrow"
+     ],
+     "reason": "'조임(緊)'이 눈 틈이 가는 것인지 긴장된 표정인지 불명확하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視人斜",
+     "observable_ko": "사람을 비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선 방향은 동작이며 정지 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-006",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "有毒無毒但看眼，蛇眼之人子打爺。",
+   "translation": "독이 있는지 없는지는 다만 눈을 보라. 뱀눈의 사람은 아들이 아비를 때린다.",
+   "commentary": "사안(蛇眼, 뱀눈)은 동물 비유로 구체적 형태가 원문에 없다. '아들이 아비를 때린다'는 그 사람이 아들로서 아비를 때린다는 뜻인지, 그의 아들이 그를 때린다는 뜻인지 두 가지로 읽힌다. 문헌은 이를 악독함과 패륜적 폭력에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蛇眼",
+     "observable_ko": "뱀의 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence",
+    "kinship_harm",
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-007",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "無家可靠羊睛眼，卻問他人借住場，更有禾倉高一寸，中年猶未有夫娘。",
+   "translation": "양의 눈동자 같은 눈이면 기댈 집이 없어 도리어 남에게 머물 곳을 빌리고, 게다가 화창(禾倉)이 한 치 높으면 중년에도 아직 아내가 없다.",
+   "commentary": "양정(羊睛)은 동물 비유이고, 화창(禾倉)은 관상의 얼굴 부위명이나 이 절에서 위치가 설명되지 않는다. '한 치'는 절대 길이 표현이다. 문헌은 이를 집 없음과 늦은 혼인에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "羊睛眼",
+     "observable_ko": "양의 눈동자 같은 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "禾倉高一寸",
+     "observable_ko": "화창 부위가 한 치 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "화창 부위의 높이에 대응하는 표준 항목이 없고 위치도 원문에 정의되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-under_eye-008",
+   "section": "《銀匙歌》",
+   "region": "under_eye",
+   "original_text": "眼下凹時又主孤，陽空陰沒亦同途，卯酉不如雞卵樣，只宜養子與同居。",
+   "translation": "눈 아래가 오목하면 또한 외로움을 주관하고, 양(陽)이 비고 음(陰)이 꺼진 것도 같은 길이다. 묘유(卯酉)가 달걀 모양만 못하면 다만 양자를 길러 함께 사는 것이 마땅하다.",
+   "commentary": "눈 아래가 오목하다는 것은 와잠(臥蠶)이 드러나지 않는 쪽과 관련되나 '평평함(flat)'과 같은 측정은 아니다. 음양(陰陽)과 묘유(卯酉)는 좌우를 가리키는 관상 용어로 보이나 이 절에서 해당 부위가 명시되지 않는다. 문헌은 이를 고독과 친자식 없이 양자를 들이는 운에 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下凹",
+     "observable_ko": "눈 아래가 오목함",
+     "status": "approximate",
+     "candidate_labels": [
+      "under_eye:flat"
+     ],
+     "reason": "오목함(凹)은 와잠이 없음과 겹치나 같은 측정 기준이 아니다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "陽空陰沒",
+     "observable_ko": "양·음 부위가 비고 꺼짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "陰陽이 가리키는 부위가 원문에 명시되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "卯酉不如雞卵樣",
+     "observable_ko": "묘유 부위가 달걀 모양이 아님",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "卯酉가 가리키는 부위와 '달걀 모양'의 기준이 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-chin-009",
+   "section": "《銀匙歌》",
+   "region": "chin",
+   "original_text": "下頭尖了作凶殃，典卻田園更賣塘，任是張良能計策，自然顛倒見狼當。",
+   "translation": "아래 머리가 뾰족하면 흉한 재앙이 되어, 전원을 저당 잡히고 다시 못까지 판다. 설령 장량(張良)처럼 계책에 능하더라도 저절로 뒤집혀 낭패(狼當)를 본다.",
+   "commentary": "하두(下頭)는 얼굴·머리의 아래쪽, 곧 턱 부위로 읽을 수 있으나 확정되지 않는다. '狼當'은 낭패를 뜻하는 구어 표기로 보이며 원문 그대로 두었다. 문헌은 이를 재산 상실에 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "下頭尖",
+     "observable_ko": "아래쪽(턱 부위)이 뾰족함",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:pointed"
+     ],
+     "reason": "'下頭'가 턱을 가리키는지 확정되지 않아 地閣尖·頦尖과 같은 표현으로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-010",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "眼珠暴出惡因緣，自主家時定賣田，更有白睛包一半，也知不死在床前。",
+   "translation": "눈알이 사납게 튀어나오면 악한 인연이니, 스스로 집안을 주관할 때 반드시 밭을 판다. 게다가 흰자위가 절반을 감싸면 침상 앞에서 죽지 못함을 또한 안다.",
+   "commentary": "안주폭출(眼珠暴出)은 안구 돌출을 가리키나 목록의 표현(目突·眼突·睛凸)과 같지 않아 근사로 둔다. 흰자가 절반을 감싼다는 것은 삼백·사백류의 흰자 노출로 보이나 위아래가 특정되지 않는다. 문헌은 이를 재산 상실과 제명에 죽지 못함(비명횡사)에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼珠暴出",
+     "observable_ko": "안구가 튀어나옴",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "'暴出'은 목록의 exact 표현이 아니며 정도 표현이 섞여 있다"
+    },
+    {
+     "region": "eye",
+     "evidence": "白睛包一半",
+     "observable_ko": "흰자위가 절반을 감쌈",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "흰자가 드러나는 위치(위·아래)가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-chin-011",
+   "section": "《銀匙歌》",
+   "region": "chin",
+   "original_text": "下頦趫大旺末年，邊城不佐也無錢，數年荒旱不欠米，只因上下庫相連，",
+   "translation": "아래턱이 들리고 크면 말년이 왕성하니, 변성(邊城)이 돕지 않아도 돈이 없지 않다. 여러 해 흉년과 가뭄에도 쌀이 모자라지 않음은 다만 위아래 창고(庫)가 서로 이어졌기 때문이다.",
+   "commentary": "하해교대(下頦趫大)는 턱이 들리고 큰 형태로, 턱의 들림(頦翹)은 지침상 근사 표현이다. 변성(邊城)과 상하고(上下庫)는 얼굴 부위명으로 보이나 이 절에서 위치가 정의되지 않으며, '邊城不佐也無錢'의 끊어 읽기는 불확실하여 문맥상 가장 직역에 가깝게 옮겼다. 문헌은 이를 말년의 재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "下頦趫大",
+     "observable_ko": "아래턱이 들리고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_projection:prominent"
+     ],
+     "reason": "頦翹류 표현은 지침상 approximate이며 '크다(大)'는 측정 기준이 다르다"
+    },
+    {
+     "region": "other",
+     "evidence": "邊城不佐",
+     "observable_ko": "변성 부위가 돕지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "邊城의 위치와 '돕지 않음'의 형태적 의미가 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "上下庫相連",
+     "observable_ko": "위아래 창고 부위가 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "천창·지고류 부위의 연결에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-012",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "鼻梁露骨是《反吟》，曲轉些兒是《伏吟》，反吟相見是絕滅，伏吟相見淚淋淋，",
+   "translation": "콧마루에 뼈가 드러나면 반음(反吟)이고, 조금 굽어 돌면 복음(伏吟)이다. 반음이 서로 보이면 끊어져 멸하고, 복음이 서로 보이면 눈물이 줄줄 흐른다.",
+   "commentary": "반음·복음(反吟·伏吟)은 술수에서 쓰이는 용어를 콧마루 모양에 빌려 붙인 것이다. 콧등(鼻梁)의 뼈 드러남·굽음은 v3에 대응 항목이 없다. 문헌은 이를 절멸과 슬픔에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁露骨",
+     "observable_ko": "콧마루에 뼈가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "曲轉些兒",
+     "observable_ko": "콧마루가 조금 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등의 굽음에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-013",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "眼兒帶秀心中巧，不讀詩書也可人，手作百般人可愛，縱然賣假也成真，",
+   "translation": "눈에 빼어남을 띠면 마음속이 교묘하니, 시서(詩書)를 읽지 않아도 사람이 괜찮다. 손으로 온갖 것을 만들어 사람들이 사랑스러워하고, 설령 가짜를 팔아도 진짜가 된다.",
+   "commentary": "'빼어남(秀)'은 품평어로 형태 측정 항목이 아니다. 문헌은 이를 영리함·손재주와 함께 '가짜를 팔아도 진짜가 된다'는 속임수 능력에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "眼兒帶秀",
+     "observable_ko": "눈에 빼어남을 띰(품평)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "秀는 형태가 아닌 품평어다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-014",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "薄紗染皂出粟米，縱有妻房也沒兒。",
+   "translation": "얇은 비단을 검게 물들인 데서 좁쌀이 나오면, 설령 아내가 있어도 아들이 없다.",
+   "commentary": "어떤 피부·기색 양상을 비유한 구절로 보이나 가리키는 부위와 형태가 원문에 없어 해석이 불확실하다. 문헌은 이를 아들이 없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "薄紗染皂出粟米",
+     "observable_ko": "검게 물들인 얇은 비단에 좁쌀이 돋은 듯함(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 대상 부위와 형태(색·피부 결 등)가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-015",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "倘見山根高更斷，五年三次路邊啼。",
+   "translation": "만약 산근(山根, 콧뿌리)이 높으면서 다시 끊어진 것을 보면, 5년에 세 번 길가에서 운다.",
+   "commentary": "산근이 높다(山根高)는 지침의 콧뿌리 높이 표현과 같다. 다만 '끊어짐(斷)'은 높이가 아닌 연속성의 단절이라 별도의 근사 조건으로 남겼다. 길가에서 운다는 것은 상사(喪事)를 당함으로 읽히며, 문헌은 이를 잦은 슬픔에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根高",
+     "observable_ko": "콧뿌리가 높음",
+     "status": "exact",
+     "label": "nose_bridge:high"
+    },
+    {
+     "region": "nose",
+     "evidence": "更斷",
+     "observable_ko": "콧뿌리가 끊어짐",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "斷/折은 높이가 아닌 콧뿌리 연속성의 단절로, 같은 문장의 '높음'과 다른 측정이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-mole-016",
+   "section": "《銀匙歌》",
+   "region": "mole",
+   "original_text": "淚痕深處排一點，眼下顴前起一星。左眼無男右無女，縱然稍有也相刑。",
+   "translation": "누흔(淚痕)의 깊은 곳에 점 하나가 놓이고, 눈 아래 광대뼈 앞에 별(점) 하나가 일어나면, 왼눈이면 아들이 없고 오른눈이면 딸이 없으며, 설령 조금 있더라도 서로 형극(刑剋)한다.",
+   "commentary": "누흔(淚痕)은 눈 아래 눈물 자국 자리로, 그곳의 점을 말한다. 특정 위치의 점은 지침상 근사(pigmented_marks 후보)로 둔다. 문헌은 점의 좌우에 따라 아들·딸이 없거나 자식과 서로 해친다고 적었다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "淚痕深處排一點",
+     "observable_ko": "누흔 자리에 점 하나",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 approximate다"
+    },
+    {
+     "region": "mole",
+     "evidence": "眼下顴前起一星",
+     "observable_ko": "눈 아래 광대뼈 앞의 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 지침상 approximate다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "kinship_harm",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-forehead-017",
+   "section": "《銀匙歌》",
+   "region": "forehead",
+   "original_text": "髮際低而幼無父，寒毛生角幼無娘。左顴骨出父先死，不死不刑便自傷。",
+   "translation": "발제(髮際, 머리털 경계)가 낮으면 어려서 아버지가 없고, 솜털이 (이마) 모서리에 나면 어려서 어머니가 없다. 왼쪽 광대뼈가 튀어나오면 아버지가 먼저 죽고, 죽지 않고 형극하지 않으면 곧 스스로 다친다.",
+   "commentary": "발제가 낮다는 것은 머리털 경계에 관한 서술로, 지침상 보이는 이마 높이와 동일시하지 않고 근사로 둔다. 왼쪽 광대뼈만 말한 것은 한쪽 지정이라 근사다. 문헌은 이를 부모를 일찍 여읨과 자상(自傷)에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髮際低",
+     "observable_ko": "머리털 경계가 낮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_height:low"
+     ],
+     "reason": "머리털 경계 자체에 관한 서술로 보이는 이마 높이와 같은 측정이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "寒毛生角",
+     "observable_ko": "이마 모서리에 솜털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "잔털 분포에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "左顴骨出",
+     "observable_ko": "왼쪽 광대뼈가 튀어나옴",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "한쪽(左)만 지정한 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "family_children",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-018",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "士人眇眼陷文星，豹齒尖頭定沒名。任是文章過北斗，恰如木履不安釘。",
+   "translation": "선비가 애꾸눈(眇眼)이고 문성(文星)이 꺼지거나, 표범 이빨에 뾰족한 머리이면 반드시 이름이 없다. 설령 문장이 북두를 넘더라도 마치 나막신에 못을 박지 않은 것과 같다.",
+   "commentary": "묘안(眇眼)은 한쪽 눈이 멀었거나 작은 눈을 뜻해 해석이 갈린다. 문성(文星)은 관상 부위명이나 이 절에서 위치가 정의되지 않으며, 표범 이빨·뾰족한 머리도 표준 항목이 없다. 문헌은 이를 문재가 있어도 이름을 이루지 못함에 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "士人",
+     "observable_ko": "선비 신분",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신분은 얼굴 형태가 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眇眼",
+     "observable_ko": "애꾸눈 또는 작은 눈",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_asymmetry:asymmetric"
+     ],
+     "reason": "실명·사시·작은 눈 중 무엇인지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷文星",
+     "observable_ko": "문성 부위가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "文星의 위치가 정의되지 않고 대응 항목이 없다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "豹齒",
+     "observable_ko": "표범 같은 이빨(비유)",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 형태에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "尖頭",
+     "observable_ko": "머리가 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "두개 형태에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-019",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "眉重山根陷破財，更憂三十二年災。",
+   "translation": "눈썹이 무겁고 산근(山根, 콧뿌리)이 꺼지면 재물을 깨뜨리고, 다시 서른두 살의 재앙을 근심한다.",
+   "commentary": "산근이 꺼짐(山根陷)은 콧뿌리가 낮은 형태로 지침의 표현과 같다. '눈썹이 무겁다(眉重)'는 굵기와 짙음 어느 쪽인지 특정되지 않는다. 문헌은 이를 재물 손실과 특정 나이의 재앙에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉重",
+     "observable_ko": "눈썹이 무거움",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_thickness:thick",
+      "brow_density:dense"
+     ],
+     "reason": "굵음과 짙음 중 무엇인지 불명확하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "山根陷",
+     "observable_ko": "콧뿌리가 꺼짐",
+     "status": "exact",
+     "label": "nose_bridge:low"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-020",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "土星端正終須發，土星不好去無回。",
+   "translation": "토성(土星)이 단정하면 끝내 반드시 발달하고, 토성이 좋지 않으면 가서 돌아오지 않는다.",
+   "commentary": "오성(五星) 배속에서 토성은 코를 가리키는 것으로 쓰인다. '단정함·좋지 않음'은 품평어로 구체적 형태가 없다. 문헌은 이를 발복과 몰락에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "土星端正",
+     "observable_ko": "토성(코)이 단정함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "端正은 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "土星不好",
+     "observable_ko": "토성(코)이 좋지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'좋지 않음'의 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-ear-021",
+   "section": "《銀匙歌》",
+   "region": "ear",
+   "original_text": "寒相之人肩過頸，享福之人耳壓眉。",
+   "translation": "가난한 상의 사람은 어깨가 목을 지나고, 복을 누리는 사람은 귀가 눈썹을 누른다.",
+   "commentary": "어깨가 목을 넘는다는 것은 어깨를 움츠려 솟은 몸 형태로 얼굴 항목이 아니다. '귀가 눈썹을 누른다'는 귀 윗부분이 눈썹보다 높은 귀 위치로 읽히나 v3·확장 항목에 귀 위치가 없다. 문헌은 이를 빈한함과 복록에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "肩過頸",
+     "observable_ko": "어깨가 목보다 솟음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "어깨·몸 형태는 얼굴 사진 항목이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳壓眉",
+     "observable_ko": "귀가 눈썹 높이를 넘음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 위치(높이)에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-022",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "更有親戚抬不出，只因形似雨中雞。",
+   "translation": "게다가 친척을 들어 낼 수 없음은 다만 형상이 비 맞은 닭과 같기 때문이다.",
+   "commentary": "'비 맞은 닭(雨中雞)'은 초라하고 움츠린 전체 인상을 비유한 것으로 보인다. '親戚抬不出'은 친척의 도움을 얻지 못함으로 읽히나 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形似雨中雞",
+     "observable_ko": "형상이 비 맞은 닭 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "전체 인상의 비유로 측정 가능한 형태가 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-023",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "大量之人眉高眼，眼眉相定不憂悲，",
+   "translation": "도량이 큰 사람은 눈썹이 눈보다 높고, 눈과 눈썹이 서로 안정되면 근심과 슬픔이 없다.",
+   "commentary": "'눈썹이 눈에서 높다(眉高眼)'는 눈썹과 눈 사이가 넓은 형태로 지침의 眉高 표현과 같다. '서로 안정된다(相定)'는 품평이다. 문헌은 이를 큰 도량과 근심 없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "눈썹이 눈에서 높이 떨어짐",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    },
+    {
+     "region": "brow",
+     "evidence": "眼眉相定",
+     "observable_ko": "눈과 눈썹이 서로 안정됨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "相定은 품평어로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-024",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "眉粗眼細不相當，寅年吃了卯年糧，",
+   "translation": "눈썹이 굵고 눈이 가늘어 서로 맞지 않으면, 인년(寅年)에 묘년(卯年)의 양식을 먹어 버린다.",
+   "commentary": "眉粗(눈썹이 굵음)와 眼細(눈이 가늘음)는 지침의 표현과 같다. 다음 해 양식을 미리 먹는다는 것은 늘 궁핍함을 뜻하는 표현으로, 문헌은 이를 재물 부족에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉粗",
+     "observable_ko": "눈썹이 굵음",
+     "status": "exact",
+     "label": "brow_thickness:thick"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼細",
+     "observable_ko": "눈이 가늘음",
+     "status": "exact",
+     "label": "eye_roundness:narrow"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-glabella-025",
+   "section": "《銀匙歌》",
+   "region": "glabella",
+   "original_text": "印堂三表是鎡基，只怕下長來犯之。假如水星來救護，不教人受此寒饑。",
+   "translation": "인당(印堂, 두 눈썹 사이)과 삼표(三表)는 바탕(鎡基)이니, 다만 아래가 길어 와서 이를 범할까 두렵다. 만약 수성(水星)이 와서 구호하면 사람으로 하여금 이 추위와 굶주림을 받지 않게 한다.",
+   "commentary": "'印堂三表'의 정확한 뜻은 불분명하며, '아래가 길다(下長)'는 하정(下停)이 긴 것으로 읽을 수 있으나 확정되지 않는다. 수성(水星)은 오성 배속에서 입을 가리킨다. 문헌은 이를 빈한함과 그 구제에 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂三表",
+     "observable_ko": "인당·삼표 부위",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "三表가 무엇인지와 형태 조건이 불명확하다"
+    },
+    {
+     "region": "face",
+     "evidence": "下長",
+     "observable_ko": "아래(하정)가 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "lower_face_ratio:long"
+     ],
+     "reason": "'下長'이 하정 비율을 뜻하는지 확정되지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "水星來救護",
+     "observable_ko": "수성(입)이 구호함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "입의 어떤 형태를 말하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-face-026",
+   "section": "《銀匙歌》",
+   "region": "face",
+   "original_text": "上頭雖有些模樣，下停不均卻壞之。",
+   "translation": "위쪽이 비록 어느 정도 모양을 갖추었더라도, 하정(下停, 얼굴 아래 삼분의 일)이 고르지 않으면 도리어 이를 망친다.",
+   "commentary": "하정이 고르지 않다는 것은 길이 비율인지 좌우 균형인지 특정되지 않는다. 문헌은 이를 앞의 좋은 상을 망치는 것으로 적었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "上頭雖有些模樣",
+     "observable_ko": "위쪽 얼굴이 모양을 갖춤",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'모양을 갖춤'은 품평어다"
+    },
+    {
+     "region": "face",
+     "evidence": "下停不均",
+     "observable_ko": "하정이 고르지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lower_face_ratio:long",
+      "lower_face_ratio:short"
+     ],
+     "reason": "비율 불균형인지 좌우 비대칭인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-027",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "鶴腳「之人成小輩」，〈又云闊腳〉蠻蹄孤子是婆姨，",
+   "translation": "학의 다리를 가진 사람은 소인배가 되고, (또 넓은 다리라고도 한다) 오랑캐 발굽이면 외로운 자식이요 늙은 아낙이다.",
+   "commentary": "학각(鶴腳)·만제(蠻蹄)는 다리·발 모양의 비유로 얼굴 항목이 아니다. 〈又云闊腳〉는 이본 주기(註記)다. '孤子是婆姨'의 뜻은 불분명하여 직역만 하였다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鶴腳",
+     "observable_ko": "학 같은 다리(비유)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "다리 모양은 얼굴 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "蠻蹄",
+     "observable_ko": "오랑캐 발굽 같은 발(비유)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "발 모양은 얼굴 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "family_children",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-forehead-028",
+   "section": "《銀匙歌》",
+   "region": "forehead",
+   "original_text": "八歲十八二十八，下至山根上至髮，有無活計兩頭消，三十印堂莫帶殺，",
+   "translation": "여덟 살, 열여덟, 스물여덟은 아래로 산근(山根, 콧뿌리)까지, 위로 머리털까지이니, 생계의 있고 없음은 두 끝에서 사라지고, 서른 살은 인당(印堂)에 살(殺)을 띠지 말아야 한다.",
+   "commentary": "나이를 얼굴 부위에 배당하는 유년(流年)법으로, 발제에서 산근까지를 특정 나이에 대응시킨다. 살(殺)은 흉한 기색·흔적을 가리키는 말로 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂莫帶殺",
+     "observable_ko": "인당에 살기(殺)를 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "殺은 기색·흉조 표현으로 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-029",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "三二四二五十二，山根上下準頭止，禾倉祿馬要相當，不識之人莫亂指。",
+   "translation": "서른둘, 마흔둘, 쉰둘은 산근(山根) 위아래에서 준두(準頭, 코끝)까지 그치고, 화창(禾倉)과 녹마(祿馬)는 서로 걸맞아야 하니, 모르는 사람은 함부로 가리키지 말라.",
+   "commentary": "유년법에서 콧뿌리부터 코끝까지를 30~50대의 나이에 배당한 구절이다. 화창·녹마는 부위명으로 이 절에서 위치가 정의되지 않으며, '서로 걸맞음'은 형태 기준이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "禾倉祿馬要相當",
+     "observable_ko": "화창·녹마 부위가 서로 걸맞음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 위치와 '걸맞음'의 기준이 정의되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-philtrum-030",
+   "section": "《銀匙歌》",
+   "region": "philtrum",
+   "original_text": "五三六三七十三，人中排來地閣間，逐一推筭看禍福，火星百歲印堂添，",
+   "translation": "쉰셋, 예순셋, 일흔셋은 인중(人中)에서 지각(地閣, 턱) 사이에 배열되니, 하나하나 미루어 셈하여 화복을 보고, 화성(火星)은 백 살에 인당(印堂)을 더한다.",
+   "commentary": "유년법에서 인중부터 턱까지를 노년의 나이에 배당한 구절이다. 화성(火星)은 오성 배속에서 이마를 가리키는 말로 쓰인다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-face-031",
+   "section": "《銀匙歌》",
+   "region": "face",
+   "original_text": "上下兩截分貴賤，倉庫平分定有無，此是神仙真妙訣，莫將胡亂教庸夫，",
+   "translation": "위아래 두 토막으로 귀천을 나누고, 창고(倉庫)가 고르게 나뉘었는지로 있고 없음을 정하니, 이것이 신선의 참된 묘결이라, 함부로 범부에게 가르치지 말라.",
+   "commentary": "창고(倉庫)는 재물을 보는 얼굴 부위(천창·지고 등)를 가리키는 말로 쓰이나 이 절에서 위치가 정의되지 않는다. '두 토막'과 '고르게 나뉨'은 비율 판단이나 대응 항목이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "上下兩截",
+     "observable_ko": "얼굴 위아래 두 부분의 균형",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어느 경계로 나누는지와 비교 기준이 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "倉庫平分",
+     "observable_ko": "창고 부위가 고르게 나뉨",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "창고 부위의 균형에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-eye-032",
+   "section": "《銀匙歌》",
+   "region": "eye",
+   "original_text": "胡僧兩眼名識覺，盡識人間善與惡，不帶學堂不是賢，莫將此法亂相傳。",
+   "translation": "호승(胡僧)은 두 눈을 식각(識覺)이라 이름하니 인간의 선과 악을 다 안다. 학당(學堂)을 띠지 않으면 어질지 않으니, 이 법을 함부로 서로 전하지 말라.",
+   "commentary": "학당(學堂)은 관상에서 학문·총명을 보는 부위명으로, 이 절에서 위치와 형태가 정의되지 않는다. 문헌은 학당이 없으면 어질지 않다고 적었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "不帶學堂",
+     "observable_ko": "학당 부위를 갖추지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "學堂의 위치와 형태 기준이 정의되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-033",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "家風濟楚眉清秀，侷促之人庫帶紋，",
+   "translation": "가풍이 가지런하고 깔끔한 사람은 눈썹이 맑고 빼어나고, 옹색한 사람은 창고(庫)에 주름을 띤다.",
+   "commentary": "'맑고 빼어남(清秀)'은 품평어다. 고(庫) 부위의 주름은 위치가 정의되지 않고 주름 항목이 없다. 문헌은 이를 가풍과 옹색함에 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉清秀",
+     "observable_ko": "눈썹이 맑고 빼어남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "清秀는 품평어로 측정 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "庫帶紋",
+     "observable_ko": "창고 부위에 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-034",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "抬凳塵埃高一寸，只緣眉似火燒禽，",
+   "translation": "들어 옮기는 걸상에 먼지가 한 치나 높이 쌓임은 다만 눈썹이 불에 그슬린 새 같기 때문이다.",
+   "commentary": "'불에 그슬린 새 같은 눈썹'은 눈썹 털이 오그라들거나 성긴 모양의 비유로 보이나 확정되지 않는다. 걸상에 먼지가 쌓인다는 것은 찾아오는 이 없이 쓸쓸함 또는 가난함으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉似火燒禽",
+     "observable_ko": "눈썹이 불에 그슬린 새 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_density:sparse"
+     ],
+     "reason": "비유가 성김·곱슬·짧음 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-035",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "準頭如橐紅更生，或在西時或在東，若得兩頭無剋處，假饒凶處不為凶。",
+   "translation": "준두(準頭, 코끝)가 자루(橐) 같고 붉은 기운이 다시 생기면 혹은 서쪽에 있을 때 혹은 동쪽에 있을 때이니, 두 끝에 극하는 곳이 없으면 설령 흉한 곳이라도 흉하지 않다.",
+   "commentary": "'자루 같다(如橐)'는 코끝이 불룩한 모양의 비유로 볼 수 있으나 둥긂(準圓)과 같은 표현은 아니다. 붉음은 색이다. '서쪽·동쪽'과 '두 끝'이 무엇을 가리키는지는 불명확하다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭如橐",
+     "observable_ko": "코끝이 자루처럼 불룩함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "비유 표현으로 準圓·準頭圓과 같은 직접 서술이 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "紅",
+     "observable_ko": "코끝이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-chin-036",
+   "section": "《銀匙歌》",
+   "region": "chin",
+   "original_text": "更有頤頦開兩井，準頭須帶兩頭絛。〈音韜〉",
+   "translation": "또 턱(頤頦)에 두 우물이 열리면, 준두(準頭, 코끝)는 반드시 두 끝에 끈(絛)을 띠어야 한다. (絛의 음은 도(韜)이다.)",
+   "commentary": "'두 우물(兩井)'은 턱의 오목한 자리를 가리키는 것으로 보이나 확정되지 않으며, '코끝의 두 끈'도 무엇을 뜻하는지 불분명하다. 〈音韜〉는 발음 주기다. 관상 주장이 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "頤頦開兩井",
+     "observable_ko": "턱에 두 우물(오목한 자리)이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "턱의 오목한 자리에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭須帶兩頭絛",
+     "observable_ko": "코끝 양쪽에 끈 같은 것을 띰",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'끈(絛)'이 콧방울·주름 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-037",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "庫空陷不由人，休說良田多萬頃，",
+   "translation": "창고(庫)가 비고 꺼지면 사람 뜻대로 되지 않으니, 좋은 밭이 만 이랑이나 많다고 말하지 말라.",
+   "commentary": "고(庫)는 재물을 보는 얼굴 부위명으로 쓰이나 이 절에서 위치가 정의되지 않는다. 문헌은 이를 재산이 많아도 소용없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "庫空陷",
+     "observable_ko": "창고 부위가 비고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "창고 부위의 꺼짐에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-038",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "大腳原來夭折災，髻頭可折在層臺，耳聾眼患因羊刃，不折天年也有災，",
+   "translation": "큰 발은 원래 요절의 재앙이고, 상투 튼 머리는 층대(層臺)에서 꺾일 수 있으며, 귀먹음과 눈병은 양인(羊刃) 때문이니, 천수를 꺾지 않더라도 재앙이 있다.",
+   "commentary": "큰 발과 상투 머리는 몸·머리 모양으로 얼굴 항목이 아니다. 양인(羊刃)은 명리(命理) 용어로, 얼굴 형태가 아닌 운명 요소로 쓰였다. '層臺'의 뜻은 불분명하여 직역하였다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "大腳",
+     "observable_ko": "발이 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "발 크기는 얼굴 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "髻頭",
+     "observable_ko": "상투 튼 머리",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "머리 모양을 말하는지 특정 두형을 말하는지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "羊刃",
+     "observable_ko": "양인(명리 요소)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명리 용어로 얼굴 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-brow-039",
+   "section": "《銀匙歌》",
+   "region": "brow",
+   "original_text": "眉頭額角如龍虎，龍虎相爭定至愚，",
+   "translation": "눈썹머리와 이마 모서리가 용과 범 같으니, 용과 범이 서로 다투면 반드시 지극히 어리석다.",
+   "commentary": "용호(龍虎)는 좌우 부위를 동물에 빗댄 표현으로, '서로 다툰다'는 구체적 형태가 원문에 없다. 문헌은 이를 어리석음에 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉頭額角如龍虎，龍虎相爭",
+     "observable_ko": "눈썹머리·이마 모서리가 용호처럼 다툼(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-040",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "接連倉庫反為災，鼻梁露骨不安居，",
+   "translation": "창고(倉庫)가 이어지면 도리어 재앙이 되고, 콧마루에 뼈가 드러나면 편안히 살지 못한다.",
+   "commentary": "앞 구절의 '위아래 창고가 이어지면 재물이 넉넉하다'와 반대로 말한 것으로, 같은 가결 안에서 서술이 엇갈린다. 콧마루(鼻梁)의 뼈 드러남은 v3 항목이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "接連倉庫",
+     "observable_ko": "창고 부위가 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "창고 부위의 연결에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻梁露骨",
+     "observable_ko": "콧마루에 뼈가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-glabella-041",
+   "section": "《銀匙歌》",
+   "region": "glabella",
+   "original_text": "若是眉間容二指，此人開手覓便宜，",
+   "translation": "만약 눈썹 사이에 손가락 둘이 들어가면, 이 사람은 손을 벌려 이득을 찾는다.",
+   "commentary": "눈썹 사이 간격을 손가락 너비로 말한 것은 절대 단위 표현이라 印堂廣·兩眉相遠과 같은 상대 서술로 보지 않는다. 문헌은 이를 잇속을 찾는 성향에 연결했다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "眉間容二指",
+     "observable_ko": "눈썹 사이가 손가락 둘 너비",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:wide"
+     ],
+     "reason": "절대 단위(손가락 둘) 표현으로 얼굴 대비 상대 간격과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-under_eye-042",
+   "section": "《銀匙歌》",
+   "region": "under_eye",
+   "original_text": "眼下若無凶星照，中年不祿亦豐腴，",
+   "translation": "눈 아래에 흉성(凶星)이 비추지 않으면, 중년에 녹을 받지 않아도 넉넉하고 살찐다.",
+   "commentary": "흉성(凶星)은 흉한 점·기색을 가리키는 말로 보이나 구체적 형태가 원문에 없다. 문헌은 이를 중년의 풍족함에 연결했다.",
+   "conditions": [
+    {
+     "region": "under_eye",
+     "evidence": "眼下若無凶星照",
+     "observable_ko": "눈 아래에 흉성이 없음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "凶星이 점·기색·주름 중 무엇인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-043",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "中年倉庫看禾倉，禾倉有陷無屯儲，須要田園入庫倉，禾倉」平滿有禾餘。",
+   "translation": "중년의 창고는 화창(禾倉)을 보니, 화창이 꺼지면 쌓아 둔 것이 없고, 반드시 전원이 창고에 들어야 하니, 화창이 평평하고 가득하면 곡식이 남는다.",
+   "commentary": "화창(禾倉)은 관상 부위명이나 이 절에서 위치가 정의되지 않는다. 꺼짐·평만(平滿)은 부위의 볼륨에 관한 서술이나 대응 항목이 없다. 따옴표 위치는 전사본 그대로다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "禾倉有陷",
+     "observable_ko": "화창 부위가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "화창 부위의 볼륨에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "禾倉」平滿",
+     "observable_ko": "화창 부위가 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "화창 부위의 볼륨에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-face-044",
+   "section": "《銀匙歌》",
+   "region": "face",
+   "original_text": "取人性命面上黑，換人骨髓眼中紅。",
+   "translation": "사람의 목숨을 빼앗는 자는 얼굴 위가 검고, 사람의 골수를 바꾸는 자는 눈 속이 붉다.",
+   "commentary": "얼굴의 검음과 눈 속의 붉음은 색·기색 서술로 형태 항목이 아니다. 문헌은 이를 살인과 잔혹함에 연결한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面上黑",
+     "observable_ko": "얼굴이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부색·기색은 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼中紅",
+     "observable_ko": "눈 속이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 충혈·색은 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-045",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "見人歡喜心中破，見人眉皺太陽空。",
+   "translation": "남이 기뻐하는 것을 보면 마음속이 깨지는 자는, 남을 보며 눈썹을 찡그리고 태양(太陽)이 비어 있다.",
+   "commentary": "남의 기쁨을 시기하는 성향을 말한 구절로 읽힌다. 눈썹 찡그림은 표정 동작이며, 태양(太陽)은 눈가·관자놀이 쪽 부위명으로 쓰이나 이 절에서 정의되지 않는다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉皺",
+     "observable_ko": "눈썹을 찡그림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "찡그림은 표정 동작으로 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "太陽空",
+     "observable_ko": "태양 부위가 비어 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "太陽 부위의 꺼짐에 대응하는 표준 항목이 없고 위치도 정의되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-046",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "有財不住無他事，只因倉庫有長鎗。",
+   "translation": "재물이 있어도 머물지 않음은 다른 일이 없고, 다만 창고(倉庫)에 긴 창이 있기 때문이다.",
+   "commentary": "'긴 창(長鎗)'은 창고 부위를 가로지르는 주름·흔적의 비유로 보이나 확정되지 않는다. 문헌은 이를 재물이 머물지 않음에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "倉庫有長鎗",
+     "observable_ko": "창고 부위에 긴 창(같은 무늬)이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유가 주름·흉터 중 무엇인지와 위치가 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-nose-047",
+   "section": "《銀匙歌》",
+   "region": "nose",
+   "original_text": "露井露竈不周全，那得浮生至晚年。雖然不怕經官府，只無衣祿也無錢。",
+   "translation": "우물(井)이 드러나고 부뚜막(竈, 콧구멍)이 드러나 온전하지 못하면 어찌 덧없는 삶이 만년에 이르겠는가. 비록 관부(官府)를 거치는 것은 두렵지 않으나 다만 입을 것과 녹이 없고 돈도 없다.",
+   "commentary": "露竈(콧구멍이 드러남)는 지침의 콧구멍 노출 표현과 같다. 우물(井)은 함께 쓰이는 부위명으로 보이나 무엇을 가리키는지 이 절에서 정의되지 않는다. 문헌은 이를 만년에 이르지 못함과 빈곤에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "露竈",
+     "observable_ko": "콧구멍이 드러남",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    },
+    {
+     "region": "other",
+     "evidence": "露井",
+     "observable_ko": "우물(井) 부위가 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "井이 가리키는 부위가 정의되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-mouth-048",
+   "section": "《銀匙歌》",
+   "region": "mouth",
+   "original_text": "五三六三七十三，水星羅計要相參。逐一分門定禍福，水星莫被土星覆，",
+   "translation": "쉰셋, 예순셋, 일흔셋은 수성(水星)과 나계(羅計)를 서로 참조해야 한다. 하나하나 문을 나누어 화복을 정하니, 수성이 토성(土星)에 덮이지 말아야 한다.",
+   "commentary": "오성 배속에서 수성은 입, 토성은 코를 가리키며, 나계(羅睺·計都)는 눈썹에 배당되는 것으로 쓰인다. '입이 코에 덮인다'는 코끝이 입 위로 늘어진 형태로 읽을 수 있으나 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "水星莫被土星覆",
+     "observable_ko": "입이 코에 덮이지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "코끝 처짐·코 길이 중 무엇을 뜻하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-other-049",
+   "section": "《銀匙歌》",
+   "region": "other",
+   "original_text": "數篇細話名《金鎖》，推明禍福令趨躲。",
+   "translation": "몇 편의 자세한 말을 『금쇄(金鎖)』라 이름하니, 화복을 미루어 밝혀 나아가고 피하게 한다.",
+   "commentary": "가결이 스스로를 『금쇄』라 부르는 구절로, 이 절 제목(銀匙歌)과 이름이 다르다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ637Y-ear-050",
+   "section": "《銀匙歌》",
+   "region": "ear",
+   "original_text": "試看人生無歸著。耳大無輪口無角。不在東街賣餛飩，便去西街賣餅飥。",
+   "translation": "시험 삼아 보라, 인생에 돌아가 붙을 데가 없는 사람을. 귀가 크되 바퀴(輪)가 없고 입에 모서리가 없으면, 동쪽 거리에서 혼돈(餛飩)을 팔지 않으면 곧 서쪽 거리에 가서 병탁(餅飥)을 판다.",
+   "commentary": "귀가 크다(耳大)는 지침상 귀 길이의 근사 표현이고, 이륜(耳輪)이 없음은 표준 항목이 없다. '입에 모서리가 없다(口無角)'는 입꼬리 방향이 아닌 입가 윤곽의 서술이라 대응 항목이 없다. 문헌은 이를 떠돌며 행상하는 처지에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "耳大는 지침상 approximate다(크기 vs 길이)"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪",
+     "observable_ko": "이륜(귀 바퀴)이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이륜 형태에 대응하는 표준 항목이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口無角",
+     "observable_ko": "입 모서리가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입가 윤곽의 뚜렷함에 대응하는 표준 항목이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

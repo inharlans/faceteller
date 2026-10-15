@@ -1,0 +1,1413 @@
+{
+  "page_id": "lz70286",
+  "annotator": "AI model draft (Codex), literal Korean from primary NLC transcription; no human review",
+  "sections_complete": [],
+  "scope_note": "Selected self-contained morphology clauses; remaining raw text is separately archived. No check-witness duplicate annotations.",
+  "passages": [
+    {
+      "passage_id": "LZC70286-questions_b-001",
+      "section": "柳莊相法",
+      "original_text": "尅夫之妻顴高鼻小",
+      "translation": "남편을 해치는 아내는 광대가 높고 코가 작다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "妻",
+          "observable_ko": "아내 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "顴高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻小",
+          "observable_ko": "작은 코",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-002",
+      "section": "柳莊相法",
+      "original_text": "豈有準圓孀婦",
+      "translation": "어찌 코끝이 둥근 과부가 있겠느냐고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準圓",
+          "observable_ko": "둥근 코끝",
+          "status": "exact",
+          "label": "nose_tip:rounded"
+        },
+        {
+          "region": "subject",
+          "evidence": "孀婦",
+          "observable_ko": "여성 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-002-2",
+      "section": "柳莊相法",
+      "original_text": "那見蹻嘴貴人",
+      "translation": "어디서 입이 들린 귀인을 보겠느냐고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "蹻嘴",
+          "observable_ko": "들린 입",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "那見蹻嘴貴人",
+          "observable_ko": "여성 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "같은 원문 문장의 앞 절에서 주어진 대상 한정을 유지한다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-003",
+      "section": "柳莊相法",
+      "original_text": "面圓嚴重神强權奪夫婿經營",
+      "translation": "얼굴이 둥글고 엄중하며 정신이 강하면 남편의 경영 권한을 빼앗는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面圓",
+          "observable_ko": "둥근 얼굴",
+          "status": "exact",
+          "label": "face_shape:round"
+        },
+        {
+          "region": "face",
+          "evidence": "嚴重",
+          "observable_ko": "엄중한 용모",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "eye",
+          "evidence": "神强",
+          "observable_ko": "강한 정신",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "夫婿",
+          "observable_ko": "아내 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-004",
+      "section": "柳莊相法",
+      "original_text": "眼大睛高鼻正總是旺夫之女",
+      "translation": "눈이 크고 눈동자가 높으며 코가 바르면 모두 남편을 번성시키는 여자라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "큰 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "eye",
+          "evidence": "睛高",
+          "observable_ko": "높은 눈동자",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "눈꼬리 기울기와 다르다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻正",
+          "observable_ko": "바른 코",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "之女",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage",
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-005",
+      "section": "柳莊相法",
+      "original_text": "面大無腮休言福德",
+      "translation": "얼굴이 크고 뺨이 없으면 복덕을 말하지 말라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面大",
+          "observable_ko": "큰 얼굴",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "無腮",
+          "observable_ko": "뺨이 없다는 형태",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "面",
+          "observable_ko": "이 문답은 여성의 왕부·패부를 논한다.",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-006",
+      "section": "柳莊相法",
+      "original_text": "睛圓額削皮多滑不爲娼妓作尼姑",
+      "translation": "눈동자가 둥글고 이마가 깎이며 피부가 많이 미끄러우면 창기가 아니면 비구니가 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "睛圓",
+          "observable_ko": "둥근 눈동자",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "額削",
+          "observable_ko": "깎인 이마",
+          "status": "approximate",
+          "candidate_labels": [
+            "forehead_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "face",
+          "evidence": "皮多滑",
+          "observable_ko": "피부의 미끄러움",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "尼姑",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "sexual_conduct",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-007",
+      "section": "柳莊相法",
+      "original_text": "唇白嘴尖髮又黃不是媒婆爲侍妾",
+      "translation": "입술이 희고 입이 뾰족하고 머리카락이 누러면 중매쟁이가 아니면 시첩이 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "唇白",
+          "observable_ko": "흰 입술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "嘴尖",
+          "observable_ko": "뾰족한 입",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "髮又黃",
+          "observable_ko": "누런 머리카락",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "侍妾",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-008",
+      "section": "柳莊相法",
+      "original_text": "準圓血潤必主興家",
+      "translation": "코끝이 둥글고 혈색이 윤택하면 반드시 집안을 일으킨다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準圓",
+          "observable_ko": "둥근 코끝",
+          "status": "exact",
+          "label": "nose_tip:rounded"
+        },
+        {
+          "region": "face",
+          "evidence": "血潤",
+          "observable_ko": "윤택한 혈색",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "準",
+          "observable_ko": "여성 왕부·패부 문답의 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-009",
+      "section": "柳莊相法",
+      "original_text": "準小梁低出嫁破敗",
+      "translation": "코끝이 작고 콧대가 낮으면 출가하여 집안이 망한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準小",
+          "observable_ko": "작은 코끝",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "梁低",
+          "observable_ko": "낮은 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "出嫁",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-010",
+      "section": "柳莊相法",
+      "original_text": "眉高耳正必是聰俊之兒",
+      "translation": "눈썹이 높고 귀가 바르면 반드시 총명하고 빼어난 아이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉高",
+          "observable_ko": "높은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:wide"
+        },
+        {
+          "region": "ear",
+          "evidence": "耳正",
+          "observable_ko": "바른 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "兒",
+          "observable_ko": "아동 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-011",
+      "section": "柳莊相法",
+      "original_text": "眉低耳低多是爲僧爲道",
+      "translation": "눈썹이 낮고 귀가 낮으면 대개 승려나 도사가 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉低",
+          "observable_ko": "낮은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:close"
+        },
+        {
+          "region": "ear",
+          "evidence": "耳低",
+          "observable_ko": "낮은 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "眉",
+          "observable_ko": "소아 골격 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-012",
+      "section": "柳莊相法",
+      "original_text": "受父之福額廣印寬",
+      "translation": "아버지의 복을 받는 것은 이마와 인당이 넓기 때문이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額廣",
+          "observable_ko": "넓은 이마",
+          "status": "exact",
+          "label": "forehead_width:wide"
+        },
+        {
+          "region": "glabella",
+          "evidence": "印寬",
+          "observable_ko": "넓은 인당",
+          "status": "exact",
+          "label": "brow_gap:wide"
+        },
+        {
+          "region": "subject",
+          "evidence": "父",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-013",
+      "section": "柳莊相法",
+      "original_text": "見成家業鼻柱梁高",
+      "translation": "이미 이룬 가업을 받는 것은 코의 기둥과 대가 높기 때문이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻柱梁高",
+          "observable_ko": "높은 코 기둥과 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "鼻",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-014",
+      "section": "柳莊相法",
+      "original_text": "眉高耳厚兒多福",
+      "translation": "눈썹이 높고 귀가 두꺼우면 아이에게 복이 많다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉高",
+          "observable_ko": "높은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:wide"
+        },
+        {
+          "region": "ear",
+          "evidence": "耳厚",
+          "observable_ko": "두꺼운 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "兒",
+          "observable_ko": "아동 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-015",
+      "section": "柳莊相法",
+      "original_text": "額廣腮圓貴必宜",
+      "translation": "이마가 넓고 뺨이 둥글면 반드시 귀함에 맞는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額廣",
+          "observable_ko": "넓은 이마",
+          "status": "exact",
+          "label": "forehead_width:wide"
+        },
+        {
+          "region": "face",
+          "evidence": "腮圓",
+          "observable_ko": "둥근 뺨",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "額",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-016",
+      "section": "柳莊相法",
+      "original_text": "口闊者必不貧寒",
+      "translation": "입이 넓으면 반드시 가난하지 않다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口闊",
+          "observable_ko": "넓은 입",
+          "status": "exact",
+          "label": "mouth_width:wide"
+        },
+        {
+          "region": "subject",
+          "evidence": "口",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-017",
+      "section": "柳莊相法",
+      "original_text": "山根陷羅計低難守家財",
+      "translation": "산근이 꺼지고 나계인 눈썹이 낮으면 가산을 지키기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "山根陷",
+          "observable_ko": "꺼진 산근",
+          "status": "exact",
+          "label": "nose_bridge:low"
+        },
+        {
+          "region": "brow",
+          "evidence": "羅計低",
+          "observable_ko": "낮은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:close"
+        },
+        {
+          "region": "subject",
+          "evidence": "山根",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-018",
+      "section": "柳莊相法",
+      "original_text": "耳若反眉若低不須問讀",
+      "translation": "귀가 뒤집히고 눈썹이 낮으면 독서를 묻지 말라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳若反",
+          "observable_ko": "뒤집힌 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "眉若低",
+          "observable_ko": "낮은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:close"
+        },
+        {
+          "region": "subject",
+          "evidence": "耳",
+          "observable_ko": "소아 문답의 아동 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-019",
+      "section": "柳莊相法",
+      "original_text": "鼻小者貧財難聚",
+      "translation": "코가 작으면 가난하여 재물을 모으기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻小",
+          "observable_ko": "작은 코",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-020",
+      "section": "柳莊相法",
+      "original_text": "口小者一世無糧",
+      "translation": "입이 작으면 평생 양식이 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口小",
+          "observable_ko": "작은 입",
+          "status": "exact",
+          "label": "mouth_width:narrow"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-021",
+      "section": "柳莊相法",
+      "original_text": "眼小者不忌眉輕",
+      "translation": "눈이 작으면 눈썹이 가벼움을 꺼리지 않는다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼小",
+          "observable_ko": "작은 눈",
+          "status": "exact",
+          "label": "eye_size:small"
+        },
+        {
+          "region": "brow",
+          "evidence": "眉輕",
+          "observable_ko": "가벼운 눈썹",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "brow_density:sparse"
+          ],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-021-2",
+      "section": "柳莊相法",
+      "original_text": "眼大者不嫌眉重",
+      "translation": "눈이 크면 눈썹이 무거움을 싫어하지 않는다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "큰 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "brow",
+          "evidence": "眉重",
+          "observable_ko": "무거운 눈썹",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "brow_density:dense"
+          ],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-022",
+      "section": "柳莊相法",
+      "original_text": "無顴者不宜鼻大",
+      "translation": "광대가 없는 사람은 코가 커서는 안 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "無顴",
+          "observable_ko": "광대가 드러나지 않음",
+          "status": "exact",
+          "label": "cheekbone:flat"
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻大",
+          "observable_ko": "큰 코",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:wide"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-023",
+      "section": "柳莊相法",
+      "original_text": "面大者切忌梁低",
+      "translation": "얼굴이 큰 사람은 콧대가 낮은 것을 특히 꺼린다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面大",
+          "observable_ko": "큰 얼굴",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "梁低",
+          "observable_ko": "낮은 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-024",
+      "section": "柳莊相法",
+      "original_text": "口闊不宜露齒",
+      "translation": "입이 넓으면 이를 드러내서는 안 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口闊",
+          "observable_ko": "넓은 입",
+          "status": "exact",
+          "label": "mouth_width:wide"
+        },
+        {
+          "region": "teeth",
+          "evidence": "露齒",
+          "observable_ko": "드러난 이",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-025",
+      "section": "柳莊相法",
+      "original_text": "眼大不可浮光",
+      "translation": "눈이 크면 빛이 떠서는 안 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "큰 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "eye",
+          "evidence": "浮光",
+          "observable_ko": "뜬 눈빛",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-026",
+      "section": "柳莊相法",
+      "original_text": "眉蹙不宜眼大",
+      "translation": "눈썹이 찡그려지면 눈이 커서는 안 된다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉蹙",
+          "observable_ko": "찡그린 눈썹",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "큰 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-027",
+      "section": "柳莊相法",
+      "original_text": "耳小最怕眉蹙",
+      "translation": "귀가 작으면 눈썹을 찡그리는 것을 가장 꺼린다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳小",
+          "observable_ko": "작은 귀",
+          "status": "approximate",
+          "candidate_labels": [
+            "ear_length:short"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "brow",
+          "evidence": "眉蹙",
+          "observable_ko": "찡그린 눈썹",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-028",
+      "section": "柳莊相法",
+      "original_text": "見子傷妻顴高睛陷印堂平",
+      "translation": "자식을 보고 아내를 해치는 것은 광대가 높고 눈이 꺼지고 인당이 평평한 경우라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "顴高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "eye",
+          "evidence": "睛陷",
+          "observable_ko": "꺼진 눈동자",
+          "status": "approximate",
+          "candidate_labels": [
+            "eye_depth:deep"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "glabella",
+          "evidence": "印堂平",
+          "observable_ko": "평평한 인당",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-029",
+      "section": "柳莊相法",
+      "original_text": "扶子守節鼻弱梁低唇似火",
+      "translation": "자식을 부양하고 절개를 지키는 것은 코가 약하고 콧대가 낮고 입술이 불 같은 경우라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻弱",
+          "observable_ko": "약한 코",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "梁低",
+          "observable_ko": "낮은 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "唇似火",
+          "observable_ko": "불 같은 입술빛",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "守節",
+          "observable_ko": "이 문맥은 남편 없이 자식을 부양하는 여성 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-030",
+      "section": "柳莊相法",
+      "original_text": "婦人顴高眼凹豈不傷夫",
+      "translation": "여자의 광대가 높고 눈이 오목하면 어찌 남편을 해치지 않겠느냐고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "婦人",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "顴高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "eye",
+          "evidence": "眼凹",
+          "observable_ko": "오목한 눈",
+          "status": "exact",
+          "label": "eye_depth:deep"
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-031",
+      "section": "柳莊相法",
+      "original_text": "眉毛螺旋必主刑母",
+      "translation": "눈썹 털이 소라처럼 돌면 반드시 어머니를 해친다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉毛螺旋",
+          "observable_ko": "소용돌이 눈썹 털",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "眉毛",
+          "observable_ko": "출생아의 부모 해침을 묻는 소아 문답",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-032",
+      "section": "柳莊相法",
+      "original_text": "刑父者頭偏額削",
+      "translation": "아버지를 해치는 경우는 머리가 치우치고 이마가 깎인 경우라고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "頭偏",
+          "observable_ko": "치우친 머리",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "額削",
+          "observable_ko": "깎인 이마",
+          "status": "approximate",
+          "candidate_labels": [
+            "forehead_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "父",
+          "observable_ko": "소아 문답에서 부친·모친에 대한 두 대안",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-032-2",
+      "section": "柳莊相法",
+      "original_text": "妨母者眼陷眉交",
+      "translation": "어머니를 해치는 경우는 눈이 꺼지고 눈썹이 이어진 경우라고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼陷",
+          "observable_ko": "꺼진 눈",
+          "status": "exact",
+          "label": "eye_depth:deep"
+        },
+        {
+          "region": "brow",
+          "evidence": "眉交",
+          "observable_ko": "이어진 눈썹",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "妨母者眼陷眉交",
+          "observable_ko": "소아 문답에서 부친·모친에 대한 두 대안",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "같은 원문 문장의 앞 절에서 주어진 대상 한정을 유지한다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-033",
+      "section": "柳莊相法",
+      "original_text": "眼雖清雙眉壓一世不能成立",
+      "translation": "눈이 맑아도 두 눈썹이 누르면 평생 성립하지 못한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼雖清",
+          "observable_ko": "맑은 눈",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "brow",
+          "evidence": "雙眉壓",
+          "observable_ko": "두 눈썹이 누름",
+          "status": "approximate",
+          "candidate_labels": [
+            "brow_eye_gap:close"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-034",
+      "section": "柳莊相法",
+      "original_text": "耳雖正軟如綿一世愚頑志劣",
+      "translation": "귀가 바르더라도 솜처럼 부드러우면 평생 어리석고 뜻이 낮다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "耳雖正",
+          "observable_ko": "바른 귀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "ear",
+          "evidence": "軟如綿",
+          "observable_ko": "솜 같은 귀 촉감",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-035",
+      "section": "柳莊相法",
+      "original_text": "梁雖高山根陷準雖圓井竈大一生難望聚財",
+      "translation": "콧대가 높아도 산근이 꺼지고 코끝이 둥글어도 정조가 크면 평생 재물 모으기를 바라기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "梁雖高",
+          "observable_ko": "높은 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high"
+          ],
+          "reason": "높은 콧대와 낮은 산근이 동시에 언급되므로 동일 위치로 치환하지 않는다."
+        },
+        {
+          "region": "nose",
+          "evidence": "山根陷",
+          "observable_ko": "꺼진 산근",
+          "status": "exact",
+          "label": "nose_bridge:low"
+        },
+        {
+          "region": "nose",
+          "evidence": "準雖圓",
+          "observable_ko": "둥근 코끝",
+          "status": "exact",
+          "label": "nose_tip:rounded"
+        },
+        {
+          "region": "nose",
+          "evidence": "井竈大",
+          "observable_ko": "큰 정조",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-036",
+      "section": "柳莊相法",
+      "original_text": "顴雖高左右不配主一生孤獨",
+      "translation": "광대가 높아도 좌우가 맞지 않으면 평생 고독하다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "顴雖高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "左右不配",
+          "observable_ko": "광대 좌우 비대칭",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-037",
+      "section": "柳莊相法",
+      "original_text": "唇雖紅潤齒疎少凡事無成",
+      "translation": "입술이 붉고 윤택해도 이가 성기고 적으면 모든 일에 성취가 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "唇雖紅潤",
+          "observable_ko": "붉고 윤택한 입술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "齒疎少",
+          "observable_ko": "성기고 적은 이",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC70286-questions_b-038",
+      "section": "柳莊相法",
+      "original_text": "項雖圓雙眉縱主一生貧寒",
+      "translation": "목이 둥글어도 두 눈썹이 늘어지면 평생 가난하다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項雖圓",
+          "observable_ko": "둥근 목",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "雙眉縱",
+          "observable_ko": "늘어진 눈썹의 범위 불확실",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "brow_tail:descending"
+          ],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    }
+  ]
+}

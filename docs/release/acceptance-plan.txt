@@ -1,0 +1,81 @@
+FaceTeller 전체 release 수용 계획 — 2026-10-14
+
+이 문서는 시험계획이며 합격 보고서가 아니다. requirements.json의 28개 요구사항과 아래 A01~A24를 연결한다. 기존 pilot 통과를 새 release 통과로 승격하지 않는다. 현재 GPU 비교45회는 main 전용이며 동결 유지한다. 이 감사에서 모델/서비스를 실행하지 않았다.
+규범 순서: current-directive 및 최신 사용자 승인 > 상세설계 제출본 > 요구사항 제출본 > HTML 목업. 인간 검수는 제외한다. AI/자동 검증·weak label 상태와 독립 human GT=0을 표시하며, 인간 검수를 요구하는 승인 단계는 추가하지 않는다.
+
+실행 순서와 담당
+지금 가능한 CPU 단계: 출처/manifest/순수함수/API fixture/독립 PostgreSQL/schema/새 레이블·crop 정합성 검사. 데이터·모델 변경은 별도 release 버전에서 수행한다. main의 benchmark 완료 후 main이 새 모델·전처리·깊이·PG를 연결하고 GPU 수용시험을 수행한다. 문헌 corpus·번역·조건 정의는 Claude 담당; 본 계획은 그 산출물의 수용 계약을 정의한다.
+신규 parsing/extended labels는 사용자 추가 승인에 따라 독립 worker가 CPU에서 담당한다. 이마/귀/visible pigmented marks의 정확한 정의와 라이선스/unknown 정책을 먼저 고정한다. under_eye, philtrum_definition, 기존 v3 항목은 main 담당이다.
+결과 artifact는 새 release 전용 경로에 test ID, source/model/schema/preprocess/corpus hash, 환경, 데이터 종류(fixture/실제), split, 표본수, pass/fail/blocked/not_run, 실패근거를 기록한다. 실제 사용자 요청 사진·좌표·분석이력 저장 없이 수용시험 집계만 보존한다. 승인된 오프라인 K-Face 연구 산출물은 접근통제된 영역에서 별도 관리한다.
+
+A01 — SSOT/승인 변경 추적 [CPU 문서]
+requirements.json의 source hash/우선순위/FR_001~010과 모든 A-ID 연결을 검사한다. 귀 포함, mixed G, 400명 분포, 인간 검수 제외를 확인한다. 제외된 DOCX는 참조하지 않는다. 미구현을 pass로 표시하지 않으면 추적성 검사는 통과한다.
+
+A02 — 400명 identity/split/cache 계약 [CPU metadata]
+models/selection-20261014/protocol.json의 270/34/34/62 ID 집합과 원본ZIP/NPZ/라벨/새crop ID 집합을 조인한다. 사람간 교집합0, 합집합400, 양측/조명/반복사진의 동일split, source별 누락·중복·오류 수를 검사한다. legacy276/62/62 split을 새로운 평가 집계에 혼용하면 실패. manifest 존재와 이미지 디코딩 성공은 별도 상태로 기록한다.
+
+A03 — 신규7영역 target/weak 주석 [CPU/local]
+12영역×관찰가능target의 class code/배타성/unknown/가림·가시성/입력방향/출처/자동주석 버전을 고정한다. 기존 under_eye392/8 및 philtrum_definition67/215/118의 근거·ID를 실제 주석과 대조한다. forehead/ear는 실제 mask 및 충분한 경계 가시성이 없으면 null; pigmented_marks는 visible mark만 다루고 의료적 점 진단/확률을 생성하지 않는다. 값·가시성·이유·train-only thresholds를 검사한다. 희소class/불일치 때문에 지원하지 못하는 head를 ‘학습완료’로 표시하면 실패. synthetic 증강은 새 독립사람/class support로 세지 않는다.
+
+A04 — 설계 전처리와 학습/서비스 parity [CPU]
+facework/release_preprocess.py를 기준으로 눈 중심선 수평, 눈 거리 목표값, 회전/이동/등방scale 불변성, letterbox 비율, 역좌표 mapping, bilateral mirror, 잘못된/가림 landmark 보류를 검사한다. 원본→cache와 원본→runtime tensor가 선언한 tolerance 안에서 같은지 fixture와 학습군 실제샘플로 확인한다. 11개 정면 영역과 실제 visible earbox를 요구하는 귀 경로를 각각 검사한다. legacy bin 강제resize를 새crop이라고 부르면 실패. main 통보 5개 invariance/aspect 테스트는 부분증거이며 새cache 전체/parity 통과를 대신하지 않는다.
+
+A05 — 실제 카메라/자동 캡처 [CPU 브라우저+실제웹캠]
+권한 허용/거절/장치없음, 얼굴없음/여럿, 방향·크기·밝기 각각 실패, 유지 도중 이탈, 늦은 이전방향 응답, 화면숨김/이탈을 실행한다. 조건 전부 연속유지 시 방향마다1회, 순서 front→left→right, 3장 후 submit1회. 모든 실패조건은 gauge reset와 구체안내를 보여야 한다. 실제 영상 표시 중단 여부를 확인하고 처리fps/지연을 보고하되 SSOT에 없는 최소fps 수치를 발명하지 않는다. detector adapter 없는 fixture만으로 합격 불가.
+
+A06 — 업로드/카메라 동등 입력 [CPU TestClient+브라우저]
+front/left_oblique/right_oblique 각각 JPEG/PNG, orientation/preview교체/삭제, 잘못된MIME/깨진파일/초과크기/해상도, 0~2장 입력을 검사한다. 3개 유효slot 전에는 요청없음. 서버 재검사 필수. 동일3장 camera/upload는 input_mode 복귀정보 외 같은 결과/정렬을 가져야 한다. 전체분석불가 시 원래입력화면·임시URL/버퍼정리.
+
+A07 — 실제 FastAPI/NDJSON/오류 계약 [CPU fixture, main 실제연결]
+.venv/Scripts/python.exe -B -m unittest discover -s tests -p test_pilot_contract.py 를 기존 fixture 근거로 재사용한다(모델을 부르는 테스트는 main 전용으로 분리). 필드누락400,형식415,용량413,얼굴/전처리422,서버500/503; stream시작 후 HTTP변경없이error terminal. UTF-8/JSON 경계분할, 중간disconnect/잘못된행/terminal없는EOF를 정상완료로 처리하면 실패. 진행순서와 terminal 정확히1개; fake stage를 시간타이머로 생성하지 않는다. 실제 PG오류를 문헌없음으로 숨기면 실패.
+
+A08 — 메모리/취소/예외 수명 [CPU fault injection, main 실자원]
+본문수신중·validate일부이미지보유후·response.start이전·stream중·GPUworker대기중 취소, 서비스/송신/cleanup 예외를 주입한다. service.close idempotent, 이미지/crop/좌표/입력buffer 참조가 종료경로에서 해제되는지 확인한다. GPU커널 취소불가 시 worker종료까지 정리를 조정한다. 1MB초과multipart에서도 UploadFile/spooled temp file이 없어야 한다. 반복/동시요청 RSS와 자원회수는 실제release 환경에서 보고하며 Python모든사본 forensic zeroization을 주장하지 않는다.
+
+A09 — 모델 패키지/새영역 학습 [main GPU; CPU metadata]
+현재45회 공통절차/seed/입력/split을 보존한다. 선택보고서는 기존15head pipeline만 다룬다. 새 전처리·새head 학습은 별도 버전, weight/schema/class-index/preprocess hash로 결합한다. 모든 지원head의 실제weight/클래스지원/검증근거를 요구한다. unknown target을 특정class로 채우지 않는다. 새pipeline 최적백본을 주장하려면 그pipeline에서 비교해야 한다. 목표정확도 수치는 SSOT에 미확정이므로 최종평가를 보기 전에 main이 항목별 acceptance를 명시하며, 사후 결과맞춤 기준은 금지한다.
+
+A10 — 보정/선택 낙관성 [CPU 평가; main 추론]
+선택34로 checkpoint와 후보선택, 보정34에서 frozen checkpoint/candidate별 T, test62는선택동결후. macro-F1은 truth/pred 합집합 정책(둘다없으면제외) 고정. accuracy/F1/NLL/Brier/ECE 및 class support, unknown 제외수, 전체/확정 coverage를 함께 보고한다. validation 재사용의 낙관성·small N·AI정답·test기관찰을 명시한다. 새crop/model에 옛T 재사용 시 합격 불가. calibration 성능을 독립 정확도증명으로 쓰지 않는다.
+
+A11 — 깊이 의존성·400분포·점수 [CPU 기하+main 실영상]
+VGGTEngine.infer는3RGB만 받고, measure_geometry에서 동일좌표계 특징점과 결합하는지 검사한다. 4개상대비율은 길이단위가 아닌ratio. 등방scale/공통회전/이동 기하검사, finite/퇴화/경계밖/가림/방향오류/양측뒤바뀜을 검사한다. low:r<b1, medium:b1≤r<b2, high:r≥b2; P1=Phi((r-b1)/sigma),P2=Phi((r-b2)/sigma); scores=(1-P1,P1-P2,P2), 선택된 hard label의 score를 사용하고 score argmax로 label을 뒤집지 않는다. b1<b2/sigma>0/유한/score범위와합을 검증한다. score와confidence=null/정답확률아님을 보존한다. 400명분포 경계는 승인된 기술통계이고 test-independent calibration이라 부르지 않는다. 품질 gate는 finite만으로 충분하다고 확정하지 말고 반복/가림/시점일관성으로 사전정의한다.
+
+A12 — 깊이 부분실패 보존 [CPU injectable engine]
+정상CNN 후 깊이 OOM/추론예외/한항목점퇴화/사선특징점실패를 주입한다. 복구 가능한 깊이실패는 관련항목만HELD+사유, CNN/문헌은 유지한다. 전체preprocess불가는422, 복구불가능서버장애는명시error. 현재 ActualService의 engine.infer 예외는 전체error로전파되므로 이 경로는 release gap이다.
+
+A13 — DecisionPolicy [CPU]
+confidence==theta 확정/<theta 보류, binary.60/multiclass.50 하한, 미보정/NaN/가림/label없음/measurement score없음/품질불량을 검사한다. HELD label 제거·문헌조건제외. 확정0은REINPUT_REQUIRED, 일부보류PARTIAL, 모두확정COMPLETE. 확정있고문헌0은정상NONE이며 재입력 아님. thresholds는 validation만 사용하고 운영값/버전을 기록한다.
+
+A14 — mixed G/AND/제한 parity [CPU fixture+실제PG]
+CNN.81+depth.04→G=.18, explicit classification_only→.81. depth-only가 자기점수로순위경쟁, 0포함→G0, 잘못된score/보류조건은선정불가. AND전체조건누락·OR를임의평탄화·중복충돌을 검사한다. 동률문헌우선순위/조항순서/numericID 결정성, 다부위조항은관련모든부위에서1개씩집계, 최대3/전체5. API/Memory/PG가동일passageID·G·components·rank를 반환해야 한다. 기존 독립PG34checks를 새데이터로재검증한다.
+
+A15 — PostgreSQL release [CPU 독립로컬DB]
+기존DB비밀번호탐색/접속없이 승인독립cluster 또는 release 전용DB 사용. migration/PK/FK/composite중복/BIGINT안정매핑/full-condition query/빈결과/DB중단을검사한다. 런타임은실제PG repo 주입, 최소권한SELECT계정으로write실패확인. 원문·직역·해설·source·AI검증status를DB→API까지보존. 클러스터를임시로만시험했다면서비스연결완료라고표시하지않는다.
+
+A16 — 전체 corpus와조건 [Claude 산출물; CPU 검증]
+명시한문헌/판본/편/원문구간의전체manifest를정의하고총수=적재+제외(사유)+미완료로대조한다. 문헌전체라는표현을기존103조항과혼동하지않는다. 원문인용부분문자열/정확한출처/사전직역·해설/관찰target매핑/FK/중복을100%기계검사한다. 비관찰성격·운명조건/기색/체형/음성은관찰조건으로대체하지않는다. 귀는최신설계포함. AI검증상태·근거·버전을보존하고 human-reviewed를붙이지않는다. runtime생성형호출0. 조건미완료는원문보존하되선정제외하고coverage를보고한다.
+
+A17 — React/TS 결과흐름 [브라우저]
+목업6화면을최신3장/NDJSON/12영역/혼합G로연결. 얼굴도해와목록의CONFIRMED/HELD 일치,문헌0정상,원문/직역/해설/근거/출처/AI상태표시,confidence와measurement_score 구분,서버rank유지. literal text/XSS·한글/CJK원천문자정합·모바일/desktop 확인. 중단EOF 정상완료금지,뒤로/다시시작메모리정리, result와print가동일객체. React+TS build/typecheck 없으면기술요구충족아님.
+
+A18 — A4 실제1매 [브라우저인쇄/PDF]
+새corpus에서길이상위원문·직역조합,최대5개,다부위/모든보류/한글·한문을선택해PDF page_count==1·원문/직역/출처전체텍스트대조·여백안좌표를검사한다. 상세해설/버튼/사진/원시좌표는출력0. 주요판정과근거는요약가능하나선정원문·직역·출처누락/ellipsis/잘림으로맞추지않는다. 현재실제응답재생3페이지는실패증거다. 모든최대허용본문을한장에넣을수없는경우허용content/layout범위를사전확정해야하며 multipage fallback을pass로표현하지않는다.
+
+A19 — 서비스무저장/무전송 [CPU 파일·DB·network 관찰]
+성공/422/500/취소/대용량/동시요청 전후 app·proxy temp directory와DB/log·browser storage를대조한다. 사진·원시좌표·사용자분석이력0,외부AI/cloud전송0,앱내로그에본문0. 프록시request buffering/spool/access-body로그도포함. offline승인KFace연구artifact와사용자서비스이력은분리. 최종bundle에raw·crop·주석·개인별연구response제외.
+
+A20 — 5초/자원/실시간성 [main GPU 최종환경]
+모델warmup후수신완료시점→최종NDJSON완료측정, 별도로네트워크포함user latency기록. 400명모든split의대표3장으로 min/median/p95/max/5초초과건수,stage·GPU메모리·CPU/RSS·오류율보고. PG/새모델/새전처리/TLS 포함. SSOT는5초이내이며 p95만통과해나머지초과를숨기지않는다. 동시성조건·queue정책은사전에선언한다. 기존62명.89초는release성능보장아님.
+
+A21 — 400명 최종E2E와층별보고 [main GPU]
+400명×3방향을최종모델+PG+selector로1회이상실행하고train270/selection34/calibration34/test62별성공·PARTIAL/REINPUT·항목support/hold·문헌coverage·latency를보고한다. depth400행만으로최종E2E400완료선언금지. train점수를독립시험성능으로부르지않는다. 기존test는retrospective. threshold/모델/해석을test결과를보고재조정하면새버전의개발사용으로기록한다.
+
+A22 — 배포준비/운영 [main]
+Windows startup1회load/readiness,잘못된weight/schema/config 실패,PG불가/재연결,request과부하,종료cleanup 확인. 로컬/LAN HTTPS와카메라secure context,원격VPN,외부사진요청없음. 불필요한raw연구자료/개인별report를static route로노출하지않는다. 공개배포/메시지발송은이계획의허가범위가아니다.
+
+A23 — 3방향 의미/같은 사람 입력 [CPUfixture+main 실영상]
+중복정면3장,동일사선2장,좌우반전/slot교환,다른사람혼입을별도case로기록한다. 방향은abs(yaw)만아니라좌/우slot 의미를확인한다. 동일인일관성을자동검증하지않는다면입력조건/검증한계를명확히표시하며통과했다고주장하지않는다. 외부신원DB대조/재식별은금지. 가림·방향문제는설계대로해당항목보류와전체불가입력오류를구분한다.
+
+A24 — 최종release 주장검사 [CPU 문서]
+모든requirement에구현파일+실행증거+남은gap을기록. AI주석→humanGT,measurement_score→정답확률,기존15head→전체12영역,depth400→E2E400,fixture→실제카메라,Memory14→전체PG,3페이지→A4한장으로승격한문장이없어야한다. 최종승인권한/정확도목표미정/데이터가없는head는미완료로남긴다. 본감사는full-spec validated 주장을지지하지않는다.

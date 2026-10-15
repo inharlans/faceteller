@@ -1,0 +1,497 @@
+{
+ "registry_version": 1,
+ "retrieval_policy": "Public-domain classical texts only, fetched from zh.wikisource.org at pinned revision ids with a descriptive User-Agent and >=2 s between requests. No face images or personal data are fetched or transferred.",
+ "license_note": "Original classical texts are public domain (authors died more than 100 years ago). Wikisource transcription/punctuation layer is CC BY-SA 4.0; attribution and source URL are kept on every passage.",
+ "literature": [
+  {
+   "literature_id": "shenxiang_quanbian",
+   "title": "神相全編",
+   "title_ko": "신상전편",
+   "literature_priority": 1,
+   "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考1-14 (神相全編一~十四), all14volumes pinned from Wikisource",
+   "text_availability": "fulltext_reproduced_in_compilation",
+   "priority_reason": "Named in the requirements specification; the only witness here with complete per-type entries for brow/eye/nose/ear/mouth; already the basis of data/interpretation_catalog_v1.json.",
+   "notes": "The 古今圖書集成 reproduction of 神相全編 embeds pieces it attributes to other authors (e.g. 許負, 袁柳莊, 達摩). Such attributions are recorded per passage in source.attributed_to; they are attributions printed in the compilation, not independent witnesses of those books.",
+   "punctuation_note": "Wikisource banner on these pages (snapshot 2026-10-14): the original has no punctuation; punctuation was created by the AI program 古詩文斷句 v2.1 and improved by Wikisource users (CC BY-SA 4.0). Passage boundaries and quoted punctuation therefore follow a machine-punctuated transcription; annotators flagged doubtful breaks in commentary."
+  },
+  {
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法",
+   "title_ko": "허부상법",
+   "literature_priority": 2,
+   "text_witness": "Wikisource 許負相法 (page states it is included in 夷門廣牘), 16 篇",
+   "text_availability": "standalone_fulltext",
+   "priority_reason": "Named in the requirements specification; standalone text available.",
+   "notes": "All16chapters and preface preserved in source archive. Chapters9-16 concern body, movement or voice and are not face-service morphology targets.",
+   "punctuation_note": "Punctuated Wikisource transcription (夷門廣牘 text); no punctuation provenance banner on the snapshotted pages."
+  },
+  {
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑",
+   "title_ko": "태청신감",
+   "literature_priority": 3,
+   "text_witness": "Wikisource 太清神鑑 (四庫全書本), 6 卷",
+   "text_availability": "standalone_fulltext",
+   "priority_reason": "Named in the requirements specification (as 太淸神鑑); 四庫全書 edition. The 四庫 提要 itself states the attribution to 王朴 is spurious and the text was reassembled from 永樂大典 fragments.",
+   "notes": "Unpunctuated 四庫 text; some characters are rendered on Wikisource as images whose alt text is kept.",
+   "punctuation_note": "四庫全書 text is unpunctuated on Wikisource; passages quote it without added punctuation."
+  },
+  {
+   "literature_id": "zhaodan_jing",
+   "title": "照膽經",
+   "title_ko": "조담경",
+   "literature_priority": 4,
+   "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考 15-16 (照膽經上·下) as transcribed on Wikisource",
+   "text_availability": "fulltext_reproduced_in_compilation",
+   "priority_reason": "Not named in the requirements; an additional accessible primary text in the same compilation, given lowest priority.",
+   "notes": "",
+   "punctuation_note": "Wikisource banner on these pages (snapshot 2026-10-14): the original has no punctuation; punctuation was created by the AI program 古詩文斷句 v2.1 and improved by Wikisource users (CC BY-SA 4.0). Passage boundaries and quoted punctuation therefore follow a machine-punctuated transcription; annotators flagged doubtful breaks in commentary."
+  },
+  {
+   "literature_id": "liuzhuang_xiangfa",
+   "title": "柳莊相法",
+   "title_ko": "유장상법",
+   "literature_priority": 5,
+   "text_witness": "文明書局 (上海) 1925 printing, 秦慎安 collation, National Library of China scans on Wikimedia Commons: NLC511-03030560-63880 (上) + NLC511-03030559-70286 (下) as primary witness, NLC416-13jh001257-42702 as independent second copy",
+   "text_availability": "image_only_scan_ai_transcribed",
+   "priority_reason": "Named in the requirements specification. Lowest priority because its text comes from an AI visual transcription of image-only scans, not a proofread transcription; conflicts resolve toward the Wikisource-proofread witnesses.",
+   "notes": "The Commons PDFs have no text layer and no Wikisource Index/Page transcription exists (checked 2026-10-14). Full page-level transcriptions of all pages are preserved in transcriptions/. A passage can only be service-eligible if its transcribed text also occurs in the independently transcribed second copy.",
+   "punctuation_note": "The printing marks sentence breaks with side circles; transcriptions omit them, so quoted originals are unpunctuated except printed ○ and 〈〉 notes."
+  }
+ ],
+ "coverage_only": [
+  {
+   "work": "柳莊相法",
+   "title_ko": "유장상법",
+   "named_in_requirements": true,
+   "fulltext_status": "image_only_scans_ai_transcribed (see literature liuzhuang_xiangfa)",
+   "evidence": [
+    "zh.wikisource.org search (intitle:柳莊相法, 柳莊相法) on 2026-10-14 returned no page for this book.",
+    "ctext.org answered scripted requests on 2026-10-14 with a bot-protection page; nothing was retrieved.",
+    "The 古今圖書集成 神相全編 volumes 8-9 (藝術典 卷638-639) print pieces headed 袁柳莊識人賦, 袁柳莊人象賦 and 袁柳莊雜論; these are attributed pieces inside 神相全編, not the book 柳莊相法.",
+    "2026-10-14 second dispatch: Commons NLC PDFs (3 files) downloaded; no text layer, no Wikisource transcription; transcribed page by page by AI visual reading and cross-checked between two physical copies."
+   ]
+  },
+  {
+   "work": "麻衣相法",
+   "title_ko": "마의상법",
+   "named_in_requirements": false,
+   "fulltext_status": "not_searched_as_standalone",
+   "evidence": [
+    "Pieces headed 麻衣金鎖賦 and 麻衣雜論 appear inside the 古今圖書集成 神相全編 (卷637, 卷639)."
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "page_id": "gj631",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第631卷",
+   "chapter": "博物彙編 藝術典 第631卷 相術部彙考一 神相全編一",
+   "kind": "gj",
+   "revid": 1942594
+  },
+  {
+   "page_id": "gj632",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第632卷",
+   "revid": 1942595,
+   "chapter": "博物彙編 藝術典 第632卷 相術部彙考二 神相全編二",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj633",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第633卷",
+   "revid": 1942596,
+   "chapter": "博物彙編 藝術典 第633卷 相術部彙考三 神相全編三",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj634",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第634卷",
+   "revid": 1942597,
+   "chapter": "博物彙編 藝術典 第634卷 相術部彙考四 神相全編四",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj635",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第635卷",
+   "revid": 1942598,
+   "chapter": "博物彙編 藝術典 第635卷 相術部彙考五 神相全編五",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj636",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第636卷",
+   "revid": 1942599,
+   "chapter": "博物彙編 藝術典 第636卷 相術部彙考六 神相全編六",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj637",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第637卷",
+   "revid": 1942600,
+   "chapter": "博物彙編 藝術典 第637卷 相術部彙考七 神相全編七",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj638",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第638卷",
+   "revid": 1942601,
+   "chapter": "博物彙編 藝術典 第638卷 相術部彙考八 神相全編八",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj639",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第639卷",
+   "revid": 1942602,
+   "chapter": "博物彙編 藝術典 第639卷 相術部彙考九 神相全編九",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj640",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第640卷",
+   "chapter": "博物彙編 藝術典 第640卷 相術部彙考十 神相全編十",
+   "kind": "gj",
+   "revid": 1942603
+  },
+  {
+   "page_id": "gj641",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第641卷",
+   "revid": 1942604,
+   "chapter": "博物彙編 藝術典 第641卷 相術部彙考十一 神相全編十一",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj642",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第642卷",
+   "revid": 1942605,
+   "chapter": "博物彙編 藝術典 第642卷 相術部彙考十二 神相全編十二",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj643",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第643卷",
+   "chapter": "博物彙編 藝術典 第643卷 相術部彙考十三 神相全編十三",
+   "kind": "gj",
+   "revid": 1942606
+  },
+  {
+   "page_id": "gj644",
+   "literature_id": "shenxiang_quanbian",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第644卷",
+   "chapter": "博物彙編 藝術典 第644卷 相術部彙考十四 神相全編十四",
+   "kind": "gj",
+   "revid": 1942607
+  },
+  {
+   "page_id": "xf00",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/序",
+   "chapter": "序",
+   "kind": "poem",
+   "revid": 2300391
+  },
+  {
+   "page_id": "xf01",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相目篇第一",
+   "revid": 409853,
+   "chapter": "相目篇第一",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf02",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相鼻篇第二",
+   "revid": 409854,
+   "chapter": "相鼻篇第二",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf03",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相人中篇第三",
+   "revid": 2300273,
+   "chapter": "相人中篇第三",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf04",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相耳篇第四",
+   "revid": 2300276,
+   "chapter": "相耳篇第四",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf05",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相唇篇第五",
+   "revid": 2300277,
+   "chapter": "相唇篇第五",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf06",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相口篇第六",
+   "revid": 2300278,
+   "chapter": "相口篇第六",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf07",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相齒篇第七",
+   "revid": 2300280,
+   "chapter": "相齒篇第七",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf08",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相舌篇第八",
+   "revid": 2300281,
+   "chapter": "相舌篇第八",
+   "kind": "poem"
+  },
+  {
+   "page_id": "xf09",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相胸篇第九",
+   "chapter": "相胸篇第九",
+   "kind": "poem",
+   "revid": 2300282
+  },
+  {
+   "page_id": "xf10",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相腹篇第十",
+   "chapter": "相腹篇第十",
+   "kind": "poem",
+   "revid": 409862
+  },
+  {
+   "page_id": "xf11",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相手篇第十一",
+   "chapter": "相手篇第十一",
+   "kind": "poem",
+   "revid": 2300283
+  },
+  {
+   "page_id": "xf12",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相腳篇第十二",
+   "chapter": "相腳篇第十二",
+   "kind": "poem",
+   "revid": 2300284
+  },
+  {
+   "page_id": "xf13",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相陰篇第十三",
+   "chapter": "相陰篇第十三",
+   "kind": "poem",
+   "revid": 409865
+  },
+  {
+   "page_id": "xf14",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相尿屎篇第十四",
+   "chapter": "相尿屎篇第十四",
+   "kind": "poem",
+   "revid": 409866
+  },
+  {
+   "page_id": "xf15",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/相行篇第十五",
+   "chapter": "相行篇第十五",
+   "kind": "poem",
+   "revid": 409867
+  },
+  {
+   "page_id": "xf16",
+   "literature_id": "xufu_xiangfa",
+   "title": "許負相法/聽聲篇第十六",
+   "chapter": "聽聲篇第十六",
+   "kind": "poem",
+   "revid": 2300288
+  },
+  {
+   "page_id": "tq1",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷1",
+   "revid": 631254,
+   "chapter": "太清神鑑 卷一",
+   "kind": "poem"
+  },
+  {
+   "page_id": "tq2",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷2",
+   "revid": 631256,
+   "chapter": "太清神鑑 卷二",
+   "kind": "poem"
+  },
+  {
+   "page_id": "tq3",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷3",
+   "revid": 777012,
+   "chapter": "太清神鑑 卷三",
+   "kind": "poem"
+  },
+  {
+   "page_id": "tq4",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷4",
+   "revid": 631270,
+   "chapter": "太清神鑑 卷四",
+   "kind": "poem"
+  },
+  {
+   "page_id": "tq5",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷5",
+   "revid": 631276,
+   "chapter": "太清神鑑 卷五",
+   "kind": "poem"
+  },
+  {
+   "page_id": "tq6",
+   "literature_id": "taiqing_shenjian",
+   "title": "太清神鑑 (四庫全書本)/卷6",
+   "revid": 631282,
+   "chapter": "太清神鑑 卷六",
+   "kind": "poem"
+  },
+  {
+   "page_id": "gj645",
+   "literature_id": "zhaodan_jing",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第645卷",
+   "revid": 1942608,
+   "chapter": "博物彙編 藝術典 第645卷 相術部彙考十五 照膽經上",
+   "kind": "gj"
+  },
+  {
+   "page_id": "gj646",
+   "literature_id": "zhaodan_jing",
+   "title": "欽定古今圖書集成/博物彙編/藝術典/第646卷",
+   "revid": 1942609,
+   "chapter": "博物彙編 藝術典 第646卷 相術部彙考十六 照膽經下",
+   "kind": "gj"
+  },
+  {
+   "page_id": "lz42702",
+   "literature_id": "liuzhuang_xiangfa",
+   "title": "File:NLC416-13jh001257-42702 柳莊相法.pdf",
+   "revid": null,
+   "chapter": "柳莊相法 (NLC416-13jh001257-42702, check copy)",
+   "kind": "transcription",
+   "source_id": "nlc416_42702"
+  },
+  {
+   "page_id": "lz63880",
+   "literature_id": "liuzhuang_xiangfa",
+   "title": "File:NLC511-03030560-63880 柳莊相法.pdf",
+   "revid": null,
+   "chapter": "柳莊相法 上冊 (NLC511-03030560-63880)",
+   "kind": "transcription",
+   "source_id": "nlc511_63880"
+  },
+  {
+   "page_id": "lz70286",
+   "literature_id": "liuzhuang_xiangfa",
+   "title": "File:NLC511-03030559-70286 柳莊相法(下).pdf",
+   "revid": null,
+   "chapter": "柳莊相法 下冊 (NLC511-03030559-70286)",
+   "kind": "transcription",
+   "source_id": "nlc511_70286"
+  }
+ ],
+ "scan_sources": [
+  {
+   "source_id": "nlc511_63880",
+   "literature_id": "liuzhuang_xiangfa",
+   "role": "primary_witness",
+   "commons_title": "File:NLC511-03030560-63880 柳莊相法.pdf",
+   "file_page": "https://commons.wikimedia.org/wiki/File:NLC511-03030560-63880_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95.pdf",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/NLC511-03030560-63880_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95.pdf",
+   "snapshot_file": "snapshots/nlc/NLC511-03030560-63880.pdf",
+   "commons_sha1": "9b79ef9a02113cdfa054ee9ed0c210b34e2d7215",
+   "sha256": "9ea6e38ca38c899731b8a706ad71848708fb8920bd02bfe6407c6d9fe73df6f5",
+   "pages": 75,
+   "retrieved_at": "2026-10-14",
+   "nlc": {
+    "db": "data_511",
+    "bookid": "03030560",
+    "volumeid": "63880",
+    "byline": "不詳",
+    "publisher": "文明書局·上海",
+    "date": "民國十四年（1925）",
+    "toc": "柳莊相法 / 明尚寶司卿袁忠徹秘傳"
+   },
+   "chapter": "柳莊相法（文明書局 1925, NLC511 上冊）",
+   "text_layer": "none (image-only; verified with pypdf and Commons metadata)"
+  },
+  {
+   "source_id": "nlc511_70286",
+   "literature_id": "liuzhuang_xiangfa",
+   "role": "primary_witness",
+   "commons_title": "File:NLC511-03030559-70286 柳莊相法(下).pdf",
+   "file_page": "https://commons.wikimedia.org/wiki/File:NLC511-03030559-70286_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95(%E4%B8%8B).pdf",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/NLC511-03030559-70286_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95%28%E4%B8%8B%29.pdf",
+   "snapshot_file": "snapshots/nlc/NLC511-03030559-70286.pdf",
+   "commons_sha1": "066e7c65d0e27a48c50dd240de3050285f1d5b42",
+   "sha256": "f696858a053cfaed29b192c117af4ba9e00ef67e6bb0eb094e90a3253188b42e",
+   "pages": 77,
+   "retrieved_at": "2026-10-14",
+   "nlc": {
+    "db": "data_511",
+    "bookid": "03030559",
+    "volumeid": "70286",
+    "byline": "秦慎安",
+    "publisher": "文明書局·上海",
+    "date": "1925-12（民國十四年）",
+    "toc": "柳莊相法 / 正文"
+   },
+   "chapter": "柳莊相法（下）（文明書局 1925, 秦慎安, NLC511 下冊）",
+   "text_layer": "none (image-only; verified with pypdf and Commons metadata)"
+  },
+  {
+   "source_id": "nlc416_42702",
+   "literature_id": "liuzhuang_xiangfa",
+   "role": "check_witness",
+   "commons_title": "File:NLC416-13jh001257-42702 柳莊相法.pdf",
+   "file_page": "https://commons.wikimedia.org/wiki/File:NLC416-13jh001257-42702_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95.pdf",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/NLC416-13jh001257-42702_%E6%9F%B3%E8%8E%8A%E7%9B%B8%E6%B3%95.pdf",
+   "snapshot_file": "snapshots/nlc/NLC416-13jh001257-42702.pdf",
+   "commons_sha1": "72b7765d3a0b3d8cc7dc4cb4d3a197ec91eda7e4",
+   "sha256": "e75f6fbad4336dfeb62e50d54507c2c3e4bf8f69b4b93f89062b868ddae90eac",
+   "pages": 152,
+   "retrieved_at": "2026-10-14",
+   "nlc": {
+    "db": "data_416",
+    "bookid": "13jh001257",
+    "volumeid": "42702",
+    "byline": "秦慎安校勘"
+   },
+   "chapter": "柳莊相法（秦慎安校勘, NLC416）",
+   "text_layer": "none (image-only; verified with pypdf and Commons metadata)"
+  }
+ ]
+}

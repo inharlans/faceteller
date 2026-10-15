@@ -1,0 +1,47 @@
+FaceTeller 400명·확장영역 데이터 계획 — 2026-10-14
+
+범위: CPU metadata 감사. 원본ZIP을추출하거나사진을외부로전송하지않았다. 이번단계는모델/GPU/서비스를실행하지않았고본3개감사문서만작성한다. 이어지는사용자승인확장파싱작업은별도파일로수행한다. 레이블은AI/자동/weak provenance를보존하고독립humanGT=0이다.
+
+1. 실제 인벤토리
+data/raw/kface/zips/: 400 ZIP, 합89,497,920,191 bytes. models/selection-20261014/protocol.json의400 ID 집합과정확히일치한다. 중앙directory만검사하여400명모두S001/L1/E01/C7,C4,C10의jpg와provider txt 존재를확인했다. 이는전체ZIP CRC/모든사진디코딩/가시성검증을뜻하지않는다.
+data/derived/kface/subjects/: 400 NPZ+400 bin, bin합4,371,243,971 bytes. NPZ키154,400 capture, status=1인검출147,525.400명모두해당C7/C4/C10 검출특징점존재. 현재crop명은eye_right/eye_left/brow_right/brow_left/nose/mouth/face의7개이며,이는5부위이지설계의신규7영역이아니다.
+data/derived/kface/dataset_v3/participants.csv: 400행,옛276/62/62. captures.csv:101,865행(train70,273/val15,830/test15,762), 별도필터된manifest이므로NPZ154,400 capture와같은분모가아니다. 기존summary의training_captures44,990도현재benchmark의crop수와혼용하지않는다.
+data/annotations/kface_visual_v4.tsv:400행,16개시각열(미사용philtrum_definition 포함). data/annotations/kface_visual_v4_soft.json:현재15visualhead soft vote. data/label_schema_kface_v3.json:총38항목=15visual+19landmark+4multiview,5부위. 클래스·한국어표시·known/unknown·평가분모는버전별로확인해야한다.
+data/derived/pilot-20261014/cohort_518.jsonl:400 measured. repeat_518.jsonl:120시도행 중처음40error(없는L2 providerTXT),80measured; job별마지막행은80/80measured,40명×L2/L3이고L1기준값은cohort에있다.120행을120성공/120명으로세면안된다. controls_518.jsonl:40measured. 실제최종서비스E2E400명과는별개다.
+outputs/pilot-20261014/mixed-service/live_verification.json:기존서비스62명186장,문헌있는사람30,순서변경6,전체62건5초이내. 옛10CNN+14draft메모리조항이다.
+문헌: data/interpretation_catalog_v1.json / interpretation_service_v1.json / type_rules_v3.json의103조항ID JOIN. 완전조건15/부분65/없음23;독립검수0;draft허용실제선정가능14. 이14개를전체문헌DB완료로부르지않는다. 전체범위·문헌개별적재·번역/조건완성은Claude담당이다.
+
+2. 사람 분할과400명 활용
+권위manifest는models/selection-20261014/protocol.json:train270/selection34/calibration34/test62. 기존benchmark45회는조건을고정한채계속한다. 새release cache/label/metrics에도이ID membership을사용하며사람별조명·좌우·반복capture가서로다른split으로나뉘지않게한다.
+400명모두crop/주석/최종E2E에포함하되optimization/자동target경계추정에는train270만사용한다. validation selection/checkpoint 및calibration역할을분리하고test62는동결후보고한다. 최종서비스400명분포기준깊이경계는명시승인된별도규범분포로보존하며그400명에서계산한성능을독립test calibration이라고부르지않는다.
+현재depth boundary_config의train_only_calibration.n=276 및repeat_sigma_train26은옛split에근거한다. 이름에train이있다고새270의train-only 값으로재사용하지않는다. 새release분석은원래값의출처를보존하거나270명ID로다시계산한다. 전체400경계/운영membership과train-only검증통계는별도필드로보관한다.
+
+3. 추가7영역별 준비상태와 경로
+이마(forehead):기존전용head/완성target 없음. 정면원본+새crop에서피부/머리카락경계가실제로보일때높이·폭을측정한다. forehead_height=low/medium/high, forehead_width=narrow/medium/wide는제안코드이며train-only경계와hairline가시성gate확정후사용. 모자/앞머리/프레임밖/파싱불명확은null,머리카락외곽을자동으로진짜hairline이라간주하지않는다.
+미간(glabella):brow_gap(face landmark)라는부분proxy는있으나별도glabella CNN없음. withheld brow_glabella(미간털)는기존400명기록상양성없음. 간격과털유무는다른target이다. 간격기존라벨을main이연결하고없는털class를발명하지않는다.
+애교살(under_eye):기존schema기록에서뚜렷한사례8명,최근사용자확인v3 flat392/visible8. 데이터존재가새모델학습가능성보장은아니다. main이실제ID/주석source를대조하고split별support를보고한다. 특히검증/test 양성0이면일치율을양성검출능력으로해석하지않는다.
+광대(cheekbone):현재face부위의cheekbone(flat/prominent),cheek_fullness 시각주석/모델출력있음. 좌우광대전용crop/head는별개다. main이기존주석을재사용하더라도좌우가시성·조명·subject-level 라벨적용의약함을명시한다. 단안visual label을3D정답으로승격하지않는다.
+귀(ear):최신설계가요구사항PDF의옛귀제외보다우선. C4/C10 원본존재는400명모두확인했으나귀노출/가림/잘림/실제box는미검증. MediaPipe얼굴랜드마크에귀윤곽이있다고가정하지않는다. 로컬pretrained face parsing의실제ear mask로visible box를찾고원본좌표로저장한다. ear_length=short/medium/long은ear mask높이/눈기준scale; ear_width=narrow/medium/wide는폭/높이의약자동측정target이다. 원근/조명반복불안정·작은mask·잘린귀는null. 양쪽비대칭과사진방향을따로보존한다.
+인중(philtrum):philtrum_length landmark기존있음. philtrum_definition은현재visual15에서제외됐고AI3판정κ=.173;최근사용자확인clear67/faint215/unknown118. main이원라벨unknown을보존하며전용crop/head의실제검증을담당한다. shadow/수염으로명확하지않은것을명료class로강제하지않는다.
+점(mole 영역/visible pigmented marks target):전용주석/신뢰할수있는검출모델없음. 외관상작은색소표식만pigmented_marks=absent/present로다루고의학적모반진단은하지않는다. 충분한피부coverage/해상도·조명반복대응검증이없는검출0은absent의증거가아니다. falsepositive/absence 신뢰를확인할수없으면null유지한다.
+신규7영역은4개전용영역미구현(이마·애교살·귀·점),3개부분proxy(미간·광대·인중)로구분한다. 7전용모델은현재없다. 학습불가능항목의정직한보류는필요하지만,그것을전체모델완성으로보고하지않는다.
+
+4. 새crop/label 산출물 계약
+main:facework/release_preprocess.py(정면11영역·실제visible box가필요한귀),scripts/release/prepare_crops.py(원본+cachedlandmarks,400명×12정면조명재구축),release training/runtime. main통보5기하테스트통과는전체cache/evaluation의완료가아니다.
+독립worker추가승인:facework/release_parsing.py,scripts/release/prepare_extended_labels.py,tests/test_release_parsing.py,docs/release/extended-labels.txt, data/release/extended_schema.json 및extended_labels.json. 모델asset은models/face_parsing/. 확정전 feature/class code를main에공유한다. 코드MIT와weights/data license를분리확인하고원출처/hash를보존한다. CPU명시·image-local만사용한다.
+schema.features 각항목은기존v3의part/source/classes/classes_ko 등필드에provenance/metric/visibility/unknown/weak-label표시를추가한다. labels.subjects[sid][feature]=class_or_null; metrics/thresholds에측정값·반복support·visibility/실패사유・trainIDhash·경계fit270 정보를기록한다. hard class로바꿀수없는항목은null과사유를남긴다. threshold를test/전체400에서fit하지않는다.
+귀산출물은main과調整하여data/derived/release/ears/{sid}.json/.bin의frame/crop offsets 또는같은정보를갖는mask/visiblebox metadata로전달한다. bbox는실제원본pixel좌표·방향·sourceframe·변환scale/offset을포함한다. 정면cropcache만으로귀를생성하지않는다.
+모든asset는공개모델다운로드만허용하고얼굴사진/주석은외부API/cloud로보내지않는다. local parser가실패하거나license조건확인불가면그상태를기록하고모델검증성공이라고부르지않는다.
+
+5. 자동주석/품질/검증 원칙
+각target의관찰정의→train분포/조명반복→visibility gate→train-only경계→unknown보존→split별support→학습으로진행한다. 눈거리·ear area 등정규화분모는finite/비퇴화검사한다. 다른조명에서동일위치대응이안되면안정한표식이라고판정하지않는다. 파싱모델confidence를형태class confidence로복사하지않는다.
+400×12조명은4800명이아니다. 반복측정편차와개인간분산을구분하며경계부근/가림은unknown 또는운영보류사유로보존한다. 미관찰은음성class가아니다. 학습/보정가능성판정은class support·반복안정성·validation성능으로하며숫자기준은최종평가를보기전에명시한다.
+400명모두에서집계하되사람ID가포함된row-level 연구자료는비공개학습영역에둔다. 외부보고는집계수치와한계만포함한다. runtime은사용자사진·원시좌표·분석이력을저장하지않고,연구cache 생성권한을서비스저장권한으로해석하지않는다.
+
+6. 남은 release gap
+설계전처리새cache→실제모델재학습→calibration→runtime parity가필요하다. 추가7영역target/가시성·희소class검증,실제PG전체corpus/검증상태연결,실제camera검사,React/TS,한글원천문자정합,실제A4한장,depth부분실패복구/품질gate,400명최종E2E·split별보고가미완료다. 현재benchmark를중단하거나현재artifact를덮어쓰지않고각후속버전과근거를보존한다.
+
+7. 같은날 후속 구현 완료 업데이트
+상기 인벤토리/계획 이후 승인된CPU parsing을완료했다. 정확한정의·API·검증·라이선스·hash는docs/release/extended-labels.txt 참조. 400명3600mask,2373실제귀crop;전crop 원본재생성pixel/affine parity통과. 메타globalv2/ear-transform-v1 migration은binary불변확인후수행했다. main이이마v2ROI를수정한뒤train유효526프레임의hairline crop밖사례는구형330→신형0이다.
+extended_schema.json/extended_labels.json에forehead_height/width,ear_length/width,pigmented_marks 5target을생성했다. train유효176/178/261/260/20,전체유효271/271/385/383/22. 이마/귀경계는train270만fit. 실제algorithm 표식은전체present21/absent1/unknown378이며선정34전원unknown이므로mole부위학습/보정지원부족을명시했다. 초기계획의‘검출기없어전원null’에서고정된약검출기+조명반복으로발전했지만의학적점판정/역사痣mapping/완성모델을만들지는않았다.
+main의추가로컬VLM합의는별도provenance/산출물로진행예정이며본래strict algorithm주석을자동으로덮어쓰지않는다. 처리완료와training_ready를구분하여후자는false로보존했다. 기존7영역전체모델/전체release완료라는주장은여전히불가하다.

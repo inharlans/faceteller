@@ -1,0 +1,2334 @@
+{
+ "page_id": "gj634",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相耳",
+  "許負相耳篇",
+  "土耳",
+  "棋子耳",
+  "虎耳",
+  "箭羽耳",
+  "金耳",
+  "木耳",
+  "水耳",
+  "火耳",
+  "豬耳",
+  "低反耳",
+  "垂肩耳",
+  "貼腦耳",
+  "開花耳",
+  "扇風耳",
+  "鼠耳",
+  "驢耳"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ634M-ear-001",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳生，貫腦而通心胸，為心之司，腎之候也。故腎氣旺則清而聰，腎氣虛則昏而濁，所以聲譽與性行也。",
+   "translation": "귀가 생겨 뇌를 꿰뚫고 심흉(心胸, 가슴)으로 통하니, 심(心)의 맡은 바요 신(腎)의 징후이다. 그러므로 신기(腎氣)가 왕성하면 맑고 밝게 듣고, 신기가 허하면 어둡고 탁하니, 그래서 명성과 성품·행실에 (관계된)다.",
+   "commentary": "귀를 심(心)·신(腎)과 연결하는 장부론에 기댄 총론이다. 신기(腎氣)의 성쇠와 귀의 맑음·탁함은 사진 형태로 관찰할 수 없으며, '聰'은 청력이 밝음으로도 총명함으로도 읽힌다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "腎氣旺則清而聰",
+     "observable_ko": "신기가 왕성하여 귀가 맑고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "장부의 기운과 청력은 형태 항목이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "腎氣虛則昏而濁",
+     "observable_ko": "신기가 허하여 귀가 어둡고 탁함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "장부의 기운과 청력은 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-002",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "厚而堅，聳而長，皆壽相也。",
+   "translation": "(귀가) 두텁고 단단하며, 솟고 길면 모두 장수할 상이다.",
+   "commentary": "귀의 두께·단단함과 솟음은 레이블 체계에 없다. '長'은 귀의 길이를 직접 말하므로 ear_length:long으로 옮겼고, 이 레이블은 정의가 확정된 정식 항목이다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "厚而堅",
+     "observable_ko": "귀가 두텁고 단단함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "聳",
+     "observable_ko": "귀가 위로 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "而長",
+     "observable_ko": "귀의 세로 길이가 긺",
+     "status": "exact",
+     "label": "ear_length:long"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634M-ear-003",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "輪廓分明，聰悟垂珠朝口者，主財壽。",
+   "translation": "윤곽(輪廓, 귓바퀴의 바깥 테와 안쪽 테)이 분명하고, 총명하고 깨달으며 수주(垂珠, 늘어진 귓불)가 입을 향하는 자는 재물과 수명을 주관한다.",
+   "commentary": "윤(輪)은 귓바퀴 바깥 테, 곽(廓)은 안쪽 테, 수주(垂珠)는 늘어진 귓불을 가리킨다. 모두 레이블 체계에 없고, 형태 서술 사이에 '聰悟'가 끼어 있어 구두가 불확실하다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "輪廓分明",
+     "observable_ko": "귓바퀴 테두리가 분명함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "垂珠朝口",
+     "observable_ko": "귓불이 늘어져 입 쪽을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "聰悟",
+     "observable_ko": "총명하고 깨달음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "지적 능력은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-004",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "貼肉者富。",
+   "translation": "(귀가) 살에 붙은 자는 부유하다.",
+   "commentary": "'貼肉'은 귀가 머리 옆 살에 붙어 옆으로 벌어지지 않은 형태로 읽힌다. 귀가 머리에서 벌어진 각도는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "貼肉",
+     "observable_ko": "귀가 머리 쪽 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-005",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "足耳內生毛者壽。",
+   "translation": "족히 귀 안에 털이 난 자는 장수한다.",
+   "commentary": "귓속 털은 관찰 항목이 아니다. 머리의 '足'은 앞 문장의 '富'에 붙어 '富足'으로 읽힐 여지가 있으나 전사된 구두대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳內生毛",
+     "observable_ko": "귀 안에 털이 남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "털 항목이 레이블 체계에 없고 정면 사진에서 잘 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-006",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳有黑子，生貴子，主聰明。",
+   "translation": "귀에 흑자(黑子, 검은 점)가 있으면 귀한 자식을 낳고, 총명함을 주관한다.",
+   "commentary": "흑자(黑子)는 피부의 검은 점을 가리킨다. 특정 부위(귀)의 점이라 pigmented_marks:present의 근사 대응으로만 두었다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳有黑子",
+     "observable_ko": "귀에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 부위의 점이며 레이블은 얼굴 전체의 점 유무다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "intelligence"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634M-ear-007",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳門闊，主智遠。",
+   "translation": "이문(耳門, 귓구멍 어귀)이 넓으면 지혜가 원대함을 주관한다.",
+   "commentary": "이문(耳門)은 귓구멍 앞 어귀 부위를 가리키는 말로, 귀 전체의 폭과 같은 측정이 아니다. 그래서 ear_width:wide의 근사 대응으로만 두었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門闊",
+     "observable_ko": "귓구멍 어귀가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:wide"
+     ],
+     "reason": "이문(耳門)의 넓이는 귀 전체 폭과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-008",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "大紅闊主官。",
+   "translation": "크고 붉고 넓으면 관직을 주관한다.",
+   "commentary": "주어가 생략되어 귀 전체인지 앞 문장의 이문(耳門)인지 분명하지 않다. 귀가 큼(耳大)은 지침상 근사 대응이고, 붉은 색은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long",
+      "ear_width:wide"
+     ],
+     "reason": "크기(大)는 길이·폭 중 어느 쪽인지 특정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "紅",
+     "observable_ko": "귀가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "闊",
+     "observable_ko": "넓음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "ear_width:wide"
+     ],
+     "reason": "주어가 귀 전체인지 이문(耳門)인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-009",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "白主名望。",
+   "translation": "희면 명망을 주관한다.",
+   "commentary": "귀의 흰 빛깔에 관한 서술로 색은 관찰 항목이 아니다. 문헌은 이를 명망과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "白",
+     "observable_ko": "귀가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-010",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "赤黑貧賤。",
+   "translation": "붉고 검으면 가난하고 천하다.",
+   "commentary": "귀의 빛깔에 관한 서술로 형태가 아니다. 문헌은 이를 빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "赤黑",
+     "observable_ko": "귀가 붉고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-011",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳薄向前，賣盡田園。",
+   "translation": "귀가 얇고 앞을 향하면 논밭과 동산을 다 팔아 버린다.",
+   "commentary": "귀의 두께와 앞으로 향한 각도는 레이블 체계에 없다. 문헌은 이를 재산 탕진과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳薄",
+     "observable_ko": "귀가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "向前",
+     "observable_ko": "귀가 앞을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 방향·돌출 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-012",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "反而偏側，居無屋宅。",
+   "translation": "뒤집히고 한쪽으로 기울면 살 집이 없다.",
+   "commentary": "'反'은 귓바퀴가 뒤집힌 형태, '偏側'은 귀가 한쪽으로 기운 형태로 읽힌다. 둘 다 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "反",
+     "observable_ko": "귓바퀴가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "偏側",
+     "observable_ko": "귀가 한쪽으로 기욺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-013",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "左右大小迍否，妨害",
+   "translation": "좌우가 크고 작으면 막히고 불운하며, 해를 끼친다.",
+   "commentary": "좌우 귀의 크기가 다름을 말하는 것으로 읽힌다. 전사본은 '妨害' 뒤에 끊지 않고 '光明潤澤'으로 잇지만 뜻에 따라 여기서 나누었으며, '妨害'의 대상(육친 등)은 원문에 명시되지 않았다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "左右大小",
+     "observable_ko": "좌우 귀의 크기가 다름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 좌우 비대칭 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-014",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "光明潤澤，聲名遠播。",
+   "translation": "밝고 윤택하면 명성이 멀리 퍼진다.",
+   "commentary": "귀의 광택에 관한 서술로 형태가 아니다. 앞 구절과의 구두 경계는 해석에 따른 것이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "光明潤澤",
+     "observable_ko": "귀가 밝고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-015",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "塵粗焦黑，貧薄愚鹵。",
+   "translation": "먼지 낀 듯 거칠고 그을린 듯 검으면 가난하고 박복하며 어리석고 둔하다.",
+   "commentary": "귀 피부의 결과 빛깔에 관한 서술로 형태 항목이 아니다. 문헌은 이를 빈궁과 어리석음에 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "塵粗焦黑",
+     "observable_ko": "귀 피부가 거칠고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 결·색은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-016",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "其豎如木，到老不哭。",
+   "translation": "그것(귀)이 나무처럼 곧게 서 있으면 늙도록 곡하지 않는다.",
+   "commentary": "귀가 곧게 선 형태는 레이블 체계에 없다. '不哭'은 상(喪)을 당해 곡할 일이 없다는 뜻으로 읽힐 수 있으나 원문은 그 이상을 밝히지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "其豎如木",
+     "observable_ko": "귀가 나무처럼 곧게 섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-017",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "長而聳者祿位，",
+   "translation": "(귀가) 길고 솟은 자는 녹봉과 지위가 있다.",
+   "commentary": "'長'은 귀의 길이를 직접 말하므로 ear_length:long으로 옮겼고, 솟음(聳)은 귀 위치 항목이라 레이블이 없다. 문헌은 이를 녹위와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "長",
+     "observable_ko": "귀의 세로 길이가 긺",
+     "status": "exact",
+     "label": "ear_length:long"
+    },
+    {
+     "region": "ear",
+     "evidence": "聳",
+     "observable_ko": "귀가 위로 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634M-ear-018",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "厚而圓者衣食。",
+   "translation": "(귀가) 두텁고 둥근 자는 의식(衣食)이 있다.",
+   "commentary": "귀의 두께와 둥근 정도는 레이블 체계에 없다. 문헌은 이를 의식의 넉넉함과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "厚",
+     "observable_ko": "귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "圓",
+     "observable_ko": "귀가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 모양(둥긂) 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-019",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "大抵貴人有貴眼無貴耳，賤人或有貴耳而無貴眼。",
+   "translation": "대저 귀인은 귀한 눈은 있고 귀한 귀는 없으며, 천인은 혹 귀한 귀는 있으나 귀한 눈은 없다.",
+   "commentary": "눈과 귀의 비중을 비교하는 일반론으로 구체적인 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-020",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "善相者先相其色，後相其形可也。",
+   "translation": "상을 잘 보는 자는 먼저 그 빛깔을 보고 뒤에 그 형태를 보는 것이 옳다.",
+   "commentary": "귀를 볼 때 색을 먼저, 형태를 나중에 보라는 방법론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-021",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "《訣》曰：「耳如提起，名播人耳。",
+   "translation": "《결(訣)》에 이르기를: 「귀가 끌어올린 듯하면 이름이 사람들의 귀에 퍼진다.",
+   "commentary": "《訣》의 첫 구절이다. '提起'는 귀가 위로 들려 높이 붙은 모양을 비유한 것으로 보이나 정확한 형태는 특정되지 않으며, 귀 위치는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳如提起",
+     "observable_ko": "귀가 위로 끌어올린 듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-022",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "兩耳垂肩，貴不可言。",
+   "translation": "두 귀가 어깨까지 드리우면 귀함을 말로 할 수 없다.",
+   "commentary": "어깨까지 닿는 귀는 과장된 비유로, 귀가 길다는 방향은 같으나 실제 측정으로 옮길 수 없어 ear_length:long의 근사 대응으로 두었다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳垂肩",
+     "observable_ko": "두 귀가 어깨까지 드리움",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "과장된 비유라 귀 길이의 상대 분위와 같은 기준이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634M-ear-023",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳白如面，名滿天下。",
+   "translation": "귀가 얼굴처럼 희면 이름이 천하에 가득하다.",
+   "commentary": "귀의 빛깔에 관한 서술로 형태가 아니다. 문헌은 이를 명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白如面",
+     "observable_ko": "귀가 얼굴처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-024",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "棋子之耳，成家立計。",
+   "translation": "바둑돌 같은 귀는 집안을 이루고 살아갈 계책을 세운다.",
+   "commentary": "기자이(棋子耳)는 이 권의 개별 항목에서 둥글고 윤곽이 서로 받친 귀로 묘사된다. 여기서는 이름만 있어 형태 조건이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "棋子之耳",
+     "observable_ko": "바둑돌 같은 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-025",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳黑飛花，離祖破家。",
+   "translation": "귀가 검고 꽃잎이 날리는 듯하면 조상을 떠나고 집안을 깨뜨린다.",
+   "commentary": "'飛花'는 귓바퀴가 꽃잎처럼 벌어진 모양을 가리키는 것으로 보이나 확정할 수 없다. 검은 빛깔은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳黑",
+     "observable_ko": "귀가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "飛花",
+     "observable_ko": "귓바퀴가 꽃잎 날리듯 벌어짐(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 형태가 특정되지 않으며 대응 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-026",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳薄如紙，夫死無疑。",
+   "translation": "귀가 종이처럼 얇으면 남편이 죽음은 의심할 것이 없다.",
+   "commentary": "귀 두께는 레이블 체계에 없다. '남편이 죽는다'는 주장은 대상이 여성임을 함의하며, 배우자의 죽음에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳薄如紙",
+     "observable_ko": "귀가 종이처럼 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "subject",
+     "evidence": "夫死",
+     "observable_ko": "대상이 남편 있는 여성(함의)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별·혼인 여부를 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "marriage",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-027",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "輪廓桃紅，性最玲瓏。",
+   "translation": "윤곽이 복숭아빛으로 붉으면 성품이 가장 영롱(玲瓏, 영리하고 맑음)하다.",
+   "commentary": "귓바퀴 빛깔에 관한 서술로 형태가 아니다. 문헌은 이를 영리한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "輪廓桃紅",
+     "observable_ko": "귓바퀴가 복숭아빛으로 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-028",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "兩耳如紙，貧窮無倚。",
+   "translation": "두 귀가 종이 같으면 가난하고 궁하여 의지할 곳이 없다.",
+   "commentary": "'종이 같다'는 얇음을 비유한 것으로 보이며 귀 두께 항목은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳如紙",
+     "observable_ko": "두 귀가 종이처럼 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-029",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳如鼠耳，貧賤早死。",
+   "translation": "귀가 쥐의 귀 같으면 가난하고 천하며 일찍 죽는다.",
+   "commentary": "쥐 귀에 빗댄 비유로 형태 조건이 특정되지 않는다. 빈천과 요절에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳如鼠耳",
+     "observable_ko": "쥐의 귀 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-030",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳反無輪，祖業如塵。",
+   "translation": "귀가 뒤집히고 윤(輪, 귓바퀴 테)이 없으면 조상의 업이 티끌 같다.",
+   "commentary": "귓바퀴가 뒤집히거나 테가 없는 형태는 레이블 체계에 없다. 문헌은 이를 가업의 몰락과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳反",
+     "observable_ko": "귓바퀴가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪",
+     "observable_ko": "귓바퀴 테가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-031",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳有垂珠，衣食自足。",
+   "translation": "귀에 수주(垂珠, 늘어진 귓불)가 있으면 의식이 저절로 족하다.",
+   "commentary": "수주(垂珠)는 구슬처럼 늘어진 귓불을 가리킨다. 귓불 항목은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-032",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳薄無根，必夭天年。",
+   "translation": "귀가 얇고 뿌리가 없으면 반드시 천년(天年, 타고난 수명)에 요절한다.",
+   "commentary": "귀 두께와 귀뿌리(머리에 붙는 부분)는 레이블 체계에 없다. 요절에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳薄",
+     "observable_ko": "귀가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無根",
+     "observable_ko": "귀뿌리가 없어 보임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-033",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳門廣闊，聰明豁達。",
+   "translation": "이문(耳門, 귓구멍 어귀)이 넓고 트이면 총명하고 활달하다.",
+   "commentary": "이문(耳門)의 넓이는 귀 전체 폭과 같은 측정이 아니어서 ear_width:wide의 근사 대응으로 두었다. 문헌은 이를 총명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門廣闊",
+     "observable_ko": "귓구멍 어귀가 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:wide"
+     ],
+     "reason": "이문(耳門)의 넓이는 귀 전체 폭과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-034",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳有城廓，壽命不促。",
+   "translation": "귀에 성곽(城廓, 귓바퀴 테두리)이 있으면 수명이 짧지 않다.",
+   "commentary": "성곽(城廓)은 귓바퀴 테두리를 성벽에 빗댄 말로 보인다. 귓바퀴 테 항목은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有城廓",
+     "observable_ko": "귓바퀴 테두리가 뚜렷함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-035",
+   "section": "相耳",
+   "region": "ear",
+   "original_text": "耳下骨員，未有」 餘錢。",
+   "translation": "귀 아래 뼈가 둥글면 남는 돈이 있지 않다.",
+   "commentary": "'耳下骨'이 어느 뼈를 가리키는지 특정하기 어렵고 대응 레이블이 없다. '未有餘錢'은 문자 그대로 '여윳돈이 없다'로 옮겼으며, 전사본은 '未有'와 '餘錢' 사이에 인용 부호가 끼어 있다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "耳下骨員",
+     "observable_ko": "귀 아래 뼈가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 아래 뼈의 모양은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-036",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳高於目」，合受他祿。〈作為人師也〉",
+   "translation": "귀가 눈보다 높으면 마땅히 남의 녹(祿)을 받는다. 〈남의 스승이 된다는 것이다〉",
+   "commentary": "귀의 위치가 눈높이보다 높다는 서술로, 부위 간 상대 위치인 귀 높이는 레이블 체계에 없다. 〈 〉 안은 본문에 붙은 작은 주석이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高於目",
+     "observable_ko": "귀가 눈보다 높이 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-037",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "高，如眉一寸，永不踐貧困。",
+   "translation": "높되, 눈썹과 같이 한 치이면 영원히 빈곤을 밟지 않는다.",
+   "commentary": "앞 구절에 이어 귀 윗부분이 눈썹 높이에 이르거나 그보다 한 치 높다는 뜻으로 보이나 구두와 의미가 불확실하다. 절대 길이와 부위 간 위치 서술이라 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "高，如眉一寸",
+     "observable_ko": "귀 윗부분이 눈썹 높이에 한 치 정도",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치와 절대 길이 서술은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-038",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳高輪廓，亦主安樂。",
+   "translation": "귀가 높고 윤곽(輪廓)이 (있으면) 또한 안락함을 주관한다.",
+   "commentary": "귀의 높이와 귓바퀴 테두리는 레이블 체계에 없다. 문헌은 이를 안락함과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳高",
+     "observable_ko": "귀가 높이 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪廓",
+     "observable_ko": "귓바퀴 테두리가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-039",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳有刀環，五等高官。",
+   "translation": "귀에 도환(刀環, 칼자루 끝의 고리)이 있으면 오등(五等)의 높은 관직이다.",
+   "commentary": "도환(刀環)은 귓바퀴가 고리처럼 감긴 모양을 비유한 것으로 보이나 확정할 수 없다. 오등(五等)은 다섯 등급의 작위를 가리키는 말로 쓰인다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有刀環",
+     "observable_ko": "귀에 칼고리 같은 모양이 있음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유의 형태가 특정되지 않으며 대응 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-040",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳門垂厚，富貴長久。",
+   "translation": "이문(耳門)이 드리우고 두터우면 부귀가 오래간다.",
+   "commentary": "'垂厚'는 귓구멍 어귀보다 귓불이 드리우고 두툼함을 말하는 것으로도 읽혀 부위가 불분명하다. 귀 두께·귓불은 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門垂厚",
+     "observable_ko": "귀(이문 부위)가 드리우고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께·귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-041",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳門容著，家貧易去。",
+   "translation": "이문(耳門)이 (무언가를) 받아들일 만하면 집이 가난하여 쉽게 떠난다.",
+   "commentary": "'容著'과 '易去'의 정확한 뜻은 해석 여지가 커 가장 문자적인 뜻으로 옮겼다. 이문(耳門)의 넓이를 말한다면 귀 전체 폭과는 다른 측정이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門容著",
+     "observable_ko": "귓구멍 어귀가 무언가를 받아들일 만함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'容著'이 어떤 형태를 뜻하는지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-042",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳有毫毛，長壽富貴，兼沒災殃。",
+   "translation": "귀에 호모(毫毛, 가늘고 긴 털)가 있으면 장수하고 부귀하며, 아울러 재앙이 없다.",
+   "commentary": "귀에 난 털은 레이블 체계에 없다. 문헌은 이를 장수·부귀와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳有毫毛",
+     "observable_ko": "귀에 긴 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "털 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-043",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "目能自睹者吉。",
+   "translation": "눈이 스스로 볼 수 있는 자는 길하다.",
+   "commentary": "무엇을 스스로 본다는 것인지 원문에 없으나, 귀에 관한 편이므로 자기 귀를 볼 수 있을 만큼 귀가 앞쪽에 있음을 뜻할 수 있다. 의미가 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "目能自睹",
+     "observable_ko": "눈으로 스스로 (귀를) 볼 수 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "보는 대상과 형태가 원문에 명시되지 않았다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-044",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳如獸耳，自安自止。",
+   "translation": "귀가 짐승의 귀 같으면 스스로 편안하고 스스로 그친다.",
+   "commentary": "짐승 귀에 빗댄 비유로 형태 조건이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳如獸耳",
+     "observable_ko": "짐승의 귀 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-045",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳門寬大，聰明財足；",
+   "translation": "이문(耳門)이 넓고 크면 총명하고 재물이 족하다.",
+   "commentary": "이문(耳門)의 넓이는 귀 전체 폭과 같은 측정이 아니어서 ear_width:wide의 근사 대응으로 두었다. 문헌은 이를 총명함·재물과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門寬大",
+     "observable_ko": "귓구멍 어귀가 넓고 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:wide"
+     ],
+     "reason": "이문(耳門)의 넓이는 귀 전체 폭과 같은 측정이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-046",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳門薄小，命短食少。",
+   "translation": "이문(耳門)이 얇고 작으면 목숨이 짧고 먹을 것이 적다.",
+   "commentary": "이문(耳門)의 크기는 귀 전체 폭과 다른 측정이라 근사 대응으로 두었고, 두께는 레이블 체계에 없다. 단명에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳門薄小",
+     "observable_ko": "귓구멍 어귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_width:narrow"
+     ],
+     "reason": "이문(耳門)의 크기는 귀 전체 폭과 같은 측정이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "薄",
+     "observable_ko": "귀(이문 부위)가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-047",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳白於面，名滿赤縣。",
+   "translation": "귀가 얼굴보다 희면 이름이 적현(赤縣, 중국 천하)에 가득하다.",
+   "commentary": "귀의 빛깔에 관한 서술로 형태가 아니다. 적현(赤縣)은 중국을 가리키는 말로 쓰인다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白於面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-048",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "輪廓分明有墜珠，一生仁義最相宜。",
+   "translation": "윤곽이 분명하고 추주(墜珠, 늘어진 귓불)가 있으면 일생 인의(仁義)가 가장 걸맞다.",
+   "commentary": "귓바퀴 테두리와 늘어진 귓불은 레이블 체계에 없다. 문헌은 이를 인의로운 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "輪廓分明",
+     "observable_ko": "귓바퀴 테두리가 분명함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "有墜珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-049",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "木星得地招文學，自有聲名達帝都。",
+   "translation": "목성(木星)이 땅을 얻으면 문학을 부르고, 절로 명성이 있어 제도(帝都, 황제의 도성)에 이른다.",
+   "commentary": "오성(五星) 배속에서 귀를 목성·금성으로 부르는 관례가 있어 여기서는 귀를 가리키는 것으로 보인다. '得地'는 자리를 잘 잡았다는 품평어라 형태 조건으로 확정할 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "木星得地",
+     "observable_ko": "귀(목성)가 자리를 잘 잡음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'得地'는 품평어로 측정 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-050",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳反無輪最不堪，又如箭羽少資糧，",
+   "translation": "귀가 뒤집히고 윤(輪)이 없으면 가장 견딜 수 없고, 또 화살 깃 같으면 재물과 양식이 적다.",
+   "commentary": "뒤집힌 귓바퀴와 테 없는 귀는 레이블 체계에 없고, 전우(箭羽, 화살 깃)는 이 권의 개별 항목 이름이기도 한 비유다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳反",
+     "observable_ko": "귓바퀴가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無輪",
+     "observable_ko": "귓바퀴 테가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "如箭羽",
+     "observable_ko": "화살 깃 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-051",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "命門空小人無壽，",
+   "translation": "명문(命門)이 비고 작으면 그 사람은 수명이 없다.",
+   "commentary": "명문(命門)은 이 문맥에서 귀 앞 귓구멍 어귀를 가리키는 것으로 보이나 원문은 부위를 밝히지 않는다. 단명에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "命門空小",
+     "observable_ko": "명문(귀 앞 어귀로 추정)이 비고 작음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "명문(命門)의 부위가 원문에서 특정되지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-052",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "青黑皮粗走異鄉，",
+   "translation": "푸르고 검으며 살갗이 거칠면 타향으로 떠돈다.",
+   "commentary": "귀의 빛깔과 피부 결에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "青黑皮粗",
+     "observable_ko": "귀가 푸르고 검으며 피부가 거침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 결·색은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-053",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳生貼肉廓輪成，紅光盡屬富而榮，",
+   "translation": "귀가 살에 붙어 나고 곽(廓)과 윤(輪)이 이루어지며 붉은 광채가 있으면 모두 부유하고 영화로운 데 속한다.",
+   "commentary": "머리에 붙은 귀와 갖추어진 귓바퀴 테는 레이블 체계에 없고, 붉은 광채는 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳生貼肉",
+     "observable_ko": "귀가 머리 쪽 살에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "廓輪成",
+     "observable_ko": "귓바퀴 테가 갖추어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "紅光",
+     "observable_ko": "귀에 붉은 광채",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-054",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "露反薄乾貧苦相，",
+   "translation": "드러나고 뒤집히며 얇고 마르면 가난하고 고생할 상이다.",
+   "commentary": "드러남(露)·뒤집힘(反)·얇음(薄)은 레이블 체계에 없는 귀 형태이고, 마름(乾)은 피부 상태라 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "露反薄",
+     "observable_ko": "귀가 드러나고 뒤집히며 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "乾",
+     "observable_ko": "귀가 마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "피부 건조 상태는 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-055",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "毛長出耳壽千春，",
+   "translation": "털이 길어 귀 밖으로 나오면 수명이 천 번의 봄이다.",
+   "commentary": "귀털은 레이블 체계에 없다. 문헌은 이를 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "毛長出耳",
+     "observable_ko": "귀털이 길어 밖으로 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "털 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-056",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳白過面少高名，",
+   "translation": "귀가 얼굴보다 희면 젊어서 높은 이름이 있다.",
+   "commentary": "귀의 빛깔에 관한 서술로 형태가 아니다. '少'는 '젊어서'로 옮겼으나 '(높은 이름이) 적다'로 읽을 여지도 있다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳白過面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-057",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "前看不見富貴榮，",
+   "translation": "앞에서 보아 (귀가) 보이지 않으면 부귀하고 영화롭다.",
+   "commentary": "정면에서 귀가 보이지 않을 만큼 머리에 붙은 귀를 말하는 것으로 읽힌다. 귀 돌출 정도는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "前看不見",
+     "observable_ko": "정면에서 귀가 보이지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-058",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "前看見耳多貧苦，",
+   "translation": "앞에서 보아 귀가 보이면 대개 가난하고 고생한다.",
+   "commentary": "정면에서 귀가 보일 만큼 벌어진 귀를 말한다. 귀 돌출 정도는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "前看見耳",
+     "observable_ko": "정면에서 귀가 보임",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-059",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "耳前生靨近聾貧。",
+   "translation": "귀 앞에 엽(靨)이 나면 귀먹음과 가난에 가깝다.",
+   "commentary": "'靨'은 보조개를 뜻하나 이 권의 코 항목에서는 점(靨子)의 뜻으로 쓰여 어느 쪽인지 확정할 수 없다. 청각 장애에 관한 건강 주장이다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "耳前生靨",
+     "observable_ko": "귀 앞에 점(또는 보조개)이 남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "'靨'이 점인지 보조개인지 불분명하고 위치도 특정 부위다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-060",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "《詩》曰：「下有垂珠肉色光，更來朝口富榮昌，",
+   "translation": "《시(詩)》에 이르기를: 「아래에 수주(垂珠, 늘어진 귓불)가 있고 살빛이 빛나며, 다시 입 쪽을 향해 오면 부유하고 영화롭고 번창한다,",
+   "commentary": "늘어진 귓불과 입을 향한 귓불은 레이블 체계에 없고 살빛은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "下有垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "肉色光",
+     "observable_ko": "귀 살빛이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "朝口",
+     "observable_ko": "귓불이 입 쪽을 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-061",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "上尖狼耳心多殺，",
+   "translation": "위가 뾰족한 이리의 귀는 마음에 죽이려는 기운이 많다.",
+   "commentary": "귀 윗부분이 뾰족한 형태는 레이블 체계에 없고 이리 귀는 동물 비유다. 살해 성향에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "上尖",
+     "observable_ko": "귀 윗부분이 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "狼耳",
+     "observable_ko": "이리의 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-062",
+   "section": "許負相耳篇",
+   "attributed_to": "許負",
+   "region": "ear",
+   "original_text": "下尖無色亦無良。",
+   "translation": "아래가 뾰족하고 빛깔이 없으면 또한 어짊이 없다.",
+   "commentary": "귀 아랫부분이 뾰족한 형태는 레이블 체계에 없고 빛깔은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "下尖",
+     "observable_ko": "귀 아랫부분이 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "無色",
+     "observable_ko": "귀에 빛깔이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-063",
+   "section": "土耳",
+   "region": "ear",
+   "original_text": "《土耳》堅厚大且肥，潤紅姿色正堪宜。綿長富貴六親足，鶴髮童顏輔佐時。",
+   "translation": "토이(土耳)는 단단하고 두텁고 크며 또 살지고, 윤기 있고 붉은 자태와 빛깔이 바로 마땅하다. 길게 이어지는 부귀에 육친(六親)이 넉넉하고, 학 같은 흰 머리에 아이 같은 얼굴로 (임금을) 보좌하는 때이다.",
+   "commentary": "오행 중 토(土)에 배속한 귀 유형이다. 귀가 큼(大)은 지침상 근사 대응이고, 두께·단단함·살짐은 레이블 체계에 없으며, 빛깔과 백발동안(鶴髮童顏)은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "堅厚",
+     "observable_ko": "귀가 단단하고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "大",
+     "observable_ko": "귀가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long",
+      "ear_width:wide"
+     ],
+     "reason": "크기(大)는 길이·폭 중 어느 쪽인지 특정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "肥",
+     "observable_ko": "귀가 살짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "潤紅姿色",
+     "observable_ko": "귀가 윤기 있고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "鶴髮童顏",
+     "observable_ko": "흰 머리에 젊은 얼굴",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리색과 나이 인상은 형태 레이블이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "family_children",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-064",
+   "section": "棋子耳",
+   "region": "ear",
+   "original_text": "耳圓輪廓喜相扶，白手興家貴可圖。祖業平常自創立，中年富貴若陶朱。",
+   "translation": "귀가 둥글고 윤곽이 서로 받쳐 줌을 기뻐하니, 맨손으로 집안을 일으키고 귀함을 도모할 수 있다. 조상의 업은 평범하나 스스로 세우니, 중년에 부귀가 도주(陶朱)와 같다.",
+   "commentary": "기자이(棋子耳, 바둑돌 귀)는 둥근 귀와 서로 받치는 윤곽으로 묘사되나 귀 모양 항목은 레이블 체계에 없다. 도주(陶朱)는 부자의 대명사로 쓰이는 도주공을 가리킨다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳圓",
+     "observable_ko": "귀가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 모양(둥긂) 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪廓喜相扶",
+     "observable_ko": "귓바퀴 바깥·안쪽 테가 서로 받침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-065",
+   "section": "虎耳",
+   "region": "ear",
+   "original_text": "耳小輪廓又缺破，對面不見始為奇。此耳此人多好險，亦能有貴有威儀。",
+   "translation": "귀가 작고 윤곽이 또 이지러지고 깨졌으며, 마주 보아 보이지 않아야 비로소 기이하다. 이 귀를 가진 이 사람은 험한 것을 좋아함이 많으나, 또한 귀함이 있고 위엄이 있을 수 있다.",
+   "commentary": "호이(虎耳)는 이름은 동물 비유이나 본문에 '작다·윤곽이 깨짐·정면에서 보이지 않음'이 적혀 있다. 귀가 작음(耳小)은 지침상 근사 대응이고 나머지는 레이블 체계에 없으며, '好險'은 음험함을 좋아한다는 낙인성 평가로도 읽힌다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳小",
+     "observable_ko": "귀가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:short",
+      "ear_width:narrow"
+     ],
+     "reason": "크기(小)는 길이·폭 중 어느 쪽인지 특정하지 않는다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪廓又缺破",
+     "observable_ko": "귓바퀴 테두리가 이지러지고 깨짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "對面不見",
+     "observable_ko": "정면에서 귀가 보이지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-066",
+   "section": "箭羽耳",
+   "region": "ear",
+   "original_text": "上節高眉寸有餘，下生箭羽沒垂珠。父手祖財雖萬貫，尤能破散走東西。",
+   "translation": "위 마디는 눈썹보다 한 치 남짓 높고, 아래는 화살 깃처럼 나서 수주(垂珠, 늘어진 귓불)가 없다. 아버지 손의 조상 재산이 비록 만 관이라도 더욱 깨뜨려 흩고 동서로 떠돈다.",
+   "commentary": "귀 윗부분이 눈썹보다 높다는 위치 서술과 귓불이 없다는 서술은 레이블 체계에 없고, 화살 깃은 비유라 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "上節高眉寸有餘",
+     "observable_ko": "귀 윗부분이 눈썹보다 한 치 남짓 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치와 절대 길이 서술은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "下生箭羽",
+     "observable_ko": "귀 아래가 화살 깃 같음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "沒垂珠",
+     "observable_ko": "늘어진 귓불이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-067",
+   "section": "金耳",
+   "region": "ear",
+   "original_text": "高眉一寸天輪小，耳白過面並垂珠，富貴聞名於朝野，只嫌損子末時孤。",
+   "translation": "눈썹보다 한 치 높고 천륜(天輪, 귓바퀴 윗부분)이 작으며, 귀가 얼굴보다 희고 아울러 수주가 있으면, 부귀하고 이름이 조정과 민간에 들리나, 다만 자식을 잃고 말년에 외로움이 꺼려진다.",
+   "commentary": "오행 중 금(金)에 배속한 귀 유형이다. 귀 위치·귓바퀴 윗부분 크기·귓불은 레이블 체계에 없고 흰 빛깔은 관찰 항목이 아니다. 자식을 잃는다는 낙인성 주장이 포함된다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "高眉一寸",
+     "observable_ko": "귀가 눈썹보다 한 치 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 위치와 절대 길이 서술은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "天輪小",
+     "observable_ko": "귓바퀴 윗부분이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳白過面",
+     "observable_ko": "귀가 얼굴보다 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "ear",
+     "evidence": "並垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "family_children",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-068",
+   "section": "木耳",
+   "region": "ear",
+   "original_text": "輪飛廓反六親薄，尤恐資財不足家。」面部若好碌碌度，不然貧苦定虛花。",
+   "translation": "윤(輪)이 날리고 곽(廓)이 뒤집히면 육친(六親)이 박하고, 더욱 재물이 집에 부족할까 두렵다. 얼굴 부위가 만약 좋으면 그럭저럭 지내고, 그렇지 않으면 가난하고 고생하여 반드시 헛꽃이다.",
+   "commentary": "오행 중 목(木)에 배속한 귀 유형이다. 귓바퀴가 벌어지고 뒤집힌 형태는 레이블 체계에 없고, '面部若好'는 얼굴 전체의 품평이라 형태로 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "輪飛廓反",
+     "observable_ko": "귓바퀴 바깥 테가 벌어지고 안쪽 테가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面部若好",
+     "observable_ko": "얼굴 부위가 좋음(품평)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'好'는 품평어로 측정 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-069",
+   "section": "水耳",
+   "region": "ear",
+   "original_text": "《水》耳厚圓高過目，又兼貼腦有垂珠，硬堅紅潤如卓立，宜是人間大丈夫。",
+   "translation": "수이(水耳)는 두텁고 둥글며 높이가 눈을 넘고, 또 머리에 붙고 수주가 있으며, 단단하고 붉고 윤기 있어 우뚝 선 듯하니, 마땅히 인간 세상의 대장부이다.",
+   "commentary": "오행 중 수(水)에 배속한 귀 유형이다. 두께·둥긂·높이·머리에 붙음·귓불·단단함은 모두 레이블 체계에 없고, 붉고 윤기 있음은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "厚圓",
+     "observable_ko": "귀가 두텁고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "高過目",
+     "observable_ko": "귀가 눈보다 높이 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "貼腦",
+     "observable_ko": "귀가 머리에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "有垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "硬堅",
+     "observable_ko": "귀가 단단함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "단단함은 사진으로 알 수 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "紅潤",
+     "observable_ko": "귀가 붉고 윤기 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-070",
+   "section": "火耳",
+   "region": "ear",
+   "original_text": "高眉輪尖廓且反，縱有垂珠不足誇，山根臥蠶若相應，末年無子壽彌加。",
+   "translation": "눈썹보다 높고 윤(輪)이 뾰족하며 곽(廓)이 또 뒤집히면, 비록 수주가 있어도 자랑할 것이 못 된다. 산근(山根, 콧뿌리)과 와잠(臥蠶, 눈 아래 도톰한 부분)이 만약 서로 응하면, 말년에 자식이 없으나 수명은 더욱 늘어난다.",
+   "commentary": "오행 중 화(火)에 배속한 귀 유형이다. 귀 위치·뾰족한 귓바퀴·뒤집힌 안쪽 테·귓불은 레이블 체계에 없고, 산근과 와잠이 '서로 응한다'는 것은 구체적 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "高眉",
+     "observable_ko": "귀가 눈썹보다 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪尖",
+     "observable_ko": "귓바퀴가 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "廓且反",
+     "observable_ko": "귓바퀴 안쪽 테가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "縱有垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "under_eye",
+     "evidence": "山根臥蠶若相應",
+     "observable_ko": "콧뿌리와 와잠이 서로 응함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "under_eye:visible"
+     ],
+     "reason": "'相應'이 어떤 형태를 뜻하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "SQ634M-ear-071",
+   "section": "豬耳",
+   "region": "ear",
+   "original_text": "無廓有輪耳雖厚，或前或後或垂珠。縱然富貴成何濟，晚景多兇災害生。",
+   "translation": "곽(廓)이 없고 윤(輪)이 있으며 귀가 비록 두텁고, 혹 앞으로 혹 뒤로 (향하거나) 혹 수주가 있더라도, 비록 부귀하더라도 무슨 도움이 되겠는가, 만년에 흉함이 많고 재해가 생긴다.",
+   "commentary": "저이(猪耳, 돼지 귀)는 이름은 동물 비유이나 본문의 형태 서술(안쪽 테 없음·두께·방향·귓불)은 모두 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "無廓有輪",
+     "observable_ko": "안쪽 테가 없고 바깥 테가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳雖厚",
+     "observable_ko": "귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "或前或後",
+     "observable_ko": "귀가 앞 또는 뒤로 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 방향 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "或垂珠",
+     "observable_ko": "늘어진 귓불이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-072",
+   "section": "低反耳",
+   "region": "ear",
+   "original_text": "耳低廓反又輪開，年幼刑孤且損財。應有家財也消耗，他年恐死沒人埋。",
+   "translation": "귀가 낮고 곽(廓)이 뒤집히며 또 윤(輪)이 벌어지면, 어려서 형극(刑剋)과 고아됨이 있고 또 재물을 잃는다. 응당 있던 집안 재산도 소모되고, 훗날 죽어도 묻어 줄 사람이 없을까 두렵다.",
+   "commentary": "귀가 낮게 붙음·안쪽 테 뒤집힘·바깥 테 벌어짐은 레이블 체계에 없다. 육친을 해치고 고아가 된다는 것과 죽음에 관한 낙인성 주장이 포함된다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳低",
+     "observable_ko": "귀가 낮게 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "廓反",
+     "observable_ko": "귓바퀴 안쪽 테가 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪開",
+     "observable_ko": "귓바퀴 바깥 테가 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "family_children",
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-073",
+   "section": "垂肩耳",
+   "region": "ear",
+   "original_text": "耳厚廓豐珠橐肩，過眉潤澤色明鮮。頭圓額潤形容異，九五之尊奪尚賢。",
+   "translation": "귀가 두텁고 곽(廓)이 풍성하며 수주가 어깨에 자루처럼 늘어지고, 눈썹을 넘으며 윤택하고 빛깔이 밝고 선명하다. 머리가 둥글고 이마가 윤택하며 생김새가 남다르면, 구오(九五)의 존귀함으로 숭상받는 어진 이를 빼앗는다.",
+   "commentary": "어깨까지 늘어진 귓불은 귀 길이의 과장된 비유라 ear_length:long의 근사 대응으로 두었다. 구오지존(九五之尊)은 제왕의 자리를 가리키는 말이며, 마지막 구 '奪尚賢'의 뜻은 해석 여지가 있다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳厚",
+     "observable_ko": "귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "廓豐",
+     "observable_ko": "귓바퀴 안쪽 테가 풍성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "珠橐肩",
+     "observable_ko": "귓불이 어깨까지 늘어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "ear_length:long"
+     ],
+     "reason": "과장된 비유라 귀 길이의 상대 분위와 같은 기준이 아니다"
+    },
+    {
+     "region": "ear",
+     "evidence": "過眉",
+     "observable_ko": "귀가 눈썹보다 높음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "潤澤色明鮮",
+     "observable_ko": "귀가 윤택하고 빛깔이 선명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭圓",
+     "observable_ko": "머리가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 모양 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額潤",
+     "observable_ko": "이마가 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택은 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "face",
+     "evidence": "形容異",
+     "observable_ko": "생김새가 남다름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 측정 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘(forehead/ear/under_eye/philtrum_definition)에 맞게 'pending' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ634M-ear-074",
+   "section": "貼腦耳",
+   "region": "ear",
+   "original_text": "兩耳貼腦輪廓堅，壓眉壓眼是高賢。六親昆玉皆豪貴，百世流芳樂自然。",
+   "translation": "두 귀가 머리에 붙고 윤곽이 단단하며, 눈썹을 누르고 눈을 누르면 높은 현인이다. 육친과 형제(昆玉)가 모두 호걸스럽고 귀하며, 백세에 향기를 남기고 즐거움이 자연스럽다.",
+   "commentary": "머리에 붙은 귀와 단단한 귓바퀴는 레이블 체계에 없다. '壓眉壓眼'은 지침상 눈썹이 눈을 누르는 형태(brow_eye_gap:close)의 표현과 겹치나, 귀 항목에서는 귀의 높이가 눈썹·눈 높이에 걸침을 뜻할 수도 있어 정확 대응으로 보지 않았다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳貼腦",
+     "observable_ko": "두 귀가 머리에 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "輪廓堅",
+     "observable_ko": "귓바퀴 테두리가 단단함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "壓眉壓眼",
+     "observable_ko": "눈썹·눈을 누름",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_eye_gap:close"
+     ],
+     "reason": "귀 항목에서 귀 높이를 말하는지 눈썹-눈 간격을 말하는지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character",
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-075",
+   "section": "開花耳",
+   "region": "ear",
+   "original_text": "耳輪開花兼又薄，縱然骨破也徒然。巨萬貲財尤破盡，末年貧苦不如前。",
+   "translation": "귓바퀴가 꽃처럼 벌어지고 또 얇으면, 비록 뼈가 깨어져도 헛될 뿐이다. 거만(巨萬)의 재물도 더욱 다 깨뜨리고, 말년에 가난하고 고생하여 예전만 못하다.",
+   "commentary": "꽃처럼 벌어진 귓바퀴와 얇은 귀는 레이블 체계에 없다. '縱然骨破也徒然'의 뜻은 불확실하여 문자 그대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳輪開花",
+     "observable_ko": "귓바퀴가 꽃처럼 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "兼又薄",
+     "observable_ko": "귀가 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "骨破",
+     "observable_ko": "뼈가 깨어짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어떤 뼈의 어떤 형태인지 원문에서 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-076",
+   "section": "扇風耳",
+   "region": "ear",
+   "original_text": "兩耳向前且兜風」，破盡家財及祖宗。少年享福中年敗，末歲貧苦受孤窮。",
+   "translation": "두 귀가 앞을 향하고 또 바람을 안으면, 집안 재산과 조상(의 업)까지 다 깨뜨린다. 소년에는 복을 누리나 중년에 패하고, 말년에는 가난하고 고생하며 외롭고 궁함을 받는다.",
+   "commentary": "선풍이(扇風耳)는 앞으로 벌어져 바람을 받는 귀, 곧 머리에서 크게 벌어진 귀를 가리킨다. 귀 돌출 각도는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "兩耳向前且兜風",
+     "observable_ko": "두 귀가 앞으로 벌어져 바람을 받음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 돌출 각도 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-077",
+   "section": "鼠耳",
+   "region": "ear",
+   "original_text": "鼠耳高飛根反尖，縱然過目不為亨。鼠盜狗偷常不改，末年破敗喪牢檐。",
+   "translation": "쥐 귀는 높이 날리고 뿌리가 뒤집히고 뾰족하니, 비록 눈을 넘더라도 형통하지 못한다. 쥐처럼 훔치고 개처럼 도둑질함을 늘 고치지 못하고, 말년에 깨지고 패하여 옥(牢) 처마 아래에서 죽는다.",
+   "commentary": "서이(鼠耳)는 이름은 동물 비유이고, 본문의 높이 날림·뿌리 뒤집힘·뾰족함·눈을 넘음은 레이블 체계에 없다. 도둑질과 옥사에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "鼠耳",
+     "observable_ko": "쥐의 귀(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "高飛",
+     "observable_ko": "귀가 높이 벌어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "根反尖",
+     "observable_ko": "귀뿌리가 뒤집히고 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "過目",
+     "observable_ko": "귀가 눈높이를 넘음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 높이·위치 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ634M-ear-078",
+   "section": "驢耳",
+   "region": "ear",
+   "original_text": "有輪有廓耳雖厚，又嫌軟弱反垂珠。此耳之人必貧苦，末年凶敗事躊躇。",
+   "translation": "윤(輪)이 있고 곽(廓)이 있으며 귀가 비록 두터우나, 또 연약하고 수주가 뒤집힌 것이 꺼려진다. 이 귀를 가진 사람은 반드시 가난하고 고생하며, 말년에 흉하고 패하여 일이 머뭇거린다.",
+   "commentary": "여이(驢耳, 나귀 귀)는 이름은 동물 비유이고, 본문의 귓바퀴 테·두께·뒤집힌 귓불은 레이블 체계에 없으며 연약함은 사진으로 알 수 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "有輪有廓",
+     "observable_ko": "귓바퀴 바깥·안쪽 테가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀의 이 형태 항목은 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳雖厚",
+     "observable_ko": "귀가 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 두께 항목이 레이블 체계에 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "軟弱",
+     "observable_ko": "귀가 연약함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "연함은 사진으로 알 수 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "反垂珠",
+     "observable_ko": "귓불이 뒤집힘",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귓불 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3285 @@
+{
+ "source_id": "nlc511_63880",
+ "page_range": [
+  1,
+  25
+ ],
+ "transcriber": "AI visual transcription (Claude) from 200-dpi renders and the native-resolution scan images; not OCR; not human-proofread",
+ "pages": [
+  {
+   "pdf_page": 1,
+   "page_type": "cover",
+   "printed_page": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "柳莊相法"
+    }
+   ],
+   "uncertain": [],
+   "note": "Title page: title within a border of decorative ornaments; faint/light impression."
+  },
+  {
+   "pdf_page": 2,
+   "page_type": "cover",
+   "printed_page": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "柳莊相法"
+    }
+   ],
+   "uncertain": [],
+   "note": "Second title page, same design as p1, darker impression."
+  },
+  {
+   "pdf_page": 3,
+   "page_type": "text",
+   "printed_page": "一",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "柳莊相法敍"
+    },
+    {
+     "type": "text",
+     "text": "蓋天以陰陽化生萬物氣以成形而山川草木各有形勢飛走昆蟲咸含性體而人爲萬物之靈同長秉彝其中有貴賤夭壽之異豈天之厚薄於其間哉殊不知天之生人原無區別而人之自生各有所秉非僅命之異而並有相之異也在八字之異在五官總不越五行生尅之理然推命者頗多成書而辨相者少有眞訣柳莊袁先生之神相也識魚龍分玉石無不驗苟非探微窺異焉能不爽纖毫觀其百問對答辭明理順卽不學斯術者亦何妨置諸案頭既可別人之賢愚又可鑑己之否泰所謂鑒貌辨色趨吉避凶豈無補助之益耶茲坊友重鐫以廣世請序於余覽而樂之書此以弁其端乾隆甲申臘月松陵李宸志亭甫書於九思齋書屋"
+    }
+   ],
+   "uncertain": [],
+   "note": "Preface (敍). Running head 柳莊相法敍."
+  },
+  {
+   "pdf_page": 4,
+   "page_type": "other",
+   "printed_page": "二",
+   "blocks": [],
+   "uncertain": [],
+   "note": "End of preface: decorative woodcut vignette of a flower basket (orchids), no text. Running head 柳莊相法敍."
+  },
+  {
+   "pdf_page": 5,
+   "page_type": "toc",
+   "printed_page": "一",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "柳莊相法目錄"
+    },
+    {
+     "type": "text",
+     "text": "十三部位總圖"
+    },
+    {
+     "type": "text",
+     "text": "流年運氣"
+    },
+    {
+     "type": "text",
+     "text": "十二宮圖"
+    },
+    {
+     "type": "text",
+     "text": "五星六曜圖"
+    },
+    {
+     "type": "text",
+     "text": "六府三才圖"
+    },
+    {
+     "type": "text",
+     "text": "九州八卦圖"
+    },
+    {
+     "type": "text",
+     "text": "學堂之圖"
+    },
+    {
+     "type": "text",
+     "text": "男面痣圖"
+    },
+    {
+     "type": "text",
+     "text": "女面痣圖"
+    },
+    {
+     "type": "text",
+     "text": "玉枕之圖"
+    },
+    {
+     "type": "text",
+     "text": "富貴掌圖"
+    },
+    {
+     "type": "text",
+     "text": "八卦掌圖"
+    },
+    {
+     "type": "text",
+     "text": "嬰兒通論"
+    },
+    {
+     "type": "text",
+     "text": "男相女相"
+    },
+    {
+     "type": "text",
+     "text": "五行貴賤"
+    },
+    {
+     "type": "text",
+     "text": "榮枯得失"
+    },
+    {
+     "type": "text",
+     "text": "富貴貧賤"
+    },
+    {
+     "type": "text",
+     "text": "壽夭得失"
+    },
+    {
+     "type": "text",
+     "text": "人同天地"
+    },
+    {
+     "type": "text",
+     "text": "四季推斷"
+    },
+    {
+     "type": "text",
+     "text": "五嶽五官"
+    },
+    {
+     "type": "text",
+     "text": "五官說"
+    },
+    {
+     "type": "text",
+     "text": "金木二星"
+    },
+    {
+     "type": "text",
+     "text": "精神血氣"
+    },
+    {
+     "type": "text",
+     "text": "乾坤賦"
+    },
+    {
+     "type": "text",
+     "text": "頭"
+    },
+    {
+     "type": "text",
+     "text": "眼"
+    },
+    {
+     "type": "text",
+     "text": "耳"
+    },
+    {
+     "type": "text",
+     "text": "眉"
+    },
+    {
+     "type": "text",
+     "text": "鼻"
+    },
+    {
+     "type": "text",
+     "text": "口"
+    },
+    {
+     "type": "text",
+     "text": "項"
+    },
+    {
+     "type": "text",
+     "text": "背"
+    },
+    {
+     "type": "text",
+     "text": "乳"
+    },
+    {
+     "type": "text",
+     "text": "臍"
+    },
+    {
+     "type": "text",
+     "text": "臂"
+    },
+    {
+     "type": "text",
+     "text": "股肱"
+    },
+    {
+     "type": "text",
+     "text": "手"
+    },
+    {
+     "type": "text",
+     "text": "足"
+    },
+    {
+     "type": "text",
+     "text": "髮"
+    }
+   ],
+   "uncertain": [],
+   "note": "Table of contents, four entries per column, one block per entry in reading order. Running head 柳莊相法 目錄."
+  },
+  {
+   "pdf_page": 6,
+   "page_type": "toc",
+   "printed_page": "二",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "痣"
+    },
+    {
+     "type": "text",
+     "text": "毛"
+    },
+    {
+     "type": "text",
+     "text": "骨"
+    },
+    {
+     "type": "text",
+     "text": "肉"
+    },
+    {
+     "type": "text",
+     "text": "人中"
+    },
+    {
+     "type": "text",
+     "text": "鬚髯"
+    },
+    {
+     "type": "text",
+     "text": "枕骨"
+    },
+    {
+     "type": "text",
+     "text": "齒"
+    },
+    {
+     "type": "text",
+     "text": "聲"
+    },
+    {
+     "type": "text",
+     "text": "囊莖"
+    },
+    {
+     "type": "text",
+     "text": "谷道"
+    },
+    {
+     "type": "text",
+     "text": "腰"
+    },
+    {
+     "type": "text",
+     "text": "腿膝"
+    },
+    {
+     "type": "text",
+     "text": "血"
+    },
+    {
+     "type": "text",
+     "text": "斑"
+    },
+    {
+     "type": "text",
+     "text": "總括詞"
+    },
+    {
+     "type": "text",
+     "text": "榮蹇賦"
+    },
+    {
+     "type": "text",
+     "text": "命宮"
+    },
+    {
+     "type": "text",
+     "text": "財帛宮"
+    },
+    {
+     "type": "text",
+     "text": "兄弟宮"
+    },
+    {
+     "type": "text",
+     "text": "田宅宮"
+    },
+    {
+     "type": "text",
+     "text": "男女宮"
+    },
+    {
+     "type": "text",
+     "text": "奴僕宮"
+    },
+    {
+     "type": "text",
+     "text": "妻妾宮"
+    },
+    {
+     "type": "text",
+     "text": "疾厄宮"
+    },
+    {
+     "type": "text",
+     "text": "遷移宮"
+    },
+    {
+     "type": "text",
+     "text": "官祿宮"
+    },
+    {
+     "type": "text",
+     "text": "福德宮"
+    },
+    {
+     "type": "text",
+     "text": "相貌宮"
+    },
+    {
+     "type": "text",
+     "text": "十八上貴相"
+    },
+    {
+     "type": "text",
+     "text": "十八中貴"
+    },
+    {
+     "type": "text",
+     "text": "十八下貴"
+    },
+    {
+     "type": "text",
+     "text": "女人七十二賤"
+    },
+    {
+     "type": "text",
+     "text": "女人三十六刑"
+    },
+    {
+     "type": "text",
+     "text": "女人二十四孤"
+    },
+    {
+     "type": "text",
+     "text": "七賢"
+    },
+    {
+     "type": "text",
+     "text": "四德"
+    },
+    {
+     "type": "text",
+     "text": "女人壽夭"
+    },
+    {
+     "type": "text",
+     "text": "男人孤相"
+    },
+    {
+     "type": "text",
+     "text": "男有十尅"
+    },
+    {
+     "type": "text",
+     "text": "十二刑妻格"
+    },
+    {
+     "type": "text",
+     "text": "蹇通得失"
+    },
+    {
+     "type": "text",
+     "text": "病難困榮"
+    },
+    {
+     "type": "text",
+     "text": "行"
+    },
+    {
+     "type": "text",
+     "text": "坐"
+    },
+    {
+     "type": "text",
+     "text": "臥"
+    },
+    {
+     "type": "text",
+     "text": "食"
+    },
+    {
+     "type": "text",
+     "text": "語"
+    }
+   ],
+   "uncertain": [],
+   "note": "Table of contents continued. Running head 柳莊相法 目錄."
+  },
+  {
+   "pdf_page": 7,
+   "page_type": "toc",
+   "printed_page": "三",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "笑"
+    },
+    {
+     "type": "text",
+     "text": "論形說"
+    },
+    {
+     "type": "text",
+     "text": "總歌"
+    },
+    {
+     "type": "text",
+     "text": "五行賦（以上原本作上卷）"
+    },
+    {
+     "type": "text",
+     "text": "永樂百問（原本作中卷）"
+    },
+    {
+     "type": "text",
+     "text": "四時氣色"
+    },
+    {
+     "type": "text",
+     "text": "掌心氣色"
+    },
+    {
+     "type": "text",
+     "text": "出河口訣"
+    },
+    {
+     "type": "text",
+     "text": "天廣額角〈面部共計三十六條〉"
+    },
+    {
+     "type": "text",
+     "text": "諸吉凶氣色例（以上原本作下卷）"
+    },
+    {
+     "type": "text",
+     "text": "秘傳口訣"
+    }
+   ],
+   "uncertain": [],
+   "note": "Table of contents concluded; the note after 天廣額角 is a small double-column note. Running head 柳莊相法 目錄."
+  },
+  {
+   "pdf_page": 8,
+   "page_type": "other",
+   "printed_page": "四",
+   "blocks": [],
+   "uncertain": [],
+   "note": "End of table of contents: decorative woodcut vignette of a crane, no text. Running head 柳莊相法 目錄."
+  },
+  {
+   "pdf_page": 9,
+   "page_type": "figure",
+   "printed_page": "一",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "十三部位總要圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "天輪"
+    },
+    {
+     "type": "figure_label",
+     "text": "天城"
+    },
+    {
+     "type": "figure_label",
+     "text": "天廓"
+    },
+    {
+     "type": "figure_label",
+     "text": "珠"
+    },
+    {
+     "type": "figure_label",
+     "text": "邊地"
+    },
+    {
+     "type": "figure_label",
+     "text": "輔角"
+    },
+    {
+     "type": "figure_label",
+     "text": "軍門"
+    },
+    {
+     "type": "figure_label",
+     "text": "武庫"
+    },
+    {
+     "type": "figure_label",
+     "text": "尺陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "高廣"
+    },
+    {
+     "type": "figure_label",
+     "text": "內府"
+    },
+    {
+     "type": "figure_label",
+     "text": "左廂"
+    },
+    {
+     "type": "figure_label",
+     "text": "天獄"
+    },
+    {
+     "type": "figure_label",
+     "text": "天中"
+    },
+    {
+     "type": "figure_label",
+     "text": "吊庭"
+    },
+    {
+     "type": "figure_label",
+     "text": "驛馬"
+    },
+    {
+     "type": "figure_label",
+     "text": "戰堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "四煞"
+    },
+    {
+     "type": "figure_label",
+     "text": "上墓"
+    },
+    {
+     "type": "figure_label",
+     "text": "父墓"
+    },
+    {
+     "type": "figure_label",
+     "text": "房心"
+    },
+    {
+     "type": "figure_label",
+     "text": "天府"
+    },
+    {
+     "type": "figure_label",
+     "text": "龍角"
+    },
+    {
+     "type": "figure_label",
+     "text": "日角"
+    },
+    {
+     "type": "figure_label",
+     "text": "天庭"
+    },
+    {
+     "type": "figure_label",
+     "text": "聖賢"
+    },
+    {
+     "type": "figure_label",
+     "text": "山林"
+    },
+    {
+     "type": "figure_label",
+     "text": "重眉"
+    },
+    {
+     "type": "figure_label",
+     "text": "交額"
+    },
+    {
+     "type": "figure_label",
+     "text": "道中"
+    },
+    {
+     "type": "figure_label",
+     "text": "交友"
+    },
+    {
+     "type": "figure_label",
+     "text": "少府"
+    },
+    {
+     "type": "figure_label",
+     "text": "上卿"
+    },
+    {
+     "type": "figure_label",
+     "text": "額角"
+    },
+    {
+     "type": "figure_label",
+     "text": "司空"
+    },
+    {
+     "type": "figure_label",
+     "text": "郊外"
+    },
+    {
+     "type": "figure_label",
+     "text": "彩霞"
+    },
+    {
+     "type": "figure_label",
+     "text": "福堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "華蓋"
+    },
+    {
+     "type": "figure_label",
+     "text": "斧鉞"
+    },
+    {
+     "type": "figure_label",
+     "text": "玄角"
+    },
+    {
+     "type": "figure_label",
+     "text": "輔骨"
+    },
+    {
+     "type": "figure_label",
+     "text": "牛角"
+    },
+    {
+     "type": "figure_label",
+     "text": "虎角"
+    },
+    {
+     "type": "figure_label",
+     "text": "額角"
+    },
+    {
+     "type": "figure_label",
+     "text": "中正"
+    },
+    {
+     "type": "figure_label",
+     "text": "青路"
+    },
+    {
+     "type": "figure_label",
+     "text": "巷路"
+    },
+    {
+     "type": "figure_label",
+     "text": "劫路"
+    },
+    {
+     "type": "figure_label",
+     "text": "嬪門"
+    },
+    {
+     "type": "figure_label",
+     "text": "精舍"
+    },
+    {
+     "type": "figure_label",
+     "text": "酒樽"
+    },
+    {
+     "type": "figure_label",
+     "text": "林中"
+    },
+    {
+     "type": "figure_label",
+     "text": "蠶室"
+    },
+    {
+     "type": "figure_label",
+     "text": "左目"
+    },
+    {
+     "type": "figure_label",
+     "text": "交鎖"
+    },
+    {
+     "type": "figure_label",
+     "text": "印堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "玄武"
+    },
+    {
+     "type": "figure_label",
+     "text": "天門"
+    },
+    {
+     "type": "figure_label",
+     "text": "天井"
+    },
+    {
+     "type": "figure_label",
+     "text": "天倉"
+    },
+    {
+     "type": "figure_label",
+     "text": "神光"
+    },
+    {
+     "type": "figure_label",
+     "text": "奸門"
+    },
+    {
+     "type": "figure_label",
+     "text": "魚尾"
+    },
+    {
+     "type": "figure_label",
+     "text": "少陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "中陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "山根"
+    },
+    {
+     "type": "figure_label",
+     "text": "玉堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "書上"
+    },
+    {
+     "type": "figure_label",
+     "text": "游軍"
+    },
+    {
+     "type": "figure_label",
+     "text": "賊盜"
+    },
+    {
+     "type": "figure_label",
+     "text": "禁房"
+    },
+    {
+     "type": "figure_label",
+     "text": "金匱"
+    },
+    {
+     "type": "figure_label",
+     "text": "少男"
+    },
+    {
+     "type": "figure_label",
+     "text": "中男"
+    },
+    {
+     "type": "figure_label",
+     "text": "長男"
+    },
+    {
+     "type": "figure_label",
+     "text": "夫座"
+    },
+    {
+     "type": "figure_label",
+     "text": "年上"
+    },
+    {
+     "type": "figure_label",
+     "text": "命門"
+    },
+    {
+     "type": "figure_label",
+     "text": "學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "外甥"
+    },
+    {
+     "type": "figure_label",
+     "text": "兄弟"
+    },
+    {
+     "type": "figure_label",
+     "text": "姊妹"
+    },
+    {
+     "type": "figure_label",
+     "text": "姑姨"
+    },
+    {
+     "type": "figure_label",
+     "text": "正面"
+    },
+    {
+     "type": "figure_label",
+     "text": "堂上"
+    },
+    {
+     "type": "figure_label",
+     "text": "歸來"
+    },
+    {
+     "type": "figure_label",
+     "text": "甲匱"
+    },
+    {
+     "type": "figure_label",
+     "text": "壽上"
+    },
+    {
+     "type": "figure_label",
+     "text": "印綬"
+    },
+    {
+     "type": "figure_label",
+     "text": "兵卒"
+    },
+    {
+     "type": "figure_label",
+     "text": "守門"
+    },
+    {
+     "type": "figure_label",
+     "text": "後閣"
+    },
+    {
+     "type": "figure_label",
+     "text": "園倉"
+    },
+    {
+     "type": "figure_label",
+     "text": "典御"
+    },
+    {
+     "type": "figure_label",
+     "text": "宮室"
+    },
+    {
+     "type": "figure_label",
+     "text": "灶上"
+    },
+    {
+     "type": "figure_label",
+     "text": "法令"
+    },
+    {
+     "type": "figure_label",
+     "text": "蘭臺"
+    },
+    {
+     "type": "figure_label",
+     "text": "準頭"
+    },
+    {
+     "type": "figure_label",
+     "text": "懸壁"
+    },
+    {
+     "type": "figure_label",
+     "text": "博士"
+    },
+    {
+     "type": "figure_label",
+     "text": "嬰門"
+    },
+    {
+     "type": "figure_label",
+     "text": "妓堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "僕從"
+    },
+    {
+     "type": "figure_label",
+     "text": "小使"
+    },
+    {
+     "type": "figure_label",
+     "text": "內閣"
+    },
+    {
+     "type": "figure_label",
+     "text": "細廚"
+    },
+    {
+     "type": "figure_label",
+     "text": "帳下"
+    },
+    {
+     "type": "figure_label",
+     "text": "井部"
+    },
+    {
+     "type": "figure_label",
+     "text": "人中"
+    },
+    {
+     "type": "figure_label",
+     "text": "山頭"
+    },
+    {
+     "type": "figure_label",
+     "text": "生門"
+    },
+    {
+     "type": "figure_label",
+     "text": "商旅"
+    },
+    {
+     "type": "figure_label",
+     "text": "家庫"
+    },
+    {
+     "type": "figure_label",
+     "text": "兵蘭"
+    },
+    {
+     "type": "figure_label",
+     "text": "客舍"
+    },
+    {
+     "type": "figure_label",
+     "text": "通衢"
+    },
+    {
+     "type": "figure_label",
+     "text": "委巷"
+    },
+    {
+     "type": "figure_label",
+     "text": "壯隣"
+    },
+    {
+     "type": "figure_label",
+     "text": "閣門"
+    },
+    {
+     "type": "figure_label",
+     "text": "水"
+    },
+    {
+     "type": "figure_label",
+     "text": "星"
+    },
+    {
+     "type": "figure_label",
+     "text": "道路"
+    },
+    {
+     "type": "figure_label",
+     "text": "荒坵"
+    },
+    {
+     "type": "figure_label",
+     "text": "郊郭"
+    },
+    {
+     "type": "figure_label",
+     "text": "酒池"
+    },
+    {
+     "type": "figure_label",
+     "text": "庄田"
+    },
+    {
+     "type": "figure_label",
+     "text": "下墓"
+    },
+    {
+     "type": "figure_label",
+     "text": "林院"
+    },
+    {
+     "type": "figure_label",
+     "text": "外院"
+    },
+    {
+     "type": "figure_label",
+     "text": "孫宅"
+    },
+    {
+     "type": "figure_label",
+     "text": "祖宅"
+    },
+    {
+     "type": "figure_label",
+     "text": "承漿"
+    },
+    {
+     "type": "figure_label",
+     "text": "舟車"
+    },
+    {
+     "type": "figure_label",
+     "text": "大海"
+    },
+    {
+     "type": "figure_label",
+     "text": "鵝鴨"
+    },
+    {
+     "type": "figure_label",
+     "text": "陂池"
+    },
+    {
+     "type": "figure_label",
+     "text": "地庫"
+    },
+    {
+     "type": "figure_label",
+     "text": "坑塹"
+    },
+    {
+     "type": "figure_label",
+     "text": "碓磨"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕"
+    },
+    {
+     "type": "figure_label",
+     "text": "下舍"
+    },
+    {
+     "type": "figure_label",
+     "text": "地閣"
+    },
+    {
+     "type": "figure_label",
+     "text": "月角"
+    },
+    {
+     "type": "figure_label",
+     "text": "奏書"
+    },
+    {
+     "type": "figure_label",
+     "text": "右廂"
+    },
+    {
+     "type": "figure_label",
+     "text": "虎角"
+    },
+    {
+     "type": "figure_label",
+     "text": "繁霞"
+    },
+    {
+     "type": "figure_label",
+     "text": "福堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "驛馬"
+    },
+    {
+     "type": "figure_label",
+     "text": "吊庭"
+    },
+    {
+     "type": "figure_label",
+     "text": "淚堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "臥蠶"
+    },
+    {
+     "type": "figure_label",
+     "text": "長女"
+    },
+    {
+     "type": "figure_label",
+     "text": "中女"
+    },
+    {
+     "type": "figure_label",
+     "text": "少女"
+    },
+    {
+     "type": "figure_label",
+     "text": "命門"
+    },
+    {
+     "type": "figure_label",
+     "text": "人輪"
+    },
+    {
+     "type": "figure_label",
+     "text": "廷尉"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "地輪"
+    },
+    {
+     "type": "figure_label",
+     "text": "珠"
+    },
+    {
+     "type": "figure_label",
+     "text": "懸珠"
+    },
+    {
+     "type": "figure_label",
+     "text": "壽帶"
+    },
+    {
+     "type": "figure_label",
+     "text": "腮"
+    },
+    {
+     "type": "figure_label",
+     "text": "頤"
+    },
+    {
+     "type": "figure_label",
+     "text": "頦"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…姊妹 姑姨 正面…",
+     "reading": "姨",
+     "alternatives": [
+      "娩"
+     ]
+    },
+    {
+     "context": "…印堂 row: 巷路 劫路 嬪門…",
+     "reading": "劫",
+     "alternatives": [
+      "刼"
+     ]
+    },
+    {
+     "context": "…委巷 壯隣 閣門…",
+     "reading": "壯",
+     "alternatives": [
+      "比",
+      "北"
+     ]
+    },
+    {
+     "context": "…懸壁 博士 嬰門 妓堂…",
+     "reading": "嬰",
+     "alternatives": []
+    },
+    {
+     "context": "…天中 row: 左廂 天獄…",
+     "reading": "獄",
+     "alternatives": []
+    },
+    {
+     "context": "…荒坵 郊郭 酒池…",
+     "reading": "郊",
+     "alternatives": []
+    }
+   ],
+   "note": "Face chart of the thirteen positions (labels printed small; read from the native-resolution scan). Order: right-ear labels, then the thirteen horizontal rows top to bottom, each read right to left and ending with the boxed position name (天中 … 地閣; 水星 is split into 水 and 星 on the lips, 蘭臺 sits in the nose wing of the 準頭 row), then the labels on the left half of the face top to bottom. Two labels on the left cheek are illegible: a single large character below 廷尉 (resembles 殼/㲉, perhaps a 顴-type variant) and a two-character label on the cheek outline (first glyph with 目/日 radical, second resembling 乳). Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 10,
+   "page_type": "figure",
+   "printed_page": "二",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "流年運氣部位圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "天輪一二"
+    },
+    {
+     "type": "figure_label",
+     "text": "天城三四"
+    },
+    {
+     "type": "figure_label",
+     "text": "天郭五六七"
+    },
+    {
+     "type": "figure_label",
+     "text": "九十"
+    },
+    {
+     "type": "figure_label",
+     "text": "未"
+    },
+    {
+     "type": "figure_label",
+     "text": "九一"
+    },
+    {
+     "type": "figure_label",
+     "text": "八八"
+    },
+    {
+     "type": "figure_label",
+     "text": "午"
+    },
+    {
+     "type": "figure_label",
+     "text": "八九"
+    },
+    {
+     "type": "figure_label",
+     "text": "八六"
+    },
+    {
+     "type": "figure_label",
+     "text": "巳"
+    },
+    {
+     "type": "figure_label",
+     "text": "八七"
+    },
+    {
+     "type": "figure_label",
+     "text": "申"
+    },
+    {
+     "type": "figure_label",
+     "text": "九十二三"
+    },
+    {
+     "type": "figure_label",
+     "text": "丘陵廿六"
+    },
+    {
+     "type": "figure_label",
+     "text": "山林廿九"
+    },
+    {
+     "type": "figure_label",
+     "text": "邊城廿三"
+    },
+    {
+     "type": "figure_label",
+     "text": "輔角廿"
+    },
+    {
+     "type": "figure_label",
+     "text": "日角十七"
+    },
+    {
+     "type": "figure_label",
+     "text": "繁霞三十三"
+    },
+    {
+     "type": "figure_label",
+     "text": "凌雲廿一"
+    },
+    {
+     "type": "figure_label",
+     "text": "十五"
+    },
+    {
+     "type": "figure_label",
+     "text": "天中十六"
+    },
+    {
+     "type": "figure_label",
+     "text": "天庭十九"
+    },
+    {
+     "type": "figure_label",
+     "text": "司空廿二"
+    },
+    {
+     "type": "figure_label",
+     "text": "中正廿五"
+    },
+    {
+     "type": "figure_label",
+     "text": "印堂廿八"
+    },
+    {
+     "type": "figure_label",
+     "text": "山根四十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "年上四十四"
+    },
+    {
+     "type": "figure_label",
+     "text": "壽上四十五"
+    },
+    {
+     "type": "figure_label",
+     "text": "準頭四十八"
+    },
+    {
+     "type": "figure_label",
+     "text": "紫氣卅二"
+    },
+    {
+     "type": "figure_label",
+     "text": "日角十八"
+    },
+    {
+     "type": "figure_label",
+     "text": "彩霞三十四"
+    },
+    {
+     "type": "figure_label",
+     "text": "輔角廿一"
+    },
+    {
+     "type": "figure_label",
+     "text": "邊城廿四"
+    },
+    {
+     "type": "figure_label",
+     "text": "山林三十"
+    },
+    {
+     "type": "figure_label",
+     "text": "塚墓廿七"
+    },
+    {
+     "type": "figure_label",
+     "text": "辰"
+    },
+    {
+     "type": "figure_label",
+     "text": "八十四五"
+    },
+    {
+     "type": "figure_label",
+     "text": "少陽廿九"
+    },
+    {
+     "type": "figure_label",
+     "text": "中陽廿七"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陽廿五"
+    },
+    {
+     "type": "figure_label",
+     "text": "精舍四十二"
+    },
+    {
+     "type": "figure_label",
+     "text": "陰隲紋"
+    },
+    {
+     "type": "figure_label",
+     "text": "酉"
+    },
+    {
+     "type": "figure_label",
+     "text": "九十四五"
+    },
+    {
+     "type": "figure_label",
+     "text": "顴四十六"
+    },
+    {
+     "type": "figure_label",
+     "text": "虎耳五八"
+    },
+    {
+     "type": "figure_label",
+     "text": "戌"
+    },
+    {
+     "type": "figure_label",
+     "text": "九十六七"
+    },
+    {
+     "type": "figure_label",
+     "text": "歸來六八"
+    },
+    {
+     "type": "figure_label",
+     "text": "腮七四"
+    },
+    {
+     "type": "figure_label",
+     "text": "亥"
+    },
+    {
+     "type": "figure_label",
+     "text": "九十八九"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陰卅六"
+    },
+    {
+     "type": "figure_label",
+     "text": "中陰卅八"
+    },
+    {
+     "type": "figure_label",
+     "text": "少陰四十"
+    },
+    {
+     "type": "figure_label",
+     "text": "光殿四十三"
+    },
+    {
+     "type": "figure_label",
+     "text": "陰隲紋"
+    },
+    {
+     "type": "figure_label",
+     "text": "顴四十七"
+    },
+    {
+     "type": "figure_label",
+     "text": "人輪八九"
+    },
+    {
+     "type": "figure_label",
+     "text": "卯"
+    },
+    {
+     "type": "figure_label",
+     "text": "八十二三"
+    },
+    {
+     "type": "figure_label",
+     "text": "天輪十十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "地輪十二十三十四"
+    },
+    {
+     "type": "figure_label",
+     "text": "虎耳五九"
+    },
+    {
+     "type": "figure_label",
+     "text": "寅"
+    },
+    {
+     "type": "figure_label",
+     "text": "八十八十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "歸來六九"
+    },
+    {
+     "type": "figure_label",
+     "text": "腮七五"
+    },
+    {
+     "type": "figure_label",
+     "text": "四九"
+    },
+    {
+     "type": "figure_label",
+     "text": "五十"
+    },
+    {
+     "type": "figure_label",
+     "text": "五十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "法令五六"
+    },
+    {
+     "type": "figure_label",
+     "text": "食倉五四"
+    },
+    {
+     "type": "figure_label",
+     "text": "仙庫五二"
+    },
+    {
+     "type": "figure_label",
+     "text": "仙庫五三"
+    },
+    {
+     "type": "figure_label",
+     "text": "祿倉五五"
+    },
+    {
+     "type": "figure_label",
+     "text": "法令五七"
+    },
+    {
+     "type": "figure_label",
+     "text": "六十"
+    },
+    {
+     "type": "figure_label",
+     "text": "陂池六四"
+    },
+    {
+     "type": "figure_label",
+     "text": "金縷六六"
+    },
+    {
+     "type": "figure_label",
+     "text": "頌"
+    },
+    {
+     "type": "figure_label",
+     "text": "七十"
+    },
+    {
+     "type": "figure_label",
+     "text": "承漿"
+    },
+    {
+     "type": "figure_label",
+     "text": "六十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "金縷六七"
+    },
+    {
+     "type": "figure_label",
+     "text": "鵝鴨六五"
+    },
+    {
+     "type": "figure_label",
+     "text": "七十一"
+    },
+    {
+     "type": "figure_label",
+     "text": "七六"
+    },
+    {
+     "type": "figure_label",
+     "text": "地閣"
+    },
+    {
+     "type": "figure_label",
+     "text": "七七"
+    },
+    {
+     "type": "figure_label",
+     "text": "子"
+    },
+    {
+     "type": "figure_label",
+     "text": "頦"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕七二"
+    },
+    {
+     "type": "figure_label",
+     "text": "地庫六二"
+    },
+    {
+     "type": "figure_label",
+     "text": "地庫六三"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕七三"
+    },
+    {
+     "type": "figure_label",
+     "text": "丑"
+    },
+    {
+     "type": "figure_label",
+     "text": "七八七九"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "太陽廿五 / 中陽廿七 / 少陽廿九 / 凌雲廿一 / 丘陵廿六 / 山林廿九",
+     "reading": "廿",
+     "alternatives": [
+      "卅"
+     ]
+    },
+    {
+     "context": "太陰卅六 / 中陰卅八 / 紫氣卅二",
+     "reading": "卅",
+     "alternatives": [
+      "廿"
+     ]
+    },
+    {
+     "context": "…午 (right of the circled 午): 八八",
+     "reading": "八八",
+     "alternatives": [
+      "八"
+     ]
+    },
+    {
+     "context": "…左 仙庫五三…",
+     "reading": "庫",
+     "alternatives": [
+      "廩"
+     ]
+    },
+    {
+     "context": "…歸來六九 腮七五 (left side)",
+     "reading": "腮",
+     "alternatives": [
+      "膰"
+     ]
+    },
+    {
+     "context": "chin centre: 七十 / 六十一 / 七十一 / 七六 / 七七",
+     "reading": "七十",
+     "alternatives": []
+    }
+   ],
+   "note": "Face chart of yearly fortune positions with ages in small, often compressed numerals (two numerals stacked in one character space, e.g. 廿/卅 + digit; 八六, 九十 etc.). Labels read from the native-resolution scan; a name and the age printed under or beside it are joined into one label (e.g. 邊城廿三); small horizontal age numerals are read right to left. Circled earthly-branch markers (子丑寅卯辰巳午未申酉戌亥) are given as single-character labels. Order: right ear, top row, then zones right to left / top to bottom. The 廿 vs 卅 strokes in the compressed numerals are often not distinguishable in this 1-bit scan. In the chin centre the loose numerals around 承漿/地閣 (七, 十, 六, 一十, 七十一, 七六, 七七) are grouped by proximity; 頌 and 堂 are printed on either side of 承 in one horizontal row. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 11,
+   "page_type": "figure",
+   "printed_page": "三",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "十二宮分之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "福德"
+    },
+    {
+     "type": "figure_label",
+     "text": "官祿"
+    },
+    {
+     "type": "figure_label",
+     "text": "福德"
+    },
+    {
+     "type": "figure_label",
+     "text": "兄弟"
+    },
+    {
+     "type": "figure_label",
+     "text": "命宮"
+    },
+    {
+     "type": "figure_label",
+     "text": "兄弟"
+    },
+    {
+     "type": "figure_label",
+     "text": "遷移"
+    },
+    {
+     "type": "figure_label",
+     "text": "田宅"
+    },
+    {
+     "type": "figure_label",
+     "text": "疾厄"
+    },
+    {
+     "type": "figure_label",
+     "text": "田宅"
+    },
+    {
+     "type": "figure_label",
+     "text": "遷移"
+    },
+    {
+     "type": "figure_label",
+     "text": "男女"
+    },
+    {
+     "type": "figure_label",
+     "text": "男女"
+    },
+    {
+     "type": "figure_label",
+     "text": "妻妾"
+    },
+    {
+     "type": "figure_label",
+     "text": "財帛"
+    },
+    {
+     "type": "figure_label",
+     "text": "妻妾"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕"
+    },
+    {
+     "type": "heading",
+     "text": "五星六曜五嶽四瀆之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓星"
+    },
+    {
+     "type": "figure_label",
+     "text": "命門"
+    },
+    {
+     "type": "figure_label",
+     "text": "江瀆"
+    },
+    {
+     "type": "figure_label",
+     "text": "南嶽"
+    },
+    {
+     "type": "figure_label",
+     "text": "衡山"
+    },
+    {
+     "type": "figure_label",
+     "text": "火星"
+    },
+    {
+     "type": "figure_label",
+     "text": "羅睺"
+    },
+    {
+     "type": "figure_label",
+     "text": "計都"
+    },
+    {
+     "type": "figure_label",
+     "text": "月孛"
+    },
+    {
+     "type": "figure_label",
+     "text": "中嶽"
+    },
+    {
+     "type": "figure_label",
+     "text": "土星"
+    },
+    {
+     "type": "figure_label",
+     "text": "濟"
+    },
+    {
+     "type": "figure_label",
+     "text": "紫氣"
+    },
+    {
+     "type": "figure_label",
+     "text": "嵩山"
+    },
+    {
+     "type": "figure_label",
+     "text": "河"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陰"
+    },
+    {
+     "type": "figure_label",
+     "text": "河"
+    },
+    {
+     "type": "figure_label",
+     "text": "東嶽泰山"
+    },
+    {
+     "type": "figure_label",
+     "text": "西嶽華山"
+    },
+    {
+     "type": "figure_label",
+     "text": "金星"
+    },
+    {
+     "type": "figure_label",
+     "text": "命門"
+    },
+    {
+     "type": "figure_label",
+     "text": "江瀆"
+    },
+    {
+     "type": "figure_label",
+     "text": "水星"
+    },
+    {
+     "type": "figure_label",
+     "text": "北嶽"
+    },
+    {
+     "type": "figure_label",
+     "text": "恒山"
+    },
+    {
+     "type": "heading",
+     "text": "六府三才三停之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "天倉上府"
+    },
+    {
+     "type": "figure_label",
+     "text": "天"
+    },
+    {
+     "type": "figure_label",
+     "text": "上停"
+    },
+    {
+     "type": "figure_label",
+     "text": "天倉上府"
+    },
+    {
+     "type": "figure_label",
+     "text": "顴骨中府"
+    },
+    {
+     "type": "figure_label",
+     "text": "人"
+    },
+    {
+     "type": "figure_label",
+     "text": "中停"
+    },
+    {
+     "type": "figure_label",
+     "text": "顴骨中府"
+    },
+    {
+     "type": "figure_label",
+     "text": "頦骨下府"
+    },
+    {
+     "type": "figure_label",
+     "text": "下停"
+    },
+    {
+     "type": "figure_label",
+     "text": "頦骨下府"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "right-ear label of 五星六曜圖: 〓星命門江瀆",
+     "reading": "〓星",
+     "alternatives": [
+      "木星",
+      "金星"
+     ]
+    },
+    {
+     "context": "left-ear label of 五星六曜圖: 金星命門江瀆",
+     "reading": "金星",
+     "alternatives": [
+      "木星"
+     ]
+    },
+    {
+     "context": "ear labels …命門江瀆",
+     "reading": "江瀆",
+     "alternatives": [
+      "淮瀆"
+     ]
+    },
+    {
+     "context": "nose column …土星濟",
+     "reading": "濟",
+     "alternatives": [
+      "濟瀆"
+     ]
+    },
+    {
+     "context": "…中嶽…",
+     "reading": "中嶽",
+     "alternatives": []
+    },
+    {
+     "context": "…頦骨下府 (both sides)",
+     "reading": "頦",
+     "alternatives": [
+      "頤"
+     ]
+    },
+    {
+     "context": "…北嶽恒山",
+     "reading": "恒",
+     "alternatives": [
+      "恆"
+     ]
+    }
+   ],
+   "note": "Figure page with three face charts: 十二宮分之圖 (top), 五星六曜五嶽四瀆之圖 (lower right) and 六府三才三停之圖 (lower left). Horizontal two-character labels (e.g. printed 弟兄, 宅田, 女男, 星水) are given in right-to-left reading. On the 五星六曜 chart 太陰 / 太陽 and 河 are printed as separate horizontal labels under each eye; the ear labels are tiny and partly illegible. In the 三停 chart the circle at the chin (下停) is empty; 天 and 人 are in circles. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 12,
+   "page_type": "figure",
+   "printed_page": "四",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "九州八卦干支之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "未"
+    },
+    {
+     "type": "figure_label",
+     "text": "午"
+    },
+    {
+     "type": "figure_label",
+     "text": "巳"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "丁"
+    },
+    {
+     "type": "figure_label",
+     "text": "離"
+    },
+    {
+     "type": "figure_label",
+     "text": "丙"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "申"
+    },
+    {
+     "type": "figure_label",
+     "text": "乙"
+    },
+    {
+     "type": "figure_label",
+     "text": "戊己"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "酉"
+    },
+    {
+     "type": "figure_label",
+     "text": "卯"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "甲"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "壬"
+    },
+    {
+     "type": "figure_label",
+     "text": "癸"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "冀"
+    },
+    {
+     "type": "figure_label",
+     "text": "坎"
+    },
+    {
+     "type": "figure_label",
+     "text": "子"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "亥"
+    },
+    {
+     "type": "figure_label",
+     "text": "丑"
+    },
+    {
+     "type": "heading",
+     "text": "五官之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "保壽官"
+    },
+    {
+     "type": "figure_label",
+     "text": "保壽官"
+    },
+    {
+     "type": "figure_label",
+     "text": "監察官"
+    },
+    {
+     "type": "figure_label",
+     "text": "監察官"
+    },
+    {
+     "type": "figure_label",
+     "text": "採聽官"
+    },
+    {
+     "type": "figure_label",
+     "text": "審辨官"
+    },
+    {
+     "type": "figure_label",
+     "text": "採聽官"
+    },
+    {
+     "type": "figure_label",
+     "text": "出納官"
+    },
+    {
+     "type": "heading",
+     "text": "四學堂八學堂之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "高明學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "高廣學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "祿學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "班筍學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "班筍學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "聰明學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "外學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "明秀學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "官學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "光大學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "明秀學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "官學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "外學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "聰明學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "忠信學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "內學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "廣德學堂"
+    },
+    {
+     "type": "heading",
+     "text": "論人面痣之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "不宜入山"
+    },
+    {
+     "type": "figure_label",
+     "text": "客亡"
+    },
+    {
+     "type": "figure_label",
+     "text": "大富"
+    },
+    {
+     "type": "figure_label",
+     "text": "好官"
+    },
+    {
+     "type": "figure_label",
+     "text": "性暴"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨父"
+    },
+    {
+     "type": "figure_label",
+     "text": "公事"
+    },
+    {
+     "type": "figure_label",
+     "text": "大吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "巨富"
+    },
+    {
+     "type": "figure_label",
+     "text": "自夭"
+    },
+    {
+     "type": "figure_label",
+     "text": "大富"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "富官"
+    },
+    {
+     "type": "figure_label",
+     "text": "文官"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "富"
+    },
+    {
+     "type": "figure_label",
+     "text": "危"
+    },
+    {
+     "type": "figure_label",
+     "text": "官"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "破"
+    },
+    {
+     "type": "figure_label",
+     "text": "財〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "官事"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "聰明"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "少女"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨妻"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨男女"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨夫"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨女"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨子"
+    },
+    {
+     "type": "figure_label",
+     "text": "破"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "聰明"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓〓大水"
+    },
+    {
+     "type": "figure_label",
+     "text": "口舌"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨奴"
+    },
+    {
+     "type": "figure_label",
+     "text": "餓妃"
+    },
+    {
+     "type": "figure_label",
+     "text": "少亡"
+    },
+    {
+     "type": "figure_label",
+     "text": "主酒"
+    },
+    {
+     "type": "figure_label",
+     "text": "食路明"
+    },
+    {
+     "type": "figure_label",
+     "text": "富"
+    },
+    {
+     "type": "figure_label",
+     "text": "貴"
+    },
+    {
+     "type": "heading",
+     "text": "男人面痣之圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "不宜出入"
+    },
+    {
+     "type": "figure_label",
+     "text": "兵死"
+    },
+    {
+     "type": "figure_label",
+     "text": "大官"
+    },
+    {
+     "type": "figure_label",
+     "text": "好官"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨父母"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "聰明"
+    },
+    {
+     "type": "figure_label",
+     "text": "散財"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "水厄"
+    },
+    {
+     "type": "figure_label",
+     "text": "官"
+    },
+    {
+     "type": "figure_label",
+     "text": "文貴"
+    },
+    {
+     "type": "figure_label",
+     "text": "好"
+    },
+    {
+     "type": "figure_label",
+     "text": "少子"
+    },
+    {
+     "type": "figure_label",
+     "text": "子孫"
+    },
+    {
+     "type": "figure_label",
+     "text": "喪子"
+    },
+    {
+     "type": "figure_label",
+     "text": "白身"
+    },
+    {
+     "type": "figure_label",
+     "text": "不利"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "水厄"
+    },
+    {
+     "type": "figure_label",
+     "text": "不善"
+    },
+    {
+     "type": "figure_label",
+     "text": "妨財"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "得人財"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "水厄"
+    },
+    {
+     "type": "figure_label",
+     "text": "厄"
+    },
+    {
+     "type": "figure_label",
+     "text": "凶"
+    },
+    {
+     "type": "figure_label",
+     "text": "客死"
+    },
+    {
+     "type": "figure_label",
+     "text": "不富牛馬"
+    },
+    {
+     "type": "figure_label",
+     "text": "善"
+    },
+    {
+     "type": "figure_label",
+     "text": "吉"
+    },
+    {
+     "type": "figure_label",
+     "text": "酒色"
+    },
+    {
+     "type": "figure_label",
+     "text": "貴"
+    },
+    {
+     "type": "figure_label",
+     "text": "富"
+    },
+    {
+     "type": "figure_label",
+     "text": "公侯"
+    },
+    {
+     "type": "figure_label",
+     "text": "貴"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "九州八卦干支之圖 labels",
+     "reading": "未 / 丁 / 離 / 丙 / 乙 / 冀 / 坎",
+     "alternatives": []
+    },
+    {
+     "context": "論人面痣之圖: inner corner of left eye 財〓",
+     "reading": "財",
+     "alternatives": []
+    },
+    {
+     "context": "論人面痣之圖: 餓妃",
+     "reading": "妃",
+     "alternatives": [
+      "死"
+     ]
+    },
+    {
+     "context": "論人面痣之圖: 食路明",
+     "reading": "路",
+     "alternatives": [
+      "祿"
+     ]
+    },
+    {
+     "context": "男人面痣之圖: 官 文貴 (beside right eye)",
+     "reading": "官",
+     "alternatives": [
+      "宮"
+     ]
+    },
+    {
+     "context": "男人面痣之圖: 子孫 / 喪子 / 白身",
+     "reading": "孫 / 喪 / 白",
+     "alternatives": []
+    },
+    {
+     "context": "男人面痣之圖: 不利 / 不善",
+     "reading": "利 / 善",
+     "alternatives": [
+      "刻",
+      "喜"
+     ]
+    },
+    {
+     "context": "男人面痣之圖: 散財 / 得人財 / 客死 / 酒色",
+     "reading": "散 / 得 / 客 / 色",
+     "alternatives": []
+    },
+    {
+     "context": "男人面痣之圖 left cheek and nose: 凶",
+     "reading": "凶",
+     "alternatives": []
+    }
+   ],
+   "note": "Figure page with five face charts: 九州八卦干支之圖, 五官之圖, 四學堂八學堂之圖 (top row, right to left) and 論人面痣之圖, 男人面痣之圖 (bottom row, right to left). Horizontal labels printed left-to-right in mirror order (e.g. 官壽保, 堂學明高, 侯公) are given in right-to-left reading. The 九州八卦干支 labels (trigram names, the nine provinces and stems/branches) are small and badly blurred; only isolated characters could be read, the rest are 〓. The two mole charts have many small, faint labels next to rows of black dots (the dots are mole markers and are not transcribed); readings there are low-confidence. Ear labels of the left faces are partly cut by the adjacent chart. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 13,
+   "page_type": "figure",
+   "printed_page": "五",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓枕"
+    },
+    {
+     "type": "figure_label",
+     "text": "月"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "diamond-shaped label at centre of the back of the head: 〓枕",
+     "reading": "枕",
+     "alternatives": []
+    }
+   ],
+   "note": "Back-of-head chart (玉枕 type). Only the single character 圖 is printed as the title above the chart (no other title characters visible). The chart carries about a dozen tiny labels in boxes, crescents, horn shapes and an oval/diamond (two crescents, two horn shapes, two upright boxes, a box at the bottom, small squares); they are blotted in the scan and illegible except 月 in the left crescent and the second character 枕 in the central diamond. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 14,
+   "page_type": "figure",
+   "printed_page": "六",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "富貴掌圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "火起三年"
+    },
+    {
+     "type": "figure_label",
+     "text": "禍生晚景"
+    },
+    {
+     "type": "figure_label",
+     "text": "好〓行帝王"
+    },
+    {
+     "type": "figure_label",
+     "text": "羅"
+    },
+    {
+     "type": "figure_label",
+     "text": "福峰"
+    },
+    {
+     "type": "figure_label",
+     "text": "祿峰"
+    },
+    {
+     "type": "figure_label",
+     "text": "德峰"
+    },
+    {
+     "type": "figure_label",
+     "text": "燕"
+    },
+    {
+     "type": "figure_label",
+     "text": "魚字"
+    },
+    {
+     "type": "figure_label",
+     "text": "蛛文"
+    },
+    {
+     "type": "figure_label",
+     "text": "網"
+    },
+    {
+     "type": "figure_label",
+     "text": "震"
+    },
+    {
+     "type": "figure_label",
+     "text": "蚕文"
+    },
+    {
+     "type": "figure_label",
+     "text": "獸文"
+    },
+    {
+     "type": "figure_label",
+     "text": "交錯文"
+    },
+    {
+     "type": "figure_label",
+     "text": "四"
+    },
+    {
+     "type": "figure_label",
+     "text": "艮"
+    },
+    {
+     "type": "figure_label",
+     "text": "門"
+    },
+    {
+     "type": "figure_label",
+     "text": "乾"
+    },
+    {
+     "type": "figure_label",
+     "text": "坎"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "middle finger, third column: 好〓行帝王",
+     "reading": "帝王",
+     "alternatives": [
+      "常玉"
+     ]
+    },
+    {
+     "context": "middle finger, second column: 禍生晚景",
+     "reading": "禍",
+     "alternatives": [
+      "福"
+     ]
+    },
+    {
+     "context": "below 祿峰: 魚字 (two small characters on a line)",
+     "reading": "魚字",
+     "alternatives": [
+      "龜宗"
+     ]
+    },
+    {
+     "context": "right side of palm below 福峰: 燕",
+     "reading": "燕",
+     "alternatives": []
+    },
+    {
+     "context": "thumb mound: 網",
+     "reading": "網",
+     "alternatives": [
+      "細"
+     ]
+    },
+    {
+     "context": "centre: 蚕文 / 獸文 (printed left to right as 文獸文蚕)",
+     "reading": "蚕 / 獸",
+     "alternatives": []
+    },
+    {
+     "context": "centre: 交錯文",
+     "reading": "交",
+     "alternatives": [
+      "文"
+     ]
+    }
+   ],
+   "note": "Palm chart. Trigram names 震, 艮, 乾, 坎 are placed around the palm; a grid (井-like hatching) and line strokes on the palm are drawings, not text. The three-column inscription on the middle finger is tiny and blurred. 蛛文 is in an oval, printed left to right (文蛛). Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 15,
+   "page_type": "figure",
+   "printed_page": "七",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "八卦掌圖"
+    },
+    {
+     "type": "figure_label",
+     "text": "賓"
+    },
+    {
+     "type": "figure_label",
+     "text": "主"
+    },
+    {
+     "type": "figure_label",
+     "text": "坤母"
+    },
+    {
+     "type": "figure_label",
+     "text": "妻妾男子"
+    },
+    {
+     "type": "figure_label",
+     "text": "兄"
+    },
+    {
+     "type": "figure_label",
+     "text": "天紋"
+    },
+    {
+     "type": "figure_label",
+     "text": "奴僕"
+    },
+    {
+     "type": "figure_label",
+     "text": "明堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "離"
+    },
+    {
+     "type": "figure_label",
+     "text": "功名"
+    },
+    {
+     "type": "figure_label",
+     "text": "太陽"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓"
+    },
+    {
+     "type": "figure_label",
+     "text": "少年財帛"
+    },
+    {
+     "type": "figure_label",
+     "text": "乾父"
+    },
+    {
+     "type": "figure_label",
+     "text": "長子"
+    },
+    {
+     "type": "figure_label",
+     "text": "紋"
+    },
+    {
+     "type": "figure_label",
+     "text": "堆峰"
+    },
+    {
+     "type": "figure_label",
+     "text": "孔子眼"
+    },
+    {
+     "type": "figure_label",
+     "text": "官貴"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓峰"
+    },
+    {
+     "type": "figure_label",
+     "text": "艮兄弟"
+    },
+    {
+     "type": "figure_label",
+     "text": "覆船"
+    },
+    {
+     "type": "figure_label",
+     "text": "紋"
+    },
+    {
+     "type": "figure_label",
+     "text": "財帛"
+    },
+    {
+     "type": "figure_label",
+     "text": "根基"
+    },
+    {
+     "type": "figure_label",
+     "text": "血財"
+    },
+    {
+     "type": "figure_label",
+     "text": "〓門"
+    },
+    {
+     "type": "figure_label",
+     "text": "震"
+    },
+    {
+     "type": "figure_label",
+     "text": "學堂"
+    },
+    {
+     "type": "figure_label",
+     "text": "田宅"
+    },
+    {
+     "type": "figure_label",
+     "text": "坎"
+    },
+    {
+     "type": "figure_label",
+     "text": "祖業"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "right edge of palm below 坤母: 妻妾男子",
+     "reading": "男",
+     "alternatives": []
+    },
+    {
+     "context": "small character between 少年 and 太陽",
+     "reading": "〓",
+     "alternatives": [
+      "財"
+     ]
+    },
+    {
+     "context": "palm centre: 〓峰 (first glyph blurred, 王/玉 radical)",
+     "reading": "〓",
+     "alternatives": []
+    },
+    {
+     "context": "palm centre: 堆峰",
+     "reading": "堆",
+     "alternatives": []
+    },
+    {
+     "context": "palm centre: 覆船 (printed left to right as 船覆)",
+     "reading": "覆",
+     "alternatives": []
+    },
+    {
+     "context": "thumb base: 〓門",
+     "reading": "〓",
+     "alternatives": []
+    }
+   ],
+   "note": "Palm chart of the eight trigrams (hand drawn with the thumb on the left). Labels read right to left, top to bottom; 明堂 is printed with 明 lower right of 堂. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 16,
+   "page_type": "other",
+   "printed_page": "八",
+   "blocks": [],
+   "uncertain": [],
+   "note": "Decorative woodcut vignette of a crane in flight, no text (end of the chart section). Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 17,
+   "page_type": "text",
+   "printed_page": "一",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "柳莊相法"
+    },
+    {
+     "type": "heading",
+     "text": "明尙寶司卿袁忠徹秘傳"
+    },
+    {
+     "type": "text",
+     "text": "未出腹中豫知貴賤○解曰此言腹中之妊凡男抱母女背母或上或下爲夭胎或左或右爲壽胎貴胎動必停勻自無毒病賤胎腹內多動母常有病廣鑑先生曰男胎母氣足神常清女胎母氣不足神多亂平常聲清懷孕必生福壽之男平常聲濁懷孕必生孤苦之子文曰唇白多產難臨盆欲安靜大富貴者胎自安賤者胎亂動壽者母必安夭者母多病壽者母印紅夭者母唇白貴者母精光賤者母神散"
+    },
+    {
+     "type": "text",
+     "text": "在腹先知男女○解曰男胎動必勻停母雙眼下白瑩準明印潤女胎眼上青暗又主難產"
+    },
+    {
+     "type": "text",
+     "text": "臨盆可定日期○解曰印堂紅主丙丁日火旺必生男準頭黃主戊己日土旺必生男水星口角明主壬癸日水旺必生女雙顴明主甲乙日木旺必生男天倉下庫明主"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…孤苦之子文曰唇白多產難…",
+     "reading": "文",
+     "alternatives": [
+      "又"
+     ]
+    },
+    {
+     "context": "…爲夭胎… / …夭者母多病… / …夭者母唇白…",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "Start of the main text (卷 not marked). Paragraphs begin at the top of a column; continuation columns are indented one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 18,
+   "page_type": "text",
+   "printed_page": "二",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "庚辛日金旺生女必難產是男不妨凡面上俱暗色不開還有幾日只待何處明方許臨盆忽然一明復一暗必死無疑凡女人臨產之時看右手心紅在乾宮貴子紅在坎宮富子又好養在掌心爲明堂紅潤必生福壽之男若是青色必產破家之裔再青再暗未免難產以前俱論產婦之訣"
+    },
+    {
+     "type": "text",
+     "text": "莫道嬰兒難相一生出腹可知○解曰凡下地小兒紅黑色爲妙白色主月內身亡身生白瘖滑如糊因臨盆房事多傷主生瘡疾多病有七件好養男兒頭髮齊眉好養多福利頭皮寬好養大貴鼻孔出氣閉口睡好養鼻高唇紅厚好養有神啼得先高後響大者好養陰囊大縐黑而有弦者好養有二十一件不好養頭皮急三歲關面大無鼻樑一歲關鼻樑不起一歲至死睛如黑豆身不滿週睛圓如雞一週可知耳軟如綿三歲不全沒有脚根難過二春身大後小一週難保肉重如泥骨少必夭三歲死穀道無縫難過一春唇薄如紙一歲必死耳後無根不滿三春耳後小高骨又名玉枕〈一名壽根〉書云玉枕不成能言而亡正合此也沼有輔弼只好二七十四歲出耳"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…生白瘖滑如糊…",
+     "reading": "瘖",
+     "alternatives": []
+    },
+    {
+     "context": "…又名玉枕〈一名壽根〉書云…",
+     "reading": "〈一名壽根〉",
+     "alternatives": []
+    },
+    {
+     "context": "…正合此也沼有輔弼…",
+     "reading": "沼",
+     "alternatives": []
+    },
+    {
+     "context": "…必夭三歲死…",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "First paragraph continues from p17. The interlinear note after 玉枕 is a small double-column note (right column 一名, left column 壽根). Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 19,
+   "page_type": "text",
+   "printed_page": "三",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "行天停上此骨在髮邊如無此骨者十四歲主死肉多骨軟一週不滿頭大頂細一週不滿雙目無神不過三春眼如含淚只好二歲頭尖又薄五歲妨厄腹大肚小三歲必了〈此言無腿肚也〉髮黃又疎二歲而死無眉齒早三歲而死凡齒一週內生必好養一週外生大貴五六月生主死下齒先生者極多如上齒先生者主大聰明主妨母○凡小兒欲頂平耳正兼硬聲高氣足神爽方好書云神昏氣暗必是貧窮之漢第一件總論凡小兒欲聲高清响喨而堅者爲妙非貴卽富以前相下地百日內之訣"
+    },
+    {
+     "type": "text",
+     "text": "三日知一生○解曰此言下地小兒乃原秉氣極驗後來恐乳好養起來轉難看三日若唇紅又厚必貴耳硬必貴一連三四聲不換氣大富貴啼叫自動大來有力善武睛轉看者必貴唇薄不爲妙自能動頭者是能人啼叫無力者一生不如"
+    },
+    {
+     "type": "text",
+     "text": "三歲定八十○解曰此言三歲已不食乳好看了五官六府三停骨格性情賢愚自見小兒骨堅者精壯神足一生病少寐口合語不露齒乃福壽到老之相俗說三歲定老相上原有此說三四歲之童汗宜香聲宜清响眉宜黑髮宜細黑黃細亦不妙耳"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…一生病少寐口合…",
+     "reading": "寐",
+     "alternatives": []
+    }
+   ],
+   "note": "First block continues the paragraph from p18. The note after 三歲必了 is a small double-column note (此言無 / 腿肚也). Paragraph-initial columns (三日知一生, 三歲定八十) are raised one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 20,
+   "page_type": "text",
+   "printed_page": "四",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "低百無一成多因髮生角主愚賤生天停主賢貴大概相童之法要神血氣骨爲五形之理神欲清而欲明氣欲和骨欲堅小兒骨欲硬大人骨欲軟皮屬土故爲皮土皮爲臣骨爲君君臣宜配皮骨欲勻皮薄骨高少年死皮厚骨少少年亡此五者有一件非貧卽夭"
+    },
+    {
+     "type": "text",
+     "text": "相無訣法不可亂言○解曰此說可記後邊斷法再依古書部位萬無一差不可以一美而言善莫以一惡而言凶是相有乘除加之法也"
+    },
+    {
+     "type": "text",
+     "text": "人從少長先觀童相爲先骨格未成五六三停可定○解曰此言小兒不可不相凡小兒大概先看形體正直氣象昂然此乃大成厚者有壽薄者少福天側刑傷地側貧賤睛黃愚頑鼻小大敗頭偏尖不成器耳低反必窮途神散多狂僧道耳低必定窮途神散多狂破而淫夫五者五官六者六府三停天地中爲三停小兒骨格雖未成但五官六府已成不可不依理細看何一官好何一處不如一生全要以頭爲主天停不好一生不妙不成事人言過此方好乃是亂道頭有二十四氣有二十四骨各"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…非貧卽夭",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "First block continues the paragraph from p19 (…亦不妙耳 / 低百無一成). Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 21,
+   "page_type": "text",
+   "printed_page": "五",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有一名要細體認後有永樂百問詳看方知"
+    },
+    {
+     "type": "text",
+     "text": "嬰孩童子各有一說○解曰此言不可一概而推三歲爲嬰孩相神氣不相五官十二歲內外爲童子還相五官六府三停十三官爲主不可以乳重論"
+    },
+    {
+     "type": "text",
+     "text": "閨女童女另有一相○解曰嬰女之相與男不同忌天庭高顴骨聳聲大睛大眉重性躁此數件俱主妨母少兒弟又主破家十歲爲童女忌聲高書云殺夫三顴面妨夫額不平欲知三度嫁女作丈夫聲相女之法和潤色明爲妙第一件忌齒白細尖黃大疎稀四者不妙大概貴男無賤耳貴婦無賤齒若耳不好爲金木開花一世多成多敗多學少成女人齒白尖白上多淫少子不妙"
+    },
+    {
+     "type": "text",
+     "text": "先言三岳乃出胎腹所成○解曰額爲南岳地閣北岳右顴西岳左顴東岳鼻乃中岳此乃五岳先看三岳何說額鼻閣乃面部三停出胎已成獨顴骨還未成凡小兒最要此三岳中正不塌爲上如南岳高多福利少災好養如中岳高成大器好養如北岳方圓隆滿主有大富乃天高主貴地厚主富如一岳不成者難養不大雖養大亦"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…書云殺夫三顴面妨夫…",
+     "reading": "面",
+     "alternatives": [
+      "而"
+     ]
+    },
+    {
+     "context": "…不可以乳重論 (論 printed small/faint)",
+     "reading": "論",
+     "alternatives": []
+    }
+   ],
+   "note": "First block (有一名要細體認…) continues the paragraph from p20 (…各有一名). Paragraph-initial columns are raised one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 22,
+   "page_type": "text",
+   "printed_page": "六",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "是敗子上岳低則妨父母中岳陷則敗祖基下岳削則一生窮困此皆不足之相也"
+    },
+    {
+     "type": "text",
+     "text": "次看五官誠恐後來更改○解曰凡小兒不可以面上爲驗恐後來有改換之處難看貴賤只看神色氣肉四件爲妙"
+    },
+    {
+     "type": "text",
+     "text": "不可認眞還宜動察○解曰不可以美而言好莫以惡而言害其中還有異處不可定一理而推更宜細審聲音再察五官六府如俱不得好處還有一件可取或貴或富若有一面好相得一件破處卽不利也"
+    },
+    {
+     "type": "text",
+     "text": "相乃仙傳要人眼力○解曰眼力者眼明書熟用心用力細細看一身上下並處處紅痕班點毛髮痣損則萬無一失"
+    },
+    {
+     "type": "text",
+     "text": "古相多般一時難遍今時氣數難依古書○解曰此二句乃言古之希夷相法是麻衣老祖在石室中授陳翁後陳翁以爲積陰德於世大則救人性命小則救人困苦舉善薦賢知凶知吉豈不是陰功後有呂祖達摩鬼谷唐舉諸先賢共有七十三家相法論各不同後宋人著爲人相編總云相有萬般難逃生尅之中理雖各別一生相"
+    }
+   ],
+   "uncertain": [],
+   "note": "First block continues the paragraph from p21 (…雖養大亦 / 是敗子). Paragraph-initial columns are raised one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 23,
+   "page_type": "text",
+   "printed_page": "七",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "有秘傳今時天道南行下元甲子非若古人氣壯身強生得神餘肉厚今人薄削枯乾者極多內中有大富大貴今因世弱故人稟得薄不厚古書柳莊老子深想此等俗士空費心神不知訣法故用黃紙硃筆開中作此心鏡立書授婿以廣其傳"
+    },
+    {
+     "type": "text",
+     "text": "小兒頂平眉重皮寬可言好養○解曰凡小兒頭小必不成人尖頭大來不成器故要頂平爲主眉輕無壽大人欲眉輕小兒欲眉重皮寬者定是好養皮急者性亦急又主難養十無一生"
+    },
+    {
+     "type": "text",
+     "text": "少女髮黑暗長耳正可許貴人○解曰少女乃十三四之時最喜髮黑偏一耳正眼秀書云鳳頸鳳肩兼鳳目女人可許配君王古人身長而大眼一寸今人面闊三寸半豈有一寸之目不過細長藏秀爲妙肩圓背厚爲貴項長爲貴項短髮長必有三郎耳反額方四度成雙大概欲細眉長目準圓額平爲妙"
+    },
+    {
+     "type": "text",
+     "text": "男相十六可成女相十四可定○解曰凡男人十六週身已完女人十四癸水已至皆至此而皮血不潤神氣不旺必夭必賤若面光如油又主淫亂大概不宜太過不及"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…今因世弱故人稟得薄不厚…",
+     "reading": "稟",
+     "alternatives": [
+      "禀"
+     ]
+    },
+    {
+     "context": "…最喜髮黑偏一耳正眼秀…",
+     "reading": "偏",
+     "alternatives": []
+    },
+    {
+     "context": "…神氣不旺必夭必賤…",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "First block continues the paragraph from p22 (…一生相 / 有秘傳). In 欲細眉長目準圓額平爲妙 the print has heavier 、 marks beside 眉, 目, 圓, 平 (side punctuation, omitted). A stray dot beside 心神 in the third column is a print blemish. Paragraph-initial columns are raised one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 24,
+   "page_type": "text",
+   "printed_page": "八",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "要中和爲妙男人十六已成也不忌太過不及惟忌肉浮光少血滯神衰不好主夭若神足氣壯肉實骨正眞成立之人也"
+    },
+    {
+     "type": "text",
+     "text": "五行貴賤難逃生旺之中○解曰五行乃金木水火土爲五行不可一大一小不配不停不週不合左耳金星右耳木星額爲火星口爲水星鼻爲土星額高耳反火尅金父母家財總是空口大額尖水尅火一交十五身受苦口大睛清額又高定是高賢大貴豪鼻大口小土尅水十三十四離鄉間五行但有一尅不爲好相但得一生者大好又名五官眉爲保壽官眼爲監察官鼻爲審辨官耳爲採聽官口爲出納官又名六府天倉爲上二府顴骨中二府地庫下二府三停得內六府相勻五官俱正自大富大貴之象也如有天倉而無地庫初榮暮敗有地庫而欠天倉初困暮榮如有顴骨而無天倉地庫亦不好主大孤獨之相又名六曜一紫氣二月孛三羅四計五日六月也"
+    },
+    {
+     "type": "text",
+     "text": "榮枯得失○解曰此四者人皆難全如天高地翼土正顴開乃有榮有得之格如天停"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…神衰不好主夭",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "First block continues the paragraph from p23 (…不宜太過不及 / 要中和爲妙). Paragraph-initial columns are raised one character. Text continues on the next page. Running head 柳莊相法."
+  },
+  {
+   "pdf_page": 25,
+   "page_type": "text",
+   "printed_page": "九",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "削日月明眉毛秀少年未必全美祖父根基小在中年三十以外一路行來方好再無夭損如下有虧還有一失復困苦也書云天高地薄初發達中建難成中正顴高到中年可成基業鼻如懸膽白手興隆顴削鼻低一世窮苦到老"
+    },
+    {
+     "type": "text",
+     "text": "富貴貧賤○解曰此言四者凡富須要身發財自發神來財自來身不發財不來神不來財定難發言神相人屢取木形之格木若有神財必發木若無神財必傷上等人發財不發身中等人身發財發下等人身雖發不見財乃一身如土之濁肉又不實也故肉長財不來若肉發宜實骨肉兩配方妙如肉多骨少四九不保若體厚肉實骨正神强大富之相凡貴與富大不同只取清爲妙清要到底不宜一濁此乃概論形局還要看五官六府十二官貴一要頭項平二要耳硬三要眉高四要顴高五要睛清六要唇紅七要齒厚八要腰圓九要指長十要髮黑潤此十件俱全還難得貴更有細看處有十清再有十美聲音响先小後大爲一清古人云貴人聲韻出丹田氣實喉寬响又堅又云木聲高唱火聲焦和潤金聲福壽饒身上毛宜細軟爲二清"
+    }
+   ],
+   "uncertain": [
+    {
+     "context": "…再無夭損如下有虧…",
+     "reading": "夭",
+     "alternatives": [
+      "天"
+     ]
+    }
+   ],
+   "note": "First block continues the paragraph from p24 (…如天停 / 削日月明). Text continues on the next page. Running head 柳莊相法."
+  }
+ ]
+}

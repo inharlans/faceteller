@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>K-FACE 직접 레이블링</title>
+<style>
+:root{--bg:#f4f5f7;--panel:#fff;--ink:#17222d;--muted:#667685;--line:#dde3e8;--accent:#2457e6;--accent-soft:#e8eefd;--done:#1f8a57;--done-soft:#e3f4ea;--warn:#b7791f;--warn-soft:#fdf3e1;--unk:#8a94a0}
+@media (prefers-color-scheme:dark){:root{--bg:#12171d;--panel:#1b222a;--ink:#e6ebf0;--muted:#98a6b3;--line:#2c3640;--accent:#6f93ff;--accent-soft:#223052;--done:#4cc38a;--done-soft:#183528;--warn:#e0a84a;--warn-soft:#3a2d15;--unk:#8a94a0}}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--ink);font:15px/1.55 'Malgun Gothic','Apple SD Gothic Neo',system-ui,sans-serif}
+button,input,textarea{font:inherit;color:inherit}button{cursor:pointer;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 12px}button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);padding:10px 18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header h1{font-size:17px;margin:0 8px 0 0;letter-spacing:-.4px}header .grow{flex:1}
+header input{border:1px solid var(--line);border-radius:8px;padding:6px 10px;background:var(--bg);width:150px}
+.progress{min-width:180px}.progress .bar{height:6px;border-radius:4px;background:var(--line);overflow:hidden;margin-top:3px}.progress .bar i{display:block;height:100%;background:var(--done);width:0}
+.small{font-size:12.5px}.muted{color:var(--muted)}
+.layout{display:grid;grid-template-columns:190px minmax(0,1fr) 400px;gap:16px;padding:16px 18px;align-items:start}
+.list{position:sticky;top:70px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;max-height:calc(100vh - 90px);overflow:auto}
+.list .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:8px}
+.list button{padding:4px 0;font-size:12px;border-radius:6px}.list button.done{background:var(--done-soft);border-color:var(--done);color:var(--done)}.list button.part{background:var(--warn-soft);border-color:var(--warn)}.list button.cur{outline:2px solid var(--accent);outline-offset:1px}
+.photos{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.photos .top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}.photos .top b{font-size:18px}
+.pgrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:14px}
+figure{margin:0}figure img{width:100%;border-radius:8px;background:#0000000d;display:block;cursor:zoom-in}figcaption{font-size:12px;color:var(--muted);margin-top:3px}
+#photo-main img{max-height:560px;object-fit:contain}#photo-side img{max-height:220px;object-fit:contain}
+.stack{display:grid;gap:14px;align-content:start}.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.trio{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;align-items:end}
+.panel{position:sticky;top:70px;display:grid;gap:8px;max-height:calc(100vh - 82px);overflow:auto;padding-right:2px}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}.q.active{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.grp{font-size:12px;font-weight:700;letter-spacing:1px;color:var(--muted);margin:10px 2px 2px}.q h3{margin:0;font-size:15px;display:flex;justify-content:space-between;align-items:center}.q p{margin:2px 0 6px;font-size:12px;color:var(--muted)}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:6px}.opt{display:grid;grid-template-columns:24px 1fr;gap:6px;text-align:left;align-items:center;padding:6px 8px;line-height:1.35}
+.opt kbd{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:5px;border:1px solid var(--line);font:12px ui-monospace,monospace;color:var(--muted)}
+.opt .d{display:block;font-size:11.5px;color:var(--muted)}.opt.sel{background:var(--accent-soft);border-color:var(--accent)}.opt.sel kbd{background:var(--accent);color:#fff;border-color:var(--accent)}
+.opt.unk{grid-template-columns:26px 1fr}.opt.unk.sel{background:#8a94a022;border-color:var(--unk)}
+textarea{width:100%;min-height:52px;border:1px solid var(--line);border-radius:8px;padding:7px;background:var(--bg);resize:vertical}
+.nav{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+.keys{font-size:12px;color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:8px 12px}
+.modal{position:fixed;inset:0;background:#0008;display:none;align-items:center;justify-content:center;z-index:20;padding:16px}.modal.open{display:flex}
+.modal .box{background:var(--panel);border-radius:14px;max-width:820px;width:100%;max-height:90vh;overflow:auto;padding:18px}
+.modal textarea{min-height:320px;font:12px/1.4 ui-monospace,Consolas,monospace}
+.lightbox img{max-width:95vw;max-height:92vh;border-radius:8px;cursor:zoom-out}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 16px;border-radius:20px;font-size:13px;opacity:0;transition:.2s;pointer-events:none;z-index:30}.toast.show{opacity:1}
+.warn{background:var(--warn-soft);border-left:3px solid var(--warn);padding:8px 12px;border-radius:6px;font-size:13px;margin:8px 0}
+@media (max-width:1180px){.layout{grid-template-columns:minmax(0,1fr) 360px}.list{display:none}}
+@media (max-width:820px){.layout{grid-template-columns:1fr;padding:12px 16px}.panel{position:static;max-height:none;overflow:visible}.pgrid{grid-template-columns:1fr}header input{width:120px}}
+</style></head><body>
+<header>
+ <h1>K-FACE 직접 레이블링</h1><span class="badge small muted" id="set"></span>
+ <label class="small">검수자 <input id="reviewer" placeholder="이름 또는 코드"></label>
+ <div class="progress small"><span id="ptext"></span><div class="bar"><i id="pbar"></i></div></div>
+ <span class="grow"></span>
+ <button id="next-todo">다음 미완료 ⇥</button><button id="guide-btn">판정 기준</button><button id="import-btn">불러오기</button><button class="primary" id="export-btn">JSON 내보내기</button>
+</header>
+<div class="layout">
+ <aside class="list"><div class="small muted">참여자 (초록 완료 · 주황 일부)</div><div class="grid" id="list"></div></aside>
+ <main class="photos">
+  <div class="top"><div><b id="title"></b> <span class="muted small" id="sid"></span></div><span class="small muted">사진을 누르면 크게 봅니다</span></div>
+  <div class="pgrid"><div id="photo-main"></div><div class="stack" id="photo-side"></div></div>
+ </main>
+ <section class="panel">
+  <div id="questions"></div>
+  <div class="q"><h3>메모 <span class="small muted">선택</span></h3><textarea id="notes" placeholder="가림, 판단이 애매했던 이유 등"></textarea></div>
+  <div class="nav"><button id="prev">← 이전</button><span class="small muted" id="saved"></span><button class="primary" id="next">다음 →</button></div>
+  <div class="keys">질문은 부위별로 묶여 있습니다 · 숫자 <b>1~4</b> 선택 → 자동으로 다음 질문 · <b>0</b> 판정 불가 · <b>↑↓</b> 질문 이동 · <b>←→</b> 이전/다음 사람 · <b>Enter</b> 다음 사람 · <b>N</b> 다음 미완료 · 메모 입력 중에는 단축키가 꺼집니다</div>
+ </section>
+</div>
+<div class="modal" id="export-modal"><div class="box">
+ <h2 style="margin-top:0">JSON 내보내기</h2><div id="export-warn"></div>
+ <p class="small muted">아래 내용을 복사해서 대화창에 붙여 주세요. 참여자 ID와 레이블만 들어 있고 사진은 들어 있지 않습니다.</p>
+ <textarea id="export-text" readonly></textarea>
+ <div class="nav" style="margin-top:10px"><button id="close-export">닫기</button><span><button id="download">파일로 저장</button> <button class="primary" id="copy">복사</button></span></div>
+</div></div>
+<div class="modal" id="import-modal"><div class="box">
+ <h2 style="margin-top:0">불러오기</h2><p class="small muted">이전에 내보낸 JSON을 붙여 넣거나 파일을 선택하세요. 같은 참여자는 불러온 값으로 덮어씁니다.</p>
+ <input type="file" id="import-file" accept=".json,application/json"><textarea id="import-text" placeholder='{"format":"kface-human-review-v1", ...}'></textarea>
+ <div class="nav" style="margin-top:10px"><button id="close-import">닫기</button><button class="primary" id="do-import">불러오기</button></div>
+</div></div>
+<div class="modal" id="guide-modal"><div class="box"><h2 style="margin-top:0">판정 기준</h2><div id="guide"></div>
+ <div class="warn">AI가 매긴 레이블은 이 화면에 없습니다. 다른 사람의 판정을 보지 말고 사진만 보고 정하세요. 가림·화질로 확신이 없으면 <b>판정 불가(0)</b>를 고르는 것이 억지로 고르는 것보다 좋습니다.</div>
+ <div class="nav"><span></span><button class="primary" id="close-guide">닫기</button></div></div></div>
+<div class="modal lightbox" id="lightbox"><img id="lightbox-img" alt=""></div>
+<div class="toast" id="toast"></div>
+<script>
+const DATA=/*__DATA__*/null;
+const $=id=>document.getElementById(id);const TASKS=DATA.tasks,ITEMS=DATA.items;const KEY='kface-review:'+DATA.set;
+let state={reviewer:'',labels:{},index:0},active=0,storageOk=true;
+try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.labels)state=Object.assign(state,s)}catch(e){storageOk=false}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));$('saved').textContent='자동 저장됨'}catch(e){storageOk=false;$('saved').textContent='자동 저장 불가 · 자주 내보내세요'}}
+function toast(t){const e=$('toast');e.textContent=t;e.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('show'),1600)}
+const rec=id=>state.labels[id]||(state.labels[id]={});const get=id=>state.labels[id]||{};
+const req=TASKS.filter(t=>t.required);
+function status(id){const r=state.labels[id];if(!r)return 'none';const n=req.filter(t=>r[t.key]).length;return n===req.length?'done':n?'part':'none'}
+function renderList(){$('list').innerHTML=ITEMS.map((it,i)=>`<button data-i="${i}" class="${status(it.id)} ${i===state.index?'cur':''}" title="${it.id}">${i+1}</button>`).join('');
+ const done=ITEMS.filter(it=>status(it.id)==='done').length;$('ptext').textContent=`${done} / ${ITEMS.length} 완료`;$('pbar').style.width=(100*done/ITEMS.length)+'%'}
+$('list').onclick=e=>{const b=e.target.closest('button');if(b)go(+b.dataset.i)};
+function renderQuestions(){const it=ITEMS[state.index],r=get(it.id);
+ $('questions').innerHTML=TASKS.map((t,qi)=>`${qi===0||TASKS[qi-1].group!==t.group?`<div class="grp">${t.group}</div>`:''}<div class="q ${qi===active?'active':''}" data-q="${qi}"><h3>${t.title}${r[t.key]?'<span class="small" style="color:var(--done)">✓</span>':t.required?'':'<span class="small muted">건너뛰어도 됨</span>'}</h3><p>${t.hint}</p><div class="opts">`+
+  t.options.map(([v,ko,d],oi)=>`<button class="opt ${r[t.key]===v?'sel':''}" data-q="${qi}" data-v="${v}"><kbd>${oi+1}</kbd><span>${ko}<span class="d">${d}</span></span></button>`).join('')+
+  `<button class="opt unk ${r[t.key]==='unknown'?'sel':''}" data-q="${qi}" data-v="unknown"><kbd>0</kbd><span>판정 불가<span class="d">가림·화질·애매함</span></span></button></div></div>`).join('');
+ const a=document.querySelector('.q.active');if(a)a.scrollIntoView({block:'nearest'})}
+$('questions').onclick=e=>{const b=e.target.closest('.opt');if(b){choose(+b.dataset.q,b.dataset.v);return}const q=e.target.closest('.q');if(q){active=+q.dataset.q;renderQuestions()}};
+function choose(qi,v){const it=ITEMS[state.index],r=rec(it.id),t=TASKS[qi];r[t.key]=r[t.key]===v?undefined:v;if(r[t.key]===undefined)delete r[t.key];r.updated_at=new Date().toISOString();save();
+ if(r[t.key]){if(qi<TASKS.length-1)active=qi+1;else{go(state.index+1);return}}renderQuestions();renderList()}
+function fig(p,src){return `<figure><img src="${src}" alt="${p.caption}"><figcaption>${p.caption}</figcaption></figure>`}
+function render(){const it=ITEMS[state.index];$('title').textContent=`${state.index+1}번째`;$('sid').textContent=`참여자 ${it.id}`;
+ $('photo-main').innerHTML=DATA.panels.filter(p=>p.main&&it.images[p.key]).map(p=>fig(p,it.images[p.key])).join('');
+ $('photo-side').innerHTML=DATA.panels.filter(p=>!p.main&&it.images[p.key]).map(p=>fig(p,it.images[p.key])).join('');
+ document.querySelectorAll('.photos img').forEach(img=>img.onclick=()=>{$('lightbox-img').src=img.src;$('lightbox').classList.add('open')});
+ $('notes').value=get(it.id).notes||'';const r=get(it.id);active=Math.max(0,TASKS.findIndex(t=>t.required&&!r[t.key]));if(active<0)active=0;renderQuestions();renderList()}
+function go(i){if(i<0||i>=ITEMS.length){if(i>=ITEMS.length)toast('마지막 참여자입니다. 다 끝났으면 JSON 내보내기를 누르세요.');return}state.index=i;save();render();window.scrollTo({top:0})}
+function nextTodo(){for(let k=1;k<=ITEMS.length;k++){const i=(state.index+k)%ITEMS.length;if(status(ITEMS[i].id)!=='done'){go(i);return}}toast('모든 참여자를 완료했습니다')}
+$('notes').oninput=e=>{const r=rec(ITEMS[state.index].id);r.notes=e.target.value;if(!r.notes)delete r.notes;save()};
+$('prev').onclick=()=>go(state.index-1);$('next').onclick=()=>go(state.index+1);$('next-todo').onclick=nextTodo;
+$('reviewer').value=state.reviewer||'';$('reviewer').oninput=e=>{state.reviewer=e.target.value.trim();save()};
+document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea')||document.querySelector('.modal.open')){if(e.key==='Escape')document.querySelectorAll('.modal.open').forEach(m=>m.classList.remove('open'));return}
+ const t=TASKS[active];
+ if(/^[1-9]$/.test(e.key)&&t.options[+e.key-1]){choose(active,t.options[+e.key-1][0]);e.preventDefault()}
+ else if(e.key==='0'){choose(active,'unknown');e.preventDefault()}
+ else if(e.key==='ArrowDown'){active=Math.min(TASKS.length-1,active+1);renderQuestions();e.preventDefault()}
+ else if(e.key==='ArrowUp'){active=Math.max(0,active-1);renderQuestions();e.preventDefault()}
+ else if(e.key==='ArrowRight'||e.key==='Enter'){go(state.index+1);e.preventDefault()}
+ else if(e.key==='ArrowLeft'){go(state.index-1);e.preventDefault()}
+ else if(e.key==='n'||e.key==='N'){nextTodo()}});
+$('lightbox').onclick=()=>$('lightbox').classList.remove('open');
+function exportJson(){const labels=ITEMS.filter(it=>state.labels[it.id]&&Object.keys(state.labels[it.id]).some(k=>TASKS.some(t=>t.key===k))).map(it=>{const r=state.labels[it.id];const o={subject_id:it.id};for(const t of TASKS)o[t.key]=r[t.key]||null;o.notes=r.notes||'';return o});
+ return {format:'kface-human-review-v1',set:DATA.set,reviewer:state.reviewer||'',exported_at:new Date().toISOString(),
+  counts:{total:ITEMS.length,complete:ITEMS.filter(it=>status(it.id)==='done').length,with_any_label:labels.length},
+  allowed:Object.fromEntries(TASKS.map(t=>[t.key,[...t.options.map(o=>o[0]),'unknown']])),labels}}
+$('export-btn').onclick=()=>{const j=exportJson();let w='';if(!j.reviewer)w+='<div class="warn">검수자 이름이 비어 있습니다. 위쪽에 입력해 주세요.</div>';
+ if(j.counts.complete<j.counts.total)w+=`<div class="warn">${j.counts.total-j.counts.complete}명이 아직 미완료입니다. 지금 내보내도 되고, 나중에 이어서 해도 됩니다.</div>`;
+ $('export-warn').innerHTML=w;$('export-text').value=JSON.stringify(j,null,1);$('export-modal').classList.add('open')};
+$('close-export').onclick=()=>$('export-modal').classList.remove('open');
+$('copy').onclick=async()=>{const ta=$('export-text');try{await navigator.clipboard.writeText(ta.value)}catch(e){ta.select();document.execCommand('copy')}toast('복사했습니다. 대화창에 붙여 주세요')};
+$('download').onclick=()=>{const b=new Blob([$('export-text').value],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=`kface_review_${(state.reviewer||'reviewer').replace(/[^\w가-힣-]/g,'_')}_${DATA.set}.json`;a.click();URL.revokeObjectURL(a.href)};
+$('import-btn').onclick=()=>$('import-modal').classList.add('open');$('close-import').onclick=()=>$('import-modal').classList.remove('open');
+$('import-file').onchange=async e=>{const f=e.target.files[0];if(f)$('import-text').value=await f.text()};
+$('do-import').onclick=()=>{try{const j=JSON.parse($('import-text').value);if(!Array.isArray(j.labels))throw new Error('labels 배열이 없습니다');const ids=new Set(ITEMS.map(i=>i.id));let n=0;
+ for(const l of j.labels){if(!ids.has(l.subject_id))continue;const r={};for(const t of TASKS){const v=l[t.key];if(v&&(v==='unknown'||t.options.some(o=>o[0]===v)))r[t.key]=v}if(l.notes)r.notes=l.notes;state.labels[l.subject_id]=r;n++}
+ if(j.reviewer&&!state.reviewer){state.reviewer=j.reviewer;$('reviewer').value=j.reviewer}save();render();$('import-modal').classList.remove('open');toast(`${n}명을 불러왔습니다`)}catch(e){toast('불러오기 실패: '+e.message)}};
+$('guide').innerHTML=TASKS.map(t=>`<h3>${t.title}</h3><p class="small muted">${t.hint}</p><ul>${t.options.map(([v,ko,d])=>`<li><b>${ko}</b> — ${d}</li>`).join('')}<li><b>판정 불가</b> — 가림·화질·애매함</li></ul>`).join('');
+$('guide-btn').onclick=()=>$('guide-modal').classList.add('open');$('close-guide').onclick=()=>$('guide-modal').classList.remove('open');
+$('set').textContent=DATA.set;if(!storageOk)$('saved').textContent='자동 저장 불가 · 자주 내보내세요';
+const firstVisit=!Object.keys(state.labels).length;if(state.index>=ITEMS.length)state.index=0;render();if(firstVisit)$('guide-modal').classList.add('open');
+</script></body></html>

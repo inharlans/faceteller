@@ -1,0 +1,827 @@
+{
+  "version": "readings-ko-v1",
+  "authoring": "ai_edited_unreviewed",
+  "readings": {
+    "SQ632A-brow-005": {
+      "title": "짧은 눈썹",
+      "translation": "눈썹이 짧으면 형제 사이에 좋지 않다.",
+      "meaning": "옛 글은 짧은 눈썹을 형제 사이가 원만하지 못한 징표로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계"
+      ]
+    },
+    "SQ632A-brow-016": {
+      "title": "초승달 같은 눈썹",
+      "translation": "곽임종은 “눈썹이 초승달 모양이면 좋은 평판이 사방에 퍼진다”고 말했다.",
+      "meaning": "곽임종의 말로 전하는 이 구절은 초승달처럼 휜 눈썹을 널리 이름을 알릴 길한 모습으로 꼽았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "명예",
+        "평판"
+      ]
+    },
+    "SQ632B-eye-009": {
+      "title": "큰 눈",
+      "translation": "눈이 큰 사람은 흔히 기예와 학업에 힘쓴다.",
+      "meaning": "옛 글에서 큰 눈은 기술이나 학문을 익히는 데 힘쓰는 모습으로 풀이되었다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "기예",
+        "학업"
+      ]
+    },
+    "SQ632B-eye-026": {
+      "title": "앞으로 나온 눈",
+      "translation": "『월파동중경』은 “눈이 튀어나온 사람과 사귀지 말라. 자주 재앙과 어려움을 겪게 된다”고 했다.",
+      "meaning": "옛 문헌은 앞으로 나온 눈을 불길하게 여겨, 그런 사람과의 사귐까지 경계했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "교우 관계",
+        "재난"
+      ]
+    },
+    "SQ632B-nose-041": {
+      "title": "위로 들려 드러난 콧구멍",
+      "translation": "위로 들려 드러난 콧구멍에 대한 풀이이다. 두 콧구멍은 두 재물 창고의 문이다. 콧구멍이 심하게 들려 드러나면 창고 문이 활짝 열려 안에 쌓아 둔 것이 없다는 뜻이다. 살림이 어렵고 평생 이롭지 못하며, ‘오구(五九)’에 크게 재산을 잃는다.",
+      "meaning": "옛 글은 드러난 콧구멍을 열린 창고 문에 빗대어 재물을 모으기 어렵다고 풀이했다. ‘難為平生不利’의 문장 뜻과 ‘五九’가 가리키는 시점은 분명하지 않다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "살림"
+      ]
+    },
+    "SQ632B-nose-046": {
+      "title": "밖으로 들린 콧구멍",
+      "translation": "『조담경』은 “콧구멍이 바깥으로 들리면 크게 실패하고 몰락한다”고 했다.",
+      "meaning": "『조담경』에서 인용한 이 말은 들린 콧구멍을 일이 무너질 불길한 징표로 여겼다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "실패",
+        "몰락"
+      ]
+    },
+    "SQ632C-mouth-043": {
+      "title": "아래로 처진 입꼬리",
+      "translation": "내가 일찍이 직접 보니, 양쪽 입꼬리가 아래로 처진 사람은 늘 세상 사람들에게 미움을 받았다.",
+      "meaning": "옛 글의 화자는 자신의 경험을 내세워 처진 입꼬리를 남에게 환영받지 못하는 모습으로 묘사했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "대인 관계",
+        "평판"
+      ]
+    },
+    "SQ632C-mouth-044": {
+      "title": "양쪽이 처진 입꼬리",
+      "translation": "양쪽 입꼬리가 아래로 처지면 입을 옷과 먹을 것이 없고, 남의 미움도 유난히 많이 받는다.",
+      "meaning": "옛 글은 처진 입꼬리에 가난한 살림과 사람들의 미움을 함께 덧붙였다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림",
+        "대인 관계"
+      ]
+    },
+    "SQ632C-mouth-052": {
+      "title": "작은 입",
+      "translation": "작은 입은 다섯 가지 불리한 모습 가운데 다섯째로, 먹고 입을 것이 넉넉하지 않다.",
+      "meaning": "허부의 이름으로 전하는 이 글은 작은 입을 다섯 번째 흉한 모습으로 분류하고, 의식주가 부족하다고 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림"
+      ]
+    },
+    "SQ632C-chin-004": {
+      "title": "긴 얼굴 아랫부분",
+      "translation": "코끝에서 턱까지의 하정이 길면 좋은 일이 적다.",
+      "meaning": "옛 글은 얼굴의 세 구역 중 맨 아래가 긴 모습을 복이 적은 징표로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "복록"
+      ]
+    },
+    "SQ633FB-face-020": {
+      "title": "길고 각진 얼굴",
+      "translation": "얼굴은 길고 모난 모양을 좋게 여긴다.",
+      "meaning": "옛 관상서가 바람직한 얼굴로 제시한 형태이다. 이 구절 자체에는 재물이나 관직에 관한 구체적인 예언이 없다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "얼굴 형태"
+      ]
+    },
+    "SQ633FB-face-025": {
+      "title": "긴 하정",
+      "translation": "코끝에서 턱까지의 하정이 길면 말년이 좋지 못하다.",
+      "meaning": "옛 글의 ‘下梢’는 삶의 끝 무렵을 뜻하며, 긴 하정을 편안하지 못한 말년의 징표로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "말년"
+      ]
+    },
+    "SQ633FB-brow-009": {
+      "title": "눈 쪽으로 처진 눈썹꼬리",
+      "translation": "눈썹꼬리가 눈 쪽으로 처지면 성품이 나약하다.",
+      "meaning": "옛 문헌은 눈썹꼬리가 내려온 모습을 기가 약하고 쉽게 위축되는 성품으로 평가했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "성품"
+      ]
+    },
+    "SQ633FB-brow-036": {
+      "title": "높고 곧은 눈썹",
+      "translation": "눈썹이 높이 자리하고 곧게 뻗으면 청직, 곧 명망 있는 관직에 오른다.",
+      "meaning": "옛 글은 눈에서 떨어져 높게 놓인 곧은 눈썹을 청직에 오를 징표로 보았다. 청직은 당시 명예롭고 품격 있다고 여기던 관직을 가리킨다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "관직",
+        "명예"
+      ]
+    },
+    "SQ633FB-brow-059": {
+      "title": "짧은 눈썹",
+      "translation": "눈썹이 짧으면 집안에 참으로 형제가 없다.",
+      "meaning": "옛 글은 짧은 눈썹에 형제가 없다는 가족 사정까지 붙여 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계"
+      ]
+    },
+    "SQ633E-eye-036": {
+      "title": "짧은 눈과 긴 눈썹",
+      "translation": "눈이 짧고 눈썹이 길면 논밭과 농장이 더욱 늘어난다.",
+      "meaning": "옛 문헌은 짧은 눈과 긴 눈썹을 함께 보아 토지 재산이 늘어나는 길한 모습으로 꼽았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "재물",
+        "토지"
+      ]
+    },
+    "SQ633E-eye-045": {
+      "title": "처진 눈꼬리",
+      "translation": "눈꼬리가 처지면 부부가 서로 헤어진다.",
+      "meaning": "옛 글은 처진 눈꼬리를 부부가 떨어져 지낼 징표로 여겼다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "부부 관계",
+        "이별"
+      ]
+    },
+    "SQ633E-eye-051": {
+      "title": "가늘고 깊이 들어간 눈",
+      "translation": "눈이 가늘고 깊이 들어가 있으면 대개 마음을 터놓을 사람이 없다.",
+      "meaning": "옛 글의 ‘無心腹’은 믿고 의지할 사람이 없다는 뜻으로 옮겼다. 속마음을 터놓지 않는다는 뜻으로도 읽을 수 있어 한 가지로 단정하기 어렵다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "대인 관계",
+        "신뢰"
+      ]
+    },
+    "SQ633E-eye-059": {
+      "title": "깊이 들어간 눈",
+      "translation": "눈이 깊이 들어가 있으면 반드시 재물과 양식이 부족하다.",
+      "meaning": "옛 문헌은 깊이 들어간 눈을 생활에 필요한 돈과 먹을 것이 모자라는 징표로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "살림"
+      ]
+    },
+    "SQ634N-nose-001": {
+      "title": "높은 콧뿌리",
+      "translation": "산근은 패성(孛星)에 해당하며, 콧대의 맨 위쪽을 가리킨다. 이곳은 높은 것을 좋게 여기고, 낮거나 꺾인 것은 좋지 않게 여긴다.",
+      "meaning": "옛 관상서는 콧뿌리에 별 이름을 붙이고 높은 모양을 바람직하게 보았다. 이 문장은 그 위치와 선호하는 형태를 설명한다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "코 형태",
+        "전통 용어"
+      ]
+    },
+    "SQ634N-nose-035": {
+      "title": "둥글고 도톰한 코끝",
+      "translation": "코끝이 둥글고 살집이 있으면 먹을 것과 입을 것이 넉넉하다.",
+      "meaning": "옛 글은 둥글고 도톰한 코끝을 굶주리거나 헐벗을 걱정이 적은 살림의 징표로 여겼다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "살림",
+        "풍요"
+      ]
+    },
+    "SQ634N-nose-045": {
+      "title": "위로 들린 콧구멍",
+      "translation": "콧구멍이 위로 들리면 집에 다음 날까지 남겨 둘 양식이 없다.",
+      "meaning": "옛 문헌은 들린 콧구멍을 하루하루 먹을 것을 걱정하는 가난에 빗대었다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림",
+        "가난"
+      ]
+    },
+    "SQ634M-mouth-116": {
+      "title": "두꺼운 입술",
+      "translation": "입술이 두꺼우면 말수가 적다.",
+      "meaning": "허부의 이름으로 전하는 이 구절은 두꺼운 입술을 말수가 적은 모습으로 풀이했다. 말이 적은 것을 좋다거나 나쁘다고 평가하지는 않았다.",
+      "valence": "neutral",
+      "valence_label": "형태 설명",
+      "topics": [
+        "말수"
+      ]
+    },
+    "SQ634M-mouth-117": {
+      "title": "얇은 입술",
+      "translation": "입술이 얇으면 송사가 많다. 이 말에 따라 판단하면 틀림이 없다.",
+      "meaning": "옛 글은 얇은 입술에 법적 다툼이 잦다고 단정하고, 그 풀이가 틀리지 않는다고 강조했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "송사",
+        "다툼"
+      ]
+    },
+    "SQ637-nose-085": {
+      "title": "들려서 콧구멍이 보이는 코",
+      "translation": "코가 위로 들려 콧구멍이 보이면 상서롭지 못하다. 주석에서는 이를 ‘코가 들려 콧구멍이 드러난 것’이라고 풀었다.",
+      "meaning": "『암전도인신안경』의 이 구절은 들려 드러난 콧구멍을 불길하게 보았다. 어떤 불행인지는 구체적으로 밝히지 않았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "길흉"
+      ]
+    },
+    "SQ637Y-brow-024": {
+      "title": "굵은 눈썹과 가는 눈",
+      "translation": "눈썹은 굵고 눈은 가늘어 서로 어울리지 않으면, 인년(寅年)에 이듬해인 묘년(卯年)의 양식까지 먹어 버린다.",
+      "meaning": "옛 노래는 굵은 눈썹과 가는 눈의 조합을 좋지 않게 보았다. 다음 해 먹을 것까지 미리 써 버린다는 비유로 살림에 여유가 없음을 나타냈다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림",
+        "지출"
+      ]
+    },
+    "SQ637RA-brow-092": {
+      "title": "털이 성긴 눈썹꼬리",
+      "translation": "눈썹꼬리의 털이 빠져 성기면 재물이 흩어지고 줄어든다. 인생 초반의 운을 보는 스물여섯 살부터 스물아홉 살 사이에 재산이 줄어든다.",
+      "meaning": "옛 글은 눈썹꼬리의 털이 성긴 모습을 재산 손실로 풀이하고, 그 시기를 스물여섯 살에서 스물아홉 살로 특정했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "청년기"
+      ]
+    },
+    "SQ638CX-nose-009a": {
+      "title": "높이 솟은 코끝",
+      "translation": "코끝이 솟아 있으면 성실하고 믿음직하다.",
+      "meaning": "옛 글은 솟은 코끝을 말과 행동에 믿음이 있는 성품의 징표로 보았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "성실",
+        "신뢰"
+      ]
+    },
+    "SQ638CX-nose-009c": {
+      "title": "높이 도드라진 코끝",
+      "translation": "코끝은 얼굴을 살피는 데 중요한 기준이 된다. 코끝이 높이 솟아 있으면 그 사람은 진실하고 성실하며 믿음이 두텁다.",
+      "meaning": "옛 문헌은 코끝을 관상의 중요한 기준으로 삼고, 높이 솟은 모습을 진실하고 믿음직한 성품으로 풀이했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "성실",
+        "신뢰"
+      ]
+    },
+    "SQ638CX-philtrum-013a": {
+      "title": "깊은 인중",
+      "translation": "인중은 도랑과 같은 모양이어서, 깊으면 물길이 잘 통한다.",
+      "meaning": "옛 글은 인중을 도랑에 빗대었다. 물이 잘 흐르는 깊은 도랑처럼 일이 막히지 않고 풀리는 모습을 나타냈다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "인중 형태",
+        "일의 흐름"
+      ]
+    },
+    "SQ638CX-philtrum-013b": {
+      "title": "얕은 인중",
+      "translation": "인중이 얕으면 일이 더디고 지체된다.",
+      "meaning": "앞서 인중을 도랑에 비유한 옛 글은, 얕은 인중을 일이 시원하게 풀리지 않는 모습으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "일의 지체"
+      ]
+    },
+    "SQ638CX-philtrum-013d": {
+      "title": "깊이 팬 인중",
+      "translation": "인중이 깊으면 반드시 일이 순조롭게 풀린다.",
+      "meaning": "옛 문헌은 깊은 인중을 앞길이 막히지 않고 일이 잘되는 징표로 여겼다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "일의 성취"
+      ]
+    },
+    "SQ638CX-philtrum-013e": {
+      "title": "얕게 팬 인중",
+      "translation": "인중이 얕으면 곤궁해지고 일이 막힌다.",
+      "meaning": "옛 글은 얕은 인중에 살림의 어려움과 뜻대로 풀리지 않는 처지를 함께 덧붙였다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "곤궁",
+        "일의 지체"
+      ]
+    },
+    "SQ638CX-philtrum-017a": {
+      "title": "깊고 긴 인중",
+      "translation": "인중이 깊고 길면 성실함과 신의가 뚜렷이 드러난다.",
+      "meaning": "옛 문헌은 인중이 깊으면서 긴 모습을 정직하고 약속을 지키는 성품으로 풀이했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "성실",
+        "신뢰"
+      ]
+    },
+    "CX638-brow-0205": {
+      "title": "굵고 짧은 눈썹",
+      "translation": "본래 형제가 없는 사람은 눈썹이 굵고 짧다.",
+      "meaning": "옛 노래는 형제가 없다는 가족 사정을 굵고 짧은 눈썹에 빗대어 표현했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계"
+      ]
+    },
+    "CX638-eye-0020": {
+      "title": "서로 크기가 다른 눈",
+      "translation": "두 눈의 크기가 서로 다르면, 어찌 어질고 의롭게 사는 사람이겠는가.",
+      "meaning": "옛 글은 크기가 다른 두 눈을 ‘암수’에 비유하며 도덕적으로 낮게 평가했다. 인과 의를 따르지 않는다는 문헌 속 비난이다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "도덕적 평가"
+      ]
+    },
+    "CX638-brow-0023": {
+      "title": "일자로 뻗은 눈썹",
+      "translation": "눈썹이 일(一) 자 같으면 어찌 집안을 윤택하고 넉넉하게 만들 수 있겠는가.",
+      "meaning": "옛 글은 일자로 뻗은 눈썹을 집안 살림을 풍족하게 이루기 어려운 모습으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "살림"
+      ]
+    },
+    "CX638-brow-0102": {
+      "title": "짙고 긴 눈썹",
+      "translation": "눈썹이 짙고 길면 반드시 재산이 넉넉한 상이다.",
+      "meaning": "『귀안선생상법』은 눈썹의 짙음과 긴 길이를 함께 갖춘 모습을 재산이 풍부할 징표로 보았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "재물",
+        "풍요"
+      ]
+    },
+    "CX638-brow-0104": {
+      "title": "가늘고 긴 눈썹",
+      "translation": "눈썹이 가늘고 길면 틀림없이 인색하고 못난 사람이다.",
+      "meaning": "옛 문헌은 가늘고 긴 눈썹에 돈이나 물건을 아끼다 못해 인색하다는 비난을 붙였다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "성품",
+        "인색함"
+      ]
+    },
+    "CX638-brow-0058": {
+      "title": "굵은 눈썹과 작은 눈",
+      "translation": "눈썹이 굵고 눈이 작으면 복이 적다.",
+      "meaning": "『서악선생상법』은 굵은 눈썹과 작은 눈을 한데 보아 복이 적은 모습으로 꼽았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "복록"
+      ]
+    },
+    "CX638-mouth-0069": {
+      "title": "아래로 처진 입꼬리",
+      "translation": "입꼬리가 아래로 처지면 녹이 없다.",
+      "meaning": "옛 글의 ‘녹’은 관직에서 받는 보수나 생활의 복을 뜻한다. 처진 입꼬리를 이런 혜택이 부족한 모습으로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "녹봉",
+        "살림"
+      ]
+    },
+    "SQ639R-nose-011": {
+      "title": "들려 드러난 콧구멍",
+      "translation": "콧구멍이 들려 드러나면 시루와 솥에 먼지가 쌓인다.",
+      "meaning": "옛 글은 먹을 것이 없어 밥을 짓지 못하는 가난을, 시루와 솥에 먼지가 앉는 모습으로 나타냈다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림",
+        "가난"
+      ]
+    },
+    "CX639-chin-0188": {
+      "title": "뾰족한 턱과 좁은 이마",
+      "translation": "턱이 뾰족하고 이마가 좁으면 외롭게 홀로 지내는 처지가 된다.",
+      "meaning": "옛 글은 뾰족한 턱과 좁은 이마를 함께 지닌 모습을 의지할 사람 없이 외롭게 사는 처지로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "외로움",
+        "대인 관계"
+      ]
+    },
+    "CX639-glabella-0286": {
+      "title": "넓은 미간",
+      "translation": "푸른 덮개의 수레와 붉은 깃발을 갖추는 것은 인당이 넓어 위(衛)에 봉해졌기 때문이다.",
+      "meaning": "옛 글은 넓은 미간을 높은 지위에 오를 징표로 보며 수레와 깃발로 그 영예를 나타냈다. ‘封衛’가 가리키는 구체적인 봉작이나 관직은 분명하지 않다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "지위",
+        "영예"
+      ]
+    },
+    "CX639-brow-0308": {
+      "title": "짙은 눈썹",
+      "translation": "눈썹이 짙으면 막히는 일이 많다.",
+      "meaning": "옛 문헌은 짙은 눈썹을 일이 자주 지체되고 순조롭게 풀리지 않는 모습으로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "일의 지체"
+      ]
+    },
+    "CX639-brow-0215": {
+      "title": "높이 자리한 눈썹",
+      "translation": "눈썹이 높으면 명성도 높다.",
+      "meaning": "『마의잡론』은 눈썹의 높은 위치에 빗대어 이름이 널리 알려지고 평판이 높아진다고 풀이했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "명성",
+        "평판"
+      ]
+    },
+    "CX639-cheekbone-0555": {
+      "title": "높은 광대와 깊은 눈",
+      "translation": "광대뼈가 높이 솟고 눈이 깊이 들어가 있으면 원숭이를 닮은 형상으로 본다.",
+      "meaning": "옛 노래는 높은 광대와 깊은 눈의 조합을 동물의 생김새에 빗대어 분류했다. 이 구절에는 성품이나 길흉에 대한 판단이 없다.",
+      "valence": "neutral",
+      "valence_label": "형태 설명",
+      "topics": [
+        "얼굴 형태",
+        "동물 비유"
+      ]
+    },
+    "CX639-nose-0117": {
+      "title": "드러난 콧구멍",
+      "translation": "어린 시절의 재난과 어려움을 어떻게 알아보는가. 코끝의 ‘정조’, 곧 콧구멍이 드러나 있는지 보라.",
+      "meaning": "옛 문헌은 드러난 콧구멍을 어린 시절에 겪을 어려움의 징표로 삼았다. ‘정조’는 우물과 아궁이라는 뜻으로 콧구멍을 부른 말이다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "어린 시절",
+        "재난"
+      ]
+    },
+    "CX639-eye-0147": {
+      "title": "길고 가는 눈",
+      "translation": "아름다운 아내를 얻을 사람인지 어떻게 알아보는가. 두 눈이 길고 가는지 보라.",
+      "meaning": "옛 글은 길고 가는 눈을 아름다운 아내를 맞을 징표로 보았다. 배우자의 외모를 복으로 여기던 당시의 평가가 담겨 있다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "혼인",
+        "배우자"
+      ]
+    },
+    "SQ642F-forehead-059": {
+      "title": "넓은 이마",
+      "translation": "이마가 넓으면 마침내 높은 지위에 오른다.",
+      "meaning": "옛 문헌은 넓은 이마를 훗날 귀한 대우를 받거나 높은 지위에 이를 모습으로 풀이했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "지위"
+      ]
+    },
+    "XF01-eye-006": {
+      "title": "높이 치켜올라간 눈꼬리",
+      "translation": "눈꼬리가 하늘을 향할 만큼 치켜올라가면 복과 녹이 끊임없이 이어진다.",
+      "meaning": "옛 글은 하늘을 향하듯 치켜올라간 눈꼬리를 복과 생활의 혜택이 오래 이어질 징표로 여겼다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "복록",
+        "살림"
+      ]
+    },
+    "XF02-nose-017": {
+      "title": "넓고 긴 코",
+      "translation": "코가 넓고 길면 여러 가지 재주가 많다.",
+      "meaning": "옛 글은 코의 너비와 길이를 함께 살펴 여러 일을 해내는 재주가 풍부하다고 풀이했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "재주"
+      ]
+    },
+    "TQ5-brow-023": {
+      "title": "활처럼 굽은 눈썹",
+      "translation": "눈썹이 굽은 활 같으면 성품은 착하지만 기세가 강하지는 않다.",
+      "meaning": "『태청신감』은 활처럼 휜 눈썹에 착한 성품을 부여하면서도, 기세 있게 나서는 힘은 부족하다고 보았다.",
+      "valence": "mixed",
+      "valence_label": "엇갈린 풀이",
+      "topics": [
+        "성품",
+        "기세"
+      ]
+    },
+    "ZD645-chin-035": {
+      "title": "뾰족한 턱",
+      "translation": "턱이 뾰족하면 재산과 가업의 덕을 보지 못한다.",
+      "meaning": "옛 글의 ‘산업’은 재산이나 집안의 생업을 뜻한다. 뾰족한 턱을 이런 기반의 도움을 받기 어려운 모습으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재산",
+        "가업"
+      ]
+    },
+    "ZD646A-eye-038": {
+      "title": "양쪽이 처진 눈꼬리",
+      "translation": "양쪽 눈꼬리가 처지면 평생 헤어지는 일이 많다.",
+      "meaning": "옛 문헌은 양쪽으로 처진 눈꼬리를 이별이 잦은 징표로 여겼다. 누구와의 이별인지는 이 구절에 적혀 있지 않다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "이별"
+      ]
+    },
+    "ZD646A-eye-062": {
+      "title": "큰 눈",
+      "translation": "눈이 크면 탐내고 집착하는 마음이 많다.",
+      "meaning": "옛 글은 큰 눈을 무언가를 지나치게 바라거나 놓지 못하는 성향으로 평가했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "욕심",
+        "집착"
+      ]
+    },
+    "ZD646A-eye-069": {
+      "title": "작은 눈",
+      "translation": "눈이 작으면 끝내 녹을 누리지 못한다.",
+      "meaning": "옛 문헌은 작은 눈을 녹봉이나 생활의 혜택이 따르지 않는 모습으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "녹봉",
+        "살림"
+      ]
+    },
+    "ZD646A-nose-010": {
+      "title": "넓고 긴 코",
+      "translation": "코가 넓고 길면 기예가 남다르게 뛰어나다.",
+      "meaning": "옛 글은 넓으면서 긴 코를 기술이나 예능에 뛰어난 재주가 있는 모습으로 보았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "기예",
+        "재주"
+      ]
+    },
+    "ZD646B-philtrum-004": {
+      "title": "얕은 인중",
+      "translation": "인중이 얕으면 재산을 잃는 일이 많다.",
+      "meaning": "옛 문헌은 얕은 인중을 재물이 자주 줄거나 손해를 보는 징표로 여겼다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "손실"
+      ]
+    },
+    "ZD646B-brow-009": {
+      "title": "성기고 흩어진 눈썹",
+      "translation": "눈썹이 성기고 흩어져 있으면 잠시 부유해져도 끝내 가난해진다.",
+      "meaning": "옛 글은 성긴 눈썹에 일시적인 부유함을 인정하면서도 재산을 오래 지키지는 못한다고 풀이했다.",
+      "valence": "mixed",
+      "valence_label": "엇갈린 풀이",
+      "topics": [
+        "재물",
+        "가난"
+      ]
+    },
+    "LZC63880-women_body-015": {
+      "title": "흩어지고 성긴 눈썹",
+      "translation": "눈썹이 흩어지고 성기면 형제자매가 길에서 만난 남처럼 지낸다.",
+      "meaning": "여성의 관상을 다룬 옛 글에서 성긴 눈썹은 형제자매와 멀어진 사이를 나타냈다. ‘손발’이라는 원문의 비유는 형제자매를 가리킨다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계",
+        "소원함"
+      ]
+    },
+    "LZC63880-remaining_forms-021": {
+      "title": "길고 깊은 인중",
+      "translation": "‘구혁’, 곧 도랑이라 부르는 곳은 인중이라고도 한다. 이곳은 무엇보다 길고 깊은 것을 좋게 여긴다.",
+      "meaning": "여성의 관상을 다룬 옛 글은 코 아래의 홈을 도랑에 빗대어 부르고, 길고 깊은 모양을 바람직하게 제시했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "인중 형태",
+        "전통 용어"
+      ]
+    },
+    "LZC63880-palace-012": {
+      "title": "위로 향한 콧구멍",
+      "translation": "콧구멍이 위를 향한 모습은 좋지 않다. 집에 다음 날까지 남겨 둘 양식이 없을 징표이다.",
+      "meaning": "재물을 논하는 옛 글은 위로 향한 콧구멍을 먹을 것을 쌓아 두지 못하는 가난한 살림에 빗대었다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "재물",
+        "살림"
+      ]
+    },
+    "LZC63880-palace-016": {
+      "title": "초승달 모양의 눈썹",
+      "translation": "눈썹 모양이 초승달 같으면 형제 사이의 화목이 오래가고 남들보다 뛰어나다.",
+      "meaning": "형제를 논하는 옛 글은 초승달처럼 휜 눈썹에 오래 지속되는 우애와 남다른 성취를 함께 부여했다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "형제 관계",
+        "화목",
+        "성취"
+      ]
+    },
+    "LZC63880-palace-017": {
+      "title": "짧고 굵은 눈썹",
+      "translation": "눈썹이 짧고 굵으면 형제가 함께 지내기 어려워 반드시 헤어진다.",
+      "meaning": "옛 글은 짧고 굵은 눈썹을 형제가 한데 지내지 못할 징표로 보았다. 원문의 ‘손발’은 형제를 뜻한다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계",
+        "이별"
+      ]
+    },
+    "LZC63880-palace-020": {
+      "title": "앞이 높고 꼬리가 낮은 눈썹",
+      "translation": "눈썹의 앞머리가 높고 꼬리가 낮으면 형제가 그만 못하다.",
+      "meaning": "형제를 논하는 옛 글은 눈썹 앞머리보다 꼬리가 낮은 모습을 형제에 대한 불리한 평가로 풀이했다. ‘不如’는 무엇과 비교해 못하다는 것인지 분명하지 않다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "형제 관계"
+      ]
+    },
+    "LZC63880-palace-034": {
+      "title": "둥근 턱과 좁은 이마",
+      "translation": "턱이 둥글고 이마가 좁으면 젊은 시절에 고생이 있음을 알 수 있다.",
+      "meaning": "옛 글은 둥근 턱과 좁은 이마를 함께 살펴 어려움이 초년에 있다고 풀이했다. 이 구절만으로 말년이 좋다고 덧붙일 수는 없다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "초년",
+        "고생"
+      ]
+    },
+    "LZC70286-questions_a-007": {
+      "title": "긴 얼굴 아랫부분",
+      "translation": "코끝에서 턱까지의 하정이 길면 평생 일이 잘 풀리지 않고 막힌다.",
+      "meaning": "옛 문헌은 긴 하정을 살아가는 동안 어려움과 지체가 따를 징표로 보았다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "삶의 어려움",
+        "일의 지체"
+      ]
+    },
+    "LZC70286-questions_b-020": {
+      "title": "작은 입",
+      "translation": "입이 작으면 평생 먹을 양식이 없다.",
+      "meaning": "옛 글은 작은 입을 끼니를 걱정하는 가난한 삶으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "살림",
+        "가난"
+      ]
+    },
+    "LZC70286-questions_a-035": {
+      "title": "팔자처럼 내려간 눈썹",
+      "translation": "두 눈썹이 팔(八) 자 모양으로 갈라져 내려가면 군관이 될 수 있다.",
+      "meaning": "『유장상법』의 이 구절은 팔자 모양 눈썹을 군사 일을 맡는 관직에 나아갈 모습으로 보았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이",
+      "topics": [
+        "군관",
+        "관직"
+      ]
+    },
+    "LZC70286-verse-010": {
+      "title": "높은 광대",
+      "translation": "광대가 높으면 도리어 그릇된 일을 하기 좋아한다.",
+      "meaning": "옛 글은 높은 광대에 잘못된 행동을 즐긴다는 도덕적 비난을 붙였다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "행동",
+        "도덕적 평가"
+      ]
+    },
+    "LZC70286-verse-012": {
+      "title": "낮은 눈썹과 움푹한 눈",
+      "translation": "눈썹이 낮고 눈이 움푹 들어가 있으면 평생 고되게 일하며 지낸다.",
+      "meaning": "옛 문헌은 눈 가까이 낮게 놓인 눈썹과 깊이 들어간 눈을 함께 보고, 수고가 끊이지 않는 삶으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "노고",
+        "살림"
+      ]
+    },
+    "LZC70286-secret-004": {
+      "title": "큰 눈",
+      "translation": "눈이 크면 여성과 관련된 말다툼이나 구설에 자주 휘말린다.",
+      "meaning": "옛 구결은 큰 눈에 여성과 얽힌 구설이 따른다고 풀이했다. 여기서 ‘음인(陰人)’은 여성을 가리키는 옛 표현이다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이",
+      "topics": [
+        "구설",
+        "다툼"
+      ]
+    }
+  },
+  "named_types": [
+    {
+      "id": "iljami-cx638-brow-0023",
+      "name": "일자미 (일자 눈썹)",
+      "name_hanja": "一字眉",
+      "required_labels": [
+        "brow_shape:straight"
+      ],
+      "description": "『신상전편』에 실린 「태을진인서」의 “눈썹이 일(一) 자 같다”는 표현을 줄여 부른 이름이다. 눈썹이 곧게 뻗은 모양을 가리킨다.",
+      "source_passage_ids": [
+        "CX638-brow-0023"
+      ],
+      "source_url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC638%E5%8D%B7&oldid=1942601",
+      "original_text": "眉如一字，豈能潤屋肥家，",
+      "meaning": "옛 글은 일자로 뻗은 눈썹을 집안 살림을 풍족하게 이루기 어려운 모습으로 풀이했다.",
+      "valence": "unfavorable",
+      "valence_label": "주의할 풀이"
+    },
+    {
+      "id": "crescent-brow-sq632a-brow-016",
+      "name": "초승달형 눈썹",
+      "name_hanja": "眉如新月",
+      "required_labels": [
+        "brow_shape:arched"
+      ],
+      "description": "『신상전편』에 인용된 곽임종의 “눈썹이 초승달 모양 같다”는 표현을 풀어 쓴 설명 이름이다. 초승달처럼 활 모양으로 휜 눈썹을 가리킨다.",
+      "source_passage_ids": [
+        "SQ632A-brow-016"
+      ],
+      "source_url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC632%E5%8D%B7&oldid=1942595",
+      "original_text": "郭林宗曰：「眉如新月樣，名譽四方聞。」",
+      "meaning": "곽임종의 말로 전하는 이 구절은 초승달처럼 휜 눈썹을 널리 이름을 알릴 길한 모습으로 꼽았다.",
+      "valence": "favorable",
+      "valence_label": "길한 풀이"
+    }
+  ]
+}

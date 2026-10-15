@@ -1,0 +1,1077 @@
+{
+ "page_id": "gj638",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《袁柳莊識人賦》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ638-other-001",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "乾坤密運兮品類咸亨。",
+   "translation": "하늘과 땅이 은밀히 운행하니 온갖 무리가 다 형통한다.",
+   "commentary": "부(賦)의 첫머리로 천지 운행을 말하는 서두다. 형태 조건과 관상 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-002",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南火北水兮東木西金，春風夏雨兮秋霜冬冰。",
+   "translation": "남쪽은 불, 북쪽은 물이요 동쪽은 나무, 서쪽은 쇠이며, 봄바람·여름비요 가을 서리·겨울 얼음이다.",
+   "commentary": "방위를 오행과 사계에 배당한 우주론적 서술이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-003",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南方丙丁合兮主文明，北方壬癸配兮剛威臨，",
+   "translation": "남방은 병정(丙丁)과 합하니 문명을 주관하고, 북방은 임계(壬癸)와 짝하니 굳셈과 위엄이 임한다.",
+   "commentary": "병정(丙丁)은 화(火), 임계(壬癸)는 수(水)에 배당되는 천간이다. 방위별 사람의 기질을 오행으로 설명한 구절로, 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南方",
+     "observable_ko": "출신 방위(남·북)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-004",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "東方甲乙旺兮主慈仁，西方庚辛秀兮風氣淳，",
+   "translation": "동방은 갑을(甲乙)이 왕성하니 자애와 어짊을 주관하고, 서방은 경신(庚辛)이 빼어나니 풍기가 순박하다.",
+   "commentary": "갑을(甲乙)은 목(木), 경신(庚辛)은 금(金)에 배당되는 천간이다. 방위별 기질론이며 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東方",
+     "observable_ko": "출신 방위(동·서)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-005",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "月滿則虧兮日中而移程。",
+   "translation": "달은 차면 이지러지고 해는 한가운데에 이르면 길을 옮긴다.",
+   "commentary": "성쇠가 순환한다는 일반 원리를 비유한 구절이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-006",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南人五子兮多主分，北人五妻兮多喪身。",
+   "translation": "남쪽 사람은 아들이 다섯이면 흔히 갈라짐을 주관하고, 북쪽 사람은 아내가 다섯이면 흔히 몸을 잃는다.",
+   "commentary": "출신 지역과 가족 수를 조건으로 한 주장이다. '分'은 재산·가족의 분리로 읽힐 수 있으나 원문만으로 특정되지 않는다. 형태 조건은 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南人",
+     "observable_ko": "출신 지역(남·북)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-007",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "鳳凰鳴而必利兮，蛇蝎出而方生，時候氣制兮偏正不均。",
+   "translation": "봉황이 울면 반드시 이롭고, 뱀과 전갈은 나와야 비로소 살며, 때와 절기의 기운이 제어하니 치우침과 바름이 고르지 않다.",
+   "commentary": "동물 비유로 시운과 기운에 따라 길흉이 달라진다는 일반론을 편 구절이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638-face-008",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "南人面如雞子兮，北人「頭似斗底平；",
+   "translation": "남쪽 사람은 얼굴이 달걀 같고, 북쪽 사람은 머리가 말(斗)의 바닥처럼 평평하다.",
+   "commentary": "지역별 전형적인 얼굴·머리 모양을 기술한 구절로 길흉 주장은 없다. '얼굴이 달걀 같다(面如雞子)'는 지침의 정형 표현 面如卵과 같은 뜻이라 계란형 얼굴로 옮겼으나, 출신 지역 조건이 붙어 있다. 원문 중간의 「는 사본의 표기이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南人",
+     "observable_ko": "출신 지역(남·북)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "面如雞子",
+     "observable_ko": "얼굴이 달걀형",
+     "status": "exact",
+     "label": "face_shape:oval"
+    },
+    {
+     "region": "other",
+     "evidence": "頭似斗底平",
+     "observable_ko": "머리(정수리)가 말 바닥처럼 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-009",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "東人短兮西人腳長；",
+   "translation": "동쪽 사람은 (키가) 짧고 서쪽 사람은 다리가 길다.",
+   "commentary": "지역별 체형을 기술한 구절로 얼굴 형태가 아니다. '短'의 대상은 원문에 없어 문맥상 키로 보충했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東人",
+     "observable_ko": "출신 지역(동·서)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "短",
+     "observable_ko": "키가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신장·체형은 얼굴 사진에서 관찰할 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腳長",
+     "observable_ko": "다리가 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "다리 길이는 얼굴 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-010",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南不相天兮北不相顴；東不相嘴兮西不相腿。",
+   "translation": "남쪽은 하늘(이마)을 보지 않고 북쪽은 관골(顴骨, 광대뼈)을 보지 않으며, 동쪽은 입을 보지 않고 서쪽은 다리를 보지 않는다.",
+   "commentary": "지역에 따라 판단에서 제외할 부위를 말하는 방법론이다. '天'은 이마 위쪽(천정)을 가리키는 것으로 읽었다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-011",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南人似北兮必超群，北人似南兮終飛騰；",
+   "translation": "남쪽 사람이 북쪽 사람을 닮으면 반드시 무리에서 뛰어나고, 북쪽 사람이 남쪽 사람을 닮으면 끝내 날아오른다.",
+   "commentary": "다른 지역 사람의 모습을 닮는 것을 조건으로 한 주장으로, 구체적 형태가 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南人",
+     "observable_ko": "출신 지역(남·북)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "似北",
+     "observable_ko": "다른 지역 사람의 모습을 닮음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "닮음의 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-012",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "東人似西兮而聲名，西人似東兮而豐盈。",
+   "translation": "동쪽 사람이 서쪽 사람을 닮으면 명성이 있고, 서쪽 사람이 동쪽 사람을 닮으면 풍성하고 가득하다.",
+   "commentary": "앞 구절과 같은 방식의 지역 교차 비교로, 구체적 형태가 적혀 있지 않다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東人",
+     "observable_ko": "출신 지역(동·서)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "似西",
+     "observable_ko": "다른 지역 사람의 모습을 닮음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "닮음의 구체적 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-013",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南不相輕清兮，北不相重濁；東不相色嫩兮，西不相老成。",
+   "translation": "남쪽은 가볍고 맑음을 보지 않고, 북쪽은 무겁고 탁함을 보지 않으며, 동쪽은 빛깔이 여림을 보지 않고, 서쪽은 노성(老成)함을 보지 않는다.",
+   "commentary": "지역별로 판단에서 제외할 성질을 말하는 방법론이다. 형태 조건과 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-014",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南人形相分明兮，北人古怪而精神；",
+   "translation": "남쪽 사람은 형상이 분명하고, 북쪽 사람은 예스럽고 기괴하나 정신이 있다.",
+   "commentary": "지역별 인상을 기술한 구절로, 품평어만 있고 측정 가능한 형태가 없다. 길흉 주장은 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南人",
+     "observable_ko": "출신 지역(남·북)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "形相分明",
+     "observable_ko": "형상이 분명함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "分明·古怪는 품평어로 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "精神",
+     "observable_ko": "정신(기운)이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "정신·기운은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-015",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "東人俊兮骨氣漸衰；西人秀兮氣爽而神清；",
+   "translation": "동쪽 사람은 준수하나 골기(骨氣)가 점점 쇠하고, 서쪽 사람은 빼어나 기운이 상쾌하고 신(神)이 맑다.",
+   "commentary": "지역별 인상을 기술한 구절로, 준수·빼어남은 품평어이고 골기·신기는 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東人",
+     "observable_ko": "출신 지역(동·서)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "출신 지역은 얼굴 사진에서 관찰할 수 있는 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "俊",
+     "observable_ko": "용모가 준수함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "俊·秀는 품평어로 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "骨氣漸衰",
+     "observable_ko": "골기가 점점 쇠함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기운은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ638-forehead-016",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "forehead",
+   "original_text": "南婦貞潔兮，額廣頂平；",
+   "translation": "남쪽 부인의 정결함은 이마가 넓고 정수리가 평평한 것이다.",
+   "commentary": "'이마가 넓다(額廣)'는 지침의 정형 표현으로 forehead_width:wide에 대응한다. 정수리 모양은 대응 레이블이 없다. 문헌은 이를 여성의 정절과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額廣",
+     "observable_ko": "이마가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "other",
+     "evidence": "頂平",
+     "observable_ko": "정수리가 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "정수리·두형에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ],
+   "review_note": "AI cross-file review (not human): 확정된 release 어휘에 맞게 '대기 레이블' 서술을 정정"
+  },
+  {
+   "passage_id": "SQ638-face-017",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "北婦貞潔兮五嶽平正；",
+   "translation": "북쪽 부인의 정결함은 오악(五嶽)이 평평하고 바른 것이다.",
+   "commentary": "오악(五嶽)은 이마·턱·코·좌우 광대뼈를 가리키는 관상 용어다(같은 책 袁柳莊雜論 中篇의 정의 참조). '평평하고 바름'은 형태 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "北婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "五嶽平正",
+     "observable_ko": "이마·턱·코·광대뼈가 고르고 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "다섯 부위의 균형을 말할 뿐 측정 가능한 방향이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-eye-018",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "eye",
+   "original_text": "東婦貞潔兮瞻視柔順，",
+   "translation": "동쪽 부인의 정결함은 바라봄이 부드럽고 순한 것이다.",
+   "commentary": "시선의 태도에 관한 서술로 형태가 아니다. 문헌은 이를 여성의 정절과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "瞻視柔順",
+     "observable_ko": "시선이 부드럽고 순함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·태도는 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-019",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "西婦貞潔兮，神清氣靜；",
+   "translation": "서쪽 부인의 정결함은 신(神)이 맑고 기운이 고요한 것이다.",
+   "commentary": "신·기에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "西婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "神清氣靜",
+     "observable_ko": "신이 맑고 기가 고요함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신·기는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-eye-020",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "eye",
+   "original_text": "南婦淫兮，赤脈貫睛",
+   "translation": "남쪽 부인의 음란함은 붉은 핏줄이 눈동자를 꿰뚫는 것이다.",
+   "commentary": "눈의 충혈에 관한 서술로 형태가 아니다. 사본에는 이 구절 뒤에 구두점 없이 다음 구절이 이어진다. 문헌은 이를 성적 행실에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "赤脈貫睛",
+     "observable_ko": "붉은 핏줄이 눈동자를 지남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "충혈·색은 형태가 아니며 일시적 상태다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-021",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "北婦淫兮，掠鬢斜行；",
+   "translation": "북쪽 부인의 음란함은 살쩍을 쓸어 넘기며 비스듬히 걷는 것이다.",
+   "commentary": "몸짓과 걸음에 관한 서술로 형태가 아니다. 문헌은 이를 성적 행실에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "北婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "掠鬢斜行",
+     "observable_ko": "살쩍을 쓸어 넘기며 비스듬히 걸음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·걸음은 정지 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-022",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "東婦淫兮，笑坐不停，",
+   "translation": "동쪽 부인의 음란함은 웃고 앉음이 그치지 않는 것이다.",
+   "commentary": "행동에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "笑坐不停",
+     "observable_ko": "웃고 앉음이 그치지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동은 정지 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-cheekbone-023",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "cheekbone",
+   "original_text": "西婦淫兮，顴面不平；",
+   "translation": "서쪽 부인의 음란함은 관골과 얼굴이 고르지 않은 것이다.",
+   "commentary": "'顴面不平'은 광대뼈가 얼굴면에서 도드라지거나 좌우가 고르지 않다는 뜻으로 읽힐 수 있어 방향이 특정되지 않는다. 문헌은 이를 성적 행실에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "西婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "顴面不平",
+     "observable_ko": "광대뼈와 얼굴면이 고르지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "돌출인지 좌우 비대칭인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-024",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "南婦妨害兮髮黃鴉聲；",
+   "translation": "남쪽 부인의 방해(妨害)는 머리털이 누렇고 까마귀 소리인 것이다.",
+   "commentary": "방해(妨害)는 남편·가족에게 해를 끼친다는 관상 용어로 쓰인다. 머리털 색과 목소리는 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "南婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "髮黃",
+     "observable_ko": "머리털이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "털 색은 조명·염색에 좌우되며 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "鴉聲",
+     "observable_ko": "목소리가 까마귀 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ638-forehead-025",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "forehead",
+   "original_text": "北婦妨害兮額上橫紋；",
+   "translation": "북쪽 부인의 방해는 이마 위의 가로 주름이다.",
+   "commentary": "이마 주름은 지침상 정규 레이블이 없는 형태다. 문헌은 이를 가족에게 해롭다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "北婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額上橫紋",
+     "observable_ko": "이마에 가로 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ638-eye-026",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "eye",
+   "original_text": "東婦妨害兮四白羊睛；",
+   "translation": "동쪽 부인의 방해는 사백(四白)에 양의 눈동자인 것이다.",
+   "commentary": "사백(四白)은 검은자 사방으로 흰자가 드러나는 눈, 양의 눈동자(羊睛)는 동물 비유로 읽힌다. 사백은 위·아래 한쪽 노출만 구분하는 레이블과 맞지 않는다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "東婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "sclera_show는 위 또는 아래 한쪽만 구분하며 사방 노출 클래스가 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "羊睛",
+     "observable_ko": "양의 눈동자(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-027",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "西婦妨害兮身硬男形。",
+   "translation": "서쪽 부인의 방해는 몸이 굳고 남자의 형상인 것이다.",
+   "commentary": "몸의 형태·태도에 관한 서술로 얼굴 형태 레이블이 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "西婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "身硬男形",
+     "observable_ko": "몸이 굳고 남자 같은 체형",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "체형은 얼굴 사진에서 관찰할 수 없고 성별 판단을 요구한다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-028",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "男子無肩兮，到老貧寒；",
+   "translation": "남자가 어깨가 없으면 늙도록 가난하고 춥다.",
+   "commentary": "'어깨가 없다'는 처진 어깨 등 체형을 말하는 것으로 읽히며 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男子",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "無肩",
+     "observable_ko": "어깨가 없는(처진) 체형",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "어깨는 얼굴 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-029",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "女子無肩兮，至老榮昌。",
+   "translation": "여자가 어깨가 없으면 늙도록 영화롭고 창성한다.",
+   "commentary": "앞 구절과 대비하여 같은 체형을 여성에게는 길하다고 했다. 얼굴 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "無肩",
+     "observable_ko": "어깨가 없는(처진) 체형",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "어깨는 얼굴 사진에서 관찰할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638-mouth-030",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "mouth",
+   "original_text": "男子口小兮，貧薄夭亡；",
+   "translation": "남자가 입이 작으면 가난하고 박복하며 일찍 죽는다.",
+   "commentary": "'입이 작다(口小)'는 지침의 정형 표현으로 좁은 입에 해당한다. 남성에게만 붙는 조건이며, 문헌은 이를 요절이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男子",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음(좁음)",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ638-mouth-031",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "mouth",
+   "original_text": "女子口小兮，聰慧智良。",
+   "translation": "여자가 입이 작으면 총명하고 슬기로우며 지혜롭고 어질다.",
+   "commentary": "'입이 작다(口小)'는 정형 표현이다. 같은 형태를 성별에 따라 반대로 해석한 대구이며, 문헌은 이를 지능 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입이 작음(좁음)",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638-brow-032",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "brow",
+   "original_text": "男子蛾眉兮，損爹損娘；",
+   "translation": "남자가 아미(蛾眉, 나방 더듬이 같은 눈썹)이면 아버지를 해치고 어머니를 해친다.",
+   "commentary": "아미(蛾眉)는 가늘고 길게 굽은 눈썹을 비유하는 말이나 굵기·길이·곡률 기준이 원문에 없다. 문헌은 이를 부모를 해친다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男子",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "蛾眉",
+     "observable_ko": "아미(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_shape:arched",
+      "brow_thickness:thin"
+     ],
+     "reason": "비유 표현으로 어느 측정값을 뜻하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "SQ638-brow-033",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "brow",
+   "original_text": "女子蛾眉兮，寵妾寵房。",
+   "translation": "여자가 아미이면 총애받는 첩이요 총애받는 방(房)이다.",
+   "commentary": "같은 눈썹을 여성에게는 총애를 받는다고 해석한 대구다. 아미는 비유 표현이라 형태 기준이 없다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "brow",
+     "evidence": "蛾眉",
+     "observable_ko": "아미(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_shape:arched",
+      "brow_thickness:thin"
+     ],
+     "reason": "비유 표현으로 어느 측정값을 뜻하는지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-034",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "男子剛而明快兮，輔佐君王。",
+   "translation": "남자가 굳세고 명쾌하면 군왕을 보좌한다.",
+   "commentary": "성품·태도에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "男子",
+     "observable_ko": "대상이 남성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "剛而明快",
+     "observable_ko": "굳세고 명쾌함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "성품·태도는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-035",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "女子柔而貞靜兮，宜配賢郎。",
+   "translation": "여자가 부드럽고 곧고 고요하면 어진 낭군과 짝함이 마땅하다.",
+   "commentary": "성품·태도에 관한 서술로 형태가 아니다. 貞은 정절의 뜻을 포함한다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女子",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "柔而貞靜",
+     "observable_ko": "부드럽고 곧고 고요함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "성품·태도는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "character",
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-036",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "有祿有官有爵兮，十二宮中兼看。",
+   "translation": "녹이 있고 관직이 있고 작위가 있음은 십이궁(十二宮) 가운데에서 아울러 본다.",
+   "commentary": "십이궁은 얼굴을 열두 궁으로 나누어 보는 관상 체계다. 판단 방법을 말한 구절로 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-037",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "無神無色無氣兮，八卦數內循環。",
+   "translation": "신이 없고 색이 없고 기가 없음은 팔괘의 수 안에서 순환한다.",
+   "commentary": "신·색·기가 없는 경우를 팔괘의 수로 따진다는 방법론으로 읽었으나 뜻이 분명하지 않다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-038",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "富貴貧賤分定兮，視南北東西，人物相當。",
+   "translation": "부귀와 빈천이 나뉘어 정해짐은 남북동서를 보아 사람과 사물이 서로 걸맞은지에 달려 있다.",
+   "commentary": "지역과 사람의 상응을 보라는 방법론이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-039",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "五嶽四瀆」九州兮，識運限四柱禍福災祥。",
+   "translation": "오악·사독·구주로 운한(運限)과 사주(四柱)의 화복과 재앙·상서를 안다.",
+   "commentary": "오악(五嶽)·사독(四瀆)·구주(九州)는 얼굴 부위를 산·강·땅에 빗댄 관상 용어다. 원문 중간의 」는 사본의 표기이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ638-other-040",
+   "section": "《袁柳莊識人賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "麻衣真祕訣，千載永留芳。",
+   "translation": "마의(麻衣)의 참된 비결이 천 년토록 길이 향기를 남긴다.",
+   "commentary": "부의 맺음말로, 이 비결을 마의(麻衣)의 것이라 일컬었다. 편찬서는 이 부를 袁柳莊의 작으로 표제했으나 본문 끝은 麻衣를 칭하고 있어 그대로 옮겼다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  }
+ ]
+}

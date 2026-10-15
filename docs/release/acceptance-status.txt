@@ -1,0 +1,391 @@
+FaceTeller release 인수 추적 — 2026-10-15 CPU 근거 갱신
+
+이 문서는 실제 코드와 현재 증거의 대조표이며 최종 합격 선언이 아니다.
+requirements.json의 초기 pilot 상태와 acceptance-plan.txt의 시험계획을 그대로
+현재 상태로 인용하지 않았다. 원본 PDF/HWP, frontend, backend, 모델은 수정하지 않았다.
+규범 우선순위(A01): 최신 사용자 지시/current-directive > 상세설계 > 요구사항 > 목업.
+귀 포함, CNN+깊이 mixed G, 깊이 all400 분포, 인간 검수 제외를 적용했다.
+requirements.json에 저장된 directive 해시는 현재 추가 지시가 반영된 파일과 다르다.
+아래는 이 감사 시점의 상태이며 계속 변경되는 corpus/registry를 최종 동결로 간주하지 않는다.
+후속 CPU 근거 갱신: frontend-report의 2026-10-14 23:22 KST 추가 검증과
+database-report의 원문 archive 확장을 대조했다. 이번 갱신은 이 문서만 수정했으며,
+담당자의 시험을 다시 실행하거나 GPU·실제400명·TLS 검증을 수행하지 않았다.
+후속 반영: eye_asymmetry 공동 얼굴 입력 변경과 docs/release/tls-report.txt의
+선택 TLS CPU 검증 완료를 아래에 추가했다. 실제 HTTPS 모델 서비스 검증은 여전히 대기다.
+최신 갱신은 main/Bohr의 완료 통보와 이 감사자의 보고서 UI 재검증을 반영했다.
+진행 세션 번호는 통보 시점의 작업 식별자이며 완료 증거가 아니다.
+
+검증 근거의 종류
+E1 직접 실행 CPU: Windows .venv Python에서 다음 50개 테스트 통과(1.213초).
+  -B -X utf8 -m unittest tests.test_release_landmark_labels
+  tests.test_release_training_data tests.test_release_preprocess
+  tests.test_release_score_audit tests.test_release_runtime
+  합성 입력/주입 서비스와 registry 메타데이터 검사이다. 실제 GPU·인물 추론이 아니다.
+  이후 Bohr의 tests.test_release_training_data 5개 통과 통보를 반영했다. 신규2개는
+  eye_asymmetry의 학습 캐시/런타임 공동 얼굴 입력 일치와 구형 head 배치 checkpoint 거부이다.
+  앞선50개 실행과 시점이 다른 후속 근거이며 단순 합산하지 않는다.
+E2 frontend 담당 증거: docs/release/frontend-report.txt 및 frontend/tests/.
+  최신 UI 문구 반영 후 frontend production build도 통과했다(main 통보).
+  기존 production build·단위15·Chromium 브라우저11 통과. 기존10/9 기록을 대체하는
+  후속 근거이며 합성 NDJSON/촬영·권한·취소·모바일·결과 및 인쇄 흐름을 포함한다.
+  실제 학습군 원본3장의 CPU MediaPipe 업로드도 통과했으며 backend는 mock이다.
+  얼굴/프레임 비율 .25..8 제한은 카메라에만 적용하도록 수정; 업로드는 검사 bitmap의
+  얼굴 폭150px 하한 유지. 원본 정면 얼굴 폭 약157px/전체864px의 차단 회귀도 수정 후 통과.
+  실제3장 요청1회·결과 전환·사진 정리·외부 네트워크0을 확인했으며 원본은 파이프/메모리로
+  전달하고 사진 파일·입력 스크린샷을 만들지 않았다. frontend와 서버의 크기·밝기 측정은
+  동일 수치가 아니다(frontend 검사 bitmap bbox/얼굴 ROI, 서버 원본/부위별 보류).
+  실제 얼굴 acquisition 증거와 GPU 추론/400명 HTTP 증거를 구분한다. 이 감사자가 재실행하지 않았다.
+E3 frontend-report와 frontend/tests/ui.spec.ts의 인쇄 근거: 당시 실제 corpus의 긴5개
+  원문+직역을 합성 점수에 연결해 표시하여
+  Chromium A4 1쪽, 전문 보존 확인. 孛/為 PDF NUL 누락은 루트 Noto Serif TC fallback으로 수정.
+  PDF 출처 URL의 링크 annotation도 확인했다. 실제 모델 결과 인쇄는 아니다.
+  현재 확장 중인 corpus의 모든 조합이나 최종판에 대한 보장은 아니며 최종 해시에 귀속한
+  재검증이 남는다. 여러 장 fallback을 A4 1쪽 성공으로 세지 않는다.
+E4 DB 담당 증거: docs/release/database-report.txt, tests/test_release_repository.py,
+  tests/test_release_literature.py. 실제 PostgreSQL+당시 corpus, 합성 조건/점수 질의이다.
+  read-only 권한, AND 양성/조건누락·오분류 음성/무관조건, 본문·출처 및 G 대조를 수행했다.
+  corpus가 계속 바뀌므로 예전 적격 수/성공 건수는 최종 corpus 전체의 보장이 아니다.
+  archive 확장 후 disposable 실제 PostgreSQL 25개 테스트 통과(담당 기록,7.941초).
+  migration003 원문 해시·Unicode 보존·권한 거부·이전/누락 리비전·원자적 rollback을 검사했다.
+  보고서상 운영 DB에는 migration003만 적용했고 확장 corpus는 아직 import하지 않았다.
+E5 실제 전처리 artifact: outputs/release/crop_parity.json — v2,400명 정면 crop6000개,
+  L1 원본과 캐시의 decoded RGB 동일, pass:true. 귀는 별도 범위이며 전체 조명·최종E2E 증거가 아니다.
+  귀2373개 parity 등 별도 CPU 근거는 docs/release/extended-labels.txt 참조.
+E6 시작/보고서 도구 직접 CPU 검사: start-release.ps1 PowerShell AST·내장 Python 구문,
+  venv/필수 산출물 누락 시 모델 로드 전 실패, DB 활성 corpus 불일치 차단 확인.
+  보고서 TEMP 합성12쪽 PDF/38시트 XLSX/TXT,14개 잘못된 입력 거부, 한글·페이지 경계·
+  식별자 미노출 확인. 선택 점수영향 표 연결 및 잘못된 서비스/corpus 해시2건도 거부.
+  이후 main은 원문 보관범위·깊이 반복성 표를 추가하고 별도 TEMP에서 PDF12쪽/XLSX41시트,
+  해시 변조2건 거부와 PDF 문자·경계·식별자 검사를 통과했다(담당 보고서 근거).
+  후속 TEMP 합성 검증은 PDF12쪽/XLSX42시트이며 실제 UI 근거 표·전 페이지 경계·
+  개인정보 미노출을 pdfjs로 확인했다(PyMuPDF 검사기 사용 불가에 따른 대체 근거).
+  보고서 UI 테스트2개 통과. 별도 읽기 전용 재현에서 confirmed 누락 및 A4상태 누락 거부,
+  명시적 다중 페이지 fallback 허용, 실제 make_tables UI 분기의11개 허용 항목만 출력하고
+  추가 숫자형 subject_id는 제외함을 확인했다. 실제 UI 실측 성공을 뜻하지 않는다.
+  최신 main 후속 TEMP timing 합성 검증은 PDF12쪽/XLSX44시트 및 음성2건 통과다.
+  실제 release 전체 보고서는 생성하지 않았다. 완료된45회 비교 보고서는 MODEL_BENCHMARK 참조.
+  상세: docs/release/report-builder.txt.
+  TLS 담당 후속 근거: docs/release/tls-report.txt, tests/test_release_tls.py.
+  CPU9개 통과(1.141초). 작은 독립 ASGI 앱의 실제 Uvicorn loopback TLS 연결에서
+  전용 SSLContext로 인증서를 신뢰한 localhost/127.0.0.1 요청 성공, 잘못된 호스트와
+  시스템 기본 신뢰 연결 실패를 확인했다. release 서비스·GPU·브라우저 시험은 아니다.
+E7 원문 archive: database-report의 중간 snapshot 대조에서925절(위키813/스캔112),
+  원문357,986자,42개 snapshot/PDF 해시를 확인했다. 확보 판본의 원문량이며 판본 간 중복을
+  포함한다. 번역·조건 주석 완료 수나 실제 DB 적재 수가 아니다.
+  최신 최종 초안은5304조항/서비스 적격73조항/원문 archive925절이며 corpus34개 테스트 통과
+  (main 통보). canonical ready 및 운영 DB 최종 적재 완료로 간주하지 않는다.
+  Bohr의 원문 문맥 감사에서 적격73개는 CNN-only70/depth-only3/CNN+depth 공동조건0이다.
+  공동조건을 만들기 위해 원문에 없는 조건을 추가하지 않았다.
+  별도 완료 범위: 신규 Codex5파일227조항의 check --file 통과. 기존 주석 합산 神異賦17730자,
+  人倫大統賦上4936자/下5549자는 공백 제외 문자 coverage1.0·중복0이다. AI 직역/주석의
+  기계적 원문 범위 증거이며 전문가 번역 검수나 전체 도서 완료를 뜻하지 않는다.
+
+요구사항 → 구현 → 근거 → 남은 실제 확인
+
+FR_001 [A05, 구현/실기 일부]
+  frontend/src/Inputs.tsx, capture.ts, vision.ts, vision.worker.ts → E1/E2.
+  로컬 MediaPipe, 얼굴수·자세·크기·밝기·표정, 권한거부→업로드 경로 구현.
+  실제 학습군 업로드 및 작은 얼굴 회귀는 E2에서 통과했다.
+  남음: 실제 사람 웹캠/장치·조명·fps와 서로 다른 frontend/backend 기준의 최종 입력 수용성.
+
+FR_002 [A05, 구현/합성 검증]
+  frontend/src/capture.ts, Inputs.tsx → E2.
+  800ms AND 새8프레임, 이탈/중복/지연 reset, 세대 토큰, 방향당1회/3장후1회 요청.
+  남음: 실제 웹캠에서 정면→음수yaw좌측→양수yaw우측, 이탈·스트림 종료 확인.
+
+FR_003 [A06/A23, 구현/일부 한계]
+  frontend/src/Inputs.tsx, api.ts; facework/pilot_contract.py → E1/E2.
+  3slot·교체·삭제·URL정리·공통 multipart 및 서버 재검사 구현. 동일인 입력 안내 있음.
+  남음: 동일 실제3장 camera/upload 결과 동등성. 동일인 자동 신원검증은 구현하지 않았으며
+  깊이 시점일관성을 동일인 증명으로 쓰지 않는다. 혼입 입력 통과 여부 별도 기록 필요.
+
+FR_004 [A07/A08, 구현/CPU 검증]
+  facework/pilot_contract.py, release_runtime.py; frontend/src/api.ts, App.tsx → E1/E2.
+  HTTP/stream terminal 오류, 방향 안내, 취소·재시도·EOF/UTF8 오류·입력 정리 구현.
+  남음: 실제 GPU/PG 장애·연결중단·동시요청 이후 자원 회수.
+
+FR_005 [A04, 구현/실제 CPU 부분 검증]
+  facework/release_preprocess.py; scripts/release/prepare_crops.py, verify_crop_parity.py → E1/E5.
+  eye-centre-isotropic-v2: 눈 중심선 수평/거리128, 등방변환·letterbox·공유 전처리.
+  eye_asymmetry는 양쪽 눈을 함께 포함한 face 입력으로 이동했다. E1 후속2개 테스트가
+  실제 캐시/런타임 코드 경로의 합성 픽셀 일치와 옛 checkpoint 배치 거부를 확인했다.
+  남음: 최종 모델 preprocess hash 연결, 전체 입력 조건/귀 가시성의 서비스 일치.
+
+FR_006 [A03/A09/A10/A11, 연결 구현/모델 대기]
+  facework/release_runtime.py, release_depth.py; data/release/training_registry.json → E1.
+  현재12부위·41분류head·4깊이, head별 보정/근거·부분 보류 경로 있음.
+  분류 head 배치는 eye6/face7로 변경됐으며 총41개는 같다. eye_asymmetry의 학습 부위가
+  face로 이동한 것이고 특징 자체가 삭제되거나 전체 평가 완료된 것은 아니다.
+  남음: 새 가중치/보정/깊이 설정 생성과 실제 시험. head 존재를 학습 능력으로 표현하지 않는다.
+
+FR_007 [A12/A13, 구현/CPU 검증]
+  facework/pilot_contract.py, release_runtime.py → E1; tests/test_pilot_contract.py.
+  기본theta .60, binary .60/multi .50 하한, 품질/미보정/지원0 보류, HELD label 제거,
+  확정0 재입력·부분확정 PARTIAL·확정있고문헌0 정상. 깊이 실패는 CNN 결과 보존.
+  남음: 실제 모델 지원수/품질·threshold 적용과 복구 가능한 깊이 실패 검증.
+
+FR_008 [A14/A15/A16, 구현/CPU·PG 부분 검증]
+  facework/pilot_contract.py, release_repository.py; scripts/release/verify_service.py → E1/E4.
+  전체조건 AND, 중복제거, mixed G, 결정적 동률순서, 모든 관련부위 최대3/전체5 구현.
+  현재 적격 초안의 CNN+depth 공동조건은0개다(E7). 혼합 점수 수식 구현과 실제 공동조건
+  문헌 존재를 구분한다. 남음: 최종 corpus·배포 조합 실제400 응답의 선정/순위/구성점수 대조.
+
+FR_009 [A17, 구현/브라우저 일부 검증]
+  frontend/src/Results.tsx, types.ts, App.tsx → E2.
+  12부위 pin·보류사유 한국어·원문/직역/해설/근거·title/url/locator·순위/G 구분 표시.
+  최신 회귀는 E2에서 통과. 남음: 실제 release 응답 연결과 동결 배포 해시 일치.
+
+FR_010 [A18, 구현/실제 corpus 합성 인쇄 검증]
+  frontend/src/Results.tsx, style.css → E2/E3.
+  동일 결과객체, 원문/직역/출처·주요판정, 해설 제외, 실제 치수 확인·overflow 알림.
+  당시 긴5조항 전문 A4 1쪽 보존 및 PDF 출처 hyperlink 검증 통과.
+  남음: 최종 corpus 해시와 PDF 전문/페이지 검사 근거 연결, 실제 결과 인쇄.
+  여러 장 fallback은 보존 장치이며 A4한장 합격으로 세지 않는다.
+
+ARCH_UI [A17, 구현]
+  frontend/package.json, src/main.tsx, App.tsx → E2. React+TypeScript와 메모리 화면 흐름.
+  최신 build/15unit/11browser 통과. 남음: 최종 서비스 연결.
+  frontend/tests/production.integration.ts와 playwright.release.config.ts의 opt-in test:release는
+  준비됐으며 completion 활성 세션33016은 최종 보고서 전에 Windows 실제 UI 검증을
+  수행하도록 연결됐다(main 통보). 아직 실제 UI 통과 선언은 아니다.
+  loopback HTTP(S)만 허용하고 health/result의 deployment·depth·
+  registry·corpus 해시를 동결 로컬 산출물과 대조한다. 자기 선언만으로 실제 모델로 인정하지
+  않으며 문헌0개이면 문헌 전문 검증 증거도0개이다. 실제 서버 준비 뒤 main이 실행해야 한다.
+
+ARCH_API [A07/A08/A22, 구현/CPU 검증]
+  facework/release_runtime.py, pilot_contract.py; scripts/release/serve.py → E1/E6.
+  FastAPI lifespan 1회 자원 로드, NDJSON, 메모리 multipart, 단일 worker/입장제한.
+  남음: 실제 시작·readiness·종료/모델 로드 횟수·과부하. 모델 누락 시 정상 서비스라 하지 않는다.
+
+ARCH_DEPTH [A11/A12, 구현/CPU 검증]
+  facework/release_depth.py, pilot/depth.py, release_runtime.py → E1.
+  VGGT는 RGB3장 입력, 결과와 같은 좌표계 특징점을 후결합; 부분실패 보류.
+  release-depth는400명 L1 및 반복80건 실제 실행을 완료했다(main 통보).
+  Banach의 읽기 전용 해시·산술 감사도 통과했다. 깊이 실측 완료를 전체 모델 학습이나
+  CNN·깊이·PG 통합400명 서비스 성공으로 세지 않는다. 남음: 실제 서비스 통합 검증.
+
+DB_SCHEMA [A15, 기능 구현/설계 형식 차이]
+  data/release/migrations/001_reference_corpus.sql, 002_active_corpus.sql, 003_source_section.sql;
+  facework/release_repository.py; scripts/release/setup_database.py → E4.
+  PK/FK·복합중복 방지·전체AND·SELECT 계정·일관 snapshot·active corpus hash 구현.
+  private source_section은 원문 보관용이며 서비스 reader의 SELECT/수정 권한이 없다.
+  text_sha256·원문·provenance 검증과 passages/archive/active hash의 단일 트랜잭션 교체 구현.
+  차이: 안정 문자열 TEXT ID를 사용하며 원 명세 BIGINT와 문자 그대로 일치하지 않는다.
+  남음: 최종 corpus 재적재/현재 해시의 권한·본문·조건 재검증.
+
+DB_CORPUS [A16, 구축 진행]
+  data/release/literature/reference_corpus_v1.json, source_registry.json,
+  validation_report.json; scripts/release/build_reference_corpus.py → E4/E7.
+  원문·직역·해설·출처 사전 저장, 조건미완료 제외 및 coverage 기록.
+  source_sections 원문 archive는 source_archive_unreviewed/service_eligible=false이다.
+  번역·해설·레이블의 가짜 placeholder를 만들지 않으며 원문 확보와 서비스 후보를 구별한다.
+  최신 초안5304/적격73/archive925 및 corpus34개 테스트 통과는 E7 참조.
+  scripts/release/finalize_literature.py는 격리 PostgreSQL을 포함한12개 테스트 통과.
+  finalizer 대기 세션94848은 preparation 실패로 자동 종료됐다. main이 VLM v2 준비 완료 후
+  재시작할 예정이다. Qwen400 완료 뒤 pending 승격→build/tests→DB import→canonical ready
+  순서는 아직 완료되지 않았다. 운영 DB 최종 import 완료로 표시하지 않는다.
+  남음: 해당 순서의 실제 완료와 책별 전체·적격·제외·미완료 수 동결 및 DB hash 일치.
+  행 수가 많거나 기계검사가 통과해도 지정 도서 전체/해석 정확성 완료를 뜻하지 않는다.
+
+OV_G [A14, 변경 반영/CPU 검증]
+  facework/pilot_contract.py; scripts/release/verify_service.py, audit_scores.py → E1/E4.
+  CNN 보정confidence+depth measurement_score의 특징별 동일 가중 기하평균;0이면G0.
+  남음: 실제400 score_formula_verified와 조항/구성요소 개수, 선정순위 대조.
+  동일 가중은 실제 영향 동일의 증거가 아니다. score-influence.json은 생성 대기.
+
+OV_DEPTH [A11/A21, 변경 반영/실측 대기]
+  scripts/release/calibrate_depth.py, audit_depth.py;
+  facework/pilot/scoring.py, release_depth.py → E1/E6.
+  all400 b1/b2, sigma, CDF 경계점수, confidence=null·정답확률 아님 구분.
+  깊이400명+반복80건 실측 및 Banach의 해시·산술 감사 통과를 반영했다(main 통보).
+  all400 경계는 독립 test 보정이 아니다. 남음: 최종 배포와의 신원 연결 및 통합 서비스 검증.
+
+OV_REVIEW [A03/A16/A24, 정책 반영]
+  registry/landmark_labels.json, corpus annotation_policy, build_report.py → E1/E6.
+  자동/AI weak label·human review0을 보존. 인간 검수 승인 단계를 추가하지 않는다.
+  남음: 최종 metadata와 공유 보고서 문구 일치. 자동주석 일치도는 전문가 정답 정확도가 아니다.
+
+DATA_SPLIT [A02/A21, 메타데이터 구현]
+  models/selection-20261014/protocol.json; scripts/release/build_training_registry.py → E1.
+  현재400: train270/selection34/calibration34/test62. 반복사진은 동일 인물 split.
+  남음: 최종 입력/crop/model/평가 hash와 실제400 분할별 집계. test62는 역사적 시험군.
+
+DATA_NEW7 [A03/A09, 주석·crop 구현/학습 대기]
+  scripts/release/prepare_extended_labels.py, prepare_landmark_labels.py,
+  build_training_registry.py; data/release/landmark_labels.json → E1/E5.
+  forehead/glabella/under_eye/cheekbone/ear/philtrum/mole 포함. unknown을 정상값으로 채우지 않음.
+  남음: 희소/무지원 항목의 실제 지원 및 local mark 주석 갱신·학습 가능성 확인(아래 참조).
+
+MODEL_BENCHMARK [A09/A10, 기존 비교 동결/새 모델 별도]
+  scripts/model_selection_train.py, model_selection_evaluate.py;
+  models/selection-20261014/protocol.json; scripts/release/train_models.py.
+  기존45회=3계열×5부위×3seed/visual15head, max12/min6/patience3 실험은 그대로 유지.
+  비교45/45 학습·평가·실측 비교 보고서 생성은 완료됐다. outputs/model-selection-20261014/의
+  results.json·choice_frozen.json·TXT/PDF를 CPU 읽기 전용으로 대조했다. 7후보/3시드 집계,
+  학습시간, 선택 규칙 및 TXT 수치가 일치했다. 선정은 ResNet-18+EfficientNet-B0+ConvNeXt-Tiny,
+  선택/역사적 시험 macro-F1 평균0.741238/0.702596, warm CNN 평균105.10ms/p95 106.99ms이다.
+  PDF7쪽의 텍스트 페이지 경계 초과는 없었다. 5쪽 선정−비교의 빼기 기호2곳은 pdfjs 추출에서
+  NUL로 확인되어 보고했다. 코드/비교 산출물은 수정하지 않았다.
+  새 release 모델 학습·실제400 서비스 검증 완료와는 별개다. 기존15head 결과를 새41head
+  최적성으로 일반화하지 않으며 이 선택으로 자동 배포했다고 주장하지 않는다.
+
+MODEL_CALIBRATION [A10/A13, 구현/실측 대기]
+  scripts/release/train_models.py; facework/release_runtime.py; scripts/model_selection_metrics.py → E1.
+  frozen checkpoint별 calibration34에서 T 적합, selection34의 개발 평가 후 계열 선택;
+  T는 argmax를 바꾸지 않으며 신규 모델은 자기 보정값 필요.
+  남음: 새 raw/T NLL·ECE·coverage·지원수와 미보정 head 보류. 지표 개선을 가정하지 않는다.
+
+NFR_LATENCY [A20, 계측 구현/실측 대기]
+  facework/pilot_contract.py; scripts/release/verify_service.py, build_report.py → E1/E6.
+  received_to_result_seconds는 multipart 수신 완료 뒤 디코딩부터 terminal 결과 준비까지 연속계측.
+  최종 직렬화/전송/정리는 제외. HTTP seconds는 전송 전→NDJSON EOF의 별도 보수적 총시간.
+  남음: 최종400 warm/cold 분리 min/median/p95/max/>5초/오류·자원·동시성 실측.
+  서버준비 시간만으로 최종 응답5초를 확정하지 않는다. p95만 보고 초과건수를 숨기지 않는다.
+
+NFR_PRIVACY [A08/A19, 메모리 경로 구현/운영 관찰 대기]
+  frontend/src/Inputs.tsx, App.tsx; facework/pilot_contract.py, release_runtime.py → E1/E2.
+  URL/FileList/stream 정리, storage/history 없음, 사진·좌표 로그/외부AI 전송 경로 없음.
+  남음: 실제 성공/취소/대용량/오류 전후 파일·DB·로그·network/RSS, 배포 proxy spool 확인.
+  오프라인 승인 연구 산출물과 사용자 서비스 이력을 구분; 모든 메모리 사본 완전삭제 주장 안 함.
+
+NFR_TRANSPORT [A22, 선택 로컬 TLS 구현/CPU 검증]
+  scripts/release/serve.py, setup_local_tls.py; start-release.ps1; requirements-release.txt → E6.
+  기존 HTTP127.0.0.1:8767 기본값 유지. --https/-Https는 별도 loopback8768의 직접 Uvicorn
+  TLS이며 HTTP fallback은 없다. cryptography==50.0.2 고정, 로컬 자체서명 인증서 생성/재사용·
+  명시적 갱신, 사용자/SYSTEM 전용 키 ACL, 기존 manifest/DB 사전검사 구현 및 CPU9개 통과.
+  브라우저/시스템 신뢰 저장소는 변경하지 않았다. 시험은 OS 임의 포트의 독립 작은 앱이며
+  실제 CNN/VGGT HTTPS·브라우저 인증서 신뢰/촬영·VPN/외부 배포 성공을 뜻하지 않는다.
+  남음: 최종 HTTPS 모델 서비스·신뢰된 브라우저 secure-context·원격 VPN/배포 검증.
+  기존 HTTP 실측을 HTTPS 실측으로 바꾸어 부르지 않는다. 공개 배포는 실행하지 않았다.
+
+NFR_DATA_GOVERNANCE [A19/A22/A24, 문서화/운영 확인 대기]
+  README.md, docs/model-commercial-status.txt, docs/release/extended-labels.txt,
+  local-mark-annotation.txt; build_report.py → E6.
+  로컬 처리·공유 보고서 식별자/사진/좌표 제외, 연구자료 재배포 제외 정책.
+  남음: 실제 배포·공유 묶음 접근권한/라이선스·연구 종료 폐기 절차 확인.
+  VGGT 연구 checkpoint·파서 학습자료 조건을 포함해 상업 준비 완료라고 하지 않는다.
+
+NFR_NONPREDICTION [A16/A24, 구현/문헌 문구 검증 계속]
+  frontend/src/Results.tsx; corpus annotation_policy; build_report.py → E2/E4/E6.
+  외형 분류와 역사적 문헌 표시 분리, 종합/경계점수를 운명·건강·정답 확률로 표시하지 않음.
+  남음: 최종 corpus의 자동 문안/조건 검증. 사전학습 CNN이 관상·운명을 이미 안다는 주장 금지.
+
+NFR_ACCURACY [A09/A10/A21, 평가 구현/실측 대기]
+  scripts/model_selection_metrics.py; scripts/release/train_models.py, verify_service.py,
+  build_report.py → E1/E6.
+  macroF1 truth/pred 합집합, support0 평가불가, raw/T NLL·ECE, coverage/보류·분할 집계.
+  남음: 실제 새 모델 결과. 수용 정확도 숫자는 현재 명세에 없으므로 임의 합격선 발명하지 않음.
+
+신규 레이블·지원수에 대한 확인
+최신 VLM 진행(main/Bohr 통보): 기존20건은 응답 전체 JSON fence 때문에 모두 실패했다.
+Bohr가 TRAIN 첫 표본을 재현해 동일 SHA 및 엄격한 내용 검증 통과를 확인했다.
+v2는 전송 형식 처리만 수정하고 prompt/generation은 유지했으며 v1은 보관했다.
+새20건 smoke는 통보 시점17건 성공 상태다. 20건 전체 성공이나400건 준비 완료로 표시하지 않는다.
+400명19측정 target 중 경계 적합은 train270만 사용. eye_tilt/brow_tail/mouth_corner는
+물리 방향0 중심, lip_balance는 비율1 중심, 나머지는 train P25/P75이다.
+brow_tail metric은 brow_outer_inner_tilt(바깥/안쪽 끝점 전체 기울기)로 수정됐다.
+문헌 매핑의 최신 지시: 흔한 class라는 이유만으로 물리 방향이 거짓이 되지 않는다.
+단순 尾垂/尾上은 해당 방향의 exact를 유지할 수 있고, 부위간 문자 그대로의 길이 비교나
+측정하지 않는 복합 묘사는 여전히 approximate 등으로 구분한다.
+현재 train eye_tilt.down=0, brow_tail.ascending=0, lip_balance.upper_full=0.
+under_eye는 selection/calibration 모두 visible=0. pigmented_marks는 train1/19/unknown250,
+selection 전부 unknown인 중간 상태다. 이에 대한 독립 양성 검출/보정 능력을 주장할 수 없다.
+train_support/train_people_by_feature는 실제 유효 crop을 본 고유 인물 수이며 원본 registry
+지원수보다 작을 수 있다. 보고서는 둘을 구분하며 동일 수를 강제하지 않는다.
+새 history.validation_seconds가 있으면 train_seconds와 별도 합산하고, 없는 과거 기록은
+0이나 추정값으로 채우지 않는다. elapsed_seconds는 준비 비용을 포함하는 별도 값이다.
+
+실제 점수 감사와 최종 보고서 조건
+scripts/release/audit_scores.py의 초기2개 CPU 테스트는 E1에 포함된다. 후속3개 테스트 통과에는
+공동조건의 합성 수학 검증이 포함된다(main 통보). 실제 공동조건 문헌/응답 검증은 아니다.
+최종400 응답+동결corpus를 재생해 CNN/depth 분포·포화·depth 제외시 순위/선정 변화와 분할을 기록한다.
+build_report.py의 문헌조건구성 표와 PDF는 현재 공동조건0개 및 감사 집계0을 명시하도록
+연결됐다. 원문 감사의 CNN-only70/depth-only3/공동조건0을 숨기거나 합성 사례로 대체하지 않는다.
+동일응답 내 비교이며 공정성·정답 정확도 근거가 아니다. 실제 score-influence.json은 아직 없다.
+build_report.py는400명/분할·배포/depth/corpus 신원과 proof 필드/개수를 필수로 대조한다.
+score_formula_verified=true는 실제 조항수·구성요소수와 맞아야 검증 근거로 센다.
+문헌0의 true/0과 실제 선택 검증을 분리하고 오류·false는 사실대로 보고한다.
+실패가 있었다는 이유만으로 숨기지 않지만, 누락·모순·해시 불일치 자료로 최종 산출물은 만들지 않는다.
+선택 score-influence가 있으면 해당 서비스 파일 raw SHA256/corpus canonical SHA256을 대조한다.
+선택 depth-stability는 깊이 설정·측정 records 해시를 대조하고 반복 조명의 절대변화,
+레이블 일치율·ICC(1,1)·정규성 진단을 분리해 보고한다. 정규성 결과로 경계를 재선택하지 않는다.
+원문 archive 절/문자 수와 번역·조건 완료 조항 수도 별도 집계한다. 이 추가 경로의 TEMP
+합성 검증(E6)을 실제 반복 측정·400명 실행 성공으로 해석하지 않는다.
+
+깊이400명+반복80건은 완료됐지만 전체 release 모델·서비스 검증은 미완료다.
+최종 보고서에는 models/release/deployment.json, data/release/depth_config.json,
+outputs/release/test_metrics.json, outputs/release/service-verification.json의 완비 및 상호 신원 대조가 필요하다.
+따라서 실제 전체 구현 실험 PDF/XLSX/TXT 생성 및 공유 복사를 하지 않았다.
+
+A24 결론: 주요 기능 코드 경로는 연결되어 있으나 전체 release 검증 완료는 아니다.
+실제 웹캠/입력 일관성, 새 모델·깊이·PG 통합400명, 최종 corpus 인쇄, HTTPS/VPN 운영 증거가 남는다.
+기존 pilot62명/옛15head/깊이400/합성카메라/부분DB 결과를 새 전체 합격으로 승격하지 않는다.
+
+2026-10-14 감사 기준 파일 SHA256 (과거 대조값; 최신 파일 동일성 주장 아님)
+current-directive.txt: 77512df647fca1bb8ce148a62c2635fd9318cae9ba4f1f7e3eb4d328dadd45a6
+requirements.json: 7053413a661b3e75019d39040bbfd3ae0cca8bf9c9c9778453503bca12d69a74
+acceptance-plan.txt: 9c7d239dc30bf68e27324413189a731e01b3b226a0b1d25f2d2b35d4b0249443
+training_registry.json (eye_asymmetry→face 반영): fa71a3a15a19f2af69c85ff3c141c6e83c9544e81943360c9066ce491a7c51e9
+landmark_labels.json: 9409f53ad6e04b364f8b94817e070b5ab32d401a40b423a7814e6f894627c8b2
+frontend-report.txt: 7322a31a97b3c0fd41b583faed02b39ecbd1a08c9bdb64726b1c1d550d6eb5f2
+database-report.txt: 50e2ce16d590cf4af143e2bfedf82e46182e5327c23ea91063050cdad9e90236
+tls-report.txt: d16df864de847c6ccc75c8396c0a8797d5a1a112539f6fd710a3f05a74158432
+corpus는 변경 중이므로 최종값으로 고정하지 않았다. DB/인쇄/400실측은 각 실행 당시 해시에 귀속한다.
+
+2026-10-15 main 후속: 비교 보고서의 U+2212 빼기 기호2곳을 ASCII '-'로 바꾸고
+실제 PDF/XLSX/TXT 및 Downloads 공유본을 재생성했다. 원본 실험 JSON·모델·수치는
+변경하지 않았다. 이전 보고서는 before-minus-glyph-fix/에 보존했다. pdfjs로 실제7쪽
+전체NUL0, 5쪽의 두 빼기 표기 정상 추출을 확인했다.
+
+2026-10-15 실제 자동 주석·문헌DB 완료
+Qwen v2는 전체400명 기록을 생성했다(유효398, 입력불가1, JSON오류1). 두 오류는unknown이다.
+새 overlay의 피부표식 지원은 train50/4/216, selection6/1/27, calibration6/0/28,
+test13/3/46(양성/음성/unknown)이다. 보정군에 음성이 없어 음성 신뢰도 보정을
+검증했다고 하지 않는다. 준비검사45개 통과, extended_ready.json이 생성됐다.
+학습은12부위×3계열로 시작했으며 아직 배포·시험·실제HTTP400 완료는 아니다.
+최종 문헌DB는5문헌/5304조항/925원문구간/적격73개다. 이중import동일성, 읽기전용권한,
+원문보관자료의 서비스계정 접근차단, 원문해시 및159개 실제조건검색을 검증했다.
+Windows source_hashes 경로 구분자 차이는 조회정규화로 수정했고 registry/학습표적은
+변경하지 않았다. data/release/literature_ready.json, outputs/release/literature-finalization.json
+corpus revision: e9e7a092604cbfbeead424659e7cb9bf064b3b155513b1282e93b21c4fa59b05.
+
+2026-10-15 ResNet-18 단일 배포 반영 (Claude 보고서/설계 감사)
+사용자 결정: 서비스 분류기는 ResNet-18 한 계열 12모델만 사용하며 앙상블은 없다.
+models/release/inference_frozen.json(release-inference-choice-v1, architectures=[resnet18])이
+선택을 고정하고, deployment.json의 inference_architectures/inference_selection_sha256가 이 파일의
+바이트 SHA256에 묶인다. config는 원 학습 설정(training_frozen.json, 3후보 계열) 그대로다.
+배포 weights 12개, 보정 37/41헤드, 단일 클래스 보정 보류 4헤드, human_review_count 0을 JSON으로 확인했다.
+main 기록 resnet-only-verification.json: pass=true, retrained=false, 이전 배포는 before-resnet-only/에 보관.
+귀 입력 수정 기록(3계열 비귀33 유지+귀3 재학습)은 역사적 자료로 유지하며, 현재 비귀11 해시가
+그 기록과 같음을 확인했다.
+build_report.py: 새 schema(선택 파일 해시·version·registry·training_config 해시, config==training_frozen,
+정확히 12가중치, 서비스 classifier_architectures/model_count, 귀 기록의 부분집합)와 기존 36모델
+schema를 함께 지원한다. 미배포 24모델은 역사적 후보 표로 분리하고 배포 비용에 합산하지 않는다.
+CPU: tests.test_release_report_deployment(9) + test_release_report_ui(2) + test_release_completion
+통과(합성 PDF10쪽 생성 포함). 실제 --validate-only는 HTTP400 미완료에서 멈춘다(정상).
+남음: 밝기 검사 수정 후 HTTP400 재실행, 실제 UI 검증, 그 뒤 실제 보고서 생성.
+첫 HTTP400 실행은 서버 전체영상 밝기 결함 때문에 기준선이며 최종 결과로 쓰지 않는다.
+설계 대비 미구현/실측대기 구분은 docs/release/claude-final-audit.txt 참조.
+
+2026-10-15 설계 4.3 DB 메타데이터·5.4 기준값 반영 (Claude 후속)
+DB_SCHEMA 갱신: migration004가 label 설계 컬럼(region/label_name/criteria/measurement_indicator/
+measurement_method, metadata_revision)과 passage chapter/passage_no(source.chapter/locator 생성 컬럼)를
+추가만 한다. TEXT 자연키 유지, 번호 재부여·조번호 생성 없음. importer는 명시 컬럼으로 insert하며
+재import가 메타데이터를 지우지 않는다. setup_database.py sync-labels / sync_label_metadata.py sync|check가
+동결 registry·landmark_labels·depth_config로 129클래스(CNN117/깊이12)를 채운다. 랜드마크19개 경계는
+landmark_labels와 registry가 정확히 일치해야 하며 시각 AI 합의 레이블에는 물리 경계를 만들지 않는다.
+격리 PostgreSQL: tests.test_release_label_metadata 13개 통과(001-003+실제 corpus→004, revision
+e9e7a092…, 5304/적격73·매핑 불변, 적격 조건 전부 재검색, 재동기화 무변경, 읽기 계정 쓰기 차단·제약).
+기존 repository/literature_finalization/report 테스트도 통과. 운영 DB 적용은 main 실행 대기.
+MODEL_CALIBRATION/FR_007 갱신: main의 validation-reject-cost-v1 헤드별 기준값(보정34 전용, 시험 전 정책
+고정)을 build_report.py가 해시·격자·하한·loss 재계산·선택 규칙·지표 기준값 사용까지 대조한다.
+실제 배포 41헤드: 선택37/미보정 비활성4, 재계산 일치. 보고서는 기준값정책·헤드기준값 표를 추가했다.
+보고서 TEMP 합성(48헤드 부하) PDF12쪽 범위 내, pdfjs 추출 NUL 없음. 실제 보고서는 최종 HTTP400·UI 대기.
+
+2026-10-15 최종 실측 보고서 감사 (Claude)
+실제 근거 완비 후 build_report.py --validate-only 통과(종료0). 실제 자료로 TEMP에만 렌더해 검사했다
+(공유 복사 없음): PDF 11쪽/XLSX 53시트, pdfjs 전 쪽 NUL 0, 8자리 참여자 ID 0건(S001/L1/E01은 촬영 조건 코드).
+HTTP400 오류0·최대1.95초·5초초과0, 재개1회(397명 보존) 공개, 오류검증 12회/6종 표기, 헤드별 기준값37개
+재계산 일치, TLS/녹화 카메라 경로(물리 웹캠 아님)와 DB 메타데이터129를 신원 대조해 수록했다.
+직접 CLI 실행의 sys.path 결함(No module named scripts)을 수정하고 다른 작업 디렉터리 실행 테스트를 추가했다.
+남음: 물리 웹캠·기기별 촬영, 공개 배포/VPN, 상업 이용 조건. 높은 정확도·운명 예측·상업 승인은 주장하지 않는다.

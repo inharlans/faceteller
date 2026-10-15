@@ -1,0 +1,272 @@
+{
+ "page_id": "xf05",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相唇篇第五"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF05-mouth-001",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "下唇過上唇，妨夫的有真。",
+   "translation": "아랫입술이 윗입술을 넘으면 남편을 해침이 틀림없이 참으로 있다.",
+   "commentary": "아랫입술이 윗입술보다 크거나 나온 형태로, '過'가 두께인지 돌출인지 불분명해 lip_balance의 근사 대응이다. 남편을 전제로 한 여성 대상 서술이며 배우자를 해친다는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "下唇過上唇",
+     "observable_ko": "아랫입술이 윗입술을 넘음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_balance:upper_thin"
+     ],
+     "reason": "'過'가 두께인지 돌출인지 불분명하고 정확 표현(上薄下厚)이 아니다"
+    },
+    {
+     "region": "subject",
+     "evidence": "妨夫",
+     "observable_ko": "대상이 여성(남편을 둔 사람)으로 전제됨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-002",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "上唇過下唇，法多虛假人。",
+   "translation": "윗입술이 아랫입술을 넘으면 법(法)에 헛되고 거짓됨이 많은 사람이다.",
+   "commentary": "윗입술이 아랫입술보다 크거나 나온 형태로 lip_balance의 근사 대응이다. '法'의 뜻은 분명하지 않아 글자대로 옮겼다. 거짓에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "上唇過下唇",
+     "observable_ko": "윗입술이 아랫입술을 넘음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_balance:upper_full"
+     ],
+     "reason": "'過'가 두께인지 돌출인지 불분명하고 정확 표현(上厚下薄)이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-003",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇紫色，足衣食。",
+   "translation": "입술이 자줏빛이면 옷과 먹을 것이 넉넉하다.",
+   "commentary": "입술 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇紫色",
+     "observable_ko": "입술이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-004",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇常赤，為貴客。",
+   "translation": "입술이 늘 붉으면 귀한 손님이 된다.",
+   "commentary": "입술 색에 관한 서술로 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇常赤",
+     "observable_ko": "입술이 늘 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-005",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "上唇厚，命非久。",
+   "translation": "윗입술이 두터우면 목숨이 오래가지 않는다.",
+   "commentary": "윗입술만의 두께는 가이드상 근사 대응(上脣厚 alone)이다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "上唇厚",
+     "observable_ko": "윗입술이 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_balance:upper_full",
+      "lip_thickness:full"
+     ],
+     "reason": "윗입술만 말하여 입술 균형·두께의 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-006",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "下唇長，主貪食。",
+   "translation": "아랫입술이 길면 먹을 것을 탐함을 주관한다.",
+   "commentary": "아랫입술의 길이는 레이블 체계에 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "下唇長",
+     "observable_ko": "아랫입술이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "아랫입술 길이 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-007",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇上下相當，語音易善。好集文章。",
+   "translation": "입술의 위아래가 서로 맞먹으면 말소리가 쉽고 좋다. 글 모으기를 좋아한다.",
+   "commentary": "위아래 입술이 균형을 이룸은 lip_balance의 중간 클래스에 해당하는데, 중간 클래스는 정확 대응으로 쓰지 않는다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇上下相當",
+     "observable_ko": "위아래 입술이 맞먹음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "균형(중간) 클래스는 정확 대응으로 쓰지 않으며 해당 정확 표현이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-008",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "女唇紫，夫早死，兼妨首子。",
+   "translation": "여자의 입술이 자줏빛이면 남편이 일찍 죽고, 아울러 첫 자식을 해친다.",
+   "commentary": "여성에게만 적용되는 입술 색 서술로 형태가 아니다. 배우자의 죽음과 자식을 해침에 관한 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "唇紫",
+     "observable_ko": "입술이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring",
+    "kinship_harm",
+    "marriage"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "XF05-mouth-009",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇赤如丹，不要師看。",
+   "translation": "입술이 단사(丹砂)처럼 붉으면 스승이 볼 필요가 없다.",
+   "commentary": "입술 색에 관한 서술로 형태가 아니다. 상을 따로 볼 필요 없이 좋다는 뜻으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇赤如丹",
+     "observable_ko": "입술이 단사처럼 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-010",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇上下不相覆，常懷盜竊，終身不富。",
+   "translation": "입술의 위아래가 서로 덮지 못하면 늘 도둑질을 품고, 평생 부유하지 못한다.",
+   "commentary": "다물었을 때 입술이 서로 닿지 않는 형태로 읽히며 레이블이 없다. 절도라는 낙인성 주장이다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇上下不相覆",
+     "observable_ko": "위아래 입술이 서로 덮이지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "입술 닫힘 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF05-mouth-011",
+   "section": "相唇篇第五",
+   "region": "mouth",
+   "original_text": "唇多紋理，兒多無比。",
+   "translation": "입술에 주름결이 많으면 자식이 비할 데 없이 많다.",
+   "commentary": "입술 주름에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "唇多紋理",
+     "observable_ko": "입술 주름이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·결 항목이 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  }
+ ]
+}

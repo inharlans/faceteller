@@ -1,0 +1,2002 @@
+{
+  "page_id": "gj638",
+  "annotator": "AI model draft (Codex), pinned-source translation; no human review",
+  "sections_complete": [],
+  "coverage_note": "기존 주석과 중복하지 않는 미주석 구간만 보충. 완결 여부는 파일 단독이 아닌 기존 파일과 합산해 검사한다.",
+  "passages": [
+    {
+      "passage_id": "SQ638CX-nose-001",
+      "section": "《人倫大統賦下》",
+      "original_text": "惟鼻高者號「嵩嶽」以居中，為天柱而高矗。\n《鼻為嵩嶽》，以鼻中央為天柱，而高接天庭。\n《梁》貴乎豐隆貫額，色貴乎瑩光溢目。\n其鼻所貴，惟在高隆貫額。色之所貴，在乎瑩光溫潤，而能溢目。",
+      "translation": "코가 높은 것을 숭악(嵩嶽, 중앙의 산)에 빗대어 가운데 놓고, 천주(天柱, 하늘 기둥)로 삼아 높이 솟게 한다. 코를 숭악이라 하고 코의 중앙을 천주로 삼아 위로 천정(天庭, 이마 윗부분)에 닿게 한다. 콧대는 풍성하게 솟아 이마를 관통함을 귀히 여기고, 빛은 맑게 빛나 눈에 넘침을 귀히 여긴다. 코에서 귀한 것은 오직 높이 솟아 이마에 이어지는 데 있다. 빛에서 귀한 것은 맑게 빛나고 온윤하여 눈에 넘치는 데 있다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻高",
+          "observable_ko": "코가 높음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_projection:high",
+            "nose_bridge:high"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "豐隆貫額",
+          "observable_ko": "풍성하게 솟아 이마에 이어지는 콧대",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "瑩光溫潤",
+          "observable_ko": "맑고 온윤한 빛",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-002",
+      "section": "《人倫大統賦下》",
+      "original_text": "《竅小》慳劣，頭低孤獨。\n鼻孔小者。為目閉不通。其性多慳劣　。凡人準頭低者。主終身無子，孤獨之相。",
+      "translation": "구멍이 작으면 인색하고 못하며, 코끝이 낮으면 외롭다. 콧구멍이 작은 것은 눈이 닫혀 통하지 않는 것이 되어 성품이 인색하고 못한 경우가 많다. 무릇 준두(準頭, 코끝)가 낮은 사람은 평생 자식이 없고 외로운 상이라고 한다.",
+      "commentary": "문헌은 콧구멍 크기와 코끝 높이에 각각 다른 주장을 붙였다. 원문의 目閉는 눈이 닫혔다는 문자 그대로 옮겼으며 孔 등으로 고치지 않았다. 복수 조건은 OR로 풀지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻孔小",
+          "observable_ko": "콧구멍이 작음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "準頭低",
+          "observable_ko": "코끝이 낮음",
+          "status": "exact",
+          "label": "nose_projection:low"
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fertility_offspring",
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-003",
+      "section": "《人倫大統賦下》",
+      "original_text": "斜如芟藕之狀，困乏瓶儲；圓若懸膽之形，榮食《鼎餗》。\n《鼻昂》露如芟藕之狀者。家貧困乏。衣食不贍　。《鼻準》完美。勢若懸膽者，榮食鼎祿。",
+      "translation": "비스듬하여 연뿌리를 베어 낸 모양 같으면 병에 저장할 것조차 부족하고, 둥글어 쓸개를 매단 형상 같으면 솥에 담은 음식을 영화롭게 먹는다. 코가 들려 드러나 연뿌리를 베어 낸 모양 같으면 집이 가난하여 의식이 넉넉하지 않다. 코끝이 완미하고 매단 쓸개 같은 형세이면 영화로운 녹을 먹는다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻昂》露如芟藕之狀",
+          "observable_ko": "들려 드러난 코가 잘린 연뿌리 같음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nostril_show:visible"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻準》完美",
+          "observable_ko": "코끝이 완미함",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "勢若懸膽",
+          "observable_ko": "매단 쓸개 같은 형세",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-004",
+      "section": "《人倫大統賦下》",
+      "original_text": "青黑多凶，黃明廣福。\n鼻乃身之主。若氣色青黑者。應遭不測之禍。如其色之黃。明福自至也。",
+      "translation": "푸르고 검으면 흉함이 많고, 누렇고 밝으면 복이 넓다. 코는 몸의 주인이니 기색이 푸르고 검으면 뜻밖의 화를 만난다. 그 빛이 누렇고 밝으면 복이 저절로 이른다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "氣色青黑",
+          "observable_ko": "푸르고 검은 코의 기색",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "色之黃。明",
+          "observable_ko": "누렇고 밝은 빛",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-005",
+      "section": "《人倫大統賦下》",
+      "original_text": "柱缺終身難薦鶚，梁斷三十當畏鵩。\n天柱必要端直。若有缺陷，則終當困滯，不得騰踏上進　，鵩乃不祥，鳥人見之死亡。漢賈誼三十畢而見此鳥，知必死，故作《鵩鳥賦》。",
+      "translation": "기둥이 이지러지면 평생 천거되기 어렵고, 콧대가 끊기면 서른에 부엉이를 두려워해야 한다. 천주는 반드시 단정하고 곧아야 한다. 결함이 있으면 끝내 곤궁하고 막혀 올라 나아갈 수 없다. 복(鵩)은 불길한 새로, 사람이 보면 죽는다고 한다. 한나라 가의는 서른이 끝날 때 이 새를 보고 반드시 죽으리라 알아 「복조부」를 지었다고 한다.",
+      "commentary": "천주·양은 코의 기둥과 콧대를 가리킨다. 가의와 새의 이야기는 이 문헌의 서술이며 실제 사망 인과나 연대의 검증으로 제시하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "柱缺",
+          "observable_ko": "코의 천주가 결손됨",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "梁斷",
+          "observable_ko": "콧대가 끊긴 듯함",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "天柱必要端直",
+          "observable_ko": "코의 천주가 단정하고 곧음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-006",
+      "section": "《人倫大統賦下》",
+      "original_text": "大而滯者為商旅，小而狹者作僮僕。\n其鼻大而滯者。則為商賈之人。終身奔波流落。凡鼻小而狹者。則早離父母。必作僮僕相曰「山根斷。」 而幼年疾苦為僮僕。",
+      "translation": "크면서 막혀 보이면 상인이 되고, 작고 좁으면 종복이 된다. 코가 크면서 막힌 사람은 상인이 되어 평생 떠돌며 분주하다. 코가 작고 좁은 사람은 일찍 부모를 떠나 반드시 종복이 된다. 상서에서 산근(山根, 콧뿌리)이 끊기면 어린 시절 병고를 겪고 종복이 된다고 하였다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻大",
+          "observable_ko": "코가 큼",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:wide"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "而滯",
+          "observable_ko": "막혀 보임",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻小",
+          "observable_ko": "코가 작음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_width:narrow"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻小而狹",
+          "observable_ko": "코가 좁음",
+          "status": "exact",
+          "label": "nose_width:narrow"
+        },
+        {
+          "region": "nose",
+          "evidence": "山根斷",
+          "observable_ko": "콧뿌리가 끊긴 듯함",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "health_disease",
+        "kinship_harm"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-007",
+      "section": "《人倫大統賦下》",
+      "original_text": "極貴之色，似老蠶之光明；下愚之人，若蜣蜋之局促。\n《相》曰：蠶將老，自飼而明，然後通於周體；人將發，自準而明，然後通於諸部。故人將貴顯，著見青龍之氣，似老蠶黃明之色，乃為極貴之光，則無不利也。下愚之人，鼻短低凹，若蜣蜋局促。《相》曰：「面短貧賤人相貌，鼻短無梁露齒牙。」",
+      "translation": "지극히 귀한 빛은 늙은 누에의 밝음 같고, 지극히 어리석은 사람은 쇠똥구리처럼 옹색하다. 상서에서는 누에가 늙으려 할 때 먹는 데서부터 밝아져 온몸으로 통하고, 사람이 발달하려 할 때 코끝부터 밝아져 여러 부위로 통한다고 했다. 그러므로 귀해져 드러나려는 사람에게 청룡의 기가 나타나 늙은 누에처럼 누렇고 밝아지니, 지극히 귀한 빛이어서 이롭지 않음이 없다고 한다. 어리석은 사람은 코가 짧고 낮게 꺼져 쇠똥구리처럼 옹색하다. 상서에서는 얼굴이 짧은 것은 빈천한 사람의 모습이며, 코가 짧고 콧대가 없고 이가 드러난다고 했다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "老蠶黃明之色",
+          "observable_ko": "늙은 누에처럼 누렇고 밝은 빛",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻短",
+          "observable_ko": "코가 짧음",
+          "status": "exact",
+          "label": "nose_length:short"
+        },
+        {
+          "region": "nose",
+          "evidence": "低凹",
+          "observable_ko": "코가 낮고 꺼짐",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low",
+            "nose_projection:low"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "面短",
+          "observable_ko": "얼굴이 짧음",
+          "status": "exact",
+          "label": "face_length:short"
+        },
+        {
+          "region": "nose",
+          "evidence": "無梁",
+          "observable_ko": "콧대가 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "露齒牙",
+          "observable_ko": "치아가 드러남",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "intelligence",
+        "wealth"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-008",
+      "section": "《人倫大統賦下》",
+      "original_text": "光美宜官，破露憂獄。\n其鼻完美成就者。宜享官祿。若破露無勢者，則平生憂苦。多致牢獄之囚。",
+      "translation": "빛나고 아름다우면 벼슬에 마땅하고, 깨지고 드러나면 옥살이를 근심한다. 코가 완미하게 이루어졌으면 관록을 누리기에 마땅하다. 깨지고 드러나 기세가 없으면 평생 근심과 괴로움이 있어 감옥의 죄수가 되는 일이 많다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻完美成就",
+          "observable_ko": "코가 완미하게 이루어짐",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "破露無勢",
+          "observable_ko": "코가 깨지고 드러나 기세가 없음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "criminality"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009a",
+      "section": "《人倫大統賦下》",
+      "original_text": "「《準頭》隆」者誠信，",
+      "translation": "준두(準頭, 코끝)가 솟으면 성실하고 믿음직하다고 한다.",
+      "commentary": "코끝의 높이와 법령 주름은 독립된 주장이므로 구별했다. 문헌의 성향·수명 연결을 실제 사람에 대한 예측으로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準頭》隆",
+          "observable_ko": "코끝이 솟음",
+          "status": "exact",
+          "label": "nose_projection:high"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009b",
+      "section": "《人倫大統賦下》",
+      "original_text": "《法令》深者嚴肅。",
+      "translation": "법령(法令, 코 옆 주름)이 깊으면 엄숙하다고 한다.",
+      "commentary": "코끝의 높이와 법령 주름은 독립된 주장이므로 구별했다. 문헌의 성향·수명 연결을 실제 사람에 대한 예측으로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "法令》深",
+          "observable_ko": "법령 주름이 깊음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009c",
+      "section": "《人倫大統賦下》",
+      "original_text": "\n夫準頭者，為面部之標本。準頭高隆，其人誠懇而篤信",
+      "translation": "준두(準頭, 코끝)는 얼굴 부위의 표본이다. 코끝이 높게 솟으면 그 사람이 성실하고 돈독하게 믿는다고 한다.",
+      "commentary": "코끝의 높이와 법령 주름은 독립된 주장이므로 구별했다. 문헌의 성향·수명 연결을 실제 사람에 대한 예측으로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "準頭高隆",
+          "observable_ko": "코끝이 높게 솟음",
+          "status": "exact",
+          "label": "nose_projection:high"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009d",
+      "section": "《人倫大統賦下》",
+      "original_text": "　法令，乃鼻之左右紋也。若其紋理深長者，為人敦重嚴肅，又有遐齡之壽。",
+      "translation": "법령(法令)은 코 좌우의 주름이다. 그 주름이 깊고 길면 사람이 돈독하고 신중하며 엄숙하고, 또 오래 사는 수명을 지닌다고 한다.",
+      "commentary": "코끝의 높이와 법령 주름은 독립된 주장이므로 구별했다. 문헌의 성향·수명 연결을 실제 사람에 대한 예측으로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "紋理深長",
+          "observable_ko": "법령 주름이 깊고 긺",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-010",
+      "section": "《人倫大統賦下》",
+      "original_text": "疾病尖薄，慳吝小縮。\n鼻尖而薄者，一生多病。《蘭臺》小縮者，其性慳吝。",
+      "translation": "뾰족하고 얇으면 병이 있고, 작고 오그라들면 인색하다. 코가 뾰족하고 얇은 사람은 평생 병이 많다. 난대(蘭臺, 콧방울 쪽 부위)가 작고 오그라들면 성품이 인색하다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻尖",
+          "observable_ko": "코끝이 뾰족함",
+          "status": "exact",
+          "label": "nose_tip:tapered"
+        },
+        {
+          "region": "nose",
+          "evidence": "而薄",
+          "observable_ko": "코가 얇음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "蘭臺》小縮",
+          "observable_ko": "난대가 작고 오그라듦",
+          "status": "approximate",
+          "candidate_labels": [
+            "alar_fullness:flat"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-011",
+      "section": "《人倫大統賦下》",
+      "original_text": "蘭臺明兮庭旅實，井竈露兮廚無粟。\n蘭臺，廷尉福德宮也。若蘭臺豐明者，家財殷實而多儲積，能贍百人　。井竈若露不收者，當庖廚空乏，恆無自贍之食，《相》曰：「鼻露竅，無歸著。」",
+      "translation": "난대(蘭臺, 콧방울 부위)가 밝으면 뜰에 머무는 무리가 넉넉하고, 정조(井竈, 콧구멍)가 드러나면 부엌에 곡식이 없다. 난대와 정위(廷尉, 반대편 콧방울 부위)는 복덕궁이다. 난대가 풍성하고 밝으면 집안 재산이 넉넉하고 비축이 많아 백 명을 먹일 수 있다. 정조가 드러나 거두어지지 않으면 부엌이 텅 비어 늘 스스로 먹을 음식이 없다. 상서에서 코의 구멍이 드러나면 돌아가 의지할 데가 없다고 했다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "蘭臺豐明",
+          "observable_ko": "한쪽 난대가 풍성함",
+          "status": "approximate",
+          "candidate_labels": [
+            "alar_fullness:full"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "蘭臺豐明",
+          "observable_ko": "난대가 밝음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "井竈若露",
+          "observable_ko": "콧구멍이 드러남",
+          "status": "exact",
+          "label": "nostril_show:visible"
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-nose-012",
+      "section": "《人倫大統賦下》",
+      "original_text": "《骨如橫起》，忌與結於交朋；《紋若亂交》，慎勿為其眷屬。\n鼻骨橫起者。甚不可相親而為友　。鼻上紋理亂交者。必詭行。雖父子不同其心。若女子者。不可為之眷屬。",
+      "translation": "뼈가 가로 솟으면 친구로 맺기를 꺼리고, 주름이 어지럽게 얽히면 그 권속이 되지 않도록 삼가라. 코뼈가 가로 솟은 사람은 친하게 사귀어 벗이 되어서는 매우 안 된다고 한다. 코 위 주름이 어지럽게 얽히면 반드시 거짓된 행동을 하며 부자라도 마음이 같지 않다. 여자라면 그 권속이 되어서는 안 된다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻骨橫起",
+          "observable_ko": "코뼈가 가로 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "nose",
+          "evidence": "鼻上紋理亂交",
+          "observable_ko": "코 위 주름이 어지럽게 얽힘",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "subject",
+          "evidence": "若女子者",
+          "observable_ko": "여성에 한정된 후반 주장",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "malice_deceit",
+        "family_children",
+        "marriage"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013a",
+      "section": "《人倫大統賦下》",
+      "original_text": "夫《人中》者，溝洫之態，深則疏通，",
+      "translation": "인중(人中, 코 아래와 윗입술 사이)은 도랑의 모양이니 깊으면 잘 통한다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013b",
+      "section": "《人倫大統賦下》",
+      "original_text": "淺則遲延。",
+      "translation": "얕으면 지체된다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "淺",
+          "observable_ko": "인중이 얕음",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013c",
+      "section": "《人倫大統賦下》",
+      "original_text": "\n「《人》中」 者，若大川之溝洫，清流四瀆，潮接歸海，宜其寬深而長也　。",
+      "translation": "인중은 큰 내의 도랑 같아서 맑은 흐름이 사독(四瀆, 네 물길)으로 가고 조수가 이어져 바다로 돌아가니, 넓고 깊고 긴 것이 좋다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "寬",
+          "observable_ko": "인중이 넓음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "長",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013d",
+      "section": "《人倫大統賦下》",
+      "original_text": "深則必致亨通，",
+      "translation": "깊으면 반드시 형통함에 이른다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013e",
+      "section": "《人倫大統賦下》",
+      "original_text": "淺則應當困滯。",
+      "translation": "얕으면 마땅히 곤궁하게 막힌다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "淺",
+          "observable_ko": "인중이 얕음",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-014a",
+      "section": "《人倫大統賦下》",
+      "original_text": "《淺短》絕嗣而夭命。",
+      "translation": "얕고 짧으면 후사가 끊기고 수명이 짧다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "淺短",
+          "observable_ko": "인중이 얕음",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "淺短",
+          "observable_ko": "인중이 짧음",
+          "status": "exact",
+          "label": "philtrum_length:short"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-014b",
+      "section": "《人倫大統賦下》",
+      "original_text": "《深長》宜子以延年。",
+      "translation": "깊고 길면 자식에게 좋고 수명을 늘린다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-014c",
+      "section": "《人倫大統賦下》",
+      "original_text": "\n如其人中淺短者，絕嗣夭命。",
+      "translation": "인중이 얕고 짧으면 후사가 끊기고 요절한다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中淺短",
+          "observable_ko": "인중이 얕음",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "人中淺短",
+          "observable_ko": "인중이 짧음",
+          "status": "exact",
+          "label": "philtrum_length:short"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-014d",
+      "section": "《人倫大統賦下》",
+      "original_text": "若得深長者，宜其子孫富貴，又當壽考。",
+      "translation": "깊고 길면 자손이 부귀하고 또한 오래 산다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "death_lifespan",
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-015",
+      "section": "《人倫大統賦下》",
+      "original_text": "黑子難產乎蓐上，橫紋殍卒於道傍。\n凡「人中」 者，月孛也。若人中有靨者，主其母產之難，若有橫紋截斷，必當餓死於途中。",
+      "translation": "검은 점이 있으면 산자리에서 난산하고, 가로 주름이 있으면 길가에서 굶어 죽는다. 인중은 월패(月孛)이다. 인중에 점이 있으면 그 어머니가 이를 낳기 어려웠음을 주관하고, 가로 주름이 끊으면 반드시 길에서 굶어 죽는다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "人中有靨",
+          "observable_ko": "인중의 특정 위치에 점이 있음",
+          "status": "approximate",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "橫紋截斷",
+          "observable_ko": "인중을 가로 주름이 끊음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-016",
+      "section": "《人倫大統賦下》",
+      "original_text": "上狹下廣兮多後旺，下狹上廣兮屢孤眠。\n若人中上窄下寬者，主晚年發祿，子孫成群　。如下狹上闊者，多為鰥孤之人。",
+      "translation": "위가 좁고 아래가 넓으면 후대가 많이 번성하고, 아래가 좁고 위가 넓으면 여러 번 홀로 잔다. 인중의 위가 좁고 아래가 넓으면 만년에 녹을 얻고 자손이 무리를 이룬다. 아래가 좁고 위가 넓으면 홀아비로 외로운 사람이 되는 경우가 많다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中上窄下寬",
+          "observable_ko": "인중 위가 좁고 아래가 넓음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "下狹上闊",
+          "observable_ko": "인중 아래가 좁고 위가 넓음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "wealth",
+        "marriage"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-017a",
+      "section": "《人倫大統賦下》",
+      "original_text": "深長者誠信著，",
+      "translation": "깊고 길면 성실함과 믿음이 드러난다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-017b",
+      "section": "《人倫大統賦下》",
+      "original_text": "寬厚者功名先。",
+      "translation": "넓고 두터우면 공명이 앞선다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "寬厚",
+          "observable_ko": "인중이 넓고 두터움",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-017c",
+      "section": "《人倫大統賦下》",
+      "original_text": "\n深長者，著有誠信，",
+      "translation": "깊고 길면 성실함과 믿음이 드러나 있다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 깊음",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "深長",
+          "observable_ko": "인중이 긺",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-017d",
+      "section": "《人倫大統賦下》",
+      "original_text": "寬闊者，早立功名。",
+      "translation": "넓으면 일찍 공명을 세운다고 한다.",
+      "commentary": "인중에 관한 서로 다른 경우를 원문 순서대로 나누었다. 문헌의 주장으로, 실제 사람의 성격·운명·수명을 검증한 설명이 아니다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "寬闊",
+          "observable_ko": "인중이 넓음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-018",
+      "section": "《人倫大統賦下》",
+      "original_text": "「微如一線之文。身填溝壑」，明由「破竹之仰。家世貂蟬。」\n但人中微窄如線之紋痕。主死填於溝壑之間。若如破竹之仰長遠有稜理者。則祖庭高貴。",
+      "translation": "미세하기가 한 줄의 무늬 같으면 몸이 도랑을 메우고, 밝기가 쪼갠 대나무를 위로 향한 것 같으면 집안 대대로 초선(貂蟬, 고위 관리의 관장식)을 쓴다. 인중이 가늘고 좁아 실 같은 주름 자국이면 도랑에서 죽는다고 한다. 쪼갠 대나무를 위로 향한 것처럼 길고 모서리의 결이 있으면 조상의 집안이 높고 귀하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中微窄如線之紋痕",
+          "observable_ko": "인중이 가늘고 좁아 실 같은 자국임",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "如破竹之仰長遠有稜理",
+          "observable_ko": "쪼갠 대나무처럼 길고 모서리가 있음",
+          "status": "approximate",
+          "candidate_labels": [
+            "philtrum_length:long",
+            "philtrum_definition:clear"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-019",
+      "section": "《人倫大統賦下》",
+      "original_text": "《唯口》者，語言之鑰，是非之關。\n《發言》為開口之鑰，開口則是非無不至也。\n禍福之所招，利害之所詮。\n言為禍福之根，禍福乃利害之本，惟其人之所招，故言不可不慎也。",
+      "translation": "입은 언어의 열쇠이며 시비의 관문이다. 말하기는 입을 여는 열쇠가 되며 입을 열면 시비가 이르지 않는 것이 없다. 화복을 불러들이는 곳이고 이해를 설명하는 곳이다. 말은 화복의 뿌리이고 화복은 이해의 바탕이니 사람이 스스로 부르는 것이므로 말을 삼가지 않을 수 없다.",
+      "commentary": "입의 형태 분류가 아니라 말의 책임을 서술한 문헌의 교훈이다.",
+      "region": "mouth",
+      "conditions": [],
+      "claim_topics": [
+        "fortune_general",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-020",
+      "section": "《人倫大統賦下》",
+      "original_text": "《端厚寡辭》者，定免乎辱，《誹謗多言》者，必招其愆\n「吉人之辭寡」 ，若能謹慎於「寡辭」 者，定免乎恥辱。「誹謗」 「多言」 者，謂其專談人之過惡也。如是之人，必禍咎及身。",
+      "translation": "단정하고 후중하며 말이 적은 사람은 반드시 욕됨을 면하고, 비방하고 말이 많은 사람은 반드시 허물을 부른다. 길한 사람은 말이 적으니 적은 말을 삼갈 수 있으면 반드시 치욕을 면한다. 비방하고 말이 많다는 것은 오로지 남의 잘못과 악함을 말함을 이른다. 그런 사람은 반드시 재앙과 허물이 몸에 미친다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "寡辭",
+          "observable_ko": "말이 적음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "誹謗多言",
+          "observable_ko": "비방하며 말이 많음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-021",
+      "section": "《人倫大統賦下》",
+      "original_text": "「肥馬輕裘」，由方成於四字；「出將入相」，蓋大容乎一拳。\n若乘肥馬衣輕裘者，由其「口若」 四字　。出為將帥，入為宰輔者，蓋口大而能容其拳也。",
+      "translation": "살찐 말을 타고 가벼운 갖옷을 입는 것은 입이 사(四)자처럼 이루어졌기 때문이고, 나가서는 장수 안에서는 재상이 되는 것은 커서 한 주먹을 담을 수 있기 때문이다. 살찐 말을 타고 가벼운 갖옷을 입는 사람은 입이 사자와 같기 때문이며, 나가 장수가 되고 들어와 재상이 되는 사람은 입이 커서 주먹을 담을 수 있기 때문이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口若」四字",
+          "observable_ko": "입이 四자 같음",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口大而能容其拳",
+          "observable_ko": "입이 커서 자기 주먹을 담을 수 있음",
+          "status": "approximate",
+          "candidate_labels": [
+            "mouth_width:wide"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-022",
+      "section": "《人倫大統賦下》",
+      "original_text": "脣欲厚，語欲端，音欲朗，色欲鮮。\n脣貴乎秀厚，語貴乎端嚴，音貴乎高朗，色貴乎明鮮。",
+      "translation": "입술은 두터워야 하고 말은 단정해야 하며 음성은 밝아야 하고 빛은 선명해야 한다. 입술은 빼어나고 두터움을 귀히 여기며 말은 단정하고 엄함, 음성은 높고 밝음, 빛은 밝고 선명함을 귀히 여긴다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣欲厚",
+          "observable_ko": "입술이 두터움",
+          "status": "exact",
+          "label": "lip_thickness:full"
+        },
+        {
+          "region": "mouth",
+          "evidence": "秀厚",
+          "observable_ko": "입술이 빼어남",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "語欲端",
+          "observable_ko": "말이 단정함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "音欲朗",
+          "observable_ko": "음성이 밝음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "色欲鮮",
+          "observable_ko": "입술 빛이 선명함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-023",
+      "section": "《人倫大統賦下》",
+      "original_text": "上下紋交子孫眾，周匝稜利仁信全。\n脣上下紋交者，子孫甚眾。如周迴有稜利者，仁信皆全。",
+      "translation": "위아래 주름이 교차하면 자손이 많고, 둘레의 모서리가 뚜렷하면 인과 신이 온전하다. 입술 위아래 주름이 교차하면 자손이 매우 많다. 둘레에 뚜렷한 모서리가 있으면 인과 신이 모두 온전하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣上下紋交",
+          "observable_ko": "입술 위아래 주름이 교차함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "周迴有稜利",
+          "observable_ko": "입술 둘레 모서리가 뚜렷함",
+          "status": "exact",
+          "label": "lip_bow:pronounced"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-024",
+      "section": "《人倫大統賦下》",
+      "original_text": "《噀血》餘貲，似括囊而貧薄；含丹多藝，如吹火以酸寒。\n脣如噀血者，主有殷富之資。如括囊者，貧寒孤苦。《古相》云：「脣若含丹多技藝，口如吹火必孤寒。」",
+      "translation": "피를 뿜은 듯하면 재물이 넉넉하고, 주머니 입구를 묶은 듯하면 가난하고 빈약하다. 붉은 안료를 머금은 듯하면 재주가 많고 불을 부는 듯하면 곤궁하다. 입술이 피를 뿜은 듯하면 넉넉한 재산을 지니고, 주머니를 묶은 듯하면 가난하고 외롭고 괴롭다. 옛 상서에서는 입술이 붉은 안료를 머금은 듯하면 기술과 재주가 많고, 입이 불을 부는 듯하면 반드시 외롭고 가난하다고 하였다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "脣如噀血",
+          "observable_ko": "입술 색이 피를 뿜은 듯함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "如括囊",
+          "observable_ko": "묶은 주머니 같은 입술",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "脣若含丹",
+          "observable_ko": "입술 색이 붉은 안료를 머금은 듯함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口如吹火",
+          "observable_ko": "불을 부는 듯한 입",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-025",
+      "section": "《人倫大統賦下》",
+      "original_text": "合勢欲小，開勢欲寬。狗貪馬餒，鼠讒蜂單。\n「口不欲不收」 ，故合勢欲其小，而開勢則欲其大也。凡人食物，若似讒狗之狼餐餓馬之喃草，如鼠蜂之偷食，皆下賤之相也。",
+      "translation": "다문 형세는 작아야 하고 벌린 형세는 넓어야 한다. 개는 탐하고 말은 굶주리며 쥐는 참소하고 벌은 외롭다. 입이 거두어지지 않아서는 안 되므로 다문 형세는 작고 벌린 형세는 커야 한다. 사람이 먹을 때 탐하는 개의 허겁지겁 먹음이나 굶주린 말의 풀 씹음 같고 쥐나 벌이 훔쳐 먹는 듯하면 모두 하천한 상이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "合勢欲其小，而開勢則欲其大",
+          "observable_ko": "입을 다물 때와 벌릴 때의 크기 변화",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "other",
+          "evidence": "凡人食物",
+          "observable_ko": "음식을 먹는 동작",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-026",
+      "section": "《人倫大統賦下》",
+      "original_text": "「大言」寡信者略綽，無機促齡者偃騫。\n如其口略綽不收，脣無稜理者，主自滿不謙，凶徒寡信　。脣若偃騫者，乃無機巧之人，又當夭壽。",
+      "translation": "큰소리치고 믿음이 적은 것은 벌어져 늘어진 입이며, 기교가 없고 수명을 재촉하는 것은 들려 벌어진 입술이다. 입이 벌어져 거두어지지 않고 입술에 모서리의 결이 없으면 자만하고 겸손하지 않으며 흉한 무리로 믿음이 적다고 한다. 입술이 언건(偃騫, 젖혀지고 들린 모양)하면 기교가 없는 사람이며 또한 수명이 짧다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口略綽不收",
+          "observable_ko": "입이 벌어져 거두어지지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "脣無稜理",
+          "observable_ko": "입술 모서리 결이 없음",
+          "status": "exact",
+          "label": "lip_bow:flat"
+        },
+        {
+          "region": "mouth",
+          "evidence": "脣若偃騫",
+          "observable_ko": "입술이 젖혀지고 들림",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-027",
+      "section": "《人倫大統賦下》",
+      "original_text": "青黑禍發，黃白病纏。\n口脣青黑者，惡禍將至。色見黃白者，大病臨身。",
+      "translation": "푸르고 검으면 재앙이 생기고, 누렇고 희면 병이 얽힌다. 입술이 푸르고 검으면 악한 재앙이 닥치고, 빛이 누렇고 희게 드러나면 큰 병이 몸에 이른다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口脣青黑",
+          "observable_ko": "입술이 푸르고 검음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "色見黃白",
+          "observable_ko": "입술에 누렇고 흰 빛이 나타남",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-028",
+      "section": "《人倫大統賦下》",
+      "original_text": "左右紋粗定凶惡，上下急蕩多迍邅。\n其人之左右有粗紋者，定是凶徒之輩，多遭憲網。《急蕩》者，謂不語而脣自動，多主孤苦之相。",
+      "translation": "좌우의 주름이 거칠면 흉악함이 정해지고, 위아래가 급하게 흔들리면 막히고 어려움이 많다. 좌우에 거친 주름이 있는 사람은 흉한 무리로 법망에 걸리는 일이 많다고 한다. 급탕(急蕩)은 말하지 않는데 입술이 저절로 움직임을 말하며, 외롭고 괴로운 상을 주관하는 경우가 많다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "左右有粗紋",
+          "observable_ko": "입 좌우에 거친 주름이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "不語而脣自動",
+          "observable_ko": "말하지 않아도 입술이 움직임",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "criminality",
+        "violence",
+        "fortune_general"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-mouth-029",
+      "section": "《人倫大統賦下》",
+      "original_text": "「如《鳥喙》」者，高人終難共處；同《劍鐔》者，義士可與交懽。\n若口如鳥喙者，難與為交　。鐔者，劍之隔手。同《劍鐔》者，主有信義，宜與交。",
+      "translation": "새 부리 같은 사람은 고상한 이라도 끝내 함께 지내기 어렵고, 검심(劍鐔, 칼자루의 손막이) 같은 사람은 의로운 선비로 함께 즐거이 사귈 수 있다. 입이 새 부리 같으면 사귀기 어렵다고 한다. 심(鐔)은 칼의 손막이이다. 칼의 손막이 같으면 신의가 있어 사귀기에 좋다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口如鳥喙",
+          "observable_ko": "입이 새 부리 같음",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "同《劍鐔》",
+          "observable_ko": "입이 칼의 손막이 같음",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "비유 또는 평가적 표현만으로 특정 형태와 방향을 정할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-030",
+      "section": "《人倫大統賦下》",
+      "original_text": "惟「壽算之先定」，以牙齒之可觀。\n其於壽筭。故為前定。觀其牙齒。而預可知矣。",
+      "translation": "수명의 수가 미리 정해짐은 치아를 살펴볼 수 있기 때문이다. 수명은 앞서 정해져 있으므로 그 치아를 관찰하여 미리 알 수 있다고 한다.",
+      "commentary": "치아 관찰로 수명을 알 수 있다는 문헌의 총론이며 검증된 수명 예측이 아니다.",
+      "region": "teeth",
+      "conditions": [],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-031",
+      "section": "《人倫大統賦下》",
+      "original_text": "「康寧」者齊且密，賤夭者疏不連。\n康寧之人，其牙齒齊固而密；賤夭者，則稀少而疏。",
+      "translation": "건강하고 편안한 사람은 이가 가지런하고 촘촘하며, 천하고 요절할 사람은 성겨 이어지지 않는다. 건강하고 편안한 사람의 치아는 가지런하고 단단하며 촘촘하다. 천하고 요절할 사람은 적고 성기다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "牙齒齊固而密",
+          "observable_ko": "치아가 가지런하고 단단하며 촘촘함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "稀少而疏",
+          "observable_ko": "치아가 적고 성김",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "health_disease",
+        "death_lifespan",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-032",
+      "section": "《人倫大統賦下》",
+      "original_text": "上覆下兮少困，下掩上者晚鰥。\n《上覆下》者，幼年困滯；「下掩上」 者，晚歲鰥寡。",
+      "translation": "윗니가 아랫니를 덮으면 젊어서 곤궁하고, 아랫니가 윗니를 가리면 늙어서 홀아비가 된다. 위가 아래를 덮는 것은 어린 시절 막힘이고, 아래가 위를 가리는 것은 늙어서 홀아비나 과부가 됨이라고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "上覆下",
+          "observable_ko": "윗니가 아랫니를 덮음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "下掩上",
+          "observable_ko": "아랫니가 윗니를 가림",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "marriage"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-033",
+      "section": "《人倫大統賦下》",
+      "original_text": "班馬文章，白若瓠犀之美；喬松壽考，瑩如崑玉之堅。\n能班固、馬遷之文者，其齒牙若瓠犀之白，高貴人也　。享王喬、赤松之壽者，其人齒白瑩堅，如崑山之美玉也。",
+      "translation": "반고와 사마천 같은 문장은 박씨처럼 흰 아름다움에서 나오고, 왕교와 적송자 같은 장수는 곤륜의 옥처럼 맑고 단단함에서 나온다. 반고와 사마천의 글을 능히 하는 사람은 치아가 박씨처럼 희어 고귀한 사람이다. 왕교와 적송자의 수명을 누리는 사람은 이가 희고 맑고 단단하여 곤산의 아름다운 옥 같다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒牙若瓠犀之白",
+          "observable_ko": "치아가 박씨처럼 흼",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "齒白瑩",
+          "observable_ko": "치아가 희고 맑게 빛남",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "堅",
+          "observable_ko": "치아가 단단함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "death_lifespan",
+        "character"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-034",
+      "section": "《人倫大統賦下》",
+      "original_text": "《當門二齒》，缺命蹇於沒世；「《學堂一官》，全聲聞於天下。」\n「《當門二齒缺》者，其命蹇滯，終身困窮　。」 當門二齒為「內學堂」 ，若大而明者。主名聞天下。",
+      "translation": "문 앞의 두 이가 빠지면 운명이 평생 막히고, 학당 한 관이 온전하면 이름이 천하에 알려진다. 앞니 두 개가 빠지면 운명이 막혀 평생 곤궁하다고 한다. 앞니 두 개를 내학당(內學堂)이라 하며 크고 밝으면 이름이 천하에 알려짐을 주관한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "當門二齒缺",
+          "observable_ko": "앞니 두 개가 빠짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "大",
+          "observable_ko": "앞니가 큼",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "明",
+          "observable_ko": "앞니가 밝음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-035",
+      "section": "《人倫大統賦下》",
+      "original_text": "焦黑困乏。鮮明足錢。\n若其齒牙焦黑者。乏困貧窮鮮明者。錢財豐足。",
+      "translation": "검게 그을리면 궁핍하고 선명하면 돈이 넉넉하다. 치아가 검게 그을리면 곤궁하고 가난하며, 선명하면 돈과 재물이 풍족하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒牙焦黑",
+          "observable_ko": "치아가 그을린 듯 검음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "鮮明",
+          "observable_ko": "치아가 선명함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-036",
+      "section": "《人倫大統賦下》",
+      "original_text": "二十四兮命折，三十六兮壽延。\n二十四齒疏而不連者，謂之「鬼形」 ，主命夭。三十六齒主長年。",
+      "translation": "스물네 개면 수명이 꺾이고 서른여섯 개면 수명이 늘어난다. 이가 스물네 개이고 성겨 이어지지 않는 것을 귀형(鬼形)이라 하여 요절을 주관하고, 이가 서른여섯 개이면 장수를 주관한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "二十四齒疏而不連",
+          "observable_ko": "치아가24개이며 성겨 이어지지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "三十六齒",
+          "observable_ko": "치아가36개임",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-teeth-037",
+      "section": "《人倫大統賦下》",
+      "original_text": "尖若立錐，必乏衣食之士；齊如編貝，優登廊廟之賢。\n齒尖如錐者，必缺衣食　。《編貝》，海物，色白而瑩，齒若齊如編貝，足為賢相，以登廊廟。",
+      "translation": "세운 송곳처럼 뾰족하면 의식이 부족한 선비이고, 늘어놓은 조개처럼 가지런하면 훌륭히 조정에 오르는 현인이다. 이가 송곳처럼 뾰족하면 반드시 의식이 부족하다. 편패(編貝)는 바다의 물건으로 희고 맑다. 이가 늘어놓은 조개처럼 가지런하면 현명한 재상이 되어 조정에 오를 수 있다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒尖如錐",
+          "observable_ko": "치아가 송곳처럼 뾰족함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "齒若齊如編貝",
+          "observable_ko": "치아가 늘어놓은 조개처럼 가지런함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-tongue-038",
+      "section": "《人倫大統賦下》",
+      "original_text": "《舌》者，以短少薄鈍為下，以長大方利為先。\n《舌》短小薄鈍者。為下愚之人。若其長大而方利者。則為上卿。",
+      "translation": "혀는 짧고 작고 얇고 둔함을 낮게 여기고, 길고 크고 모나고 날카로움을 으뜸으로 삼는다. 혀가 짧고 작고 얇고 둔하면 어리석은 사람이고, 길고 크며 모나고 날카로우면 높은 벼슬아치가 된다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌》短小薄鈍",
+          "observable_ko": "혀가 짧고 작고 얇고 둔함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "tongue",
+          "evidence": "長大而方利",
+          "observable_ko": "혀가 길고 크고 모나고 날카로움",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-tongue-039",
+      "section": "《人倫大統賦下》",
+      "original_text": "方長者「咳唾成玉，短小者皂隸執鞭。」\n舌方長者，主有才德，文高四海，出語可為珠玉。短小者，俗謂之《舌禿》，則皂隸執鞭之僕。",
+      "translation": "모나고 긴 사람은 기침과 침도 옥을 이루며, 짧고 작은 사람은 채찍을 쥐는 하인이다. 혀가 모나고 길면 재주와 덕이 있고 문장이 온 세상에서 높아 나오는 말을 구슬과 옥으로 삼을 수 있다. 짧고 작은 것은 세속에서 혀가 뭉툭하다고 부르며 채찍을 쥔 하인이 된다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌方長",
+          "observable_ko": "혀가 모나고 긺",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "tongue",
+          "evidence": "短小",
+          "observable_ko": "혀가 짧고 작음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-tongue-040",
+      "section": "《人倫大統賦下》",
+      "original_text": "黑子凶惡，粟粒榮遷。\n舌上有黑靨者，多為凶惡。有粟粒者，則必居官食祿。",
+      "translation": "검은 점이 있으면 흉악하고 좁쌀알이 있으면 영화롭게 승진한다. 혀 위에 검은 점이 있으면 흉악한 경우가 많고, 좁쌀알 같은 것이 있으면 반드시 벼슬하여 녹을 먹는다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌上有黑靨",
+          "observable_ko": "혀 위에 검은 점이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "tongue",
+          "evidence": "有粟粒",
+          "observable_ko": "혀 위에 좁쌀알 같은 것이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "violence",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-tongue-041",
+      "section": "《人倫大統賦下》",
+      "original_text": "黑紫布衣而肘露，鮮明金帶而腰懸。\n舌上色若黯紫之色者，當貧賤露肘　。舌若鮮明光瑩者，則有腰金之貴。",
+      "translation": "검고 자주빛이면 베옷을 입고 팔꿈치가 드러나며, 선명하면 금띠를 허리에 건다. 혀가 어두운 자주빛이면 가난하고 천하여 팔꿈치가 드러나고, 선명하게 빛나면 허리에 금을 두르는 귀함이 있다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌上色若黯紫之色",
+          "observable_ko": "혀 색이 어두운 자주빛임",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        },
+        {
+          "region": "tongue",
+          "evidence": "舌若鮮明光瑩",
+          "observable_ko": "혀가 선명하고 맑게 빛남",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-tongue-042",
+      "section": "《人倫大統賦下》",
+      "original_text": "七星理明，可享千鍾之祿；三川紋足，必食萬戶之田。\n舌上有七星靨者。可享千鍾之厚祿　。舌上有紋如川者。必享萬戶之食。",
+      "translation": "일곱 별의 결이 뚜렷하면 천 종의 녹을 누릴 수 있고, 세 내의 무늬가 갖추어지면 만 호의 밭을 먹는다. 혀 위에 일곱 별의 점이 있으면 천 종의 두터운 녹을 누릴 수 있고, 내 천(川)자 같은 무늬가 있으면 반드시 만 호의 식읍을 누린다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌上有七星靨",
+          "observable_ko": "혀 위에 일곱 별처럼 점이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "tongue",
+          "evidence": "舌上有紋如川",
+          "observable_ko": "혀 위에 川자 같은 무늬가 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "wealth"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-043",
+      "section": "《人倫大統賦下》",
+      "original_text": "《允謂》：「瘦人項短致災殃，肥人項長必夭橫。」\n瘦人本宜項長，而項短者決致災禍。肥人本宜項短，而項長者必當橫夭。",
+      "translation": "참으로 이르기를 마른 사람이 목이 짧으면 재앙을 부르고, 살찐 사람이 목이 길면 반드시 뜻밖에 요절한다고 했다. 마른 사람은 본래 목이 길어야 하므로 짧으면 반드시 재앙을 부른다. 살찐 사람은 본래 목이 짧아야 하므로 길면 반드시 뜻밖에 요절한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "瘦人",
+          "observable_ko": "마른 체형",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "項短",
+          "observable_ko": "목이 짧음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "肥人",
+          "observable_ko": "살찐 체형",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "項長",
+          "observable_ko": "목이 긺",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-044",
+      "section": "《人倫大統賦下》",
+      "original_text": "如甖如瓶總非吉，似鵝似豕皆不令。\n「甖瓶」 皆瓦器也。項下垂若器者凶　。鵝項太長，豬項太短。如是之人皆主惡死，不善終也。",
+      "translation": "항아리나 병 같은 것도 모두 길하지 않으며, 거위나 돼지 같은 것도 모두 좋지 않다. 항아리와 병은 모두 질그릇이다. 목 아래가 그릇처럼 처지면 흉하다. 거위의 목은 너무 길고 돼지의 목은 너무 짧다. 이와 같은 사람은 모두 나쁘게 죽으며 잘 마치지 못한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項下垂若器",
+          "observable_ko": "목 아래가 그릇처럼 처짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "鵝項太長",
+          "observable_ko": "거위처럼 너무 긴 목",
+          "status": "approximate",
+          "candidate_labels": [],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "豬項太短",
+          "observable_ko": "돼지처럼 너무 짧은 목",
+          "status": "approximate",
+          "candidate_labels": [],
+          "reason": "문헌의 형태·비교 기준 전체를 현재 레이블 하나로 보장할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-045",
+      "section": "《人倫大統賦下》",
+      "original_text": "豐圓厚實多財產，光隆溫潤足權柄。\n《項》若豐圓厚實。與背相稱者。財產多而富足　。其光隆溫潤者。足主樞機重柄。",
+      "translation": "풍성하고 둥글며 두텁고 실하면 재산이 많고, 빛나게 솟고 온윤하면 권세가 넉넉하다. 목이 풍성하고 둥글며 두텁고 실하여 등과 어울리면 재산이 많아 풍족하다. 빛나게 솟고 온윤하면 중요한 정사의 권한을 맡을 만하다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項》若豐圓厚實",
+          "observable_ko": "목이 풍성하고 둥글며 두텁고 실함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "與背相稱",
+          "observable_ko": "목이 등과 어울림",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "光隆溫潤",
+          "observable_ko": "빛나게 솟고 온윤한 상태",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "정지 사진의 얼굴 형태 레이블로 확인할 수 없는 색·기색·동작·음성 또는 대상 조건이다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-046",
+      "section": "《人倫大統賦下》",
+      "original_text": "瘦人結喉身孤兆，肥人結喉刑剋證。\n瘦人結喉者，身必孤獨；肥人結喉者，必遭刑害。",
+      "translation": "마른 사람에게 목울대가 맺히면 몸이 외로울 징조이고, 살찐 사람에게 목울대가 맺히면 형극의 증거이다. 마른 사람이 목울대가 도드라지면 반드시 외롭고, 살찐 사람이 그러하면 반드시 형벌과 해를 겪는다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "瘦人",
+          "observable_ko": "마른 체형",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "肥人",
+          "observable_ko": "살찐 체형",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "結喉",
+          "observable_ko": "목울대가 도드라짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "kinship_harm"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-047",
+      "section": "《人倫大統賦下》",
+      "original_text": "「項後豐起」、定為厚福之人；「頷下絛垂，永保遐齡之慶。」\n《項後》骨豐而起者，是為厚福。頷下餘絛雙垂者，永保遐齡之壽。",
+      "translation": "목 뒤가 풍성하게 솟으면 반드시 복이 두터운 사람이고, 턱 아래 띠 같은 것이 드리워지면 영원히 긴 수명의 경사를 보전한다. 목 뒤 뼈가 풍성하게 솟으면 두터운 복이 되며, 턱 아래 남은 띠 같은 것이 두 줄 드리워지면 오래 사는 수명을 보전한다고 한다.",
+      "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "項後》骨豐而起",
+          "observable_ko": "목 뒤 뼈가 풍성하게 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "chin",
+          "evidence": "頷下餘絛雙垂",
+          "observable_ko": "턱 아래 남은 띠 모양이 두 줄 드리워짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "death_lifespan"
+      ],
+      "attributed_to": "張行簡"
+    },
+    {
+      "passage_id": "SQ638CX-other-048",
+      "section": "《人倫大統賦下》",
+      "original_text": "夫《貴背》之豐隆，身乃恃而安定\n夫人之「背」 ，貴於豐隆，必以體之上下安持而為可稱。",
+      "translation": "등의 풍성하게 솟음을 귀히 여기는 것은 몸이 그것에 의지해 안정되기 때문이다. 사람의 등은 풍성하게 솟음을 귀히 여기며 반드시 몸의 위아래를 편안하게 지탱하여 어울려야 한다.",
+      "commentary": "전신의 등과 균형에 관한 설명이며 얼굴 레이블의 조건이 아니다.",
+      "region": "other",
+      "conditions": [
+        {
+          "region": "other",
+          "evidence": "背」",
+          "observable_ko": "등",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "豐隆",
+          "observable_ko": "풍성하게 솟음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        },
+        {
+          "region": "other",
+          "evidence": "體之上下安持",
+          "observable_ko": "몸의 위아래를 안정되게 지탱함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "현재 분류·깊이 레이블이 측정하지 않는 형태이다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ],
+      "attributed_to": "張行簡"
+    }
+  ]
+}

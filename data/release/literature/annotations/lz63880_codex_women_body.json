@@ -1,0 +1,1145 @@
+{
+  "page_id": "lz63880",
+  "annotator": "AI model draft (Codex), literal Korean from primary NLC transcription; no human review",
+  "sections_complete": [],
+  "scope_note": "Selected self-contained morphology clauses; remaining raw text is separately archived. No check-witness duplicate annotations.",
+  "passages": [
+    {
+      "passage_id": "LZC63880-women_body-001",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "印堂一正助良人發福興家",
+      "translation": "인당(印堂, 두 눈썹 사이)이 바르면 남편이 복을 얻고 집안을 일으키도록 돕는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "glabella",
+      "conditions": [
+        {
+          "region": "glabella",
+          "evidence": "印堂一正",
+          "observable_ko": "인당의 바름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "良人",
+          "observable_ko": "여성론에서 남편을 돕는 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-002",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "鼻如懸膽雲髮雙鬢擁金冠",
+      "translation": "코가 매달린 쓸개 같고 구름 같은 머리카락과 양 살쩍이면 금관을 두른다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鼻如懸膽",
+          "observable_ko": "매달린 쓸개 비유",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "nose_tip:rounded"
+          ],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "other",
+          "evidence": "雲髮雙鬢",
+          "observable_ko": "구름 같은 머리카락과 살쩍",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "subject",
+          "evidence": "鼻",
+          "observable_ko": "여성만을 논한다는 절 제목의 문맥",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-003",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "面顴獨高尅子刑夫多性躁",
+      "translation": "얼굴에서 광대만 홀로 높으면 자식과 남편을 해치고 성질이 조급한 경우가 많다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "面顴獨高",
+          "observable_ko": "광대만 홀로 높음",
+          "status": "approximate",
+          "candidate_labels": [
+            "cheekbone:prominent"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "夫",
+          "observable_ko": "여성론의 아내 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-004",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "堆金積玉多因門灶寬舒",
+      "translation": "금을 쌓고 옥을 모음은 대개 문조가 넓고 펼쳐져 있기 때문이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "門灶寬舒",
+          "observable_ko": "문조의 넓고 펴진 형태",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "門灶의 세부 범위와 콧방울 측정은 동일하지 않다."
+        },
+        {
+          "region": "subject",
+          "evidence": "門灶",
+          "observable_ko": "여성론 절의 대상 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-005",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "衣錦藏珠祇爲面圓方正",
+      "translation": "비단을 입고 구슬을 간직함은 얼굴이 둥글고 방정하기 때문이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面圓",
+          "observable_ko": "둥근 얼굴",
+          "status": "exact",
+          "label": "face_shape:round"
+        },
+        {
+          "region": "face",
+          "evidence": "方正",
+          "observable_ko": "얼굴의 방정함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "圓과 함께 쓰인 方正을 별도 각진 얼굴 클래스로 바꾸지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "面",
+          "observable_ko": "여성론 절의 대상 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-006",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "女面大概顴高不榮額削不貴",
+      "translation": "여자의 얼굴은 대체로 광대가 높으면 영화롭지 못하고 이마가 깎이면 귀하지 못하다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "subject",
+          "evidence": "女",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "顴高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "forehead",
+          "evidence": "額削",
+          "observable_ko": "깎인 듯한 이마",
+          "status": "approximate",
+          "candidate_labels": [
+            "forehead_width:narrow"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-007",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "面金面凹蘭房獨守",
+      "translation": "얼굴이 금 같고 얼굴이 오목하면 규방을 홀로 지킨다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面金",
+          "observable_ko": "面金의 의미가 불확실한 전사 표현",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "face",
+          "evidence": "面凹",
+          "observable_ko": "오목한 얼굴",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "蘭房",
+          "observable_ko": "여성론에서 규방을 지키는 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-008",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "鳳目腮圓額正可爲極品夫人",
+      "translation": "봉황 눈이고 뺨이 둥글고 이마가 바르면 지극히 높은 품계의 부인이 될 수 있다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "鳳目",
+          "observable_ko": "봉황 눈 비유",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "face",
+          "evidence": "腮圓",
+          "observable_ko": "둥근 뺨",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "額正",
+          "observable_ko": "바른 이마",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "夫人",
+          "observable_ko": "여성 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-009",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "天陷地削顴橫下賤不堪言",
+      "translation": "천정이 꺼지고 지각이 깎이고 광대가 가로 뻗으면 천함을 이루 말할 수 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "天陷",
+          "observable_ko": "천정의 함몰",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "chin",
+          "evidence": "地削",
+          "observable_ko": "지각의 깎임",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "顴橫",
+          "observable_ko": "광대가 가로 뻗음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "subject",
+          "evidence": "天",
+          "observable_ko": "여성론 절의 대상 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-010",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "兩道弓眉自有賢良作配",
+      "translation": "두 활 같은 눈썹이면 절로 어질고 착한 배필이 있다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "兩道弓眉",
+          "observable_ko": "활처럼 휜 두 눈썹",
+          "status": "exact",
+          "label": "brow_shape:arched"
+        },
+        {
+          "region": "subject",
+          "evidence": "作配",
+          "observable_ko": "여성론 절에서 배필을 얻는 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-011",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "唇薄皮乾朝夕開口開舌",
+      "translation": "입술이 얇고 피부가 마르면 아침저녁으로 입과 혀를 연다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "唇薄",
+          "observable_ko": "얇은 입술",
+          "status": "exact",
+          "label": "lip_thickness:thin"
+        },
+        {
+          "region": "face",
+          "evidence": "皮乾",
+          "observable_ko": "마른 피부",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "subject",
+          "evidence": "唇",
+          "observable_ko": "여성론 절의 대상 한정",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-012",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "眼大顴高夫權必奪自當家",
+      "translation": "눈이 크고 광대가 높으면 반드시 남편의 권한을 빼앗아 스스로 집안을 맡는다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼大",
+          "observable_ko": "큰 눈",
+          "status": "exact",
+          "label": "eye_size:large"
+        },
+        {
+          "region": "cheekbone",
+          "evidence": "顴高",
+          "observable_ko": "높은 광대",
+          "status": "exact",
+          "label": "cheekbone:prominent"
+        },
+        {
+          "region": "subject",
+          "evidence": "夫",
+          "observable_ko": "여성론에서 아내 대상",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage",
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-013",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "對面不見耳問是誰家子",
+      "translation": "마주 보아 귀가 보이지 않으면 어느 집 자식이냐고 묻는다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "ear",
+      "conditions": [
+        {
+          "region": "ear",
+          "evidence": "對面不見耳",
+          "observable_ko": "정면에서 귀가 보이지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-013-2",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "對面不見腮斯人何處來",
+      "translation": "마주 보아 뺨이 보이지 않으면 이 사람은 어디서 왔느냐고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "對面不見腮",
+          "observable_ko": "정면에서 뺨이 보이지 않는 대안",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "대안 두 구절을 단일 좁은 턱 클래스로 대체할 수 없다."
+        }
+      ],
+      "claim_topics": [
+        "other"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-014",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "眉濃低濁斷終身難問親情",
+      "translation": "눈썹이 짙고 낮고 탁하고 끊어지면 평생 친족의 정을 묻기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉濃",
+          "observable_ko": "짙은 눈썹",
+          "status": "exact",
+          "label": "brow_density:dense"
+        },
+        {
+          "region": "brow",
+          "evidence": "低",
+          "observable_ko": "낮은 눈썹",
+          "status": "exact",
+          "label": "brow_eye_gap:close"
+        },
+        {
+          "region": "brow",
+          "evidence": "濁",
+          "observable_ko": "탁한 눈썹",
+          "status": "ambiguous",
+          "candidate_labels": [],
+          "reason": "원문의 비유·질적 표현은 특정 측정 클래스와 같지 않다."
+        },
+        {
+          "region": "brow",
+          "evidence": "斷",
+          "observable_ko": "끊긴 눈썹",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-015",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "眉散又疎手足如同陌路",
+      "translation": "눈썹이 흩어지고 또 성기면 형제가 길에서 만난 남과 같다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉散又疎",
+          "observable_ko": "흩어지고 성긴 눈썹",
+          "status": "exact",
+          "label": "brow_density:sparse"
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-016",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "眉長過目兄弟五六須信有之",
+      "translation": "눈썹이 길어 눈을 넘으면 형제가 대여섯임을 믿어야 한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉長",
+          "observable_ko": "긴 눈썹",
+          "status": "exact",
+          "label": "brow_length:long"
+        },
+        {
+          "region": "brow",
+          "evidence": "過目",
+          "observable_ko": "눈보다 길다는 추가 비교",
+          "status": "approximate",
+          "candidate_labels": [
+            "brow_length:long"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-017",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "山根高起年壽平明準頭豐滿金甲齊完乃一生財豐祿足富貴之相",
+      "translation": "산근(山根, 콧뿌리)이 높이 솟고 년수(年壽, 콧등)가 평평하고 밝으며 준두(準頭, 코끝)가 풍만하고 금갑이 고르고 온전하면 평생 재물과 녹이 충분한 부귀의 상이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "山根高起",
+          "observable_ko": "높은 산근",
+          "status": "exact",
+          "label": "nose_bridge:high"
+        },
+        {
+          "region": "nose",
+          "evidence": "年壽平明",
+          "observable_ko": "콧등의 평평함과 밝음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "nose",
+          "evidence": "準頭豐滿",
+          "observable_ko": "풍만한 코끝",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_tip:rounded"
+          ],
+          "reason": "원문의 비교·복합 조건은 후보 클래스 하나만으로 충족되지 않는다."
+        },
+        {
+          "region": "nose",
+          "evidence": "金甲齊完",
+          "observable_ko": "금갑의 고르고 온전함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-018",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "唇紅齒白人多祿",
+      "translation": "입술이 붉고 이가 희면 녹이 많다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "唇紅",
+          "observable_ko": "붉은 입술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "齒白",
+          "observable_ko": "흰 이",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-018-2",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "薄小尖偏福不宜",
+      "translation": "입이 얇고 작고 뾰족하고 치우치면 복에 좋지 않다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "薄小尖偏",
+          "observable_ko": "얇고 작고 뾰족하고 치우친 입",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-019",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "睛青口闊文章高",
+      "translation": "눈동자가 푸르고 입이 넓으면 문장이 높다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "睛青",
+          "observable_ko": "푸른 눈동자",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口闊",
+          "observable_ko": "넓은 입",
+          "status": "exact",
+          "label": "mouth_width:wide"
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-020",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "人若目暗口尖多貧之輩",
+      "translation": "눈이 어둡고 입이 뾰족하면 가난한 무리가 많다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "目暗",
+          "observable_ko": "어두운 눈",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "mouth",
+          "evidence": "口尖",
+          "observable_ko": "뾰족한 입",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-021",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "面圓口潤方是食祿之人",
+      "translation": "얼굴이 둥글고 입이 윤택해야 녹을 먹는 사람이라고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "面圓",
+          "observable_ko": "둥근 얼굴",
+          "status": "exact",
+          "label": "face_shape:round"
+        },
+        {
+          "region": "mouth",
+          "evidence": "口潤",
+          "observable_ko": "윤택한 입",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-022",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "面多斑點恐非壽考之人",
+      "translation": "얼굴에 반점이 많으면 장수할 사람이 아닐까 염려한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "面多斑點",
+          "observable_ko": "얼굴의 많은 반점",
+          "status": "approximate",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ],
+          "reason": "반점의 종류와 개수를 가시적 작은 피부 흔적의 존재 라벨로 대체하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-023",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "凡高者爲痣平者爲點青黃者爲斑",
+      "translation": "무릇 솟은 것은 지(痣), 평평한 것은 점(點), 푸르거나 누런 것은 반(斑)이라 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "mole",
+      "conditions": [
+        {
+          "region": "mole",
+          "evidence": "高者爲痣",
+          "observable_ko": "돌출 높이에 따른 옛 용어",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "mole",
+          "evidence": "平者爲點",
+          "observable_ko": "평평함에 따른 옛 용어",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "mole",
+          "evidence": "青黃者爲斑",
+          "observable_ko": "색에 따른 옛 용어",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "역사적 痣를 현대 의료 진단이나 단순 색소 흔적과 동일시하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "none"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-024",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "人中爲溝洫五十一歲主事宜深長爲妙宜上小下大曰爲溝洫得通上大下小爲溝洫阻滯",
+      "translation": "인중은 구혁(溝洫, 도랑)이어서 쉰한 살을 맡고 깊고 길면 좋으며 위가 작고 아래가 커야 도랑이 통한다고 하고, 위가 크고 아래가 작으면 도랑이 막힌다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "深",
+          "observable_ko": "깊은 인중",
+          "status": "exact",
+          "label": "philtrum_definition:clear"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "長",
+          "observable_ko": "긴 인중",
+          "status": "exact",
+          "label": "philtrum_length:long"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "上小下大",
+          "observable_ko": "위가 좁고 아래가 넓은 인중",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "philtrum",
+          "evidence": "上大下小",
+          "observable_ko": "반대 모양의 대안",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "인중 폭 변화는 측정 라벨에 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-025",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "人中平滿子息難言",
+      "translation": "인중이 평평하고 충만하면 자식을 말하기 어렵다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中平",
+          "observable_ko": "평평한 인중",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "滿",
+          "observable_ko": "충만한 인중이라는 추가 조건",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-026",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "人中少髭下人無上",
+      "translation": "인중에 콧수염이 적으면 아랫사람에게 위가 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中少髭",
+          "observable_ko": "인중의 적은 수염",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "下人無上은 위아래 관계 표현으로 직역하며 의미 확정은 보류한다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-027",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "人中平滿者四九可延年然人中一處乃小道也言雖如此還宜於週身大處詳之",
+      "translation": "인중이 평평하고 충만하면 서른여섯까지 수명을 늘릴 수 있으나 인중 한 곳은 작은 방법이니 이렇게 말하더라도 온몸의 큰 곳에서 자세히 살펴야 한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中平",
+          "observable_ko": "평평한 인중",
+          "status": "exact",
+          "label": "philtrum_definition:faint"
+        },
+        {
+          "region": "philtrum",
+          "evidence": "滿",
+          "observable_ko": "충만함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "還宜於週身大處詳之",
+          "observable_ko": "온몸의 추가 관찰 요구",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-028",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "齒長主壽",
+      "translation": "이가 길면 장수를 주관한다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒長",
+          "observable_ko": "긴 이",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-028-2",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "疎稀主夭",
+      "translation": "이가 성기면 요절을 주관한다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "疎稀",
+          "observable_ko": "성긴 ",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-028-3",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "齒短主愚",
+      "translation": "이가 짧으면 어리석음을 주관한다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "齒短",
+          "observable_ko": "짧은 ",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "intelligence"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-028-4",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "白齊如玉可食天祿",
+      "translation": "이가 희고 고르며 옥 같으면 하늘의 녹을 먹는다고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "白齊如玉",
+          "observable_ko": "희고 고른 옥 같은 ",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-028-5",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "圓小不齊貧窮之輩",
+      "translation": "이가 둥글고 작고 고르지 않으면 가난한 무리라고 한다.",
+      "commentary": "이어지는 원문 문맥의 부위를 유지하여 독립적인 형태→주장 구절로 분리했다. 구절 내부 조건은 AND이며 AI 미검수 역사 직역으로 실제 사람을 판정하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "圓小不齊",
+          "observable_ko": "둥글고 작고 불균일한 ",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-029",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "中二齒爲大門齊大主忠孝偏小無信行",
+      "translation": "가운데 두 이를 대문이라 하여 고르고 크면 충효를 주관하고 치우치고 작으면 신의 있는 행실이 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "teeth",
+      "conditions": [
+        {
+          "region": "teeth",
+          "evidence": "中二齒",
+          "observable_ko": "가운데 두 앞니",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "齊大",
+          "observable_ko": "고르고 큰 앞니",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "teeth",
+          "evidence": "偏小",
+          "observable_ko": "치우치고 작은 앞니라는 대안",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "character"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-030",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "舌尖白小是非徒鬚髮焦枯學問無",
+      "translation": "혀가 뾰족하고 희고 작으면 시비를 일삼는 무리이고 수염과 머리카락이 타고 마르면 학문이 없다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌尖白小",
+          "observable_ko": "뾰족하고 희고 작은 혀",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "鬚髮焦枯",
+          "observable_ko": "타고 마른 수염과 머리카락",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "character",
+        "intelligence"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-women_body-031",
+      "section": "柳庄進永樂乾坤賦〈專論女人之說〉",
+      "original_text": "若要有官並有職除非舌紫鬚如絲",
+      "translation": "관직을 가지려면 혀가 자주색이고 수염이 실 같아야 한다고 한다.",
+      "commentary": "원문의 형태 조건과 역사적 주장을 직역한 AI 미검수 초안이다. 복수 조건은 모두 함께 요구하며, 실제 사람의 성품·건강·운명을 판정하는 근거로 사용하지 않는다.",
+      "region": "tongue",
+      "conditions": [
+        {
+          "region": "tongue",
+          "evidence": "舌紫",
+          "observable_ko": "자주색 혀",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "색·기운·행동 또는 대상 조건은 정지 사진의 형태 클래스가 측정하지 않는다."
+        },
+        {
+          "region": "other",
+          "evidence": "鬚如絲",
+          "observable_ko": "실 같은 수염",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이 형태나 부위의 세부 조건에 대응하는 측정 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    }
+  ]
+}

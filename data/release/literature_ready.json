@@ -1,0 +1,16 @@
+{
+  "ready": true,
+  "corpus_sha256": "e9e7a092604cbfbeead424659e7cb9bf064b3b155513b1282e93b21c4fa59b05",
+  "import_sha256": "e9e7a092604cbfbeead424659e7cb9bf064b3b155513b1282e93b21c4fa59b05",
+  "registry_sha256": "b9c4f0b97c54685716b4951ee2d9ecb6a1ddb47074821bb6650e3b697d974d7b",
+  "extended_ready_sha256": "ccf0552ffbf2cd5576489105186ac9e107f45a158d9993a561aeae64840230ae",
+  "counts": {
+    "sources": 5,
+    "passages": 5304,
+    "source_sections": 925,
+    "eligible": 73
+  },
+  "finalization_report_sha256": "6ae6b7e030a09659c0cac3135e4675b066a9feaffba965b4119ce65950a73355",
+  "human_review_count": 0,
+  "decision": "Automated corpus, canonical DB revision, read-only permissions and AND retrieval checks passed; no human review"
+}

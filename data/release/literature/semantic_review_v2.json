@@ -1,0 +1,191 @@
+{
+  "version": "semantic-review-v2-20261015",
+  "human_review_count": 0,
+  "excluded_passages": [
+    {
+      "passage_id": "SQ632A-brow-005",
+      "original_sha256": "033891459270f6d6b805764f405f70723426553afe8a8e034e782eb43d48cd59",
+      "reason": "context 《廣鑑集》「若短不及目者，難為兄弟」 = absolute (shorter than eye); brow_length:short is bottom quartile of 1.58-1.91 eye widths"
+    },
+    {
+      "passage_id": "SQ632B-nose-041",
+      "original_sha256": "f36deadf8d8c8494a0cc38df6eed7eece6cce0bfc2982db16c8c6b4914da38e2",
+      "reason": "「十分昂露」 extreme upturned/exposed nostrils mapped to generic visible (39% train)"
+    },
+    {
+      "passage_id": "SQ632C-mouth-043",
+      "original_sha256": "05d4d8426c96b63f68def4ee0b37a46a377664fd99451d74ba7407acd0c3da4a",
+      "reason": "低垂兩角 (drooping corners) -> generic down (64% known train); needs marked_down"
+    },
+    {
+      "passage_id": "SQ632C-mouth-044",
+      "original_sha256": "248dba99da690d680eac32c22c2ef7c80879b0ca2340e4e7654becdf90fbd1d4",
+      "reason": "兩角下垂 same as above"
+    },
+    {
+      "passage_id": "SQ633FB-brow-009",
+      "original_sha256": "879e1db20a837b31e4215a8c1620cbe7340b4f2058cd6f5d13168e38f3b9f06d",
+      "reason": "尾垂眼 (tail drooping onto eye); feature brow_tail degenerate (all descending) / 현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음 / 얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "SQ633FB-brow-059",
+      "original_sha256": "1e9c77a5dbe13ef582cd6827746ee1eb1185a40bd725d6de534a732d68f76923",
+      "reason": "眉短 in verse contrasting 「眉長過眼」「不過兩目」 -> eye-relative absolute criterion"
+    },
+    {
+      "passage_id": "SQ633E-eye-045",
+      "original_sha256": "494aa51ca8e43fa048c9513586b6778141abaf1912ee20d876c1744c2828f3b8",
+      "reason": "目尾相垂 -> eye_tilt:down (0 support); needs marked_down definition"
+    },
+    {
+      "passage_id": "SQ633E-eye-051",
+      "original_sha256": "551b2961298e31b091bcd5705c082d6266d23d4c5c3f1d3e748fbe1eb9301dce",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "SQ634N-nose-035",
+      "original_sha256": "33d35b7073444f3bb557be8524ff6d0b1657eaee4999505a3829064b95e6e0a8",
+      "reason": "圓肥는 둥글고 살집이 있는 두 조건인데 현재 nose_tip:rounded 한 조건만 측정함"
+    },
+    {
+      "passage_id": "SQ634M-mouth-116",
+      "original_sha256": "e532102128b518259ca9e8e7fb5da8e863a1a7eb5462b7aab8669bbb4e55bd8f",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "SQ634M-mouth-117",
+      "original_sha256": "0cb7967bf4c0cafd19f681542e65a03d83766cfa063ac2005aad6beaa4abe021",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009a",
+      "original_sha256": "7156baae071ce2d60041b1fa43b5c6838b24cda103e520a7a52d31b19c896f29",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "SQ638CX-nose-009c",
+      "original_sha256": "02d877e549d27100949e5f5c2a2fe9ea013812683fd59c45ce4050850eefb59c",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013a",
+      "original_sha256": "4f94cc7fbf7a386f4f6b7d198f26fec5f4dda7e5397d0b5a6dbca93cd73f1d66",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013b",
+      "original_sha256": "049f94c69c43fb84c91e5c863601d834d93517fca16f5b2ea1aa52877f608f4a",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013d",
+      "original_sha256": "c133dcb55b96dbc659efb60c6f8cbb7037ce3a1a846f4353b46e771cde09e183",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-013e",
+      "original_sha256": "140f43dbb02e7b1b0f4ace0682afcc90b95f21779acd486dfc1947a4fb4df6b1",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "SQ638CX-philtrum-017a",
+      "original_sha256": "2c02ca93d40fe1126681d118c80ca671e5c905615628d085d72e75cdfe5c732f",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음 / 얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "CX638-brow-0205",
+      "original_sha256": "fb81a702542edef70e4420739e22937ef7a5d263530d035839f9c1a99ae6eea0",
+      "reason": "眉粗短: short is relative quartile, literature 短 eye-relative"
+    },
+    {
+      "passage_id": "CX638-eye-0020",
+      "original_sha256": "0d736b51f28177a52ca012e0ca873f3f38197892f8dc4f6e7b85f6e6aef88717",
+      "reason": "兩眼雌雄 named type (obvious disparity) vs 4.7% opening-ratio top cut with ICC 0.41; claim 「豈由仁由義之子」 is a moral-character judgement (sensitive malice/character) / 현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음 / 얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "CX638-brow-0104",
+      "original_sha256": "6ca3e6f53cb0173cac8ef048a91c028ce9d4291c642efcdd7a7d459cbe6da9d1",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외 / 형태로 성품·행동을 단정하는 개인별 해석 연결 제외"
+    },
+    {
+      "passage_id": "CX638-mouth-0069",
+      "original_sha256": "72545abfb37ce0ee015bcd8f075fcea3f0d69f4e5862b4a33fc78bdeb97792a7",
+      "reason": "口角下垂 -> generic down"
+    },
+    {
+      "passage_id": "CX639-chin-0188",
+      "original_sha256": "8b77d0b075214ed7681fb157e8ceb3a3821c80b47ffc6fd2c9e38652307109bb",
+      "reason": "頤尖額窄 但為孤寡之徒: 孤寡 (orphaned/widowed) is kinship-harm adjacent -> sensitive-policy review; 頤 = jaw region not only chin tip"
+    },
+    {
+      "passage_id": "CX639-eye-0147",
+      "original_sha256": "6583c069b6feac4364415b68f68b0baa5fd1909056347850c71b9abc385be73f",
+      "reason": "사용자 성별·배우자 조건을 관찰하지 않고 배우자 외모를 개인별 판정할 수 없음"
+    },
+    {
+      "passage_id": "XF01-eye-006",
+      "original_sha256": "6d09ca2436be491e3bde5d8860978e64122b3511b8e5f7ffb70d19ca842c1a1a",
+      "reason": "許負相法 相目篇 「目尾朝天，福祿綿綿」 (in list with 目秀而長/龍睛鳳目) = eye tail pointing to the sky, emphatic; mapped to generic up (88.7% of people); rank1 338/400. Ineligible until a pre-registered marked_up proxy is approved"
+    },
+    {
+      "passage_id": "XF02-nose-017",
+      "original_sha256": "f2b8695fce48fbebe82a00398c516f6bf4bd0d824419c5fc0dcf2a4fea2fac00",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "TQ5-brow-023",
+      "original_sha256": "d506ea80d5be6bdbeff37f1b8541dc9c6ba6d8e0f583a882cdcc56992eb21955",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "ZD646A-eye-038",
+      "original_sha256": "b8dc18e6ec681d6ec9e18ab3f2b64c9b12874c6056f612824f303c5f66d1bd7b",
+      "reason": "眼尾兩邊垂 -> eye_tilt:down (0 support); needs marked_down"
+    },
+    {
+      "passage_id": "ZD646A-eye-062",
+      "original_sha256": "23ef00e59897c63e00e26e4e24d570785188d157c584926f19931baa2b83e708",
+      "reason": "얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    },
+    {
+      "passage_id": "ZD646B-philtrum-004",
+      "original_sha256": "967c34f14fe542a8d44a168ac10cd1be823b55ec13b286ad74501fde1094a979",
+      "reason": "현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "LZC63880-women_body-015",
+      "original_sha256": "ed761b1a1941eae239105f69a5814b3e6af6ed603004e25a12b9a239646b6c1b",
+      "reason": "section 柳庄進永樂乾坤賦〈專論女人之說〉 (women only); sex is an unobservable condition under the corpus own eligibility policy"
+    },
+    {
+      "passage_id": "LZC63880-remaining_forms-021",
+      "original_sha256": "7d3746bd6897456c957165370f4389b4843212c157f96abf771770e8aa664111",
+      "reason": "same women-only section; also philtrum_definition BLOCKED / 현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "LZC63880-palace-017",
+      "original_sha256": "2a098282c63a4a03a143288634b536ced78cde3ec3f7c7c664f79284349c5769",
+      "reason": "短粗; same section says 「眉長過目」 -> eye-relative criterion"
+    },
+    {
+      "passage_id": "LZC63880-palace-020",
+      "original_sha256": "837f41dd09d70d4b4d6d650882b82d090c3f2a9ba1868c0be800e45ae2ab8a6e",
+      "reason": "頭高尾低; brow_tail degenerate / 현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "LZC70286-questions_a-035",
+      "original_sha256": "032bd11eb796a178931f2c58019a3b89f9e448e9cef3b6733e612ae0ec105508",
+      "reason": "眉分八字 named 八字眉 (marked down-splay) -> degenerate brow_tail:descending / 현재 측정·레이블의 일관성이 이 문헌 조건을 뒷받침하지 않음"
+    },
+    {
+      "passage_id": "LZC70286-verse-010",
+      "original_sha256": "affd7c57ca9b955f1772f38ca5ad829692580869230030a40c04b36cc07f1fe5",
+      "reason": "顴高反好爲非 = \"likes to do wrong\": malice/wrongdoing claim excluded by corpus own sensitive-topic policy / 얼굴 형태에서 성품을 개인의 사실로 판정하는 자동 연결 제외"
+    }
+  ],
+  "audit_sources": {
+    "claude": "outputs/release/claude-full-label-audit-20261015.json",
+    "main": "outputs/release/main-second-review-20261015.json"
+  },
+  "rule": "Filter before ranking; no numerical score cap or randomization; original corpus retained."
+}

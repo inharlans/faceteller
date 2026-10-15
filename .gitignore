@@ -1,0 +1,55 @@
+# Local environments and generated files
+.venv/
+.venv-labeling/
+node_modules
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+frontend/dist/
+frontend/public/assets/
+frontend/test-results/
+frontend/playwright-report/
+/tmp/
+/experiments/
+/outputs/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+connection.json
+credentials.json
+
+# Face datasets, individual annotations and private model artifacts
+/data/raw/
+/data/derived/
+/data/annotations/
+/data/relabel-*/
+/data/release/local_marks/
+/data/release/training_registry.json
+/data/release/landmark_labels.json
+/data/release/extended_labels.json
+/data/release/extended_ready.json
+/data/release/depth_config.json
+/models/
+*.pt
+*.pth
+*.onnx
+*.task
+
+# Download caches and internal working notes
+/data/sources/
+/data/release/literature/snapshots/nlc/
+/docs/collab/
+/docs/release/current-directive.txt
+/docs/release/claude-collaboration.txt
+/docs/release/extended-labels.txt
+/docs/release/local-mark-annotation.txt
+/docs/release/brow-mask-independent-review*.txt

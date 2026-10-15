@@ -1,0 +1,71 @@
+FaceTeller 현재 모델·자료의 상용 상태 — 2026-10-14
+
+현재 구성을 상용 준비 완료라고 표현하지 않는다. 아래는 실제 로컬 파일·로딩 코드와
+공식 배포 조건의 대조이며, 프로젝트 전체의 상업 사용권을 보증하는 문서가 아니다.
+새 release deployment.json은 아직 없어 최종 선택 CNN 계열/가중치를 확정해 적지 않았다.
+가중치를 다운로드하거나 모델을 실행·교체하지 않았고 원본 얼굴 자료를 공유하지 않았다.
+
+1. 깊이 모델: 원 연구 facebook/VGGT-1B
+실제 경로 models/vggt/model.pt; facework/pilot/depth.py가 로드하고
+scripts/release/calibrate_depth.py도 original research checkpoint로 기록한다.
+공식 원 모델 카드는 CC-BY-NC-4.0. 비상업 조건과 표시 의무를 전제로 한다.
+공식 repo는 코드의 상업 친화 조건과 별도 VGGT-1B-Commercial을 설명하지만,
+원 checkpoint의 비상업 제한이 유지됨을 명시한다. 그 별도 조건을 현재 파일에 적용하지 않는다.
+출처: https://huggingface.co/facebook/VGGT-1B
+https://github.com/facebookresearch/vggt#updates
+
+2. 얼굴 파서: yakhyo/face-parsing BiSeNet ResNet-18 ONNX
+models/face_parsing/resnet18.onnx
+SHA256 0d9bd318e46987c3bdbfacae9e2c0f461cae1c6ac6ea6d43bbe541a91727e33f
+실제 귀/피부 등 마스크 경로는 facework/release_parsing.py. CPUExecutionProvider 사용.
+공식 프로젝트 코드는 MIT. models/face_parsing/provenance.json에 별도 가중치 전용 허가를
+확인하지 못했다고 기록돼 있다. 코드 MIT만으로 가중치·학습자료의 제한 소멸을 단정하지 않는다.
+학습자료 CelebAMask-HQ의 공식 약정은 비상업 연구용이며 이미지·파생자료의 상업 이용과
+재배포를 제한한다. 이 작업에서 해당 데이터셋 원본을 추가 배포하지 않는다.
+따라서 현 파서가 포함된 상업 서비스의 권리 정리가 끝났다고 주장하지 않는다.
+출처: https://github.com/yakhyo/face-parsing
+https://github.com/yakhyo/face-parsing/releases/download/weights/resnet18.onnx
+https://github.com/switchablenorms/CelebAMask-HQ#dataset-agreement
+
+3. CNN 전이학습과 K-Face
+현재 비교 후보는 ResNet-18/EfficientNet-B0/ConvNeXt-Tiny. facework/kface_training.py의
+torchvision DEFAULT는 설치본에서 모두 IMAGENET1K_V1이며 다음 초기 가중치를 사용한다.
+resnet18-f37072fd.pth / efficientnet_b0_rwightman-7f5810bc.pth / convnext_tiny-983f1562.pth
+출처: https://download.pytorch.org/models/resnet18-f37072fd.pth
+https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth
+https://download.pytorch.org/models/convnext_tiny-983f1562.pth
+TorchVision 공식 안내는 사전학습 가중치에 학습 데이터에서 비롯한 별도 조건이 있을 수 있다고
+명시한다. 라이브러리 코드 허가를 모든 데이터·파생 가중치의 무제한 사용권으로 해석하지 않는다.
+https://github.com/pytorch/vision#pre-trained-model-license
+ImageNet 사전학습은 시각 특징 초기화이며 관상·성격·운명 지식을 이미 학습했다는 뜻이 아니다.
+우리 미세조정 표적은 외형에 대한 자동/AI 약한 레이블이며 전문가 관상 정답이 아니다.
+
+사용 데이터는 AI-Hub 한국인 안면 이미지(K-Face), 로컬 승인 연구 범위의400명이다.
+공식 페이지에는 신청/다운로드 승인 및 개인정보 동의 갱신에 따른 공개 범위가 설명돼 있다.
+공식 소개만으로 이 사용자의 개별 이용약정·상업 제공·재배포 권리까지 확인되지는 않는다.
+현재 승인된 로컬 처리를 계속하되, 이 문서는 개인별 계약을 대신하는 상업 허가를 발급하지 않는다.
+원본/crop/마스크/좌표/개인별 연구 응답은 공유 보고서·배포 정적 자산에서 제외한다.
+집계 보고서에 사진이나 인물 식별자를 넣지 않는다.
+출처: https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=83
+
+4. MediaPipe Face Landmarker
+models/face_landmarker.task 및 frontend/public/assets/mediapipe/face_landmarker.task.
+공식 float16/1 bundle이며 브라우저 모델 해시는 frontend-report.txt에 기록돼 있다.
+MediaPipe 코드 Apache-2.0과 공식 모델 bundle/모델 카드의 출처를 구분해 보존한다.
+웹 문서 하단의 설명문·예제 라이선스만으로 모든 모델·원학습자료의 권리를 추론하지 않는다.
+현재는 동일 origin 로컬 자산으로 동작하며 사용자의 얼굴을 Google API로 보내지 않는다.
+출처: https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE
+https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker#models
+https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+
+5. 오프라인 약한 주석 보조: Qwen/Qwen3-VL-2B-Instruct
+models/annotation/qwen3-vl-2b/provenance.json, revision 89644892e4d85e24eaac8bacfd4f463576704203.
+공식 모델 Apache-2.0; 배포 시 해당 라이선스/고지 조건을 보존해야 한다.
+서비스 모델이 아니라 로컬 visible mark 주석 전용이다. 다운로드 완료는 주석 실행·정확도
+완료를 의미하지 않는다. 이 라이선스는 입력 얼굴자료의 이용권을 새로 부여하지 않는다.
+출처: https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct
+
+공유 시 현재 원 VGGT checkpoint, 파서 가중치/학습자료, K-Face 권리 상태를 누락하지 않는다.
+다른 모델로 교체하더라도 전처리·보정·깊이 기준·성능의 재검증이 필요하며 자동 대체하지 않는다.
+문헌 전사본/스캔/폰트 조건은 해당 source_registry와 번들 라이선스로 별도 관리한다.
+최종 상용 검토는 확정된 배포 manifest·각 자료의 실제 이용조건에 근거해야 한다.

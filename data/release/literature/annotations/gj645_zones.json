@@ -1,0 +1,950 @@
+{
+ "page_id": "gj645",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《論異形篇》",
+  "《辨形》",
+  "《二儀》",
+  "《三才日月》",
+  "《三學堂》",
+  "《三停所主》",
+  "《三尖》",
+  "《五官六府》",
+  "《七門正》",
+  "《八極》"
+ ],
+ "passages": [
+  {
+   "passage_id": "ZD645-other-001",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "形有清奇古怪者，須得神與氣合者也。",
+   "translation": "형체에 맑고(淸) 기이하고(奇) 예스럽고(古) 괴이한(怪) 것이 있으니, 모름지기 신(神)과 기(氣)가 합해져야 한다.",
+   "commentary": "청기고괴(清奇古怪)는 범상치 않은 형체를 가리키는 품평어 묶음이다. 측정 기준이 없는 평가어이고, 신·기는 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形有清奇古怪",
+     "observable_ko": "형체가 맑고 기이하고 예스럽고 괴이함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神與氣合",
+     "observable_ko": "신과 기가 합함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-002",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "神氣不爽，則孤露粗俗，寒薄輕泛，非貴相也。",
+   "translation": "신기(神氣)가 상쾌하지 않으면 외롭게 드러나고 거칠고 속되며, 차고 얇고 가볍고 들떠서 귀한 상이 아니다.",
+   "commentary": "앞 구절을 이어, 신기가 맑지 않으면 청기고괴한 형체도 천박해진다고 적었다. 조건은 신기뿐이라 사진 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "神氣不爽",
+     "observable_ko": "신기가 상쾌하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-003",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "須得「清如寒冰，奇如美玉，古如巖松，怪如磐石」，雖千萬人中見而異之者，乃清奇古怪之貴相也。",
+   "translation": "모름지기 \"맑기는 찬 얼음 같고, 기이하기는 아름다운 옥 같고, 예스럽기는 바위 위 소나무 같고, 괴이하기는 반석 같아야\" 하니, 비록 천만 사람 가운데서 보아도 남다르게 여겨지는 것이 곧 청기고괴의 귀한 상이다.",
+   "commentary": "청·기·고·괴를 각각 얼음·옥·소나무·반석에 빗대어 풀이한 구절로, 비유만 있고 측정 가능한 형태 서술은 없다. 문헌은 이를 귀한 상으로 규정했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "清如寒冰，奇如美玉，古如巖松，怪如磐石",
+     "observable_ko": "얼음·옥·소나무·반석 같은 형체(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-004",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "凡有此相，必須操修過人，功業隆重，聲聞天下也。",
+   "translation": "무릇 이 상이 있으면 반드시 몸가짐과 수양이 남보다 뛰어나고, 공업이 높고 무거우며, 명성이 천하에 들린다.",
+   "commentary": "청기고괴한 상에 따르는 결과를 적은 구절로 새로운 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-005",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "形有五寬、五短、五慢、五露、五急、五藏。",
+   "translation": "형체에는 오관(五寬)·오단(五短)·오만(五慢)·오로(五露)·오급(五急)·오장(五藏)이 있다.",
+   "commentary": "뒤에 이어지는 여섯 가지 다섯 항목 분류의 목록을 제시한 구절이다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-006",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "「何謂五寬？曰器識，曰行坐，曰飲食，曰言語，曰喜怒。」全此五者，必遠大也。",
+   "translation": "\"무엇을 오관(五寬, 다섯 가지 너그러움)이라 하는가? 기량과 식견, 다니고 앉음, 마시고 먹음, 말, 기뻐함과 성냄이다.\" 이 다섯을 온전히 갖추면 반드시 원대하다.",
+   "commentary": "오관은 모두 도량·행동·습관에 관한 항목이라 얼굴 형태 조건이 아니다. 문헌은 이를 원대한 앞날과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "曰器識，曰行坐，曰飲食，曰言語，曰喜怒",
+     "observable_ko": "도량·행동·식습관·말·감정이 너그러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·성정·생활 습관은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-007",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "何謂五短？曰頭，曰頃，曰手，曰腹，曰足。全此五者，中流之相也。",
+   "translation": "무엇을 오단(五短, 다섯 가지 짧음)이라 하는가? 머리, 頃, 손, 배, 발이다. 이 다섯을 온전히 갖추면 중류(中流)의 상이다.",
+   "commentary": "'頃'은 목(項)을 뜻하는 자리로 보이나 원문 글자대로 두었다. 머리 크기와 몸의 각 부위 길이는 얼굴 형태 레이블이 없거나 얼굴 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "曰頭",
+     "observable_ko": "머리가 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 길이·크기는 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "曰頃，曰手，曰腹，曰足",
+     "observable_ko": "목(?)·손·배·발이 짧음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-008",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "何謂五慢？曰神，曰氣，曰性，曰情，曰飲食。全此五者，有壽而發遲也。",
+   "translation": "무엇을 오만(五慢, 다섯 가지 느림)이라 하는가? 신(神), 기(氣), 성품, 감정, 마시고 먹음이다. 이 다섯을 온전히 갖추면 장수하나 발달이 늦다.",
+   "commentary": "오만은 신기·성정·식습관에 관한 항목이라 얼굴 형태 조건이 아니다. 문헌은 이를 장수와 늦은 발달에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "曰神，曰氣，曰性，曰情，曰飲食",
+     "observable_ko": "신·기·성품·감정·식습관이 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·성정·생활 습관은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-009",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "何謂五露？曰眉、曰眼、曰耳、曰鼻、曰齒。全此五者，清烈孤貴，異世之相也。",
+   "translation": "무엇을 오로(五露, 다섯 가지 드러남)라 하는가? 눈썹, 눈, 귀, 코, 이이다. 이 다섯을 온전히 갖추면 맑고 매서우며 외롭되 귀하니, 세상에 드문 상이다.",
+   "commentary": "오로는 다섯 부위가 '드러남(露)'을 말하나 각 부위에서 무엇이 드러나는지 정의하지 않았다. 지침상 '露'만으로는 정확 대응이 되지 않는다. 문헌은 이를 외롭되 귀한 상과 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "曰眉",
+     "observable_ko": "눈썹이 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈썹의 '드러남'이 무엇을 뜻하는지 정의되지 않았다"
+    },
+    {
+     "region": "eye",
+     "evidence": "曰眼",
+     "observable_ko": "눈이 드러남",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "'露'만으로는 돌출(突)과 같은 척도로 확정할 수 없다"
+    },
+    {
+     "region": "ear",
+     "evidence": "曰耳",
+     "observable_ko": "귀가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀가 드러남(정면에서 보임)에 해당하는 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "曰鼻",
+     "observable_ko": "코가 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nostril_show:visible"
+     ],
+     "reason": "콧구멍 노출인지 코 모양 전체인지 정의되지 않았다"
+    },
+    {
+     "region": "teeth",
+     "evidence": "曰齒",
+     "observable_ko": "이가 드러남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "치아 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-010",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "神更露者夭折。",
+   "translation": "신(神)이 더 드러나는 자는 일찍 죽는다.",
+   "commentary": "오로에 덧붙여 신(神)까지 드러나면 요절한다고 적은 구절이다. 신은 사진 형태 항목이 아니며 수명에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神更露",
+     "observable_ko": "신이 더 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-011",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "何謂「五急？」〈闕〉　　　　　　　　　全此五者，發早而《易喪》也。",
+   "translation": "무엇을 오급(五急, 다섯 가지 급함)이라 하는가? 〈빠짐〉 이 다섯을 온전히 갖추면 발달이 이르나 쉽게 잃는다.",
+   "commentary": "원문에 '〈闕〉'(빠짐)이라 적혀 있어 오급의 항목이 전하지 않는다. '易喪'은 쉽게 잃음 또는 쉽게 죽음으로 읽힐 수 있다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-012",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "「何謂五藏？視藏明，聽藏氣，言藏聲，貌藏色，思藏息。」全此五者，清貴遠大之相也。",
+   "translation": "\"무엇을 오장(五藏, 다섯 가지 감춤)이라 하는가? 봄은 밝음을 감추고, 들음은 기를 감추고, 말은 소리를 감추고, 용모는 빛을 감추고, 생각은 숨을 감춘다.\" 이 다섯을 온전히 갖추면 맑고 귀하며 원대한 상이다.",
+   "commentary": "오장은 시선·소리·안색·호흡 등을 안으로 감추는 태도를 말해 얼굴 형태 조건이 아니다. 문헌은 이를 맑고 귀한 상과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "視藏明，聽藏氣，言藏聲，貌藏色，思藏息",
+     "observable_ko": "시선·소리·안색 등을 감춤",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·성정·생활 습관은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-013",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "前此六說，中有可採，宜更致思，定有所得。",
+   "translation": "앞의 이 여섯 설 가운데 취할 만한 것이 있으니, 마땅히 더 생각을 다하면 반드시 얻는 바가 있을 것이다.",
+   "commentary": "앞의 여섯 분류에 대한 편자의 평어다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-014",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "亡殺；",
+   "translation": "…망살(亡殺)이다.",
+   "commentary": "앞부분이 끊긴 채 '…亡殺'만 남은 단편으로, 바로 뒤 '오살(五殺)' 목록의 앞 항목 끝부분으로 보인다. 어떤 형태를 말하는지 원문에 남아 있지 않다.",
+   "conditions": [],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-brow-015",
+   "section": "《論異形篇》",
+   "region": "brow",
+   "original_text": "兩眉尖短，眼常如淚，此名卒暴殺；",
+   "translation": "두 눈썹이 뾰족하고 짧으며 눈이 늘 눈물 머금은 듯하면, 이를 졸폭살(卒暴殺, 갑작스럽고 사나운 죽음의 살)이라 한다.",
+   "commentary": "'眉…短'은 눈썹 길이가 짧다는 형태 서술이나 '尖'(뾰족함)은 대응 항목이 없고, 눈물 머금은 듯한 눈은 촉촉함에 관한 서술이다. 문헌은 이를 갑작스러운 횡사와 연결했다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "尖短",
+     "observable_ko": "눈썹이 짧음",
+     "status": "exact",
+     "label": "brow_length:short"
+    },
+    {
+     "region": "brow",
+     "evidence": "兩眉尖",
+     "observable_ko": "눈썹이 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "눈썹이 뾰족함이 꼬리 모양인지 전체 모양인지 특정되지 않고 대응 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼常如淚",
+     "observable_ko": "눈이 늘 눈물 머금은 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "눈의 촉촉함·광택은 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD645-nose-016",
+   "section": "《論異形篇》",
+   "region": "nose",
+   "original_text": "鼻折準曲，項斜羊視，此名自弔殺；",
+   "translation": "코가 꺾이고 준두(準頭, 코끝)가 굽었으며, 목이 비스듬하고 양처럼 보면, 이를 자조살(自弔殺, 스스로 목매는 살)이라 한다.",
+   "commentary": "'鼻折'은 콧대가 꺾인 형태이나 지침상 '折'은 산근 높이와 근사 대응이며, 굽은 코끝은 대응 레이블이 없다. 문헌은 이를 스스로 목매어 죽는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻折",
+     "observable_ko": "코가 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "'折'은 산근 높이(低·陷)와 같은 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準曲",
+     "observable_ko": "코끝이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코끝 휘어짐에 해당하는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "項斜",
+     "observable_ko": "목이 비스듬함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "羊視",
+     "observable_ko": "양처럼 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD645-eye-017",
+   "section": "《論異形篇》",
+   "region": "eye",
+   "original_text": "目睛黃動，睡不合脣，此名扛尸殺；",
+   "translation": "눈동자가 누렇고 움직이며, 잠잘 때 입술을 다물지 않으면, 이를 강시살(扛尸殺, 시체를 메는 살)이라 한다.",
+   "commentary": "눈동자 색·움직임과 잠잘 때의 입 모양에 관한 서술로 정지 사진의 형태 항목이 아니다. 문헌은 이를 죽음의 살로 규정했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目睛黃動",
+     "observable_ko": "눈동자가 누렇고 움직임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "睡不合脣",
+     "observable_ko": "잘 때 입술을 다물지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "수면 중 상태는 깨어 있는 사진으로 확인할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-018",
+   "section": "《論異形篇》",
+   "region": "face",
+   "original_text": "橫肉四起，暴露不檢，此名凶暴殺。",
+   "translation": "가로 살이 사방에서 일어나고, 사납게 드러나 단속하지 않으면, 이를 흉폭살(凶暴殺)이라 한다.",
+   "commentary": "'橫肉'은 얼굴에 가로로 불거진 살을 말하는 관상 용어로 보이나 대응 레이블이 없다. '暴露不檢'은 태도 서술로 읽었다. 문헌은 이를 흉폭한 죽음의 살로 규정했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "橫肉四起",
+     "observable_ko": "얼굴에 가로 살이 사방으로 불거짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 살의 결·불거짐에 해당하는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "暴露不檢",
+     "observable_ko": "사납게 드러나 단속하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "행동·성정·생활 습관은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-019",
+   "section": "《論異形篇》",
+   "region": "other",
+   "original_text": "若此五殺，人有一焉，定不能善終。」",
+   "translation": "이 다섯 살(殺) 같은 것이 사람에게 하나라도 있으면 반드시 제명에 죽지 못한다.\"",
+   "commentary": "앞의 오살 목록을 맺는 구절로 새 형태 조건은 없다. 비명횡사에 관한 서술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-020",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似龍者為文吏，",
+   "translation": "용을 닮은 자는 문리(文吏, 글을 맡은 관리)가 된다.",
+   "commentary": "사람의 형체 전체를 용에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 문리(文吏)에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似龍",
+     "observable_ko": "형체가 용을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-021",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似虎者為將軍，",
+   "translation": "범을 닮은 자는 장군이 된다.",
+   "commentary": "사람의 형체 전체를 범에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 장군에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似虎",
+     "observable_ko": "형체가 범을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-022",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似牛者為宰輔，",
+   "translation": "소를 닮은 자는 재보(宰輔, 재상)가 된다.",
+   "commentary": "사람의 형체 전체를 소에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 재보(宰輔)에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似牛",
+     "observable_ko": "형체가 소을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-023",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似馬者為外吏，",
+   "translation": "말을 닮은 자는 외리(外吏, 지방 관리)가 된다.",
+   "commentary": "사람의 형체 전체를 말에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 외리(外吏)에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似馬",
+     "observable_ko": "형체가 말을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-024",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似狗者為清官，",
+   "translation": "개를 닮은 자는 청관(清官, 청렴한 관리)이 된다.",
+   "commentary": "사람의 형체 전체를 개에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 청관(清官)에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似狗",
+     "observable_ko": "형체가 개을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-025",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似鼠者為巨富，",
+   "translation": "쥐를 닮은 자는 거부(巨富, 큰 부자)가 된다.",
+   "commentary": "사람의 형체 전체를 쥐에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 거부(巨富)에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似鼠",
+     "observable_ko": "형체가 쥐을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-026",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似豬者為大貴，",
+   "translation": "돼지를 닮은 자는 크게 귀하게 된다.",
+   "commentary": "사람의 형체 전체를 돼지에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 큰 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似豬",
+     "observable_ko": "형체가 돼지을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-027",
+   "section": "《辨形》",
+   "region": "other",
+   "original_text": "似猴者為大貴。",
+   "translation": "원숭이를 닮은 자는 크게 귀하게 된다.",
+   "commentary": "사람의 형체 전체를 원숭이에 빗댄 분류로 측정 가능한 형태 서술이 없다. 문헌은 이 닮음을 큰 귀함에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "似猴",
+     "observable_ko": "형체가 원숭이을(를) 닮음(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-028",
+   "section": "《二儀》",
+   "region": "other",
+   "original_text": "《頭圓法天》天欲富，足方象地地欲厚。",
+   "translation": "머리가 둥근 것은 하늘을 본받으니 하늘은 풍성하고자 하고, 발이 모난 것은 땅을 본뜨니 땅은 두텁고자 한다.",
+   "commentary": "이의(二儀, 하늘과 땅)를 머리와 발에 대응시킨 구절이다. 머리 모양은 얼굴 형태 레이블이 없고 발은 얼굴 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭圓",
+     "observable_ko": "머리가 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 모양은 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "足方",
+     "observable_ko": "발이 모남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-029",
+   "section": "《三才日月》",
+   "region": "face",
+   "original_text": "額為天，頤為地，鼻為人。左目為日，右目為月。",
+   "translation": "이마는 하늘이 되고, 턱(頤)은 땅이 되며, 코는 사람이 된다. 왼쪽 눈은 해가 되고 오른쪽 눈은 달이 된다.",
+   "commentary": "삼재(三才, 하늘·땅·사람)와 해·달을 얼굴 부위에 배당한 정의다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-030",
+   "section": "《三才日月》",
+   "region": "face",
+   "original_text": "天欲張，地欲方，人欲深廣，日月欲光。有天者貴，有地者富，有人者壽，日月好者茂。",
+   "translation": "하늘(이마)은 펼쳐지고자 하고, 땅(턱)은 모나고자 하며, 사람(코)은 깊고 넓고자 하고, 해와 달(두 눈)은 빛나고자 한다. 하늘이 있는 자는 귀하고, 땅이 있는 자는 부유하며, 사람이 있는 자는 장수하고, 해와 달이 좋은 자는 번성한다.",
+   "commentary": "앞 구절의 배당에 따라 이마·턱·코·눈의 바람직한 모양을 적었다. '張'·'方'·'深廣'은 형태 서술이나 부위를 하늘·땅·사람으로 간접 지칭해 표준 표현과 같지 않고, '有天'·'日月好'는 기준이 없는 평가어다. 문헌은 이를 귀함·부유·장수·번성과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天欲張",
+     "observable_ko": "이마가 펼쳐짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "forehead_width:wide",
+      "forehead_height:high"
+     ],
+     "reason": "'張'(펼쳐짐)이 너비인지 높이인지 특정되지 않는다"
+    },
+    {
+     "region": "chin",
+     "evidence": "地欲方",
+     "observable_ko": "턱(頤)이 모남",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:square",
+      "jaw_width:wide"
+     ],
+     "reason": "頤를 '地'로 간접 지칭한 표현이며 頤가 턱끝인지 아래턱 전체인지 불분명하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "人欲深廣",
+     "observable_ko": "코가 깊고 넓음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide"
+     ],
+     "reason": "코를 '人'으로 간접 지칭했고 '深'에는 대응 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "日月欲光",
+     "observable_ko": "두 눈이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "有天者貴，有地者富，有人者壽，日月好者茂",
+     "observable_ko": "각 부위가 '있음/좋음'",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'있다/좋다'는 평가어로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-031",
+   "section": "《三學堂》",
+   "region": "face",
+   "original_text": "眼為看堂，口為誦堂，耳為聽堂。",
+   "translation": "눈은 보는 집(看堂)이 되고, 입은 외는 집(誦堂)이 되며, 귀는 듣는 집(聽堂)이 된다.",
+   "commentary": "삼학당(三學堂)을 눈·입·귀에 배당한 정의다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-032",
+   "section": "《三停所主》",
+   "region": "face",
+   "original_text": "眉上至髮際為上停；眉下至準頭為中停；鼻下至地閣為下停。",
+   "translation": "눈썹 위에서 발제(髮際, 머리털 경계)까지가 상정(上停)이고, 눈썹 아래에서 준두(準頭, 코끝)까지가 중정(中停)이며, 코 아래에서 지각(地閣, 턱)까지가 하정(下停)이다.",
+   "commentary": "얼굴을 세로로 셋으로 나누는 삼정(三停)의 경계를 정의한 구절이다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-033",
+   "section": "《三停所主》",
+   "region": "face",
+   "original_text": "上停為天，主父母貴賤；中停為人，主兄弟妻子；下停為地，主田宅六畜。",
+   "translation": "상정은 하늘이 되어 부모의 귀천을 주관하고, 중정은 사람이 되어 형제와 처자를 주관하며, 하정은 땅이 되어 전택(田宅, 논밭과 집)과 육축(六畜, 가축)을 주관한다.",
+   "commentary": "삼정 각 부위가 주관하는 영역을 배당한 구절로, 형태 조건은 적혀 있지 않다. 처자(妻子)를 주관한다는 배당은 혼인·자녀 판단의 근거로 쓰인다.",
+   "conditions": [],
+   "claim_topics": [
+    "family_children",
+    "marriage",
+    "fertility_offspring",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD645-other-034",
+   "section": "《三尖》",
+   "region": "other",
+   "original_text": "頭尖不得父母力。",
+   "translation": "머리가 뾰족하면 부모의 힘을 얻지 못한다.",
+   "commentary": "머리 모양에 관한 서술로 얼굴 형태 레이블이 없다. 문헌은 이를 부모의 도움을 받지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭尖",
+     "observable_ko": "머리가 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 모양은 얼굴 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD645-chin-035",
+   "section": "《三尖》",
+   "region": "chin",
+   "original_text": "《地閣》尖不得產業力。",
+   "translation": "지각(地閣, 턱)이 뾰족하면 산업(產業, 재산과 가업)의 힘을 얻지 못한다.",
+   "commentary": "'地閣尖'은 지침의 정확 대응 표현으로, 턱끝이 뾰족한 형태(chin_shape:pointed)에 해당한다. 문헌은 이를 재산·가업의 도움을 얻지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "《地閣》尖",
+     "observable_ko": "턱끝이 뾰족함",
+     "status": "exact",
+     "label": "chin_shape:pointed"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD645-mouth-036",
+   "section": "《三尖》",
+   "region": "mouth",
+   "original_text": "口尖不得善終力。",
+   "translation": "입이 뾰족하면 제명에 죽는 힘을 얻지 못한다.",
+   "commentary": "'口尖'은 입이 앞으로 모여 뾰족한 형태를 말하는 듯하나 입 너비인지 입술 돌출인지 특정되지 않는다. 문헌은 이를 제명에 죽지 못함과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "口尖",
+     "observable_ko": "입이 뾰족함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lip_projection:protruded",
+      "mouth_width:narrow"
+     ],
+     "reason": "입의 '뾰족함'이 돌출인지 좁음인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-037",
+   "section": "《五官六府》",
+   "region": "face",
+   "original_text": "《目監察》官，在六府上。《口出納》官，在六府前。《鼻審辨》官，在六府中。《耳採聽》官，在六府中人中。《保壽》官，在六府中人中一作「眉。」",
+   "translation": "눈은 감찰관(監察官)으로 육부(六府) 위에 있다. 입은 출납관(出納官)으로 육부 앞에 있다. 코는 심변관(審辨官)으로 육부 가운데 있다. 귀는 채청관(採聽官)으로 육부 가운데 인중(人中)에 있다. 보수관(保壽官)은 육부 가운데 인중에 있다(인중은 다른 본에 '눈썹'으로 되어 있다).",
+   "commentary": "오관(五官)을 얼굴 부위에 배당한 정의로, 보수관을 일반적으로 눈썹에 배당하는 것과 달리 이 본은 '人中'으로 적고 이본 주기(一作「眉」)를 달았다. 귀 항목의 '人中'도 원문 그대로 옮겼으나 위치 서술이 분명하지 않다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-038",
+   "section": "《五官六府》",
+   "region": "face",
+   "original_text": "兩眉上為二府，兩輔角為四府，兩顴上為六府。",
+   "translation": "두 눈썹 위가 이부(二府)가 되고, 두 보각(輔角, 이마 양쪽 모서리)이 사부(四府)가 되며, 두 관골(顴骨, 광대뼈) 위가 육부(六府)가 된다.",
+   "commentary": "육부(六府)의 위치를 좌우 짝으로 정의한 구절이다. 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-039",
+   "section": "《五官六府》",
+   "region": "face",
+   "original_text": "一官好貴十年，一府好富十年，官府俱好，富貴終老。左為文，右為武。",
+   "translation": "한 관(官)이 좋으면 십 년 귀하고, 한 부(府)가 좋으면 십 년 부유하며, 관과 부가 모두 좋으면 늙도록 부귀하다. 왼쪽은 문(文)이 되고 오른쪽은 무(武)가 된다.",
+   "commentary": "오관·육부가 '좋다'는 기준 없는 평가어로 조건을 삼았다. 문헌은 이를 부귀의 기간과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "一官好",
+     "observable_ko": "한 관(官)이 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'好'는 품평어로 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "一府好",
+     "observable_ko": "한 부(府)가 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'好'는 품평어로 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-040",
+   "section": "《七門正》",
+   "region": "face",
+   "original_text": "眉頭兩鬥門，眼尾兩奸門，耳下兩命門，年脊一庭中。",
+   "translation": "눈썹머리는 두 투문(鬥門)이고, 눈꼬리는 두 간문(奸門)이며, 귀 아래는 두 명문(命門)이고, 연척(年脊)은 하나의 정중(庭中)이다.",
+   "commentary": "칠문(七門)의 위치를 정의한 구절이다. '鬥門'·'年脊'은 원문 글자대로 옮겼으며, 형태 조건이나 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD645-face-041",
+   "section": "《八極》",
+   "region": "face",
+   "original_text": "自鼻而望八方，成形不相傾者良。",
+   "translation": "코로부터 팔방을 바라보아, 형체를 이룸이 서로 기울지 않는 것이 좋다.",
+   "commentary": "코를 중심으로 얼굴 각 부위가 한쪽으로 기울지 않고 균형을 이룸을 좋다고 적은 구절이다. 얼굴 전체 균형에 해당하는 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "成形不相傾",
+     "observable_ko": "얼굴 부위들이 서로 기울지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 전체의 균형·대칭에 해당하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

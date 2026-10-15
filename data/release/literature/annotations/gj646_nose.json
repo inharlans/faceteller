@@ -1,0 +1,2251 @@
+{
+ "page_id": "gj646",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "鼻"
+ ],
+ "passages": [
+  {
+   "passage_id": "ZD646A-nose-001",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "金主秋，秋主肺，肺主鼻。鼻主義，收藏之倉也。",
+   "translation": "금(金)은 가을을 주관하고, 가을은 폐(肺)를 주관하며, 폐는 코를 주관한다. 코는 의(義)를 주관하니, 거두어 간직하는 창고다.",
+   "commentary": "『조담경』 비(鼻) 조의 서두로, 오행(金)·계절·장부·오상(義)을 코에 배당하는 일반 이론이다. 형태 서술이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-002",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "面之主，蘭臺起，聲譽美。",
+   "translation": "(코는) 얼굴의 주인이니, 난대(蘭臺, 콧방울)가 일어나면 명성이 아름답다.",
+   "commentary": "난대(蘭臺)는 콧방울을 가리킨다. '일어남(起)'은 콧방울이 도톰함에 근사하나 지침의 정확 표현(豐·大)이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "蘭臺起",
+     "observable_ko": "콧방울이 일어남",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "起는 지침의 정확 표현(豐·大)이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-003",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻端妍，聲譽傳。",
+   "translation": "코끝이 고우면 명성이 전해진다.",
+   "commentary": "'고움(妍)'은 품평어로 형태가 특정되지 않는다. 문헌은 이를 명성과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻端妍",
+     "observable_ko": "코끝이 고움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로, 크기·방향 등 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-004",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻高昂，主官昌。",
+   "translation": "코가 높이 솟으면 관직이 번창함을 주관한다.",
+   "commentary": "코가 높다(鼻高)는 콧뿌리인지 코끝인지 특정되지 않아 지침상 근사 대응이다. 문헌은 이를 관운과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻高昂",
+     "observable_ko": "코가 높이 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리 높이인지 코끝 돌출인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-005",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻如截，富不歇。",
+   "translation": "코가 자른 것 같으면 부유함이 그치지 않는다.",
+   "commentary": "'자른 듯함(如截)'은 대통을 자른 듯 곧고 반듯한 코를 비유한 것으로 보이나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如截",
+     "observable_ko": "코가 자른 듯함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유로 측정 가능한 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-006",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻柱薄，主立諾。",
+   "translation": "코기둥(鼻柱)이 얇으면 약속을 세움(立諾)을 주관한다.",
+   "commentary": "비주(鼻柱)는 콧대 또는 콧구멍 사이 기둥을 가리키는 것으로 보이며 대응 레이블이 없다. '主立諾'의 정확한 뜻은 분명하지 않아 직역했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻柱薄",
+     "observable_ko": "코기둥이 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-007",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻破缺，多薄劣。",
+   "translation": "코가 깨지고 이지러지면 박하고 졸렬함이 많다.",
+   "commentary": "코의 흠·결손은 대응 레이블이 없다. 문헌은 이를 박렬한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻破缺",
+     "observable_ko": "코가 깨지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흠·결손은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-008",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻梁小，無膽志。",
+   "translation": "콧대(鼻梁)가 작으면 담력과 의지가 없다.",
+   "commentary": "콧대(鼻梁) 형태는 지침상 대응 레이블이 없다. 문헌은 이를 담력 부족과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁小",
+     "observable_ko": "콧대가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-009",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "蜣螂鼻，無意智；",
+   "translation": "말똥구리 코면 뜻과 지혜가 없다.",
+   "commentary": "말똥구리에 빗댄 비유로 형태가 특정되지 않는다. 문헌은 이를 지혜 부족이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "蜣螂鼻",
+     "observable_ko": "말똥구리 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-010",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻廣而長，伎藝非常。",
+   "translation": "코가 넓고 길면 기예가 비상하다.",
+   "commentary": "코가 넓다(鼻廣)와 길다(鼻…長)는 각각 지침의 정확 표현에 해당한다. 문헌은 이를 비상한 기예와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻廣",
+     "observable_ko": "코의 폭이 넓음",
+     "status": "exact",
+     "label": "nose_width:wide"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻廣而長",
+     "observable_ko": "코의 길이가 긺",
+     "status": "exact",
+     "label": "nose_length:long"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-011",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻如懸膽，財帛積萬；",
+   "translation": "코가 매단 쓸개(懸膽) 같으면 재물이 만으로 쌓인다.",
+   "commentary": "현담비(懸膽鼻)는 쓸개를 매단 듯 아래가 둥글고 풍만한 코를 가리키는 비유로, 측정 기준이 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如懸膽",
+     "observable_ko": "코가 매단 쓸개 같음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "사물 비유로 측정 가능한 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-012",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻偏無妨，得地須正。",
+   "translation": "코가 치우쳐도 무방하나, 땅(자리)을 얻으려면 반드시 발라야 한다.",
+   "commentary": "코의 치우침(偏)은 대응 레이블이 없다. 구절의 뜻이 다소 모호하여 직역했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻偏",
+     "observable_ko": "코가 치우침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 좌우 치우침은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-013",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻如獅子，聰明達士。",
+   "translation": "코가 사자 같으면 총명하고 통달한 선비다.",
+   "commentary": "사자에 빗댄 비유로 형태가 특정되지 않는다. 문헌은 이를 총명함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如獅子",
+     "observable_ko": "사자 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-014",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻如縮囊，至老吉昌；",
+   "translation": "코가 오므린 주머니 같으면 늙도록 길하고 번창한다.",
+   "commentary": "오므린 주머니에 빗댄 비유로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻如縮囊",
+     "observable_ko": "코가 오므린 주머니 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "사물 비유로 측정 가능한 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-015",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "蘭臺黑色，防州縣厄；",
+   "translation": "난대(蘭臺, 콧방울)가 검은 빛이면 주현(州縣, 관아)의 액을 막아야 한다.",
+   "commentary": "콧방울의 기색에 관한 서술로 형태 항목이 아니다. 주현의 액은 관아와 얽히는 송사로 해석된다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "蘭臺黑色",
+     "observable_ko": "콧방울이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-016",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻梁柱折，男多防厄。",
+   "translation": "콧대 기둥이 꺾이면 남자(아들)는 액을 많이 막아야 한다.",
+   "commentary": "콧대가 꺾임(折)은 지침상 콧뿌리 높이의 근사 대응이다. '男'이 대상 남성인지 아들인지 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁柱折",
+     "observable_ko": "콧대가 꺾임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "斷/折은 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-017",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻梁柱曲，男多淫慾。",
+   "translation": "콧대 기둥이 굽으면 남자는 음욕이 많다.",
+   "commentary": "콧대의 굽음은 대응 레이블이 없다. 문헌은 이를 음욕이라는 성적 낙인과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻梁柱曲",
+     "observable_ko": "콧대가 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-018",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻有黑子，子不得力。",
+   "translation": "코에 검은 점이 있으면 자식의 힘을 얻지 못한다.",
+   "commentary": "코의 점은 위치 특정 점이라 근사 대응이다. 문헌은 이를 자식 덕이 없다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻有黑子",
+     "observable_ko": "코에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-019",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻孔仰天，貪色無厭，亦主客亡。",
+   "translation": "콧구멍이 하늘을 우러르면 색을 탐하여 싫증이 없고, 또한 객지에서 죽음을 주관한다.",
+   "commentary": "콧구멍이 위로 향함(孔仰)은 지침의 정확 표현(nostril_show:visible)이다. 문헌은 이를 호색과 객사라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻孔仰天",
+     "observable_ko": "정면에서 콧구멍이 보임",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-020",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻不分明，無祿位人。",
+   "translation": "코가 분명하지 않으면 녹위(祿位)가 없는 사람이다.",
+   "commentary": "'분명하지 않음'은 윤곽·기색 중 무엇인지 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻不分明",
+     "observable_ko": "코가 분명하지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "윤곽인지 기색인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-021",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻有縱理，主養他子。",
+   "translation": "코에 세로 결이 있으면 남의 자식을 기름을 주관한다.",
+   "commentary": "코의 세로 주름은 대응 레이블이 없다. 문헌은 이를 양자와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻有縱理",
+     "observable_ko": "코에 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-022",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻高而孤，一子相呼。",
+   "translation": "코가 높고 외로우면 자식 하나가 서로 부른다(자식이 하나다).",
+   "commentary": "코가 높음은 근사 대응이고, '외로움(孤)'은 광대뼈 등 주변이 받쳐 주지 않는 모양을 가리키는 것으로 보이나 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻高",
+     "observable_ko": "코가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리 높이인지 코끝 돌출인지 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "而孤",
+     "observable_ko": "코만 홀로 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheekbone:flat"
+     ],
+     "reason": "주변 부위와의 관계를 말하는 듯하나 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-023",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻毛出外，謗毀亡害。",
+   "translation": "코털이 밖으로 나오면 비방·훼손과 잃음·해침이 있다.",
+   "commentary": "코털은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻毛出外",
+     "observable_ko": "코털이 밖으로 나옴",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "체모는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-024",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "無準相應，作事不準。",
+   "translation": "준(準, 코끝)이 서로 응함이 없으면 일을 함이 정확하지 않다.",
+   "commentary": "'준두가 응하지 않음'은 코끝이 다른 부위와 어울리지 않음을 말하는 듯하나 형태가 특정되지 않는다. '準'의 말놀이가 들어간 구절이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "無準相應",
+     "observable_ko": "코끝이 응하지 않음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어떤 형태인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-025",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻頭短小，意智淺少。",
+   "translation": "코머리(鼻頭)가 짧고 작으면 뜻과 지혜가 얕고 적다.",
+   "commentary": "코머리(鼻頭)는 코끝 또는 코 전체를 가리킬 수 있어, 짧음은 코 길이의 근사 대응이다. 문헌은 이를 지혜 부족이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻頭短小",
+     "observable_ko": "코머리가 짧고 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_length:short"
+     ],
+     "reason": "鼻頭가 코끝인지 코 전체인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-026",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻上多橫，胡人有者貴。",
+   "translation": "코 위에 가로(주름)가 많으면, 호인(胡人) 중에 있는 자는 귀하다.",
+   "commentary": "코의 가로 주름은 대응 레이블이 없다. 구절은 특정 집단(胡人)에 한정한 판단으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻上多橫",
+     "observable_ko": "코 위에 가로 주름이 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-027",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻曲人情薄。",
+   "translation": "코가 굽으면 인정이 박하다.",
+   "commentary": "코의 굽음은 대응 레이블이 없다. 문헌은 이를 박정함과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻曲",
+     "observable_ko": "코가 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-028",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻小永無官",
+   "translation": "코가 작으면 영영 벼슬이 없다.",
+   "commentary": "코가 작다(鼻小)는 지침상 근사 대응이다. 전사본은 '鼻小永無官毒人。'으로 이어 적었으나 '毒人'은 다음 구절로 보아 나누었다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻小",
+     "observable_ko": "코가 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:narrow",
+      "nose_length:short"
+     ],
+     "reason": "鼻小는 폭·길이 중 무엇인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-029",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "毒人。《鷹嘴》",
+   "translation": "독한 사람은 매부리(鷹嘴) (코)다.",
+   "commentary": "전사본의 구두와 《》 표기가 불분명하여 '독한 사람은 매부리코'로 가장 직역적으로 읽었다. 매부리는 동물 비유로 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鷹嘴",
+     "observable_ko": "매부리(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_tip:tapered"
+     ],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-030",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "《鼻準》小，休求祿。",
+   "translation": "코끝(鼻準)이 작으면 녹을 구하지 말라.",
+   "commentary": "준두가 작다는 서술은 코끝 모양에 근사하나 지침의 정확 표현(準尖 등)이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻準》小",
+     "observable_ko": "코끝이 작음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:tapered"
+     ],
+     "reason": "小는 지침의 코끝 정확 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-031",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根青，三日內逢貴人。",
+   "translation": "산근(山根, 콧뿌리)이 푸르면 사흘 안에 귀인을 만난다.",
+   "commentary": "콧뿌리의 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根青",
+     "observable_ko": "콧뿌리가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-032",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根紫，七七日得財。",
+   "translation": "산근(山根, 콧뿌리)이 자줏빛이면 49일에 재물을 얻는다.",
+   "commentary": "콧뿌리의 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根紫",
+     "observable_ko": "콧뿌리가 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-033",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根黃，七日內遠書喜至。",
+   "translation": "산근(山根, 콧뿌리)이 누러면 이레 안에 먼 곳의 기쁜 편지가 이른다.",
+   "commentary": "콧뿌리의 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根黃",
+     "observable_ko": "콧뿌리가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-034",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根白，多疾厄。",
+   "translation": "산근(山根, 콧뿌리)이 희면 질병과 액이 많다.",
+   "commentary": "콧뿌리의 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 질병과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根白",
+     "observable_ko": "콧뿌리가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-035",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "黃白病，黑斑駁，主宿疾或犬傷。",
+   "translation": "누렇고 희면 병이고, 검게 얼룩지면 묵은 병이나 개에게 물린 상처를 주관한다.",
+   "commentary": "앞 구절에 이어 콧뿌리의 기색을 판단하는 것으로 보인다. 기색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "黃白",
+     "observable_ko": "누렇고 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "黑斑駁",
+     "observable_ko": "검게 얼룩짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-036",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根平美，及有奇骨伏起為婚。骨，主得極貴。",
+   "translation": "산근(山根, 콧뿌리)이 평평하고 아름다우며 기이한 뼈가 엎드려 일어남이 있으면 혼(婚)이 되고, 뼈는 지극한 귀함을 얻음을 주관한다.",
+   "commentary": "구두가 분명하지 않아 글자대로 직역했다. '山根平'은 지침상 콧뿌리가 낮음의 정확 표현이지만 여기서는 '평평하고 아름답다'는 긍정적 문맥이라 '매끈함'일 가능성이 있어 근사로 두었고, 기골(奇骨)은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根平美",
+     "observable_ko": "콧뿌리가 평평하고 아름다움",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "平美가 낮음인지 매끈하게 고름인지 문맥상 불명확하다"
+    },
+    {
+     "region": "nose",
+     "evidence": "奇骨伏起",
+     "observable_ko": "기이한 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "뼈의 융기는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-037",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "妻先看骨法，有勢無勢。",
+   "translation": "아내(를 볼 때)는 먼저 골법(骨法)을 보아 세(勢)가 있는지 없는지를 본다.",
+   "commentary": "판단 순서를 말하는 방법론적 구절로 구체적 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-038",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻要直至山根上，無破一生懷抱忠信。",
+   "translation": "코는 곧게 산근(山根, 콧뿌리) 위까지 이르러야 하니, 깨짐이 없으면 일생 충신(忠信)을 품는다.",
+   "commentary": "콧대가 곧고 흠이 없다는 서술은 콧대 형태로 대응 레이블이 없다. 문헌은 이를 충신과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻要直至山根上，無破",
+     "observable_ko": "콧대가 콧뿌리까지 곧고 흠이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-039",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根黃，色連準頭地閣者，冬有春得官。",
+   "translation": "산근(山根, 콧뿌리)이 누렇고 그 빛이 준두(準頭, 코끝)와 지각(地閣, 턱)까지 이어진 자는 겨울에 (생기면) 봄에 벼슬을 얻는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根黃，色連準頭地閣",
+     "observable_ko": "콧뿌리에서 코끝·턱까지 누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-040",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根骨陷，子孫夭散。",
+   "translation": "산근(山根, 콧뿌리)의 뼈가 꺼지면 자손이 요절하고 흩어진다.",
+   "commentary": "콧뿌리가 꺼짐(山根陷)은 지침의 정확 표현(nose_bridge:low)이다. 문헌은 이를 자손의 요절이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根骨陷",
+     "observable_ko": "콧뿌리가 낮게 꺼짐",
+     "status": "exact",
+     "label": "nose_bridge:low"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-nose-041",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根白，五十日內外服。",
+   "translation": "산근(山根, 콧뿌리)이 희면 50일 안에 외복(外服)이 있다.",
+   "commentary": "외복(外服)은 외가 친족의 상복을 입는 일로 해석된다. 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根白",
+     "observable_ko": "콧뿌리가 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-042",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根黑，六十日內公撓。",
+   "translation": "산근(山根, 콧뿌리)이 검으면 60일 안에 관가의 시달림(公撓)이 있다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. '公撓'는 관청 일로 시달림(송사)으로 해석된다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根黑",
+     "observable_ko": "콧뿌리가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-043",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "山根赤，二七日內慎火。",
+   "translation": "산근(山根, 콧뿌리)이 붉으면 14일 안에 불을 삼가라.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "山根赤",
+     "observable_ko": "콧뿌리가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-044",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "若山根陷，次看人中，有不分明，及鼻有縱理刑卻不孤止一子，不可止憑一處，遽定子孫。餘形準此。",
+   "translation": "만약 산근(山根, 콧뿌리)이 꺼졌으면 다음으로 인중을 보아 분명하지 않음이 있고, 또 코에 세로 결이 있으면 형극(刑)하되 외롭지는 않고 자식 하나에 그치니, 한 곳에만 의지하여 자손을 급히 정해서는 안 된다. 나머지 형상도 이에 준한다.",
+   "commentary": "여러 부위를 종합해 자손을 판단하라는 방법론적 구절이다. 콧뿌리가 꺼짐은 정확 표현이지만, 인중의 불분명함과 코의 세로 주름이 대응되지 않아 함께 성립하지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "若山根陷",
+     "observable_ko": "콧뿌리가 낮게 꺼짐",
+     "status": "exact",
+     "label": "nose_bridge:low"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "次看人中，有不分明",
+     "observable_ko": "인중이 분명하지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:faint"
+     ],
+     "reason": "不分明은 깊이·윤곽 중 무엇인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻有縱理",
+     "observable_ko": "코에 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "kinship_harm"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-nose-045",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上青，十日內得財。",
+   "translation": "연상(年上, 콧대 윗부분)이 푸르면 열흘 안에 재물을 얻는다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上青",
+     "observable_ko": "연상이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-046",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上赤，一千日內死；",
+   "translation": "연상(年上, 콧대 윗부분)이 붉으면 천 일 안에 죽는다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上赤",
+     "observable_ko": "연상이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-047",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上白，外服厄。",
+   "translation": "연상(年上, 콧대 윗부분)이 희면 외복(外服, 외가 상복)의 액이 있다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上白",
+     "observable_ko": "연상이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-048",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上黑怨至。",
+   "translation": "연상(年上, 콧대 윗부분)이 검으면 원한이 이른다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上黑怨至",
+     "observable_ko": "연상이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-049",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上黃，二十日內見陰人喜。",
+   "translation": "연상(年上, 콧대 윗부분)이 누러면 20일 안에 음인(陰人, 여인)의 기쁨을 본다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上黃",
+     "observable_ko": "연상이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-050",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上紫，七日內生貴子。",
+   "translation": "연상(年上, 콧대 윗부분)이 자줏빛이면 이레 안에 귀한 아들을 낳는다.",
+   "commentary": "연상(年上)·수상(壽上)은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上紫",
+     "observable_ko": "연상이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring"
+   ],
+   "review_note": "AI cross-file review (not human): 본인의 자녀·후사 유무/수/성별 예측은 생식(건강) 추정에 해당해 fertility_offspring으로 태깅"
+  },
+  {
+   "passage_id": "ZD646A-nose-051",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上紫色下貫壽上者喜。",
+   "translation": "연상(年上)의 자줏빛이 아래로 수상(壽上)을 꿰뚫는 자는 기쁘다.",
+   "commentary": "연상·수상은 콧대(年壽) 부위로, 기색에 관한 서술이라 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上紫色下貫壽上",
+     "observable_ko": "연상에서 수상으로 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-052",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "至年上紅色紫赤有官事。",
+   "translation": "(…에) 이르러, 연상(年上)이 붉은 빛이나 자주·적색이면 관사(官事)가 있다.",
+   "commentary": "첫 글자 '至'는 앞 구절에 붙는지 분명하지 않아 그대로 직역했다. 관사(官事)는 송사·관청 일로 해석된다. 기색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上紅色紫赤",
+     "observable_ko": "연상이 붉거나 자주·적색",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-053",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "欲知食祿在久任者，先看年上發色長短，長一分主一年，二分二年准此細詳。若惡色相間者，當年不利。",
+   "translation": "식록(食祿)이 오래 맡음에 있는지 알고자 하면 먼저 연상에 피어난 빛의 길고 짧음을 보니, 1푼 길면 1년을 주관하고 2푼이면 2년이니 이에 준하여 자세히 살핀다. 만약 나쁜 빛이 섞여 있으면 그해는 이롭지 않다.",
+   "commentary": "연상의 기색 길이로 관직 재임 기간을 헤아리는 방법론이다. 기색은 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上發色長短",
+     "observable_ko": "연상에 피어난 빛의 길이",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-054",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上壽上赤色，十日墜井；",
+   "translation": "연상·수상(年上·壽上, 콧대)이 붉은 빛이면 열흘에 우물에 떨어진다.",
+   "commentary": "콧대 부위의 기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 추락 사고(죽음)와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上壽上赤色",
+     "observable_ko": "콧대가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-055",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上黑子，男妨妻女孤獨，亦主父母橫亡。",
+   "translation": "연상(年上)에 검은 점이 있으면 남자는 아내를 해치고 여자는 고독하며, 또한 부모의 횡사를 주관한다.",
+   "commentary": "콧대의 점은 위치 특정 점이라 근사 대응이다. 문헌은 이를 배우자·부모에게 해가 된다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "年上黑子",
+     "observable_ko": "콧대 윗부분에 검은 점",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 위치 레이블이 없어 pigmented_marks:present의 근사 대응일 뿐이다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-056",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上壽上黑色，四十日亡。",
+   "translation": "연상·수상(콧대)이 검은 빛이면 40일에 죽는다.",
+   "commentary": "콧대 부위의 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上壽上黑色",
+     "observable_ko": "콧대가 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-057",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上壽上青色主長病。",
+   "translation": "연상·수상(콧대)이 푸른 빛이면 오랜 병을 주관한다.",
+   "commentary": "콧대 부위의 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上壽上青色",
+     "observable_ko": "콧대가 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-058",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上壽上非時生氣，色吉少凶多。",
+   "translation": "연상·수상(콧대)에 때가 아닌 기운이 생기면 그 빛은 길함이 적고 흉함이 많다.",
+   "commentary": "계절에 맞지 않는 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上壽上非時生氣",
+     "observable_ko": "콧대에 때 아닌 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-059",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "年上壽上光，一生少病；",
+   "translation": "연상·수상(콧대)이 빛나면 일생 병이 적다.",
+   "commentary": "콧대의 광택에 관한 서술로 형태 항목이 아니다. 문헌은 이를 건강과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "年上壽上光",
+     "observable_ko": "콧대가 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-060",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "壽上四時黃，官顯而壽長。",
+   "translation": "수상(壽上, 콧대 아랫부분)이 사철 누러면 벼슬이 드러나고 수명이 길다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. 문헌은 이를 관직과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "壽上四時黃",
+     "observable_ko": "수상이 사철 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-061",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "女人壽上黃，懷孕得平康。",
+   "translation": "여인의 수상(壽上)이 누러면 잉태하여 평안함을 얻는다.",
+   "commentary": "여성에게만 적용되는 기색 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "壽上黃",
+     "observable_ko": "수상이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-062",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "壽上黑，二十七日亡。",
+   "translation": "수상(壽上, 콧대 아랫부분)이 검으면 27일에 죽는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "壽上黑",
+     "observable_ko": "수상이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-063",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "壽上白，半月小口亡。",
+   "translation": "수상(壽上)이 희면 보름에 어린아이(小口)가 죽는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다. '小口'는 집안의 어린 식구를 가리킨다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "壽上白",
+     "observable_ko": "수상이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-064",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "壽上青，六十日家。〈闕〉",
+   "translation": "수상(壽上)이 푸르면 60일에 집(안에)… (결문).",
+   "commentary": "원문에 〈闕〉 표시가 있어 뒷부분이 빠진 결문이다. 기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "壽上青",
+     "observable_ko": "수상이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-065",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "萬物，發生于土，土在鼻中央，五色之氣，或起于年上壽上。",
+   "translation": "만물은 흙(土)에서 생겨나는데, 흙은 코 한가운데에 있으니, 오색의 기운이 혹 연상·수상에서 일어난다.",
+   "commentary": "코 중앙을 토(土)에 배당하는 오행 이론으로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-066",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭紫，七七日進陰人。",
+   "translation": "준두(準頭, 코끝)가 자줏빛이면 49일에 음인(陰人, 여인)을 들인다.",
+   "commentary": "코끝의 기색에 관한 서술로 형태 항목이 아니다. '進陰人'은 여인(첩 등)을 들인다는 뜻으로 해석된다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭紫",
+     "observable_ko": "코끝이 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-067",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭四季生光吉。",
+   "translation": "준두(準頭, 코끝)가 사계절 빛이 나면 길하다.",
+   "commentary": "코끝의 광택에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭四季生光",
+     "observable_ko": "코끝이 사철 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-068",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭黃，與甲匱相連，稱意立至。",
+   "translation": "준두(準頭, 코끝)가 누렇고 갑궤(甲匱)와 서로 이어지면 뜻대로 됨이 곧 이른다.",
+   "commentary": "갑궤(甲匱)는 코끝 옆(콧방울 부근)의 부위 명칭으로 보인다. 기색 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭黃，與甲匱相連",
+     "observable_ko": "코끝에서 갑궤까지 누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-069",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準勢正者，老為五品官；",
+   "translation": "준두(準頭)의 기세가 바른 자는 늙어서 5품관이 된다.",
+   "commentary": "'기세가 바름(勢正)'은 코끝이 곧고 반듯함을 말하는 듯하나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準勢正",
+     "observable_ko": "코끝의 기세가 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "기세·바름은 측정 가능한 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-070",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "繞準黃色轉者，三日內得大財。",
+   "translation": "준두를 두르는 누런 빛이 감도는 자는 사흘 안에 큰 재물을 얻는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "繞準黃色",
+     "observable_ko": "코끝을 두른 누런 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-071",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭黑色，百二十日亡；",
+   "translation": "준두(準頭, 코끝)가 검은 빛이면 120일에 죽는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭黑色",
+     "observable_ko": "코끝이 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-072",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭白，九十日亡。",
+   "translation": "준두(準頭, 코끝)가 희면 90일에 죽는다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭白",
+     "observable_ko": "코끝이 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-073",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭赤，百二十日厄；",
+   "translation": "준두(準頭, 코끝)가 붉으면 120일에 액이 있다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭赤",
+     "observable_ko": "코끝이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-074",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭青，九十日災。",
+   "translation": "준두(準頭, 코끝)가 푸르면 90일에 재앙이 있다.",
+   "commentary": "기색에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭青",
+     "observable_ko": "코끝이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-075",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭紅線赤如鉤，損財又損牛。",
+   "translation": "준두(準頭, 코끝)에 붉은 실금이 갈고리처럼 붉으면 재물을 잃고 또 소를 잃는다.",
+   "commentary": "코끝의 붉은 실핏줄에 관한 서술로 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭紅線赤如鉤",
+     "observable_ko": "코끝에 갈고리 모양 붉은 실금",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-076",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "準頭低曲，鼻孔「小縮，慳恡無足。",
+   "translation": "준두(準頭, 코끝)가 낮고 굽으며 콧구멍이 작고 오그라들면 인색하여 만족함이 없다.",
+   "commentary": "코끝이 낮음(準頭低)은 지침의 정확 표현이나, 굽음과 콧구멍의 작고 오그라듦은 대응되지 않아 함께 성립하지 않는다. 원문의 「 괄호는 전사본 표기 그대로다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "準頭低",
+     "observable_ko": "코끝 돌출이 낮음",
+     "status": "exact",
+     "label": "nose_projection:low"
+    },
+    {
+     "region": "nose",
+     "evidence": "曲",
+     "observable_ko": "코끝이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코끝의 굽음은 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻孔「小縮",
+     "observable_ko": "콧구멍이 작고 오그라듦",
+     "status": "approximate",
+     "candidate_labels": [
+      "nostril_show:hidden"
+     ],
+     "reason": "콧구멍 크기를 말할 뿐 정면 노출 여부를 직접 말하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-077",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "無蘭臺而有法令，官職終難進。",
+   "translation": "난대(蘭臺, 콧방울)가 없고 법령(法令, 팔자 주름)이 있으면 관직이 끝내 나아가기 어렵다.",
+   "commentary": "콧방울이 없다는 서술은 콧방울이 납작함에 근사하나 정확 표현(蘭廷小·薄)이 아니며, 법령 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "無蘭臺",
+     "observable_ko": "콧방울이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "alar_fullness:flat"
+     ],
+     "reason": "無는 과장된 표현으로 정확 표현(小·薄)이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "有法令",
+     "observable_ko": "법령 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-078",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "蘭臺端正升蘭省，法令圓長理訟平。」",
+   "translation": "난대(蘭臺, 콧방울)가 단정하면 난성(蘭省)에 오르고, 법령(法令)이 둥글고 길면 송사를 공평히 다스린다.",
+   "commentary": "난성(蘭省)은 상서성 등 중앙 관청을 가리키는 말이다. '단정함'은 품평어이고 법령 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "蘭臺端正",
+     "observable_ko": "콧방울이 단정함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로, 크기·방향 등 측정 가능한 형태 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "法令圓長",
+     "observable_ko": "법령 주름이 둥글고 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-079",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "左為蘭臺，右為廷尉，鼻竅上是也。",
+   "translation": "왼쪽은 난대(蘭臺), 오른쪽은 정위(廷尉)이니, 콧구멍 위가 이것이다.",
+   "commentary": "콧방울 부위의 명칭을 정의하는 구절로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-080",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻竅兩名蘭臺，鼻之勢起于邊地，乃學堂之基址。",
+   "translation": "콧구멍 양쪽을 난대라 이름하며, 코의 기세는 변지(邊地)에서 일어나니 곧 학당(學堂)의 터다.",
+   "commentary": "부위 명칭과 이론을 설명하는 구절로 형태 조건이 없다. 구절의 뜻이 다소 모호하여 직역했다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-081",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻要聳直而圓，闊而光，洪而長，厚而剛。",
+   "translation": "코는 솟고 곧으며 둥글고, 넓고 빛나며, 크고 길며, 두껍고 굳세야 한다.",
+   "commentary": "이상적인 코의 조건을 나열한 구절이다. '넓음(闊)'과 '긺(長)'은 폭·길이에 해당하지만 솟음·둥긂·두꺼움·빛남 등 대응되지 않는 조건이 함께 있다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻要聳",
+     "observable_ko": "코가 솟음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "聳이 콧뿌리인지 코끝인지 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "直",
+     "observable_ko": "콧대가 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "而圓",
+     "observable_ko": "코가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "코끝을 명시하지 않았다"
+    },
+    {
+     "region": "nose",
+     "evidence": "闊而光",
+     "observable_ko": "코의 폭이 넓음",
+     "status": "exact",
+     "label": "nose_width:wide"
+    },
+    {
+     "region": "nose",
+     "evidence": "光",
+     "observable_ko": "코가 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "洪而長",
+     "observable_ko": "코가 긺",
+     "status": "exact",
+     "label": "nose_length:long"
+    },
+    {
+     "region": "nose",
+     "evidence": "厚而剛",
+     "observable_ko": "코가 두껍고 굳셈",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded",
+      "alar_fullness:full"
+     ],
+     "reason": "厚는 지침상 근사 표현이다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-082",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻不高則山不靈，眼不深則淵不清。",
+   "translation": "코가 높지 않으면 산이 영험하지 않고, 눈이 깊지 않으면 못이 맑지 않다.",
+   "commentary": "코를 산, 눈을 못에 비유한 이론적 대구다. 코의 높이는 근사 대응이고, '깊지 않음'은 깊은 눈의 부정일 뿐 특정 클래스가 아니다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻不高",
+     "observable_ko": "코가 높지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low",
+      "nose_projection:low"
+     ],
+     "reason": "부정 표현이며 콧뿌리·코끝이 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼不深",
+     "observable_ko": "눈이 깊지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_depth:prominent"
+     ],
+     "reason": "깊지 않음은 돌출과 같지 않다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-083",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻乃面之主山，",
+   "translation": "코는 곧 얼굴의 주산(主山)이니,",
+   "commentary": "코를 풍수의 주산에 비유하는 이론적 구절로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-084",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻狹高危兄弟少，",
+   "translation": "코가 좁고 높고 위태로우면 형제가 적다.",
+   "commentary": "코가 좁다(鼻狹)는 정확 표현이나, '높고 위태로움'은 근사 대응이어서 함께 성립하지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻狹",
+     "observable_ko": "코의 폭이 좁음",
+     "status": "exact",
+     "label": "nose_width:narrow"
+    },
+    {
+     "region": "nose",
+     "evidence": "高危",
+     "observable_ko": "코가 높고 위태로움",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:high",
+      "nose_projection:high"
+     ],
+     "reason": "鼻高는 콧뿌리 높이인지 코끝 돌출인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-085",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻平無媚主愚癡，",
+   "translation": "코가 평평하고 고움이 없으면 어리석음을 주관한다.",
+   "commentary": "코가 평평함은 낮은 코에 근사하나 지침상 鼻低·塌은 근사 대응이고, 고움(媚)은 품평어다. 문헌은 이를 어리석음이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻平",
+     "observable_ko": "코가 평평함",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low",
+      "nose_projection:low"
+     ],
+     "reason": "콧뿌리·코끝이 특정되지 않는다"
+    },
+    {
+     "region": "nose",
+     "evidence": "無媚",
+     "observable_ko": "고움이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "인상 평가어로 측정 가능한 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-086",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻柱不平主他姓。",
+   "translation": "코기둥이 평평하지 않으면 다른 성(他姓)을 주관한다.",
+   "commentary": "콧대의 고르지 않음은 대응 레이블이 없다. '主他姓'은 양자로 가거나 성을 바꾼다는 뜻으로 해석된다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻柱不平",
+     "observable_ko": "코기둥이 고르지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧대(鼻梁·年壽) 형태는 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-087",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻上橫理主憂厄，",
+   "translation": "코 위에 가로 결이 있으면 근심과 액을 주관한다.",
+   "commentary": "코의 가로 주름은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻上橫理",
+     "observable_ko": "코 위에 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-088",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "中年鼻滯垂，末年萬事無依。",
+   "translation": "중년에 코가 막히고 처지면 말년에 만사에 의지할 데가 없다.",
+   "commentary": "'滯垂'는 코끝이 처진 모양으로 보이나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻滯垂",
+     "observable_ko": "코가 막히고 처짐",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_projection:low"
+     ],
+     "reason": "滯의 뜻이 불명확하고 처짐의 부위가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-089",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻若狹小，常有黑斑氣，貫之主宿疾。",
+   "translation": "코가 만약 좁고 작으며 늘 검은 얼룩 기운이 있어 그것을 꿰뚫으면 묵은 병을 주관한다.",
+   "commentary": "코가 좁다(狹)는 폭의 정확 표현에 해당하지만, 검은 얼룩 기운은 기색이라 함께 성립하지 않는다. 문헌은 이를 지병과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻若狹",
+     "observable_ko": "코의 폭이 좁음",
+     "status": "exact",
+     "label": "nose_width:narrow"
+    },
+    {
+     "region": "nose",
+     "evidence": "黑斑氣",
+     "observable_ko": "검은 얼룩 기운",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-090",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "男鼻有靨主刑亡，女鼻有靨先私情。",
+   "translation": "남자의 코에 엽(靨)이 있으면 형벌로 죽음을 주관하고, 여자의 코에 엽이 있으면 먼저 사사로운 정(私情)이 있다.",
+   "commentary": "엽(靨)은 보조개 또는 점·사마귀를 가리킬 수 있어 모호하다. 문헌은 남녀에 따라 형사(刑死)와 사통이라는 낙인성 주장을 붙였다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "鼻有靨",
+     "observable_ko": "코에 엽(보조개·점)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "靨이 보조개인지 점인지 불명확하다"
+    },
+    {
+     "region": "subject",
+     "evidence": "男鼻",
+     "observable_ko": "대상의 성별",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan",
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-091",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "青色從鼻入風門，四十日內殺妻。",
+   "translation": "푸른 빛이 코에서 풍문(風門)으로 들어가면 40일 안에 아내를 죽인다.",
+   "commentary": "풍문(風門)은 이 절 끝에서 콧구멍 아래 부위로 정의된다. 기색에 관한 서술로 형태 항목이 아니며, '殺妻'는 글자대로 '아내를 죽인다'로 옮겼다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "青色從鼻入風門",
+     "observable_ko": "코에서 풍문으로 푸른 빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·기색은 조명·촬영 조건에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "kinship_harm",
+    "criminality",
+    "death_lifespan",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-092",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻竅仰天夭，女淫不廉。",
+   "translation": "콧구멍이 하늘을 우러르면 요절하고, 여자는 음란하고 청렴하지 않다.",
+   "commentary": "콧구멍이 위로 향함(竅仰)은 지침의 정확 표현(孔仰·竅露)과 같은 차원이다. 문헌은 이를 요절과 여성의 음란이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻竅仰天",
+     "observable_ko": "정면에서 콧구멍이 보임",
+     "status": "exact",
+     "label": "nostril_show:visible"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-093",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鶴鼻鷺鼻，鼻急神慢，皆不過四十。",
+   "translation": "학의 코·백로의 코, 코가 급하고 신(神)이 느린 자는 모두 마흔을 넘기지 못한다.",
+   "commentary": "학·백로 비유와 '코가 급함'은 형태가 특정되지 않고, 신(神)은 형태 항목이 아니다. 문헌은 이를 단명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鶴鼻鷺鼻",
+     "observable_ko": "학·백로의 코(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻急",
+     "observable_ko": "코가 급함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "急이 어떤 형태인지 특정되지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "神慢",
+     "observable_ko": "신(神)이 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "정신·기운은 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-094",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻曲向左先損父，鼻曲向右先損母。",
+   "translation": "코가 왼쪽으로 굽으면 먼저 아버지를 잃고, 코가 오른쪽으로 굽으면 먼저 어머니를 잃는다.",
+   "commentary": "코의 좌우 굽음은 대응 레이블이 없다. 문헌은 이를 부모를 먼저 여읜다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻曲向左",
+     "observable_ko": "코가 왼쪽으로 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 좌우 치우침은 대응 레이블이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "鼻曲向右",
+     "observable_ko": "코가 오른쪽으로 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "코의 좌우 치우침은 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-095",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻兩竅下為風門，",
+   "translation": "코의 두 구멍 아래가 풍문(風門)이 된다.",
+   "commentary": "부위 명칭을 정의하는 구절로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "ZD646A-nose-096",
+   "section": "鼻",
+   "region": "nose",
+   "original_text": "鼻大口小末年厄，",
+   "translation": "코가 크고 입이 작으면 말년에 액이 있다.",
+   "commentary": "입이 작다(口小)는 정확 표현이나, 코가 크다(鼻大)는 지침상 근사 대응이어서 함께 성립하지 않는다. 이 절은 이 구절에서 끝난다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "鼻大",
+     "observable_ko": "코가 큼",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_width:wide",
+      "nose_length:long"
+     ],
+     "reason": "鼻大는 지침상 근사 표현이다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입의 가로 폭이 좁음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

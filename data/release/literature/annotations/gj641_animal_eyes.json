@@ -1,0 +1,2055 @@
+{
+ "page_id": "gj641",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《像禽目類》",
+  "《禽目詩斷》",
+  "《像獸目類》",
+  "《獸目詩斷》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ641-eye-001",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鳳目好其人",
+   "translation": "봉황 눈(鳳目)은 그 사람을 좋게 한다.",
+   "commentary": "새에 빗댄 눈 유형 목록의 첫 항목으로, 봉목(鳳目)의 형태는 이 구절에 적혀 있지 않다. '好其人'은 글자 그대로 옮겼으나 뜻이 분명하지 않다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鳳目",
+     "observable_ko": "봉황 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-002",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鷹目大暴自強",
+   "translation": "매 눈(鷹目)은 크게 사납고 스스로 굳세다.",
+   "commentary": "대구 구조상 '大暴'를 '크게 사나움'으로 읽었으나 '大'를 눈이 크다는 뜻으로 읽을 여지도 있다. 문헌은 매 눈을 사나운 성정과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鷹目大",
+     "observable_ko": "매 눈(비유), 눈이 큼일 가능성",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "동물 비유이며 '大'가 눈 크기인지 '大暴'의 부사인지 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-003",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鶴目好閒僻靜",
+   "translation": "학 눈(鶴目)은 한가함을 좋아하고 외지고 고요하다.",
+   "commentary": "학에 빗댄 눈 유형으로 형태 서술은 없다. 문헌은 이를 한적함을 좋아하는 성향과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鶴目",
+     "observable_ko": "학 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-004",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "燕目語言辨健",
+   "translation": "제비 눈(燕目)은 말이 분명하고 굳세다.",
+   "commentary": "제비에 빗댄 눈 유형으로 형태 서술은 없다. 문헌은 이를 말솜씨와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "燕目",
+     "observable_ko": "제비 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-005",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "雀目顛狂疑忌",
+   "translation": "참새 눈(雀目)은 전광(顛狂, 미친 듯 경망함)하고 의심하고 시기한다.",
+   "commentary": "참새에 빗댄 눈 유형으로 형태 서술은 없다. '顛狂'은 광증 또는 경망한 성정으로 읽힐 수 있는 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雀目",
+     "observable_ko": "참새 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-006",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "雞目好相爭鬥",
+   "translation": "닭 눈(雞目)은 서로 다투고 싸우기를 좋아한다.",
+   "commentary": "닭에 빗댄 눈 유형으로 형태 서술은 없다. 문헌은 이를 싸움을 좋아하는 성정과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞目",
+     "observable_ko": "닭 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-007",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鴿目狂淫心亂",
+   "translation": "비둘기 눈(鴿目)은 미친 듯 음란하고 마음이 어지럽다.",
+   "commentary": "비둘기에 빗댄 눈 유형으로 형태 서술은 없다. 성적 행실에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鴿目",
+     "observable_ko": "비둘기 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-008",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "又云：「鳳目勢長，眉相逼，黑白分明，瞻視平遠，精神異常，乃真貴人也。」",
+   "translation": "또 이르기를, \"봉황 눈은 형세가 길고, 눈썹이 서로 가까이 닥치며, 검은자와 흰자가 분명하고, 바라봄이 평평하고 멀며, 정신이 남다르니, 이는 참된 귀인이다.\"",
+   "commentary": "봉목(鳳目)을 풀이한 구절이다. '勢長'은 눈의 형세가 길다는 말이나 가로 길이 자체인지 기세인지 확정하기 어렵고, '眉相逼'은 눈썹이 눈에 닥치는지 두 눈썹이 서로 다가서는지 불분명하다. 문헌은 이를 귀인과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "鳳目勢長",
+     "observable_ko": "눈의 형세가 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_size:large"
+     ],
+     "reason": "'勢長'은 형세·기세가 길다는 표현으로 '目長'(가로 길이)과 같은 척도인지 확정할 수 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉相逼",
+     "observable_ko": "눈썹이 가까이 닥침",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_eye_gap:close",
+      "brow_gap:narrow"
+     ],
+     "reason": "눈썹과 눈의 간격인지 두 눈썹 사이 간격인지 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "瞻視平遠",
+     "observable_ko": "시선이 평평하고 멂",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "精神異常",
+     "observable_ko": "정신이 남다름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-009",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "「鷹目圓睛，或如金色，有光彩射人，令人可畏，多自強，好勝急暴，臨危喪命，多不善終。」",
+   "translation": "\"매 눈은 눈동자가 둥글고 혹은 금빛 같으며, 광채가 있어 사람을 쏘아 사람으로 하여금 두렵게 하니, 대개 스스로 굳세고 이기기를 좋아하며 성급하고 사나워, 위태로움에 임하여 목숨을 잃고 대개 제명에 죽지 못한다.\"",
+   "commentary": "응목(鷹目)을 풀이한 구절이다. '圓睛'은 눈 전체가 아닌 눈동자(睛)가 둥글다는 말이라 눈 윤곽의 둥긂과 같지 않다. 문헌은 이를 사나운 성정과 비명횡사에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "圓睛",
+     "observable_ko": "눈동자가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "눈 윤곽이 아닌 눈동자(睛)의 모양이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "或如金色",
+     "observable_ko": "눈이 금빛 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "有光彩射人",
+     "observable_ko": "광채가 사람을 쏨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-010",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鶴目尖圓，黑白分明，昂頭視物，主為人寬慢，多孤僻，終於清閒之處。",
+   "translation": "학 눈은 뾰족하고 둥글며 검은자와 흰자가 분명하고 머리를 들고 사물을 보니, 사람됨이 너그럽고 느긋하며 대개 외롭고 치우치며 맑고 한가한 곳에서 생을 마침을 주관한다.",
+   "commentary": "학목(鶴目)을 풀이한 구절이다. '尖圓'은 뾰족함과 둥긂을 함께 말해 어떤 윤곽인지 특정되지 않는다. 문헌은 이를 한적한 삶과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "尖圓",
+     "observable_ko": "눈이 뾰족하고 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "뾰족함과 둥긂이 함께 쓰여 윤곽의 방향이 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "昂頭視物",
+     "observable_ko": "머리를 들고 사물을 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-011",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "燕目小而圓，睛赤黑，瞻視多昂昂然，為人多主豁達，早有聲名，聞於眾人。",
+   "translation": "제비 눈은 작고 둥글며 눈동자가 붉고 검고, 바라봄이 대개 의젓하게 들려 있으니, 사람됨이 대개 활달함을 주관하고 일찍 명성이 있어 뭇사람에게 알려진다.",
+   "commentary": "연목(燕目)을 풀이한 구절로, '目小而圓'은 눈이 작고 둥글다는 형태 서술이 원문에 직접 적혀 있다. 다만 눈동자 색과 시선 서술은 사진 형태 항목이 아니다. 문헌은 이를 활달함과 명성에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "而圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛赤黑",
+     "observable_ko": "눈동자가 붉고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "瞻視多昂昂然",
+     "observable_ko": "시선이 들려 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-012",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "雀目圓小，睛赤黑色，側頭斜視，多主人輕易，好嗜口腹，終為小人。",
+   "translation": "참새 눈은 둥글고 작으며 눈동자가 붉고 검은빛이고, 머리를 기울여 비스듬히 보니, 대개 사람이 가볍고 쉬우며 먹고 마시기를 즐기고 끝내 소인이 됨을 주관한다.",
+   "commentary": "작목(雀目)을 풀이한 구절로, '目圓小'는 눈이 둥글고 작다는 형태 서술이다. 머리를 기울여 비스듬히 보는 동작과 눈동자 색은 사진 형태 항목이 아니다. 문헌은 이를 경박함과 소인(小人)에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "圓小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛赤黑色",
+     "observable_ko": "눈동자가 붉고 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "側頭斜視",
+     "observable_ko": "머리를 기울여 비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-013",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "「雞目」黃赤色，圓小眉毛，高視物抬頭，為人終作公吏，必好鬥不忿事。",
+   "translation": "닭 눈은 누렇고 붉은빛이며 둥글고 작고 눈썹 털이며, 높이 사물을 보고 머리를 드니, 사람됨이 끝내 공리(公吏, 관아의 아전)가 되고 반드시 싸우기를 좋아하며 일에 분하여 하지 않는다(?).",
+   "commentary": "계목(雞目)을 풀이한 구절이다. '圓小眉毛'는 눈이 둥글고 작다는 것인지 눈썹이 둥글고 작다는 것인지 끊어 읽기가 불분명하고, '不忿事'의 뜻도 확정하기 어려워 글자대로 옮겼다. 문헌은 이를 아전 신분과 싸움 좋아함에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黃赤色",
+     "observable_ko": "눈이 누렇고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "圓小眉毛",
+     "observable_ko": "눈 또는 눈썹이 둥글고 작음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_size:small",
+      "brow_length:short"
+     ],
+     "reason": "'圓小'가 눈을 말하는지 눈썹(眉毛)을 말하는지 끊어 읽기가 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "高視物抬頭",
+     "observable_ko": "높이 보고 머리를 듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-014",
+   "section": "《像禽目類》",
+   "region": "eye",
+   "original_text": "鴿目小垤圓睛，黃金色，亂視，頭足不定，不拘男女，多好淫亂，為人不良。",
+   "translation": "비둘기 눈은 작고 둔덕처럼 둥근 눈동자이며 누런 금빛이고 어지럽게 보며 머리와 발이 안정되지 않으니, 남녀를 가리지 않고 대개 음란을 좋아하고 사람됨이 좋지 않다.",
+   "commentary": "합목(鴿目)을 풀이한 구절이다. '目小'는 눈이 작다는 형태 서술이나, '垤圓睛'(둔덕처럼 둥근 눈동자)은 돌출인지 둥긂인지 불분명하다. 남녀 모두에게 적용된다고 적은 성적 행실의 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "垤圓睛",
+     "observable_ko": "눈동자가 둔덕처럼 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_depth:prominent"
+     ],
+     "reason": "'垤'(둔덕)이 안구 돌출인지 둥근 모양인지 불분명하고 대상이 눈동자(睛)다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黃金色",
+     "observable_ko": "눈이 누런 금빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "亂視",
+     "observable_ko": "어지럽게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭足不定",
+     "observable_ko": "머리와 발이 가만있지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-015",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "鳳目精神秀氣長，眉高輕細入天倉，分明黑白藏瞻視，顯達朝華必異常。",
+   "translation": "봉황 눈은 정신이 빼어나고 기운이 길며, 눈썹은 높고 가볍고 가늘어 천창(天倉, 이마 옆 관자놀이 위)으로 들어가고, 검은자와 흰자가 분명하며 바라봄을 감추니, 현달하여 조정에서 빛남이 반드시 남다르다.",
+   "commentary": "봉목을 읊은 시다. '眉高'와 '細'는 눈썹이 눈에서 높이 떨어지고 가늘다는 형태 서술로 볼 수 있으나, 눈 자체는 정신·기운·흑백 대비 같은 비형태 서술뿐이다. 문헌은 이를 현달과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "精神秀氣長",
+     "observable_ko": "정신이 빼어나고 기운이 긺",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉高",
+     "observable_ko": "눈썹이 눈에서 높이 떨어져 있음",
+     "status": "exact",
+     "label": "brow_eye_gap:wide"
+    },
+    {
+     "region": "brow",
+     "evidence": "輕細",
+     "observable_ko": "눈썹이 가늘고 가벼움",
+     "status": "exact",
+     "label": "brow_thickness:thin"
+    },
+    {
+     "region": "brow",
+     "evidence": "入天倉",
+     "observable_ko": "눈썹이 천창(관자놀이 쪽)까지 뻗음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_length:long"
+     ],
+     "reason": "위치(天倉)에 이른다는 서술로 눈썹 길이 기준(過目)과 같은 척도가 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "分明黑白",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "藏瞻視",
+     "observable_ko": "시선을 감춤",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-016",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "鷹目睛黃色似金，性強剛暴眾難侵。平生自有多懷恨，遇物安能有懼心。",
+   "translation": "매 눈은 눈동자가 누렇고 빛이 금 같으니, 성품이 강하고 굳세고 사나워 뭇사람이 침범하기 어렵다. 평생 스스로 원한을 많이 품으니, 일을 만나 어찌 두려운 마음이 있겠는가.",
+   "commentary": "응목을 읊은 시로, 눈동자 색만 적혀 있어 형태 조건이 없다. 문헌은 이를 사납고 원한을 품는 성정과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃色似金",
+     "observable_ko": "눈동자가 금빛처럼 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-017",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "鶴目小圓黑又明，昂頭高視氣還清。寬和豪放人難及，自在清閒過百齡。",
+   "translation": "학 눈은 작고 둥글며 검고 또 밝으며, 머리를 들고 높이 보며 기운이 또한 맑다. 너그럽고 화평하며 호방하여 남이 미치기 어렵고, 자유롭고 맑고 한가하게 백 살을 넘긴다.",
+   "commentary": "학목을 읊은 시로 '目小圓'은 눈이 작고 둥글다는 형태 서술이다. 색·시선·기운 서술은 사진 형태 항목이 아니다. 문헌은 이를 백 세 장수와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "小圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑又明",
+     "observable_ko": "눈이 검고 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "昂頭高視",
+     "observable_ko": "머리를 들고 높이 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "氣還清",
+     "observable_ko": "기운이 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-018",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "燕目睛圓黑又紅，昂昂頭視氣如雄，亦能言語多聰慧，更兼名譽有清風。",
+   "translation": "제비 눈은 눈동자가 둥글고 검고 또 붉으며, 의젓하게 머리를 들고 보며 기운이 수컷 같으니, 또한 말을 잘하고 총명하고 지혜로움이 많으며 게다가 명예와 맑은 풍모를 겸한다.",
+   "commentary": "연목을 읊은 시다. '睛圓'은 눈동자가 둥글다는 말로 눈 윤곽의 둥긂과 같지 않다. 문헌은 이를 총명함과 명예에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛圓",
+     "observable_ko": "눈동자가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "눈 윤곽이 아닌 눈동자(睛)의 모양이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑又紅",
+     "observable_ko": "눈이 검고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "昂昂頭視",
+     "observable_ko": "머리를 들고 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "氣如雄",
+     "observable_ko": "기운이 수컷 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-019",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "《雀》目睛黃赤視偏，側頭斜視似憂煎，顛狂坐后搖頭膝，定是孤生到百年。",
+   "translation": "참새 눈은 눈동자가 누렇고 붉으며 보는 것이 치우치고, 머리를 기울여 비스듬히 보는 것이 근심에 애타는 듯하며, 미친 듯 경망하여 앉은 뒤에 머리와 무릎을 흔드니, 반드시 외롭게 살다가 백 년에 이른다.",
+   "commentary": "작목을 읊은 시로, 색·시선·몸동작만 적혀 있어 형태 조건이 없다. 문헌은 이를 고독한 삶과 연결했으며 '到百年'은 수명에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃赤",
+     "observable_ko": "눈동자가 누렇고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視偏",
+     "observable_ko": "보는 것이 치우침",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "側頭斜視",
+     "observable_ko": "머리를 기울여 비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "坐后搖頭膝",
+     "observable_ko": "앉아서 머리와 무릎을 흔듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "health_disease",
+    "family_children",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-020",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "雞目高抬氣又豪，兩眉雙尾勢偏高。尋常言語如爭鬥，一次公方去幾遭。",
+   "translation": "닭 눈은 높이 치켜들고 기운이 또 호방하며, 두 눈썹의 두 꼬리는 기세가 치우쳐 높다. 평소 말하는 것이 다투고 싸우는 것 같으니, 한 번에 공방(公方, 관아)에 몇 차례나 가는가.",
+   "commentary": "계목을 읊은 시다. '高抬'는 눈꼬리가 올라감인지 시선을 치켜듦인지 불분명하고, '雙尾勢偏高'는 눈썹 꼬리가 올라간 기세를 말하는 듯하나 표현이 비유적이다. 마지막 구는 관아 출입을 말하는 듯하나 뜻이 분명하지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "雞目高抬",
+     "observable_ko": "눈을 높이 치켜듦",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_tilt:up"
+     ],
+     "reason": "눈꼬리 기울기인지 시선을 치켜드는 동작인지 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "氣又豪",
+     "observable_ko": "기운이 호방함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "brow",
+     "evidence": "兩眉雙尾勢偏高",
+     "observable_ko": "두 눈썹 꼬리의 기세가 높음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_tail:ascending"
+     ],
+     "reason": "'勢偏高'는 꼬리의 기세를 말한 표현으로 '尾上·尾揚'만큼 직접적이지 않다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-021",
+   "section": "《禽目詩斷》",
+   "region": "eye",
+   "original_text": "鴿目睛黃小垤圓，搖頭擺膝坐還偏，不拘男女多淫亂，少實多虛卻是顛。",
+   "translation": "비둘기 눈은 눈동자가 누렇고 작고 둔덕처럼 둥글며, 머리를 흔들고 무릎을 흔들며 앉음이 또 치우치니, 남녀를 가리지 않고 대개 음란하며 진실함이 적고 거짓이 많아 도리어 미친 듯하다.",
+   "commentary": "합목을 읊은 시다. '小垤圓'이 눈동자를 꾸미는지 눈 전체를 꾸미는지 불분명하다. 남녀 모두에게 적용된다고 적은 성적 행실·거짓에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "小垤圓",
+     "observable_ko": "작고 둔덕처럼 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_size:small",
+      "eye_roundness:rounded",
+      "eye_depth:prominent"
+     ],
+     "reason": "눈동자(睛)를 꾸미는지 눈 전체를 꾸미는지, '垤'이 돌출인지 불분명하다"
+    },
+    {
+     "region": "other",
+     "evidence": "搖頭擺膝坐還偏",
+     "observable_ko": "머리와 무릎을 흔들고 치우쳐 앉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "malice_deceit",
+    "character",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-022",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "龍目「通」其神",
+   "translation": "용 눈(龍目)은 그 신(神)에 통한다.",
+   "commentary": "짐승에 빗댄 눈 유형 목록의 첫 항목으로 형태 서술은 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "龍目",
+     "observable_ko": "용 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-023",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "虎目威勇莫測",
+   "translation": "범 눈(虎目)은 위엄과 용맹을 헤아릴 수 없다.",
+   "commentary": "범에 빗댄 눈 유형으로 형태 서술은 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "虎目",
+     "observable_ko": "범 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-024",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "牛目任重致遠",
+   "translation": "소 눈(牛目)은 무거운 짐을 지고 먼 데까지 이른다.",
+   "commentary": "소에 빗댄 눈 유형으로 형태 서술은 없다. 문헌은 이를 무거운 소임을 감당함과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "牛目",
+     "observable_ko": "소 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-025",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "馬目辛苦奔馳",
+   "translation": "말 눈(馬目)은 고생하며 바삐 달린다.",
+   "commentary": "말에 빗댄 눈 유형으로 형태 서술은 없다. 문헌은 이를 고생스러운 삶과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "馬目",
+     "observable_ko": "말 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-026",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "犬目多是多非",
+   "translation": "개 눈(犬目)은 시비가 많다.",
+   "commentary": "개에 빗댄 눈 유형으로 형태 서술은 없다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "犬目",
+     "observable_ko": "개 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-027",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "豬目好利貪婪",
+   "translation": "돼지 눈(豬目)은 이익을 좋아하고 탐욕스럽다.",
+   "commentary": "돼지에 빗댄 눈 유형으로 형태 서술은 없다. 탐욕에 관한 낙인성 성품 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "豬目",
+     "observable_ko": "돼지 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-028",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "猿目小膽怕事",
+   "translation": "원숭이 눈(猿目)은 담이 작아 일을 두려워한다.",
+   "commentary": "원숭이에 빗댄 눈 유형으로 형태 서술은 없다. '小膽'(담이 작음)은 겁 많음을 뜻하는 말이지 눈이 작다는 뜻이 아니다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "猿目",
+     "observable_ko": "원숭이 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-029",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "蛇目，心生毒害",
+   "translation": "뱀 눈(蛇目)은 마음에 독과 해침이 생긴다.",
+   "commentary": "뱀에 빗댄 눈 유형으로 형태 서술은 없다. 해치려는 마음에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "蛇目",
+     "observable_ko": "뱀 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-030",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "象目鈍濁不\n《專》。",
+   "translation": "코끼리 눈(象目)은 둔하고 탁하여 오로지하지(專) 못한다.",
+   "commentary": "코끼리에 빗댄 눈 유형으로 형태 서술은 없다. '不專'은 뒤의 '不自專'(스스로 결정하지 못함)과 같은 뜻으로 보이며, 둔하고 탁하다는 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "象目",
+     "observable_ko": "코끼리 눈(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유만 있고 측정 가능한 형태 서술이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-031",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "又云：「龍目若懸珠，光芒不動，如寒潭秋水，若神若聖，富貴名譽天下。",
+   "translation": "또 이르기를, \"용 눈은 매달린 구슬 같고 빛살이 움직이지 않으며 차가운 못의 가을 물 같아, 신 같고 성인 같으니 부귀와 명예가 천하에 이른다.",
+   "commentary": "용목(龍目)을 풀이한 구절로 구슬·가을 물에 빗댄 비유와 눈빛 서술뿐이다. '若懸珠'는 둥글게 돌출된 눈을 말하는 듯하나 확정할 수 없다. 문헌은 이를 부귀·명예와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "若懸珠",
+     "observable_ko": "매달린 구슬 같음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_depth:prominent",
+      "eye_roundness:rounded"
+     ],
+     "reason": "구슬 비유가 돌출인지 둥긂인지 광택인지 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "光芒不動",
+     "observable_ko": "빛살이 움직이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "如寒潭秋水",
+     "observable_ko": "차가운 못의 가을 물 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-032",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "虎目大，黑白分明，光彩射人，使人可畏，動作豪傑，終作將帥。頭目貴人也。",
+   "translation": "범 눈은 크고 검은자와 흰자가 분명하며 광채가 사람을 쏘아 사람으로 하여금 두렵게 하고 동작이 호걸스러우니, 끝내 장수가 된다. 우두머리(頭目)가 되는 귀인이다.",
+   "commentary": "호목(虎目)을 풀이한 구절로 '目大'는 눈이 크다는 형태 서술이다. 흑백 대비·광채·동작은 사진 형태 항목이 아니다. 문헌은 이를 장수(將帥)와 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "黑白分明",
+     "observable_ko": "검은자와 흰자의 경계가 뚜렷함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "명암 대비는 형태 레이블이 없고 조명에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "光彩射人",
+     "observable_ko": "광채가 사람을 쏨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "動作豪傑",
+     "observable_ko": "동작이 호걸스러움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-033",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "牛目大而微，帶黃精神微慢，雖享豐足悠遠，平生勞心，其性必好敦厚。",
+   "translation": "소 눈은 크고 미미하며 누른빛을 띠고 정신이 조금 느리니, 비록 풍족함을 길고 오래 누리나 평생 마음을 수고롭게 하며, 그 성품은 반드시 돈후함을 좋아한다.",
+   "commentary": "우목(牛目)을 풀이한 구절로 '目大'는 눈이 크다는 형태 서술이다. '而微'는 뜻이 분명하지 않아 글자대로 옮겼다. 문헌은 이를 풍족함과 수고로움, 돈후한 성품에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "而微",
+     "observable_ko": "눈이 미미함(뜻 불분명)",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:narrow"
+     ],
+     "reason": "'微'가 가늘게 뜬 눈인지 눈빛이 희미함인지 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "帶黃",
+     "observable_ko": "누른빛을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "精神微慢",
+     "observable_ko": "정신이 조금 느림",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-034",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "馬目大而不明，視物似痴拗，此人衣食須足，平生必多勞苦。」",
+   "translation": "말 눈은 크나 밝지 않고 사물을 보는 것이 어리석고 고집스러운 듯하니, 이 사람은 입고 먹는 것은 반드시 넉넉하나 평생 반드시 수고와 고생이 많다.\"",
+   "commentary": "마목(馬目)을 풀이한 구절로 '目大'는 눈이 크다는 형태 서술이다. 밝기와 시선은 사진 형태 항목이 아니다. 문헌은 이를 의식의 넉넉함과 평생의 고생에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目大",
+     "observable_ko": "눈이 큼",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "eye",
+     "evidence": "不明",
+     "observable_ko": "눈이 밝지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視物似痴拗",
+     "observable_ko": "보는 모습이 어리석고 고집스러운 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-035",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "猿目朦朧，仰面視物，為人主，性好顛耍戲謔，終必為儉偷之輩，不可臨大事。",
+   "translation": "원숭이 눈은 흐릿하고 얼굴을 쳐들고 사물을 보니, 사람됨은 주로 성품이 미친 듯 장난치고 희롱하기를 좋아하며, 끝내 반드시 검소하게(?) 훔치는 무리가 되니 큰일에 임할 수 없다.",
+   "commentary": "원목(猿目)을 풀이한 구절로 흐릿함과 시선만 적혀 있어 형태 조건이 없다. '為人主'의 끊어 읽기와 '儉偷'의 뜻이 분명하지 않아 글자대로 옮겼다. 도둑질에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "朦朧",
+     "observable_ko": "눈이 흐릿함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "仰面視物",
+     "observable_ko": "얼굴을 쳐들고 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-036",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "「狼目」，或低頭蹙眉而視物，睛多白道黃色，精神不足，或偷視，心性貪婪。",
+   "translation": "이리 눈은 혹 머리를 숙이고 눈썹을 찌푸리며 사물을 보고, 눈동자에 흰 줄과 누른빛이 많으며 정신이 부족하고, 혹 훔쳐보니 마음과 성품이 탐욕스럽다.",
+   "commentary": "낭목(狼目)을 풀이한 구절로 자세·표정·색·시선만 적혀 있어 형태 조건이 없다. '白道'는 흰 줄로 읽었으나 확정하기 어렵다. 문헌은 이를 탐욕과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "低頭蹙眉而視物",
+     "observable_ko": "머리를 숙이고 눈썹을 찌푸리고 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛多白道黃色",
+     "observable_ko": "눈동자에 흰 줄과 누른빛이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "精神不足",
+     "observable_ko": "정신이 부족함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "偷視",
+     "observable_ko": "훔쳐봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-037",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "羊目白睛赤，多似昏似暗，顧視少氣低頭，或痴或慢，為人必賤，太肥橫死。",
+   "translation": "양 눈은 흰자가 붉고 대개 어두운 듯 침침한 듯하며, 돌아보는 데 기운이 적고 머리를 숙이니, 혹 어리석거나 혹 느리고 사람됨이 반드시 천하며, 너무 살찌면 횡사한다.",
+   "commentary": "양목(羊目)을 풀이한 구절로 색·시선·자세·체형만 적혀 있어 얼굴 형태 조건이 없다. 문헌은 이를 어리석음·천함·횡사와 연결한 낙인성 서술을 남겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "白睛赤",
+     "observable_ko": "흰자가 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "似昏似暗",
+     "observable_ko": "눈이 어둡고 침침한 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "顧視少氣低頭",
+     "observable_ko": "돌아보는 기운이 적고 머리를 숙임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "太肥",
+     "observable_ko": "몸이 너무 살찜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-038",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "犬目三角，或黃或青，為人定睛視物，性好粉飾，見人過多，揚人之短，無禮義。",
+   "translation": "개 눈은 세모지고 혹 누렇거나 혹 푸르며, 사람됨이 눈동자를 고정하고 사물을 보니, 성품이 꾸미기를 좋아하고 남의 허물을 많이 보며 남의 단점을 드러내어 예의가 없다.",
+   "commentary": "견목(犬目)을 풀이한 구절이다. '三角'(세모눈)은 눈꺼풀 윤곽이 각진 모양을 말하는 듯하나 어느 항목에 해당하는지 특정되지 않는다. 문헌은 이를 남의 단점을 드러내는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "三角",
+     "observable_ko": "눈이 세모짐",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_tilt:down"
+     ],
+     "reason": "세모눈이 눈꼬리 처짐인지 윗눈꺼풀이 각진 것인지 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "或黃或青",
+     "observable_ko": "눈이 누렇거나 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "定睛視物",
+     "observable_ko": "눈동자를 고정하고 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-039",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "鼠目小圓，睛黑若漆，視物必點頭，為人見小利，交結不明，多機巧，終為盜。",
+   "translation": "쥐 눈은 작고 둥글며 눈동자가 옻칠처럼 검고, 사물을 볼 때 반드시 머리를 끄덕이니, 사람됨이 작은 이익을 보고 사귐이 분명하지 않으며 잔꾀가 많아 끝내 도둑이 된다.",
+   "commentary": "서목(鼠目)을 풀이한 구절로 '目小圓'은 눈이 작고 둥글다는 형태 서술이다. 눈동자 색과 머리 동작은 사진 형태 항목이 아니다. 문헌은 이를 도둑질과 연결한 낙인성 서술을 남겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "小圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛黑若漆",
+     "observable_ko": "눈동자가 옻칠처럼 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "視物必點頭",
+     "observable_ko": "볼 때 머리를 끄덕임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-040",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "《蛇》目小而圓黃而視，下　行「掉頭」，為人心害物，與人交罔，終必有害人之心。",
+   "translation": "뱀 눈은 작고 둥글며 누렇게 보고, 아래로 [?] 다니며 머리를 흔드니, 사람됨이 마음으로 남을 해치고 사람과 사귐에 속이며 끝내 반드시 남을 해치는 마음이 있다.",
+   "commentary": "사목(蛇目)을 풀이한 구절로 '目小而圓'은 눈이 작고 둥글다는 형태 서술이다. '下　行' 사이의 공백은 원문 그대로이며 글자가 빠졌을 수 있어 글자대로 옮겼다. 해치고 속이는 마음에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "而圓",
+     "observable_ko": "눈 윤곽이 둥긂",
+     "status": "exact",
+     "label": "eye_roundness:rounded"
+    },
+    {
+     "region": "eye",
+     "evidence": "黃而視",
+     "observable_ko": "눈이 누렇게 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "行「掉頭」",
+     "observable_ko": "다닐 때 머리를 흔듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-041",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "《龜》目小而垤圓而綠，觀視縮項仰面，主為人小膽怕事，先難後易。",
+   "translation": "거북 눈은 작고 둔덕처럼 둥글며 푸르고, 볼 때 목을 움츠리고 얼굴을 쳐드니, 사람됨이 담이 작아 일을 두려워하며 먼저 어렵고 나중에 쉬움을 주관한다.",
+   "commentary": "귀목(龜目)을 풀이한 구절로 '目小'는 눈이 작다는 형태 서술이나, '垤圓'(둔덕처럼 둥긂)은 돌출인지 둥긂인지 불분명하다. 문헌은 이를 겁 많은 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "目小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "垤圓",
+     "observable_ko": "둔덕처럼 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_depth:prominent"
+     ],
+     "reason": "'垤'(둔덕)이 안구 돌출인지 둥근 윤곽인지 불분명하다"
+    },
+    {
+     "region": "eye",
+     "evidence": "綠",
+     "observable_ko": "눈이 푸름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "觀視縮項仰面",
+     "observable_ko": "볼 때 목을 움츠리고 얼굴을 쳐듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-042",
+   "section": "《像獸目類》",
+   "region": "eye",
+   "original_text": "《象》目頭大身肥，眼小神昏，行而視下，為人多混濁，不自專，愛人驅使。",
+   "translation": "코끼리 눈은 머리가 크고 몸이 살찌며 눈이 작고 신(神)이 어두우며, 걸으면서 아래를 보니, 사람됨이 대개 흐리고 탁하며 스스로 결정하지 못하고 남이 부리는 것을 좋아한다.",
+   "commentary": "상목(象目)을 풀이한 구절로 '眼小'는 눈이 작다는 형태 서술이다. 머리 크기·체형·신기·걸음은 얼굴 형태 레이블이 없거나 사진에서 볼 수 없다. 문헌은 이를 흐리고 탁한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭大",
+     "observable_ko": "머리가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 크기는 얼굴 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身肥",
+     "observable_ko": "몸이 살찜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼小",
+     "observable_ko": "눈이 작음",
+     "status": "exact",
+     "label": "eye_size:small"
+    },
+    {
+     "region": "eye",
+     "evidence": "神昏",
+     "observable_ko": "신(神)이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "行而視下",
+     "observable_ko": "걸으며 아래를 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-043",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "龍目精神與世殊，光芒不動若懸珠。凝然秋靜寒潭水，自是人間天下奇。",
+   "translation": "용 눈은 정신이 세상과 달라, 빛살이 움직이지 않고 매달린 구슬 같다. 엉긴 듯 가을처럼 고요한 차가운 못의 물이니, 스스로 인간 세상 천하의 기이함이다.",
+   "commentary": "용목을 읊은 시로 정신·빛살과 구슬·물에 빗댄 비유만 있다. 문헌은 이를 천하의 기이한 인물과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "精神與世殊",
+     "observable_ko": "정신이 남다름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "光芒不動",
+     "observable_ko": "빛살이 움직이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "若懸珠",
+     "observable_ko": "매달린 구슬 같음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_depth:prominent",
+      "eye_roundness:rounded"
+     ],
+     "reason": "구슬 비유가 돌출인지 둥긂인지 광택인지 특정되지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "凝然秋靜寒潭水",
+     "observable_ko": "고요한 못물 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-044",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "虎目多威勢有神，分明光彩氣超群。尋常作事能決斷，韜略英華四海聞。",
+   "translation": "범 눈은 위세가 많고 신(神)이 있으며, 분명한 광채와 기운이 무리에서 뛰어나다. 평소 일을 함에 결단할 수 있고, 도략(韜略, 병법·책략)의 뛰어남이 사해에 알려진다.",
+   "commentary": "호목을 읊은 시로 위세·광채·기운만 적혀 있어 형태 조건이 없다. 문헌은 이를 결단력과 책략의 명성에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "多威勢有神",
+     "observable_ko": "위세가 많고 신이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "分明光彩",
+     "observable_ko": "광채가 분명함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "氣超群",
+     "observable_ko": "기운이 뛰어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-045",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "牛目神昏任重多，視人遲緩性寬和。為人處世遭衣食，不好奢侈與綺羅。",
+   "translation": "소 눈은 신(神)이 어둡고 무거운 짐을 짐이 많으며, 사람을 보는 것이 더디고 느리며 성품이 너그럽고 온화하다. 사람됨이 세상에 처하여 입을 것과 먹을 것을 만나고, 사치와 비단옷을 좋아하지 않는다.",
+   "commentary": "우목을 읊은 시로 신기와 시선만 적혀 있어 형태 조건이 없다. 문헌은 이를 너그러운 성품과 의식(衣食)에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神昏",
+     "observable_ko": "신이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視人遲緩",
+     "observable_ko": "사람을 보는 것이 더딤",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-046",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "馬目神痴色又昏，為人強拗必沉淪。平生自是勞心力，多在天涯役苦辛。",
+   "translation": "말 눈은 신(神)이 어리석고 빛이 또 어두우니, 사람됨이 억세고 고집스러워 반드시 가라앉아 몰락한다. 평생 스스로 마음과 힘을 수고롭게 하며, 대개 하늘 끝에서 부림을 당하며 고생한다.",
+   "commentary": "마목을 읊은 시로 신기와 색만 적혀 있어 형태 조건이 없다. 문헌은 이를 몰락과 고생에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神痴",
+     "observable_ko": "신이 어리석음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "色又昏",
+     "observable_ko": "빛이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-047",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "猿目朦朧閃又開，視瞻仰面笑還猜。為人必是多輕妄，終作伶人學不才。",
+   "translation": "원숭이 눈은 흐릿하며 깜박이고 또 뜨며, 얼굴을 쳐들고 보며 웃으면서 또 의심한다. 사람됨이 반드시 경솔하고 망령됨이 많아, 끝내 광대(伶人)가 되고 배워도 재주가 없다.",
+   "commentary": "원목을 읊은 시로 흐릿함·깜박임·표정만 적혀 있어 형태 조건이 없다. 문헌은 이를 경망함과 광대 신분, 재주 없음에 연결한 낙인성 서술을 남겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "朦朧閃又開",
+     "observable_ko": "흐릿하고 깜박임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "視瞻仰面",
+     "observable_ko": "얼굴을 쳐들고 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "笑還猜",
+     "observable_ko": "웃으며 의심하는 표정",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-048",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "狼目睛黃視若顛，為人貪鄙自茫然。愴惶多錯精神亂，怠惰狂圖到百年。",
+   "translation": "이리 눈은 눈동자가 누렇고 보는 것이 미친 듯하니, 사람됨이 탐욕스럽고 비루하며 스스로 망연하다. 허둥지둥 잘못이 많고 정신이 어지러우며, 게으르고 미친 도모로 백 년에 이른다.",
+   "commentary": "낭목을 읊은 시로 색과 시선만 적혀 있어 형태 조건이 없다. 문헌은 이를 탐욕·정신 혼란과 연결했으며 '到百年'은 수명에 관한 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視若顛",
+     "observable_ko": "보는 것이 미친 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "health_disease",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-049",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "羊目多黃露白睛，低頭傍視不分明。莫教肥后身須死，狼毒宜除好殺人。",
+   "translation": "양 눈은 누른빛이 많고 흰자가 드러나며, 머리를 숙이고 곁눈질하여 분명하지 않다. 살찐 뒤에는 몸이 반드시 죽게 되니 그리 되게 하지 말라. 이리 같은 독함은 마땅히 없애야 하니 사람 죽이기를 좋아한다.",
+   "commentary": "양목을 읊은 시다. '露白睛'은 흰자가 드러난다는 말이나 위·아래 어느 쪽인지 적혀 있지 않다. 문헌은 이를 죽음과 살인을 좋아하는 성정에 연결한 낙인성 서술을 남겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "多黃",
+     "observable_ko": "눈에 누른빛이 많음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "露白睛",
+     "observable_ko": "흰자가 드러남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "흰자가 위·아래 어느 쪽으로 드러나는지 적혀 있지 않다"
+    },
+    {
+     "region": "other",
+     "evidence": "低頭傍視",
+     "observable_ko": "머리를 숙이고 곁눈질함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "不分明",
+     "observable_ko": "눈이 분명하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "肥",
+     "observable_ko": "몸이 살찜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "violence",
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-050",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "「犬目睛黃」三角低，側頭斜視性如機。見人《小過》無方便，只說無端講「是非。」",
+   "translation": "개 눈은 눈동자가 누렇고 세모지며 낮고, 머리를 기울여 비스듬히 보며 성품이 기틀(機) 같다. 남의 작은 허물을 보면 너그러움이 없고, 다만 까닭 없이 옳고 그름을 말한다.",
+   "commentary": "견목을 읊은 시다. '三角低'는 세모지고 처진 눈을 말하는 듯하나 어느 항목인지 특정되지 않고, '性如機'는 꾀가 많은 성품으로 읽힐 수 있다. 문헌은 이를 남의 허물을 들추는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "三角低",
+     "observable_ko": "눈이 세모지고 낮음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_tilt:down"
+     ],
+     "reason": "세모눈의 '低'가 눈꼬리 처짐인지 눈 위치가 낮음인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "側頭斜視",
+     "observable_ko": "머리를 기울여 비스듬히 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-051",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "《鼠》目睛黃小更長，低頭偷視意慌忙。更看作事多欺弊，為盜分明不可防。",
+   "translation": "쥐 눈은 눈동자가 누렇고 작으면서 또 길며, 머리를 숙이고 훔쳐보며 뜻이 허둥지둥하다. 또 일하는 것을 보면 속이고 폐단이 많으니, 도둑이 됨이 분명하여 막을 수 없다.",
+   "commentary": "서목을 읊은 시다. '小更長'은 작으면서 길다는 말로, 눈동자를 꾸미는지 눈 전체를 꾸미는지와 크기 방향이 상충해 특정되지 않는다. 도둑질과 속임에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "小更長",
+     "observable_ko": "작으면서 긺",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_size:small",
+      "eye_roundness:narrow"
+     ],
+     "reason": "작음과 긺이 함께 쓰여 크기 방향이 상충하고, 대상이 눈동자인지 눈인지 불분명하다"
+    },
+    {
+     "region": "other",
+     "evidence": "低頭偷視",
+     "observable_ko": "머리를 숙이고 훔쳐봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-052",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "《豬》目神昏視又斜，睛黃絲亂去交加。為人自是多愚濁，肥死刀砧定不差。",
+   "translation": "돼지 눈은 신(神)이 어둡고 보는 것이 또 비스듬하며, 눈동자가 누렇고 실 같은 핏줄이 어지럽게 엇갈린다. 사람됨이 스스로 어리석고 탁함이 많으니, 살쪄서 칼과 도마 위에서 죽는 것이 틀림없다.",
+   "commentary": "저목을 읊은 시로 신기·시선·색·핏발만 적혀 있어 형태 조건이 없다. 문헌은 이를 어리석음과 칼에 의한 죽음에 연결한 낙인성 서술을 남겼다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "神昏",
+     "observable_ko": "신이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "視又斜",
+     "observable_ko": "보는 것이 비스듬함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "睛黃絲亂去交加",
+     "observable_ko": "눈동자가 누렇고 핏줄이 얽힘",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-053",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "《蛇》目睛圓上視黃，掉頭行步若倉皇，出言舉措心懷恨，害物傷人不可防。",
+   "translation": "뱀 눈은 눈동자가 둥글고 위로 보며 누렇고, 머리를 흔들며 걸음이 허둥대는 듯하니, 말을 내고 행동함에 마음에 원한을 품어 남을 해치고 사람을 상하게 함을 막을 수 없다.",
+   "commentary": "사목을 읊은 시다. '睛圓'은 눈동자가 둥글다는 말로 눈 윤곽의 둥긂과 같지 않다. 남을 해치는 성정에 관한 낙인성 서술이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛圓",
+     "observable_ko": "눈동자가 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "eye_roundness:rounded"
+     ],
+     "reason": "눈 윤곽이 아닌 눈동자(睛)의 모양이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "上視黃",
+     "observable_ko": "위로 보며 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "掉頭行步若倉皇",
+     "observable_ko": "머리를 흔들며 허둥대며 걸음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-054",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "龜目睛黃垤又圓，為人小膽大周全。縮頭昂視形容正，富足清閒過百年。",
+   "translation": "거북 눈은 눈동자가 누렇고 둔덕 같으며 또 둥그니, 사람됨이 담은 작으나 크게 두루 온전하다. 머리를 움츠리고 쳐들어 보며 생김새가 바르니, 부유하고 넉넉하며 맑고 한가하게 백 년을 넘긴다.",
+   "commentary": "귀목을 읊은 시다. '垤又圓'은 눈동자를 꾸미는 말로 돌출인지 둥긂인지 불분명하고, '形容正'은 품평어다. 문헌은 이를 부유함과 백 세 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "睛黃",
+     "observable_ko": "눈동자가 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "垤又圓",
+     "observable_ko": "둔덕 같고 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "eye_roundness:rounded",
+      "eye_depth:prominent"
+     ],
+     "reason": "눈동자(睛)를 꾸미는 말이며 '垤'이 돌출인지 둥근 윤곽인지 불분명하다"
+    },
+    {
+     "region": "other",
+     "evidence": "縮頭昂視",
+     "observable_ko": "머리를 움츠리고 쳐들어 봄",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·자세·시선 방향은 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "形容正",
+     "observable_ko": "생김새가 바름",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'正'은 품평어로 측정 가능한 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ641-eye-055",
+   "section": "《獸目詩斷》",
+   "region": "eye",
+   "original_text": "「象目身肥生似痴，神昏眼下視如迷。一生作事多沉重，隨向他人東復西。",
+   "translation": "코끼리 눈은 몸이 살찌고 생김이 어리석은 듯하며, 신(神)이 어둡고 눈이 아래를 보는 것이 헤매는 듯하다. 일생 일하는 것이 무겁고 둔함이 많으며, 남을 따라 동쪽으로 갔다 다시 서쪽으로 간다.",
+   "commentary": "상목을 읊은 시로 체형·신기·시선만 적혀 있어 얼굴 형태 조건이 없다. 문헌은 이를 남을 따르는 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身肥",
+     "observable_ko": "몸이 살찜",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸·머리 이외 신체 부위는 얼굴 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "生似痴",
+     "observable_ko": "생김이 어리석은 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "인상 평가어로 형태 레이블이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "神昏",
+     "observable_ko": "신이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼下視如迷",
+     "observable_ko": "눈이 아래를 보며 헤매는 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "시선·안광·신(神)·기(氣)는 정지 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence"
+   ]
+  }
+ ]
+}

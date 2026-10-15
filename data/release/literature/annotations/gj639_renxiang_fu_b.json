@@ -1,0 +1,1934 @@
+{
+ "page_id": "gj639",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "《袁柳莊人象賦》"
+ ],
+ "passages": [
+  {
+   "passage_id": "SQ639R-face-001",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "且夫人之有面兮，要圓正而平方。",
+   "translation": "또 무릇 사람에게 얼굴이 있음에, 둥글고 반듯하며 평평하고 모나야 한다.",
+   "commentary": "얼굴 단락 도입으로, 둥긂(圓)과 모남(方)을 함께 요구해 한 가지 얼굴형 클래스로 옮길 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "圓正而平方",
+     "observable_ko": "얼굴이 둥글고 반듯하며 모남",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "face_shape:round",
+      "face_shape:angular"
+     ],
+     "reason": "둥긂과 모남을 함께 요구하여 단일 얼굴형으로 정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-002",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "然五岳朝拱峙兮，須上下之相當。",
+   "translation": "그러나 오악(五岳)이 (가운데를) 향해 받들며 우뚝 솟아야 하고, 위아래가 서로 맞먹어야 한다.",
+   "commentary": "오악은 이마·코·턱·좌우 광대뼈의 솟은 부위를 가리키는 상법 용어다. 위아래의 균형은 중간 상태라 비율 레이블의 극단 클래스에 해당하지 않는다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "五岳朝拱峙",
+     "observable_ko": "이마·코·턱·광대가 솟아 서로 향함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위를 묶은 비유적 서술로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "上下之相當",
+     "observable_ko": "얼굴 위아래가 균형을 이룸",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "균형(중간) 상태는 극단 클래스가 아니어서 정확 대응하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-003",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "大如斗而方如田兮，欲皮厚而無紋傷。",
+   "translation": "크기가 말(斗) 같고 모나기가 밭 전(田)자 같으며, 살갗이 두텁고 주름이나 흉터가 없어야 한다.",
+   "commentary": "말(斗)·밭 田자 비유로 크고 모난 얼굴을 말했다. 田자 비유는 모난 얼굴과 관련되나 비유여서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "大如斗",
+     "observable_ko": "얼굴이 말처럼 큼(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "절대 크기 비유로 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "方如田",
+     "observable_ko": "얼굴이 田자처럼 모남",
+     "status": "approximate",
+     "candidate_labels": [
+      "face_shape:angular"
+     ],
+     "reason": "田자 비유로 面方의 직접 표현이 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "皮厚",
+     "observable_ko": "살갗이 두터움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "살갗 두께는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "無紋傷",
+     "observable_ko": "주름·흉터가 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·금(紋理)은 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-004",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "山林秀而法令正兮，牆壁滿而豐祿倉。",
+   "translation": "산림(山林)이 빼어나고 법령(法令, 코 옆에서 입가로 내려가는 주름)이 바르며, 장벽(牆壁)이 가득하고 녹창(祿倉)이 풍만하다.",
+   "commentary": "산림·장벽·녹창은 얼굴 가장자리와 입 주변의 상법 부위 이름으로 정확한 위치는 원문만으로 확정하기 어렵다. 가득함·풍만함은 볼 살집과 관련될 수 있어 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "山林秀",
+     "observable_ko": "산림 부위가 빼어남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "부위 위치와 秀의 형태 의미가 불명확하다"
+    },
+    {
+     "region": "face",
+     "evidence": "法令正",
+     "observable_ko": "법령 주름이 바름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·금(紋理)은 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "牆壁滿",
+     "observable_ko": "장벽 부위가 가득함",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "장벽 부위가 볼인지 불명확하다"
+    },
+    {
+     "region": "face",
+     "evidence": "豐祿倉",
+     "observable_ko": "녹창 부위가 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "녹창 부위가 볼인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-005",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "承漿深兮地閣厚，三停等兮日月光。",
+   "translation": "승장(承漿, 아랫입술 아래 오목한 곳)이 깊고 지각(地閣, 턱)이 두터우며, 삼정(三停, 얼굴의 상·중·하 세 구획)이 같고 일월(日月)이 빛난다.",
+   "commentary": "승장의 깊이와 턱의 두터움은 레이블이 없다. 삼정이 같음은 중간 상태라 하정 비율의 극단 클래스가 아니며, 일월의 빛남은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "承漿深",
+     "observable_ko": "아랫입술 아래 오목한 곳이 깊음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "승장 깊이는 레이블이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "地閣厚",
+     "observable_ko": "턱이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "턱의 두께는 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "三停等",
+     "observable_ko": "얼굴 세 구획이 같음",
+     "status": "approximate",
+     "candidate_labels": [],
+     "reason": "균형(중간) 상태는 lower_face_ratio의 극단 클래스가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "日月光",
+     "observable_ko": "일월(이마 좌우 또는 눈)이 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-006",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "但肥白而潤澤兮，或黃白而紫糖。必福壽而貴顯，宜富厚于田莊。",
+   "translation": "다만 (얼굴이) 살지고 희며 윤택하거나, 혹은 누렇고 희면서 자줏빛 엿(紫糖) 같으면, 반드시 복되고 장수하며 귀하게 드러나고, 마땅히 전장(田莊)에 부가 두텁다.",
+   "commentary": "얼굴의 살집과 빛깔을 복·수명·부귀와 연결했다. 살짐(肥)은 볼 살집과 관련될 수 있으나 얼굴 전반의 살집이어서 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "肥",
+     "observable_ko": "얼굴이 살짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "볼에 한정되지 않은 얼굴 전반의 살집이다"
+    },
+    {
+     "region": "face",
+     "evidence": "白而潤澤",
+     "observable_ko": "얼굴이 희고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "黃白而紫糖",
+     "observable_ko": "얼굴이 누렇고 희며 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-007",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "色雖黑而身白，面雖短而眼長。皮雖粗而身細，皆早入于朝堂。",
+   "translation": "얼굴빛은 비록 검어도 몸이 희고, 얼굴은 비록 짧아도 눈이 길며, 살갗은 비록 거칠어도 몸이 섬세하면, 모두 일찍 조당(朝堂)에 들어간다.",
+   "commentary": "세 가지 대비를 나열하고 '모두(皆)'로 주장을 붙였다. 面短·眼長은 레이블과 직접 대응하나 몸의 빛깔과 살결은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "色雖黑而身白",
+     "observable_ko": "얼굴빛은 검고 몸은 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "面雖短",
+     "observable_ko": "얼굴 길이가 짧음",
+     "status": "exact",
+     "label": "face_length:short"
+    },
+    {
+     "region": "eye",
+     "evidence": "眼長",
+     "observable_ko": "눈의 가로 길이가 긺",
+     "status": "exact",
+     "label": "eye_size:large"
+    },
+    {
+     "region": "face",
+     "evidence": "皮雖粗而身細",
+     "observable_ko": "살갗은 거칠고 몸은 섬세함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "살결과 몸은 얼굴 사진의 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-008",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "面無肉而焦枯兮，主家耗而奔忙。",
+   "translation": "얼굴에 살이 없고 타서 마른 듯하면, 집안 재산이 줄고 바삐 떠돎을 주관한다.",
+   "commentary": "살이 없는 얼굴은 볼 꺼짐과 관련되나 얼굴 전반에 대한 서술이어서 근사로 두었다. 타서 마른 듯함은 색·윤기다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "面無肉",
+     "observable_ko": "얼굴에 살이 없음",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:hollow"
+     ],
+     "reason": "볼에 한정되지 않은 얼굴 전반의 살집이다"
+    },
+    {
+     "region": "face",
+     "evidence": "焦枯",
+     "observable_ko": "얼굴이 타서 마른 듯함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-009",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "皮薄無神兮破敗，",
+   "translation": "살갗이 얇고 신(神)이 없으면 깨지고 무너진다.",
+   "commentary": "살갗 두께와 신(神)은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "皮薄無神",
+     "observable_ko": "살갗이 얇고 신이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "살갗 두께와 신(神)은 사진 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-010",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "肉橫生兮刑亡。",
+   "translation": "살이 가로로 붙어 나 있으면 형벌을 받고 죽는다.",
+   "commentary": "'肉橫生'은 얼굴 살이 가로로 불거진 모양으로 보이나 구체적 형태를 확정하기 어렵다. 문헌은 이를 형벌과 죽음이라는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "肉橫生",
+     "observable_ko": "얼굴 살이 가로로 불거짐",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "어떤 형태를 말하는지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-011",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "橘皮破兮少子，",
+   "translation": "(살갗이) 귤껍질 같고 깨져 있으면 자식이 적다.",
+   "commentary": "귤껍질 같은 살결(모공)을 말한 것으로 보이며 살결은 관찰 항목이 아니다. 문헌은 이를 자식이 적다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "橘皮破",
+     "observable_ko": "살갗이 귤껍질 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "살결은 조명·해상도에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-012",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "甲黯散兮心非良。",
+   "translation": "갑(甲)이 검게 어둡고 흩어지면 마음이 어질지 않다.",
+   "commentary": "'甲'이 손톱인지 얼굴의 특정 부위인지 원문만으로 확정하기 어려워 그대로 두었다. 색 서술이며, 문헌은 이를 마음이 어질지 않다는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "甲黯散",
+     "observable_ko": "갑(甲)이 검게 어둡고 흩어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-013",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "藍赤見兮公訟，",
+   "translation": "쪽빛과 붉은빛이 나타나면 관청 소송이 있다.",
+   "commentary": "얼굴 기색에 관한 색 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "藍赤見",
+     "observable_ko": "얼굴에 쪽빛·붉은빛이 나타남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-014",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "白無光兮空囊。",
+   "translation": "희고 빛이 없으면 주머니가 빈다.",
+   "commentary": "얼굴 기색에 관한 색 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "白無光",
+     "observable_ko": "얼굴이 희고 빛이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-015",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "頰帶拳兮剛毅，",
+   "translation": "뺨에 주먹 같은 (불룩함을) 띠면 굳세고 의연하다.",
+   "commentary": "뺨에 주먹이 붙은 듯한 불룩함은 광대뼈 돌출이나 볼 살집으로 읽힐 수 있어 어느 하나로 정할 수 없다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "頰帶拳",
+     "observable_ko": "뺨에 주먹 같은 불룩함이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheekbone:prominent",
+      "cheek_fullness:full"
+     ],
+     "reason": "광대뼈 돌출인지 볼 살집인지 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-016",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "塵埃暗兮志不揚。",
+   "translation": "먼지가 낀 듯 어두우면 뜻이 펼쳐지지 못한다.",
+   "commentary": "얼굴 기색에 관한 색 서술이다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "塵埃暗",
+     "observable_ko": "얼굴이 먼지 낀 듯 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-008",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "髮繫天而欲圓兮，黑長委地而極貴。",
+   "translation": "머리털은 하늘에 매인 것이니 둥글어야 하고, 검고 길어 땅에 드리우면 지극히 귀하다.",
+   "commentary": "머리털의 모양·색·길이를 귀함과 연결했다. 머리털은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "欲圓",
+     "observable_ko": "머리털(머리)이 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "黑長委地",
+     "observable_ko": "머리털이 검고 땅에 닿을 만큼 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-009",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "髭須在中而繫人兮，欲三稜而拔萃。",
+   "translation": "윗수염과 턱수염(髭須)은 가운데에 있어 사람에 매인 것이니, 세 갈래 모서리(三稜)를 이루어 빼어나야 한다.",
+   "commentary": "수염의 바람직한 모양을 말했다. 수염은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三稜",
+     "observable_ko": "수염이 세 갈래를 이룸",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-010",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "秀長硬直以黑潤兮，必朝總之善類",
+   "translation": "(수염이) 빼어나고 길며 단단하고 곧으며 검고 윤택하면, 반드시 조정을 총괄하는 선한 무리이다.",
+   "commentary": "수염의 모양·색을 관직과 연결했다. 전사본에서 뒤따르는 '僻處'까지가 이 구절인지 다음 구절인지 불분명하여, 여기서는 다음 구절에 붙였다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "秀長硬直以黑潤",
+     "observable_ko": "수염이 길고 곧고 검음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-011",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "僻處。下生而不露兮，法欲方而應地。",
+   "translation": "외진 곳(僻處). 아래로 나되 드러나지 않으며, 법도는 모나서 땅(地閣, 턱)에 응해야 한다.",
+   "commentary": "'僻處' 뒤의 마침표는 전사본의 것이며, 앞 구절의 끝인지 이 구절의 시작인지 불분명하다. 턱 아래에 나는 수염의 모양을 말한 것으로 보이며 수염은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "下生而不露",
+     "observable_ko": "수염이 아래에 나서 드러나지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "欲方而應地",
+     "observable_ko": "수염이 모나서 턱에 응함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-forehead-006",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "forehead",
+   "original_text": "或額上之有毫兮，實威權之雄勢。",
+   "translation": "혹 이마 위에 긴 털이 있으면, 실로 위엄과 권력의 웅대한 기세이다.",
+   "commentary": "이마에 난 긴 털을 권세와 연결했다. 털은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上之有毫",
+     "observable_ko": "이마에 긴 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리털·수염 형태는 얼굴 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-012",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "鬚髮黃而多病兮，赤則氣熱而多訟事。",
+   "translation": "수염과 머리털이 누르면 병이 많고, 붉으면 기가 뜨거워 송사가 많다.",
+   "commentary": "수염·머리털의 빛깔을 질병과 송사에 연결했다. 색은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鬚髮黃",
+     "observable_ko": "수염·머리털이 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "赤",
+     "observable_ko": "수염·머리털이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-013",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "項為一身之棟兮，上扶首「而下總百骸之會。",
+   "translation": "목은 온몸의 들보이니, 위로는 머리를 받치고 아래로는 온 뼈가 모이는 곳을 거느린다.",
+   "commentary": "목 단락의 도입 진술이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-014",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "富者豐圓而堅實，貴者方隆而光漬。",
+   "translation": "부유한 자(의 목)는 풍만하고 둥글며 단단하고 실하고, 귀한 자(의 목)는 모나고 두두룩하며 빛나고 윤기가 스민다.",
+   "commentary": "목의 형태를 부·귀와 연결했다. 목은 얼굴 형태 레이블에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐圓而堅實",
+     "observable_ko": "목이 풍만하고 둥글며 단단함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "方隆",
+     "observable_ko": "목이 모나고 두두룩함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "光漬",
+     "observable_ko": "목이 빛나고 윤기가 스밈",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-015",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "肥人欲短而瘦欲長兮，有餘皮骨而食豐裕。",
+   "translation": "살찐 사람은 (목이) 짧아야 하고 마른 사람은 길어야 하며, 살갗과 뼈에 여유가 있으면 먹을 것이 풍족하다.",
+   "commentary": "체격에 따른 목 길이를 말했다. 체격과 목은 얼굴 형태 레이블에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "肥人欲短而瘦欲長",
+     "observable_ko": "살찐 이는 목이 짧고 마른 이는 목이 긺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "有餘皮骨",
+     "observable_ko": "살갗과 뼈에 여유가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-016",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "倘雙絛而合一兮，必黃耇而鮐背。",
+   "translation": "만약 (목의) 두 줄이 합쳐 하나가 되면, 반드시 누런 늙은이(黃耇)가 되어 등이 복어 같아지도록(鮐背) 산다.",
+   "commentary": "黃耇·鮐背는 모두 오래 산 노인을 뜻하는 말이다. 목의 두 줄(힘줄 또는 주름)이 무엇인지 확정하기 어렵고 레이블도 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "雙絛而合一",
+     "observable_ko": "목의 두 줄이 하나로 합쳐짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-017",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "苟頸挺而形魁兮命夭，",
+   "translation": "만약 목이 뻣뻣하게 곧고 형체가 우람하면 명이 짧다.",
+   "commentary": "목과 체형을 단명과 연결했다. 목·체형은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頸挺而形魁",
+     "observable_ko": "목이 뻣뻣하고 체형이 우람함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-018",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "反小弱兮非大器。",
+   "translation": "도리어 (목이) 작고 약하면 큰 그릇이 아니다.",
+   "commentary": "목이 가늘고 약함을 그릇의 크기와 연결했다. 목은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "小弱",
+     "observable_ko": "목이 작고 약함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-019",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "折無毫兮貧寒，",
+   "translation": "(목이) 꺾이고 털이 없으면 가난하고 춥다.",
+   "commentary": "목이 꺾인 모양과 털 없음을 가난과 연결했다. 목은 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "折無毫",
+     "observable_ko": "목이 꺾이고 털이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-020",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "擁如廮兮凶滯。",
+   "translation": "(목에) 혹(廮)처럼 불룩 끼고 있으면 흉하고 막힌다.",
+   "commentary": "목의 혹 같은 부기를 흉함과 연결했다. 질병성 소견일 수 있는 형태여서 건강 주제도 함께 표시했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "擁如廮",
+     "observable_ko": "목에 혹 같은 불룩함이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-021",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "喉有結兮多賤流，瘦禍緩兮肥必戾。",
+   "translation": "목구멍에 맺힌 것(結)이 있으면 천한 무리가 많으니, 마른 이는 화가 더디고 살찐 이는 반드시 어그러진다.",
+   "commentary": "목의 결후를 천함과 연결했다. 목은 얼굴 형태 레이블에 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "喉有結",
+     "observable_ko": "목에 결후가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "瘦",
+     "observable_ko": "몸이 마름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "肥",
+     "observable_ko": "몸이 살짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-022",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "胸平正而長闊兮，斯福智之駢臻。",
+   "translation": "가슴이 평평하고 반듯하며 길고 넓으면, 복과 지혜가 나란히 이른다.",
+   "commentary": "가슴 형태를 복과 지혜에 연결했다. 몸통은 얼굴 사진의 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "胸平正而長闊",
+     "observable_ko": "가슴이 평평하고 길고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-023",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "肉豐厚而覆舟兮，子」貴祿而龐醇。",
+   "translation": "(가슴) 살이 풍만하고 두터워 엎은 배 같으면, 자식이 귀하고 녹을 받으며 (사람이) 두텁고 순후하다.",
+   "commentary": "'子」'의 」는 전사본 부호이며, '子'를 자식으로 읽었으나 다른 해석도 가능하다. 문헌은 이를 자식의 귀함과 성품에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "肉豐厚而覆舟",
+     "observable_ko": "가슴 살이 엎은 배처럼 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children",
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-024",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "有數毛而益壽兮，",
+   "translation": "(가슴에) 털이 몇 가닥 있으면 수명이 더해진다.",
+   "commentary": "가슴 털을 수명과 연결했다. 몸통은 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "有數毛",
+     "observable_ko": "가슴에 털이 몇 가닥 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-025",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "凹陷短薄而孤貧。",
+   "translation": "(가슴이) 오목하게 꺼지고 짧고 얇으면 외롭고 가난하다.",
+   "commentary": "가슴 형태를 고독·가난과 연결했다. 몸통은 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "凹陷短薄",
+     "observable_ko": "가슴이 꺼지고 짧고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-026",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "乳紫黑而下垂兮，又安榮之貴人。",
+   "translation": "젖꼭지가 자줏빛으로 검고 아래로 드리우면, 또한 편안하고 영화로운 귀인이다.",
+   "commentary": "젖꼭지의 색과 모양에 관한 신체 서술로 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "乳紫黑而下垂",
+     "observable_ko": "젖꼭지가 검고 아래로 드리움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-027",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "若細小而窄白兮，迺下愚之庸民。",
+   "translation": "만약 (젖꼭지가) 가늘고 작으며 좁고 희면, 곧 아주 어리석은 평범한 백성이다.",
+   "commentary": "신체 서술을 어리석음이라는 낙인성 평가와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "細小而窄白",
+     "observable_ko": "젖꼭지가 작고 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-028",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "腹圓厚如懸箕兮，有三壬之超倫。",
+   "translation": "배가 둥글고 두터워 매단 키(箕) 같으면, 삼임(三壬)의 무리보다 뛰어남이 있다.",
+   "commentary": "'三壬'이 무엇을 가리키는지 원문만으로 확정하기 어려워 그대로 두었다. 배는 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "腹圓厚如懸箕",
+     "observable_ko": "배가 둥글고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-029",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "若皮粗而上重兮，或雀腹而貧病之邅《迍。",
+   "translation": "만약 (배의) 살갗이 거칠고 위가 무겁거나, 혹은 참새 배 같으면, 가난과 병으로 머뭇거리고 고생한다(邅迍).",
+   "commentary": "배의 살갗과 모양을 가난·질병과 연결했다(《는 전사본 부호).",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "皮粗而上重",
+     "observable_ko": "배 살갗이 거칠고 위가 무거움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "雀腹",
+     "observable_ko": "참새 배(비유)",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 형태 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-030",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "心》。頭有毫而性剛兮，骨凸陷窄以走風塵。",
+   "translation": "심두(心頭, 명치)에 긴 털이 있으면 성품이 굳세고, 뼈가 불룩하거나 꺼지고 좁으면 풍진 속을 떠돈다.",
+   "commentary": "전사본에는 '心' 뒤에 부호와 마침표가 있으나 '心頭'(명치)로 이어 읽는 것이 문맥에 맞아 한 구절로 묶었다. 확정적인 판독은 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭有毫",
+     "observable_ko": "명치에 긴 털이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨凸陷窄",
+     "observable_ko": "명치뼈가 불룩하거나 꺼지고 좁음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-031",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "寬平皮厚兮，妙聰察而德有鄰。",
+   "translation": "(명치가) 넓고 평평하며 살갗이 두터우면, 오묘하게 총명하고 잘 살피며 덕에 이웃이 있다.",
+   "commentary": "몸통 형태를 총명함과 덕에 연결했다. 몸통은 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "寬平皮厚",
+     "observable_ko": "명치가 넓고 평평하며 살갗이 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-032",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "臍要寬深而向上兮，忌突淺而「向低。",
+   "translation": "배꼽은 넓고 깊으며 위를 향해야 하고, 튀어나오고 얕으며 아래를 향함을 꺼린다.",
+   "commentary": "배꼽 형태에 관한 신체 서술이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "寬深而向上",
+     "observable_ko": "배꼽이 넓고 깊으며 위를 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "突淺而「向低",
+     "observable_ko": "배꼽이 튀어나오고 얕으며 아래를 향함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-033",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "眉平厚而背若負兮，腰正直而有支。",
+   "translation": "눈썹이 평평하고 두터우며 등은 (무언가를) 진 듯하고, 허리는 바르고 곧으며 버팀이 있어야 한다.",
+   "commentary": "몸통을 논하는 대목 사이에 '眉'가 나와 다른 글자(예: 어깨)의 전사 차이일 가능성도 있으나, 원문 그대로 눈썹으로 옮겼다. 등·허리는 관찰 대상이 아니다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉平厚",
+     "observable_ko": "눈썹이 평평하고 두터움",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_shape:straight",
+      "brow_thickness:thick"
+     ],
+     "reason": "몸통 서술 사이에 있어 눈썹이 맞는지 불확실하고, 平·厚가 모양·두께 중 무엇인지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "背若負",
+     "observable_ko": "등이 무언가를 진 듯 두툼함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "腰正直而有支",
+     "observable_ko": "허리가 곧고 버팀이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-034",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "坐碇石而不動兮，行平穩而有儀。",
+   "translation": "앉으면 닻돌처럼 움직이지 않고, 걸으면 평온하고 법도가 있다.",
+   "commentary": "앉음새와 걸음걸이에 관한 동작 서술이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "坐碇石而不動",
+     "observable_ko": "앉으면 움직이지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "行平穩",
+     "observable_ko": "걸음이 평온함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-035",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "苟形局之豐偉兮，或滯氣之未舒。戒逞才而輕進兮，在藏器而待時。",
+   "translation": "만약 형국이 풍만하고 장대한데 혹 막힌 기운이 아직 펴지지 않았다면, 재주를 뽐내어 가볍게 나아감을 경계하고, 그릇을 감추고 때를 기다리는 데에 있다.",
+   "commentary": "좋은 형국이라도 기운이 막히면 때를 기다리라는 처세의 권고다. 형국은 전체 인상이고 기운은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "形局之豐偉",
+     "observable_ko": "형국이 풍만하고 장대함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "전체 인상 평가로 측정 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "滯氣之未舒",
+     "observable_ko": "기운이 막혀 펴지지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기(氣)는 사진 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-036",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "嗟貴人之未遇兮，猶槁木之含滋。羨一日之秀發兮，則名播于華夷。",
+   "translation": "아, 귀인이 아직 때를 만나지 못함은 마른 나무가 물기를 머금은 것과 같다. 하루아침에 빼어나게 피어나기를 바라니, 그러면 이름이 중화와 이적(華夷)에 퍼진다.",
+   "commentary": "앞 구절에 이어지는 비유적 서술로 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-037",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "蓋氣色之在面兮，豈淺識而見窺。",
+   "translation": "대개 기색이 얼굴에 있음은 어찌 얕은 식견으로 엿볼 수 있겠는가.",
+   "commentary": "기색 단락의 도입 진술이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-038",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "青主驚兮赤主擾，白憂服兮黑病罹。",
+   "translation": "푸른빛은 놀람을 주관하고 붉은빛은 소란을 주관하며, 흰빛은 상복의 근심이고 검은빛은 병에 걸림이다.",
+   "commentary": "얼굴 기색의 빛깔별 의미를 나열했다. 색은 관찰 항목이 아니다. '상복의 근심'은 상(喪)을 당함을 뜻한다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "青",
+     "observable_ko": "얼굴에 푸른빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "赤主擾",
+     "observable_ko": "얼굴에 붉은빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "白憂服",
+     "observable_ko": "얼굴에 흰빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "黑病罹",
+     "observable_ko": "얼굴에 검은빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-039",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "黃主吉兮參四季，隨生剋而例推。",
+   "translation": "누런빛은 길함을 주관하되 사계절과 참작하여, 생극(生剋)을 따라 예에 맞추어 추론한다.",
+   "commentary": "기색의 누런빛과 계절에 따른 판단 원칙을 말했다. 색은 관찰 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "face",
+     "evidence": "黃主吉",
+     "observable_ko": "얼굴에 누런빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-040",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "惟女婦之于相兮，比男子而異宜。",
+   "translation": "오직 여인의 상은 남자와 비교하여 마땅함이 다르다.",
+   "commentary": "여인 상법 단락의 도입이다. 대상 성별은 관찰 조건이 아니다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "女婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-017",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "骨法峻峭兮神色嚴威，五岳寬大兮持重而無媚姿。口小含丹兮聲音清徹，眉圓背負兮重閣豐頤。行不動塵兮笑藏齒，法令過口兮富貴滋。此女中之翹楚，必椒房之結縭。",
+   "translation": "골법(骨法)이 높고 가파르며 신색이 엄하고 위엄 있으며, 오악이 넓고 크며 무게 있고 아양 떠는 자태가 없고, 입이 작고 단사를 머금은 듯하며 목소리가 맑고 트이고, 눈썹이 둥글고 등은 진 듯하며 겹친 누각(重閣) 같고 턱이 풍만하며, 걸어도 먼지가 일지 않고 웃을 때 이를 감추며, 법령이 입을 지나면 부귀가 불어난다. 이는 여인 가운데 뛰어난 자이니, 반드시 초방(椒房, 후비의 거처)과 혼인을 맺는다.",
+   "commentary": "귀한 여인의 여러 조건을 나열하고 끝에 주장을 붙였다. 입이 작음(口小)만 레이블과 직접 대응하며, '重閣豐頤'는 턱·볼 아래가 풍만함으로 읽히나 '重閣'의 뜻이 분명하지 않아 근사로 두었다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "此女中之翹楚",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "骨法峻峭",
+     "observable_ko": "골격이 높고 가파름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "골격 전반은 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "神色嚴威",
+     "observable_ko": "신색이 엄함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신색은 형태가 아니다"
+    },
+    {
+     "region": "face",
+     "evidence": "五岳寬大",
+     "observable_ko": "오악이 넓고 큼",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "여러 부위를 묶은 비유적 서술로 측정 기준이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "持重而無媚姿",
+     "observable_ko": "무게 있고 아양이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입 폭이 좁음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    },
+    {
+     "region": "mouth",
+     "evidence": "含丹",
+     "observable_ko": "입술이 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "聲音清徹",
+     "observable_ko": "목소리가 맑음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "목소리는 사진으로 관찰할 수 없다"
+    },
+    {
+     "region": "brow",
+     "evidence": "眉圓",
+     "observable_ko": "눈썹이 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "brow_shape:arched"
+     ],
+     "reason": "둥근 눈썹이 휜 모양인지 끝이 둥근지 불명확하다"
+    },
+    {
+     "region": "other",
+     "evidence": "背負",
+     "observable_ko": "등이 진 듯 두툼함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "重閣豐頤",
+     "observable_ko": "턱·볼 아래가 겹쳐 풍만함",
+     "status": "approximate",
+     "candidate_labels": [
+      "cheek_fullness:full"
+     ],
+     "reason": "重閣의 뜻이 불명확하고 頤豐의 직접 표현이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "行不動塵",
+     "observable_ko": "걸어도 먼지가 일지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "笑藏齒",
+     "observable_ko": "웃을 때 이를 감춤",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "法令過口",
+     "observable_ko": "법령 주름이 입 아래까지 내려감",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "주름·금(紋理)은 형태 레이블 체계에 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-041",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "乳頭白而向上兮，斯子息之難為；",
+   "translation": "젖꼭지가 희고 위를 향하면, 이는 자식 두기가 어렵다.",
+   "commentary": "여인 단락의 신체 서술로 얼굴 사진의 관찰 대상이 아니다. 문헌은 이를 자식을 두기 어렵다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "乳頭",
+     "observable_ko": "대상이 여성(여인 단락의 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "乳頭白而向上",
+     "observable_ko": "젖꼭지가 희고 위를 향함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-042",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "若子息之易得兮，必乳頭紫而下垂。",
+   "translation": "만약 자식을 쉽게 얻는다면, 반드시 젖꼭지가 자줏빛이고 아래로 드리운다.",
+   "commentary": "여인 단락의 신체 서술로 관찰 대상이 아니다. 문헌은 이를 자식을 쉽게 얻는다는 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "乳頭",
+     "observable_ko": "대상이 여성(여인 단락의 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "乳頭紫而下垂",
+     "observable_ko": "젖꼭지가 자줏빛이고 드리움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "얼굴 사진에 나타나지 않는 신체 부위로 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fertility_offspring",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-043",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "居九醜兮非良婦，且十惡兮豈美妻。",
+   "translation": "구추(九醜)에 해당하면 좋은 부인이 아니고, 또 십악(十惡)이면 어찌 아름다운 아내이겠는가.",
+   "commentary": "구추·십악은 여인의 나쁜 상을 묶은 목록 이름이나 그 내용이 이 원문에 나오지 않는다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "良婦",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "九醜",
+     "observable_ko": "구추·십악에 해당함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "목록의 내용이 원문에 없어 형태를 특정할 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-mouth-015",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "mouth",
+   "original_text": "脣紫黑而下掩上兮身必寡，",
+   "translation": "입술이 자줏빛으로 검고 아랫입술이 윗입술을 덮으면, 몸이 반드시 과부가 된다.",
+   "commentary": "아랫입술이 윗입술을 덮는 모양은 윗입술이 얇은 쪽과 관련되나 직접 표현이 아니어서 근사로 두었다. 문헌은 이를 남편을 잃는다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "身必寡",
+     "observable_ko": "대상이 여성(과부)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "脣紫黑",
+     "observable_ko": "입술이 자줏빛으로 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "下掩上",
+     "observable_ko": "아랫입술이 윗입술을 덮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_balance:upper_thin"
+     ],
+     "reason": "덮음은 두께 비율의 직접 표현(上薄下厚)이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-face-018",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "face",
+   "original_text": "臉薄赤而媚無威兮節必虧。",
+   "translation": "뺨이 얇고 붉으며 아양스럽고 위엄이 없으면, 절개가 반드시 이지러진다.",
+   "commentary": "여인 단락의 서술로, 살갗·색·태도는 관찰 항목이 아니다. 문헌은 이를 정절에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "節必虧",
+     "observable_ko": "대상이 여성(여인 단락의 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "face",
+     "evidence": "臉薄赤",
+     "observable_ko": "뺨이 얇고 붉음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·윤기는 조명·카메라에 좌우되며 형태 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "媚無威",
+     "observable_ko": "아양스럽고 위엄이 없음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·시선·말투는 정지 사진의 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-cheekbone-001",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "cheekbone",
+   "original_text": "面三顴兮夫薦喪，",
+   "translation": "얼굴에 광대뼈가 셋이면 남편이 거듭 죽는다.",
+   "commentary": "'三顴'은 좌우 광대뼈와 이마뼈 등이 함께 솟은 얼굴로 해석되기도 하나 원문만으로 형태를 특정할 수 없다. 문헌은 이를 남편을 잃는다는 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "夫薦喪",
+     "observable_ko": "대상이 여성(남편 언급)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "cheekbone",
+     "evidence": "面三顴",
+     "observable_ko": "얼굴에 광대뼈가 셋",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "cheekbone:prominent"
+     ],
+     "reason": "세 광대뼈의 구체적 형태가 불명확하다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-eye-010",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "eye",
+   "original_text": "眼四白兮淫無疑。",
+   "translation": "눈이 사백(四白)이면 음란함이 의심할 나위 없다.",
+   "commentary": "사백은 검은자 사방으로 흰자가 드러나는 눈으로 해석되며 레이블에는 위·아래 한쪽 노출만 있다. 여인 단락의 서술로, 문헌은 이를 성적 행실에 관한 낙인성 주장과 연결했다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "淫無疑",
+     "observable_ko": "대상이 여성(여인 단락의 서술)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    },
+    {
+     "region": "eye",
+     "evidence": "四白",
+     "observable_ko": "검은자 사방으로 흰자가 보임",
+     "status": "unmapped",
+     "candidate_labels": [
+      "sclera_show:lower",
+      "sclera_show:upper"
+     ],
+     "reason": "sclera_show는 위 또는 아래 한쪽만 구분하며 사방 노출 클래스가 없다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-044",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "繄南北之殊產兮，紛形肖之絕異。廓千態而萬狀兮，政貴賤之靡類。",
+   "translation": "아, 남과 북은 나는 바가 달라, 생김새가 어지러이 아주 다르다. 천 가지 모습과 만 가지 형상으로 넓으니, 바로 귀천이 한 부류가 아니다.",
+   "commentary": "지역에 따라 생김새가 다르다는 결론부의 일반 진술이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-045",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "雖外貌之環持兮，或心德之奸獪。惟表裏之相副兮，則大福之可冀。",
+   "translation": "비록 겉모습이 원만하게 갖추어져 있어도, 혹 마음의 덕이 간사하고 교활할 수 있다. 오직 겉과 속이 서로 걸맞아야 큰 복을 바랄 수 있다.",
+   "commentary": "외모와 마음이 다를 수 있다는 결론부의 일반 진술이다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "malice_deceit",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-046",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "苟存養之不恆兮，則災殃之難避。」",
+   "translation": "만약 (마음을) 보존하고 기름이 한결같지 않으면, 재앙을 피하기 어렵다.",
+   "commentary": "마음 수양을 강조한 일반 진술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-047",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "外陋惡而內純厚兮，庶禎祥之來萃。",
+   "translation": "겉은 누추하고 험하나 속이 순수하고 두터우면, 거의 상서로움이 모여 온다.",
+   "commentary": "외모보다 마음을 앞세운 일반 진술로, '누추하고 험한 겉모습'은 측정 가능한 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "外陋惡",
+     "observable_ko": "겉모습이 누추하고 험함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "전반적 미추 평가로 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-048",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "固善惡之萌於心兮，夫何相之足恃。",
+   "translation": "진실로 선과 악은 마음에서 싹트니, 무릇 어찌 상(相)만을 족히 믿겠는가.",
+   "commentary": "상만으로는 사람을 판단할 수 없다는 문헌 자체의 유보 진술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-049",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "昔先子之精鑒兮，幸文皇之隆遇。既閱形以辨色兮，復察心而驚勵。",
+   "translation": "옛날 선친(先子)의 정밀한 감식은 다행히 문황(文皇)의 두터운 대우를 받았다. 이미 형체를 살펴 기색을 분별하고, 다시 마음을 살펴 놀라 깨우치고 격려하였다.",
+   "commentary": "저자가 선친의 감식과 황제의 대우를 회고하는 대목이다. 원문에 적힌 것 외의 인물 정보는 덧붙이지 않았다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-050",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "指仁義以為干櫓兮，申孝弟而為鑿枘。俾修省以懲艾兮，全堂堂之德器。",
+   "translation": "인의(仁義)를 가리켜 방패로 삼고, 효제(孝弟)를 펴서 장부와 구멍(鑿枘)으로 삼았다. 닦고 살펴 경계하게 하여, 당당한 덕의 그릇을 온전히 하였다.",
+   "commentary": "상을 본 뒤 인의·효제로 수양을 권했다는 회고다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-051",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "余踵武以紹先烈兮，揆淺陋而懷愧。感聖恩之念終始兮，賜懸車之嘉惠。",
+   "translation": "나는 발자취를 이어 선대의 공업을 계승하나, 얕고 비루함을 헤아려 부끄러움을 품는다. 성은이 처음과 끝을 생각해 주심에 감격하니, 수레를 매달고 물러나는(懸車) 아름다운 은혜를 내리셨다.",
+   "commentary": "저자 자신의 계승과 퇴임을 말한 대목으로, 懸車는 벼슬에서 물러남을 뜻하는 말이다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-052",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "述舊聞以「示同志兮，嗟精奧之罔備。",
+   "translation": "옛 들은 바를 서술하여 뜻을 같이하는 이에게 보이나, 아, 정밀하고 오묘한 것을 다 갖추지 못하였다.",
+   "commentary": "저술 동기를 밝힌 대목이다(「는 전사본 부호).",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-053",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "或堯言舜趨而蹠其行兮，雖深察而難試。故莽懿之有是兮，貽禍患於漢魏。識介甫於未萌兮，惟老泉與呂誨。",
+   "translation": "혹 요(堯)처럼 말하고 순(舜)처럼 걸으면서 도척(蹠)처럼 행하면, 비록 깊이 살펴도 가려내기 어렵다. 그러므로 망(莽)과 의(懿)가 이러하여 한(漢)과 위(魏)에 화환을 남겼다. 개보(介甫)를 아직 싹트기 전에 알아본 이는 오직 노천(老泉)과 여회(呂誨)뿐이었다.",
+   "commentary": "겉과 속이 다른 사람은 상으로 가려내기 어렵다는 예시로 역사 인물을 들었다. 莽·懿·介甫·老泉은 통상 왕망·사마의·왕안석·소순으로 읽히며, 모두 과거 인물에 대한 문헌의 평가다.",
+   "conditions": [],
+   "claim_topics": [
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-054",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "蓋金玉之混沙石兮，在良工之陶淬。",
+   "translation": "대개 금과 옥이 모래와 돌에 섞여 있으니, 훌륭한 장인의 굽고 담금질함에 달려 있다.",
+   "commentary": "감식의 어려움을 비유한 일반 진술이다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "SQ639R-other-055",
+   "section": "《袁柳莊人象賦》",
+   "attributed_to": "袁柳莊",
+   "region": "other",
+   "original_text": "粵簡編之有傳兮，必心融而面諭。若無稽而肆言兮，則羞吝之並至。倘明哲之有取兮，亦庶幾乎垂世。」",
+   "translation": "이에 책에 전하는 것이 있으니, 반드시 마음으로 녹여 얼굴을 마주하여 깨우쳐야 한다. 만약 근거 없이 함부로 말하면, 부끄러움과 허물이 함께 이른다. 만약 밝고 지혜로운 이가 취함이 있다면, 또한 거의 후세에 전해질 것이다.",
+   "commentary": "부(賦)의 맺음말로, 근거 없는 상평을 경계했다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  }
+ ]
+}

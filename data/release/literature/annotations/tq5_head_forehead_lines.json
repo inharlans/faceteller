@@ -1,0 +1,1759 @@
+{
+ "page_id": "tq5",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "TQ5H-head-001",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頭部者處一體之尊為百骸之長羣陽㑹集之府五行正宗之鄉高而圓藏虚而大者令首也",
+   "translation": "머리(頭部)라는 것은 한 몸의 존귀한 자리에 처하여 온갖 뼈(百骸)의 우두머리가 되고, 뭇 양기가 모여드는 곳이며 오행의 바른 근원이 되는 고장이다. 높으면서 둥글고, 빈 것을 감추면서 큰 것이 좋은 머리(令首)이다.",
+   "commentary": "논두부(論頭部)의 총론으로 머리를 몸의 으뜸으로 규정했다. 무구두 원문이라 '藏虚而大'의 끊어 읽기가 불확실하여 글자대로 옮겼고, '令首'는 '좋은 머리'로 읽었다. 두상의 높이·둥근 정도에 대응하는 얼굴 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "高而圓",
+     "observable_ko": "머리가 높고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "藏虚而大",
+     "observable_ko": "빈 것을 감추고 큼",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "무엇을 감추고 무엇이 크다는 것인지 문맥상 불확실하며 측정 기준이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-002",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "天高峻而清圓故三光得以照萬物無為而自運故道濟天下而體常不動曲成萬物之性而常不流是以頭之像天之形也",
+   "translation": "하늘은 높고 가파르며 맑고 둥글다. 그러므로 삼광(三光, 해·달·별)이 이로써 만물을 비출 수 있고, 함이 없이 스스로 운행한다. 그러므로 도가 천하를 건지되 몸체는 늘 움직이지 않고, 만물의 성품을 굽이굽이 이루되 늘 흘러가지 않는다. 이 때문에 머리는 하늘의 형상을 본뜬 것이다.",
+   "commentary": "머리를 하늘에 견주는 천인상응(天人相應)의 설명이다. 길흉 주장이나 구체적인 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-003",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "欲得峻而起豐滿而圓像天之徳也欲得儼正在上不側不摇",
+   "translation": "가파르게 솟고 풍만하며 둥글기를 바라니 하늘의 덕을 본뜬 것이다. 엄정하게 위에 있어 기울지 않고 흔들리지 않기를 바란다.",
+   "commentary": "머리의 바람직한 모양과 자세를 적은 구절로 구체적인 길흉 주장은 없다. 두상의 높이·풍만함에 대한 레이블은 없고, 기울거나 흔들리는 것은 자세·움직임이라 정지 사진의 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "峻而起",
+     "observable_ko": "머리가 가파르게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "豐滿而圓",
+     "observable_ko": "머리가 풍만하고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "不側不摇",
+     "observable_ko": "머리가 기울거나 흔들리지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "머리의 자세와 움직임은 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-004",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "若夫尖薄而小缺陷而傾者貧下之儀也",
+   "translation": "무릇 뾰족하고 얇으며 작고, 이지러지고 꺼졌으며 기운 것은 가난하고 낮은 자의 모습이다.",
+   "commentary": "바람직한 두상과 반대되는 머리를 가난·낮은 신분과 연결한 구절이다. 두상의 뾰족함·크기·함몰에 대응하는 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "尖薄而小",
+     "observable_ko": "머리가 뾰족하고 얇으며 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "缺陷而傾",
+     "observable_ko": "머리가 이지러지고 꺼졌으며 기욺",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-005",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "行坐低斜或摇或擺賤劣之相也",
+   "translation": "걷고 앉을 때 (머리가) 낮게 숙이거나 비뚤고, 혹 흔들거나 혹 젓는 것은 천하고 용렬한 상이다.",
+   "commentary": "머리의 자세와 움직임에 관한 서술로 정지 사진의 형태 항목이 아니다. 문헌은 이를 천하고 용렬함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "行坐低斜或摇或擺",
+     "observable_ko": "걷고 앉을 때 머리를 숙이거나 기울이고 흔듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "자세·움직임은 정지 사진의 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-006",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "故骨欲豐滿而起峻秀而凸",
+   "translation": "그러므로 (머리의) 뼈는 풍만하면서 솟고, 가파르고 빼어나면서 볼록하기를 바란다.",
+   "commentary": "머리뼈의 바람직한 모양을 적은 구절로 길흉 주장은 없다. '빼어나다(秀)'는 품평어이고, 두상 뼈의 융기에 해당하는 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐滿而起",
+     "observable_ko": "머리뼈가 풍만하고 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "峻秀而凸",
+     "observable_ko": "머리뼈가 가파르고 빼어나며 볼록함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "秀는 품평어이고 두상 볼록함에 대한 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-007",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "短則欲厚長則欲方",
+   "translation": "(머리가) 짧으면 두텁기를 바라고, 길면 모나기를 바란다.",
+   "commentary": "머리의 길이에 따라 바람직한 모양이 다르다는 서술로 길흉 주장은 없다. 머리 길이·두께는 얼굴 길이(face_length)와 같은 측정이 아니어서 대응시키지 않았다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "短則欲厚",
+     "observable_ko": "머리가 짧으면 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "長則欲方",
+     "observable_ko": "머리가 길면 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-008",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頂突者崇貴側陷者夭薄",
+   "translation": "정수리가 솟은 자는 높고 귀하며, 옆이 꺼진 자는 일찍 죽고 박복하다.",
+   "commentary": "정수리(頂)의 돌출과 머리 옆면의 함몰을 대비했다. 두상 레이블이 없고 정면 얼굴 사진에서는 정수리·측두부 형태를 보기 어렵다. 문헌은 측면 함몰을 요절과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頂突",
+     "observable_ko": "정수리가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "側陷",
+     "observable_ko": "머리 옆면이 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-009",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頭皮厚者足衣食頭皮薄者貧賤",
+   "translation": "머리 가죽이 두터운 자는 입고 먹을 것이 넉넉하고, 머리 가죽이 얇은 자는 가난하고 천하다.",
+   "commentary": "두피의 두께는 사진으로 측정할 수 없는 촉지 성질이다. 문헌은 두피 두께를 의식(衣食)의 넉넉함·빈천과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭皮厚",
+     "observable_ko": "두피가 두터움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "두피 두께는 촉지로 판단하는 것이라 사진 형태로 볼 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭皮薄",
+     "observable_ko": "두피가 얇음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "두피 두께는 촉지로 판단하는 것이라 사진 형태로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-010",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "皮青者吉善皮白者下賤皮黄者貧苦皮赤者㓙災",
+   "translation": "가죽이 푸른 자는 길하고 좋으며, 가죽이 흰 자는 낮고 천하고, 가죽이 누른 자는 가난하고 괴로우며, 가죽이 붉은 자는 흉하고 재앙이 있다.",
+   "commentary": "머리 가죽(두피)의 빛깔을 길흉과 연결한 구절이다. 색은 조명·촬영 조건에 좌우되어 형태 항목이 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "皮青者吉善皮白者下賤皮黄者貧苦皮赤",
+     "observable_ko": "두피의 빛깔(푸름·흼·누름·붉음)",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-011",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頭有餘皮者財食豐足頭有肉角者必大富貴",
+   "translation": "머리에 남는 가죽이 있는 자는 재물과 먹을 것이 풍족하고, 머리에 살로 된 뿔(肉角)이 있는 자는 반드시 크게 부귀하다.",
+   "commentary": "여피(餘皮)는 머리 가죽이 여유 있게 남는 것, 육각(肉角)은 머리에 뿔처럼 도드라진 살을 가리키는 것으로 읽힌다. 둘 다 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭有餘皮",
+     "observable_ko": "머리 가죽이 남아 늘어짐",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "두피의 여유는 촉지로 판단하는 성질로 사진 형태 항목이 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "頭有肉角",
+     "observable_ko": "머리에 뿔 같은 살 융기가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "머리 전체(두상)의 형태를 다루는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-012",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "左偏損父右偏損母",
+   "translation": "왼쪽으로 치우치면 아버지를 상하고, 오른쪽으로 치우치면 어머니를 상한다.",
+   "commentary": "주어가 생략되었으나 머리가 한쪽으로 치우친 것을 말하는 것으로 읽힌다. 두상의 비대칭인지 머리를 기울이는 자세인지 원문만으로 확정되지 않는다. 문헌은 이를 부모를 해치는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "左偏",
+     "observable_ko": "머리가 왼쪽으로 치우침",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "두상 비대칭인지 자세인지 불명확하며 대응 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "右偏",
+     "observable_ko": "머리가 오른쪽으로 치우침",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "두상 비대칭인지 자세인지 불명확하며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-013",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "耳後有骨名壽堂骨耳上有骨名玉樓骨並主官禄",
+   "translation": "귀 뒤에 뼈가 있는 것을 수당골(壽堂骨)이라 하고, 귀 위에 뼈가 있는 것을 옥루골(玉樓骨)이라 하는데, 모두 관록(官祿)을 주관한다.",
+   "commentary": "귀 주변 머리뼈의 융기에 붙인 이름이다. 수당(壽堂)이라는 이름에도 문헌이 붙인 주장은 관록뿐이다. 귀 뒤·위의 뼈 융기에 대응하는 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "ear",
+     "evidence": "耳後有骨",
+     "observable_ko": "귀 뒤에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 주변 머리뼈 융기에 대한 레이블이 없고 정면 사진에서 보기 어렵다"
+    },
+    {
+     "region": "ear",
+     "evidence": "耳上有骨",
+     "observable_ko": "귀 위에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "귀 주변 머리뼈 융기에 대한 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-014",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "行不欲摇頭坐不欲低頭皆為貧弱之相也",
+   "translation": "걸을 때 머리를 흔들지 말아야 하고 앉을 때 머리를 숙이지 말아야 하니, (그렇게 하는 것은) 모두 가난하고 약한 상이다.",
+   "commentary": "머리의 움직임과 자세에 관한 서술로 정지 사진 형태 항목이 아니다. 문헌은 이를 가난·나약함과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "摇頭",
+     "observable_ko": "걸을 때 머리를 흔듦",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "움직임은 정지 사진의 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "低頭",
+     "observable_ko": "앉을 때 머리를 숙임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "자세는 형태 항목이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-015",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "是以身小頭大卑賤之輩身大頭小觸事不了",
+   "translation": "이 때문에 몸이 작고 머리가 크면 낮고 천한 무리이고, 몸이 크고 머리가 작으면 일에 닥쳐 끝맺지 못한다.",
+   "commentary": "머리와 몸의 크기 비례를 말한 구절로, 몸은 얼굴 사진의 범위 밖이다. '觸事不了'는 일을 맡아도 마무리하지 못한다는 뜻으로 읽었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "身小頭大",
+     "observable_ko": "몸에 비해 머리가 큼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸과 머리의 비례는 얼굴 사진으로 볼 수 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "身大頭小",
+     "observable_ko": "몸에 비해 머리가 작음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸과 머리의 비례는 얼굴 사진으로 볼 수 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-016",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頭不應身先貴後貧",
+   "translation": "머리가 몸에 응하지 않으면 먼저는 귀하고 뒤에는 가난하다.",
+   "commentary": "머리와 몸이 어울리지 않는다는 서술로 구체적인 형태가 특정되지 않으며, 몸은 얼굴 사진 범위 밖이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭不應身",
+     "observable_ko": "머리가 몸과 어울리지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "몸과의 조화는 얼굴 사진으로 판단할 수 없고 형태 기준도 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-017",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "頭通四角髙權超卓",
+   "translation": "머리가 네 모서리에 통하면 높은 권세가 뛰어나다.",
+   "commentary": "'通四角'은 두상이 네 모서리까지 꽉 찬 모난 형태를 말하는 것으로 보이나 원문만으로 확정되지 않는다. 대응 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "頭通四角",
+     "observable_ko": "머리가 네 모서리까지 통함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "뜻이 불확실하고 두상 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-018",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "牛頭四方富貴吉昌",
+   "translation": "소의 머리처럼 네모나면 부귀하고 길하며 번창한다.",
+   "commentary": "소에 빗댄 두상 비유로 '네모남(四方)'이 덧붙어 있으나 두상 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "牛頭四方",
+     "observable_ko": "소 머리처럼 네모남",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-019",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "虎頭高起福禄無比",
+   "translation": "범의 머리처럼 높이 솟으면 복과 녹이 비할 데 없다.",
+   "commentary": "범에 빗댄 두상 비유로 '높이 솟음'이 덧붙어 있으나 두상 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "虎頭高起",
+     "observable_ko": "범 머리처럼 높이 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-020",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "狗頭尖圓悲涕流漣",
+   "translation": "개의 머리처럼 뾰족하고 둥글면 슬픈 눈물이 줄줄 흐른다.",
+   "commentary": "개에 빗댄 두상 비유이다. 문헌은 이를 슬픔이 그치지 않는 삶과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "狗頭尖圓",
+     "observable_ko": "개 머리처럼 뾰족하고 둥긂",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-021",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "鹿頭側長志意雄剛",
+   "translation": "사슴의 머리처럼 옆으로 길면 뜻이 웅장하고 굳세다.",
+   "commentary": "사슴에 빗댄 두상 비유로 '側長'이 옆모습이 긴 것인지 옆으로 긴 것인지 불확실하다. 문헌은 이를 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "鹿頭側長",
+     "observable_ko": "사슴 머리처럼 옆으로 긺",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-022",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "獺頭横濶心意豁達",
+   "translation": "수달의 머리처럼 가로로 넓으면 마음이 활달하다.",
+   "commentary": "수달에 빗댄 두상 비유이다. 문헌은 가로로 넓은 머리를 활달한 성품과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "獺頭横濶",
+     "observable_ko": "수달 머리처럼 가로로 넓음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-023",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "象頭髙厚福禄長夀",
+   "translation": "코끼리의 머리처럼 높고 두터우면 복과 녹이 있고 오래 산다.",
+   "commentary": "코끼리에 빗댄 두상 비유이다. 문헌은 이를 복록과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "象頭髙厚",
+     "observable_ko": "코끼리 머리처럼 높고 두터움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-024",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "犀牛崒嵂富貴無失",
+   "translation": "무소(의 머리)처럼 우뚝 솟으면 부귀를 잃음이 없다.",
+   "commentary": "다른 구절과 달리 '頭' 자가 없이 '犀牛'라고만 적혀 있어 무소의 머리를 가리키는 것으로 읽었다. 줄율(崒嵂)은 산이 우뚝 솟은 모양을 이르는 말이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "犀牛崒嵂",
+     "observable_ko": "무소 머리처럼 우뚝 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-025",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "駞頭蒙洪福禄永終",
+   "translation": "낙타의 머리처럼 덮이고 크면 복과 녹이 끝까지 길다.",
+   "commentary": "낙타에 빗댄 두상 비유로 '蒙洪'의 구체적 형태는 원문만으로 확정되지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "駞頭蒙洪",
+     "observable_ko": "낙타 머리처럼 덮이고 큼",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-026",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "蛇頭平薄財禄寥落",
+   "translation": "뱀의 머리처럼 평평하고 얇으면 재물과 녹이 쓸쓸히 떨어진다.",
+   "commentary": "뱀에 빗댄 두상 비유이다. 문헌은 이를 재물과 녹봉이 영락하는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "蛇頭平薄",
+     "observable_ko": "뱀 머리처럼 평평하고 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-head-027",
+   "section": "太清神鑑 卷五",
+   "section_title": "論頭部",
+   "region": "other",
+   "original_text": "狢頭尖銳窮厄無計",
+   "translation": "담비(狢)의 머리처럼 뾰족하고 날카로우면 곤궁과 재액을 헤아릴 수 없다.",
+   "commentary": "학(狢)은 오소리·담비류의 짐승을 가리키는 글자로, 그 머리에 빗댄 비유이다. '無計'는 '헤아릴 수 없다'로 읽었으나 '방도가 없다'로도 읽힌다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "狢頭尖銳",
+     "observable_ko": "담비 머리처럼 뾰족하고 날카로움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유와 두상 서술이며 두상 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-001",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "額之有紋貴賤可㫁",
+   "translation": "이마에 주름(紋)이 있으면 귀천을 판단할 수 있다.",
+   "commentary": "액문(額紋) 항목의 총론으로 이마 주름으로 귀천을 가린다는 원칙이다. 주름 유무·모양에 해당하는 레이블은 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額之有紋",
+     "observable_ko": "이마에 주름이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-002",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "若額方廣豐隆而有好紋者則爵禄嵩髙也",
+   "translation": "만약 이마가 모나고 넓으며 풍성하게 솟았고 좋은 주름이 있는 자라면 작록(爵祿)이 높고 높다.",
+   "commentary": "'額方廣'은 이마가 넓다는 너비 서술을 직접 담고 있어 forehead_width:wide로 옮겼고, 모난 형태·융기·'좋은 주름'은 대응 레이블이 없다. 문헌은 이를 높은 벼슬과 녹봉에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額方廣",
+     "observable_ko": "이마가 넓음",
+     "status": "exact",
+     "label": "forehead_width:wide"
+    },
+    {
+     "region": "forehead",
+     "evidence": "方",
+     "observable_ko": "이마가 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 모남에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "豐隆",
+     "observable_ko": "이마가 풍성하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 돌출(융기)에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "有好紋",
+     "observable_ko": "좋은 주름이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'좋은' 주름이 어떤 모양인지 특정되지 않았고 주름 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-003",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "如額尖狭缺陷更有惡紋者則貧賤無疑矣",
+   "translation": "만약 이마가 뾰족하고 좁으며 이지러지고 꺼졌는데 다시 나쁜 주름까지 있는 자라면 가난하고 천함이 의심할 바 없다.",
+   "commentary": "'額尖狭'은 이마가 좁다는 너비 서술을 직접 담고 있어 forehead_width:narrow로 옮겼다(狭은 狹의 이체자). 뾰족함·함몰·'나쁜 주름'은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額尖狭",
+     "observable_ko": "이마가 좁음",
+     "status": "exact",
+     "label": "forehead_width:narrow"
+    },
+    {
+     "region": "forehead",
+     "evidence": "尖",
+     "observable_ko": "이마가 뾰족함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 윤곽의 뾰족함에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "이마가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 함몰에 대한 레이블이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "有惡紋",
+     "observable_ko": "나쁜 주름이 있음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "'나쁜' 주름이 어떤 모양인지 특정되지 않았고 주름 레이블도 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-004",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "□三紋偃上者名偃月紋主朝郎",
+   "translation": "(□) 세 줄 주름이 위로 젖혀진 것을 언월문(偃月紋)이라 하며 조랑(朝郎)을 주관한다.",
+   "commentary": "□는 사본에 그려진 도형 자리 표시로 보인다. 위로 휜 세 줄 주름을 누운 달에 견주었고, 조랑은 조정의 낭관 벼슬이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三紋偃上",
+     "observable_ko": "세 줄 이마 주름이 위로 휘어 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-005",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "□三紋偃上一紋直貫者名曰天柱骨紋主莭察武臣",
+   "translation": "(□) 세 줄 주름이 위로 젖혀졌고 한 줄 주름이 곧게 꿰뚫은 것을 천주골문(天柱骨紋)이라 하며 절찰(節察)·무신을 주관한다.",
+   "commentary": "□는 도형 자리 표시로 보인다. '莭察'은 절도사·관찰사류의 직함을 줄인 말로 읽히나 원문만으로 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三紋偃上一紋直貫",
+     "observable_ko": "위로 휜 세 줄 주름을 세로 주름 하나가 곧게 관통함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-006",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "王字紋者主公侯",
+   "translation": "왕(王) 자 모양 주름이 있는 자는 공후(公侯)를 주관한다.",
+   "commentary": "이마 주름을 글자 모양에 견준 구절이다. 문헌은 이를 공후의 지위에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "王字紋",
+     "observable_ko": "이마에 王 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-007",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "丨天中丨紋下至印堂名曰懸雲紋主卿監",
+   "translation": "(丨) 천중(天中, 이마 위 중앙)의 丨 모양 주름이 아래로 인당(印堂, 두 눈썹 사이)에 이르는 것을 현운문(懸雲紋)이라 하며 경감(卿監)을 주관한다.",
+   "commentary": "첫 '丨'은 다른 항목의 □처럼 도형 자리 표시일 가능성이 있으나 확정할 수 없어 글자대로 옮겼다. 경감은 경(卿)·감(監)급 고위 관직이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "天中丨紋下至印堂",
+     "observable_ko": "이마 위 중앙에서 인당까지 내려오는 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-008",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "印堂□紋直上長三寸者名曰鶴足紋主刺史",
+   "translation": "인당(印堂, 두 눈썹 사이)의 (□) 주름이 곧게 위로 길이 세 치인 것을 학족문(鶴足紋)이라 하며 자사(刺史)를 주관한다.",
+   "commentary": "인당에서 이마로 올라가는 세로 주름이다. 세 치(三寸)라는 절대 길이는 사진 비율 항목으로 옮길 수 없고, 미간 주름 레이블도 없다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "印堂□紋直上長三寸",
+     "observable_ko": "인당에서 곧게 위로 뻗은 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-009",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "□三紋繞者早䘮父",
+   "translation": "(□) 세 줄 주름이 둘러 감긴 자는 일찍 아버지를 여읜다.",
+   "commentary": "□는 도형 자리 표시로 보인다. 문헌은 이 주름을 아버지를 일찍 잃는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "三紋繞",
+     "observable_ko": "세 줄 이마 주름이 둘러 감김",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-010",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "一横紋而曲者名曰蛇行紋也主送路",
+   "translation": "한 줄 가로 주름이 굽은 것을 사행문(蛇行紋)이라 하며 송로(送路)를 주관한다.",
+   "commentary": "뱀이 기어가는 듯 굽은 가로 주름이다. '主送路'의 뜻(길 떠남·배웅 또는 그런 직무)은 원문만으로 확정되지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "一横紋而曲",
+     "observable_ko": "한 줄 가로 주름이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-011",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "井字紋者主員郎",
+   "translation": "정(井) 자 모양 주름이 있는 자는 원랑(員郎)을 주관한다.",
+   "commentary": "글자 모양에 견준 이마 주름이다. 원랑은 원외랑(員外郎) 계열의 관직으로 읽힌다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "井字紋",
+     "observable_ko": "이마에 井 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-012",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "川字紋者主憂慮刑䘮",
+   "translation": "천(川) 자 모양 주름이 있는 자는 근심과 형벌·상사(喪事)를 주관한다.",
+   "commentary": "'刑'은 법적 형벌로도, 상법의 형극(刑剋)으로도 읽힐 수 있어 둘 다 반영해 주제를 달았다. 문헌은 이 주름을 근심·형벌·초상과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "川字紋",
+     "observable_ko": "이마에 川 자 모양 세로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "criminality",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-013",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "十字紋富而吉昌",
+   "translation": "십(十) 자 모양 주름은 부유하고 길하며 번창한다.",
+   "commentary": "글자 모양에 견준 이마 주름으로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "十字紋",
+     "observable_ko": "이마에 十 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-014",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "田字紋者富貴也",
+   "translation": "전(田) 자 모양 주름이 있는 자는 부귀하다.",
+   "commentary": "글자 모양에 견준 이마 주름으로 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "田字紋",
+     "observable_ko": "이마에 田 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-015",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "山字紋者侍從之榮貴",
+   "translation": "산(山) 자 모양 주름이 있는 자는 시종(侍從)의 영화롭고 귀함이 있다.",
+   "commentary": "글자 모양에 견준 이마 주름이다. 시종은 임금을 가까이 모시는 관직이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "山字紋",
+     "observable_ko": "이마에 山 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-016",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "乙字紋者京朝之職",
+   "translation": "을(乙) 자 모양 주름이 있는 자는 경조(京朝)의 직책을 맡는다.",
+   "commentary": "글자 모양에 견준 이마 주름이다. 경조지직은 서울 조정의 관직으로 읽었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "乙字紋",
+     "observable_ko": "이마에 乙 자 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-017",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "水印紋者主榮貴顯達",
+   "translation": "수인문(水印紋)이 있는 자는 영화롭고 귀하며 현달함을 주관한다.",
+   "commentary": "'水印紋'이 어떤 모양인지는 원문에 설명이 없다(水 자 모양을 뜻할 가능성이 있다).",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "水印紋",
+     "observable_ko": "이마에 水印 모양 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-018",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "額上亂紋交足則貧苦多災",
+   "translation": "이마 위에 어지러운 주름이 엇갈려 가득하면 가난하고 괴로우며 재앙이 많다.",
+   "commentary": "'交足'은 '엇갈림이 가득하다'로 읽었으나 끊어 읽기가 불확실하다. 문헌은 어지러운 이마 주름을 가난과 재앙에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "額上亂紋交足",
+     "observable_ko": "이마에 어지러운 주름이 많이 엇갈림",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-forehead-019",
+   "section": "太清神鑑 卷五",
+   "section_title": "額紋",
+   "region": "forehead",
+   "original_text": "婦女額有三横紋者則妨夫害子貧夭矣",
+   "translation": "부녀의 이마에 세 줄 가로 주름이 있으면 남편을 방해하고 자식을 해치며 가난하고 일찍 죽는다.",
+   "commentary": "여성에게만 적용되는 조건이다. 문헌은 이마의 세 줄 가로 주름을 남편·자식을 해침, 가난, 요절과 연결했으며 낙인성이 강한 서술이다.",
+   "conditions": [
+    {
+     "region": "subject",
+     "evidence": "婦女",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "대상의 성별은 얼굴 형태 항목이 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "額有三横紋",
+     "observable_ko": "이마에 세 줄 가로 주름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "이마 주름(額紋)의 형태에 대응하는 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "kinship_harm",
+    "marriage",
+    "fertility_offspring",
+    "family_children",
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-001",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "人之骨法中貴者莫不出於頭額之骨頭骨額骨之竒者莫不出於腦骨成枕",
+   "translation": "사람의 골법(骨法) 가운데 귀한 것은 머리와 이마의 뼈에서 나오지 않는 것이 없고, 머리뼈와 이마뼈 가운데 기이한 것은 뇌골(腦骨)이 침(枕)을 이루는 데서 나오지 않는 것이 없다.",
+   "commentary": "침두부(枕頭部)의 총론으로 뒤통수 뼈(침골)를 골상 가운데 가장 귀한 것으로 놓았다. 일반 원칙이며 구체적인 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-002",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "人之有此如山石有玉江海有珠一身恃以榮顯者也",
+   "translation": "사람에게 이것이 있는 것은 산의 돌에 옥이 있고 강과 바다에 구슬이 있는 것과 같으니, 한 몸이 이에 의지하여 영화롭게 드러나는 것이다.",
+   "commentary": "침골을 옥·구슬에 견준 비유적 설명으로 구체적인 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-003",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "故人雖有骨竒異亦須形貌相副神氣清越方受天禄不然恐未盡善也",
+   "translation": "그러므로 사람이 비록 뼈가 기이하더라도 또한 반드시 형모가 서로 걸맞고 신기(神氣)가 맑고 빼어나야 비로소 하늘의 녹을 받으니, 그렇지 않으면 다 좋지는 못할까 두렵다.",
+   "commentary": "뼈만으로 판단하지 말고 형모·신기를 함께 보라는 단서 조항이다. 신기는 정신·기운에 관한 개념으로 사진 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨竒異",
+     "observable_ko": "뼈가 기이함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "形貌相副",
+     "observable_ko": "형모가 서로 걸맞음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "조화 여부에 대한 측정 기준이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "神氣清越",
+     "observable_ko": "신기가 맑고 빼어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "신·기는 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-004",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "夫腦後名曰星臺若有骨者名曰枕骨",
+   "translation": "무릇 뇌 뒤(뒤통수)를 성대(星臺)라 하고, 만약 (거기에) 뼈가 있으면 침골(枕骨)이라 한다.",
+   "commentary": "부위와 뼈의 이름을 정의한 구절로 길흉 주장은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-005",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "凡豐起者主其人一生富壽如或低陷必主貧夭",
+   "translation": "무릇 (침골이) 풍성하게 솟은 것은 그 사람이 평생 부유하고 장수함을 주관하고, 만약 낮게 꺼졌으면 반드시 가난하고 일찍 죽음을 주관한다.",
+   "commentary": "뒤통수 침골의 융기·함몰을 수명·재물과 연결한 구절이다. 정면 얼굴 사진으로는 볼 수 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐起",
+     "observable_ko": "침골이 풍성하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "低陷",
+     "observable_ko": "침골이 낮게 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-006",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "○○○三骨皆圓名三才枕主使相",
+   "translation": "(○○○) 세 뼈가 모두 둥근 것을 삼재침(三才枕)이라 하며 사상(使相)을 주관한다.",
+   "commentary": "○·□는 사본의 도형 자리 표시로 보인다. 사상은 재상급 직함을 겸한 고위직을 이른다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三骨皆圓",
+     "observable_ko": "침골 세 개가 모두 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-007",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□四角各有一骨聳起中央亦聳者名五嶽枕主封侯",
+   "translation": "(□) 네 모서리에 각각 뼈 하나씩 솟고 가운데도 솟은 것을 오악침(五嶽枕)이라 하며 제후에 봉해짐을 주관한다.",
+   "commentary": "다섯 곳의 융기를 오악에 견준 침골 유형이다. 정면 사진으로 볼 수 없는 후두부 형태이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "四角各有一骨聳起中央亦聳",
+     "observable_ko": "뒤통수 네 모서리와 가운데에 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-008",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□兩骨尖起者名曰雙龍枕主莭樞將軍",
+   "translation": "(□) 두 뼈가 뾰족하게 솟은 것을 쌍룡침(雙龍枕)이라 하며 절추(節樞)·장군을 주관한다.",
+   "commentary": "'莭樞'는 절도·추밀 계열의 무관 요직으로 읽히나 원문만으로 확정되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩骨尖起",
+     "observable_ko": "침골 두 개가 뾰족하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-009",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□四邉髙中央凹名車輪枕主公侯",
+   "translation": "(□) 네 가장자리가 높고 가운데가 오목한 것을 거륜침(車輪枕)이라 하며 공후를 주관한다.",
+   "commentary": "수레바퀴 모양에 견준 침골 유형이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "四邉髙中央凹",
+     "observable_ko": "뒤통수 가장자리가 높고 가운데가 오목함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-010",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□□□三骨並者名曰連光枕小者二千石大者將相",
+   "translation": "(□□□) 세 뼈가 나란한 것을 연광침(連光枕)이라 하니, 작은 것은 이천석(二千石)이고 큰 것은 장상(將相)이다.",
+   "commentary": "이천석은 군수급 관리의 녹봉 등급, 장상은 장수와 재상을 이른다. 뼈의 크기에 따라 지위를 나누었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三骨並",
+     "observable_ko": "침골 세 개가 나란히 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-011",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□一骨彎仰上者名曰偃月骨主卿監",
+   "translation": "(□) 한 뼈가 위로 젖혀 휜 것을 언월골(偃月骨)이라 하며 경감(卿監)을 주관한다.",
+   "commentary": "누운 달 모양에 견준 침골 유형이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨彎仰上",
+     "observable_ko": "침골 하나가 위로 젖혀 휨",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-012",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□一骨彎俯下者名曰覆月枕主朝郎",
+   "translation": "(□) 한 뼈가 아래로 엎어져 휜 것을 복월침(覆月枕)이라 하며 조랑(朝郎)을 주관한다.",
+   "commentary": "엎어진 달 모양에 견준 침골 유형이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨彎俯下",
+     "observable_ko": "침골 하나가 아래로 엎어져 휨",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-013",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□兩骨俯仰者名背枕骨主武闗防〈又云高文高顯〉",
+   "translation": "(□) 두 뼈가 엎어지고 젖혀진 것을 배침골(背枕骨)이라 하며 무관(武關)의 방비를 주관한다. 〈또는 '높은 문장으로 높이 현달한다'고도 한다.〉",
+   "commentary": "〈〉 안은 사본의 협주(夾注)로 다른 전승의 풀이를 적은 것이다. '武闗防'은 관문 방어를 맡는 무직으로 읽었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩骨俯仰",
+     "observable_ko": "침골 두 개가 하나는 엎어지고 하나는 젖혀짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-014",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□上一骨下二骨分排而圓者名三星枕主兩副制官職",
+   "translation": "(□) 위에 뼈 하나, 아래에 뼈 둘이 나뉘어 늘어서 둥근 것을 삼성침(三星枕)이라 하며 양부제(兩副制)의 관직을 주관한다.",
+   "commentary": "'兩副制'가 가리키는 관직은 원문만으로 확정되지 않아 글자대로 옮겼다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上一骨下二骨分排而圓",
+     "observable_ko": "침골이 위 하나·아래 둘로 둥글게 늘어섬",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-015",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□兩方骨皆起角者名曰四方枕主二千石小者全禄",
+   "translation": "(□) 두 모난 뼈가 모두 모서리를 일으킨 것을 사방침(四方枕)이라 하며 이천석을 주관하고, 작은 것은 녹을 온전히 한다.",
+   "commentary": "이천석은 군수급 관리의 녹봉 등급이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "兩方骨皆起角",
+     "observable_ko": "모난 침골 두 개가 모두 모서리져 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-016",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "○一骨聳起而圓者名曰圓月枕主館殿清職",
+   "translation": "(○) 한 뼈가 솟고 둥근 것을 원월침(圓月枕)이라 하며 관각·전각의 청직(淸職)을 주관한다.",
+   "commentary": "청직은 학문·문서를 맡는 명예로운 문관직을 이른다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨聳起而圓",
+     "observable_ko": "침골 하나가 솟고 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-017",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□上方下圓者名曰垂露枕主員外郎",
+   "translation": "(□) 위는 모나고 아래는 둥근 것을 수로침(垂露枕)이라 하며 원외랑(員外郎)을 주관한다.",
+   "commentary": "드리운 이슬 모양에 견준 침골 유형이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上方下圓",
+     "observable_ko": "침골이 위는 모나고 아래는 둥긂",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-018",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "○上下圓稜似盃者名曰玉樽枕主卿相小者主刺史",
+   "translation": "(○) 위아래가 둥글고 모서리가 있어 잔 같은 것을 옥준침(玉樽枕)이라 하며 경상(卿相)을 주관하고, 작은 것은 자사(刺史)를 주관한다.",
+   "commentary": "옥 술잔에 견준 침골 유형으로 크기에 따라 지위를 나누었다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "上下圓稜似盃",
+     "observable_ko": "침골이 위아래 둥글고 테두리가 있어 잔 모양",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-019",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□□三骨直起一骨下横承之者名曰山字枕主聰明富貴",
+   "translation": "(□□) 세 뼈가 곧게 솟고 한 뼈가 아래에서 가로로 받친 것을 산자침(山字枕)이라 하며 총명과 부귀를 주관한다.",
+   "commentary": "山 자 모양에 견준 침골 유형이다. 문헌은 이를 총명과 부귀에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "三骨直起一骨下横承之",
+     "observable_ko": "세 침골이 곧게 솟고 아래에 가로 뼈가 받침",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-020",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□一骨圓一骨方名曰疊玉枕主富而榮",
+   "translation": "(□) 한 뼈는 둥글고 한 뼈는 모난 것을 첩옥침(疊玉枕)이라 하며 부유하고 영화로움을 주관한다.",
+   "commentary": "포개진 옥에 견준 침골 유형이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨圓一骨方",
+     "observable_ko": "침골 하나는 둥글고 하나는 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-021",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "○一骨聳起而尖峻者名曰象牙枕兵將之權",
+   "translation": "(○) 한 뼈가 솟고 뾰족하며 가파른 것을 상아침(象牙枕)이라 하니 병장(兵將)의 권세이다.",
+   "commentary": "상아 모양에 견준 침골 유형으로 무관의 권세와 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨聳起而尖峻",
+     "observable_ko": "침골 하나가 솟고 뾰족하며 가파름",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-022",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□骨起四角者名曰懸斜枕主莭度武臣",
+   "translation": "(□) 뼈가 네 모서리에서 솟은 것을 현사침(懸斜枕)이라 하며 절도(節度)·무신을 주관한다.",
+   "commentary": "'莭度'는 절도사로 읽었다. 오악침과 비슷한 서술이나 가운데 융기가 언급되지 않는다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨起四角",
+     "observable_ko": "침골이 네 모서리에서 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-023",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "□一骨横截者名曰一楊枕主巨富壽高",
+   "translation": "(□) 한 뼈가 가로로 끊어 지른 것을 일양침(一楊枕)이라 하며 큰 부와 높은 수명을 주관한다.",
+   "commentary": "'一楊'의 楊은 다른 판본에서 다른 글자일 가능성이 있으나 사본대로 옮겼다. 문헌은 이를 큰 재물과 장수에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "一骨横截",
+     "observable_ko": "침골 하나가 가로로 뻗음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "후두부 침골(枕骨)의 융기는 정면 얼굴 사진에 보이지 않으며 대응 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-024",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "大凡骨得近下者過腦而易辨近上者淺而難騐矣",
+   "translation": "대체로 뼈가 아래쪽에 가까운 것은 뇌를 지나 (드러나) 쉽게 분별되고, 위쪽에 가까운 것은 얕아서 증험하기 어렵다.",
+   "commentary": "침골의 위치에 따라 판별 난이도가 다르다는 관찰법 설명이다. 길흉 주장과 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "none"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-025",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "骨者一定之相有之則應也",
+   "translation": "뼈라는 것은 한번 정해진 상이니, 그것이 있으면 (반드시) 응한다.",
+   "commentary": "뼈의 상은 변하지 않아 반드시 응험한다는 원칙을 적었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ5H-occiput-026",
+   "section": "太清神鑑 卷五",
+   "section_title": "枕頭部",
+   "region": "other",
+   "original_text": "故古之有言頭無惡骨靣無好痣其言是矣〈瑋琳洞中秘宻經同〉",
+   "translation": "그러므로 옛말에 '머리에는 나쁜 뼈가 없고 얼굴에는 좋은 점(痣)이 없다'고 하였으니 그 말이 옳다. 〈『위림동중비밀경(瑋琳洞中秘密經)』도 같다.〉",
+   "commentary": "머리뼈의 융기는 대개 길하고 얼굴의 점은 대개 좋지 않다는 속언을 인용했다. 〈〉 안은 같은 내용이 다른 책에도 있다는 사본의 협주이다. 얼굴 점의 존재는 아직 대기(pending) 상태인 pigmented_marks 후보로만 두었다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "靣無好痣",
+     "observable_ko": "얼굴의 점(어느 것이든 좋지 않다는 일반 원칙)",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 점의 유무를 말한 조건이 아니라 얼굴 점 일반을 낮게 평가한 속언이다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  }
+ ]
+}

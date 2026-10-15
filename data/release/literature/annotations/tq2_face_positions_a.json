@@ -1,0 +1,3462 @@
+{
+ "page_id": "tq2",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [],
+ "passages": [
+  {
+   "passage_id": "TQ2A-face-001",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "人生也雖有善惡之形而貴賤未可分雖有吉凶之色而禍福莫可詳",
+   "translation": "사람이 태어남에 비록 선악의 형상이 있으나 귀천은 아직 나눌 수 없고, 비록 길흉의 색이 있으나 화복은 자세히 알 수 없다.",
+   "commentary": "면부 일백이십위(面部一百二十位) 총론의 첫머리로, 형상과 색만으로는 귀천·화복을 곧바로 알 수 없다는 전제를 적었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-002",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "是以聖人以一面之形分百二十之部上應三才下配五嶽俯仰天地之位辯别内外之方見其形則知其貴賤察其色則騐其吉凶也其謂至𧷤至深莫可得而隠也",
+   "translation": "이 때문에 성인은 한 얼굴의 형상을 일백이십 부위로 나누어, 위로는 삼재(三才, 하늘·땅·사람)에 응하고 아래로는 오악(五嶽, 얼굴의 다섯 솟은 부위)에 짝지으며, 하늘과 땅의 자리를 굽어보고 우러러보아 안과 밖의 방위를 분별하였으니, 그 형상을 보면 그 귀천을 알고 그 색을 살피면 그 길흉을 징험한다. 이른바 지극히 𧷤하고 지극히 깊어 숨길 수 없다는 것이다.",
+   "commentary": "얼굴을 120부위로 나눈 체계의 취지를 밝힌 구절이다. '𧷤'는 문맥상 '깊고 오묘함'을 뜻하는 글자로 보이나 자형을 확정할 수 없어 원문 글자를 그대로 두었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-003",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "forehead",
+   "original_text": "且天中者最中之位以象人主所以威制萬方故刑獄在傍兵衛在後公卿前列府庫左右",
+   "translation": "또 천중(天中, 이마 맨 위 중앙)이라는 것은 가장 가운데의 자리로 임금을 본뜬 것이니, 그로써 만방을 위엄으로 제어한다. 그러므로 형옥(刑獄)이 곁에 있고 병위(兵衛)가 뒤에 있으며 공경(公卿)이 앞에 늘어서고 부고(府庫)가 좌우에 있다.",
+   "commentary": "이마 위쪽 부위들의 배치를 조정의 관제에 빗대어 설명한 구절로, 뒤에 나오는 부위 이름의 유래를 밝힌다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-004",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "精舍為神靈之府故動於眉𥈤之上學堂為聰明之館故近於耳門之前",
+   "translation": "정사(精舍)는 신령의 관부이므로 눈썹과 𥈤의 위에서 움직이고, 학당(學堂)은 총명의 집이므로 이문(耳門, 귀 앞 구멍)의 앞에 가깝다.",
+   "commentary": "정사와 학당이라는 부위 이름의 위치 근거를 설명한 구절이다. '眉𥈤'는 '눈썹과 속눈썹(眉睫)'에 가까운 뜻으로 보이나 글자를 확정할 수 없다. 문헌은 학당을 총명과 연결했으며 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "intelligence",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-005",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "目者受色福故妻兒俱列於目下財者為人之貪故盜賊依於金匱山林近於仙路弓弩落於邉方承漿近口日角居天",
+   "translation": "눈은 색과 복을 받으므로 처와 자식(의 부위)이 모두 눈 아래에 늘어서고, 재물은 사람이 탐하는 것이므로 도적(의 부위)이 금궤(金匱)에 붙어 있으며, 산림(山林)은 선로(仙路)에 가깝고 궁노(弓弩)는 변방에 떨어져 있으며, 승장(承漿)은 입에 가깝고 일각(日角)은 하늘(위쪽)에 자리한다.",
+   "commentary": "여러 부위 이름이 왜 그 자리에 놓였는지를 의미 연상으로 설명한 구절이다. 위치 배치 설명일 뿐 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-006",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "且上停者又為天曰主禄中停者又為人曰主夀下停者又為地曰主富",
+   "translation": "또 상정(上停, 얼굴 위쪽 삼분의 일)은 또한 하늘이 되니 녹을 주관한다 하고, 중정(中停, 가운데 삼분의 일)은 또한 사람이 되니 수명을 주관한다 하며, 하정(下停, 아래쪽 삼분의 일)은 또한 땅이 되니 부를 주관한다 한다.",
+   "commentary": "삼정(三停)을 천·인·지에 배당한 설명이다. 문헌은 중정을 수명과 연결했으며, 이 구절에는 형태 조건이 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-007",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "三部亦為三主上停初主中停中主下停末主故上停豐滿初年福祿中停隆厚中年成立下停缺陷者晚年破散",
+   "translation": "세 부분은 또한 세 시기의 주인이 되니, 상정은 초년을 주관하고 중정은 중년을 주관하며 하정은 말년을 주관한다. 그러므로 상정이 풍만하면 초년에 복록이 있고, 중정이 높고 두터우면 중년에 성립하며, 하정이 이지러지고 꺼진 자는 만년에 깨지고 흩어진다.",
+   "commentary": "삼정을 인생의 세 시기에 배당한 구절이다. 풍만·융후·결함은 각 구역의 충실함을 말하는 평가어라 비율 라벨과 바로 대응하지 않으며, 하정의 결함은 짧음으로도 꺼짐으로도 읽힌다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "上停豐滿",
+     "observable_ko": "얼굴 위쪽 삼분의 일이 풍만함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "풍만은 길이·너비가 아닌 충실함 평가로 대응 라벨이 없다"
+    },
+    {
+     "region": "face",
+     "evidence": "中停隆厚",
+     "observable_ko": "얼굴 가운데 삼분의 일이 높고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "융후는 충실함 평가로 대응 라벨이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "下停缺陷",
+     "observable_ko": "얼굴 아래쪽 삼분의 일이 이지러지고 꺼짐",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "lower_face_ratio:short"
+     ],
+     "reason": "결함이 짧음인지 함몰인지 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-face-008",
+   "section": "太清神鑑 卷二",
+   "section_title": "面部一百二十位",
+   "region": "face",
+   "original_text": "大體吉凶貴賤無所不攝今畧舉此數端可皆以此求之",
+   "translation": "대체로 길흉과 귀천을 거느리지 않는 것이 없으니, 이제 대략 이 몇 가지 단서를 들었으니 모두 이것으로써 구할 수 있다.",
+   "commentary": "총론의 맺음말로, 앞의 몇 가지 원리로 나머지 부위를 미루어 볼 수 있다고 적었다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "fortune_general",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-009",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "forehead",
+   "original_text": "天中主過事又主官禄髙起直者初年得官平滿者宜逺行有官禄缺陷者主刑獄死",
+   "translation": "천중(天中, 이마 맨 위 중앙)은 지나간 일을 주관하고 또 관록을 주관한다. 높이 일어나 곧은 자는 초년에 관직을 얻고, 평평하고 가득한 자는 먼 길을 가는 것이 마땅하며 관록이 있고, 이지러지고 꺼진 자는 형옥으로 죽음을 주관한다.",
+   "commentary": "얼굴 중앙선을 위에서 아래로 내려가는 13부위 중 첫째다. 천중의 융기·평만·결함은 이마 국소 부위의 서술이라 이마 높이·너비 라벨과 같은 척도가 아니다. 문헌은 결함을 형옥과 죽음에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "髙起直",
+     "observable_ko": "천중이 높이 솟고 곧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "천중이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "천중이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality",
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-010",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "forehead",
+   "original_text": "天庭主三公貴品之部若有骨起者當為卿監骨起而兩邉𤣥角應之必任宰輔有黒痣缺陷主刑死",
+   "translation": "천정(天庭, 천중 아래 이마 중앙)은 삼공(三公)과 귀한 품계의 부위를 주관한다. 만약 뼈가 일어난 자는 마땅히 경감(卿監)이 되고, 뼈가 일어나고 양쪽의 현각(𤣥角)이 그에 응하면 반드시 재보(宰輔)에 임명된다. 검은 점이나 결함이 있으면 형벌로 죽음을 주관한다.",
+   "commentary": "천정은 이마 중앙선의 둘째 부위다. 국소 뼈 융기와 결함은 대응 라벨이 없고, 점은 위치가 특정된 점으로 근사 대응만 된다. 문헌은 이를 고위 관직 또는 형사(刑死)와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "천정의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "兩邉𤣥角應之",
+     "observable_ko": "양쪽 현각 부위도 함께 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "천정이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-011",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "forehead",
+   "original_text": "一名天牢主貴人之牢亦名鴻臚寺亦名四方館骨陷色惡不宜此處任官",
+   "translation": "일명 천뢰(天牢)라 하니 귀인의 옥을 주관하며, 또 홍려시(鴻臚寺)라고도 하고 또 사방관(四方館)이라고도 한다. 뼈가 꺼지고 색이 나쁘면 이곳(의 관서)에서 벼슬하는 것이 마땅하지 않다.",
+   "commentary": "천정의 별칭을 관서 이름으로 든 구절이다. 홍려시·사방관은 외교·빈객을 맡은 관서 이름이며, 문헌은 뼈의 함몰과 나쁜 색을 그 관직에 부적합함과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨陷",
+     "observable_ko": "천정의 뼈가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "천정의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-012",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "forehead",
+   "original_text": "司空主天官三公之部骨起光澤者當任三公九卿色惡不吉",
+   "translation": "사공(司空, 천정 아래 이마 중앙)은 천관(天官)과 삼공의 부위를 주관한다. 뼈가 일어나고 광택이 있는 자는 마땅히 삼공구경(三公九卿)에 임명되고, 색이 나쁘면 길하지 않다.",
+   "commentary": "사공은 이마 중앙선의 셋째 부위다. 국소 뼈 융기는 대응 라벨이 없고 광택·색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "사공의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤",
+     "observable_ko": "사공에 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "사공의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-013",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "forehead",
+   "original_text": "中正主羣寮之事詳品人物之司亦主官位髙下進退骨起色潤澤主官不歇滅",
+   "translation": "중정(中正, 사공 아래 이마 중앙)은 여러 관료의 일을 주관하니 인물을 자세히 품평하는 관사이며, 또 관위의 높고 낮음과 나아가고 물러남을 주관한다. 뼈가 일어나고 색이 윤택하면 관직이 끊겨 사라지지 않음을 주관한다.",
+   "commentary": "중정은 이마 중앙선의 넷째 부위로, 삼정의 '중정(中停)'과는 다른 이름이다. 뼈 융기는 대응 라벨이 없고 윤택은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "중정의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色潤澤",
+     "observable_ko": "중정의 색이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-glabella-014",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "glabella",
+   "original_text": "印堂主天印兩士亦名揚--（『昜』上『旦』之『日』與『一』相連）闕庭掌符璽之官",
+   "translation": "인당(印堂, 두 눈썹 사이)은 천인(天印)과 양사(兩士)를 주관하며, 또 양(揚 --（『昜』上『旦』之『日』與『一』相連）: '昜' 위 '旦'의 '日'이 '一'과 이어진 자형이라는 주기) 궐정(闕庭)이라고도 하니, 부새(符璽, 부절과 옥새)를 관장하는 관직이다.",
+   "commentary": "인당의 관직 비유를 적은 구절이다. 괄호 안의 '昜上旦之日與一相連'은 '揚' 자의 자형에 대한 전사 주기로 보여 본문 그대로 옮겼고, '兩士'의 뜻은 원문만으로 확정되지 않는다. 형태 조건은 없다.",
+   "conditions": [],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-glabella-015",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "glabella",
+   "original_text": "方寸起而瑩者二千石守方寸平而静者三品任官不離闕庭方寸陷者亦主富貴",
+   "translation": "방촌(方寸, 인당의 사방 한 치)이 일어나고 맑게 빛나는 자는 이천석의 태수가 되고, 방촌이 평평하고 고요한 자는 삼품으로 관직에 임하여 궐정(조정)을 떠나지 않으며, 방촌이 꺼진 자도 또한 부귀를 주관한다.",
+   "commentary": "방촌은 인당 한가운데 사방 한 치의 범위를 가리킨다. 인당의 융기·평평함·함몰은 미간 너비(brow_gap)가 아니라 높낮이 서술이라 대응 라벨이 없고, 빛남·고요함은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "glabella",
+     "evidence": "方寸起",
+     "observable_ko": "인당 한가운데가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "瑩",
+     "observable_ko": "인당이 맑게 빛남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "方寸平",
+     "observable_ko": "인당 한가운데가 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "静",
+     "observable_ko": "인당이 고요함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "고요함은 기색·인상 평가어로 형태가 아니다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "方寸陷",
+     "observable_ko": "인당 한가운데가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-glabella-016",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "glabella",
+   "original_text": "眉接連不廣一生無禄",
+   "translation": "눈썹이 이어져 붙고 (인당이) 넓지 않으면 일생 녹이 없다.",
+   "commentary": "두 눈썹이 맞붙어 인당이 좁은 형태를 말한다. 눈썹이 이어진 것(眉交·眉連 계열)은 지침상 미분류(일자눈썹) 항목이고, '不廣'은 '印堂狹' 같은 정형 표현이 아니어서 미간 좁음에 근사 대응만 한다.",
+   "conditions": [
+    {
+     "region": "brow",
+     "evidence": "眉接連",
+     "observable_ko": "두 눈썹이 이어져 붙음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "눈썹이 이어진 형태(일자눈썹)는 대응 라벨이 없다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "不廣",
+     "observable_ko": "미간이 넓지 않음",
+     "status": "approximate",
+     "candidate_labels": [
+      "brow_gap:narrow"
+     ],
+     "reason": "印堂狹·兩眉相近 같은 정형 표현이 아니라 '넓지 않다'는 부정 서술이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-glabella-017",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "glabella",
+   "original_text": "當傍有黒痣瘢痕事或不吉也",
+   "translation": "바로 곁에 검은 점이나 흉터가 있으면 일이 혹 길하지 않다.",
+   "commentary": "인당 곁의 점과 흉터에 관한 구절이다. 점은 위치 특정 점으로 근사 대응만 되고 흉터는 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "인당 곁에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "glabella",
+     "evidence": "瘢痕",
+     "observable_ko": "인당 곁에 흉터가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·흠은 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-018",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "山根主有勢斷絶主多厄無兄弟狭薄而低者並無勢力",
+   "translation": "산근(山根, 콧뿌리)은 세력이 있음을 주관한다. 끊어지면 액이 많고 형제가 없음을 주관하며, 좁고 얇으면서 낮은 자는 모두 세력이 없다.",
+   "commentary": "산근이 끊긴 형태(斷)는 지침상 콧뿌리 높이의 근사 표현이고, '狭薄而低'도 '山根低'라는 정형 표현이 아니라 너비·두께와 함께 서술되어 근사 대응으로 두었다. 문헌은 이를 액운과 형제 없음에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "斷絶",
+     "observable_ko": "콧뿌리가 끊어진 듯 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "지침상 斷/折은 근사 표현이다"
+    },
+    {
+     "region": "nose",
+     "evidence": "狭薄而低",
+     "observable_ko": "콧뿌리가 좁고 얇으며 낮음",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "山根低 정형 표현이 아니며 너비·두께가 함께 서술되었다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "family_children",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-019",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "眉鼻上亦名玉衡又廷中平滿或有奇骨伏起者招國租之喜但衡上依依上侵則名聞朝野",
+   "translation": "눈썹과 코의 위(사이)는 또 옥형(玉衡)이라 이름한다. 또 정중(廷中)이 평평하고 가득하거나 혹 기이한 뼈가 엎드려 일어난 자는 나라의 조세(國租)를 받는 기쁨을 부르고, 다만 형상(衡上)이 의의(依依)하게 위로 침범하면 이름이 조정과 민간에 알려진다.",
+   "commentary": "산근 부위의 별칭과 그 형상에 관한 구절이다. '依依上侵'은 콧뿌리의 융기가 위로 이어지는 모양으로 읽히나 뜻이 분명하지 않아 글자대로 옮겼다. 국소 평만·뼈 융기는 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "平滿",
+     "observable_ko": "정중(산근 부위)이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "奇骨伏起",
+     "observable_ko": "기이한 뼈가 엎드린 듯 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "依依上侵",
+     "observable_ko": "형상(衡上)이 위로 이어져 침범함",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "nose_bridge:high"
+     ],
+     "reason": "표현의 형태적 의미가 불분명하다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-020",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "若陷窪而目得相見者則情淺識露謀事難成",
+   "translation": "만약 꺼지고 우묵하여 (두) 눈이 서로 볼 수 있을 정도인 자는 정이 얕고 식견이 드러나 일을 꾀하여도 이루기 어렵다.",
+   "commentary": "콧뿌리가 깊이 꺼져 두 눈 사이를 가리지 못하는 모양을 과장해 표현한 것으로 보인다. '山根陷' 정형 표현이 아니라 문맥상 산근을 가리키므로 근사 대응으로 두었다. 문헌은 이를 얕은 정과 식견에 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "陷窪而目得相見",
+     "observable_ko": "콧뿌리가 깊이 꺼져 두 눈이 서로 보일 정도임",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_bridge:low"
+     ],
+     "reason": "주어 山根이 생략된 비유적 서술로 정형 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "intelligence",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-021",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "年上主已身之疾病骨肉起一生無疾患陷缺者主惡死有黒痣者主貧苦",
+   "translation": "연상(年上, 산근 아래 콧등)은 자기 몸의 질병을 주관한다. 뼈와 살이 일어나면 일생 질환이 없고, 꺼지고 이지러진 자는 험한 죽음을 주관하며, 검은 점이 있는 자는 가난과 고생을 주관한다.",
+   "commentary": "연상은 콧등 위쪽 부위다. '已身'은 문맥상 '자기 몸(己身)'의 뜻으로 옮겼으나 원문 글자는 고치지 않았다. 콧등(鼻梁) 형태는 지침상 미분류 항목이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "骨肉起",
+     "observable_ko": "연상(콧등 위쪽)의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태는 대응 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "陷缺",
+     "observable_ko": "연상이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태는 대응 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "death_lifespan",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-022",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "夀上主命之長短事之吉凶陷缺者無夀",
+   "translation": "수상(夀上, 연상 아래 콧등)은 목숨의 길고 짧음과 일의 길흉을 주관한다. 꺼지고 이지러진 자는 수명이 없다.",
+   "commentary": "수상은 콧등 아래쪽 부위다. 콧등의 함몰은 지침상 미분류 항목이며, 문헌은 이를 수명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "陷缺",
+     "observable_ko": "수상(콧등 아래쪽)이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "콧등(鼻梁) 형태는 대응 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-023",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "又名怪部青色赤黒交錯怪兆也應林木為怪應欄⿰木厯--櫪牛馬為怪應井竈釜鳴井沸為怪",
+   "translation": "또 괴부(怪部)라 이름한다. 청색·적색·흑색이 뒤섞이면 괴이한 징조이니, 숲의 나무에 응하여 괴이가 되고, 마구간(欄⿰木厯 -- 櫪)의 소와 말에 응하여 괴이가 되며, 우물과 부뚜막에 응하여 솥이 울고 우물이 끓는 괴이가 된다.",
+   "commentary": "수상의 별칭과 기색 징조를 적은 구절이다. '⿰木厯 -- 櫪'은 '櫪(마구간)' 자에 대한 전사 주기로 보여 그대로 옮겼다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "青色赤黒交錯",
+     "observable_ko": "청·적·흑색이 뒤섞임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-024",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "準頭主富貴貧賤百事吉凶端正圓平直充滿者富貴有官準頭齊者心性慈準頭分妨尅兒",
+   "translation": "준두(準頭, 코끝)는 부귀와 빈천, 온갖 일의 길흉을 주관한다. 단정하고 둥글며 평평하고 곧으며 꽉 찬 자는 부귀하고 관직이 있으며, 준두가 가지런한 자는 심성이 자애롭고, 준두가 갈라지면 아이를 방해하고 극한다.",
+   "commentary": "'圓'은 코끝이 둥글다는 뜻으로 읽을 수 있으나 '準頭圓' 같은 정형 표현이 아니라 여러 품평어와 나열되어 근사 대응으로 두었다. 가지런함(齊)과 갈라짐(分)은 대응 라벨이 없다. 문헌은 갈라진 코끝을 자식을 해치는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "端正",
+     "observable_ko": "코끝이 단정함",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "단정은 품평어로 형태 척도가 아니다"
+    },
+    {
+     "region": "nose",
+     "evidence": "圓",
+     "observable_ko": "코끝이 둥긂",
+     "status": "approximate",
+     "candidate_labels": [
+      "nose_tip:rounded"
+     ],
+     "reason": "準頭圓 정형 표현이 아니라 여러 품평어와 함께 나열되었다"
+    },
+    {
+     "region": "nose",
+     "evidence": "平直充滿",
+     "observable_ko": "코끝이 평평하고 곧으며 꽉 참",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "평직·충만은 대응 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭齊",
+     "observable_ko": "코끝이 가지런함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "가지런함은 대응 라벨이 없다"
+    },
+    {
+     "region": "nose",
+     "evidence": "準頭分",
+     "observable_ko": "코끝이 갈라짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "갈라진 코끝은 대응 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office",
+    "character",
+    "kinship_harm",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-nose-025",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "nose",
+   "original_text": "左為蘭臺右為廷尉成就平好者聰眀見識",
+   "translation": "왼쪽은 난대(蘭臺), 오른쪽은 정위(廷尉, 좌우 콧방울)가 되니, 잘 이루어지고 평평하며 좋은 자는 총명하고 식견이 있다.",
+   "commentary": "난대·정위는 좌우 콧방울이다. '成就平好'는 콧방울이 잘 갖추어졌다는 품평으로 풍만(豐)·크기(大)를 직접 말하지 않아 모호로 두었다. 문헌은 이를 총명과 연결했다.",
+   "conditions": [
+    {
+     "region": "nose",
+     "evidence": "成就平好",
+     "observable_ko": "콧방울이 잘 갖추어지고 평평하며 좋음",
+     "status": "ambiguous",
+     "candidate_labels": [
+      "alar_fullness:full"
+     ],
+     "reason": "풍만함인지 단정함인지 특정되지 않는 품평어다"
+    }
+   ],
+   "claim_topics": [
+    "intelligence"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-philtrum-026",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "philtrum",
+   "original_text": "人中主人心性亦主子孫深直端廣者忠信有子孫",
+   "translation": "인중(人中)은 사람의 심성을 주관하고 또 자손을 주관한다. 깊고 곧으며 단정하고 넓은 자는 충성되고 신의가 있으며 자손이 있다.",
+   "commentary": "'深'은 인중이 깊다는 뜻이지만 '人中深' 정형 표현이 아니라 주어와 떨어져 여러 형용과 나열되어 근사 대응으로 두었다. 인중의 곧음·너비는 지침상 미분류 항목이다. 문헌은 이를 자손 유무와 연결했다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "深",
+     "observable_ko": "인중이 깊음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_definition:clear"
+     ],
+     "reason": "人中深 정형 표현이 아니라 여러 형용과 나열된 서술이다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "直端",
+     "observable_ko": "인중이 곧고 단정함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 곧음은 대응 라벨이 없다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "廣",
+     "observable_ko": "인중이 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중 너비(闊/廣)는 지침상 미분류다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "fertility_offspring"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-philtrum-027",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "philtrum",
+   "original_text": "中蹇而短者夭命孤獨貧",
+   "translation": "(인)중이 굽고 짧은 자는 요절하고 외롭고 가난하다.",
+   "commentary": "사본 줄바꿈 뒤에 '中'으로 시작하며, 문맥상 앞 구절의 '人中'을 이어 말한 것으로 읽었다. '人中短' 정형 표현이 아니므로 짧음은 근사 대응으로 두었고 '蹇(굽음·절름)'은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "philtrum",
+     "evidence": "短",
+     "observable_ko": "인중이 짧음",
+     "status": "approximate",
+     "candidate_labels": [
+      "philtrum_length:short"
+     ],
+     "reason": "人中短 정형 표현이 아니며 주어가 '中'으로만 적혀 있다"
+    },
+    {
+     "region": "philtrum",
+     "evidence": "中蹇",
+     "observable_ko": "인중이 굽음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "인중의 굽음은 대응 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-philtrum-028",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "philtrum",
+   "original_text": "有黒痣女人當自嫁",
+   "translation": "검은 점이 있으면 여자는 마땅히 스스로 시집간다.",
+   "commentary": "인중의 점을 여성의 혼인 행실과 연결한 구절로, 중매 없이 스스로 혼인한다는 낙인성 서술이다. 점은 위치 특정 점으로 근사 대응만 된다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "인중에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-mouth-029",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "mouth",
+   "original_text": "正口主信文充實平正稜成者有信行薄弱缺陷者多詐妄有黒痣者主貴吉利",
+   "translation": "정구(正口, 입)는 신의와 문장을 주관한다. 충실하고 평정하며 모서리가 이루어진 자는 신의 있는 행실이 있고, 얇고 약하며 이지러진 자는 거짓과 망령됨이 많으며, 검은 점이 있는 자는 귀하고 길하며 이로움을 주관한다.",
+   "commentary": "'稜成'은 입술 윤곽선이 뚜렷함으로, '薄弱'은 입술이 얇음으로 읽을 수 있으나 '脣有稜'·'脣薄' 정형 표현이 아니어서 근사 대응으로 두었다. 문헌은 얇은 입을 거짓과 연결했다.",
+   "conditions": [
+    {
+     "region": "mouth",
+     "evidence": "充實平正",
+     "observable_ko": "입이 충실하고 반듯함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "충실·평정은 대응 라벨이 없다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "稜成",
+     "observable_ko": "입술 윤곽선(모서리)이 이루어짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_bow:pronounced"
+     ],
+     "reason": "脣有稜 정형 표현이 아니며 주어가 입 전체다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "薄弱",
+     "observable_ko": "입이 얇고 약함",
+     "status": "approximate",
+     "candidate_labels": [
+      "lip_thickness:thin"
+     ],
+     "reason": "脣薄 정형 표현이 아니며 '약함'이 함께 서술되었다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "缺陷",
+     "observable_ko": "입이 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "입 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-chin-030",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "chin",
+   "original_text": "承漿主飲酒如有黒痣不宜飲酒醉而當死平滿者一飲五斗常朝酒食",
+   "translation": "승장(承漿, 아랫입술 아래 오목한 곳)은 술 마심을 주관한다. 만약 검은 점이 있으면 술을 마시는 것이 마땅하지 않으니 취하여 마땅히 죽는다. 평평하고 가득한 자는 한 번에 닷 말을 마시고 늘 아침마다 술과 음식을 먹는다.",
+   "commentary": "승장은 아랫입술 아래 턱 위의 오목한 곳이다. 점은 근사 대응만 되고 평만은 대응 라벨이 없다. 문헌은 점을 음주로 인한 죽음과 연결했다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "승장에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "chin",
+     "evidence": "平滿",
+     "observable_ko": "승장이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "health_disease",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-chin-031",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "chin",
+   "original_text": "一名藥部主服藥色暗服藥不得力",
+   "translation": "일명 약부(藥部)라 하니 약 먹는 것을 주관한다. 색이 어두우면 약을 먹어도 효력을 얻지 못한다.",
+   "commentary": "승장의 별칭과 기색에 관한 구절이다. 색은 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "色暗",
+     "observable_ko": "승장의 색이 어두움",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-chin-032",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "chin",
+   "original_text": "地閣主地土屋宅平厚者多田宅而富狭薄者即主貧苦",
+   "translation": "지각(地閣, 턱)은 땅과 집을 주관한다. 평평하고 두터운 자는 논밭과 집이 많아 부유하고, 좁고 얇은 자는 곧 가난과 고생을 주관한다.",
+   "commentary": "지각은 턱 부위다. 평후·협박은 턱의 충실함 서술로 '地閣方·地閣圓·地閣尖' 같은 턱 모양 정형 표현이 아니어서 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "平厚",
+     "observable_ko": "지각이 평평하고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "턱의 두께·충실함은 대응 라벨이 없다"
+    },
+    {
+     "region": "chin",
+     "evidence": "狭薄",
+     "observable_ko": "지각이 좁고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "턱의 좁고 얇음은 턱 모양 정형 표현이 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-chin-033",
+   "section": "太清神鑑 卷二",
+   "section_title": "中央直下一十三位",
+   "region": "chin",
+   "original_text": "頦頥主貧富圓厚平澤者富尖陷者貧窮長者主尅害骨肉",
+   "translation": "해이(頦頥, 턱과 아래턱)는 가난과 부를 주관한다. 둥글고 두터우며 평평하고 윤택한 자는 부유하고, 뾰족하고 꺼진 자는 빈궁하며, 긴 자는 골육(혈육)을 극하여 해침을 주관한다.",
+   "commentary": "'圓'·'尖'은 턱 모양으로 읽을 수 있으나 '頦圓'·'頦尖' 정형 표현이 아니라 두께·함몰과 함께 서술되어 근사 대응으로 두었다. 문헌은 긴 턱을 혈육을 해치는 것과 연결했다.",
+   "conditions": [
+    {
+     "region": "chin",
+     "evidence": "圓厚",
+     "observable_ko": "턱이 둥글고 두터움",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:rounded"
+     ],
+     "reason": "頦圓 정형 표현이 아니며 두께가 함께 서술되었다"
+    },
+    {
+     "region": "chin",
+     "evidence": "平澤",
+     "observable_ko": "턱이 평평하고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "윤택은 피부 광택으로 형태가 아니다"
+    },
+    {
+     "region": "chin",
+     "evidence": "尖陷",
+     "observable_ko": "턱이 뾰족하고 꺼짐",
+     "status": "approximate",
+     "candidate_labels": [
+      "chin_shape:pointed"
+     ],
+     "reason": "頦尖 정형 표현이 아니며 함몰이 함께 서술되었다"
+    },
+    {
+     "region": "chin",
+     "evidence": "長者",
+     "observable_ko": "턱이 긺",
+     "status": "approximate",
+     "candidate_labels": [
+      "lower_face_ratio:long"
+     ],
+     "reason": "턱 길이와 하정 비율은 같은 척도가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "kinship_harm"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-034",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "天獄一名理獄主刑厄平滿者不犯刑獄缺陷及色惡者多遭獄厄",
+   "translation": "천옥(天獄)은 일명 이옥(理獄)이라 하며 형벌의 액을 주관한다. 평평하고 가득한 자는 형옥을 범하지 않고, 이지러지고 꺼지거나 색이 나쁜 자는 옥사의 액을 많이 만난다.",
+   "commentary": "천중 높이에 가로로 늘어선 여덟 부위 중 첫째다. 국소 평만·결함은 대응 라벨이 없고, 문헌은 이를 형옥과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "천옥이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "천옥이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "천옥의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-035",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "左廂主丞相平滿者吉利骨起與伏犀相連者當入宰輔陷缺坎𡒄者亦多灾厄",
+   "translation": "좌상(左廂)은 승상을 주관한다. 평평하고 가득한 자는 길하고 이로우며, 뼈가 일어나 복서(伏犀)와 서로 이어진 자는 마땅히 재보에 들어가고, 꺼지고 이지러지며 坎𡒄(울퉁불퉁)한 자는 또한 재액이 많다.",
+   "commentary": "복서(伏犀)는 이마 중앙에서 정수리로 솟아 이어지는 뼈를 가리키는 관상 용어다. '坎𡒄'는 '坎坷(울퉁불퉁함)'에 가까운 뜻으로 보이나 글자를 확정하지 않았다. 국소 뼈 융기·함몰은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "좌상이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起與伏犀相連",
+     "observable_ko": "좌상의 뼈가 솟아 복서와 이어짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺坎𡒄",
+     "observable_ko": "좌상이 꺼지고 울퉁불퉁함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-036",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "内府主金玉財寶骨起平滿家累珠玉身復仁孝缺陷者滛蕩消折亦獄死",
+   "translation": "내부(内府)는 금옥과 재보를 주관한다. 뼈가 일어나고 평평하며 가득하면 집에 주옥이 쌓이고 몸 또한 어질고 효성스러우며, 이지러지고 꺼진 자는 음탕하여 (재물이) 사라지고 꺾이며 또한 옥에서 죽는다.",
+   "commentary": "내부는 천중 줄의 부위 이름이다. 국소 융기·결함은 대응 라벨이 없다. 문헌은 결함을 음탕함과 옥사(獄死)에 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起平滿",
+     "observable_ko": "내부의 뼈가 솟고 평평하며 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "내부가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "character",
+    "sexual_conduct",
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-037",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "髙廣主方伯之座豐起者當任刺史平吉利有黒痣少䘮父母",
+   "translation": "고광(髙廣)은 방백(方伯, 지방 장관)의 자리를 주관한다. 풍만하게 일어난 자는 마땅히 자사(刺史)에 임명되고, 평평하면 길하고 이로우며, 검은 점이 있으면 어려서 부모를 잃는다.",
+   "commentary": "고광은 천중 줄의 부위 이름으로, '이마가 높고 넓다'는 형태 서술이 아니다. 국소 융기는 대응 라벨이 없고 점은 근사 대응만 된다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "豐起",
+     "observable_ko": "고광이 풍만하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平",
+     "observable_ko": "고광이 평평함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "fortune_general",
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-038",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "陽尺主近佐之官肉骨豐起位佐郡之職缺陷者主官歇滅有黒痣者客死他鄉",
+   "translation": "양척(陽尺)은 가까이서 보좌하는 관직을 주관한다. 살과 뼈가 풍만하게 일어나면 지위가 군(郡)을 보좌하는 직책이고, 이지러지고 꺼진 자는 관직이 끊겨 사라짐을 주관하며, 검은 점이 있는 자는 타향에서 객사한다.",
+   "commentary": "양척은 천중 줄의 부위 이름이다. 국소 융기·결함은 대응 라벨이 없고 점은 근사 대응만 된다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "肉骨豐起",
+     "observable_ko": "양척의 살과 뼈가 풍만하게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "양척이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-039",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "武庫主兵甲之吏骨肉起者宜任兵之官若有瘢疵缺陷者不宜任此職亦從軍之敗",
+   "translation": "무고(武庫)는 병기와 갑옷을 맡은 관리를 주관한다. 뼈와 살이 일어난 자는 병사를 맡는 관직에 임명되는 것이 마땅하고, 만약 흉터·흠이나 이지러짐이 있는 자는 이 직책을 맡는 것이 마땅하지 않으며 또한 종군하여 패한다.",
+   "commentary": "무고는 천중 줄의 부위 이름이다. 국소 융기·결함과 흉터는 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨肉起",
+     "observable_ko": "무고의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "瘢疵",
+     "observable_ko": "무고에 흉터·흠이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "흉터·흠은 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "무고가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-040",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "有黒痣兵死赤色主鬬傷黄色不宜受寄尸兵",
+   "translation": "검은 점이 있으면 병기에 죽고, 적색이면 싸워서 다침을 주관하며, 황색이면 맡겨진 시신과 병기(寄尸兵)를 받는 것이 마땅하지 않다.",
+   "commentary": "무고 부위의 점과 기색에 관한 이어지는 구절이다. '不宜受寄尸兵'의 뜻은 분명하지 않아 글자대로 옮겼다. 점은 근사 대응, 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "赤色",
+     "observable_ko": "무고가 붉은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黄色",
+     "observable_ko": "무고가 누른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-041",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "轉角主郡守之位骨起而色眀者主任藩府一名弓弩有黒痣主兵死㣲黒主退官失禄赤色暴病或争競官職",
+   "translation": "전각(轉角)은 군수의 자리를 주관한다. 뼈가 일어나고 색이 밝은 자는 번부(藩府)에 임명됨을 주관한다. 일명 궁노(弓弩)라 한다. 검은 점이 있으면 병기에 죽음을 주관하고, 약간 검으면 관직에서 물러나 녹을 잃음을 주관하며, 적색이면 갑작스런 병이 들거나 관직을 두고 다툰다.",
+   "commentary": "전각은 천중 줄 바깥쪽의 부위 이름이다. 국소 뼈 융기는 대응 라벨이 없고 점은 근사 대응, 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "전각의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色眀",
+     "observable_ko": "전각의 색이 밝음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "㣲黒",
+     "observable_ko": "전각이 약간 검음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "赤色",
+     "observable_ko": "전각이 붉은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "violence",
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-042",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "輔骨大即官大輔骨小即官小如無骨不可求官",
+   "translation": "보골(輔骨)이 크면 관직이 크고, 보골이 작으면 관직이 작으며, 만약 뼈가 없으면 관직을 구할 수 없다.",
+   "commentary": "보골은 이마 양옆에서 관자놀이 쪽으로 솟는 뼈를 가리키는 관상 용어다. 뼈의 크기는 사진 형태 라벨에 대응 항목이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "輔骨大",
+     "observable_ko": "보골이 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "輔骨小",
+     "observable_ko": "보골이 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "無骨",
+     "observable_ko": "보골이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-043",
+   "section": "太清神鑑 卷二",
+   "section_title": "天中横列八位",
+   "region": "forehead",
+   "original_text": "邉地者主邉郡之職亦主逺行吉凶肉起吉利邉地骨峻起者主䕶御之權黒色不能逺行陷者為奴僕使有黒痣色惡者不問男女皆客亡",
+   "translation": "변지(邉地)는 변방 군(郡)의 직책을 주관하고 또 먼 길 가는 일의 길흉을 주관한다. 살이 일어나면 길하고 이로우며, 변지의 뼈가 가파르게 일어난 자는 호위하고 막는 권한을 주관하고, 흑색이면 먼 길을 갈 수 없으며, 꺼진 자는 노복으로 부림을 당하고, 검은 점이 있고 색이 나쁜 자는 남녀를 묻지 않고 모두 객지에서 죽는다.",
+   "commentary": "변지는 천중 줄 가장 바깥쪽, 이마 가장자리의 부위 이름이다. 국소 융기·함몰은 대응 라벨이 없고 점은 근사 대응, 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "肉起",
+     "observable_ko": "변지의 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨峻起",
+     "observable_ko": "변지의 뼈가 가파르게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黒色",
+     "observable_ko": "변지가 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷",
+     "observable_ko": "변지가 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "변지의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-044",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "日角主公侯之坐充滿洪直骨起者主御前常坐光澤行人避道",
+   "translation": "일각(日角)은 공후의 자리를 주관한다. 충만하고 크고 곧게 뼈가 일어난 자는 임금 앞에 늘 앉음을 주관하고, 광택이 있으면 길 가는 사람이 길을 비킨다.",
+   "commentary": "천정 높이에 가로로 늘어선 여덟 부위 중 첫째로, 일각은 이마 왼쪽 위의 솟은 부위를 가리키는 이름이다. 국소 뼈 융기는 대응 라벨이 없고 광택은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "充滿洪直骨起",
+     "observable_ko": "일각의 뼈가 충만하고 크며 곧게 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤",
+     "observable_ko": "일각에 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-045",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "天府一名王府主入朝否㤗是故天府枯燥有官而無道",
+   "translation": "천부(天府)는 일명 왕부(王府)라 하며 조정에 들어감의 막힘과 트임(否㤗)을 주관한다. 그러므로 천부가 메마르면 관직이 있어도 도가 없다.",
+   "commentary": "'否㤗'는 '否泰(막힘과 트임)'의 이체 표기로 보인다. 메마름(枯燥)은 피부의 윤기·색에 관한 서술이라 관찰 불가로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "枯燥",
+     "observable_ko": "천부가 메마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "메마름은 피부 윤기·기색 서술로 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-046",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "房心主師侍之位骨起者為人之師骨起而黄色光澤者為國師色惡者非時主病",
+   "translation": "방심(房心)은 스승과 시종의 자리를 주관한다. 뼈가 일어난 자는 남의 스승이 되고, 뼈가 일어나고 황색에 광택이 있는 자는 국사(國師)가 되며, 색이 나쁜 자는 때 아닌 때에 병을 주관한다.",
+   "commentary": "방심은 천정 줄의 부위 이름이다. 국소 뼈 융기는 대응 라벨이 없고 색·광택은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "방심의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黄色光澤",
+     "observable_ko": "방심이 누르고 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "방심의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-047",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "上墓左右主父母之位骨起者宜父母光澤子孫滿堂黒痣缺陷主溺死色枯燥者父母不能𦵏",
+   "translation": "상묘(上墓)는 좌우로 부모의 자리를 주관한다. 뼈가 일어난 자는 부모에게 좋고, 광택이 있으면 자손이 집에 가득하며, 검은 점이나 이지러짐이 있으면 물에 빠져 죽음을 주관하고, 색이 메마른 자는 부모를 장사 지낼 수 없다.",
+   "commentary": "상묘는 천정 줄의 좌우 부위 이름이다. '𦵏'는 '葬(장사 지냄)'의 이체로 보인다. 문헌은 광택을 자손이 많음과, 점·결함을 익사와 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "상묘의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤",
+     "observable_ko": "상묘에 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "상묘가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色枯燥",
+     "observable_ko": "상묘의 색이 메마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "family_children",
+    "fertility_offspring",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-048",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "四煞主手足妨之病四時煞害之事黄色憂傷損黒色被賊引縮缺骨起皆憂煞害平滿光澤者一生不被害",
+   "translation": "사살(四煞)은 손발이 방해받는 병과 사계절의 살해(煞害)의 일을 주관한다. 황색이면 다쳐 손상됨을 근심하고, 흑색이면 도적을 당하며, 당겨 오그라들고 이지러지거나 뼈가 일어나면 모두 살해를 근심하고, 평평하고 가득하며 광택이 있는 자는 일생 해를 입지 않는다.",
+   "commentary": "사살은 천정 줄의 부위 이름이다. '引縮缺骨起'의 끊어 읽기는 확실하지 않아 '당겨 오그라들고 이지러지거나 뼈가 일어나면'으로 옮겼다. 국소 형태는 대응 라벨이 없고 색·광택은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "黄色",
+     "observable_ko": "사살이 누른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黒色",
+     "observable_ko": "사살이 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "引縮缺",
+     "observable_ko": "사살이 당겨 오그라들고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "사살의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "사살이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "光澤",
+     "observable_ko": "사살에 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease",
+    "violence",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-049",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "戰堂主征戰事色斑惡者戰不還色好平滿戰勝缺陷兵死骨起為將",
+   "translation": "전당(戰堂)은 정벌과 전쟁의 일을 주관한다. 색이 얼룩지고 나쁜 자는 싸우러 가서 돌아오지 못하고, 색이 좋고 평평하며 가득하면 싸워 이기며, 이지러지고 꺼지면 병기에 죽고, 뼈가 일어나면 장수가 된다.",
+   "commentary": "전당은 천정 줄의 부위 이름이다. 국소 형태는 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "色斑惡",
+     "observable_ko": "전당의 색이 얼룩지고 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色好",
+     "observable_ko": "전당의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "전당이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "전당이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "전당의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "violence",
+    "death_lifespan",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-050",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "驛馬主乗騎之事色澤者如乗馬去陷缺者無乗馬之禄色惡者乗馬有死",
+   "translation": "역마(驛馬)는 말 타는 일을 주관한다. 색이 윤택한 자는 말을 타고 가는 것과 같고, 꺼지고 이지러진 자는 말을 탈 녹이 없으며, 색이 나쁜 자는 말을 타다 죽음이 있다.",
+   "commentary": "역마는 천정 줄 바깥쪽의 부위 이름이다. 국소 함몰은 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "色澤",
+     "observable_ko": "역마의 색이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "역마가 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "역마의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-051",
+   "section": "太清神鑑 卷二",
+   "section_title": "天庭横列八位",
+   "region": "forehead",
+   "original_text": "弔庭主喪亡之事弔庭白如梨花父母死㣲白即披服及黒痣喪服多時矣",
+   "translation": "조정(弔庭)은 상사와 죽음의 일을 주관한다. 조정이 배꽃처럼 희면 부모가 죽고, 약간 희면 곧 상복을 입으며, 검은 점까지 있으면 상복을 입는 때가 많다.",
+   "commentary": "조정은 천정 줄 가장 바깥쪽의 부위 이름이다. 흰색은 관찰 불가이고 점은 근사 대응만 된다. 문헌은 이를 부모의 죽음과 상복에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "白如梨花",
+     "observable_ko": "조정이 배꽃처럼 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "㣲白",
+     "observable_ko": "조정이 약간 흼",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "family_children"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-052",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "額角主公卿之位缺陷一生無官骨起為公卿一名額中",
+   "translation": "액각(額角)은 공경의 자리를 주관한다. 이지러지고 꺼지면 일생 관직이 없고, 뼈가 일어나면 공경이 된다. 일명 액중(額中)이라 한다.",
+   "commentary": "사공 높이에 가로로 늘어선 여덟 부위 중 첫째다(사본에서 소제목 바로 뒤에 붙어 있다). 이마 모서리의 국소 융기·결함은 이마 높이·너비 라벨과 같은 척도가 아니어서 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "액각이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "액각의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-053",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "色紅黄者大吉黒色主死色惡主厄向人叩頭赤色發如豆主刀兵死",
+   "translation": "색이 붉고 누른 자는 크게 길하고, 흑색이면 죽음을 주관하며, 색이 나쁘면 남에게 머리를 조아리는 액을 주관하고, 적색이 콩처럼 피어나면 칼과 병기로 죽음을 주관한다.",
+   "commentary": "액각(액중)의 기색에 관한 이어지는 구절로, 모두 색에 관한 서술이라 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "色紅黄",
+     "observable_ko": "액각의 색이 붉고 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黒色",
+     "observable_ko": "액각이 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "액각의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "赤色發如豆",
+     "observable_ko": "적색이 콩처럼 피어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "death_lifespan",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-054",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "上卿主正卿之位亦主家鄉骨肉起而常光澤為官必親御座色惡逺離家鄉",
+   "translation": "상경(上卿)은 정경(正卿)의 자리를 주관하고 또 고향을 주관한다. 뼈와 살이 일어나고 늘 광택이 있으면 관직에 올라 반드시 임금의 자리를 가까이하고, 색이 나쁘면 고향을 멀리 떠난다.",
+   "commentary": "상경은 사공 줄의 부위 이름이다. 국소 융기는 대응 라벨이 없고 광택·색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨肉起",
+     "observable_ko": "상경의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "常光澤",
+     "observable_ko": "상경에 늘 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "상경의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-055",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "少府主府寺之位骨起者任府寺色惡有官主失職右府黄起貴人㣲名不出季月應之",
+   "translation": "소부(少府)는 부시(府寺, 관청)의 자리를 주관한다. 뼈가 일어난 자는 부시에 임명되고, 색이 나쁘면 관직이 있어도 직책을 잃음을 주관한다. 오른쪽 부(府)에 황색이 일어나면 귀인이나 미미한 이름이 드러나지 않으며, 계월(季月, 각 계절의 끝 달)에 응한다.",
+   "commentary": "소부는 사공 줄의 부위 이름이다. '右府黄起貴人㣲名不出'의 끊어 읽기는 확실하지 않아 글자대로 옮겼다. 국소 융기는 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "소부의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "소부의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黄起",
+     "observable_ko": "오른쪽 부에 누른색이 일어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-056",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "交朋主朋友之位骨起及色紅黄者交友輔强缺陷者一生寡合色惡與朋友争競色青外婦相愛色赤外婦求離色白妻有分情",
+   "translation": "교붕(交朋)은 벗의 자리를 주관한다. 뼈가 일어나거나 색이 붉고 누른 자는 사귀는 벗의 도움이 강하고, 이지러지고 꺼진 자는 일생 어울리는 이가 적으며, 색이 나쁘면 벗과 다투고, 색이 푸르면 바깥 여자와 서로 사랑하며, 색이 붉으면 바깥 여자가 헤어지기를 구하고, 색이 희면 아내에게 나뉜 정이 있다.",
+   "commentary": "교붕은 사공 줄의 부위 이름이다. 국소 형태는 대응 라벨이 없고 색은 관찰 불가다. 문헌은 색을 혼외 관계와 아내의 정분에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "교붕의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色紅黄",
+     "observable_ko": "교붕의 색이 붉고 누름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "교붕이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "교붕의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色青",
+     "observable_ko": "교붕이 푸른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色赤",
+     "observable_ko": "교붕이 붉은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色白",
+     "observable_ko": "교붕이 흰색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other",
+    "sexual_conduct",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-057",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "道上主出行之位亦名衡上骨起一生常在道路平滿一生不出遊缺陷及色如馬肝主客死道傍",
+   "translation": "도상(道上)은 나가 다니는 자리를 주관하며 또 형상(衡上)이라고도 한다. 뼈가 일어나면 일생 늘 길 위에 있고, 평평하고 가득하면 일생 나가 노닐지 않으며, 이지러지고 꺼지거나 색이 말의 간과 같으면 길가에서 객사함을 주관한다.",
+   "commentary": "도상은 사공 줄의 부위 이름이다. 국소 형태는 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "도상의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平滿",
+     "observable_ko": "도상이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺陷",
+     "observable_ko": "도상이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色如馬肝",
+     "observable_ko": "도상의 색이 말의 간 같음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-058",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "交額主福祿之位骨起肉起及色好者主有福徳黒痣者吉色惡及陷缺者一生不崇福徳",
+   "translation": "교액(交額)은 복록의 자리를 주관한다. 뼈가 일어나고 살이 일어나며 색이 좋은 자는 복덕이 있음을 주관하고, 검은 점이 있는 자는 길하며, 색이 나쁘거나 꺼지고 이지러진 자는 일생 복덕을 높이지 못한다.",
+   "commentary": "교액은 사공 줄의 부위 이름이다. 국소 형태는 대응 라벨이 없고 점은 근사 대응, 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起肉起",
+     "observable_ko": "교액의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色好",
+     "observable_ko": "교액의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "교액의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "교액이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-059",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "重眉主勇怯之位骨肉如重眉主有勇富貴缺及色惡皆主怯弱貧賤",
+   "translation": "중미(重眉)는 용감함과 겁약함의 자리를 주관한다. 뼈와 살이 겹친 눈썹과 같으면 용기가 있고 부귀함을 주관하고, 이지러지거나 색이 나쁘면 모두 겁약하고 빈천함을 주관한다.",
+   "commentary": "중미는 사공 줄의 부위 이름으로, '骨肉如重眉'는 그 부위가 눈썹이 겹친 듯 솟은 모양을 비유한 것으로 보이나 형태가 특정되지 않는다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨肉如重眉",
+     "observable_ko": "뼈와 살이 겹친 눈썹처럼 솟음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "비유 표현으로 측정 가능한 형태가 특정되지 않는다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "缺",
+     "observable_ko": "중미가 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "중미의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-060",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "山林主野積之象山林廣厚必多藏蓄又多勢力淺薄無勢力不可委任大事",
+   "translation": "산림(山林)은 들의 쌓임(野積)의 상을 주관한다. 산림이 넓고 두터우면 반드시 쌓아 저장함이 많고 또 세력이 많으며, 얕고 얇으면 세력이 없어 큰일을 맡길 수 없다.",
+   "commentary": "산림은 사공 줄 바깥쪽, 이마 가장자리의 부위 이름이다. 국소 너비·두께는 이마 전체 너비 라벨과 같은 척도가 아니어서 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "山林廣厚",
+     "observable_ko": "산림 부위가 넓고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "淺薄",
+     "observable_ko": "산림 부위가 얕고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-061",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "一名崖色有黒痣入山林主被蟲傷",
+   "translation": "일명 애(崖)라 한다. 색(부위)에 검은 점이 있으면 산림에 들어가 벌레에게 다침을 주관한다.",
+   "commentary": "'一名崖色'은 '일명 崖'로 끊고 '色'을 뒤에 붙여 읽었으나 '崖色'이 별칭일 가능성도 있다. 점은 근사 대응만 된다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-062",
+   "section": "太清神鑑 卷二",
+   "section_title": "司空横列八位",
+   "region": "forehead",
+   "original_text": "亦名四季天子即㸔兵馬强壯四方人物美惡色黒四方有賊黄色四方安靜凡人色黑不宜逺行",
+   "translation": "또 사계(四季)라 이름한다. 천자는 곧 (이 부위로) 병마의 강하고 씩씩함과 사방 인물의 좋고 나쁨을 본다. 색이 검으면 사방에 도적이 있고, 황색이면 사방이 안정되며, 보통 사람은 색이 검으면 먼 길을 가는 것이 마땅하지 않다.",
+   "commentary": "산림 부위의 별칭과 기색 점법을 적은 구절이다. '天子即㸔'의 '㸔'은 '看(보다)'의 이체로 보인다. 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "色黒",
+     "observable_ko": "산림 부위가 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "黄色",
+     "observable_ko": "산림 부위가 누른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-063",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "龍角為顯貴之位有骨肉端美從眉上積起涉額如龍角者主為使相女人為后妃",
+   "translation": "용각(龍角)은 드러나 귀한 자리가 된다. 뼈와 살이 단정하고 아름다워 눈썹 위로부터 쌓여 일어나 이마를 건너가 용의 뿔과 같은 자는 사상(使相)이 됨을 주관하고, 여자는 후비(后妃)가 된다.",
+   "commentary": "중정 높이에 가로로 늘어선 아홉 부위 중 첫째다. 눈썹 위에서 이마로 솟아오른 뼈를 용의 뿔에 비유했으나 측정 가능한 형태 기준이 없어 모호로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨肉端美",
+     "observable_ko": "뼈와 살이 단정하고 아름다움",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "품평어로 형태 척도가 아니다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "從眉上積起涉額如龍角",
+     "observable_ko": "눈썹 위에서 이마로 솟아 용의 뿔 같음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 측정 가능한 형태가 특정되지 않는다"
+    },
+    {
+     "region": "subject",
+     "evidence": "女人",
+     "observable_ko": "대상이 여성",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "서비스는 성별을 추정하지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-064",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "若形盤薄狀如蚯蚓者心多妬忌也",
+   "translation": "만약 모양이 서리고 얇아 형상이 지렁이와 같은 자는 마음에 질투와 시기가 많다.",
+   "commentary": "용각 부위가 지렁이처럼 가늘게 서린 모양을 말한 비유로 형태가 특정되지 않는다. 문헌은 이를 질투심과 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "形盤薄狀如蚯蚓",
+     "observable_ko": "용각 부위가 지렁이처럼 서리고 얇음",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "동물 비유로 측정 가능한 형태가 특정되지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-065",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "虎角帥將之位當主兵權一名疑路主行之象也色好宜行色惡慎出有黒痣者行不還",
+   "translation": "호각(虎角)은 장수의 자리로 마땅히 병권을 주관한다. 일명 의로(疑路)라 하니 다니는 상을 주관한다. 색이 좋으면 다니는 것이 마땅하고, 색이 나쁘면 나가는 것을 삼가며, 검은 점이 있는 자는 가서 돌아오지 못한다.",
+   "commentary": "호각은 중정 줄의 부위 이름이다. 색은 관찰 불가이고 점은 근사 대응만 된다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "色好",
+     "observable_ko": "호각의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色惡",
+     "observable_ko": "호각의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-066",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "牛角主權貴之位骨起如角者使相之權",
+   "translation": "우각(牛角)은 권세 있고 귀한 자리를 주관한다. 뼈가 뿔처럼 일어난 자는 사상(使相)의 권세를 가진다.",
+   "commentary": "우각은 중정 줄의 부위 이름이다. 뼈가 뿔처럼 솟는다는 국소 융기 서술은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起如角",
+     "observable_ko": "우각의 뼈가 뿔처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-067",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "輔角乃職制之位骨大者官職大骨小者官職小陷缺者終身無禄",
+   "translation": "보각(輔角)은 직제(職制)의 자리이다. 뼈가 큰 자는 관직이 크고, 뼈가 작은 자는 관직이 작으며, 꺼지고 이지러진 자는 종신토록 녹이 없다.",
+   "commentary": "보각은 중정 줄의 부위 이름이다. 국소 뼈 크기·함몰은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨大",
+     "observable_ko": "보각의 뼈가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨小",
+     "observable_ko": "보각의 뼈가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "보각이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-068",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "𤣥角主官禄之位骨起有角者全禄無角者不可求官",
+   "translation": "현각(𤣥角)은 관록의 자리를 주관한다. 뼈가 일어나 뿔이 있는 자는 녹을 온전히 하고, 뿔이 없는 자는 관직을 구할 수 없다.",
+   "commentary": "'𤣥'은 '玄'의 피휘·이체 자형이다. 뼈가 뿔처럼 솟는지 여부는 국소 융기 서술로 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨起有角",
+     "observable_ko": "현각의 뼈가 뿔처럼 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "無角",
+     "observable_ko": "현각에 뿔(융기)이 없음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-069",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "釜㦸主金吾之位骨肉起者有兵革之權色好武選清顯陷缺者兵死",
+   "translation": "부극(釜㦸)은 금오(金吾, 궁성 경비 무관)의 자리를 주관한다. 뼈와 살이 일어난 자는 병혁(兵革, 군사)의 권한이 있고, 색이 좋으면 무과 선발로 맑고 드러나며, 꺼지고 이지러진 자는 병기에 죽는다.",
+   "commentary": "'㦸'는 '戟'의 이체로 보인다. 국소 융기·함몰은 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "骨肉起",
+     "observable_ko": "부극의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "色好",
+     "observable_ko": "부극의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "부극이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "violence",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-070",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "華盖主邪正之事深厚主夀有官短促刑獄少夀淺薄殃邪",
+   "translation": "화개(華盖)는 사악함과 바름의 일을 주관한다. 깊고 두터우면 장수하고 관직이 있음을 주관하고, 짧고 급박하면 형옥을 당하고 수명이 적으며, 얕고 얇으면 재앙과 사악함이 있다.",
+   "commentary": "화개는 중정 줄의 부위 이름이다. 깊고 두터움·짧음·얕음은 국소 부위의 서술로 대응 라벨이 없다. 문헌은 이를 수명과 형옥에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "深厚",
+     "observable_ko": "화개가 깊고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "短促",
+     "observable_ko": "화개가 짧고 급박함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "淺薄",
+     "observable_ko": "화개가 얕고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "criminality",
+    "rank_office",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-071",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "一名厄門有惡色黒痣及平落主暴死",
+   "translation": "일명 액문(厄門)이라 한다. 나쁜 색이나 검은 점이 있거나 평평하게 꺼져 있으면 갑작스런 죽음을 주관한다.",
+   "commentary": "화개의 별칭과 그 징조를 적은 구절이다. 색은 관찰 불가, 점은 근사 대응, 국소 함몰은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "惡色",
+     "observable_ko": "화개에 나쁜 색이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "平落",
+     "observable_ko": "화개가 평평하게 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-072",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "一名皮部乾枯者主經商銷折",
+   "translation": "일명 피부(皮部)라 한다. 메마른 자는 장사하여 (재물이) 녹아 꺾임을 주관한다.",
+   "commentary": "화개의 또 다른 별칭이다. 메마름(乾枯)은 피부 윤기에 관한 서술이라 관찰 불가로 두었다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "乾枯",
+     "observable_ko": "화개가 메마름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "메마름은 피부 윤기·기색 서술로 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-073",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "福堂主福禄之事豐厚者有官禄無灾富夀狹薄者貧夭無官一生又遭非横之灾",
+   "translation": "복당(福堂)은 복록의 일을 주관한다. 풍성하고 두터운 자는 관록이 있고 재앙이 없으며 부유하고 장수하고, 좁고 얇은 자는 가난하고 요절하며 관직이 없고 일생 또 뜻밖의 횡액을 만난다.",
+   "commentary": "복당은 중정 줄의 부위 이름이다. 국소 풍후·협박은 대응 라벨이 없다. 문헌은 이를 수명과 빈부에 연결했다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "豐厚",
+     "observable_ko": "복당이 풍성하고 두터움",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "狹薄",
+     "observable_ko": "복당이 좁고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "death_lifespan",
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-forehead-074",
+   "section": "太清神鑑 卷二",
+   "section_title": "中正横列九位",
+   "region": "forehead",
+   "original_text": "郊外主出行之事若惡色不可逺行骨起者一生不可出遊有黒痣陷缺者他鄉死矣",
+   "translation": "교외(郊外)는 나가 다니는 일을 주관한다. 만약 나쁜 색이면 먼 길을 갈 수 없고, 뼈가 일어난 자는 일생 나가 노닐 수 없으며, 검은 점이 있거나 꺼지고 이지러진 자는 타향에서 죽는다.",
+   "commentary": "교외는 중정 줄 가장 바깥쪽의 부위 이름이다. 색은 관찰 불가, 점은 근사 대응, 국소 형태는 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "forehead",
+     "evidence": "惡色",
+     "observable_ko": "교외에 나쁜 색이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "骨起",
+     "observable_ko": "교외의 뼈가 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "forehead",
+     "evidence": "陷缺",
+     "observable_ko": "교외가 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-075",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "家獄主刑厄之事平滿潤澤者一生不徒囚一名頻路若是常不潔者主多憂陷缺者獄死",
+   "translation": "가옥(家獄)은 형벌의 액의 일을 주관한다. 평평하고 가득하며 윤택한 자는 일생 도형(徒刑)이나 수감을 당하지 않는다. 일명 빈로(頻路)라 한다. 만약 늘 깨끗하지 않은 자는 근심이 많음을 주관하고, 꺼지고 이지러진 자는 옥에서 죽는다.",
+   "commentary": "인당 높이(눈썹 줄)에 가로로 늘어선 여덟 부위 중 첫째다. 국소 평만·함몰은 대응 라벨이 없고 윤택·깨끗하지 않음은 기색 서술이다. 문헌은 이를 형옥과 옥사에 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平滿",
+     "observable_ko": "가옥이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "潤澤",
+     "observable_ko": "가옥이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "常不潔",
+     "observable_ko": "가옥이 늘 깨끗하지 않음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "깨끗함은 피부 기색 서술로 형태가 아니다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷缺",
+     "observable_ko": "가옥이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "death_lifespan"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-076",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "蠶室主女工之事平滿光靜家内宜蠶陷缺無田蠶色惡妻妬不良",
+   "translation": "잠실(蠶室)은 여자의 길쌈 일을 주관한다. 평평하고 가득하며 빛나고 고요하면 집안에서 누에치기에 마땅하고, 꺼지고 이지러지면 밭과 누에가 없으며, 색이 나쁘면 아내가 질투하고 어질지 못하다.",
+   "commentary": "잠실은 인당 줄의 부위 이름으로 누에 모양 눈 밑 살(臥蠶)과는 다른 이름이다. 국소 형태는 대응 라벨이 없고 색·빛은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平滿",
+     "observable_ko": "잠실이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "光靜",
+     "observable_ko": "잠실이 빛나고 고요함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷缺",
+     "observable_ko": "잠실이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色惡",
+     "observable_ko": "잠실의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "marriage",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-077",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "林平主僊道之位骨肉起及色常光澤者修道徳或急或惡缺陷者服藥死",
+   "translation": "임평(林平)은 신선의 도(僊道)의 자리를 주관한다. 뼈와 살이 일어나고 색이 늘 광택이 있는 자는 도덕을 닦고, 혹 급하거나 혹 나쁘거나 이지러지고 꺼진 자는 약을 먹다 죽는다.",
+   "commentary": "임평은 인당 줄의 부위 이름이다. '或急或惡'이 기색을 말하는지 형태를 말하는지 분명하지 않아 글자대로 옮겼다. 국소 융기·결함은 대응 라벨이 없다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨肉起",
+     "observable_ko": "임평의 뼈와 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色常光澤",
+     "observable_ko": "임평의 색이 늘 광택이 있음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "或急或惡",
+     "observable_ko": "임평이 급하거나 나쁨",
+     "status": "ambiguous",
+     "candidate_labels": [],
+     "reason": "형태인지 기색인지 특정되지 않는다"
+    },
+    {
+     "region": "other",
+     "evidence": "缺陷",
+     "observable_ko": "임평이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "death_lifespan",
+    "health_disease"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-078",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "精舍主僧道之位平滿色澤釋慧有成缺陷色惡者釋無成",
+   "translation": "정사(精舍)는 승려와 도사의 자리를 주관한다. 평평하고 가득하며 색이 윤택하면 불도의 지혜(釋慧)에 이룸이 있고, 이지러지고 꺼지며 색이 나쁜 자는 불도에 이룸이 없다.",
+   "commentary": "정사는 인당 줄의 부위 이름이다. 국소 평만·결함은 대응 라벨이 없고 색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平滿",
+     "observable_ko": "정사가 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色澤",
+     "observable_ko": "정사의 색이 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "缺陷",
+     "observable_ko": "정사가 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色惡",
+     "observable_ko": "정사의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-079",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "嬪門主宫嬪之位豐潤色好者妻婦吉慶缺陷者妻婦厄",
+   "translation": "빈문(嬪門)은 궁빈(宫嬪)의 자리를 주관한다. 풍성하고 윤택하며 색이 좋은 자는 처와 부인에게 경사가 있고, 이지러지고 꺼진 자는 처와 부인에게 액이 있다.",
+   "commentary": "빈문은 인당 줄의 부위 이름이다. 풍성함·결함은 국소 형태로 대응 라벨이 없고 윤택·색은 관찰 불가다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐",
+     "observable_ko": "빈문이 풍성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "潤色好",
+     "observable_ko": "빈문이 윤택하고 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "缺陷",
+     "observable_ko": "빈문이 이지러지고 꺼짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-080",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "刼門主刼盜之位骨起肉豐及色好者永不被盜有黒痣常被刼發惡色刼賊",
+   "translation": "겁문(刼門)은 겁탈하는 도적의 자리를 주관한다. 뼈가 일어나고 살이 풍성하며 색이 좋은 자는 영원히 도둑맞지 않고, 검은 점이 있으면 늘 겁탈을 당하며, 나쁜 색이 피어나면 겁적(刼賊)이다.",
+   "commentary": "겁문은 인당 줄의 부위 이름이다. 마지막 '發惡色刼賊'이 도적을 만난다는 뜻인지 도적이 된다는 뜻인지 원문만으로 분명하지 않다. 국소 형태는 대응 라벨이 없고 점은 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "骨起肉豐",
+     "observable_ko": "겁문의 뼈가 솟고 살이 풍성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "色好",
+     "observable_ko": "겁문의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "other",
+     "evidence": "發惡色",
+     "observable_ko": "겁문에 나쁜 색이 피어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-081",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "青路主私路出入色瑩澤好者出入則吉色惡者不宜出入則有厄難",
+   "translation": "청로(青路)는 사사로운 길의 출입을 주관한다. 색이 맑게 빛나고 윤택하며 좋은 자는 출입하면 길하고, 색이 나쁜 자는 출입하는 것이 마땅하지 않으니 (출입하면) 액난이 있다.",
+   "commentary": "청로는 인당 줄의 부위 이름이다. 모두 색에 관한 서술이라 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "色瑩澤好",
+     "observable_ko": "청로의 색이 맑고 윤택함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "色惡",
+     "observable_ko": "청로의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-082",
+   "section": "太清神鑑 卷二",
+   "section_title": "印堂横列八位",
+   "region": "other",
+   "original_text": "巷路主公路出入色澤浄平者出入則獲福禄色惡者出入則有凶惡也",
+   "translation": "항로(巷路)는 공적인 길의 출입을 주관한다. 색이 윤택하고 깨끗하며 고른 자는 출입하면 복록을 얻고, 색이 나쁜 자는 출입하면 흉악함이 있다.",
+   "commentary": "항로는 인당 줄의 부위 이름이다. 모두 색에 관한 서술이라 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "色澤浄平",
+     "observable_ko": "항로의 색이 윤택하고 깨끗하며 고름",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "色惡",
+     "observable_ko": "항로의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-083",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "太陽主口舌喜慶色惡主鬬訟有黒痣常憂争競色好男得好婦女得好夫",
+   "translation": "태양(太陽)은 구설과 경사를 주관한다. 색이 나쁘면 다툼과 송사를 주관하고, 검은 점이 있으면 늘 다툼을 근심하며, 색이 좋으면 남자는 좋은 아내를 얻고 여자는 좋은 남편을 얻는다.",
+   "commentary": "산근 높이(눈 줄)에 가로로 늘어선 부위 중 첫째로, 태양은 눈 부위의 이름으로 쓰인다. 색은 관찰 불가, 점은 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "色惡",
+     "observable_ko": "태양의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "色好",
+     "observable_ko": "태양의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-084",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "中陽主家室之事青色夫妻欲離黒色主病赤色夫妻鬬競其色好得暴財之吉",
+   "translation": "중양(中陽)은 집안의 일을 주관한다. 청색이면 부부가 헤어지려 하고, 흑색이면 병을 주관하며, 적색이면 부부가 다투고, 그 색이 좋으면 갑작스런 재물을 얻는 길함이 있다.",
+   "commentary": "중양은 산근 줄의 부위 이름이다. 모두 색에 관한 서술이라 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "青色",
+     "observable_ko": "중양이 푸른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "黒色",
+     "observable_ko": "중양이 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "赤色",
+     "observable_ko": "중양이 붉은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "其色好",
+     "observable_ko": "중양의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "marriage",
+    "health_disease",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-085",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "少陽主灾厄顯色有厄平淨少灾青色起入目者憂色顯鞭箠之厄",
+   "translation": "소양(少陽)은 재액을 주관한다. 색이 드러나면 액이 있고, 평평하고 깨끗하면 재앙이 적으며, 청색이 일어나 눈으로 들어가는 자는 근심의 색이니 채찍과 매질의 액이 드러난다.",
+   "commentary": "소양은 산근 줄의 부위 이름이다. '平淨'은 기색이 고르고 깨끗함으로 읽어 관찰 불가로 두었다. 문헌은 청색을 매질의 액과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "顯色",
+     "observable_ko": "소양에 색이 드러남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "平淨",
+     "observable_ko": "소양이 고르고 깨끗함",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "기색이 고르고 깨끗하다는 서술로 형태가 아니다"
+    },
+    {
+     "region": "eye",
+     "evidence": "青色起入目",
+     "observable_ko": "청색이 일어나 눈으로 들어감",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "violence",
+    "criminality"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-086",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "外陽主相謀之事黒色主被人枉謀青色被寃枉死",
+   "translation": "외양(外陽)은 서로 꾀하는 일을 주관한다. 흑색이면 남에게 억울한 모함을 당함을 주관하고, 청색이면 원통하고 억울하게 죽음을 당한다.",
+   "commentary": "외양은 산근 줄 바깥쪽의 부위 이름이다. 모두 색에 관한 서술이며, 문헌은 이를 모함과 억울한 죽음에 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黒色",
+     "observable_ko": "외양이 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "青色",
+     "observable_ko": "외양이 푸른색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "malice_deceit",
+    "death_lifespan",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-087",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "魚尾一名盜部主盜賊之事有黒色為盜所害色好一生不被盜陷缺是賊人也色惡被引也",
+   "translation": "어미(魚尾, 눈꼬리 바깥)는 일명 도부(盜部)라 하며 도적의 일을 주관한다. 흑색이 있으면 도적에게 해를 입고, 색이 좋으면 일생 도둑맞지 않으며, 꺼지고 이지러지면 도적질하는 사람이고, 색이 나쁘면 끌려간다.",
+   "commentary": "어미는 눈꼬리 바깥 주름 부위다. 국소 함몰은 대응 라벨이 없고 색은 관찰 불가다. 문헌은 함몰을 도적이라는 낙인성 서술과 연결했다.",
+   "conditions": [
+    {
+     "region": "eye",
+     "evidence": "黒色",
+     "observable_ko": "어미가 검은색을 띰",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "色好",
+     "observable_ko": "어미의 색이 좋음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "陷缺",
+     "observable_ko": "어미가 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "色惡",
+     "observable_ko": "어미의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "criminality",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-eye-088",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "eye",
+   "original_text": "奸門主奸私之事有黒痣為奸盜所害奸門有肉起媱穢不避親踈色惡坐受奸刑發色好得美婦",
+   "translation": "간문(奸門, 눈꼬리 옆)은 간사하고 사사로운 일을 주관한다. 검은 점이 있으면 간악한 도적에게 해를 입고, 간문에 살이 일어나 있으면 음란하고 더러워 친하고 소원함을 가리지 않으며, 색이 나쁘면 간음의 형벌을 받는 데 연좌되고, 좋은 색이 피어나면 아름다운 아내를 얻는다.",
+   "commentary": "간문은 눈꼬리 옆 관자놀이 쪽 부위다. 국소 살의 융기는 대응 라벨이 없고 점은 근사 대응, 색은 관찰 불가다. 문헌은 이를 음란과 간음 형벌에 연결한 낙인성 서술을 적었다.",
+   "conditions": [
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "eye",
+     "evidence": "肉起",
+     "observable_ko": "간문에 살이 솟음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "eye",
+     "evidence": "色惡",
+     "observable_ko": "간문의 색이 나쁨",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "eye",
+     "evidence": "發色好",
+     "observable_ko": "간문에 좋은 색이 피어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "sexual_conduct",
+    "criminality",
+    "violence",
+    "marriage"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-089",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "other",
+   "original_text": "天倉主食禄之位平滿圓成肉豐主食禄此中不滿縱得官常得貧任一名軍門有黒痣陷缺者有軍中之難也",
+   "translation": "천창(天倉)은 녹을 먹는 자리를 주관한다. 평평하고 가득하며 둥글게 이루어지고 살이 풍성하면 녹을 먹음을 주관하고, 이 가운데가 가득하지 않으면 비록 관직을 얻어도 늘 가난한 직임을 얻는다. 일명 군문(軍門)이라 하니, 검은 점이 있거나 꺼지고 이지러진 자는 군중(軍中)의 난이 있다.",
+   "commentary": "천창은 눈썹 바깥 위 관자놀이 쪽 부위다. 국소 평만·함몰은 대응 라벨이 없고 점은 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平滿圓成肉豐",
+     "observable_ko": "천창이 평평하고 가득하며 둥글고 살이 풍성함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "other",
+     "evidence": "不滿",
+     "observable_ko": "천창이 가득하지 않음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    },
+    {
+     "region": "other",
+     "evidence": "陷缺",
+     "observable_ko": "천창이 꺼지고 이지러짐",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office",
+    "wealth",
+    "violence"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-090",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "other",
+   "original_text": "天井主財帛之位平滿富盛有痣井厄",
+   "translation": "천정(天井)은 재물과 비단의 자리를 주관한다. 평평하고 가득하면 부가 성하고, 점이 있으면 우물의 액이 있다.",
+   "commentary": "천정(天井)은 산근 줄 바깥쪽의 부위 이름으로 이마의 천정(天庭)과는 다르다. 국소 평만은 대응 라벨이 없고 점은 근사 대응이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "平滿",
+     "observable_ko": "천정이 평평하고 가득함",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "有痣",
+     "observable_ko": "천정에 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-091",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "other",
+   "original_text": "天門主開闔詳占之事又名地户發好色主吉慶之事發惡色主婦人與争訟",
+   "translation": "천문(天門)은 열고 닫음을 자세히 점치는 일을 주관하며 또 지호(地户)라고도 한다. 좋은 색이 피어나면 경사스러운 일을 주관하고, 나쁜 색이 피어나면 부인과 더불어 다투고 송사함을 주관한다.",
+   "commentary": "천문은 산근 줄 바깥쪽의 부위 이름이다. 모두 색에 관한 서술이라 관찰 불가 항목이다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "發好色",
+     "observable_ko": "천문에 좋은 색이 피어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    },
+    {
+     "region": "other",
+     "evidence": "發惡色",
+     "observable_ko": "천문에 나쁜 색이 피어남",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색·광택·윤기는 형태가 아니며 촬영 조건에 좌우된다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "marriage",
+    "other"
+   ]
+  },
+  {
+   "passage_id": "TQ2A-other-092",
+   "section": "太清神鑑 卷二",
+   "section_title": "山根横列十位",
+   "region": "other",
+   "original_text": "𤣥中主修行之路在天門之後近耳也豐廣者學道有成有黒痣不可出家主虚誕而無成也",
+   "translation": "현중(𤣥中)은 수행의 길을 주관하니 천문의 뒤 귀에 가까운 곳에 있다. 풍성하고 넓은 자는 도를 배워 이룸이 있고, 검은 점이 있으면 출가할 수 없으니 허황되어 이룸이 없음을 주관한다.",
+   "commentary": "현중은 천문 뒤 귀 가까이의 부위 이름이다. 국소 풍광(豐廣)은 대응 라벨이 없고 점은 근사 대응이다. 문헌은 점을 허황됨과 연결했다.",
+   "conditions": [
+    {
+     "region": "other",
+     "evidence": "豐廣",
+     "observable_ko": "현중이 풍성하고 넓음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "특정 부위의 뼈·살 융기, 평만, 함몰·결함은 위치 서술로 대응하는 형태 라벨이 없다"
+    },
+    {
+     "region": "mole",
+     "evidence": "黒痣",
+     "observable_ko": "해당 부위에 검은 점이 있음",
+     "status": "approximate",
+     "candidate_labels": [
+      "pigmented_marks:present"
+     ],
+     "reason": "특정 위치의 점은 pigmented_marks 후보로만 근사 대응하며 해당 라벨은 대기 중이다"
+    }
+   ],
+   "claim_topics": [
+    "character",
+    "malice_deceit",
+    "other"
+   ]
+  }
+ ]
+}

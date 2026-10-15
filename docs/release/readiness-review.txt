@@ -1,0 +1,110 @@
+독립 CPU readiness / landmark 표적 검토 — 2026-10-14
+
+판정: 현재 수정본의 waiter를 --wait로 시작하는 데 확인된 차단 결함 없음.
+이는 GPU 주석 품질/학습 성능/설계 전체 검증 완료 판정이 아니다.
+리뷰 중 main 소유 코드는 수정하지 않았다. 추가 파일은 tests/test_release_readiness.py와 이 보고서다.
+모델 로딩, GPU 실행, 실제 readiness marker 생성, 원 데이터/registry 변경은 하지 않았다.
+
+검토 범위
+scripts/release/finish_training_inputs.py
+scripts/release/run_training_queue.py
+scripts/release/build_training_registry.py
+scripts/release/train_models.py의 protocol() 및 호출 의존성
+scripts/release/prepare_landmark_labels.py
+local annotator/merger CLI, 실제 현재 registry/landmark/protocol/parity 및 source hash
+
+실행한 검증
+.venv/Scripts/python.exe -B -m unittest tests.test_release_training_data tests.test_release_landmark_labels tests.test_release_preprocess tests.test_local_mark_annotations tests.test_release_readiness
+결과: 40 tests 통과. 기존 waiter 지정 suite28 + 독립 새 suite12.
+모든 실행은 Windows Python/CPU. torch import는 있었지만 모델 생성이나 CUDA 작업은 없었다.
+실제 GPU subprocess는 mock하여 호출 인자/순서만 검사했다.
+OS 잠금은 실제 Windows 자식 프로세스로 검사하되 임시 디렉터리의 잠금만 사용했다.
+
+초기 발견 및 main 수정 후 재검증
+1. readiness가 부위 이름 집합을 확인하지 않던 문제:
+   현재 PART_CROPS와 정확히 같은12 부위를 요구하고 각 feature list 비어 있음도 거부한다.
+   부위 누락/추가/빈 목록 및 참가자399 fixture 모두 거부 확인.
+2. overlay class_support/record 개수만 신뢰하던 문제:
+   현재 registry/overlay/record 참가자 key 집합, split, 개별 mark label, 재계산 count를 대조한다.
+   같은400개라도 다른 ID, split 변경, label 불일치, 가짜 count를 거부한다.
+3. smoke의 중복/다른 TRAIN 참가자 또는 설정 변경을 놓치던 문제:
+   check_smoke가 deterministic TRAIN20 ID 집합/유일성/config digest를 검사한다.
+   18 ok+2 unknown은 통과,17 ok·중복·다른 TRAIN·test split·config 변경·19항목은 거부한다.
+4. 중복 waiter 가능성:
+   main wrapper의 OS 비차단 잠금이 두 번째 프로세스를 막으며 종료 후 해제됨을 실제 검사했다.
+   잠금 획득 이전에는 state/GPU 작업을 시작하지 않는다.
+5. train protocol의 marker source 목록 누락 가능성:
+   현재 marker.source_hashes == registry.source_hashes를 요구하고 각 실제 파일 SHA256을 재확인한다.
+   목록 누락 및 파일 내용 변경 거부, 일치하는 임시 artifact의 freeze 생성 확인.
+
+GPU 순서와 CLI
+queue는 이전 subprocess 종료 후 release-labels / waiting_for_reviewed_automatic_label_artifacts를 게시한다.
+waiter는 이 조합에서만 Qwen smoke를 시작한다. comparison/depth running/failed 및 잘못된 status에서 호출0회 확인.
+Qwen smoke/all은 .venv-labeling/Scripts/python.exe, 병합/registry/tests는 waiter의 sys.executable을 사용한다.
+따라서 main은 .venv/Scripts/python.exe로 waiter를 실행해야 한다.
+subprocess.run(check=True)는 순차 완료를 기다리고 실패하면 marker 전에 중단한다.
+Qwen all subprocess가 종료된 뒤 두 CPU 병합, registry, parity, CPU tests를 거쳐 marker를 원자적으로 쓴다.
+queue는 marker 전까지 다음 release training을 시작하지 않으므로 정상 단일 queue에서 GPU가 겹치지 않는다.
+잠금은 waiter 중복을 방지한다. 다른 수동 GPU 작업/중복 queue까지 통제하는 시스템 전체 GPU lease는 아니다.
+운영 전제는 main이 기존 단일 queue를 유지하고 별도 GPU 프로세스를 동시에 시작하지 않는 것이다.
+
+경로/설정/의존성
+annotation: data/release/local_marks/qwen3-vl-2b-v1, manifest digest 및 고정 TRAIN20 선택이 annotator와 동일 함수.
+strict merge: --negative-policy strict -> data/release/local_marks/merged_mark_labels.json
+optional merge: --negative-policy vlm_three_absent_no_stable -> data/release/local_marks/merged_mark_labels_vlm_agreement.json
+registry는 optional 경로를 읽고 original_extended_labels/protocol hash, preprocessing version, groups 및 human_review_count=0을 확인한다.
+현재 tests에 __init__.py는 없지만 지정된 Windows 환경에서 tests.* unittest 모듈 해석이 실제 성공했다.
+새 독립 suite도 waiter 명령에 tests.test_release_readiness로 추가 가능함을 main에 전달했다.
+생성 전 기록이므로 실제 VLM smoke/all 레코드나 optional overlay의 의미 정확도는 검증하지 않았다.
+
+landmark 19개 검토와 누수 회귀시험
+현재 schema의 source=landmark 특징은 정확히19개다. fit_feature의 fit 입력은 train_ids에 해당하는
+참가자 중 유효 반복>=3인 표본뿐이다. 15개 일반 특징은 TRAIN 참가자 median의 quantile,
+eye_tilt/brow_tail/mouth_corner는 물리적0, lip_balance는 물리적1을 중심으로 TRAIN 반복 변동만 사용한다.
+각19개에 대해 selection/calibration/test 값과 반복 수/분산을 극단적으로 바꿔도
+fit 결과와 TRAIN labels가 동일함을 확인했다. TRAIN 자체 변경은 결과를 바꾸는 양성 대조도 통과했다.
+모든4개 물리 중심에서 low/level/high class 방향, 중심값, boundary unknown을 확인했다.
+실제 산출물의 중심 주변 경계:
+eye_tilt: [-1.6650614570670872, 1.6650614570670872]
+brow_tail: [-1.3942755120632653, 1.3942755120632653]
+mouth_corner: [-0.018611051891541074, 0.018611051891541074]
+lip_balance: [0.902941815102114, 1.097058184897886]
+입술/입꼬리는 mouth quality gate 때문에 train fitting269명, 눈/눈썹은270명이다.
+
+새 brow endpoint는 각 눈썹의 바깥/안쪽 upper·lower 평균 endpoint를 비교한다.
+이미지 y가 아래로 증가하므로 inner.y-outer.y가 양수일 때 바깥 꼬리가 더 높은 ascending이다.
+양쪽 모두 sign이 일치하고, 중간 arch만 이동해도 endpoint tilt는 바뀌지 않는다.
+평행이동/등방 scale/roll 회전에 대한 synthetic geometry invariance도 통과했다.
+이 항목은 기존 lateral-third arch descent와 다른 관찰량이며 기존 모델과 같은 표적이라고 주장하면 안 된다.
+19개 landmark feature와 기존 visual soft vote key의 교집합은 없어 새 hard label을 오래된 soft vote로 덮지 않는다.
+
+실제 artifact 확인
+현재 registry:400명,12부위,41특징, split270/34/34/62.
+19개 landmark 정의가 registry threshold/metric와 모두 일치.
+landmark_labels.json의 schema/protocol/implementation 해시가 현재 파일과 일치.
+registry에 기록된9개 source hash 모두 현재 파일과 일치. 현재는 VLM overlay가 생성 전이므로9개이며,
+overlay 생성 후 registry 재생성 시 해당 source가 추가되어 marker/protocol에 함께 고정된다.
+crop_parity: v2,400명,L1 frontal6000 crop, mismatch0/cache hash failure0,pass=true.
+이 parity의 범위는 L1 frontal이다. 모든12 lighting/ear/향후 실제 API 전체 검증이라고 확대하지 않는다.
+검토 당시 실제 extended_ready.json은 없었다. 리뷰 테스트의 marker/freeze는 임시 폴더에만 생성했다.
+
+남는 한계와 운영 해석
+18/20 strict JSON 성공은 문법·입력 실행 가능성 기준이며 의미 정확도 기준이 아니다.
+TRAIN 각 클래스>=2, selection/calibration known>=2는 비어 있지 않은 학습 최소 조건일 뿐이다.
+validation/calibration에 단일 클래스만 남을 수 있으므로 클래스별 support/missing class를 반드시 보고한다.
+test support가 readiness를 결정하지 않음을 별도 시험했다. 역사적 test62의 retrospective 성격은 그대로다.
+한 VLM의3조명 응답은 독립3평가자도 아니고 인간 검수 정답도 아니다.
+1.96*TRAIN repeat SD/sqrt(n) guard는 상관된 조명 반복의 휴리스틱이며 검증된 median 신뢰구간이 아니다.
+registry builder는 landmark protocol을 강제 확인하지만 landmark 내부 schema/implementation 해시를
+매번 재검증하지는 않는다. 이번 실제 파일은 모두 일치함을 별도로 확인했다. 이후 generator/schema를 바꾸면
+landmark artifact를 다시 생성하고 새 readiness를 통과해야 한다.
+train source hash freeze는 라벨/프로토콜 파일을 고정한다. 전체 crop binary를 매 epoch 재해시하는 계약은 아니다.
+공유 crop/라벨을 readiness 후 변경하지 않는 운영 조건이 필요하며 full SSOT/실서비스 합격 주장을 대신하지 않는다.
+
+검토 종료 시 파일 SHA256 (동시 작업 이후 변경은 별도 재검토 대상)
+scripts/release/finish_training_inputs.py 2d2c9a7e56d8e1e28ef49ff451922af4f6f1eb2bbb40addf91230df216e17887
+scripts/release/run_training_queue.py a9e609ccd313bd4289e5258cf267f1b06d1de9ffafaabbe657547b15506b4c70
+scripts/release/build_training_registry.py 155c26ef24629126b6fbdfc61875693b1cb9839f8ee0dcc89636020e85bb04a2
+scripts/release/train_models.py efb331790a13d29f0f260eddddc4956c7ca66f5521160cb87b9f88cabebb42e6
+scripts/release/prepare_landmark_labels.py 00c86d0fcd0d24634fd58baed8f0cd210df859ba421ce2fc437bdbc7dd05381e
+tests/test_release_readiness.py 997f3d5a755eb95fba866da22c033dee32efe1077f8e48e55db4e6530a59bc5f

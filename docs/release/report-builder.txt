@@ -1,0 +1,178 @@
+FaceTeller 전체 구현 실험 보고서 생성기
+2026-10-14
+
+범위
+scripts/release/build_report.py만 실행 코드를 추가했다. 이 안내 외에 기존 모델,
+평가기, 백엔드, 프런트엔드 또는 원본 설계 문서를 수정하지 않는다.
+CPU에서 JSON을 읽고 ReportLab/OpenPyXL로 집계한다. torch import, 가중치 로드,
+학습, GPU 연산, 서비스 요청, 데이터베이스 접속은 하지 않는다.
+실제 보고서는 아직 생성하지 않았다. 실제 필수 산출물이 모두 준비된 후 메인이 실행한다.
+
+실행 (프로젝트 루트 / Windows venv)
+  .venv/Scripts/python.exe -B scripts/release/build_report.py --validate-only
+  .venv/Scripts/python.exe -B scripts/release/build_report.py
+
+첫 명령은 입력·해시·400명·집계·개인정보 검사만 한다. 두 번째 명령은 검사 후
+PDF/XLSX/TXT를 함께 생성하고 Downloads 공유 폴더로 복사한다.
+--no-copy: 프로젝트 출력만 생성. --output-dir/--share-dir: 출력 위치 명시.
+--root: 입력 프로젝트 경로. --corpus: 다른 corpus 파일을 명시할 때 사용.
+기본 corpus는 실제 producer 경로인
+data/release/literature/reference_corpus_v1.json이다(corpus.json 자동 추측 없음).
+필요 패키지: reportlab, openpyxl. Windows venv에 설치되어 있음을 확인했다.
+기본 글꼴: C:/Windows/Fonts/malgun.ttf 및 malgunbd.ttf. --font-dir로 변경 가능.
+파일·stdout·stderr 모두 UTF-8을 명시한다.
+
+필수 입력
+- data/release/training_registry.json
+- models/release/deployment.json
+- models/release/{배포 architecture}/{registry part}.json: 모든 조합
+- outputs/release/test_metrics.json
+- data/release/depth_config.json
+- outputs/release/service-verification.json
+- data/release/literature/reference_corpus_v1.json
+corpus.literature_coverage가 없으면 source_registry.json의 coverage_only가 필요하다.
+frontend-report.txt/database-report.txt/crop_parity*.json/문헌 validation_report.json은
+선택 근거다. 없으면 자동 통과로 바꾸지 않는다. 문서는 해시와 범위 참조를 제공하며,
+문서의 테스트 수를 임의 파싱해 최신 전체 실측 통과로 승격하지 않는다.
+
+검증과 실패 동작
+필수 자료가 없거나 잘못되면 종료 코드 2. 없는 값을 0으로 대체하지 않는다.
+registry 400명·270/34/34/62 분할, 모든 부위의 비어 있지 않은 동적 헤드 목록,
+클래스 순서/지지수, 배포·시험·학습 metadata의 registry 및 deployment SHA256,
+실서비스 health와 결과 응답의 deployment/depth_config SHA256을 검사한다.
+service complete/all400=true와 중복 없는 정확한 400명 집합·분할이 필요하다.
+error terminal은 verifier 계약상 개별 runtime 해시가 없으므로 예외로 두되
+health의 신원과 전체 400명 포함 여부를 검사하며 실제 오류 수를 그대로 보고한다.
+오류 응답, 5초 초과, 일부 보정 실패, 오류 경로 검사 실패 자체는 보고서를 막지 않는다.
+이들은 결과로 보고해야 하므로 통과로 바꾸거나 집계에서 숨기지 않는다.
+입력 누락, 잘못된 수치, 집계 모순, 불완전한 400명, 해시 불일치는 생성을 막는다.
+
+가중치 바이너리를 다시 해시하거나 역직렬화하지 않는다. 배포 manifest의 조합과
+학습 metadata 및 실서비스가 보고한 신원을 대조한 범위이며 이를 보고서에도 명시한다.
+DB 적격 조항 수와 반환 조항 ID를 현재 corpus에 대조한다. 당시 HTTP verifier의
+DB 본문 대조 결과도 집계한다. service-verification의 corpus_sha256이 제공되면
+top-level/service health/모든 nonerror participant 및 warmup의 값을 현재 corpus의
+canonical JSON SHA256과 대조한다. json.dumps(ensure_ascii=False, sort_keys=True,
+separators=(',', ':'), allow_nan=False).encode('utf-8') 규칙이며 raw 파일 해시와 다르다.
+줄바꿈·키 순서가 달라도 같은 내용을 같은 revision으로 확인한다. 최신 최종 보고서는
+이 해시가 없으면 생성을 중단한다. raw 파일 해시도 별도로 제공한다.
+추가 score_formula_verified/score_formula_verified_count/score_components_verified_count/
+selection_verified는 요청별 원기록에서 분할별로 재집계한다(예열 제외).
+필드 누락·개수 모순·총괄과 개별 기록 불일치는 최종 보고서 생성을 중단한다.
+오류 false/0과 문헌0개 true/0을 구분하며 실제 조항·구성 특성 검증 수를 함께
+제공한다. false는 사실대로 실패로 보고하고, true와 검증 개수가 일치해야만
+검증 통과 근거로 인정한다. 오류가 있는 실측 결과 자체를 숨기지는 않는다.
+score-influence.json이 있으면 서비스 보고서 raw SHA256/corpus canonical SHA256과
+400명/분할을 대조해 선택적 점수영향감사 시트를 추가한다(기본38, 제공시39시트).
+CNN/깊이 분포·포화·순위 영향은 관측된 영향이며 공정성/정확도 증명으로 표현하지 않는다.
+집계 과정에서 인물 식별자가 출력 문자열에 들어오면 공유를 중단한다.
+입력은 렌더링 후 다시 해시한다. 생성 중 수정되면 기존 보고서를 교체하지 않는다.
+세 파일을 TEMP에서 완성한 다음 파일별 임시 복사→replace한다.
+검증/렌더 실패는 기존 보고서를 보존한다. 목적지 쓰기 실패 시 파일별 교체 일부가
+완료될 수 있으므로 오류 해결 뒤 재실행해야 한다(3개 파일 전체의 트랜잭션은 아님).
+
+산출물
+outputs/release/FaceTeller_전체구현_실험보고서.pdf
+outputs/release/FaceTeller_전체구현_실험보고서.xlsx
+outputs/release/FaceTeller_전체구현_실험보고서.txt
+복사 위치: C:/Users/user/Downloads/FaceTeller_완성프로젝트_공유자료
+
+PDF는 실제 계열·동적 부위/특성 수·역사적 시험 F1/accuracy·HTTP 평균/p95/최대/
+5초 초과·보정 raw/T NLL/ECE로 시작한다. 부위별 학습, 전체 헤드 시험, 깊이 품질,
+서명별 문헌 수록·적격·제외, DB 응답 대조, 검증 근거와 한계를 8~12쪽으로 제공한다.
+페이지 수가 범위를 넘으면 공개 전에 레이아웃 조정이 필요하다는 오류로 중단한다.
+XLSX 38시트: 전체 분류/보정 지표, 클래스별 참조·실제 평가·예측 지지수, ECE bin,
+주석 출처, 모델별 시간, 모든 epoch, 특성별 유효 학습 인물, 부위별 요약/입력 크기,
+HTTP·단계·예열·오류·보류 사유, 전체 특성/부위의 분할 집계, DB 대조, 문헌 순위,
+깊이 경계/sigma/품질, 서명별 범위·미수록 문헌·조항별 조건/제외, 해시/방법/공식 자료.
+TXT도 같은 집계 전체를 제공한다. 개인별 행·인물 ID·사진·원시 좌표·예측 벡터는
+어느 공유 파일에도 넣지 않는다. 문헌 본문을 복제하지 않고 출처 범위를 보고한다.
+Excel 문자열은 수식으로 실행되지 않게 저장한다.
+
+해석 원칙
+- 자동 참조/AI 합의 레이블 일치도이며 전문가 정답 또는 관상/운명 정확도가 아니다.
+- 62명은 역사적 시험 집합. 학습군 포함 400명 전체 HTTP 검증을 독립 시험으로 부르지 않는다.
+- 기존 3계열×5부위×3시드 45회 비교와 새로운 범위/전처리의 release 결과는 별도다.
+  45회 비교 보고서나 모델/평가기는 이 작업에서 수정하지 않았다.
+- F1은 참조/예측 클래스 합집합 기준. 참조 지지수 0 유형은 재현율 평가불가.
+  헤드 평균은 유효 헤드 동일 가중, 온도 전후 비교는 같은 평가 가능한 헤드끼리다.
+- 새 release history는 train_seconds와 validation_seconds를 기록한다. 모든 epoch에
+  검증 시간이 있으면 실제 합계를 제공하고, 과거 기록에 없으면 미기록으로 표시한다.
+  학습합·검증합·elapsed_seconds 전체 경과를 분리한다. elapsed−train을 검증시간으로
+  추정하거나 이번 실행 시간을 새로운 전체 파이프라인 소요시간으로 주장하지 않는다.
+- 배포 train_support는 가시성/crop 조건을 충족한 유효 학습 인물 지지수다.
+  registry의 원본 참조 지지수와 같을 것을 요구하지 않으며 더 적을 수 있다.
+  클래스별 표에서 두 값을 별도 열로 표시한다. 원본 참조보다 큰 값은 모순으로 거부한다.
+- registry.thresholds가 제공되면 측정 metric·경계 방법·물리 중심·실제 경계값·
+  적합 분할/유효 인물·보류 규칙을 주석출처 시트에 기록한다. 방향형의 0 중심과
+  입술 비의 1 중심을 인구 분위수로 오해하지 않도록 설명한다. 눈썹 꼬리의
+  brow_outer_inner_tilt를 반영하며 지지수0 유형의 독립 양성 검출 능력은 주장하지 않는다.
+- len(history)==epochs_max와 selected_epoch==epochs_max는 별도 항목이다.
+- HTTP 시간은 전송 전부터 NDJSON 종료까지. 서버 계측 단계 합과 구분하며,
+  수신 완료 후 전체 처리시간과 동일하다고 주장하지 않는다. 예열은 별도 집계한다.
+  p95는 (n−1)×.95 위치 선형 보간. >5초 건수를 실제 측정값에서 센다.
+- 최신 timings의 alignment_seconds도 단계 합에 포함한다. 별도 연속 계측인
+  received_to_result_seconds는 필수이며 수신 완료 후 디코딩부터 결과 준비까지다.
+  최종 NDJSON 직렬화/전송/정리는 제외한다. HTTP 총시간과 각각 평균/p95/최대/초과를
+  보고하며 실제 클라이언트 수신 시점과 혼동하지 않는다.
+- 깊이 기준은 all400의 기술적 분포이며 실제 3D 정답이 아니다. sigma는 학습군
+  반복 측정, 품질 기준도 학습군 기반이다. 종합 G/깊이 경계점수는 정답확률이 아니다.
+- 실제 PostgreSQL 응답 대조, 합성 UI/카메라 상태 테스트, 실서버 합성 오류 입력을
+  구분한다. 실제 사람 웹캠 또는 전 문헌의 모든 조건이 검증되었다고 일반화하지 않는다.
+- 원 VGGT-1B는 비상업용이다. 별도 Commercial 체크포인트의 허용 범위를 적용하지 않는다.
+  공식 저장소/모델 카드/Guo2017/전이학습 안내 URL을 보고서 끝에 제공한다.
+
+TEMP 합성 검증 (실제 결과 아님; 공유 복사 안 함)
+C:/Users/user/AppData/Local/Temp/faceteller-release-report-check/check_builder.py
+C:/Users/user/AppData/Local/Temp/faceteller-release-report-check/inspect_pdf.mjs
+--synthetic --no-copy는 OS TEMP 내부 root/output 및 모든 주요 입력 synthetic:true가
+필요하다. 일반 실행이 synthetic:true 자료를 실제로 받아들이는 것도 차단한다.
+12부위·48개 CNN+4개 깊이·400명 합성 자료, 일부 미보정·NLL 개선/ECE 악화·503 오류·
+5초 초과·오류 경로 실패를 포함해 PDF12쪽/XLSX38시트/TXT 생성과 실제 집계를 검사했다.
+399명/중복 인물/배포 해시/깊이 해시/corpus canonical 해시/개별 응답 corpus 해시/
+분할/시간 누락/corpus 누락/합성 공유 복사/합성 표식 없는 실행의 11개 잘못된 입력은
+모두 출력 생성 전에 차단했다. 점수 검증 필드 누락·총괄 개수 불일치까지 추가해
+수신 완료→결과 준비 시간 누락까지 현재14개 잘못된 입력을 검사했다.
+corpus 파일 공백·키 순서 변경의 동일성도 검사했다.
+선택 입력 score-influence.json은 TEMP 합성 집계가 추가 시트로 연결되는지 확인했고,
+서비스 해시·corpus 해시가 다른 2개 입력을 별도로 거부했다. 실제 점수 영향 실험은 아니다.
+XLSX/TXT에서 식별자·개별 예측 유출 없음 및 Excel 수식 미생성을 검사했다.
+배포 유효 지지수130과 registry 지지수134를 구분한 합성 입력도 정상 보고되는지
+검사했다. 기록된 검증시간 합계와 미기록 상태가 각각 유지됨도 확인했다.
+점수 검증 참399건 중 빈 문헌1건, 실제 조항398개, 오류1건을 분리한 집계도 검사했다.
+PDF.js로 모든 페이지 한글 추출·합성 표시·인물 식별자 없음·페이지 안전 범위 내
+텍스트를 검사하고 렌더된 표와 첫 페이지를 육안 확인했다. 모든 산출물은 TEMP에만 있다.
+실제 자료로 생성한 뒤에는 그 실제 PDF의 페이지 수/긴 특성명/문헌 서명과 수치를
+확인해야 한다. 이 합성 검증을 실제 모델 성능 또는 400명 실행 통과로 보고하지 않는다.
+
+메인 추가: 현재 모델과 동일 framing으로 얻은 depth-stability.json이 있으면 깊이 구성·측정 레코드 해시를 대조한다. 조명 반복값의 절대 변화·레이블 일치율·ICC(1,1) 및 정규성 진단을 별도 시트로 제공한다. 정상성 검정 결과로 경계를 재선택하지 않는다. corpus.source_sections의 원문 절/문자 수도 서명별로 기록하며 번역 완료 조항과 구분한다. 판본 간 중복 원문도 포함한다.
+OS TEMP 별도 synthetic-root에서 추가3시트(총41시트), PDF12쪽, hash2개 변조 거부, PDF 모든 페이지 경계/문자·식별자 누출 없음 검사를 통과했다. 실제 보고서 수치 검증은 학습·400명 실행 이후이다.
+
+최종 브라우저 연결 증거 추가
+실제 보고서는 frontend-actual-verification.json도 필수로 요구한다. 실제 모델 표시,
+모의응답 아님, 로컬 산출물과 응답의4해시 일치, 사진·외부요청·오류0, PDF 전문 검증
+조항 수와 한쪽 인쇄 표시를 검사한다. 학습군1명의 UI 연결 검사이며400명 정확도와
+구분한다. XLSX에 실제브라우저검증 시트, PDF에 별도 검증근거 행을 추가했다.
+새 OS TEMP 합성fixture: PDF12쪽/XLSX42시트, 잘못된 배포·corpus 해시2개 거부.
+Windows환경에 PyMuPDF가 없어 PDF확인은 기존 pdfjs-dist 도구로 수행했고 모든페이지
+경계·한글·UI근거·식별자 미노출을 통과했다. 실제 UI 검증 수치를 만든 것은 아니다.
+
+문헌 조건 구성 확인(2026-10-15)
+적격 문헌을 CNN만/깊이만/한 조항 안의 CNN+깊이로 직접 집계하는 시트를 추가했다.
+현재 원문 대조를 마친5304조항 중 적격73개는70/3/0이다. 소아 대상 조건이나
+미측정 조건을 삭제해서 혼합 사례를 만들지 않았다. 혼합 기하평균 함수의 검사와
+실제 문헌에서의 결합 사례 수를 PDF에서도 구분한다. 응답 점수 감사의0건도 명시한다.
+UI표는 허용한11개 항목만 내보내며 숫자형 subject_id 같은 추가 필드가 유입돼도
+공유 표에 들어가지 않는다. confirmed/held/인쇄가능 boolean 누락도 검증에서 거부한다.
+수정 후 TEMP 합성 최종 레이아웃: PDF12쪽/XLSX43시트, 전체 페이지 경계·문자·
+식별자 미노출 검사 통과. 실제 모델 수치나 최종 공유 결과를 뜻하지 않는다.
+
+보정·시험 소요 시간(2026-10-15)
+최종 학습기의 실제 보정34명/시험62명 타이머를 보고서의 전체·부위별 시간으로 연결했다.
+실제 결과 생성에서는12부위 누락, 음수/비유한 시간, 부위 합계와 전체의 모순을 거부한다.
+새 TEMP 합성 검사: PDF12쪽/XLSX44시트, 누락/합계 모순2건 거부. pdfjs 전페이지
+경계·한글·식별자 미노출 검사를 통과했다. 실제 보정·시험 시간은 아직 측정 전이다.
+
+수식 글꼴 후속 확인: PDF의 U+2212가 NUL로 추출되는3곳을 ASCII '-'로 바꿨다
+(p95의 n-1, CDF의 1-P1 및 P1-P2). 새 TEMP output-v4의12쪽 전체NUL0,
+한글/경계/식별자 미노출 검사 통과. 수식 의미와 실험 수치는 변경하지 않았다.

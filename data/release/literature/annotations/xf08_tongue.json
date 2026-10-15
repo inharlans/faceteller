@@ -1,0 +1,301 @@
+{
+ "page_id": "xf08",
+ "annotator": "AI model draft (Claude), single pass; no human review",
+ "sections_complete": [
+  "相舌篇第八"
+ ],
+ "passages": [
+  {
+   "passage_id": "XF08-tongue-001",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌小窄方，法主公王。",
+   "translation": "혀가 작고 좁으며 모나면 법(法)에 공(公)과 왕을 주관한다.",
+   "commentary": "혀의 크기·폭·모양에 관한 서술로 레이블이 없고 일반 얼굴 사진에서 보이지 않는다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小窄方",
+     "observable_ko": "혀가 작고 좁고 모남",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-002",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌上長理，三公可擬。",
+   "translation": "혀 위에 긴 결이 있으면 삼공(三公)에 견줄 만하다.",
+   "commentary": "혀 표면의 결(무늬)에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上長理",
+     "observable_ko": "혀 위에 긴 결이 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-003",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌小多紋理，安樂常不已。",
+   "translation": "혀가 작고 무늬와 결이 많으면 편안하고 즐거움이 늘 그치지 않는다.",
+   "commentary": "혀의 크기와 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小多紋理",
+     "observable_ko": "혀가 작고 무늬가 많음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-004",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌至鼻頭，必得封侯。",
+   "translation": "혀가 코끝에 이르면 반드시 제후에 봉해짐을 얻는다.",
+   "commentary": "혀를 내밀어 코끝에 닿는다는 동작 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌至鼻頭",
+     "observable_ko": "혀가 코끝에 닿음",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-005",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌長而薄，萬事虛耗。",
+   "translation": "혀가 길고 얇으면 만사가 헛되이 소모된다.",
+   "commentary": "혀의 길이·두께에 관한 서술로 레이블이 없다. 『고금도서집성』 수록본(許負相舌篇)의 같은 구절은 '舌大而薄'으로 되어 있어 글자가 다르다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌長而薄",
+     "observable_ko": "혀가 길고 얇음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-006",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌大口小，言不了了。",
+   "translation": "혀가 크고 입이 작으면 말이 또렷하지 않다.",
+   "commentary": "'口小'는 입의 가로 폭이 좁음을 직접 말하므로 mouth_width:narrow로 옮겼으나, 혀 크기 조건은 대응 레이블이 없다. 문헌은 혀와 입의 크기 대비를 말의 또렷함과 연결했다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌大",
+     "observable_ko": "혀가 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口小",
+     "observable_ko": "입의 가로 폭이 좁음",
+     "status": "exact",
+     "label": "mouth_width:narrow"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-007",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌小口大，言語捷快。",
+   "translation": "혀가 작고 입이 크면 말이 빠르고 시원하다.",
+   "commentary": "'口大'는 입의 가로 폭이 넓음을 직접 말하므로 mouth_width:wide로 옮겼으나, 혀 크기 조건은 대응 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小",
+     "observable_ko": "혀가 작음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    },
+    {
+     "region": "mouth",
+     "evidence": "口大",
+     "observable_ko": "입의 가로 폭이 넓음",
+     "status": "exact",
+     "label": "mouth_width:wide"
+    }
+   ],
+   "claim_topics": [
+    "other"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-008",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌過粗大，主多饑餓。",
+   "translation": "혀가 지나치게 굵고 크면 굶주림이 많음을 주관한다.",
+   "commentary": "혀의 굵기·크기에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌過粗大",
+     "observable_ko": "혀가 지나치게 굵고 큼",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-009",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌小而短，法主貧賤。",
+   "translation": "혀가 작고 짧으면 법(法)에 가난하고 천함을 주관한다.",
+   "commentary": "혀의 크기·길이에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌小而短",
+     "observable_ko": "혀가 작고 짧음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-010",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌上黑紫，必無終始。",
+   "translation": "혀 위가 검고 자줏빛이면 반드시 처음과 끝이 없다.",
+   "commentary": "혀의 색에 관한 서술로 형태가 아니다. '無終始'는 일의 시작과 끝을 이루지 못함으로 읽었다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上黑紫",
+     "observable_ko": "혀 위가 검붉은 자줏빛",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "색은 조명·카메라에 좌우되며 형태 레이블이 없다"
+    }
+   ],
+   "claim_topics": [
+    "fortune_general",
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-011",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "口語未出，其舌先見。好語他事，必自改變。",
+   "translation": "입에서 말이 나오기 전에 그 혀가 먼저 보이면, 남의 일을 말하기 좋아하고 반드시 스스로 (말을) 바꾼다.",
+   "commentary": "말하기 전에 혀를 내미는 습관에 관한 서술로 정지 사진의 형태가 아니다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "其舌先見",
+     "observable_ko": "말하기 전에 혀가 먼저 보임",
+     "status": "unobservable",
+     "candidate_labels": [],
+     "reason": "동작·습관은 정지 사진의 형태가 아니다"
+    }
+   ],
+   "claim_topics": [
+    "character"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-012",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌上綉文，奴馬成群。財帛千萬，富貴凌雲。",
+   "translation": "혀 위에 수놓은 무늬가 있으면 종과 말이 무리를 이루고, 재물과 비단이 천만이며, 부귀가 구름을 넘는다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌上綉文",
+     "observable_ko": "혀 위에 수놓은 듯한 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  },
+  {
+   "passage_id": "XF08-tongue-013",
+   "section": "相舌篇第八",
+   "region": "tongue",
+   "original_text": "舌有支理紋，富貴必超升。",
+   "translation": "혀에 갈래 진 결의 무늬가 있으면 부귀하여 반드시 뛰어오른다.",
+   "commentary": "혀 표면 무늬에 관한 서술로 레이블이 없다.",
+   "conditions": [
+    {
+     "region": "tongue",
+     "evidence": "舌有支理紋",
+     "observable_ko": "혀에 갈래 진 결 무늬가 있음",
+     "status": "unmapped",
+     "candidate_labels": [],
+     "reason": "혀의 형태는 레이블 체계에 없고 일반 얼굴 사진에서 보이지 않는다"
+    }
+   ],
+   "claim_topics": [
+    "wealth",
+    "rank_office"
+   ]
+  }
+ ]
+}

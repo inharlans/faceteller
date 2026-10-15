@@ -1,0 +1,957 @@
+{
+  "page_id": "lz63880",
+  "annotator": "AI model draft (Codex), literal Korean annotation from primary NLC transcription; not human-reviewed",
+  "sections_complete": [],
+  "scope_note": "Selected self-contained face-morphology clauses in palace sections; non-morphology text retained by separate raw-book archive. Check witness is not annotated.",
+  "passages": [
+    {
+      "passage_id": "LZC63880-palace-001",
+      "section": "一命宮",
+      "original_text": "山根平滿必主福壽",
+      "translation": "산근이 평평하고 충만하면 반드시 복과 수명을 주관한다.",
+      "commentary": "산근(山根)은 양 눈 사이의 코뿌리 부위다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "山根平滿",
+          "observable_ko": "산근이 평평하고 충만함",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:low"
+          ],
+          "reason": "平滿은 낮은 산근 하나로 충족되지 않는 복합 표현이다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-002",
+      "section": "一命宮",
+      "original_text": "土星高聳必主財源",
+      "translation": "토성이 높이 솟으면 반드시 재물의 근원을 주관한다.",
+      "commentary": "토성(土星)은 이 문맥에서 코를 가리킨다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "土星高聳",
+          "observable_ko": "코가 높이 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high"
+          ],
+          "reason": "토성은 코 전체를 가리켜 산근과 코끝의 높이를 구별하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-003",
+      "section": "一命宮",
+      "original_text": "眼若分明定保雙全富貴",
+      "translation": "눈이 분명하면 반드시 부귀를 둘 다 온전히 누린다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "眼若分明",
+          "observable_ko": "눈이 분명함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "分明은 눈의 크기나 깊이의 특정 클래스를 뜻하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-004",
+      "section": "一命宮",
+      "original_text": "額如川字命逢驛馬大顯官星",
+      "translation": "이마가 천(川) 자와 같으면 명에서 역마를 만나 관성이 크게 드러난다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額如川字",
+          "observable_ko": "이마의 천 자 모양",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이마 무늬의 모양을 판정하는 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-005",
+      "section": "一命宮",
+      "original_text": "眉接交加成下賤",
+      "translation": "눈썹이 맞닿아 뒤얽히면 천한 처지가 된다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉接交加",
+          "observable_ko": "두 눈썹이 맞닿고 뒤얽힘",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "눈썹 사이 간격이 좁다는 분류만으로 눈썹의 연결을 보장하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-006",
+      "section": "一命宮",
+      "original_text": "紋亂離鄉又尅妻",
+      "translation": "무늬가 어지러우면 고향을 떠나고 또 아내를 해친다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "紋亂",
+          "observable_ko": "명궁 부근의 어지러운 무늬",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "문맥의 무늬는 주름의 배치를 가리키며 대응 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "kinship_harm",
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-007",
+      "section": "一命宮",
+      "original_text": "故額窄眉枯乃一世窮苦之相",
+      "translation": "그러므로 이마가 좁고 눈썹이 마른 것은 평생 궁핍하고 고생하는 상이다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額窄",
+          "observable_ko": "이마가 좁음",
+          "status": "exact",
+          "label": "forehead_width:narrow"
+        },
+        {
+          "region": "brow",
+          "evidence": "眉枯",
+          "observable_ko": "눈썹이 마른 듯함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "枯는 눈썹의 윤기·상태를 평가하며 밀도와 같지 않다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-008",
+      "section": "二財帛宮",
+      "original_text": "截筒懸膽千倉萬箱",
+      "translation": "잘라 놓은 통이나 매달린 쓸개 같은 코이면 곡식 창고가 천 개이고 궤짝이 만 개라고 한다.",
+      "commentary": "재백궁(財帛宮)은 본문에서 코를 가리킨다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "截筒懸膽",
+          "observable_ko": "코가 통이나 매달린 쓸개처럼 보임",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "nose_tip:rounded"
+          ],
+          "reason": "동물·사물 비유만으로 코끝의 구체적 형태를 확정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-009",
+      "section": "二財帛宮",
+      "original_text": "聳直豐隆一生富貴",
+      "translation": "코가 솟고 곧으며 풍성하게 융기하면 평생 부귀하다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "聳直",
+          "observable_ko": "코가 솟고 곧음",
+          "status": "approximate",
+          "candidate_labels": [
+            "nose_bridge:high"
+          ],
+          "reason": "코 전체의 융기와 곧음은 산근 높이 한 항목으로 충족되지 않는다."
+        },
+        {
+          "region": "nose",
+          "evidence": "豐隆",
+          "observable_ko": "코가 풍성하게 융기함",
+          "status": "approximate",
+          "candidate_labels": [
+            "alar_fullness:full"
+          ],
+          "reason": "부위가 콧방울로 한정되지 않고 융기도 함께 요구한다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-010",
+      "section": "二財帛宮",
+      "original_text": "中正不偏須知福祿滔滔",
+      "translation": "코가 가운데 바르고 치우치지 않으면 복록이 넘친다고 알아야 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "中正不偏",
+          "observable_ko": "코가 가운데 바르며 치우치지 않음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "코 축의 편위를 판정하는 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general",
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-011",
+      "section": "二財帛宮",
+      "original_text": "鶯小尖峯到老貧寒下賤",
+      "translation": "앵(鶯)이 작고 봉우리가 뾰족하면 늙도록 가난하고 천하다고 한다.",
+      "commentary": "원 전사의 鶯자를 다른 글자로 고쳐 해석하지 않고 불확실성을 남겼다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "鶯小尖峯",
+          "observable_ko": "작음과 뾰족한 봉우리를 서술한 불확실 구절",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "nose_tip:tapered"
+          ],
+          "reason": "전사된 鶯의 지시 대상을 확정할 수 없어 코끝의 뾰족함으로 단정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-012",
+      "section": "二財帛宮",
+      "original_text": "莫教孔仰主無隔宿之糧",
+      "translation": "콧구멍이 위를 향하지 않게 하라. 하룻밤을 넘겨 남겨 둘 양식이 없음을 주관한다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "孔仰",
+          "observable_ko": "콧구멍이 위로 드러남",
+          "status": "exact",
+          "label": "nostril_show:visible"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-013",
+      "section": "二財帛宮",
+      "original_text": "廚灶若空必定家無所積",
+      "translation": "부엌과 아궁이가 비면 반드시 집에 쌓아 둔 것이 없다고 한다.",
+      "commentary": "주조(廚灶)는 이 문맥의 코 부위 비유이며, 비어 있다는 표현을 노출과 동일시하지 않는다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "nose",
+      "conditions": [
+        {
+          "region": "nose",
+          "evidence": "廚灶若空",
+          "observable_ko": "콧구멍에 비유한 아궁이가 빔",
+          "status": "approximate",
+          "candidate_labels": [
+            "nostril_show:visible"
+          ],
+          "reason": "空은 단순 노출인지 주변의 빈약함인지 명확하지 않다."
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-014",
+      "section": "三兄弟宮",
+      "original_text": "眉長過目兄弟三四無刑",
+      "translation": "눈썹이 길어 눈을 넘으면 형제가 서넛이며 형해가 없다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉長過目",
+          "observable_ko": "눈썹 길이가 눈의 길이를 넘음",
+          "status": "approximate",
+          "candidate_labels": [
+            "brow_length:long"
+          ],
+          "reason": "코호트 상대 눈썹 길이는 눈보다 길다는 문자 그대로의 비교를 보장하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "kinship_harm"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-015",
+      "section": "三兄弟宮",
+      "original_text": "眉秀而清兄弟還須有貴",
+      "translation": "눈썹이 빼어나고 맑으면 형제 가운데 귀한 사람이 있다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉秀而清",
+          "observable_ko": "눈썹이 빼어나고 맑음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "미적 평가어를 특정 외형 클래스로 정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-016",
+      "section": "三兄弟宮",
+      "original_text": "形如新月和睦永遠超羣",
+      "translation": "눈썹 모양이 초승달 같으면 화목이 오래가며 무리보다 뛰어나다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "形如新月",
+          "observable_ko": "눈썹이 초승달처럼 휘어 있음",
+          "status": "exact",
+          "label": "brow_shape:arched"
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-017",
+      "section": "三兄弟宮",
+      "original_text": "若是短粗手足難同定別",
+      "translation": "눈썹이 짧고 굵으면 형제가 함께하기 어려워 반드시 헤어진다고 한다.",
+      "commentary": "手足은 이 장절에서 형제를 가리킨다. 짧음과 굵음 두 조건을 함께 보존한다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "短",
+          "observable_ko": "눈썹이 짧음",
+          "status": "exact",
+          "label": "brow_length:short"
+        },
+        {
+          "region": "brow",
+          "evidence": "粗",
+          "observable_ko": "눈썹이 굵음",
+          "status": "exact",
+          "label": "brow_thickness:thick"
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-018",
+      "section": "三兄弟宮",
+      "original_text": "兩樣眉毛必須異姓",
+      "translation": "서로 두 모양인 눈썹이면 반드시 성이 다른 이와 관련된다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "兩樣眉毛",
+          "observable_ko": "양쪽 눈썹의 모양이 서로 다름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "눈썹 좌우 비대칭을 판정하는 항목이 없고 눈 비대칭과는 다르다."
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-019",
+      "section": "三兄弟宮",
+      "original_text": "交連黃濁身喪他鄉",
+      "translation": "눈썹이 이어지고 누렇고 탁하면 타향에서 몸을 잃는다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "交連",
+          "observable_ko": "눈썹이 서로 이어짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "黃濁",
+          "observable_ko": "눈썹이 누렇고 탁함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "death_lifespan"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-020",
+      "section": "三兄弟宮",
+      "original_text": "頭高尾低兄弟不如",
+      "translation": "눈썹 머리가 높고 꼬리가 낮으면 형제가 못하다고 한다.",
+      "commentary": "눈썹 안쪽과 바깥 endpoint의 상대 높이를 직접 말하므로 방향 조건을 보존한다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "頭高尾低",
+          "observable_ko": "안쪽 눈썹 머리에 비해 바깥 꼬리가 낮음",
+          "status": "exact",
+          "label": "brow_tail:descending"
+        }
+      ],
+      "claim_topics": [
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-021",
+      "section": "四田宅宮",
+      "original_text": "鳳目高眉置稅三州五縣",
+      "translation": "봉황 같은 눈과 높은 눈썹이면 세 주와 다섯 현에 세입을 둘 만큼 재산을 가진다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "鳳目",
+          "observable_ko": "봉황 눈이라는 비유",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "eye_tilt:up"
+          ],
+          "reason": "봉황 비유만으로 눈꼬리 방향을 정할 수 없다."
+        },
+        {
+          "region": "brow",
+          "evidence": "高眉",
+          "observable_ko": "눈썹이 높음",
+          "status": "exact",
+          "label": "brow_eye_gap:wide"
+        }
+      ],
+      "claim_topics": [
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-022",
+      "section": "五男女宮",
+      "original_text": "三陽平滿男女福祿榮華",
+      "translation": "삼양이 평평하고 충만하면 아들딸이 복록을 누리고 영화롭다고 한다.",
+      "commentary": "삼양(三陽)과 눈밑 누당·와잠은 문헌의 부위 명칭이며 서로 동일한 측정 영역으로 단정하지 않는다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "三陽平滿",
+          "observable_ko": "눈 아래 삼양 부위가 평평하고 충만함",
+          "status": "approximate",
+          "candidate_labels": [
+            "under_eye:visible"
+          ],
+          "reason": "삼양의 위치와 충만함은 도톰한 눈밑 형태 하나와 동일하지 않다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-023",
+      "section": "五男女宮",
+      "original_text": "隱隱臥蠶子息終須有貴",
+      "translation": "은은한 와잠이 있으면 자식 가운데 마침내 귀한 이가 나온다고 한다.",
+      "commentary": "와잠(臥蠶)은 눈 바로 아래 도톰한 윤곽을 가리킨다. 본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "隱隱臥蠶",
+          "observable_ko": "와잠이 은은하게 보임",
+          "status": "exact",
+          "label": "under_eye:visible"
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-024",
+      "section": "五男女宮",
+      "original_text": "淚堂深陷男女無緣",
+      "translation": "누당이 깊이 꺼지면 아들딸과 인연이 없다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "淚堂深陷",
+          "observable_ko": "눈 아래 누당이 깊이 꺼짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "눈밑 돌출 여부는 깊은 꺼짐을 직접 측정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-025",
+      "section": "五男女宮",
+      "original_text": "黑痣斜紋不得男送女老",
+      "translation": "검은 점과 비스듬한 무늬가 있으면 아들의 배웅과 딸의 노년 봉양을 얻지 못한다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "under_eye",
+      "conditions": [
+        {
+          "region": "under_eye",
+          "evidence": "黑痣",
+          "observable_ko": "눈밑 특정 위치에 검은 점이 있음",
+          "status": "approximate",
+          "candidate_labels": [
+            "pigmented_marks:present"
+          ],
+          "reason": "전체 상안면의 가시적 자국 표적은 눈밑 위치와 임상적 점의 정체를 보장하지 않는다."
+        },
+        {
+          "region": "under_eye",
+          "evidence": "斜紋",
+          "observable_ko": "눈밑에 비스듬한 주름이 있음",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring",
+        "family_children"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-026",
+      "section": "五男女宮",
+      "original_text": "嘴如吹火女人獨守蘭房",
+      "translation": "입이 불을 부는 듯하면 여인은 홀로 방을 지킨다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "嘴如吹火",
+          "observable_ko": "입이 불을 부는 듯함",
+          "status": "approximate",
+          "candidate_labels": [
+            "lip_projection:protruded"
+          ],
+          "reason": "비유에는 입술 돌출 외 모양이 포함될 수 있다."
+        },
+        {
+          "region": "subject",
+          "evidence": "女人",
+          "observable_ko": "여성 대상의 서술",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-027",
+      "section": "五男女宮",
+      "original_text": "人中平滿子息難言",
+      "translation": "인중이 평평하고 가득 차면 자식 일을 말하기 어렵다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "philtrum",
+      "conditions": [
+        {
+          "region": "philtrum",
+          "evidence": "人中平滿",
+          "observable_ko": "인중이 평평하고 가득 참",
+          "status": "approximate",
+          "candidate_labels": [
+            "philtrum_definition:faint"
+          ],
+          "reason": "平滿은 골의 희미함과 충만함을 함께 서술한다."
+        }
+      ],
+      "claim_topics": [
+        "fertility_offspring"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-028",
+      "section": "六奴僕宮",
+      "original_text": "頦圓豐滿侍立成羣",
+      "translation": "턱이 둥글고 풍만하면 시립하는 이들이 무리를 이룬다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "頦圓",
+          "observable_ko": "턱이 둥긂",
+          "status": "exact",
+          "label": "chin_shape:rounded"
+        },
+        {
+          "region": "chin",
+          "evidence": "豐滿",
+          "observable_ko": "턱이 풍만함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "턱의 둥근 모양은 풍만함까지 보장하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-029",
+      "section": "六奴僕宮",
+      "original_text": "口如四字主呼聚喝散之權",
+      "translation": "입이 사(四) 자 같으면 부르면 모이고 꾸짖으면 흩어지는 권한을 주관한다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "mouth",
+      "conditions": [
+        {
+          "region": "mouth",
+          "evidence": "口如四字",
+          "observable_ko": "입이 사 자처럼 보임",
+          "status": "ambiguous",
+          "candidate_labels": [
+            "mouth_width:wide"
+          ],
+          "reason": "글자 비유만으로 입의 상대 너비를 확정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-030",
+      "section": "七妻妾宮",
+      "original_text": "顴骨侵天因妻得祿",
+      "translation": "관골이 하늘을 침범할 듯 높으면 아내로 인해 녹을 얻는다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "cheekbone",
+      "conditions": [
+        {
+          "region": "cheekbone",
+          "evidence": "顴骨侵天",
+          "observable_ko": "관골이 매우 높이 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "cheekbone:prominent"
+          ],
+          "reason": "侵天이라는 극단적 높이는 단순 돌출 분류로 보장하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "marriage",
+        "wealth"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-031",
+      "section": "七妻妾宮",
+      "original_text": "奸門深陷常作新郎",
+      "translation": "간문이 깊이 꺼지면 자주 신랑이 된다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "eye",
+      "conditions": [
+        {
+          "region": "eye",
+          "evidence": "奸門深陷",
+          "observable_ko": "눈꼬리 바깥 간문이 깊이 꺼짐",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "간문 꺼짐은 안구 깊이 항목과 다르다."
+        }
+      ],
+      "claim_topics": [
+        "marriage"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-032",
+      "section": "九遷移宮",
+      "original_text": "額角低陷到老住場難覓",
+      "translation": "이마 모서리가 낮고 꺼지면 늙도록 거처를 찾기 어렵다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "forehead",
+      "conditions": [
+        {
+          "region": "forehead",
+          "evidence": "額角低陷",
+          "observable_ko": "이마 모서리가 낮게 꺼짐",
+          "status": "approximate",
+          "candidate_labels": [
+            "forehead_height:low"
+          ],
+          "reason": "이마 모서리의 국소 꺼짐은 가시 이마 높이가 낮음과 다르다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-033",
+      "section": "九遷移宮",
+      "original_text": "眉毛一缺此人破祖離宗",
+      "translation": "눈썹에 한 군데 결손이 있으면 조상의 기반을 깨고 종가를 떠난다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉毛一缺",
+          "observable_ko": "눈썹 한 부분이 결손됨",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "국소 결손은 꼬리 흐림이나 전체 밀도와 동일하지 않다."
+        }
+      ],
+      "claim_topics": [
+        "family_children",
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-034",
+      "section": "十一福德宮",
+      "original_text": "頦圓額窄應知苦在初年",
+      "translation": "턱이 둥글고 이마가 좁으면 고생이 초년에 있다고 알아야 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "chin",
+      "conditions": [
+        {
+          "region": "chin",
+          "evidence": "頦圓",
+          "observable_ko": "턱이 둥긂",
+          "status": "exact",
+          "label": "chin_shape:rounded"
+        },
+        {
+          "region": "forehead",
+          "evidence": "額窄",
+          "observable_ko": "이마가 좁음",
+          "status": "exact",
+          "label": "forehead_width:narrow"
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-035",
+      "section": "十一福德宮",
+      "original_text": "頭大額尖困苦還來晚景",
+      "translation": "머리가 크고 이마가 뾰족하면 고생이 다시 만년에 온다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "頭大",
+          "observable_ko": "머리가 큼",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "얼굴 길이·폭은 머리 전체 크기를 나타내지 않는다."
+        },
+        {
+          "region": "forehead",
+          "evidence": "額尖",
+          "observable_ko": "이마가 뾰족함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "이마의 높이·너비는 뾰족함을 나타내지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-036",
+      "section": "十一福德宮",
+      "original_text": "眉高耳聳還可榮身",
+      "translation": "눈썹이 높고 귀가 솟으면 몸을 영화롭게 할 수 있다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉高",
+          "observable_ko": "눈썹이 높음",
+          "status": "exact",
+          "label": "brow_eye_gap:wide"
+        },
+        {
+          "region": "ear",
+          "evidence": "耳聳",
+          "observable_ko": "귀가 솟음",
+          "status": "approximate",
+          "candidate_labels": [
+            "ear_length:long"
+          ],
+          "reason": "귀의 위치나 솟음을 귀의 길이로 확정하지 않는다."
+        }
+      ],
+      "claim_topics": [
+        "rank_office"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-037",
+      "section": "十一福德宮",
+      "original_text": "眉壓耳枯休言福德",
+      "translation": "눈썹이 눌리고 귀가 마르면 복덕을 말하지 말라고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "brow",
+      "conditions": [
+        {
+          "region": "brow",
+          "evidence": "眉壓",
+          "observable_ko": "눈썹이 아래를 누르는 형상",
+          "status": "approximate",
+          "candidate_labels": [
+            "brow_eye_gap:close"
+          ],
+          "reason": "실제 압박 또는 다른 부위와의 관계는 상대 간격 클래스만으로 보장하지 않는다."
+        },
+        {
+          "region": "ear",
+          "evidence": "耳枯",
+          "observable_ko": "귀가 메마른 듯함",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "fortune_general"
+      ]
+    },
+    {
+      "passage_id": "LZC63880-palace-038",
+      "section": "十二相貌宮",
+      "original_text": "若五嶽朝歸三停平等行坐威嚴爲人尊重此人富貴多榮",
+      "translation": "오악이 서로 향하고 삼정이 고르며 걷고 앉음에 위엄이 있어 남의 존중을 받으면 이 사람은 부귀와 영화가 많다고 한다.",
+      "commentary": "본문이 외형과 연결한 역사적 주장으로 보존한다. 실제 사람의 성품·건강·운명을 판정하는 근거로 해석하지 않는다.",
+      "region": "face",
+      "conditions": [
+        {
+          "region": "face",
+          "evidence": "五嶽朝歸",
+          "observable_ko": "이마·코·턱·양 관골의 배치가 서로 조응함",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        },
+        {
+          "region": "face",
+          "evidence": "三停平等",
+          "observable_ko": "얼굴 삼정이 고름",
+          "status": "unmapped",
+          "candidate_labels": [],
+          "reason": "삼정의 균등함에는 긴 하정 또는 짧은 하정이라는 방향 대응이 없다."
+        },
+        {
+          "region": "other",
+          "evidence": "行坐威嚴",
+          "observable_ko": "걷고 앉음에 위엄이 있음",
+          "status": "unobservable",
+          "candidate_labels": [],
+          "reason": "해당 표현을 판정할 독립적인 정지사진 형태 항목이 없다."
+        }
+      ],
+      "claim_topics": [
+        "wealth",
+        "rank_office"
+      ]
+    }
+  ]
+}
