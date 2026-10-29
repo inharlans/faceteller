@@ -1,5 +1,5 @@
 import {FaceLandmarker, FilesetResolver} from '@mediapipe/tasks-vision';
-import {eulerXYZ, quality} from './capture';
+import {eulerXYZ, guideFit, quality} from './capture';
 import type {Direction} from './types';
 
 let model: Promise<FaceLandmarker> | undefined;
@@ -31,7 +31,7 @@ self.onmessage = (event: MessageEvent<{id: number; bitmap: ImageBitmap; directio
       const categories = r.faceBlendshapes[0]?.categories || [];
       const blend = (name: string) => categories.find(c => c.categoryName === name)?.score ?? Infinity;
       const result = quality(eulerXYZ(r.facialTransformationMatrixes[0]?.data || []), direction, r.faceLandmarks.length,
-        (x1-x0)*bitmap.width, bitmap.width, brightness, Math.max(blend('mouthSmileLeft'),blend('mouthSmileRight')), Math.max(blend('eyeBlinkLeft'),blend('eyeBlinkRight')), mode);
+        (x1-x0)*bitmap.width, bitmap.width, brightness, Math.max(blend('mouthSmileLeft'),blend('mouthSmileRight')), Math.max(blend('eyeBlinkLeft'),blend('eyeBlinkRight')), mode, guideFit(landmarks));
       self.postMessage({id, result}); // No pixels or raw coordinates leave the worker.
     } catch {self.postMessage({id, error: '얼굴 검사기를 시작할 수 없습니다. 페이지를 새로 열고 다시 시도해 주세요.'});}
     finally {bitmap.close();}
