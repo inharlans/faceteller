@@ -1,5 +1,5 @@
 import {describe,expect,it} from 'vitest';
-import {ACQUISITION,CaptureState,eulerXYZ,quality} from '../src/capture';
+import {ACQUISITION,CaptureState,eulerXYZ,guideFit,quality} from '../src/capture';
 import {readNDJSON,validateResult} from '../src/api';
 import {DIRECTIONS,type Conditions} from '../src/types';
 const good:Conditions={face:true,direction:true,size:true,brightness:true,expression:true,message:'좋음'};
@@ -50,4 +50,14 @@ it('uses the framing ratio only for camera guidance; upload still needs 150 insp
   expect(quality(p,'front',1,157,864,128,0,0,'camera').size).toBe(false);
   expect(quality(p,'front',1,157,864,128,0,0,'upload').size).toBe(true);
   expect(quality(p,'front',1,149,864,128,0,0,'upload').size).toBe(false);
+});
+it('camera framing requires the face inside the guide ellipse; uploads ignore it',()=>{
+  const p={yaw:0,pitch:0,roll:0},ring=(cx:number,cy:number)=>Array.from({length:36},(_,i)=>({x:cx+.15*Math.cos(i/36*2*Math.PI),y:cy+.28*Math.sin(i/36*2*Math.PI)}));
+  expect(guideFit(ring(.5,.5))).toBe(1);
+  expect(guideFit(ring(.2,.5))).toBeLessThan(ACQUISITION.minInGuide);
+  expect(guideFit([])).toBe(0);
+  expect(quality(p,'front',1,300,864,128,0,0,'camera',guideFit(ring(.5,.5))).size).toBe(true);
+  const off=quality(p,'front',1,300,864,128,0,0,'camera',guideFit(ring(.2,.5)));
+  expect(off.size).toBe(false); expect(off.message).toContain('안내선 안');
+  expect(quality(p,'front',1,300,864,128,0,0,'upload',0).size).toBe(true);
 });

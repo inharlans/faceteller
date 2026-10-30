@@ -1,6 +1,8 @@
 import {DIRECTIONS, type Conditions, type Direction} from './types';
 // Configurable acquisition defaults; these are not validated clinical thresholds.
-export const ACQUISITION = {holdMs: 800, goodFrames: 8, maxGapMs: 300, maxAgeMs: 400, frontYaw: 12, obliqueMin: 20, obliqueMax: 60, pitchCenter: -5, pitchTolerance: 16, roll: 12, minFacePixels: 150, minFaceRatio: .25, maxFaceRatio: .8, minBrightness: 45, maxBrightness: 235, maxSmile: .3, maxBlink: .5};
+export const ACQUISITION = {holdMs: 800, goodFrames: 8, maxGapMs: 300, maxAgeMs: 400, frontYaw: 12, obliqueMin: 20, obliqueMax: 60, pitchCenter: -5, pitchTolerance: 16, roll: 12, minFacePixels: 150, minFaceRatio: .25, maxFaceRatio: .8, minBrightness: 45, maxBrightness: 235, maxSmile: .3, maxBlink: .5,
+  // On-screen guide ellipse (.camera-guide over a 4:3 frame) in normalized frame coordinates; symmetric, so mirroring does not move it.
+  guide: {cx: .5, cy: .5, rx: .183, ry: .338, tolerance: 1.08}, minInGuide: .95};
 export interface Token {generation: number; direction: Direction | undefined}
 export class CaptureState {
   private generation = 0;
@@ -33,6 +35,12 @@ export class CaptureState {
   submitOnce() {if (this.index !== 3 || this.submitted) return false; this.submitted = true; return true;}
 }
 export interface Pose {pitch: number; yaw: number; roll: number}
+/** Share of landmarks inside the (slightly widened) guide ellipse; 0 when there are none. */
+export function guideFit(points: {x: number; y: number}[]): number {
+  const g = ACQUISITION.guide;
+  if (!points.length) return 0;
+  return points.filter(p => ((p.x - g.cx) / g.rx) ** 2 + ((p.y - g.cy) / g.ry) ** 2 <= g.tolerance ** 2).length / points.length;
+}
 // Direction IDs refer to the unmirrored image sent to the server. A mirrored
 // self-view reverses only the on-screen instruction, never the captured pixels.
 export function captureDirectionLabel(direction: Direction, mode: 'camera' | 'upload' = 'camera'): string {
@@ -59,10 +67,10 @@ export function eulerXYZ(m: number[]): Pose {
   const roll = Math.abs(Math.cos(yaw)) > 1e-6 ? Math.atan2(m[1] / x, m[0] / x) : 0;
   return {pitch: pitch * 180 / Math.PI, yaw: yaw * 180 / Math.PI, roll: roll * 180 / Math.PI};
 }
-export function quality(p: Pose, direction: Direction, faceCount: number, faceWidth: number, frameWidth: number, brightness: number, smile: number, blink: number, mode: 'camera' | 'upload' = 'camera'): Conditions {
+export function quality(p: Pose, direction: Direction, faceCount: number, faceWidth: number, frameWidth: number, brightness: number, smile: number, blink: number, mode: 'camera' | 'upload' = 'camera', inGuide = 1): Conditions {
   const a = ACQUISITION;
   const yawOk = direction === 'front' ? Math.abs(p.yaw) <= a.frontYaw : Math.abs(p.yaw) >= a.obliqueMin && Math.abs(p.yaw) <= a.obliqueMax && (direction === 'left_oblique' ? p.yaw < 0 : p.yaw > 0);
-  const c: Conditions = {face: faceCount === 1, direction: yawOk && Math.abs(p.pitch - a.pitchCenter) <= a.pitchTolerance && Math.abs(p.roll) <= a.roll, size: faceWidth >= a.minFacePixels && (mode === 'upload' || (faceWidth / frameWidth >= a.minFaceRatio && faceWidth / frameWidth <= a.maxFaceRatio)), brightness: brightness >= a.minBrightness && brightness <= a.maxBrightness, expression: smile <= a.maxSmile && blink <= a.maxBlink, yaw: p.yaw, message: ''};
-  c.message = !c.face ? (faceCount > 1 ? '한 사람만 화면에 들어오게 해 주세요.' : '얼굴을 안내선 안에 맞춰 주세요.') : !c.direction ? captureDirectionHint(direction, mode) : !c.size ? (mode === 'upload' ? '얼굴이 더 크게 나온 원본 사진을 선택해 주세요.' : '얼굴이 안내선에 맞도록 거리를 조절해 주세요.') : !c.brightness ? '얼굴에 고르게 빛이 들어오도록 조명을 조절해 주세요.' : !c.expression ? '눈을 뜨고 편안한 무표정을 유지해 주세요.' : '좋습니다. 잠시 그대로 유지해 주세요.';
+  const c: Conditions = {face: faceCount === 1, direction: yawOk && Math.abs(p.pitch - a.pitchCenter) <= a.pitchTolerance && Math.abs(p.roll) <= a.roll, size: faceWidth >= a.minFacePixels && (mode === 'upload' || (inGuide >= a.minInGuide && faceWidth / frameWidth >= a.minFaceRatio && faceWidth / frameWidth <= a.maxFaceRatio)), brightness: brightness >= a.minBrightness && brightness <= a.maxBrightness, expression: smile <= a.maxSmile && blink <= a.maxBlink, yaw: p.yaw, message: ''};
+  c.message = !c.face ? (faceCount > 1 ? '한 사람만 화면에 들어오게 해 주세요.' : '얼굴을 안내선 안에 맞춰 주세요.') : !c.direction ? captureDirectionHint(direction, mode) : !c.size ? (mode === 'upload' ? '얼굴이 더 크게 나온 원본 사진을 선택해 주세요.' : inGuide < a.minInGuide ? '얼굴 전체가 안내선 안에 들어오게 해 주세요.' : '얼굴이 안내선에 맞도록 거리를 조절해 주세요.') : !c.brightness ? '얼굴에 고르게 빛이 들어오도록 조명을 조절해 주세요.' : !c.expression ? '눈을 뜨고 편안한 무표정을 유지해 주세요.' : '좋습니다. 잠시 그대로 유지해 주세요.';
   return c;
 }

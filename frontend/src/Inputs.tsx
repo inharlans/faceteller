@@ -43,7 +43,7 @@ export function Upload({onReady, onBack, onCamera}: {onReady: (set: InputSet) =>
       if (alive.current && versions.current[direction] === version) update(direction,{status:'invalid',message:e instanceof Error ? e.message : '사진을 다시 선택해 주세요.'});
     }
   }
-  return <section aria-labelledby="upload-title"><div className="section-heading center"><p className="eyebrow">사진 업로드</p><h1 id="upload-title">같은 사람의 사진 3장을 준비해 주세요</h1><p className="lead">정면 한 장, 고개를 왼쪽·오른쪽으로 돌린 사진 각 한 장<br/>세 장이 모두 확인되면 바로 분석을 시작합니다.</p></div>
+  return <section aria-labelledby="upload-title"><div className="section-heading center"><p className="eyebrow">사진 업로드</p><h1 id="upload-title">같은 사람의 사진 3장을 준비해 주세요</h1><p className="lead">정면 한 장, 고개를 왼쪽·오른쪽으로 돌린 사진 각 한 장<br/>세 장이 모두 확인되면 사진 확인 화면으로 넘어갑니다.</p></div>
     <div className="upload-grid">{DIRECTIONS.map((d,i) => <div key={d} className={`upload-slot ${slots[d].status}`} onDragOver={e => e.preventDefault()} onDrop={e => {e.preventDefault(); if (e.dataTransfer.files.length === 1) void select(d,e.dataTransfer.files[0]); else {versions.current[d]++; update(d,{status:'invalid',message:'방향마다 사진 한 장을 선택해 주세요.'});}}}>
       <h2><span className="step-number">0{i+1}</span>{uploadLabel(d)}</h2>
       <label className="drop-area" htmlFor={`file-${d}`}>{slots[d].url ? <img src={slots[d].url} alt={`${uploadLabel(d)} 임시 미리보기`}/> : <><span className="direction-icon" aria-hidden="true">{i===0 ? '◎' : i===1 ? '↶' : '↷'}</span><span>사진을 놓거나 파일 선택</span></>}<input id={`file-${d}`} type="file" accept="image/jpeg,image/png,image/webp" onChange={e => {const file = e.target.files?.[0]; e.target.value = ''; void select(d,file);}}/></label>
@@ -61,14 +61,25 @@ function snapshotBlob(bitmap: ImageBitmap): Promise<Blob> {
   ctx.drawImage(bitmap,0,0);
   return new Promise((resolve,reject) => canvas.toBlob(blob => {canvas.width=0; canvas.height=0; if(blob) resolve(blob); else reject(new Error('촬영한 사진을 읽을 수 없습니다.'));},'image/jpeg',.92));
 }
+// Local-only shutter sound (gitignored asset); silently skipped when missing or blocked.
+let shutter: HTMLAudioElement | undefined;
+function playShutter() {
+  try {
+    shutter ||= new Audio('/assets/sounds/shutter.wav');
+    shutter.currentTime = 0; void shutter.play().catch(() => {});
+  } catch { /* no sound */ }
+}
+const PAUSE_MS = 1600;
+const cameraTitle = (d: Direction) => d === 'front' ? '정면 촬영' : `${captureDirectionLabel(d,'camera')}으로 고개 돌리기`;
+type Pause = {url: string; done: Direction; next?: Direction};
 export function Camera({onReady,onError,onBack}: {onReady: (inputs: InputSet) => void; onError: (message: string) => void; onBack: () => void}) {
   const video = useRef<HTMLVideoElement>(null);
   const callbacks = useRef({onReady,onError}); callbacks.current = {onReady,onError};
-  const [step,setStep] = useState(0), [gauge,setGauge] = useState(0), [message,setMessage] = useState('카메라 권한을 요청합니다…'), [conditions,setConditions] = useState<Conditions | null>(null);
+  const [step,setStep] = useState(0), [gauge,setGauge] = useState(0), [message,setMessage] = useState('카메라 권한을 요청합니다…'), [conditions,setConditions] = useState<Conditions | null>(null), [pause,setPause] = useState<Pause | null>(null);
   useEffect(() => {
-    let active = true, stream: MediaStream | undefined, vision: VisionPort | undefined, timer: ReturnType<typeof setTimeout> | undefined, lastVideoTime = -1;
+    let active = true, stream: MediaStream | undefined, vision: VisionPort | undefined, timer: ReturnType<typeof setTimeout> | undefined, lastVideoTime = -1, pauseUrl: string | undefined;
     const machine = new CaptureState(), photos: Partial<InputSet> = {};
-    const stop = () => {active=false; machine.reset(); if(timer) clearTimeout(timer); stream?.getTracks().forEach(t => t.stop()); vision?.close(); if(video.current) video.current.srcObject=null; for(const d of DIRECTIONS) delete photos[d];};
+    const stop = () => {active=false; machine.reset(); if(timer) clearTimeout(timer); stream?.getTracks().forEach(t => t.stop()); vision?.close(); if(pauseUrl) URL.revokeObjectURL(pauseUrl); pauseUrl=undefined; if(video.current) video.current.srcObject=null; for(const d of DIRECTIONS) delete photos[d];};
     const fail = (error: unknown) => {if(!active) return; stop(); callbacks.current.onError(error instanceof DOMException && error.name==='NotAllowedError' ? '카메라 권한이 거부되었습니다. 사진 3장을 업로드하거나 브라우저 권한을 허용한 뒤 다시 촬영해 주세요.' : error instanceof Error ? error.message : '카메라를 사용할 수 없습니다. 사진 3장을 업로드해 주세요.');};
     const hidden = () => {if(document.hidden) fail(new Error('화면이 숨겨져 촬영을 중단하고 임시 사진을 정리했습니다.'));};
     document.addEventListener('visibilitychange',hidden);
@@ -91,8 +102,18 @@ export function Camera({onReady,onError,onBack}: {onReady: (inputs: InputSet) =>
         if(next.capture) {
           const blob=await snapshotBlob(frame); // Same unmirrored frame that passed inspection.
           if(!active || !machine.commit(token)) return;
-          photos[token.direction!]=blob; setStep(s=>s+1); setGauge(0); setConditions(null);
-          if(machine.submitOnce()) {const complete={...photos} as InputSet; stop(); callbacks.current.onReady(complete); return;}
+          const done=token.direction!, next=DIRECTIONS[DIRECTIONS.indexOf(done)+1];
+          photos[done]=blob; playShutter(); setStep(s=>s+1); setGauge(0); setConditions(null);
+          // Hold on the shot just taken so the switch to the next direction is unmistakable.
+          if(pauseUrl) URL.revokeObjectURL(pauseUrl);
+          const url=pauseUrl=URL.createObjectURL(blob); setPause({url,done,next});
+          const complete=machine.submitOnce() ? {...photos} as InputSet : null;
+          timer=setTimeout(()=>{
+            if(!active) return;
+            if(complete) {stop(); callbacks.current.onReady(complete); return;}
+            setPause(null); URL.revokeObjectURL(url); if(pauseUrl===url) pauseUrl=undefined; void tick();
+          },PAUSE_MS);
+          return;
         }
       } catch(error) {fail(error);}
       finally {frame?.close();}
@@ -111,11 +132,11 @@ export function Camera({onReady,onError,onBack}: {onReady: (inputs: InputSet) =>
     return () => {document.removeEventListener('visibilitychange',hidden);window.removeEventListener('pagehide',pagehide);stop();};
   },[]);
   const direction=DIRECTIONS[Math.min(step,2)], label=captureDirectionLabel(direction,'camera');
-  return <section aria-labelledby="camera-title" data-capture-direction={direction}><div className="section-heading center"><p className="eyebrow">자동 촬영 {Math.min(step,2)+1}/3</p><h1 id="camera-title">{direction==='front'?'정면 촬영':`${label}으로 고개 돌리기`}</h1><p className="lead direction-hint">{captureDirectionHint(direction,'camera')}</p></div>
+  return <section aria-labelledby="camera-title" data-capture-direction={direction}><div className="section-heading center"><p className="eyebrow">자동 촬영 {Math.min(step,2)+1}/3</p><h1 id="camera-title">{cameraTitle(direction)}</h1><p className="lead direction-hint">{captureDirectionHint(direction,'camera')}</p></div>
     <ol className="capture-steps">{DIRECTIONS.map((d,i)=><li className={step>i?'done':step===i?'active':''} key={d}>{step>i?'✓':i+1} {captureDirectionLabel(d,'camera')}</li>)}</ol>
-    <div className="camera-viewport"><video className="mirrored" ref={video} autoPlay playsInline muted aria-label="거울처럼 보이는 카메라 미리보기"/><span className="camera-caption">거울처럼 보이는 미리보기</span><svg className="camera-guide" viewBox="0 0 200 260" aria-hidden="true"><ellipse cx="100" cy="130" rx="78" ry="108" className="ring-background"/><ellipse cx="100" cy="130" rx="78" ry="108" pathLength="100" className="ring-progress" strokeDasharray={`${gauge*100} 100`}/></svg>{direction!=='front' && <span className={`turn-arrow ${label==='화면 왼쪽'?'left':'right'}`} aria-hidden="true">{label==='화면 왼쪽'?'←':'→'}</span>}</div>
+    <div className="camera-viewport"><video className="mirrored" ref={video} autoPlay playsInline muted aria-label="거울처럼 보이는 카메라 미리보기"/><span className="camera-caption">거울처럼 보이는 미리보기</span><svg className="camera-guide" viewBox="0 0 200 260" aria-hidden="true"><ellipse cx="100" cy="130" rx="78" ry="108" className="ring-background"/><path d="M100 22A78 108 0 1 1 100 238A78 108 0 1 1 100 22" pathLength="100" className="ring-progress" strokeDasharray={`${gauge*100} 100`}/></svg>{step>0 && <div key={step} className="capture-flash" aria-hidden="true"/>}{pause && <div className="capture-pause" role="status"><img className="mirrored" src={pause.url} alt={`방금 촬영한 ${captureDirectionLabel(pause.done,'camera')} 사진`}/><p className="pause-done">✓ {captureDirectionLabel(pause.done,'camera')} 촬영 완료</p>{pause.next ? <><p className="pause-label">다음</p><p className="pause-next">{pause.next!=='front' && (captureDirectionLabel(pause.next,'camera')==='화면 왼쪽' ? '← ' : '')}{cameraTitle(pause.next)}{pause.next!=='front' && captureDirectionLabel(pause.next,'camera')==='화면 오른쪽' ? ' →' : ''}</p></> : <p className="pause-next">세 방향 촬영이 끝났습니다</p>}</div>}{!pause && direction!=='front' && <span className={`turn-arrow ${label==='화면 왼쪽'?'left':'right'}`} aria-hidden="true">{label==='화면 왼쪽'?'←':'→'}</span>}</div>
     <p className="capture-guidance" role="status">{message}</p><div className="gauge" role="progressbar" aria-label="촬영 조건 유지" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(gauge*100)}>{Math.round(gauge*100)}%</div>
-    <ul className="condition-list">{(['face','direction','size','brightness','expression'] as const).map((k,i)=><li key={k} className={conditions?.[k]?'good':''}>{conditions?.[k]?'✓':'○'} {['얼굴 1명','방향','거리','밝기','무표정·눈 뜨기'][i]}</li>)}</ul>
-    <p className="note center">조건에서 벗어나면 게이지가 처음부터 다시 찹니다. 세 방향을 다 찍으면 바로 분석합니다.</p><div className="actions center"><button className="button ghost" onClick={onBack}>촬영 취소</button><button className="button ghost" onClick={()=>onError('촬영을 종료했습니다. 사진 3장을 업로드해 주세요.')}>업로드로 전환</button></div>
+    <ul className="condition-list">{(['face','direction','size','brightness','expression'] as const).map((k,i)=><li key={k} className={conditions?.[k]?'good':''}>{conditions?.[k]?'✓':'○'} {['얼굴 1명','방향','안내선·거리','밝기','무표정·눈 뜨기'][i]}</li>)}</ul>
+    <p className="note center">조건에서 벗어나면 게이지가 처음부터 다시 찹니다. 세 방향을 다 찍으면 찍힌 사진을 바로 보여 드립니다.</p><div className="actions center"><button className="button ghost" onClick={onBack}>촬영 취소</button><button className="button ghost" onClick={()=>onError('촬영을 종료했습니다. 사진 3장을 업로드해 주세요.')}>업로드로 전환</button></div>
   </section>;
 }
