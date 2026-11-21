@@ -1,7 +1,7 @@
 import {beforeAll, describe, expect, it} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {Results} from '../src/Results';
-import {conditionText, cutText, leftOutReason, scanText, withUnit} from '../src/ResearchReport';
+import {ResearchReportView, conditionText, cutText, leftOutReason, scanText, withUnit} from '../src/ResearchReport';
 import {validateResult, validReport} from '../src/api';
 import type {AnalysisResult, ReportPassage, ResearchReport} from '../src/types';
 
@@ -28,7 +28,8 @@ const report = (): ResearchReport => ({schema: 'faceteller-research-report-v1', 
   blocked_by_hold: [], held_judgements: [{feature: 'F15', name: '인중 길이', class: '보통', confidence: .55, threshold: .6, reason: '이 칸을 조건으로 쓰는 조항이 없음'}],
   cnn_check: {F09: {'합성 확인 모델': {class: '김', confidence: .66}}}});
 const result = (r: unknown): AnalysisResult => validateResult({status: 'COMPLETE', items: [], passages: [], research_report: r});
-const render = (r: AnalysisResult) => renderToStaticMarkup(<Results result={r} onPreview={() => {}} onReset={() => {}}/>);
+// The research tables are tested on their own: Results now wraps them in the report sheet (tests/face-report.test.tsx).
+const render = (r: AnalysisResult) => renderToStaticMarkup(r.research_report ? <ResearchReportView report={r.research_report} notice={r.notice} onReset={() => {}}/> : <Results result={r} onPreview={() => {}} onReset={() => {}}/>);
 
 beforeAll(() => {(globalThis as unknown as {window: object}).window = {};});
 

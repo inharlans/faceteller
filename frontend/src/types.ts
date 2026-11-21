@@ -40,7 +40,14 @@ export interface ReportJudgement {name: string; region: string; method: string |
   measure?: ReportMeasure | null; reference?: ReportMeasure | null; probabilities?: Record<string, number> | null}
 export interface ReportCheck {class: string; confidence: number; probabilities?: number[]; classes?: string[]; unjudgeable?: number | null}
 export interface ReportHeld {feature: string; name: string; class: string; confidence: number; threshold: number; reason: string}
-export interface ResearchReport {schema: 'faceteller-research-report-v1'; structure?: string; judgements: Record<string, ReportJudgement>; plan_C_selected: ReportPassage[]; all_matching: ReportPassage[]; blocked_by_hold: ReportPassage[]; held_judgements: ReportHeld[]; cnn_check: Record<string, Record<string, ReportCheck>>; notes?: string[]}
+export interface ResearchReport {schema: 'faceteller-research-report-v1'; structure?: string; judgements: Record<string, ReportJudgement>; plan_C_selected: ReportPassage[]; all_matching: ReportPassage[]; blocked_by_hold: ReportPassage[]; held_judgements: ReportHeld[]; cnn_check: Record<string, Record<string, ReportCheck>>; notes?: string[];
+  /** One-sentence reading written on the server from the callout sentences (report sheet). */
+  summary?: string | null;
+  /** The sentence for each region, looked up on the server (DB). Absent: the page looks them up in its own copy of the
+   *  table (src/regionComments.json). An empty list means no region has a sentence. */
+  callouts?: ReportCallout[] | null}
+/** region: 눈 | 눈썹 | 미간 | 코 | 입 | 인중 | 얼굴형 | 광대. tone: 좋음 | 조심 | 섞임. */
+export interface ReportCallout {region: string; tone?: string | null; text: string}
 export interface AnalysisResult {status: 'COMPLETE' | 'PARTIAL' | 'REINPUT_REQUIRED'; items: Item[]; passages: Passage[]; named_types?: NamedType[]; face_overlay?: FaceOverlay | null; notice?: string; literature_status?: string; research_report?: ResearchReport | null}
 export interface Conditions {face: boolean; direction: boolean; size: boolean; brightness: boolean; expression: boolean; message: string; yaw?: number}
 export const REGIONS: Record<string, string> = {eye: '눈', brow: '눈썹', nose: '코', mouth: '입', face: '얼굴형', forehead: '이마', glabella: '미간', under_eye: '애교살', cheekbone: '광대', ear: '귀', philtrum: '인중', mole: '점'};
