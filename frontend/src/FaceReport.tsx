@@ -162,10 +162,14 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
     const found = measureFit(cards.current), least = {scale: SCALES[SCALES.length - 1], detail: false};
     onFit(found === null && fit.count > 1 ? {...least, count: fit.count - 1} : {...(found ?? least), count: fit.count});
   }, [report, fit.count, round, onFit]);
-  const [picture, setPicture] = useState<{w: number; h: number} | null>(null);
-  useEffect(() => {setPicture(null);}, [portraitUrl]);
-  const callouts = pickCallouts(report), matching = topPassages(report), passages = matching.slice(0, fit.count), columns = splitColumns(passages), ready = !portraitUrl || picture;
-  const frame = portraitUrl && picture ? picture : PLACEHOLDER, placed = ready ? placeCallouts(callouts, anchors || DEFAULT_ANCHORS, frame, boxes).placed : [];
+  // Size of the shown picture, kept with the URL it belongs to. (It used to be cleared in an effect when the URL changed;
+  // a picture from memory could load before that effect ran, the size was then wiped and no load event came again, so
+  // the callouts never appeared on screen.) An image that is already complete when mounted is read at once.
+  const [picture, setPicture] = useState<{url: string; w: number; h: number} | null>(null), img = useRef<HTMLImageElement>(null);
+  useLayoutEffect(() => {const el = img.current; if (portraitUrl && el && el.complete && el.naturalWidth) setPicture({url: portraitUrl, w: el.naturalWidth, h: el.naturalHeight});}, [portraitUrl]);
+  const shown = portraitUrl && picture?.url === portraitUrl ? picture : null;
+  const callouts = pickCallouts(report), matching = topPassages(report), passages = matching.slice(0, fit.count), columns = splitColumns(passages), ready = !portraitUrl || shown;
+  const frame = shown ? {w: shown.w, h: shown.h} : PLACEHOLDER, placed = ready ? placeCallouts(callouts, anchors || DEFAULT_ANCHORS, frame, boxes).placed : [];
   // Measure the boxes at the current type size; if they cannot be placed inside the zone, try the next smaller size.
   useLayoutEffect(() => {
     if (!onBoxes || !zone.current || !ready) return;
@@ -183,7 +187,7 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
     </header>
     <section className="fr-face" aria-label="부위별 풀이" ref={zone} style={{'--fr-bk': boxes.scale} as CSSProperties}>
       <div className="fr-portrait" style={{left: mm(FRAME.x), top: mm(FRAME.y), width: mm(FRAME.w), height: mm(FRAME.h)}}>
-        {portraitUrl ? <img src={portraitUrl} alt="AI가 그린 캐릭터 그림" onLoad={e => setPicture({w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight})}/> : <PlaceholderPortrait note={portraitNote}/>}
+        {portraitUrl ? <img ref={img} src={portraitUrl} alt="AI가 그린 캐릭터 그림" onLoad={e => setPicture({url: portraitUrl, w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight})}/> : <PlaceholderPortrait note={portraitNote}/>}
       </div>
       <svg className="fr-lines" viewBox={`0 0 ${ZONE.w} ${ZONE.h}`} preserveAspectRatio="none" aria-hidden="true">
         {placed.map(p => {const x = edge(p), y = p.top + 3.5 * boxes.scale, bend = x + (p.side === 'L' ? 3.5 : -3.5);
