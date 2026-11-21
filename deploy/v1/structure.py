@@ -5,8 +5,8 @@ number comes from the JSON files in the config directory.
                         an unjudgeable head above 0.5 = not judged
   numeric F07, F12      boundary score of sign*value against two cuts with sigma*1.45; held below the floor
   measurement features  F01 눈 크기, F09 코 길이, F10 코 높이, F17 턱 폭, and since 2026-11-17 F06 눈썹-눈 간격, F13 입술 두께,
-                        F15 인중 길이 (cuts5_measures.json): same boundary score, held below 0.755
-                        (= the value is within one sigma of a cut)
+                        F15 인중 길이 (cuts5_measures.json): same boundary score, held below the same floor
+                        (0.6; it was 0.755 = within one sigma of a cut until 2026-11-17)
   VGGT formulas         F20 광대 돌출, F21 입 돌출: formula score (depth_models.json) against the team's cut
                         (cuts5_measures.json); not held
   selection (plan C)    candidates by G (geometric mean of the confidences of the features a passage uses), then
@@ -25,6 +25,7 @@ class Config:
         self.features = load('features.json'); self.cnn = load('cnn_calibration.json'); self.numeric = load('numeric_cuts.json'); self.nose = load('nose_measures.json'); self.eye = load('eye_measures.json')
         self.jaw = load('jaw_measures.json'); self.depth = load('depth_models.json'); self.cuts5 = load('cuts5_measures.json'); self.rules = load('selection_rules.json'); self.reps = load('literature_representatives.json')['items']
         self.check = load('check_models.json') if (folder / 'check_models.json').exists() else None
+        self.phrases = load('region_phrases.json') if (folder / 'region_phrases.json').exists() else None
         f = self.features['features']; self.order = sorted(f); self.name = {k: v['name'] for k, v in f.items()}; self.region = {k: v['region'] for k, v in f.items()}; self.classes = {k: v['classes'] for k, v in f.items()}
         self.method = {k: v['method'] for k, v in f.items()}; self.cnn_parts = self.features['cnn_parts']; self.floor = float(self.rules['confidence_floor']['value']); self.hold = float(self.nose['hold_below_boundary_score'])
         self.k_sigma = float(self.nose['sigma_multiplier']); lim = self.rules['limits']; self.total = int(lim['total']); self.bad_max = int(lim['unfavourable_max'])
@@ -45,6 +46,16 @@ def judge_value(v, cuts, sigma):
 
 def tempered(P, t):
     Q = np.power(np.clip(np.asarray(P, float), 1e-9, 1), 1 / t); return Q / Q.sum(-1, keepdims=True)
+
+
+def region_phrases(J, cfg):
+    """One sentence per region from the confirmed judgements (config/region_phrases.json); regions without an entry are left out."""
+    if cfg.phrases is None: return []
+    out = []
+    for region, feats in cfg.phrases['regions'].items():
+        have = [f for f in feats if f in J]; hit = cfg.phrases['combinations'].get(region, {}).get('|'.join(f'{f}:{cfg.classes[f][J[f][0]]}' for f in have))
+        if hit: out.append({'region': region, 'text': hit['text'], 'tone': hit['tone'], 'id': hit['id'], 'features': have, 'groups': hit['groups']})
+    return out
 
 
 def cut_measure(label, unit, value, cuts, classes, used=True):

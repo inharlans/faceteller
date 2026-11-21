@@ -2,7 +2,7 @@
  "schema": "faceteller-jaw-measures-v1",
  "decided": "2026-11-16 (user): 턱 폭 by measurement (candidate 8, chin angle), rank cut 1-132 넓음 / 283-400 좁음, numeric judgement",
  "sigma_multiplier": 1.45,
- "hold_below_boundary_score": 0.7547944687186952,
+ "hold_below_boundary_score": 0.6,
  "features": {
   "F17": {
    "name": "턱 폭",
@@ -26,5 +26,6 @@
    ],
    "pitch_note": "not pitch-adjusted: about 0.62 degrees of angle per degree of head pitch (jaw_pitch_check.json)"
   }
- }
+ },
+ "hold_note": "same confidence floor as every other held feature (0.6, user decision 2026-11-15 / 2026-11-17); until 2026-11-17 the measured features used 0.755 (within one sigma of a cut)"
 }

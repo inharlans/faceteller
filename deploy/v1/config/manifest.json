@@ -1,7 +1,7 @@
 {
  "schema": "faceteller-deploy-manifest-v1",
  "created": "2026-11-14",
- "updated": "2026-11-17",
+ "updated": "2026-11-21",
  "note": "git files are copied to deploy/v1/config/ in the repository (git_path); s3 files keep their path under the models directory",
  "files": [
   {
@@ -244,8 +244,8 @@
    "git_path": "deploy/v1/config/literature_representatives.json",
    "role": "literature_representatives",
    "delivery": "git",
-   "bytes": 311107,
-   "sha256": "b9c0d97058e7d1d030b03a89439f53ccc2cc44113b01b942769c6ab15b7bd56c",
+   "bytes": 320000,
+   "sha256": "a223f46fe7ba9c18d03638cbc7cd8fb24bf51a3100b603865e5b20e529861cee",
    "format": "JSON, e.g. {\"items\": [{\"representative\": \"SQ634N-nose-001\", \"requirement\": [\"F19 콧뿌리 높이:높음\"], \"valence\": \"좋음\"}]}"
   },
   {
@@ -262,27 +262,27 @@
    "git_path": "deploy/v1/config/nose_measures.json",
    "role": "nose_measures",
    "delivery": "git",
-   "bytes": 1628,
-   "sha256": "999cf302057e12c9bfc869b9a25db96293b96e9ab859f30d4f7d8dd9d35f74c6",
-   "format": "JSON, e.g. {\"features\": {\"F09\": {\"name\": \"코 길이\", \"cuts\": [0.353, 0.378], \"sigma\": 0.0039}}, \"hold_below_boundary_score\": 0.755}"
+   "bytes": 1805,
+   "sha256": "2294b57859e978a710942dff67a88a204f17bbcf97ab5eb49c1f79d4be8f675b",
+   "format": "JSON, e.g. {\"features\": {\"F09\": {\"name\": \"코 길이\", \"cuts\": [0.353, 0.378], \"sigma\": 0.0039}}, \"hold_below_boundary_score\": 0.6}"
   },
   {
    "path": "experiments/feature17-20261109/deploy_v1/eye_measures.json",
    "git_path": "deploy/v1/config/eye_measures.json",
    "role": "eye_measures",
    "delivery": "git",
-   "bytes": 1729,
-   "sha256": "b5ccd65ba7ba26f8121f6f617174e586de16ce9370b0652d1b54a18ce788d06c",
-   "format": "JSON, e.g. {\"features\": {\"F01\": {\"name\": \"눈 크기\", \"cuts\": [-0.914, 0.107], \"sigma\": 0.31}}, \"standardisation_train270\": {\"w\": {\"mean\": 0.195, \"sd\": 0.0089}}, \"hold_below_boundary_score\": 0.755}"
+   "bytes": 1906,
+   "sha256": "3f7bd33dc54f96f74cb6b8ebfb4b542aa6f48fc9b74959467719883fb2465cea",
+   "format": "JSON, e.g. {\"features\": {\"F01\": {\"name\": \"눈 크기\", \"cuts\": [-0.914, 0.107], \"sigma\": 0.31}}, \"standardisation_train270\": {\"w\": {\"mean\": 0.195, \"sd\": 0.0089}}, \"hold_below_boundary_score\": 0.6}"
   },
   {
    "path": "experiments/feature17-20261109/deploy_v1/jaw_measures.json",
    "git_path": "deploy/v1/config/jaw_measures.json",
    "role": "jaw_measures",
    "delivery": "git",
-   "bytes": 875,
-   "sha256": "5669804c7d0d18a8bb3c0cd1b6adb3f602694c4f3a9a4f63e492f8d90da47a5c",
-   "format": "JSON, e.g. {\"features\": {\"F17\": {\"name\": \"턱 폭\", \"cuts\": [119.01, 125.45], \"sigma\": 1.11}}, \"hold_below_boundary_score\": 0.755}"
+   "bytes": 1052,
+   "sha256": "d5ba287aa5cf822cb8059d15273e0285483bb2fcc631033029a07e8c27ff4689",
+   "format": "JSON, e.g. {\"features\": {\"F17\": {\"name\": \"턱 폭\", \"cuts\": [119.01, 125.45], \"sigma\": 1.11}}, \"hold_below_boundary_score\": 0.6}"
   },
   {
    "path": "experiments/feature17-20261109/deploy_v1/features.json",
@@ -348,12 +348,21 @@
    "git_path": "deploy/v1/config/cuts5_measures.json",
    "role": "cuts5_measures",
    "delivery": "git",
-   "bytes": 3980,
-   "sha256": "95986020a5cc01c45455a06684db6033c4a52bb52297e105425b1262f883c3dd",
-   "format": "JSON, e.g. {\"features\": {\"F13\": {\"name\": \"입술 두께\", \"cuts\": [0.277, 0.395], \"sigma\": 0.013}}, \"not_held\": [\"F20\", \"F21\"], \"hold_below_boundary_score\": 0.755}"
+   "bytes": 4157,
+   "sha256": "c45bfecf9048b79aba56269799b03d5306a375315b05bf9483fc8a15f00802b9",
+   "format": "JSON, e.g. {\"features\": {\"F13\": {\"name\": \"입술 두께\", \"cuts\": [0.277, 0.395], \"sigma\": 0.013}}, \"not_held\": [\"F20\", \"F21\"], \"hold_below_boundary_score\": 0.6}"
+  },
+  {
+   "path": "experiments/feature17-20261109/deploy_v1/region_phrases.json",
+   "git_path": "deploy/v1/config/region_phrases.json",
+   "role": "region_phrases",
+   "delivery": "git",
+   "bytes": 193585,
+   "sha256": "a28488f721a251295a9053fc3d995fdd0a96631262cac745974e7622ce3592c9",
+   "format": "JSON, e.g. {\"regions\": {\"눈썹\": [\"F18\",\"F04\",\"F05\",\"F06\"]}, \"combinations\": {\"눈썹\": {\"F04:긴 편|F05:곡선\": {\"text\": \"…\", \"tone\": \"좋음\"}}}}"
   }
  ],
- "total_bytes": 6204113582,
+ "total_bytes": 6204316768,
  "s3_bytes": 6203755597,
- "git_bytes": 357985
+ "git_bytes": 561171
 }

@@ -6362,6 +6362,162 @@
    "entry_count": 1,
    "hidden_unfavourable": 0,
    "omitted_entries": 0
+  },
+  {
+   "representative": "CX639-nose-0345",
+   "requirement": [
+    "F08 코 폭:좁음",
+    "F11 코끝 둥근 정도:좁아지는 편"
+   ],
+   "valence": "나쁨",
+   "translation": "준두(準頭, 코끝)가 작고 코가 좁으면 가장 인색하다.",
+   "original_text": "準小鼻狹，而最慳最吝，",
+   "commentary": "코끝 크기와 코 전체 너비를 구별했다.",
+   "source": "신상전편",
+   "split_of": null,
+   "annotation_status": "ai_annotated_unreviewed",
+   "translation_kind": "korean_literal_ai_draft",
+   "source_detail": {
+    "title": "神相全編",
+    "title_ko": "신상전편",
+    "chapter": "博物彙編 藝術典 第639卷 相術部彙考九 神相全編九",
+    "section": "《吳心鑑通元賦》",
+    "char_span": [
+     324,
+     335
+    ],
+    "scan_page": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/75",
+    "scan_page_end": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/75",
+    "attributed_to": "吳心鑑",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC639%E5%8D%B7&oldid=1942602",
+    "license": "public domain original; Wikisource transcription CC BY-SA 4.0",
+    "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考1-14 (神相全編一~十四), all14volumes pinned from Wikisource"
+   },
+   "lines": [
+    {
+     "topic": "성품",
+     "translation": "준두(準頭, 코끝)가 작고 코가 좁으면 가장 인색하다.",
+     "valence": "나쁨",
+     "sources": [
+      "신상전편"
+     ],
+     "entries": [
+      {
+       "id": "CX639-nose-0345",
+       "valence": "나쁨",
+       "topics": [
+        "성품"
+       ],
+       "translation": "준두(準頭, 코끝)가 작고 코가 좁으면 가장 인색하다.",
+       "original_text": "準小鼻狹，而最慳最吝，",
+       "commentary": "코끝 크기와 코 전체 너비를 구별했다.",
+       "source": "신상전편",
+       "split_of": null,
+       "annotation_status": "ai_annotated_unreviewed",
+       "translation_kind": "korean_literal_ai_draft",
+       "source_detail": {
+        "title": "神相全編",
+        "title_ko": "신상전편",
+        "chapter": "博物彙編 藝術典 第639卷 相術部彙考九 神相全編九",
+        "section": "《吳心鑑通元賦》",
+        "char_span": [
+         324,
+         335
+        ],
+        "scan_page": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/75",
+        "scan_page_end": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/75",
+        "attributed_to": "吳心鑑",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC639%E5%8D%B7&oldid=1942602",
+        "license": "public domain original; Wikisource transcription CC BY-SA 4.0",
+        "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考1-14 (神相全編一~十四), all14volumes pinned from Wikisource"
+       }
+      }
+     ]
+    }
+   ],
+   "entry_count": 1,
+   "hidden_unfavourable": 0,
+   "omitted_entries": 0,
+   "added": "2026-11-21",
+   "link_note": "문헌의 \"코끝이 작음(準小)\"을 코끝이 좁아지는 형태로 연결"
+  },
+  {
+   "representative": "SQ636CB-glabella-027",
+   "requirement": [
+    "F07 미간:좁음"
+   ],
+   "valence": "나쁨",
+   "translation": "인당(印堂, 두 눈썹 사이)이 너무 좁으면 자식과 아내가 늦고, 현벽(懸壁)이 어두우면 사람이 죽고 집이 무너진다. 인당은 풍성하게 솟아야 하는데 너무 좁으면 벼슬이 없을 뿐 아니라 아내와 자식도 이르지 않다. 현벽은 노비궁으로 빛나고 윤택해야 하며 기색이 어두우면 죽음과 파산을 주관한다고 한다.",
+   "original_text": "《印堂太窄》。子晚妻遲；懸壁昏暗。人亡家破。\n印堂宜豐隆太窄，若此者不惟無官，抑且妻子不早　懸壁為奴婢。宮宜光潤。若氣色昏暗者，主死亡破敗。",
+   "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+   "source": "신상전편",
+   "split_of": null,
+   "annotation_status": "ai_annotated_unreviewed",
+   "translation_kind": "korean_literal_ai_draft",
+   "source_detail": {
+    "title": "神相全編",
+    "title_ko": "신상전편",
+    "chapter": "博物彙編 藝術典 第636卷 相術部彙考六 神相全編六",
+    "section": "《神異賦》〈有序〉",
+    "char_span": [
+     5320,
+     5390
+    ],
+    "scan_page": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/51",
+    "scan_page_end": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/51",
+    "attributed_to": null,
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC636%E5%8D%B7&oldid=1942599",
+    "license": "public domain original; Wikisource transcription CC BY-SA 4.0",
+    "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考1-14 (神相全編一~十四), all14volumes pinned from Wikisource"
+   },
+   "lines": [
+    {
+     "topic": "벼슬·지위",
+     "translation": "인당(印堂, 두 눈썹 사이)이 너무 좁으면 자식과 아내가 늦고, 현벽(懸壁)이 어두우면 사람이 죽고 집이 무너진다. 인당은 풍성하게 솟아야 하는데 너무 좁으면 벼슬이 없을 뿐 아니라 아내와 자식도 이르지 않다. 현벽은 노비궁으로 빛나고 윤택해야 하며 기색이 어두우면 죽음과 파산을 주관한다고 한다.",
+     "valence": "나쁨",
+     "sources": [
+      "신상전편"
+     ],
+     "entries": [
+      {
+       "id": "SQ636CB-glabella-027",
+       "valence": "나쁨",
+       "topics": [
+        "벼슬·지위"
+       ],
+       "translation": "인당(印堂, 두 눈썹 사이)이 너무 좁으면 자식과 아내가 늦고, 현벽(懸壁)이 어두우면 사람이 죽고 집이 무너진다. 인당은 풍성하게 솟아야 하는데 너무 좁으면 벼슬이 없을 뿐 아니라 아내와 자식도 이르지 않다. 현벽은 노비궁으로 빛나고 윤택해야 하며 기색이 어두우면 죽음과 파산을 주관한다고 한다.",
+       "original_text": "《印堂太窄》。子晚妻遲；懸壁昏暗。人亡家破。\n印堂宜豐隆太窄，若此者不惟無官，抑且妻子不早　懸壁為奴婢。宮宜光潤。若氣色昏暗者，主死亡破敗。",
+       "commentary": "문헌은 이 형태를 위와 같은 처지·성향에 연결했다. 조건 중 현재 측정하지 않는 묘사가 있어 형태 레이블만으로 전체 문장을 성립시킬 수 없다.",
+       "source": "신상전편",
+       "split_of": null,
+       "annotation_status": "ai_annotated_unreviewed",
+       "translation_kind": "korean_literal_ai_draft",
+       "source_detail": {
+        "title": "神相全編",
+        "title_ko": "신상전편",
+        "chapter": "博物彙編 藝術典 第636卷 相術部彙考六 神相全編六",
+        "section": "《神異賦》〈有序〉",
+        "char_span": [
+         5320,
+         5390
+        ],
+        "scan_page": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/51",
+        "scan_page_end": "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/51",
+        "attributed_to": null,
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E5%8D%9A%E7%89%A9%E5%BD%99%E7%B7%A8/%E8%97%9D%E8%A1%93%E5%85%B8/%E7%AC%AC636%E5%8D%B7&oldid=1942599",
+        "license": "public domain original; Wikisource transcription CC BY-SA 4.0",
+        "text_witness": "欽定古今圖書集成 博物彙編 藝術典 相術部彙考1-14 (神相全編一~十四), all14volumes pinned from Wikisource"
+       }
+      }
+     ]
+    }
+   ],
+   "entry_count": 1,
+   "hidden_unfavourable": 0,
+   "omitted_entries": 0,
+   "added": "2026-11-21",
+   "link_note": "조건은 \"인당이 너무 좁음\" 그대로. 자식·혼인이 늦다는 내용이 있으나 사용자가 써도 된다고 결정(2026-11-21). 뒷부분 현벽 기색은 다른 부위"
   }
- ]
+ ],
+ "added_note": "items with \"added\": linked on 2026-11-21 by user decision although the passage has a co-condition the service does not measure or a close (not identical) shape; see link_note"
 }

@@ -3,7 +3,7 @@
  "decided": "2026-11-16 (user): 눈 크기 by measurement (candidate 10 F01_balanced_dark), classes = rank cut 1-141 큰 편 / 303-400 작은 편 on the check page, into the structure",
  "cuts_status": "fitted on the 304 CV people so that the recomputed L1 value reproduces the rank-cut labels (f01b_eval.json); test62 not used",
  "sigma_multiplier": 1.45,
- "hold_below_boundary_score": 0.7547944687186952,
+ "hold_below_boundary_score": 0.6,
  "standardisation_train270": {
   "w": {
    "mean": 0.1951097793073832,
@@ -50,5 +50,6 @@
    ],
    "people_without_value": 0
   }
- }
+ },
+ "hold_note": "same confidence floor as every other held feature (0.6, user decision 2026-11-15 / 2026-11-17); until 2026-11-17 the measured features used 0.755 (within one sigma of a cut)"
 }

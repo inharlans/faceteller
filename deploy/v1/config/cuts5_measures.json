@@ -2,7 +2,7 @@
  "schema": "faceteller-cuts5-measures-v1",
  "decided": "2026-11-17 (user): rank cuts read off the sorted check pages (눈썹-눈 간격 1-83 넓음 / 337- 가까움, 입술 두께 1-56 / 341-, 인중 길이 candidate 9 1-61 김 / 259- 짧음, 광대 돌출 1-149 높음, 입 돌출 1-45 나옴); F06 F13 F15 judged by measurement and held within one sigma of a cut; F20 F21 not held",
  "sigma_multiplier": 1.45,
- "hold_below_boundary_score": 0.7547944687186952,
+ "hold_below_boundary_score": 0.6,
  "features": {
   "F06": {
    "name": "눈썹-눈 간격",
@@ -141,5 +141,6 @@
  "not_held": [
   "F20",
   "F21"
- ]
+ ],
+ "hold_note": "same confidence floor as every other held feature (0.6, user decision 2026-11-15 / 2026-11-17); until 2026-11-17 the measured features used 0.755 (within one sigma of a cut)"
 }

@@ -3,7 +3,7 @@
  "decided": "2026-11-16 (user): 코 길이 and 코 높이 by measurement, numeric judgement, hold near the cuts; 콧뿌리 높이 removed; 코끝 돌출 renamed 코 높이",
  "cuts_status": "user decision 2026-11-16: 33% / 67% of the 400-person rank on candidate 1 of each sorted page (rank 1-132 high, 269-400 low); cut = midpoint between the neighbouring ranks",
  "sigma_multiplier": 1.45,
- "hold_below_boundary_score": 0.7547944687186952,
+ "hold_below_boundary_score": 0.6,
  "features": {
   "F09": {
    "name": "코 길이",
@@ -47,5 +47,6 @@
     132
    ]
   }
- }
+ },
+ "hold_note": "same confidence floor as every other held feature (0.6, user decision 2026-11-15 / 2026-11-17); until 2026-11-17 the measured features used 0.755 (within one sigma of a cut)"
 }
