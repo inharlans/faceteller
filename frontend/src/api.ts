@@ -51,6 +51,9 @@ export function validReport(r: unknown): ResearchReport | null {
   if (!Array.isArray(r.held_judgements) || !r.held_judgements.every(h => record(h) && text(h.feature) && text(h.name) && text(h.class) && num(h.confidence) && num(h.threshold) && text(h.reason))) return null;
   if (!Object.values(r.cnn_check).every(c => record(c) && Object.values(c).every(e => record(e) && text(e.class) && num(e.confidence)))) return null;
   if (r.notes !== undefined && !(Array.isArray(r.notes) && r.notes.every(text))) return null;
+  if (!optionalText(r.summary)) delete r.summary;
+  // Sentences from the server: all well formed or none are used (the page then looks them up itself).
+  if (r.callouts !== undefined && r.callouts !== null && !(Array.isArray(r.callouts) && r.callouts.length <= 20 && r.callouts.every(c => record(c) && text(c.region) && text(c.text) && optionalText(c.tone)))) delete r.callouts;
   for (const l of lists) for (const p of l as Record<string, unknown>[]) trimPassage(p);
   for (const j of Object.values(r.judgements) as Record<string, unknown>[]) trimJudgement(j);
   return r as unknown as ResearchReport;
