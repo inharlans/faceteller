@@ -134,7 +134,7 @@ export function placeCallouts(callouts: Callout[], anchors: Anchors, picture: {w
   return {placed, overflow: best?.cost[0] ?? 0};
 }
 /** Stand-in for the portrait until the corrected picture arrives: a plain line drawing, not a person. */
-function PlaceholderPortrait() {
+function PlaceholderPortrait({note}: {note?: string}) {
   const ink = '#3a312a';
   return <svg viewBox={`0 0 ${PLACEHOLDER.w} ${PLACEHOLDER.h}`} preserveAspectRatio="xMidYMid slice" role="img" aria-label="사진이 들어갈 자리(예시 그림)">
     <rect width="300" height="400" fill="#f1e8d6"/>
@@ -150,11 +150,11 @@ function PlaceholderPortrait() {
     <path d="M147 160c-1 16-4 32-8 42q11 9 22 0" fill="none" stroke={ink} strokeWidth="2" strokeLinecap="round"/>
     <path d="M146 216v10M154 216v10" fill="none" stroke={ink} strokeWidth="1.2" strokeLinecap="round" opacity=".55"/>
     <path d="M128 238q11-5 22-1q11-4 22 1q-22 13-44 0Z" fill="#d9a394" stroke={ink} strokeWidth="1.6"/><path d="M128 238q22 4 44 0" fill="none" stroke={ink} strokeWidth="1.4"/>
-    <text x="150" y="386" textAnchor="middle" fontSize="13" fill={ink} opacity=".7">사진이 들어갈 자리 (예시 그림)</text>
+    <text x="150" y="386" textAnchor="middle" fontSize="13" fill={ink} opacity=".7">{note || '사진이 들어갈 자리 (예시 그림)'}</text>
   </svg>;
 }
 
-function Sheet({report, notice, portraitUrl, anchors, titleId, fit, boxes, round, onFit, onBoxes}: {report: ResearchReport; notice?: string; portraitUrl?: string | null; anchors?: Anchors; titleId?: string; fit: Fit; boxes: Boxes; round?: number; onFit?: (fit: Fit) => void; onBoxes?: (boxes: Boxes) => void}) {
+function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit, boxes, round, onFit, onBoxes}: {report: ResearchReport; notice?: string; portraitUrl?: string | null; portraitNote?: string; anchors?: Anchors; titleId?: string; fit: Fit; boxes: Boxes; round?: number; onFit?: (fit: Fit) => void; onBoxes?: (boxes: Boxes) => void}) {
   const cards = useRef<HTMLDivElement>(null), zone = useRef<HTMLElement>(null);
   // Only the sheet on screen measures; the printer's copy is laid out the same way and takes the result.
   useLayoutEffect(() => {
@@ -183,7 +183,7 @@ function Sheet({report, notice, portraitUrl, anchors, titleId, fit, boxes, round
     </header>
     <section className="fr-face" aria-label="부위별 풀이" ref={zone} style={{'--fr-bk': boxes.scale} as CSSProperties}>
       <div className="fr-portrait" style={{left: mm(FRAME.x), top: mm(FRAME.y), width: mm(FRAME.w), height: mm(FRAME.h)}}>
-        {portraitUrl ? <img src={portraitUrl} alt="정면 사진" onLoad={e => setPicture({w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight})}/> : <PlaceholderPortrait/>}
+        {portraitUrl ? <img src={portraitUrl} alt="AI가 그린 캐릭터 그림" onLoad={e => setPicture({w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight})}/> : <PlaceholderPortrait note={portraitNote}/>}
       </div>
       <svg className="fr-lines" viewBox={`0 0 ${ZONE.w} ${ZONE.h}`} preserveAspectRatio="none" aria-hidden="true">
         {placed.map(p => {const x = edge(p), y = p.top + 3.5 * boxes.scale, bend = x + (p.side === 'L' ? 3.5 : -3.5);
@@ -216,7 +216,7 @@ function Sheet({report, notice, portraitUrl, anchors, titleId, fit, boxes, round
 }
 
 /** The report sheet on screen, a copy of it for the printer, and the research tables kept below as a fallback. */
-export function FaceReport({report, notice, portraitUrl, anchors, onReset}: {report: ResearchReport; notice?: string; portraitUrl?: string | null; anchors?: Anchors; onReset: () => void}) {
+export function FaceReport({report, notice, portraitUrl, portraitNote, anchors, onReset}: {report: ResearchReport; notice?: string; portraitUrl?: string | null; portraitNote?: string; anchors?: Anchors; onReset: () => void}) {
   const [mounted, setMounted] = useState(false), [fit, setFit] = useState<Fit>(START), [boxes, setBoxes] = useState<Boxes>(BOXES), [round, setRound] = useState(0);
   const onFit = useCallback((next: Fit) => setFit(prev => prev.scale === next.scale && prev.count === next.count && prev.detail === next.detail ? prev : next), []);
   const onBoxes = useCallback((next: Boxes) => setBoxes(prev => prev.scale === next.scale && JSON.stringify(prev.heights) === JSON.stringify(next.heights) ? prev : next), []);
@@ -224,9 +224,9 @@ export function FaceReport({report, notice, portraitUrl, anchors, onReset}: {rep
   useEffect(() => {let live = true; void document.fonts?.ready.then(() => {if (live) {setFit(START); setBoxes(BOXES); setRound(r => r + 1);}}); return () => {live = false;};}, [report]);
   useEffect(() => {setMounted(true); document.body.classList.add('fr-print-mode'); return () => document.body.classList.remove('fr-print-mode');}, []);
   return <section className="face-report" aria-labelledby="fr-title">
-    <Sheet report={report} notice={notice} portraitUrl={portraitUrl} anchors={anchors} titleId="fr-title" fit={fit} boxes={boxes} round={round} onFit={onFit} onBoxes={onBoxes}/>
+    <Sheet report={report} notice={notice} portraitUrl={portraitUrl} portraitNote={portraitNote} anchors={anchors} titleId="fr-title" fit={fit} boxes={boxes} round={round} onFit={onFit} onBoxes={onBoxes}/>
     <div className="actions center"><button className="button" onClick={() => window.print()}>A4 한 장 인쇄</button><button className="button ghost" onClick={onReset}>처음으로</button></div>
     <details className="fr-backup"><summary>연구용 상세 결과 (판정 과정 확인용)</summary><ResearchReportView report={report} notice={notice} onReset={onReset}/></details>
-    {mounted && createPortal(<div className="fr-print" aria-hidden="true"><Sheet report={report} notice={notice} portraitUrl={portraitUrl} anchors={anchors} fit={fit} boxes={boxes}/></div>, document.body)}
+    {mounted && createPortal(<div className="fr-print" aria-hidden="true"><Sheet report={report} notice={notice} portraitUrl={portraitUrl} portraitNote={portraitNote} anchors={anchors} fit={fit} boxes={boxes}/></div>, document.body)}
   </section>;
 }

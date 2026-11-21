@@ -4,6 +4,7 @@ import {captureDirectionLabel} from './capture';
 import {Camera, Upload} from './Inputs';
 import {presetHidden} from './PhotoOverlay';
 import {Printable, Results, type PhotoView} from './Results';
+import {PORTRAIT_TIMEOUT_MS, PROGRESS_WAIT_MS, STAGE_STEP_MS, portraitAnchors, requestPortrait, type Portrait} from './portrait';
 import {DIRECTIONS, NOTICE, STAGES, type AnalysisResult, type InputMode, type InputSet} from './types';
 type Page = 'home'|'camera'|'camera-retry'|'upload'|'review'|'progress'|'results'|'preview';
 // Server analysis is ON for the lab trial (2026-11-16): photos go to POST /api/v1/analysis. Set to false to show the
@@ -16,33 +17,50 @@ export default function App() {
   const [front,setFront]=useState<Blob|null>(null),[showPhoto,setShowPhoto]=useState(false),[hidden,setHidden]=useState<string[]>([]),[photoUrl,setPhotoUrl]=useState<string|null>(null);
   const [captured,setCaptured]=useState<{inputs:InputSet;mode:InputMode}|null>(null),[capturedUrls,setCapturedUrls]=useState<Partial<Record<typeof DIRECTIONS[number],string>>>({});
   useEffect(()=>{if(!captured) return; const urls=Object.fromEntries(DIRECTIONS.map(d=>[d,URL.createObjectURL(captured.inputs[d])]));setCapturedUrls(urls);return()=>{Object.values(urls).forEach(URL.revokeObjectURL);setCapturedUrls({});};},[captured]);
+  // Character drawing for the report sheet: asked for together with the analysis, shown when it arrives, skipped when it fails.
+  const [portrait,setPortrait]=useState<Portrait|null>(null),[portraitPending,setPortraitPending]=useState(false),portraitReq=useRef<AbortController|null>(null);
+  useEffect(()=>{if(!portrait) return; return()=>URL.revokeObjectURL(portrait.url);},[portrait]);
+  // Pacing of the progress screen while the drawing is being made (portrait.ts).
+  const [analysisDone,setAnalysisDone]=useState(false),[now,setNow]=useState(0),startedAt=useRef(0);
+  const stopPortrait=useCallback(()=>{portraitReq.current?.abort();portraitReq.current=null;setPortrait(null);setPortraitPending(false);},[]);
   const clearPhoto=useCallback(()=>{setFront(null);setShowPhoto(false);setHidden([]);},[]);
   useEffect(()=>{if(!front||!showPhoto) return; const url=URL.createObjectURL(front);setPhotoUrl(url);return()=>{URL.revokeObjectURL(url);setPhotoUrl(null);};},[front,showPhoto]);
-  const reset=useCallback(()=>{generation.current++; request.current?.abort();request.current=null;setResult(null);setCaptured(null);clearPhoto();setNotice('');setPage('home');},[clearPhoto]);
+  const reset=useCallback(()=>{generation.current++; request.current?.abort();request.current=null;stopPortrait();setResult(null);setCaptured(null);clearPhoto();setNotice('');setPage('home');},[clearPhoto,stopPortrait]);
   useEffect(()=>{const hide=()=>reset(); window.addEventListener('pagehide',hide);return()=>{generation.current++;request.current?.abort();window.removeEventListener('pagehide',hide);};},[reset]);
   useEffect(()=>{heading.current?.focus();},[page]);
   const start=useCallback(async(inputs:InputSet,inputMode:InputMode)=>{
     if(request.current) return;
     const epoch=++generation.current, controller=new AbortController();request.current=controller;mode.current=inputMode;
-    setResult(null);clearPhoto();setNotice('');setStage('사진을 전달하고 있습니다…');setPage('progress');
+    startedAt.current=Date.now();setNow(startedAt.current);setAnalysisDone(false);
+    setResult(null);clearPhoto();stopPortrait();setNotice('');setStage('사진을 전달하고 있습니다…');setPage('progress');
+    const drawing=new AbortController(), timer=setTimeout(()=>drawing.abort(),PORTRAIT_TIMEOUT_MS);portraitReq.current=drawing;setPortraitPending(true);
+    void requestPortrait(inputs.front,drawing.signal).then(async png=>{const anchors=await portraitAnchors(png); if(epoch!==generation.current||drawing.signal.aborted) return; setPortrait({url:URL.createObjectURL(png),anchors});})
+      .catch(()=>{}).finally(()=>{clearTimeout(timer); if(epoch===generation.current){setPortraitPending(false); if(portraitReq.current===drawing) portraitReq.current=null;}});
     try {
       const answer=await submitAnalysis(inputs,inputMode,controller.signal,s=>{if(epoch===generation.current)setStage(s);});
       if(epoch!==generation.current)return;
-      if(answer.status==='REINPUT_REQUIRED') {setNotice('확정 가능한 항목이 없습니다. 임시 사진을 정리했습니다. 촬영 또는 업로드를 다시 진행해 주세요.');setPage(inputMode==='camera'?'camera-retry':'upload');}
-      else {setResult(answer);setFront(inputs.front);setHidden(presetHidden(answer.face_overlay));setPage('results');}
+      if(answer.status==='REINPUT_REQUIRED') {stopPortrait();setNotice('확정 가능한 항목이 없습니다. 임시 사진을 정리했습니다. 촬영 또는 업로드를 다시 진행해 주세요.');setPage(inputMode==='camera'?'camera-retry':'upload');}
+      else {setResult(answer);setFront(inputs.front);setHidden(presetHidden(answer.face_overlay));setAnalysisDone(true);}   // the effect below moves on to the results
     } catch(error) {
       if(epoch!==generation.current)return;
+      stopPortrait();
       const prefix=error instanceof AnalysisError && error.direction && DIRECTIONS.includes(error.direction) ? (error.direction==='front' ? '정면 사진: ' : `${captureDirectionLabel(error.direction,inputMode)}을 향한 사진: `) : '';
       setNotice(prefix+(error instanceof Error ? error.message : '분석 요청에 실패했습니다.')+' 임시 사진을 정리했습니다. 다시 입력해 주세요.');
       setPage(inputMode==='camera'?'camera-retry':'upload');
     } finally {if(epoch===generation.current)request.current=null;}
-  },[clearPhoto]);
+  },[clearPhoto,stopPortrait]);
   const startCamera=useCallback(()=>{setCaptured(null);setNotice('');setPage('camera');mode.current='camera';},[]);
   const cameraError=useCallback((message:string)=>{setCaptured(null);setNotice(message);setPage('upload');mode.current='upload';},[]);
   const ready=useCallback((inputs:InputSet,inputMode:InputMode)=>{if(ANALYSIS_ENABLED){void start(inputs,inputMode);return;}mode.current=inputMode;setCaptured({inputs,mode:inputMode});setPage('review');},[start]);
   const cameraReady=useCallback((inputs:InputSet)=>ready(inputs,'camera'),[ready]);
   const uploadReady=useCallback((inputs:InputSet)=>ready(inputs,'upload'),[ready]);
-  const cancel=()=>{generation.current++;request.current?.abort();request.current=null;clearPhoto();setNotice('요청을 취소하고 임시 사진을 정리했습니다.');setPage(mode.current==='camera'?'camera-retry':'upload');};
+  const cancel=()=>{generation.current++;request.current?.abort();request.current=null;stopPortrait();setResult(null);setAnalysisDone(false);clearPhoto();setNotice('요청을 취소하고 임시 사진을 정리했습니다.');setPage(mode.current==='camera'?'camera-retry':'upload');};
+  // While on the progress screen: tick the clock; show the results once the analysis is in and the drawing is in,
+  // has failed, or has taken longer than PROGRESS_WAIT_MS.
+  useEffect(()=>{if(page!=='progress') return; const t=setInterval(()=>setNow(Date.now()),300); return()=>clearInterval(t);},[page]);
+  useEffect(()=>{if(page==='progress' && analysisDone && result && (!portraitPending || now-startedAt.current>=PROGRESS_WAIT_MS)) {setAnalysisDone(false);setPage('results');}},[page,analysisDone,result,portraitPending,now]);
+  const serverStage=analysisDone?STAGES.length:STAGES.indexOf(stage), paced=portraitPending?Math.min(serverStage,Math.floor((now-startedAt.current)/STAGE_STEP_MS),STAGES.length-1):serverStage;
+  const shownStage=paced>=0&&paced<STAGES.length?STAGES[paced]:stage;
   const photo:PhotoView={available:!!front,show:showPhoto,url:photoUrl,hidden,setShow:setShowPhoto,
     toggle:id=>setHidden(h=>h.includes(id)?h.filter(v=>v!==id):[...h,id]),preset:p=>setHidden(presetHidden(result?.face_overlay,p))};
   const step=page==='home'?0:page==='camera'||page==='camera-retry'||page==='upload'||page==='review'?1:page==='progress'?2:page==='results'?3:4;
@@ -57,8 +75,8 @@ export default function App() {
           {page==='camera-retry' && <section className="center"><h1>사진을 다시 촬영해 주세요</h1><p className="lead">이전 사진은 정리했습니다. 정면부터 세 방향을 다시 촬영합니다.</p><div className="actions center"><button className="button" onClick={startCamera}>다시 촬영</button><button className="button ghost" onClick={()=>cameraError('사진 3장을 업로드해 주세요.')}>업로드로 전환</button></div></section>}
           {page==='review' && captured && <section className="center" aria-labelledby="review-title"><p className="eyebrow">촬영 확인</p><h1 id="review-title">사진이 제대로 나왔는지 확인해 주세요</h1><p className="lead">실제로 분석에 쓰일 사진 그대로입니다. 지금은 서버 분석을 하지 않습니다.</p><div className="review-grid">{DIRECTIONS.map(d=><figure key={d} className="review-shot">{capturedUrls[d] && <img src={capturedUrls[d]} alt={`${d==='front'?'정면':captureDirectionLabel(d,'upload')+'을 향한'} 사진`}/>}<figcaption>{d==='front'?'정면':`${captureDirectionLabel(d,'upload')}을 향한 사진`}</figcaption></figure>)}</div><div className="actions center"><button className="button" onClick={captured.mode==='camera'?startCamera:()=>{setCaptured(null);setPage('upload');}}>{captured.mode==='camera'?'다시 촬영':'다시 업로드'}</button><button className="button ghost" onClick={reset}>처음으로</button></div></section>}
           {page==='upload' && <Upload onReady={uploadReady} onBack={reset} onCamera={startCamera}/>}
-          {page==='progress' && <section className="progress-screen center" aria-labelledby="progress-title"><div className="spinner" aria-hidden="true"/><h1 id="progress-title">얼굴 형태와 문헌을 확인하고 있습니다</h1><p role="status" aria-live="polite">{stage}</p><ol className="progress-list">{STAGES.map((s,i)=><li key={s} className={STAGES.indexOf(stage)>i?'done':stage===s?'active':''}><span>{STAGES.indexOf(stage)>i?'✓':i+1}</span>{s}</li>)}</ol><button className="button ghost" onClick={cancel}>분석 취소</button></section>}
-          {result && page==='results' && <Results result={result} photo={photo} onPreview={()=>setPage('preview')} onReset={reset}/>}
+          {page==='progress' && <section className="progress-screen center" aria-labelledby="progress-title"><div className="spinner" aria-hidden="true"/><h1 id="progress-title">얼굴 형태와 문헌을 확인하고 있습니다</h1><p role="status" aria-live="polite">{shownStage}</p><ol className="progress-list">{STAGES.map((s,i)=><li key={s} className={paced>i?'done':paced===i?'active':''}><span>{paced>i?'✓':i+1}</span>{s}</li>)}</ol><button className="button ghost" onClick={cancel}>분석 취소</button></section>}
+          {result && page==='results' && <Results result={result} photo={photo} portrait={{url:portrait?.url??null,anchors:portrait?.anchors??null,pending:portraitPending}} onPreview={()=>setPage('preview')} onReset={reset}/>}
           {result && page==='preview' && <div className="preview-heading"><h1>문헌 기록을 한 장에</h1><p className="lead">원문·풀이·출처와 확인한 생김새를 담습니다.</p></div>}
         </main></div><footer className="app-footer">FaceTeller <span>관찰 가능한 형태와 역사적 문헌의 연결</span></footer></div>
     {result && <Printable result={result} photo={photo} preview={page==='preview'} onBack={()=>setPage('results')}/>}

@@ -1,6 +1,6 @@
 import {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {PhotoOverlay, type OverlayPreset} from './PhotoOverlay';
-import {FaceReport} from './FaceReport';
+import {FaceReport, type Anchors} from './FaceReport';
 import {FEATURES, NOTICE, REGIONS, featureName, percent, points, sourceText, sourceUrl, valenceLabel, type AnalysisResult, type Item, type Passage, type Valence} from './types';
 
 const REASONS: Record<string,string> = {LOW_CONFIDENCE:'형태가 어느 한쪽으로 뚜렷하지 않음', MODEL_NOT_TRAINED:'해당 항목의 모델 준비 전', DEPTH_VIEW_DIRECTIONS_INVALID:'사선 촬영 방향을 확인할 수 없음', REGRESSION_HEAD_HAS_NO_CLASS_CONFIDENCE:'분류 신뢰도가 없는 측정 항목', DEPTH_MEASUREMENT_FAILED:'깊이 측정 실패', QUALITY_FAILED:'입력 품질 기준 미충족', BOUNDARIES_NOT_VALIDATED:'측정 경계 검증 전', DEPTH_SCORE_MISSING:'측정 적합도 없음'};
@@ -121,11 +121,13 @@ export interface PhotoView {available: boolean; show: boolean; url: string | nul
 function PhotoToggle({photo,hint}: {photo: PhotoView; hint?: string}) {
   return <label className="photo-toggle"><input type="checkbox" checked={photo.show} onChange={e=>photo.setShow(e.target.checked)}/><span>사진과 측정선 표시</span>{hint && <small>{hint}</small>}</label>;
 }
-export function Results({result,photo,onPreview,onReset}: {result:AnalysisResult;photo?:PhotoView;onPreview:()=>void;onReset:()=>void}) {
+/** The character drawing for the report sheet (portrait.ts): url once it has arrived, pending while it is being drawn. */
+export interface PortraitView {url: string | null; anchors: Anchors | null; pending: boolean}
+export function Results({result,photo,portrait,onPreview,onReset}: {result:AnalysisResult;photo?:PhotoView;portrait?:PortraitView;onPreview:()=>void;onReset:()=>void}) {
   const [active,setActive]=useState<string[]>([]);
   const confirmed=result.items.filter(i=>i.status==='CONFIRMED'), held=result.items.filter(i=>i.status==='HELD');
   // A report from the deploy/v1 server is shown as the one-page report sheet; the research tables stay below it as a fallback.
-  if(result.research_report) return <FaceReport report={result.research_report} notice={result.notice} onReset={onReset}/>;
+  if(result.research_report) return <FaceReport report={result.research_report} notice={result.notice} portraitUrl={portrait?.url} anchors={portrait?.anchors ?? undefined} portraitNote={portrait?.pending && !portrait.url ? '캐릭터 그림을 그리는 중… (약 1분)' : undefined} onReset={onReset}/>;
   return <section aria-labelledby="result-title"><div className="result-layout"><aside><FaceDiagram result={result} active={active}/><div className="result-counts"><span>판정 <strong>{confirmed.length}</strong></span><span>보류 <strong>{held.length}</strong></span></div><details className="judgments"><summary>항목별 판정 전체 보기</summary>{[...confirmed,...held].map(i=><div className={`judgment ${i.status==='HELD'?'held':''}`} key={i.item_id}>{i.status==='HELD' && <span className="hold-kind" data-kind={holdKind(i)}>{HOLD_KIND_LABEL[holdKind(i)]}</span>}<strong>{REGIONS[i.region]||i.region} · {itemSummary(i)}</strong><p>{i.basis}</p></div>)}<div className="diagnostic"><button className="text-button" onClick={()=>saveDiagnostic(result)}>판정 정보 파일로 저장(JSON)</button><p className="note">사진은 들어가지 않으며 어디에도 자동으로 보내지 않습니다.</p></div></details></aside>
     <div><div className="res-head"><h1 id="result-title">생김새로 본 관상 풀이</h1><span className="partchip">{result.status==='PARTIAL'?'일부 항목 보류':'모든 항목 판정'}</span></div><p className="res-sub">사진에서 확인한 생김새를 옛 관상서의 기록과 맞춰 풀이했습니다.</p>
       {photo?.available && <section className="photo-panel" aria-label="내 사진과 측정선"><PhotoToggle photo={photo} hint="처음으로 돌아가거나 창을 닫으면 사진이 지워집니다."/>{photo.show && photo.url && <PhotoOverlay url={photo.url} overlay={result.face_overlay} items={result.items} hidden={photo.hidden} onToggle={photo.toggle} onPreset={photo.preset}/>}</section>}
