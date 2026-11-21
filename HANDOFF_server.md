@@ -82,6 +82,7 @@ curl http://127.0.0.1:8000/healthz             # {"status":"ok","vggt_dtype":"fp
 | `depth_models.json` | 광대 돌출·입 돌출 식의 계수(F10, F19 항목은 쓰지 않음). 경계값은 `cuts5_measures.json`의 것을 씁니다 |
 | `literature_representatives.json` | 조건 묶음 48개: 조건, 풀이 방향(다수결), 내용 종류별 줄(`lines`)과 그 조항들(127개)의 원문, 번역, 해설, 주제, 출처 위치(책, 권·편, 절, 글자 위치, 스캔 쪽, 주소) |
 | `region_phrases.json` | 부위별 문구: 부위마다 확정된 형태 조합의 한 문장(596개). report의 `callouts`로 나감. 조합에 맞는 문헌이 없으면 그 부위는 문구가 없음 |
+| `summary_prompt.json` | 총평(report의 `summary`) 프롬프트: 규칙, 예시 6개, 모델 옵션, 받아들이는 형식. 기본 모델 이름도 여기에 있음 |
 | `selection_rules.json` | C안 선정 규칙, 하한, 부위 표 |
 | `manifest.json` | 전체 파일 목록(경로, 크기, sha256, git / s3 구분) |
 | `check_models.json` | 확인용 CNN 목록(선택 사항) |
@@ -110,6 +111,29 @@ curl http://127.0.0.1:8000/healthz             # {"status":"ok","vggt_dtype":"fp
 Python 3.12.14 · torch 2.11.0+cu128 · torchvision 0.26.0+cu128 · mediapipe 1.0.1 · onnxruntime 1.31.0 · opencv 5.0.0 · numpy 2.5.3 · scipy 1.18.1 · pillow 12.3.0 · fastapi 0.141.1 · uvicorn 0.53.0 · python-multipart 0.0.32 · einops 0.8.2 · huggingface-hub 2.2.0
 
 서버에는 화면이 없으니 OpenCV는 headless 빌드를 쓰면 됩니다. 연구실 PC는 onnxruntime을 `models/face_parsing/python`에 따로 두고 썼는데, 서버에서는 pip으로 설치한 것이 그대로 쓰입니다.
+
+## 총평(한줄평) 로컬 모델 (11월 21일 추가)
+
+리포트 끝의 총평 세 문장(`research_report.summary`)은 로컬 모델이 씁니다. 모델은 Ollama로 따로 띄우고, 실행기는 HTTP로 부릅니다(`deploy/v1/summary.py`, 표준 라이브러리만 사용).
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh     # Ollama 설치 (서비스로 뜸, 127.0.0.1:11434)
+ollama pull gemma3:12b                             # 8.2 GB (4비트 양자화본 Q4_K_M)
+```
+
+| 설정 | 환경변수 | 기본값 |
+|---|---|---|
+| `--llm-url` | `FACETELLER_LLM_URL` | `http://127.0.0.1:11434` |
+| `--llm-model` | `FACETELLER_LLM_MODEL` | `gemma3:12b` (`off`이면 모델을 쓰지 않음) |
+| `--llm-timeout` | `FACETELLER_LLM_TIMEOUT` | 60초 |
+
+- 실행기가 확정된 판정에서 좋은 뜻 최대 6개와 조심할 점 최대 2개를 고릅니다(부위를 돌아가며 고름).
+- 모델은 앞의 두 문장(사람됨, 좋은 점)만 씁니다. 모델에는 좋은 뜻 낱말만 가고, 사진·측정값·조심할 점은 가지 않습니다.
+- 마지막 문장(조심할 점)은 모델이 쓰지 않습니다. 조심할 점마다 정해 둔 표현(`summary_prompt.json`의 `care_clauses`)으로 실행기가 붙입니다. 모델이 조심할 점의 뜻을 뒤집는 일을 막기 위해서입니다.
+- 총평은 항상 나옵니다. 모델에 연결되지 않거나, 꺼 두었거나, 답이 형식에 맞지 않으면(1~2문장, 첫 문장이 "…상입니다.", 부위 이름·"…할 것입니다" 같은 예언 말투·당부가 없음) 같은 낱말로 틀에 맞춘 문장을 대신 넣습니다. 다시 생성하지는 않습니다. 어느 쪽인지는 `research_report.summary_info.source`(`model` / `template` / `none`)에 적힙니다.
+- 문헌이 다루는 확정 판정이 하나도 없으면 `summary`는 null입니다.
+- 서버는 시작할 때 모델을 한 번 불러 메모리에 올립니다(`closing remark: model … ready`). 진행 단계에 "총평 작성"이 하나 늘었습니다.
+- 모델은 `gemma3:12b`(4비트, 8.2 GB)로 정했습니다(11월 21일). 가상 40건 중 36건이 모델 문장, 4건이 틀 문장이었고 어색한 문장이 가장 적었습니다. 연구실 PC(RTX 3070 8 GB)에서는 GPU에 다 올라가지 않아 한 건에 4~6초였으니, EC2에서의 시간과 메모리는 올린 뒤 재 주세요. 메모리가 모자라면 `--llm-model gemma3:4b`(3.4 GB, 한 건 약 0.5초)로 바꿀 수 있습니다. 4b는 열 건에 한 건쯤 낱말이 어색합니다. 4b를 8비트로 바꾸거나 8B급 모델(qwen3:8b, exaone3.5:7.8b)을 써도 나아지지 않았습니다.
 
 ## 3. 판정 흐름
 

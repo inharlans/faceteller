@@ -360,9 +360,18 @@
    "bytes": 193585,
    "sha256": "a28488f721a251295a9053fc3d995fdd0a96631262cac745974e7622ce3592c9",
    "format": "JSON, e.g. {\"regions\": {\"눈썹\": [\"F18\",\"F04\",\"F05\",\"F06\"]}, \"combinations\": {\"눈썹\": {\"F04:긴 편|F05:곡선\": {\"text\": \"…\", \"tone\": \"좋음\"}}}}"
+  },
+  {
+   "path": "experiments/feature17-20261109/deploy_v1/summary_prompt.json",
+   "git_path": "deploy/v1/config/summary_prompt.json",
+   "role": "summary_prompt",
+   "delivery": "git",
+   "bytes": 5603,
+   "sha256": "04eb52f1ae080d76f2b1cbb23efb18fcbf56812f2c46856dfe47c0c152fccea7",
+   "format": "JSON: rules, examples (good, care, text), options, accept - the prompt of the closing remark"
   }
  ],
- "total_bytes": 6204316768,
+ "total_bytes": 6204322371,
  "s3_bytes": 6203755597,
- "git_bytes": 561171
+ "git_bytes": 566774
 }

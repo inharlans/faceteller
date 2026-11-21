@@ -10,6 +10,10 @@
                                                        fp16 otherwise, e.g. T4)
   --check               FACETELLER_CHECK_CNN=1         also run the check-only CNNs (off by default; those models are not on S3)
   --check-models-dir    FACETELLER_CHECK_MODELS_DIR    where the check-only model folders are           default: the models dir
+  --llm-url             FACETELLER_LLM_URL             Ollama address for the closing remark (summary)   default: http://127.0.0.1:11434
+  --llm-model           FACETELLER_LLM_MODEL           model name in Ollama; "off" = no model, the remark is put together
+                                                       from a template                                  default: config/summary_prompt.json default_model
+  --llm-timeout         FACETELLER_LLM_TIMEOUT         seconds to wait for the model                    default: 60
 """
 import argparse, os
 from dataclasses import dataclass
@@ -25,11 +29,15 @@ class Settings:
     vggt_dtype: str
     check: bool
     check_models_dir: Path
+    llm_url: str = 'http://127.0.0.1:11434'
+    llm_model: str = ''
+    llm_timeout: float = 60.0
 
 
 def add_arguments(ap: argparse.ArgumentParser):
     ap.add_argument('--models-dir'); ap.add_argument('--public-models-dir'); ap.add_argument('--config-dir'); ap.add_argument('--vggt-dtype', choices=['auto', 'bf16', 'fp16', 'fp32'])
     ap.add_argument('--check', action='store_true', default=None, help='also run the check-only CNNs (off by default)'); ap.add_argument('--check-models-dir')
+    ap.add_argument('--llm-url'); ap.add_argument('--llm-model'); ap.add_argument('--llm-timeout', type=float)
     return ap
 
 
@@ -38,8 +46,11 @@ def resolve(args=None) -> Settings:
     models = get('models_dir', 'FACETELLER_MODELS_DIR', ROOT / 'experiments/feature17-20261109'); dtype = getattr(args, 'vggt_dtype', None) or os.environ.get('FACETELLER_VGGT_DTYPE', 'auto')
     if dtype not in ('auto', 'bf16', 'fp16', 'fp32'): raise SystemExit(f'unknown VGGT dtype: {dtype}')
     check = bool(getattr(args, 'check', None)) or os.environ.get('FACETELLER_CHECK_CNN', '').lower() in ('1', 'true', 'yes', 'on')
-    return Settings(models, get('public_models_dir', 'FACETELLER_PUBLIC_MODELS_DIR', ROOT / 'models'), get('config_dir', 'FACETELLER_CONFIG_DIR', HERE / 'config'), dtype, check,
-                    get('check_models_dir', 'FACETELLER_CHECK_MODELS_DIR', models))
+    cfgdir = get('config_dir', 'FACETELLER_CONFIG_DIR', HERE / 'config'); text = lambda name, env, default: str(getattr(args, name, None) or os.environ.get(env) or default)
+    prompt = cfgdir / 'summary_prompt.json'; default_model = __import__('json').loads(prompt.read_text(encoding='utf8'))['default_model'] if prompt.exists() else ''
+    model = text('llm_model', 'FACETELLER_LLM_MODEL', default_model); model = '' if model.lower() in ('off', 'none', '0') else model
+    return Settings(models, get('public_models_dir', 'FACETELLER_PUBLIC_MODELS_DIR', ROOT / 'models'), cfgdir, dtype, check,
+                    get('check_models_dir', 'FACETELLER_CHECK_MODELS_DIR', models), text('llm_url', 'FACETELLER_LLM_URL', 'http://127.0.0.1:11434'), model, float(text('llm_timeout', 'FACETELLER_LLM_TIMEOUT', 60)))
 
 
 def required_files(s: Settings, parts):

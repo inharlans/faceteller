@@ -64,7 +64,7 @@ def create_app(runner: RP.Runner, frontend_dist=None):
 def main():
     ap = ST.add_arguments(argparse.ArgumentParser(description='FaceTeller research trial server')); ap.add_argument('--host', default=os.environ.get('FACETELLER_HOST', '127.0.0.1'))
     ap.add_argument('--port', type=int, default=int(os.environ.get('FACETELLER_PORT', '8777'))); ap.add_argument('--frontend-dist', default=os.environ.get('FACETELLER_FRONTEND_DIST', str(ROOT / 'frontend/dist')))
-    a = ap.parse_args(); t0 = time.perf_counter(); runner = RP.Runner(ST.resolve(a)); runner.load()
+    a = ap.parse_args(); t0 = time.perf_counter(); runner = RP.Runner(ST.resolve(a)); runner.load(); print('closing remark:', (f'model {runner.summary.model} ready' if runner.summary.warm() else 'model not available - template remarks'), flush=True)
     print(f'models loaded in {time.perf_counter() - t0:.1f} s: VGGT {runner.dtype}, check CNN {"on" if runner.s.check else "off"}, GPU {torch.cuda.memory_allocated() / 2**30:.2f} GiB allocated; http://{a.host}:{a.port}/', flush=True)
     uvicorn.run(create_app(runner, os.path.expanduser(a.frontend_dist)), host=a.host, port=a.port, log_level='warning')
 

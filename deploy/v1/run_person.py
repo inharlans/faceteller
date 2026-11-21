@@ -5,7 +5,7 @@ no dataset, no label files.
   CLI      python deploy/v1/run_person.py <front> <oblique> <oblique> [--out report.json] [settings, see settings.py]
   library  Runner(settings).analyze([front, oblique, oblique] PIL RGB images, progress=None, resident=False) -> report
            (schema faceteller-research-report-v1: judgements, plan_C_selected, all_matching, blocked_by_hold,
-           held_judgements, callouts (one sentence per region), cnn_check; no photo, no landmark coordinates)
+           held_judgements, callouts (one sentence per region), summary (closing remark), cnn_check; no photo, no landmark coordinates)
 resident=True keeps the CNN ensembles and VGGT on the GPU between calls (the server). The check-only CNNs run only with
 --check / FACETELLER_CHECK_CNN=1 and are loaded and released per call."""
 import argparse, io, json, sys, time
@@ -21,11 +21,12 @@ import structure as S
 import cnn as C
 import measures as M
 import vggt_depth as VD
+import summary as SM
 import facework.features as FF
 from facework.analysis_v2 import detect
 from facework.release_parsing import ReleaseParser
 CHECK_PARTS = ('glabella', 'face', 'philtrum')  # ensembles the structure does not use; loaded only for the optional check
-STAGES = ('얼굴 정렬', '부위 추출', '형태 분류', '깊이 분석', '문헌 선정')
+STAGES = ('얼굴 정렬', '부위 추출', '형태 분류', '깊이 분석', '문헌 선정', '총평 작성')
 
 
 class PhotoError(Exception):
@@ -40,7 +41,7 @@ class Runner:
         FF.MODEL = settings.public_models_dir / 'face_landmarker.task'  # the landmark model path of facework.features.detector
         torch.hub.set_dir(str(settings.public_models_dir / 'torch_cache/hub')); self.dtype = VD.resolve_dtype(settings.vggt_dtype)
         self.template = np.load(settings.models_dir / 'posenorm_template.npy'); self.depth = VD.DepthFrames(np.load(settings.models_dir / 'vggt3/vggt_template.npy'))
-        self.nets, self.engine, self.parser = {}, None, None
+        self.nets, self.engine, self.parser = {}, None, None; self.summary = SM.Summariser(settings.config_dir, settings.llm_url, settings.llm_model, settings.llm_timeout)
 
     # ---- models
     def _nets(self, folder, part, keep):
@@ -115,6 +116,7 @@ class Runner:
         res['plan_C_selected'] = [S.passage_row(c, J, held, cfg) for c in sel]; res['all_matching'] = [S.passage_row(c, J, held, cfg) for c in cand]
         res['blocked_by_hold'] = [S.passage_row(c, raw, held, cfg) for c in cand_raw if c[1] not in ok_ids]; blocked = {r['representative'] for r in res['blocked_by_hold']}
         res['held_judgements'] = [{'feature': k, 'name': cfg.name[k], 'class': cfg.classes[k][raw[k][0]], 'confidence': raw[k][1], 'threshold': cfg.threshold(k), 'reason': S.held_reason(k, cfg.classes[k][raw[k][0]], blocked, cfg)} for k in cfg.order if held.get(k)]
+        say(STAGES[5]); res['summary'], res['summary_info'] = self.summary.make(J, cfg)  # closing remark (local model, or a template when it is not available)
         res['seconds'] = round(time.perf_counter() - t0, 2); return res
 
     def _check(self, X, cnn_all):

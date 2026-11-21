@@ -1,0 +1,115 @@
+{
+ "schema": "faceteller-summary-prompt-v1",
+ "updated": "2026-11-21",
+ "note": "Closing remark of the report (research_report.summary); see deploy/v1/summary.py. The local model writes only the first part (what kind of person; the good points) from the picked favourable words. The last sentence, what to mind, is NOT written by the model: it is put together from care_clauses (one fixed wording per caution) so that a caution can never be turned around (2026-11-21). Style chosen by the team: \"…상입니다.\" / good points / what to mind; no face part; \"다만,\" with a comma.",
+ "default_model": "gemma3:12b",
+ "good_max": 6,
+ "care_max": 2,
+ "user_template": "좋은 뜻: {good}\n\n총평:",
+ "rules": "당신은 관상 리포트의 끝에 들어갈 총평의 앞부분을 쓰는 사람입니다.\n규칙:\n- 한국어 두 문장만 씁니다. 전체 50~90자. 좋은 뜻이 두 개 이하이면 한 문장으로 줄입니다.\n- 첫째 문장: 사람됨을 한두 가지로 요약하고 \"…상입니다.\"로 끝냅니다.\n- 둘째 문장: 주어진 좋은 뜻을 서너 가지 골라 하나의 흐름으로 잇고 \"…합니다.\" 꼴로 끝냅니다.\n- 주어진 낱말에 없는 뜻이나 사실을 지어내지 않습니다. 앞날을 점치는 말(\"…할 것입니다\")을 쓰지 않습니다. 조심할 점이나 당부는 쓰지 않습니다.\n- 눈, 코, 입 같은 부위나 생김새는 말하지 않습니다. 한자, 영어, 따옴표, 번호, 설명 없이 문장만 출력합니다.",
+ "examples": [
+  {
+   "good": [
+    "배움과 재주",
+    "깊은 학식",
+    "온화한 성품",
+    "널리 알려지는 이름",
+    "충직하고 믿음직한 성품",
+    "넉넉한 부"
+   ],
+   "text": "학문이 깊고 성정이 온후하여 사람들이 믿고 따르는 상입니다. 재주로 이름을 알리고 충직함으로 믿음을 얻어, 넉넉한 부를 함께 누립니다."
+  },
+  {
+   "good": [
+    "존귀한 기품",
+    "높은 직책",
+    "믿음직한 성품",
+    "든든한 재물의 근원",
+    "큰 자리에 오르는 그릇"
+   ],
+   "text": "타고난 기품에 믿음이 두터운 상입니다. 큰일을 맡을 그릇이라 직책이 높아지고, 재물의 근원이 든든하여 살림이 넉넉합니다."
+  },
+  {
+   "good": [
+    "속 깊고 신중한 성품",
+    "끊이지 않는 복록",
+    "뛰어난 재능",
+    "평생의 복"
+   ],
+   "text": "속이 깊고 신중하여 쉽게 흔들리지 않는 상입니다. 뛰어난 재능이 때를 만나 빛을 보고, 복록이 끊이지 않아 평생이 넉넉합니다."
+  },
+  {
+   "good": [
+    "넉넉한 재물",
+    "뛰어난 재능",
+    "깊은 학식",
+    "온화한 성품",
+    "장수"
+   ],
+   "text": "배움이 깊고 성품이 온화한 상입니다. 재능이 재물로 이어져 살림이 넉넉하고, 수명 또한 길어 누릴 날이 많습니다."
+  },
+  {
+   "good": [
+    "크게 귀한 지위",
+    "높이 오르는 이름",
+    "평생의 복",
+    "충직하고 믿음직한 성품"
+   ],
+   "text": "마음이 미덥고 복이 두터운 상입니다. 충직한 성품으로 귀한 자리에 오르고, 이름이 높아지며 평생의 복을 누립니다."
+  },
+  {
+   "good": [
+    "존귀한 기품"
+   ],
+   "text": "기품이 존귀한 상입니다."
+  }
+ ],
+ "options": {
+  "temperature": 0.3,
+  "seed": 7,
+  "num_predict": 160,
+  "num_ctx": 4096,
+  "keep_alive": "30m"
+ },
+ "accept": {
+  "sentences_min": 1,
+  "sentences_max": 2,
+  "chars_min": 15,
+  "chars_max": 110
+ },
+ "care_clauses": {
+  "재물 관리": "재물을 꼼꼼히 살피",
+  "가까운 인연을 소홀히 하는 일": "가까운 인연을 잘 챙기",
+  "재물이 새는 일": "재물이 새지 않게 살피",
+  "씀씀이": "씀씀이를 아끼",
+  "서두르다 일이 막히는 것": "일을 서두르지 않",
+  "속과 다른 말": "속과 다른 말을 삼가",
+  "혼자 짊어지는 일": "짐을 혼자 지지 않고 나누",
+  "조급한 마음": "조급한 마음을 다스리",
+  "잔꾀에 기대는 일": "잔꾀에 기대지 않",
+  "지나친 아낌": "쓸 곳에는 너그러이 쓰",
+  "말수": "말수를 줄이",
+  "쉽게 믿는 마음": "사람을 가려 믿",
+  "말다툼": "말다툼을 피하",
+  "살림살이": "살림을 알뜰히 챙기",
+  "가벼운 말": "말을 가볍게 하지 않",
+  "불평 섞인 말": "불평 섞인 말을 아끼",
+  "남과 겨루려는 마음": "남과 겨루려는 마음을 내려놓",
+  "가족에게 소홀해지는 일": "가족을 살뜰히 챙기",
+  "뒷심이 달리는 일": "끝까지 뒷심을 지키",
+  "고집": "고집을 삼가",
+  "늦게 풀리는 일": "일이 늦게 풀려도 조급해하지 않"
+ },
+ "care_forms": {
+  "condition": "{a} 그 복이 오래 이어집니다.",
+  "advice": "다만, {a} 것이 좋습니다.",
+  "unknown": "다만, {words} 조심하는 것이 좋습니다.",
+  "none": "지금의 좋은 점을 지키면 그 복이 오래 이어집니다."
+ },
+ "care_clauses_note": "verb stems; the code adds -고 between two, and -(으)면 or -는 at the end",
+ "extra_cautions": {
+  "F07:좁음": "늦게 풀리는 일"
+ },
+ "extra_cautions_note": "caution word for an unfavourable reading that has none in region_phrases.json (key = its condition joined by |)",
+ "model_note": "gemma3:12b, 4-bit (Q4_K_M, 8.2 GB), chosen by the team on 2026-11-21 for sentence quality; gemma3:4b (3.4 GB, about 0.5 s a remark) is the lighter fallback with more awkward words"
+}
