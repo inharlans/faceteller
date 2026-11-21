@@ -24,7 +24,7 @@ from fastapi.responses import JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 VIEWS = ('front', 'left_oblique', 'right_oblique'); MAX_BYTES = 12 * 2**20
-NOTICE = '연구용 임시 화면입니다. 전통 문헌 조회 결과이며 개인의 성격·지능·건강·운명을 판정하거나 예측하지 않습니다.'
+NOTICE = '전통 문헌 조회 결과이며 개인의 성격·지능·건강·운명을 판정하거나 예측하지 않습니다.'
 line = lambda e: (json.dumps(e, ensure_ascii=False) + '\n').encode('utf8')
 
 
