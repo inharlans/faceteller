@@ -111,7 +111,7 @@ class Runner:
         res['judgements'] = {k: {'name': cfg.name[k], 'region': cfg.region[k], 'method': cfg.method[k], 'value': value.get(k), 'class': cfg.classes[k][raw[k][0]] if k in raw else None, 'confidence': raw[k][1] if k in raw else None,
                                  'threshold': cfg.threshold(k), 'status': note.get(k) or ('보류' if held[k] else '확정'), **detail.get(k, {})} for k in cfg.order}
         res['cnn_check'] = chk; res['callouts'] = [{'region': r['region'], 'tone': r['tone'], 'text': r['text']} for r in S.region_phrases(J, cfg)];  # the report sheet of the frontend reads research_report.callouts
-         cand = S.matches(J, cfg); sel = S.select_c(cand, cfg); cand_raw = S.matches(raw, cfg); ok_ids = {c[1] for c in cand}
+        cand = S.matches(J, cfg); sel = S.select_c(cand, cfg); cand_raw = S.matches(raw, cfg); ok_ids = {c[1] for c in cand}
         res['plan_C_selected'] = [S.passage_row(c, J, held, cfg) for c in sel]; res['all_matching'] = [S.passage_row(c, J, held, cfg) for c in cand]
         res['blocked_by_hold'] = [S.passage_row(c, raw, held, cfg) for c in cand_raw if c[1] not in ok_ids]; blocked = {r['representative'] for r in res['blocked_by_hold']}
         res['held_judgements'] = [{'feature': k, 'name': cfg.name[k], 'class': cfg.classes[k][raw[k][0]], 'confidence': raw[k][1], 'threshold': cfg.threshold(k), 'reason': S.held_reason(k, cfg.classes[k][raw[k][0]], blocked, cfg)} for k in cfg.order if held.get(k)]
