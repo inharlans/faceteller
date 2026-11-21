@@ -203,3 +203,61 @@
 @media print{body.fr-print-mode #root{display:none!important}body.fr-print-mode .fr-print{display:block;page:fr-a4}
   .fr-print .fr-sheet{width:210mm;max-width:none;height:296.6mm;aspect-ratio:auto;margin:0;box-shadow:none;background:#fff;break-inside:avoid}
   .fr-sheet,.fr-sheet *{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+/* Full-window layout (2026-11-21): the white app surface fills the whole window, with no grey frame, card border or
+   shadow around it. The step list sits under the app bar; page content stays centred at a readable width. */
+.app{--bg:var(--surface)}
+.wrap{max-width:none;padding:0;margin:0;min-height:100vh;display:flex;flex-direction:column}
+.doc-head{display:none}
+.device{border:0;border-radius:0;box-shadow:none;flex:1;display:flex;flex-direction:column;overflow:visible}
+.device>.steps{margin:0;padding:10px 23px;border-bottom:1px solid var(--line);background:var(--surface)}
+.stage{flex:1;width:100%;max-width:1100px;margin:0 auto}
+.app-footer{margin:0;padding:12px 23px 14px;border-top:1px solid var(--line)}
+@media(max-width:760px){.device>.steps{padding:8px 17px}.app-footer{padding:10px 17px 12px}}
+/* Top bar and step list hidden on screen (2026-11-21, user request). Print is unaffected. */
+.appbar,.device>.steps{display:none}
+/* Start and progress screens sit in the middle of the window (2026-11-21). */
+.stage{display:flex;flex-direction:column}
+.stage>.home,.stage>.progress-screen{margin-block:auto}
+/* Bottom footer hidden on screen (2026-11-21, user request). */
+.app-footer{display:none}
+/* Start screen notice a little lower (2026-11-21). */
+.home>.note{margin-top:16px}
+/* Light "traditional physiognomy" backdrop (2026-11-21): hanji-like warm paper, a faint fibre texture and a pale
+   ink-wash mountain line at the bottom of the window. Kept very light so text and buttons read as before. */
+.app:not(.dark){--bg:#f7f2e8;background-color:#f7f2e8;background-image:
+  url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27240%27 height=%27240%27%3E%3Cfilter id=%27n%27%3E%3CfeTurbulence type=%27fractalNoise%27 baseFrequency=%27.85%27 numOctaves=%272%27 stitchTiles=%27stitch%27/%3E%3CfeColorMatrix values=%270 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .18 0 0 0 .055 0%27/%3E%3C/filter%3E%3Crect width=%27100%25%27 height=%27100%25%27 filter=%27url(%23n)%27/%3E%3C/svg%3E"),
+  radial-gradient(ellipse at 15% 10%,#fffaf0 0,transparent 55%),radial-gradient(ellipse at 85% 90%,#efe6d4 0,transparent 60%)}
+.app:not(.dark) .device{background:transparent}
+.app:not(.dark) .wrap::after{content:"";position:fixed;left:0;right:0;bottom:0;height:26vh;pointer-events:none;z-index:0;opacity:.09;
+  background:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1600 300%27 preserveAspectRatio=%27none%27%3E%3Cdefs%3E%3ClinearGradient id=%27g%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%23312a22%27 stop-opacity=%27.0%27/%3E%3Cstop offset=%27.35%27 stop-color=%27%23312a22%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d=%27M0 230 C120 170 210 120 300 150 S470 90 560 140 S720 60 830 120 S1000 170 1090 110 S1290 70 1380 140 S1520 180 1600 150 V300 H0Z%27 fill=%27url(%23g)%27/%3E%3Cpath d=%27M0 270 C160 230 300 210 430 240 S700 200 860 235 S1150 210 1300 245 S1500 230 1600 225 V300 H0Z%27 fill=%27%23312a22%27 opacity=%27.6%27/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+.app:not(.dark) .stage{position:relative;z-index:1}
+/* Traditional physiognomy look (2026-11-21): the same ink, gold line and cinnabar seal as the A4 report sheet. */
+.app:not(.dark){--ink:#2b2520;--ink2:#5b5148;--muted:#8a7a66;--line:#e2d4b8;--line2:#cdb98f;--accent:#2b2520;--accentSoft:#efe4cf;--accentInk:#fbf6ea;
+  --surface:#fffaf0;--surface2:#f5ecdb;--surface3:#eadfca;--seal:#a8442f;--gold:#8a6a3b}
+.app:not(.dark) h1,.app:not(.dark) h2{font-family:"Noto Serif KR","Noto Serif TC",serif;font-weight:700;letter-spacing:-.02em}
+.app:not(.dark) .button{border-radius:3px;letter-spacing:.02em}
+.app:not(.dark) .button:not(.ghost){background:var(--ink);color:var(--accentInk);box-shadow:inset 0 -2px 0 #00000033}
+.app:not(.dark) .button.ghost{background:#fffaf0;border-color:var(--line2);color:var(--ink)}
+.app:not(.dark) .button.ghost:hover{background:var(--surface2)}
+/* start screen: a framed page like the cover of an old book */
+.app:not(.dark) .stage>.home{position:relative;isolation:isolate;width:min(640px,100%);margin-inline:auto;padding:58px 56px 40px;background:#fffaf0e6;
+  border:1px solid var(--line2);box-shadow:inset 0 0 0 7px #fffaf0,inset 0 0 0 8px var(--line),0 1px 2px #2b25200d,0 14px 40px #2b252014;
+  background-image:linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),
+    linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold)),linear-gradient(var(--gold),var(--gold));
+  background-repeat:no-repeat;background-size:22px 2px,2px 22px,22px 2px,2px 22px,22px 2px,2px 22px,22px 2px,2px 22px;
+  background-position:14px 14px,14px 14px,calc(100% - 14px) 14px,calc(100% - 14px) 14px,14px calc(100% - 14px),14px calc(100% - 14px),calc(100% - 14px) calc(100% - 14px),calc(100% - 14px) calc(100% - 14px)}
+.app:not(.dark) .stage>.home::before{content:"觀相";position:absolute;top:26px;right:28px;writing-mode:vertical-rl;font-family:"Noto Serif TC","Noto Serif KR",serif;
+  font-size:17px;line-height:1;letter-spacing:.1em;padding:9px 7px;background:var(--seal);color:#fff6e8;border-radius:4px;transform:rotate(4deg);box-shadow:0 1px 2px #a8442f55}
+.app:not(.dark) .stage>.home::after{content:"相";position:absolute;inset:0;display:grid;place-items:center;z-index:-1;pointer-events:none;
+  font-family:"Noto Serif TC","Noto Serif KR",serif;font-size:420px;line-height:1;color:var(--gold);opacity:.05}
+.app:not(.dark) .home .eyebrow{color:var(--gold);letter-spacing:.32em}
+.app:not(.dark) .home h1{font-size:34px;line-height:1.45;margin-bottom:16px}
+.app:not(.dark) .home .lead{color:var(--ink2)}
+.app:not(.dark) .home-motif span{font-family:"Noto Serif TC","Noto Serif KR",serif;background:transparent;border:1.5px solid var(--seal);color:var(--seal)}
+.app:not(.dark) .home-motif i{border-top:1px dashed var(--line2)}
+.app:not(.dark) .progress-screen h1{font-size:24px}
+.app:not(.dark) .spinner{border-color:var(--surface3);border-top-color:var(--seal)}
+.app:not(.dark) .progress-list .active{color:var(--seal)}
+.app:not(.dark) .progress-list .done{color:var(--gold)}
+@media(max-width:760px){.app:not(.dark) .stage>.home{padding:48px 22px 30px}.app:not(.dark) .stage>.home::after{font-size:300px}.app:not(.dark) .home h1{font-size:26px}}
