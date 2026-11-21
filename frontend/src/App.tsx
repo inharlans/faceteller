@@ -4,7 +4,7 @@ import {captureDirectionLabel} from './capture';
 import {Camera, Upload} from './Inputs';
 import {presetHidden} from './PhotoOverlay';
 import {Printable, Results, type PhotoView} from './Results';
-import {PORTRAIT_TIMEOUT_MS, PROGRESS_WAIT_MS, STAGE_STEP_MS, portraitAnchors, requestPortrait, type Portrait} from './portrait';
+import {FINISH_MS, PORTRAIT_TIMEOUT_MS, PROGRESS_POLL_MS, PROGRESS_WAIT_MS, STAGE_STEP_MS, drawPercent, newRequestId, portraitAnchors, portraitProgress, requestPortrait, stagePercent, stageStepMs, type DrawProgress, type Portrait} from './portrait';
 import {DIRECTIONS, NOTICE, STAGES, type AnalysisResult, type InputMode, type InputSet} from './types';
 type Page = 'home'|'camera'|'camera-retry'|'upload'|'review'|'progress'|'results'|'preview';
 // Server analysis is ON for the lab trial (2026-11-16): photos go to POST /api/v1/analysis. Set to false to show the
@@ -21,7 +21,9 @@ export default function App() {
   const [portrait,setPortrait]=useState<Portrait|null>(null),[portraitPending,setPortraitPending]=useState(false),portraitReq=useRef<AbortController|null>(null);
   useEffect(()=>{if(!portrait) return; return()=>URL.revokeObjectURL(portrait.url);},[portrait]);
   // Pacing of the progress screen while the drawing is being made (portrait.ts).
-  const [analysisDone,setAnalysisDone]=useState(false),[now,setNow]=useState(0),startedAt=useRef(0);
+  const [analysisDone,setAnalysisDone]=useState(false),[now,setNow]=useState(0),[stepMs,setStepMs]=useState(STAGE_STEP_MS),startedAt=useRef(0),finishAt=useRef<number|null>(null),finishBase=useRef<number[]>([]);
+  // Real progress of the drawing (image server /progress/<id>): the last answer, when it came, and how long one step takes.
+  const [prog,setProg]=useState<{p:DrawProgress;at:number}|null>(null),portraitId=useRef(''),stepTimes=useRef<{step:number;at:number}[]>([]),drawMax=useRef(0);
   const stopPortrait=useCallback(()=>{portraitReq.current?.abort();portraitReq.current=null;setPortrait(null);setPortraitPending(false);},[]);
   const clearPhoto=useCallback(()=>{setFront(null);setShowPhoto(false);setHidden([]);},[]);
   useEffect(()=>{if(!front||!showPhoto) return; const url=URL.createObjectURL(front);setPhotoUrl(url);return()=>{URL.revokeObjectURL(url);setPhotoUrl(null);};},[front,showPhoto]);
@@ -31,10 +33,10 @@ export default function App() {
   const start=useCallback(async(inputs:InputSet,inputMode:InputMode)=>{
     if(request.current) return;
     const epoch=++generation.current, controller=new AbortController();request.current=controller;mode.current=inputMode;
-    startedAt.current=Date.now();setNow(startedAt.current);setAnalysisDone(false);
+    startedAt.current=Date.now();finishAt.current=null;setProg(null);stepTimes.current=[];drawMax.current=0;portraitId.current=newRequestId();setNow(startedAt.current);setAnalysisDone(false);setStepMs(STAGE_STEP_MS);void stageStepMs(STAGES.length).then(ms=>{if(epoch===generation.current)setStepMs(ms);});
     setResult(null);clearPhoto();stopPortrait();setNotice('');setStage('사진을 전달하고 있습니다…');setPage('progress');
     const drawing=new AbortController(), timer=setTimeout(()=>drawing.abort(),PORTRAIT_TIMEOUT_MS);portraitReq.current=drawing;setPortraitPending(true);
-    void requestPortrait(inputs.front,drawing.signal).then(async png=>{const anchors=await portraitAnchors(png); if(epoch!==generation.current||drawing.signal.aborted) return; setPortrait({url:URL.createObjectURL(png),anchors});})
+    void requestPortrait(inputs.front,drawing.signal,portraitId.current).then(async png=>{const anchors=await portraitAnchors(png); if(epoch!==generation.current||drawing.signal.aborted) return; setPortrait({url:URL.createObjectURL(png),anchors});})
       .catch(()=>{}).finally(()=>{clearTimeout(timer); if(epoch===generation.current){setPortraitPending(false); if(portraitReq.current===drawing) portraitReq.current=null;}});
     try {
       const answer=await submitAnalysis(inputs,inputMode,controller.signal,s=>{if(epoch===generation.current)setStage(s);});
@@ -57,10 +59,30 @@ export default function App() {
   const cancel=()=>{generation.current++;request.current?.abort();request.current=null;stopPortrait();setResult(null);setAnalysisDone(false);clearPhoto();setNotice('요청을 취소하고 임시 사진을 정리했습니다.');setPage(mode.current==='camera'?'camera-retry':'upload');};
   // While on the progress screen: tick the clock; show the results once the analysis is in and the drawing is in,
   // has failed, or has taken longer than PROGRESS_WAIT_MS.
-  useEffect(()=>{if(page!=='progress') return; const t=setInterval(()=>setNow(Date.now()),300); return()=>clearInterval(t);},[page]);
-  useEffect(()=>{if(page==='progress' && analysisDone && result && (!portraitPending || now-startedAt.current>=PROGRESS_WAIT_MS)) {setAnalysisDone(false);setPage('results');}},[page,analysisDone,result,portraitPending,now]);
-  const serverStage=analysisDone?STAGES.length:STAGES.indexOf(stage), paced=portraitPending?Math.min(serverStage,Math.floor((now-startedAt.current)/STAGE_STEP_MS),STAGES.length-1):serverStage;
-  const shownStage=paced>=0&&paced<STAGES.length?STAGES[paced]:stage;
+  useEffect(()=>{if(page!=='progress') return; const t=setInterval(()=>setNow(Date.now()),80); return()=>clearInterval(t);},[page]);
+  // Ask the image server how far our drawing is, every PROGRESS_POLL_MS while it is being made.
+  useEffect(()=>{if(page!=='progress'||!portraitPending||!portraitId.current) return; const id=portraitId.current, ctl=new AbortController();
+    const t=setInterval(()=>{void portraitProgress(id,ctl.signal).then(p=>{if(!p||id!==portraitId.current) return; const at=Date.now();
+      if(p.state==='drawing'){const st=stepTimes.current; if(!st.length||st[st.length-1].step!==p.step) st.push({step:p.step,at});}
+      setProg(prev=>prev&&prev.p.state===p.state&&prev.p.step===p.step?prev:{p,at});});},PROGRESS_POLL_MS);
+    return()=>{clearInterval(t);ctl.abort();};},[page,portraitPending]);
+  // How much of the drawing is done (0..1), moving smoothly between the answers at the measured step rate; null when the
+  // server gives no progress (then the stages follow the time estimate as before).
+  const stepDur=(()=>{const st=stepTimes.current; return st.length>=2?(st[st.length-1].at-st[0].at)/Math.max(1,st[st.length-1].step-st[0].step):0;})();
+  const drawF=!prog||prog.p.state==='unknown'?null:prog.p.state==='done'?1:prog.p.state==='queued'||!prog.p.steps?0
+    :Math.min(.99,(prog.p.step+(stepDur?Math.min(.95,(now-prog.at)/stepDur):0))/prog.p.steps);
+  // never let the shown fraction go back (a late or repeated answer must not pull the gauges down)
+  const drawShown=drawF===null?null:Math.max(drawMax.current,drawF); if(drawShown!==null) drawMax.current=drawShown;
+  const real=drawShown!==null&&portraitPending, queued=real&&prog?.p.state==='queued';
+  const serverStage=analysisDone?STAGES.length:STAGES.indexOf(stage);
+  const paced=!portraitPending?serverStage:real?Math.min(serverStage,STAGES.length-1,Math.floor(drawShown*STAGES.length)):Math.min(serverStage,Math.floor((now-startedAt.current)/stepMs),STAGES.length-1);
+  const shownStage=queued?'그림 순서를 기다리는 중…':paced>=0&&paced<STAGES.length?STAGES[paced]:stage;
+  const live=STAGES.map((_,i)=>real?drawPercent(i,paced,drawShown,STAGES.length):stagePercent(i,paced,STAGES.length-1,now-startedAt.current,stepMs,portraitPending));
+  // When everything is in, the gauges first run up to 100 over FINISH_MS, then the results are shown.
+  useEffect(()=>{if(page!=='progress' || !analysisDone || !result || (portraitPending && now-startedAt.current<PROGRESS_WAIT_MS)) return;
+    if(finishAt.current===null){finishAt.current=now;finishBase.current=live;return;}
+    if(now-finishAt.current>=FINISH_MS){finishAt.current=null;setAnalysisDone(false);setPage('results');}},[page,analysisDone,result,portraitPending,now]);   // eslint-disable-line react-hooks/exhaustive-deps
+  const percent=(i:number)=>{const f=finishAt.current; if(f===null) return live[i]; const base=finishBase.current[i]??live[i]; return Math.round(base+(100-base)*Math.min(1,(now-f)/FINISH_MS));};
   const photo:PhotoView={available:!!front,show:showPhoto,url:photoUrl,hidden,setShow:setShowPhoto,
     toggle:id=>setHidden(h=>h.includes(id)?h.filter(v=>v!==id):[...h,id]),preset:p=>setHidden(presetHidden(result?.face_overlay,p))};
   const step=page==='home'?0:page==='camera'||page==='camera-retry'||page==='upload'||page==='review'?1:page==='progress'?2:page==='results'?3:4;
@@ -75,7 +97,7 @@ export default function App() {
           {page==='camera-retry' && <section className="center"><h1>사진을 다시 촬영해 주세요</h1><p className="lead">이전 사진은 정리했습니다. 정면부터 세 방향을 다시 촬영합니다.</p><div className="actions center"><button className="button" onClick={startCamera}>다시 촬영</button><button className="button ghost" onClick={()=>cameraError('사진 3장을 업로드해 주세요.')}>업로드로 전환</button></div></section>}
           {page==='review' && captured && <section className="center" aria-labelledby="review-title"><p className="eyebrow">촬영 확인</p><h1 id="review-title">사진이 제대로 나왔는지 확인해 주세요</h1><p className="lead">실제로 분석에 쓰일 사진 그대로입니다. 지금은 서버 분석을 하지 않습니다.</p><div className="review-grid">{DIRECTIONS.map(d=><figure key={d} className="review-shot">{capturedUrls[d] && <img src={capturedUrls[d]} alt={`${d==='front'?'정면':captureDirectionLabel(d,'upload')+'을 향한'} 사진`}/>}<figcaption>{d==='front'?'정면':`${captureDirectionLabel(d,'upload')}을 향한 사진`}</figcaption></figure>)}</div><div className="actions center"><button className="button" onClick={captured.mode==='camera'?startCamera:()=>{setCaptured(null);setPage('upload');}}>{captured.mode==='camera'?'다시 촬영':'다시 업로드'}</button><button className="button ghost" onClick={reset}>처음으로</button></div></section>}
           {page==='upload' && <Upload onReady={uploadReady} onBack={reset} onCamera={startCamera}/>}
-          {page==='progress' && <section className="progress-screen center" aria-labelledby="progress-title"><div className="spinner" aria-hidden="true"/><h1 id="progress-title">얼굴 형태와 문헌을 확인하고 있습니다</h1><p role="status" aria-live="polite">{shownStage}</p><ol className="progress-list">{STAGES.map((s,i)=><li key={s} className={paced>i?'done':paced===i?'active':''}><span>{paced>i?'✓':i+1}</span>{s}</li>)}</ol><button className="button ghost" onClick={cancel}>분석 취소</button></section>}
+          {page==='progress' && <section className="progress-screen center" aria-labelledby="progress-title"><div className="spinner" aria-hidden="true"/><h1 id="progress-title">얼굴 형태와 문헌을 확인하고 있습니다</h1><p role="status" aria-live="polite">{shownStage}</p><ol className="progress-list">{STAGES.map((s,i)=>{const p=percent(i);return <li key={s} className={paced>i?'done':paced===i?'active':''}><span>{paced>i?'✓':i+1}</span><em>{s}</em><i className="gauge" aria-hidden="true"><b style={{width:`${p}%`}}/></i><small>{p}%</small></li>;})}</ol><button className="button ghost" onClick={cancel}>분석 취소</button></section>}
           {result && page==='results' && <Results result={result} photo={photo} portrait={{url:portrait?.url??null,anchors:portrait?.anchors??null,pending:portraitPending}} onPreview={()=>setPage('preview')} onReset={reset}/>}
           {result && page==='preview' && <div className="preview-heading"><h1>문헌 기록을 한 장에</h1><p className="lead">원문·풀이·출처와 확인한 생김새를 담습니다.</p></div>}
         </main></div><footer className="app-footer">FaceTeller <span>관찰 가능한 형태와 역사적 문헌의 연결</span></footer></div>
