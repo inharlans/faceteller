@@ -8,7 +8,7 @@
 > - 광대 돌출, 입 돌출: 식은 그대로, 경계값만 팀이 정한 값으로 바꿈(보류 없음).
 > - 측정 특징 7개(눈 크기, 눈썹-눈 간격, 코 길이, 코 높이, 입술 두께, 인중 길이, 턱 폭)의 보류 기준을 0.755에서 0.6으로 바꿈. 이제 보류 하한은 모두 0.6 하나입니다.
 > - 새 설정 파일 `deploy/v1/config/cuts5_measures.json` 하나가 늘었고, 모델 파일은 추가가 없습니다. 인중 CNN 5개는 더 이상 읽지 않습니다.
-> - (11월 21일) 조건 묶음이 48개에서 50개로 늘었습니다(미간: 좁음 / 코 폭: 좁음 + 코끝: 좁아지는 편). report에 `region_phrases`(부위별 한 문장: `region`, `text`, `tone`, `id`, `features`, `groups`)가 추가됐습니다. 기존 필드는 그대로입니다.
+> - (11월 21일) 조건 묶음이 48개에서 50개로 늘었습니다(미간: 좁음 / 코 폭: 좁음 + 코끝: 좁아지는 편). 서버가 report에 `callouts`(부위별 한 문장: `region`, `tone`, `text`)를 보냅니다(`config/region_phrases.json`에서 찾음). 기존 필드는 그대로입니다.
 > - 서버에서는 이 브랜치를 다시 받고 `serve_person.py`를 다시 띄우면 됩니다. report 형식은 그대로입니다(`judgements`의 `method`, `measure` 값만 달라짐).
 
 - 실행 코드: `deploy/v1/*.py`
@@ -81,7 +81,7 @@ curl http://127.0.0.1:8000/healthz             # {"status":"ok","vggt_dtype":"fp
 | `cuts5_measures.json` | 11월 17일에 팀이 정한 순위 경계 5개: 눈썹-눈 간격·입술 두께·인중 길이의 경계값과 측정 오차, 광대 돌출·입 돌출 식 점수의 경계값. 광대·입 돌출은 보류하지 않음(`not_held`) |
 | `depth_models.json` | 광대 돌출·입 돌출 식의 계수(F10, F19 항목은 쓰지 않음). 경계값은 `cuts5_measures.json`의 것을 씁니다 |
 | `literature_representatives.json` | 조건 묶음 48개: 조건, 풀이 방향(다수결), 내용 종류별 줄(`lines`)과 그 조항들(127개)의 원문, 번역, 해설, 주제, 출처 위치(책, 권·편, 절, 글자 위치, 스캔 쪽, 주소) |
-| `region_phrases.json` | 부위별 문구: 부위마다 확정된 형태 조합의 한 문장(596개). report의 `region_phrases`로 나감. 조합에 맞는 문헌이 없으면 그 부위는 문구가 없음 |
+| `region_phrases.json` | 부위별 문구: 부위마다 확정된 형태 조합의 한 문장(596개). report의 `callouts`로 나감. 조합에 맞는 문헌이 없으면 그 부위는 문구가 없음 |
 | `selection_rules.json` | C안 선정 규칙, 하한, 부위 표 |
 | `manifest.json` | 전체 파일 목록(경로, 크기, sha256, git / s3 구분) |
 | `check_models.json` | 확인용 CNN 목록(선택 사항) |

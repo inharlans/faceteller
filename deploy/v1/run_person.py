@@ -5,7 +5,7 @@ no dataset, no label files.
   CLI      python deploy/v1/run_person.py <front> <oblique> <oblique> [--out report.json] [settings, see settings.py]
   library  Runner(settings).analyze([front, oblique, oblique] PIL RGB images, progress=None, resident=False) -> report
            (schema faceteller-research-report-v1: judgements, plan_C_selected, all_matching, blocked_by_hold,
-           held_judgements, region_phrases, cnn_check; no photo, no landmark coordinates)
+           held_judgements, callouts (one sentence per region), cnn_check; no photo, no landmark coordinates)
 resident=True keeps the CNN ensembles and VGGT on the GPU between calls (the server). The check-only CNNs run only with
 --check / FACETELLER_CHECK_CNN=1 and are loaded and released per call."""
 import argparse, io, json, sys, time
@@ -110,7 +110,8 @@ class Runner:
         say(STAGES[4]); held = {k: (cfg.threshold(k) is not None and raw[k][1] < cfg.threshold(k)) for k in raw}; J = {k: v for k, v in raw.items() if not held[k]}
         res['judgements'] = {k: {'name': cfg.name[k], 'region': cfg.region[k], 'method': cfg.method[k], 'value': value.get(k), 'class': cfg.classes[k][raw[k][0]] if k in raw else None, 'confidence': raw[k][1] if k in raw else None,
                                  'threshold': cfg.threshold(k), 'status': note.get(k) or ('보류' if held[k] else '확정'), **detail.get(k, {})} for k in cfg.order}
-        res['cnn_check'] = chk; res['region_phrases'] = S.region_phrases(J, cfg); cand = S.matches(J, cfg); sel = S.select_c(cand, cfg); cand_raw = S.matches(raw, cfg); ok_ids = {c[1] for c in cand}
+        res['cnn_check'] = chk; res['callouts'] = [{'region': r['region'], 'tone': r['tone'], 'text': r['text']} for r in S.region_phrases(J, cfg)];  # the report sheet of the frontend reads research_report.callouts
+         cand = S.matches(J, cfg); sel = S.select_c(cand, cfg); cand_raw = S.matches(raw, cfg); ok_ids = {c[1] for c in cand}
         res['plan_C_selected'] = [S.passage_row(c, J, held, cfg) for c in sel]; res['all_matching'] = [S.passage_row(c, J, held, cfg) for c in cand]
         res['blocked_by_hold'] = [S.passage_row(c, raw, held, cfg) for c in cand_raw if c[1] not in ok_ids]; blocked = {r['representative'] for r in res['blocked_by_hold']}
         res['held_judgements'] = [{'feature': k, 'name': cfg.name[k], 'class': cfg.classes[k][raw[k][0]], 'confidence': raw[k][1], 'threshold': cfg.threshold(k), 'reason': S.held_reason(k, cfg.classes[k][raw[k][0]], blocked, cfg)} for k in cfg.order if held.get(k)]
