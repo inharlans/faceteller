@@ -12,8 +12,8 @@ export const conditionText = (requirement: string[]) => requirement.map(c => c.s
 export function cutText(m: ReportMeasure): string {
   const c = m.cuts, k = m.cut_classes;
   if (!c || !k) return '';
-  if (c.length === 2 && k.length === 3) return `${withUnit(c[0], m.unit)} 미만 ${k[0]} · ${withUnit(c[1], m.unit)} 이상 ${k[2]} · 그 사이 ${k[1]}`;
-  if (c.length === 1 && k.length === 2) return `${withUnit(c[0], m.unit)} 이상 ${k[1]} · 미만 ${k[0]}`;
+  if (c.length === 2 && k.length === 3) return `${withUnit(c[0], m.unit)} 미만 ${k[0]}, ${withUnit(c[1], m.unit)} 이상 ${k[2]}, 그 사이 ${k[1]}`;
+  if (c.length === 1 && k.length === 2) return `${withUnit(c[0], m.unit)} 이상 ${k[1]}, 미만 ${k[0]}`;
   return '';
 }
 /** "Page:Gujin Tushu Jicheng, Volume 473 (1700-1725).djvu/29" -> "고금도서집성 스캔본 473책 29쪽"; other forms are shown as they are. */

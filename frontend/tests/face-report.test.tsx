@@ -61,15 +61,15 @@ describe('report sheet', () => {
   });
   it('names the source of the representative passage and counts the other passages of the condition', () => {
     const p = {...passage('X', '좋음', .9), source_detail: {title_ko: '합성서', section: '合成節'}};
-    expect(sourceText(p)).toBe('합성서 · 合成節');
-    expect(sourceText({...p, entry_count: 1})).toBe('합성서 · 合成節');
-    expect(sourceText({...p, entry_count: 13})).toBe('합성서 · 合成節 외 12건');
+    expect(sourceText(p)).toBe('합성서(合成節)');
+    expect(sourceText({...p, entry_count: 1})).toBe('합성서(合成節)');
+    expect(sourceText({...p, entry_count: 13})).toBe('합성서(合成節) 외 12건');
     expect(sourceText({...passage('Y', '좋음', .9), source: null, entry_count: 2})).toBe('미상 외 1건');
   });
   it('spells the measurement out: value, class, what was measured and the cuts, or the classifier probabilities', () => {
     const r = report(); r.judgements.F10.measure = {label: '합성 높이', value: .205, unit: '비율', cuts: [.16, .19], cut_classes: ['낮음', '보통', '높음']};
-    expect(measureRows(passage('Y', '좋음', .8, 'F10', '높음'), r.judgements)).toEqual([{name: '코 높이', value: '0.205', cls: '높음', basis: '합성 높이 (경계: 0.160 미만 낮음 · 0.190 이상 높음 · 그 사이 보통)'}]);
-    expect(measureRows(passage('X', '좋음', .9), r.judgements)).toEqual([{name: '눈썹 휨', value: '', cls: '일자', basis: '분류 확률 일자 0.90 · 곡선 0.10'}]);
+    expect(measureRows(passage('Y', '좋음', .8, 'F10', '높음'), r.judgements)).toEqual([{name: '코 높이', value: '0.205', cls: '높음', basis: '합성 높이 (경계: 0.160 미만 낮음, 0.190 이상 높음, 그 사이 보통)'}]);
+    expect(measureRows(passage('X', '좋음', .9), r.judgements)).toEqual([{name: '눈썹 휨', value: '', cls: '일자', basis: '분류 확률 일자 0.90, 곡선 0.10'}]);
   });
   const box = (region: string, length: number): Callout => ({region, label: region, tone: '좋음', text: '가'.repeat(length)});
   const columns = (placed: ReturnType<typeof placeCallouts>['placed']) => (['L', 'R'] as const).map(side => placed.filter(p => p.side === side));
@@ -101,7 +101,7 @@ describe('report sheet', () => {
   });
   it('shows the sheet for a server report and keeps the research tables below it', () => {
     const html = renderToStaticMarkup(<Results result={validateResult({status: 'COMPLETE', items: [], passages: [], research_report: report()})} onPreview={() => {}} onReset={() => {}}/>);
-    for (const text of ['FaceTeller 분석 리포트', '합성 한줄평', '合成S-2', '연구용 상세 결과']) expect(html).toContain(text);
+    for (const text of ['페이스텔러 분석 리포트', '합성 한줄평', '合成S-2', '연구용 상세 결과']) expect(html).toContain(text);
     expect(html.indexOf('fr-sheet')).toBeLessThan(html.indexOf('report-title'));
   });
 });

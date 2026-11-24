@@ -67,7 +67,8 @@ export function topPassages(report: ResearchReport): ReportPassage[] {
 /** Where the shown passage stands, and how many more passages of the same condition are not shown: the sheet carries
  *  the representative one only (2026-11-21); the others are listed in the research tables on screen. */
 export function sourceText(p: ReportPassage): string {
-  const where = [p.source_detail?.title_ko || p.source, p.source_detail?.section].filter(Boolean).join(' · ') || '미상', more = (p.entry_count ?? 1) - 1;
+  const book = p.source_detail?.title_ko || p.source || '미상', section = p.source_detail?.section, more = (p.entry_count ?? 1) - 1;
+  const where = section ? `${book}(${section})` : book;
   return more > 0 ? `${where} 외 ${more}건` : where;
 }
 /** The numbers behind a passage in one line: the measured value of each feature it uses, or the CNN probability of its class. */
@@ -76,7 +77,7 @@ export function detailText(p: ReportPassage, judgements: Record<string, ReportJu
     const j = judgements[k], cls = p.features[k].class; if (!j) return '';
     if (j.measure && typeof j.measure.value === 'number') return `${j.name} ${withUnit(j.measure.value, j.measure.unit)}`;
     const pr = j.probabilities?.[cls]; return typeof pr === 'number' ? `${j.name} ${cls} ${two(pr)}` : `${j.name} ${cls}`;
-  }).filter(Boolean).join(' · ');
+  }).filter(Boolean).join(', ');
 }
 /** The first of CHOICES at which the cards fit, with a millimetre to spare for the printer's own line breaks; null when
  *  none does. In a single column the first choice at which every card stays within its own row is taken, so the rows
@@ -99,7 +100,7 @@ function measureFit(cards: HTMLElement): {scale: number; detail: boolean} | null
 export function measureRows(p: ReportPassage, judgements: Record<string, ReportJudgement>): {name: string; value: string; cls: string; basis: string}[] {
   return Object.keys(p.features).flatMap(k => {
     const j = judgements[k], m = j?.measure; if (!j) return [];
-    const basis = m ? `${m.label}${cutText(m) ? ` (경계: ${cutText(m)})` : ''}` : j.probabilities ? `분류 확률 ${Object.entries(j.probabilities).map(([c, v]) => `${c} ${two(v)}`).join(' · ')}` : '';
+    const basis = m ? `${m.label}${cutText(m) ? ` (경계: ${cutText(m)})` : ''}` : j.probabilities ? `분류 확률 ${Object.entries(j.probabilities).map(([c, v]) => `${c} ${two(v)}`).join(', ')}` : '';
     return [{name: j.name, value: m && typeof m.value === 'number' ? withUnit(m.value, m.unit) : '', cls: p.features[k].class, basis}];
   });
 }
@@ -181,8 +182,8 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
   return <div className="fr-sheet"><div className="fr-page">
     <header className="fr-head">
       <p className="fr-eyebrow">얼굴 형태와 옛 관상서의 기록</p>
-      <h1 id={titleId}>FaceTeller 분석 리포트</h1>
-      <p className="fr-motto"><i/><span>形 · 文</span><i/></p>
+      <h1 id={titleId}>페이스텔러 분석 리포트</h1>
+      <p className="fr-motto"><i/><span>形</span><span>文</span><i/></p>
       <span className="fr-seal" aria-hidden="true">觀相</span>
     </header>
     <section className="fr-face" aria-label="부위별 풀이" ref={zone} style={{'--fr-bk': boxes.scale} as CSSProperties}>
@@ -200,7 +201,7 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
     </section>
     {report.summary?.trim() && <section className="fr-summary" aria-label="한줄평"><span>한줄평</span><p>{report.summary}</p></section>}
     <section className="fr-lit" aria-label="문헌 기록">
-      <h2><span>옛 책에는 이렇게 적혀 있습니다</span><small>원문 · 직역 · 출처 · 신뢰도 · 측정값</small>{passages.length < report.all_matching.length && <small className="fr-count">조건이 맞는 기록 {report.all_matching.length}개 중 신뢰도 높은 {passages.length}개</small>}</h2>
+      <h2><span>옛 책에는 이렇게 적혀 있습니다</span><small>원문, 직역, 출처, 신뢰도, 측정값</small>{passages.length < report.all_matching.length && <small className="fr-count">조건이 맞는 기록 {report.all_matching.length}개 중 신뢰도 높은 {passages.length}개</small>}</h2>
       {passages.length ? <div className="fr-cards" data-cols={columns.length} data-detail={fit.detail ? 'full' : 'short'} style={{'--fr-k': fit.scale} as CSSProperties} ref={cards}>{columns.map((column, c) => <div key={c} className="fr-col">
         {column.map((p, i) => {const detail = detailText(p, report.judgements), where = sourceText(p);
           return <article key={p.representative} className="fr-card" data-valence={VALENCE[p.valence] || 'neutral'}>
@@ -215,7 +216,7 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
         {columns.length === 1 && Array.from({length: WIDE_ROWS - column.length}, (_, i) => <div key={i} className="fr-slot" aria-hidden="true"/>)}
       </div>)}</div> : <p className="fr-none">조건이 맞는 문헌 기록이 없습니다.</p>}
     </section>
-    <footer className="fr-foot"><p>{notice || NOTICE} 신뢰도는 판정이 경계에서 얼마나 떨어져 있는지를 나타내며 정답 확률이 아닙니다.</p><span>FaceTeller</span></footer>
+    <footer className="fr-foot"><p>{notice || NOTICE} 신뢰도는 판정이 경계에서 얼마나 떨어져 있는지를 나타내며 정답 확률이 아닙니다.</p><span>페이스텔러</span></footer>
   </div></div>;
 }
 

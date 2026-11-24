@@ -2,7 +2,7 @@ export const DIRECTIONS = ['front', 'left_oblique', 'right_oblique'] as const;
 export type Direction = typeof DIRECTIONS[number];
 export const DIRECTION_LABELS: Record<Direction, string> = {front: '정면', left_oblique: '좌측 사선', right_oblique: '우측 사선'};
 export const STAGES = ['얼굴 정렬', '부위 추출', '형태 분류', '깊이 분석', '문헌 선정', '총평 작성'];
-export const NOTICE = '전통 문헌 조회 결과이며 개인의 성격·지능·건강·운명을 판정하거나 예측하지 않습니다.';
+export const NOTICE = '전통 문헌 조회 결과이며 개인의 성격, 지능, 건강, 운명을 판정하거나 예측하지 않습니다.';
 export type InputMode = 'camera' | 'upload';
 export type InputSet = Record<Direction, Blob>;
 export interface Item {item_id: string; region: string; status: 'CONFIRMED' | 'HELD'; kind: 'classification' | 'depth'; label_id: string | number | null; label_name: string | null; confidence: number | null; measurement_score?: number | null; measurement: {indicator?: string; value?: number; ratio?: number; unit?: string} | null; basis: string; hold_reasons: string[]}

@@ -54,10 +54,10 @@ describe('temporary research report view', () => {
 
   it('shows what was measured: value with unit, cuts, parts, CNN probabilities and the reference measure', () => {
     const html = render(result(report()));
-    for (const text of ['합성 길이 비율', '경계: 0.350 미만 짧음 · 0.380 이상 김 · 그 사이 보통', '합성 구성값 <b>12.3°</b>', '일자 0.91 · 곡선 0.09', '참고 측정(판정에는 쓰지 않음): 합성 휨 정도 <b>0.042</b>', '합성 꺾임 각도 <b>7.5°</b>']) expect(html).toContain(text);
+    for (const text of ['합성 길이 비율', '경계: 0.350 미만 짧음, 0.380 이상 김, 그 사이 보통', '합성 구성값 <b>12.3°</b>', '일자 0.91 · 곡선 0.09', '참고 측정(판정에는 쓰지 않음): 합성 휨 정도 <b>0.042</b>', '합성 꺾임 각도 <b>7.5°</b>']) expect(html).toContain(text);
     expect(html).toContain('<td class="num">0.371</td>');
     expect(withUnit(102.18, '도')).toBe('102.2°'); expect(withUnit(-0.8633, '점수')).toBe('-0.86'); expect(withUnit(null, '비율')).toBe('–');
-    expect(cutText({label: 'x', value: 1, unit: '점수', cuts: [.99], cut_classes: ['보통', '높음']})).toBe('0.99 이상 높음 · 미만 보통');
+    expect(cutText({label: 'x', value: 1, unit: '점수', cuts: [.99], cut_classes: ['보통', '높음']})).toBe('0.99 이상 높음, 미만 보통');
   });
 
   it('lists the matching passages that were not selected without repeating the selected ones', () => {
@@ -94,7 +94,7 @@ describe('temporary research report view', () => {
     const r = report(); r.plan_C_selected = [passage('S-9', ['F09 코 길이:보통'], '좋음', .81, 'F09', '보통'), r.plan_C_selected[0]];
     const html = render(result(r)), card = (id: string) => {const a = html.indexOf(`합성 번역 ${id}`); return html.slice(html.lastIndexOf('<article', a), a);};
     expect(card('S-9')).toContain('<b>코 길이</b> <span class="report-number">0.371</span> <span>→ 보통</span> <span class="report-g">신뢰도 0.81</span>');
-    for (const text of ['합성 길이 비율', '경계: 0.350 미만 짧음 · 0.380 이상 김 · 그 사이 보통', '합성 구성값 <b>12.3°</b>']) expect(card('S-9')).toContain(text);
+    for (const text of ['합성 길이 비율', '경계: 0.350 미만 짧음, 0.380 이상 김, 그 사이 보통', '합성 구성값 <b>12.3°</b>']) expect(card('S-9')).toContain(text);
     expect(card('S-1')).toContain('<b>눈썹 휨</b>  <span>→ 일자</span>'); expect(card('S-1')).toContain('일자 0.91 · 곡선 0.09'); expect(card('S-1')).toContain('합성 꺾임 각도 <b>7.5°</b>');
   });
 

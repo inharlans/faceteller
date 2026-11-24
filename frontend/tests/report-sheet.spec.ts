@@ -26,7 +26,7 @@ async function analyse(page: Page, r: ResearchReport) {
   await page.getByRole('button', {name: '이미지 파일 업로드', exact: true}).click();
   const data = await page.evaluate(() => {const c = document.createElement('canvas'); c.width = 640; c.height = 480; const x = c.getContext('2d')!; x.fillStyle = '#adb9c7'; x.fillRect(0, 0, 640, 480); return c.toDataURL('image/png').split(',')[1];});
   for (const d of ['front', 'left_oblique', 'right_oblique']) await page.locator('#file-' + d).setInputFiles({name: 'synthetic-solid.png', mimeType: 'image/png', buffer: Buffer.from(data, 'base64')});
-  await expect(page.getByRole('heading', {name: 'FaceTeller 분석 리포트'})).toBeVisible();
+  await expect(page.getByRole('heading', {name: '페이스텔러 분석 리포트'})).toBeVisible();
   await page.evaluate(() => document.fonts.ready); await page.waitForTimeout(200);
 }
 /** What must hold for a sheet (on screen or the printer's copy): nothing cut off, nothing outside its area, no box on another. */
@@ -62,7 +62,7 @@ test('server report becomes the one-page sheet: region sentences, summary, passa
   const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs'), doc = await pdfjs.getDocument({data: new Uint8Array(readFileSync(pdf))}).promise;
   expect(doc.numPages).toBe(1);
   const text = (await (await doc.getPage(1)).getTextContent()).items.map(i => 'str' in i ? i.str : '').join('').replace(/\s/g, '');
-  for (const part of ['FaceTeller분석리포트', '합성한줄평입니다.', '合成原文6。', '합성번역6번문장이다.']) expect(text).toContain(part);
+  for (const part of ['페이스텔러분석리포트', '합성한줄평입니다.', '合成原文6。', '합성번역6번문장이다.']) expect(text).toContain(part);
   expect(text).not.toContain('연구용상세결과');  // the paper carries the sheet only
   await doc.loadingTask.destroy();
   expect(errors).toEqual([]);

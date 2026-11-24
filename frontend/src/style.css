@@ -273,3 +273,32 @@
 .progress-list .done .gauge b{background:var(--gold,var(--good))}
 .progress-list li small{font-variant-numeric:tabular-nums;text-align:right;font-size:12px;color:var(--muted)}
 .progress-list .active small{color:var(--seal);font-weight:600}
+/* Report sheet review (2026-11-24, team feedback): no colour stripe or coloured good/bad pills on the passage cards
+   (the valence stays as plain text); text inside badges, circles and the seal is centred on its glyphs; the classical
+   text uses the Korean serif first so "，" and "。" sit at the lower left as in Korean typesetting (Noto Serif TC
+   centres them), with the TC face kept for characters the Korean font lacks. */
+.fr-card,.fr-card[data-valence]{border-left:calc(var(--mm)*.2) solid var(--fr-line)}
+.fr-card-head em,.fr-card[data-valence] em{background:none;color:var(--fr-ink2);padding:0;font-weight:500;font-size:calc(var(--u)*2.2);line-height:1.4}
+.fr-card-head{align-items:center}
+.fr-card-head b,.fr-conf{line-height:1.4}
+.fr-rank,.fr-box h2 span,.fr-summary span,.fr-seal{display:inline-flex;align-items:center;justify-content:center;text-box:trim-both cap alphabetic;line-height:1}
+/* The sheet is laid out at four times its size and scaled back down. Chrome places a line of text on whole CSS pixels,
+   and at the sheet's real size one pixel is a quarter of a millimetre: a digit in its 3.6 mm circle or a label in its
+   badge landed up to 4% off centre, differently in each card, on screen and in the PDF. At 4x the rounding is too
+   small to see. The paddings below then centre the ink of the glyphs (measured in the PDF and on screen by drawing
+   each badge with and without its text; all within 1% of the middle). The printer's copy needs slightly different
+   values than the screen. */
+.fr-page{inset:auto;left:0;top:0;width:400%;height:400%;transform:scale(.25);transform-origin:0 0;--mm:calc(400cqw / 210)}
+.fr-rank{box-sizing:border-box;padding:0 0 calc(var(--u)*.05)}
+.fr-box h2 span{padding:calc(var(--b)*.7) calc(var(--b)*1.5) calc(var(--b)*.8)}
+.fr-summary span{padding:calc(var(--mm)*.62) calc(var(--mm)*1.4) calc(var(--mm)*.88)}
+.fr-seal{padding:calc(var(--mm)*1.72) calc(var(--mm)*1.5) calc(var(--mm)*1.28)}
+.fr-print .fr-rank{padding:0 0 calc(var(--u)*.22)}
+.fr-print .fr-box h2 span{padding:calc(var(--b)*.605) calc(var(--b)*1.5) calc(var(--b)*.895)}
+.fr-print .fr-seal{padding:calc(var(--mm)*1.63) calc(var(--mm)*1.5) calc(var(--mm)*1.37)}
+.fr-motto span+span{margin-left:calc(var(--mm)*-1.6)}
+.fr-orig{font-family:"Noto Serif KR","Noto Serif TC",serif}
+.fr-head h1{font-family:"Noto Serif KR",serif;font-weight:700;letter-spacing:-.01em}
+/* Full-width CJK punctuation (「」『』〈〉《》，。：) takes half an em on the sheet (2026-11-24): set at full width it left
+   a blank half em beside each mark, which reads as broken alignment on paper and in the PDF. */
+.fr-page .fr-orig,.fr-page .fr-trans,.fr-page .fr-box p,.fr-page .fr-meta,.fr-page .fr-summary p{font-feature-settings:"halt";text-spacing-trim:trim-start}
