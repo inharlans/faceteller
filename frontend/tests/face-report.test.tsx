@@ -1,7 +1,7 @@
 import {describe, expect, it} from 'vitest';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {Results} from '../src/Results';
-import {DEFAULT_ANCHORS, detailText, estimateHeight, measureRows, sourceText, pickCallouts, placeCallouts, splitColumns, topPassages, type Callout, type RegionTable} from '../src/FaceReport';
+import {DEFAULT_ANCHORS, detailText, estimateHeight, measureRows, sheetTitle, sourceText, pickCallouts, placeCallouts, splitColumns, topPassages, type Callout, type RegionTable} from '../src/FaceReport';
 import TABLE from '../src/regionComments.json';
 import {validateResult} from '../src/api';
 import type {ReportJudgement, ReportPassage, ResearchReport} from '../src/types';
@@ -58,6 +58,14 @@ describe('report sheet', () => {
     const r = report();
     expect(detailText(passage('X', '좋음', .9), r.judgements)).toBe('눈썹 휨 일자 0.90');
     expect(detailText(passage('Y', '좋음', .8, 'F10', '높음'), r.judgements)).toBe('코 높이 0.205');
+  });
+  it('titles a card: one feature in full, several in the short form joined with a middle dot', () => {
+    expect(sheetTitle(['F17 턱 폭:좁음'])).toBe('턱 폭: 좁음');
+    expect(sheetTitle(['F04 눈썹 꼬리 길이:긴 편+F06 눈썹-눈 간격:넓음'])).toBe('눈썹 꼬리 긴 편 · 눈썹-눈 간격 넓음');
+    expect(sheetTitle(['F05 눈썹 휨:일자', 'F07 미간:넓음', 'F12 입 폭:넓은 편'])).toBe('눈썹 일자 · 미간 넓음 · 입 폭 넓은 편');
+    expect(sheetTitle(['F01 눈 크기:큰 편', 'F02 눈 가늘기:가늘고 긴 편'])).toBe('눈 큰 편 · 눈 가늘고 긴 편');
+    expect(sheetTitle(['F10 코 높이:높음', 'F11 코끝 둥근 정도:둥근 편'])).toBe('코 높음 · 코끝 둥근 편');
+    expect(sheetTitle(['F09 코 길이:보통', 'F03 눈꼬리 기울기:수평'])).toBe('코 길이 보통 · 눈꼬리 기울기 수평');   // a middle class keeps the measure's name
   });
   it('names the source of the representative passage and counts the other passages of the condition', () => {
     const p = {...passage('X', '좋음', .9), source_detail: {title_ko: '합성서', section: '合成節'}};

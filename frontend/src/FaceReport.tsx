@@ -31,9 +31,11 @@ type Side = 'L' | 'R';
 export type Anchors = Record<string, Record<Side, Point>>;
 /** Where each region's arrow lands, as fractions of the portrait (x to the right, y down), for a box on the left and
  *  for one on the right. These fit the placeholder drawing; a real portrait needs its own points (face landmarks of
- *  the picture that is shown). */
-export const DEFAULT_ANCHORS: Anchors = {눈썹: {L: [.373, .368], R: [.627, .368]}, 눈: {L: [.383, .42], R: [.617, .42]}, 미간: {L: [.5, .378], R: [.5, .378]}, 코: {L: [.478, .512], R: [.522, .512]},
-  광대: {L: [.3, .512], R: [.7, .512]}, 인중: {L: [.5, .557], R: [.5, .557]}, 입: {L: [.447, .598], R: [.553, .598]}, 얼굴형: {L: [.335, .632], R: [.665, .632]}};
+ *  the picture that is shown). The lines carry no dot, so each point sits on the feature itself (set by eye on the
+ *  drawing, 2026-11-28): the middle of the brow, the white of the eye on the box's side, between the brows, the wing of
+ *  the nose, the cheek under the eye, between the two lines of the philtrum, the lip, the lower part of the chin. */
+export const DEFAULT_ANCHORS: Anchors = {눈썹: {L: [.38, .367], R: [.62, .367]}, 눈: {L: [.35, .425], R: [.65, .425]}, 미간: {L: [.5, .375], R: [.5, .375]}, 코: {L: [.478, .512], R: [.522, .512]},
+  광대: {L: [.333, .505], R: [.667, .505]}, 인중: {L: [.5, .5525], R: [.5, .5525]}, 입: {L: [.453, .6], R: [.547, .6]}, 얼굴형: {L: [.5, .66], R: [.5, .66]}};
 // The regions that can carry a callout, with the column each box goes to when both columns have room.
 const REGIONS: {key: string; label: string; side: Side}[] = [
   {key: '눈썹', label: '눈썹', side: 'L'}, {key: '눈', label: '눈', side: 'R'}, {key: '미간', label: '미간', side: 'R'}, {key: '코', label: '코', side: 'R'},
@@ -71,6 +73,20 @@ export function sourceText(p: ReportPassage): string {
   const where = section ? `${book}(${section})` : book;
   return more > 0 ? `${where} 외 ${more}건` : where;
 }
+// Card titles with two or more features (2026-11-28): the title shares one line with the reading and the source, and the
+// full names ("눈썹 꼬리 길이: 긴 편 그리고 눈썹-눈 간격: 넓음") do not fit beside the longer sources. Each feature is then
+// named by its part alone where the class says the rest ("눈썹 꼬리 긴 편"), and the features are joined with a middle
+// dot. The full names stay in the card's measurement lines and in the research tables. A middle class (보통, 수평) says
+// nothing without the measure, so it keeps the full name.
+const SHORT_NAMES: Record<string, string> = {'눈 크기': '눈', '눈 가늘기': '눈', '눈꼬리 기울기': '눈꼬리', '눈썹 꼬리 길이': '눈썹 꼬리', '눈썹 휨': '눈썹', '눈썹 숱': '눈썹', '코 높이': '코', '코끝 둥근 정도': '코끝',
+  '입술 두께': '입술', '인중 길이': '인중', '광대 돌출': '광대', '입 돌출': '입'};
+/** The card's title: one feature as in the research tables ("턱 폭: 좁음"); several in the short form, joined with " · ". */
+export function sheetTitle(requirement: string[]): string {
+  const atoms = requirement.flatMap(c => c.split('+')).map(a => a.replace(/^F\d+[a-z]?\s+/, ''));
+  if (atoms.length < 2 || requirement.some(c => c.includes(' 또는 '))) return conditionText(requirement);
+  return atoms.map(a => {const i = a.indexOf(':'), name = i < 0 ? a : a.slice(0, i), cls = i < 0 ? '' : a.slice(i + 1);
+    return `${cls === '보통' || cls === '수평' ? name : SHORT_NAMES[name] ?? name} ${cls}`.trim();}).join(' · ');
+}
 /** The numbers behind a passage in one line: the measured value of each feature it uses, or the CNN probability of its class. */
 export function detailText(p: ReportPassage, judgements: Record<string, ReportJudgement>): string {
   return Object.keys(p.features).map(k => {
@@ -89,7 +105,9 @@ function measureFit(cards: HTMLElement): {scale: number; detail: boolean} | null
     return items.reduce((n, c) => n + c.offsetHeight, 0) + gap * (rows - 1) <= col.clientHeight - spare;});
   const even = () => [...cards.children].every(col => {const {gap, items} = parts(col), row = (col.clientHeight - gap * (WIDE_ROWS - 1)) / WIDE_ROWS;
     return items.every(c => c.offsetHeight <= row - spare / 4);});
-  const first = (test: () => boolean) => CHOICES.find(c => {cards.style.setProperty('--fr-k', String(c.scale)); cards.dataset.detail = c.detail ? 'full' : 'short'; return test();}) ?? null;
+  // The title row carries the title, the reading and the source on one line: a size at which a title or a source does not fit is not taken.
+  const oneLine = () => [...cards.querySelectorAll<HTMLElement>('.fr-card-head')].every(h => h.scrollWidth <= h.clientWidth + 1 && [...h.querySelectorAll<HTMLElement>('.fr-src')].every(e => e.scrollWidth <= e.clientWidth + 1));
+  const first = (test: () => boolean) => CHOICES.find(c => {cards.style.setProperty('--fr-k', String(c.scale)); cards.dataset.detail = c.detail ? 'full' : 'short'; return test() && oneLine();}) ?? null;
   cards.classList.add('fr-measure');
   const found = (cards.dataset.cols === '1' ? first(even) : null) ?? first(fits);
   cards.classList.remove('fr-measure'); cards.style.setProperty('--fr-k', scale); cards.dataset.detail = detail;
@@ -183,7 +201,7 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
     <header className="fr-head">
       <p className="fr-eyebrow">얼굴 형태와 옛 관상서의 기록</p>
       <h1 id={titleId}>페이스텔러 분석 리포트</h1>
-      <p className="fr-motto"><i/><span>形</span><span>文</span><i/></p>
+      <p className="fr-motto"><i/><span>形</span><span className="fr-mid">·</span><span>文</span><i/></p>
       <span className="fr-seal" aria-hidden="true">觀相</span>
     </header>
     <section className="fr-face" aria-label="부위별 풀이" ref={zone} style={{'--fr-bk': boxes.scale} as CSSProperties}>
@@ -191,8 +209,9 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
         {portraitUrl ? <img ref={img} src={portraitUrl} alt="AI가 그린 캐릭터 그림" onLoad={e => setPicture({url: portraitUrl, w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight})}/> : <PlaceholderPortrait note={portraitNote}/>}
       </div>
       <svg className="fr-lines" viewBox={`0 0 ${ZONE.w} ${ZONE.h}`} preserveAspectRatio="none" aria-hidden="true">
+        {/* a line from each box to the point of its feature; no dot at its end (2026-11-28), so the point itself has to sit on the feature */}
         {placed.map(p => {const x = edge(p), y = p.top + 3.5 * boxes.scale, bend = x + (p.side === 'L' ? 3.5 : -3.5);
-          return <g key={p.region}><path d={`M${x} ${y}H${bend}L${p.at[0]} ${p.at[1]}`}/><circle cx={p.at[0]} cy={p.at[1]} r="1.05"/></g>;})}
+          return <path key={p.region} d={`M${x} ${y}H${bend}L${p.at[0]} ${p.at[1]}`}/>;})}
       </svg>
       {placed.map(p => <article key={p.region} className="fr-box" data-region={p.region} data-tone={p.tone} style={{top: mm(p.top), width: mm(BOX_W), [p.side === 'L' ? 'left' : 'right']: 0}}>
         <h2><span>{p.label}</span></h2><p>{p.text}</p>
@@ -201,22 +220,24 @@ function Sheet({report, notice, portraitUrl, portraitNote, anchors, titleId, fit
     </section>
     {report.summary?.trim() && <section className="fr-summary" aria-label="한줄평"><span>한줄평</span><p>{report.summary}</p></section>}
     <section className="fr-lit" aria-label="문헌 기록">
-      <h2><span>옛 책에는 이렇게 적혀 있습니다</span><small>원문, 직역, 출처, 신뢰도, 측정값</small>{passages.length < report.all_matching.length && <small className="fr-count">조건이 맞는 기록 {report.all_matching.length}개 중 신뢰도 높은 {passages.length}개</small>}</h2>
+      <h2><span>옛 책에는 이렇게 적혀 있습니다</span><small>원문, 직역, 출처, 측정값</small>{passages.length < report.all_matching.length && <small className="fr-count">조건이 맞는 기록 {report.all_matching.length}개 중 신뢰도 높은 {passages.length}개</small>}</h2>
       {passages.length ? <div className="fr-cards" data-cols={columns.length} data-detail={fit.detail ? 'full' : 'short'} style={{'--fr-k': fit.scale} as CSSProperties} ref={cards}>{columns.map((column, c) => <div key={c} className="fr-col">
         {column.map((p, i) => {const detail = detailText(p, report.judgements), where = sourceText(p);
           return <article key={p.representative} className="fr-card" data-valence={VALENCE[p.valence] || 'neutral'}>
-            <div className="fr-main">
-              <div className="fr-card-head"><span className="fr-rank">{c * columns[0].length + i + 1}</span><b>{conditionText(p.requirement)}</b><em>{p.valence}</em><span className="fr-conf">신뢰도 {two(p.G)}</span></div>
-              {p.original_text && <p className="fr-orig" lang="zh">{p.original_text}</p>}
-              <p className="fr-trans">{p.translation || '번역 없음'}</p>
-              <p className="fr-meta"><b>출처</b>{where}{detail && <span className="fr-short"><b>측정</b>{detail}</span>}</p>
+            <div className="fr-card-head"><span className="fr-rank">{c * columns[0].length + i + 1}</span><b>{sheetTitle(p.requirement)}</b><em>{p.valence}</em><span className="fr-src"><b>출처</b>{where}</span></div>
+            <div className="fr-body">
+              <div className="fr-main">
+                {p.original_text && <p className="fr-orig" lang="zh">{p.original_text}</p>}
+                <p className="fr-trans">{p.translation || '번역 없음'}</p>
+                {detail && <p className="fr-meta fr-short"><b>측정</b>{detail}</p>}
+              </div>
+              <ul className="fr-measures">{measureRows(p, report.judgements).map(r => <li key={r.name}><b>{r.name}</b>{r.value && <strong>{r.value}</strong>}<i>→ {r.cls}</i>{r.basis && <span>{r.basis}</span>}</li>)}</ul>
             </div>
-            <ul className="fr-measures">{measureRows(p, report.judgements).map(r => <li key={r.name}><b>{r.name}</b>{r.value && <strong>{r.value}</strong>}<i>→ {r.cls}</i>{r.basis && <span>{r.basis}</span>}</li>)}</ul>
           </article>;})}
         {columns.length === 1 && Array.from({length: WIDE_ROWS - column.length}, (_, i) => <div key={i} className="fr-slot" aria-hidden="true"/>)}
       </div>)}</div> : <p className="fr-none">조건이 맞는 문헌 기록이 없습니다.</p>}
     </section>
-    <footer className="fr-foot"><p>{notice || NOTICE} 신뢰도는 판정이 경계에서 얼마나 떨어져 있는지를 나타내며 정답 확률이 아닙니다.</p><span>페이스텔러</span></footer>
+    <footer className="fr-foot"><p>{notice || NOTICE} 신뢰도는 판정이 경계에서 얼마나 떨어져 있는지를 나타내며 정답 확률이 아닙니다.</p><span>FaceTeller</span></footer>
   </div></div>;
 }
 

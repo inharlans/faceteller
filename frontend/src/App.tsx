@@ -1,11 +1,13 @@
-import {useCallback, useEffect, useRef, useState} from 'react';
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {AnalysisError, submitAnalysis} from './api';
 import {captureDirectionLabel} from './capture';
 import {Camera, Upload} from './Inputs';
 import {presetHidden} from './PhotoOverlay';
 import {Printable, Results, type PhotoView} from './Results';
-import {FINISH_MS, PORTRAIT_TIMEOUT_MS, PROGRESS_POLL_MS, PROGRESS_WAIT_MS, STAGE_STEP_MS, drawPercent, newRequestId, portraitAnchors, portraitProgress, requestPortrait, stagePercent, stageStepMs, type DrawProgress, type Portrait} from './portrait';
+import {FINISH_MS, PORTRAIT_TIMEOUT_MS, PROGRESS_POLL_MS, PROGRESS_WAIT_MS, STAGE_STEP_MS, newRequestId, portraitAnchors, portraitProgress, requestPortrait, stageStepMs, type DrawProgress, type Portrait} from './portrait';
 import {DIRECTIONS, NOTICE, STAGES, type AnalysisResult, type InputMode, type InputSet} from './types';
+import {ProgressScreen} from './ProgressScreen';
+import {LOG_DEFAULTS, estimateFraction, logPlan, runFacts, stageView} from './processSteps';
 type Page = 'home'|'camera'|'camera-retry'|'upload'|'review'|'progress'|'results'|'preview';
 // Server analysis is ON for the lab trial (2026-11-16): photos go to POST /api/v1/analysis. Set to false to show the
 // captured photos for an on-screen check instead (the 'review' page), without sending them.
@@ -75,9 +77,15 @@ export default function App() {
   const drawShown=drawF===null?null:Math.max(drawMax.current,drawF); if(drawShown!==null) drawMax.current=drawShown;
   const real=drawShown!==null&&portraitPending, queued=real&&prog?.p.state==='queued';
   const serverStage=analysisDone?STAGES.length:STAGES.indexOf(stage);
-  const paced=!portraitPending?serverStage:real?Math.min(serverStage,STAGES.length-1,Math.floor(drawShown*STAGES.length)):Math.min(serverStage,Math.floor((now-startedAt.current)/stepMs),STAGES.length-1);
+  // The written account (processSteps.ts) and the gauges share one clock: the part of the wait that has passed, from the
+  // image server's own progress or, without it, the time estimate. Every line gets its share of the wait, so each stage
+  // takes as long as it has to tell. Never ahead of the stage the server is at, nor of the answer the figures come from.
+  const facts=useMemo(()=>runFacts(result?.research_report),[result]), plan=useMemo(()=>logPlan(STAGES,facts,LOG_DEFAULTS),[facts]);
+  const cap=analysisDone?1:serverStage<0?-1:Math.min(plan.bounds[serverStage+1],plan.factsFrom)-1e-6;
+  const fraction=Math.min(cap,!portraitPending?1:real?drawShown!:estimateFraction(now-startedAt.current,stepMs*STAGES.length));
+  const view=stageView(plan.bounds,fraction), paced=!portraitPending&&analysisDone?STAGES.length:view.paced;
   const shownStage=queued?'그림 순서를 기다리는 중…':paced>=0&&paced<STAGES.length?STAGES[paced]:stage;
-  const live=STAGES.map((_,i)=>real?drawPercent(i,paced,drawShown,STAGES.length):stagePercent(i,paced,STAGES.length-1,now-startedAt.current,stepMs,portraitPending));
+  const live=paced>=STAGES.length?STAGES.map(()=>100):view.percents;
   // When everything is in, the gauges first run up to 100 over FINISH_MS, then the results are shown.
   useEffect(()=>{if(page!=='progress' || !analysisDone || !result || (portraitPending && now-startedAt.current<PROGRESS_WAIT_MS)) return;
     if(finishAt.current===null){finishAt.current=now;finishBase.current=live;return;}
@@ -97,7 +105,7 @@ export default function App() {
           {page==='camera-retry' && <section className="center"><h1>사진을 다시 촬영해 주세요</h1><p className="lead">이전 사진은 정리했습니다. 정면부터 세 방향을 다시 촬영합니다.</p><div className="actions center"><button className="button" onClick={startCamera}>다시 촬영</button><button className="button ghost" onClick={()=>cameraError('사진 3장을 업로드해 주세요.')}>업로드로 전환</button></div></section>}
           {page==='review' && captured && <section className="center" aria-labelledby="review-title"><p className="eyebrow">촬영 확인</p><h1 id="review-title">사진이 제대로 나왔는지 확인해 주세요</h1><p className="lead">실제로 분석에 쓰일 사진 그대로입니다. 지금은 서버 분석을 하지 않습니다.</p><div className="review-grid">{DIRECTIONS.map(d=><figure key={d} className="review-shot">{capturedUrls[d] && <img src={capturedUrls[d]} alt={`${d==='front'?'정면':captureDirectionLabel(d,'upload')+'을 향한'} 사진`}/>}<figcaption>{d==='front'?'정면':`${captureDirectionLabel(d,'upload')}을 향한 사진`}</figcaption></figure>)}</div><div className="actions center"><button className="button" onClick={captured.mode==='camera'?startCamera:()=>{setCaptured(null);setPage('upload');}}>{captured.mode==='camera'?'다시 촬영':'다시 업로드'}</button><button className="button ghost" onClick={reset}>처음으로</button></div></section>}
           {page==='upload' && <Upload onReady={uploadReady} onBack={reset} onCamera={startCamera}/>}
-          {page==='progress' && <section className="progress-screen center" aria-labelledby="progress-title"><div className="spinner" aria-hidden="true"/><h1 id="progress-title">얼굴 형태와 문헌을 확인하고 있습니다</h1><p role="status" aria-live="polite">{shownStage}</p><ol className="progress-list">{STAGES.map((s,i)=>{const p=percent(i);return <li key={s} className={paced>i?'done':paced===i?'active':''}><span>{paced>i?'✓':i+1}</span><em>{s}</em><i className="gauge" aria-hidden="true"><b style={{width:`${p}%`}}/></i><small>{p}%</small></li>;})}</ol><button className="button ghost" onClick={cancel}>분석 취소</button></section>}
+          {page==='progress' && <ProgressScreen stages={STAGES} paced={paced} percents={STAGES.map((_,i)=>percent(i))} status={shownStage} plan={plan} fraction={finishAt.current===null?fraction:1} elapsed={Math.max(0,now-startedAt.current)} onCancel={cancel}/>}
           {result && page==='results' && <Results result={result} photo={photo} portrait={{url:portrait?.url??null,anchors:portrait?.anchors??null,pending:portraitPending}} onPreview={()=>setPage('preview')} onReset={reset}/>}
           {result && page==='preview' && <div className="preview-heading"><h1>문헌 기록을 한 장에</h1><p className="lead">원문·풀이·출처와 확인한 생김새를 담습니다.</p></div>}
         </main></div><footer className="app-footer">FaceTeller <span>관찰 가능한 형태와 역사적 문헌의 연결</span></footer></div>

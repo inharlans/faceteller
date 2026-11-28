@@ -101,3 +101,24 @@ test('long sentences and long passages are never cut: smaller type first, then f
   await expect(page.locator(`${SCREEN} .fr-card`).first()).toContainText(translation);
   await bothClean(page);
 });
+
+test('the title row of every card is one line: short titles of several features, the reading as a seal, the source at the end', async ({page}) => {
+  // the longest titles of the literature table with their sources (deploy/v1/config/literature_representatives.json)
+  const rows: [string[], string, string, number][] = [[['F04 눈썹 꼬리 길이:긴 편+F06 눈썹-눈 간격:넓음'], '신상전편', '《袁柳莊人象賦》', 1], [['F05 눈썹 휨:일자', 'F07 미간:넓음', 'F12 입 폭:넓은 편'], '유장상법', '十八中貴', 1],
+    [['F04 눈썹 꼬리 길이:긴 편', 'F18 눈썹 숱:짙음'], '신상전편', '《鬼眼先生相法》', 2], [['F04 눈썹 꼬리 길이:긴 편', 'F07 미간:넓음'], '신상전편', '二曰眉為保壽官', 2], [['F02 눈 가늘기:세로로 넓은 편'], '신상전편', '《張行簡人倫大統賦上》', 1],
+    [['F04 눈썹 꼬리 길이:짧은 편'], '신상전편', '二曰眉為保壽官', 12], [['F08 코 폭:좁음', 'F11 코끝 둥근 정도:좁아지는 편'], '신상전편', '《吳心鑑通元賦》', 1], [['F01 눈 크기:큰 편', 'F02 눈 가늘기:가늘고 긴 편'], '신상전편', '《何知訣》', 2]];
+  const r = report(0); r.all_matching = rows.map(([requirement, title_ko, section, entry_count], i) => ({...passage(i, '合成。', '합성 번역.'), requirement, source: title_ko, source_detail: {title_ko, section}, entry_count}));
+  r.plan_C_selected = r.all_matching.slice(0, 5);
+  await analyse(page, r);
+  const heads = page.locator(`${SCREEN} .fr-card-head`);
+  await expect(heads).toHaveCount(8);
+  await expect(heads.first()).toContainText('눈썹 꼬리 긴 편 · 눈썹-눈 간격 넓음'); await expect(heads.first().locator('.fr-src')).toHaveText('출처신상전편(《袁柳莊人象賦》)');
+  await expect(heads.nth(5).locator('.fr-src')).toHaveText('출처신상전편(二曰眉為保壽官) 외 11건'); await expect(page.locator(`${SCREEN} .fr-conf`)).toHaveCount(0);
+  for (const root of [SCREEN, PRINT]) {
+    if (root === PRINT) await page.emulateMedia({media: 'print'});
+    expect(await page.evaluate(root => [...document.querySelectorAll<HTMLElement>(`${root} .fr-card-head`)].map(h => {const b = h.querySelector<HTMLElement>(':scope > b')!, src = h.querySelector<HTMLElement>('.fr-src')!;
+      return h.scrollWidth <= h.clientWidth + 1 && src.scrollWidth <= src.clientWidth + 1 && b.getBoundingClientRect().height < parseFloat(getComputedStyle(b).lineHeight) * 1.3 && src.getBoundingClientRect().left >= h.querySelector('em')!.getBoundingClientRect().right;}), root)).toEqual(Array(8).fill(true));
+  }
+  await page.emulateMedia({media: null});
+  await bothClean(page);
+});

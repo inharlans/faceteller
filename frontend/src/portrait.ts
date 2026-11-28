@@ -80,7 +80,7 @@ export async function requestPortrait(front: Blob, signal?: AbortSignal, request
 type Ids = number[];
 const POINTS: Record<string, {L: Ids; R: Ids}> = {
   눈썹: {L: [105, 107], R: [334, 336]}, 눈: {L: [33, 133], R: [362, 263]}, 미간: {L: [9], R: [9]}, 코: {L: [4, 48], R: [4, 278]},
-  광대: {L: [123], R: [352]}, 인중: {L: [2, 0], R: [2, 0]}, 입: {L: [61], R: [291]}, 얼굴형: {L: [152], R: [152]},   // 턱: the tip of the chin
+  광대: {L: [123], R: [352]}, 인중: {L: [2, 0], R: [2, 0]}, 입: {L: [61], R: [291]}, 얼굴형: {L: [152, 175], R: [152, 175]},   // 턱: the lower part of the chin, just above its tip (the line has no dot, so it ends inside the chin)
 };
 
 let landmarker: Promise<import('@mediapipe/tasks-vision').FaceLandmarker> | undefined;
